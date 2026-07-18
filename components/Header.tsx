@@ -1,87 +1,114 @@
-export default function Header() {
+"use client";
+
+import Link from "next/link";
+import { useState } from "react";
+
+const menuItems = [
+  { label: "홈", href: "/" },
+  { label: "국가자격증", href: "/cert?type=national" },
+  { label: "민간자격증", href: "/cert?type=private" },
+  { label: "비교", href: "/compare" },
+  { label: "랭킹", href: "/rank" },
+  { label: "수험가이드", href: "/guide" },
+];
+
+function SearchIcon() {
   return (
-    <header className="absolute inset-x-0 top-0 z-50">
-      <div className="mx-auto flex h-[84px] max-w-[1280px] items-center justify-between px-8">
+    <svg
+      viewBox="0 0 24 24"
+      className="h-5 w-5 fill-none stroke-current stroke-2"
+      aria-hidden="true"
+    >
+      <circle cx="11" cy="11" r="7" />
+      <path d="m20 20-3.6-3.6" />
+    </svg>
+  );
+}
 
-        {/* Logo */}
-        <a href="/" className="flex items-center gap-3">
-          <img
-            src="/logo.png"
-            alt="자격증 백과"
-            className="h-12 w-12"
-          />
+export default function Header() {
+  const [open, setOpen] = useState(false);
 
-          <div>
-            <h1 className="text-[32px] font-black tracking-[-0.04em] text-white">
-              자격증 백과
-            </h1>
+  return (
+    <header className="sticky top-0 z-50 w-full border-b border-slate-200 bg-white/95 backdrop-blur">
+      <div className="mx-auto flex h-20 max-w-[1200px] items-center justify-between px-5 md:h-24 md:px-6">
+        <Link
+          href="/"
+          aria-label="라북 홈으로 이동"
+          className="flex shrink-0 items-center gap-3"
+          onClick={() => setOpen(false)}
+        >
+          <span className="flex h-12 w-12 items-center justify-center rounded-2xl bg-blue-600 text-xl font-black text-white shadow-sm md:h-14 md:w-14">
+            L
+          </span>
 
-            <p className="mt-1 text-[13px] font-medium text-white/85">
-              대한민국 자격증 정보 플랫폼
-            </p>
-          </div>
-        </a>
+          <span className="leading-none">
+            <strong className="block text-2xl font-black tracking-tight text-slate-950">
+              라북
+            </strong>
+            <span className="mt-1 block text-[11px] font-extrabold tracking-[0.26em] text-blue-600">
+              LABOOK
+            </span>
+          </span>
+        </Link>
 
-        {/* Menu */}
-        <nav className="hidden lg:flex items-center gap-14">
-
-          <a className="text-[17px] font-semibold text-white transition hover:text-blue-300">
-            국가자격증
-          </a>
-
-          <a className="text-[17px] font-semibold text-white transition hover:text-blue-300">
-            민간자격증
-          </a>
-
-          <a className="text-[17px] font-semibold text-white transition hover:text-blue-300">
-            비교
-          </a>
-
-          <a className="text-[17px] font-semibold text-white transition hover:text-blue-300">
-            랭킹
-          </a>
-
-          <a className="text-[17px] font-semibold text-white transition hover:text-blue-300">
-            정보센터
-          </a>
-
+        <nav className="hidden items-center gap-5 lg:flex xl:gap-7" aria-label="주요 메뉴">
+          {menuItems.map((item) => (
+            <Link
+              key={item.href}
+              href={item.href}
+              className="whitespace-nowrap text-[15px] font-bold text-slate-800 transition hover:text-blue-600"
+            >
+              {item.label}
+            </Link>
+          ))}
         </nav>
 
-        {/* Right */}
-        <div className="flex items-center gap-6">
-
-          <button className="text-white transition hover:scale-110">
-            <svg
-              width="28"
-              height="28"
-              fill="none"
-              stroke="currentColor"
-              strokeWidth="2"
-              viewBox="0 0 24 24"
-            >
-              <circle cx="11" cy="11" r="7"/>
-              <path d="M20 20l-3.5-3.5"/>
-            </svg>
-          </button>
-
-          <button className="text-white transition hover:scale-110">
-            <svg
-              width="30"
-              height="30"
-              fill="none"
-              stroke="currentColor"
-              strokeWidth="2"
-              viewBox="0 0 24 24"
-            >
-              <path d="M3 6h18"/>
-              <path d="M3 12h18"/>
-              <path d="M3 18h18"/>
-            </svg>
-          </button>
-
+        <div className="hidden lg:block">
+          <Link
+            href="/search"
+            className="inline-flex min-h-11 items-center justify-center gap-2 rounded-xl bg-blue-600 px-5 text-sm font-black text-white shadow-sm transition hover:bg-blue-700"
+          >
+            <SearchIcon />
+            자격증 검색
+          </Link>
         </div>
 
+        <button
+          type="button"
+          aria-label={open ? "메뉴 닫기" : "메뉴 열기"}
+          aria-expanded={open}
+          onClick={() => setOpen((value) => !value)}
+          className="inline-flex h-11 w-11 items-center justify-center rounded-xl border border-slate-300 text-slate-800 transition hover:border-blue-500 hover:text-blue-600 lg:hidden"
+        >
+          <span className="text-xl leading-none">{open ? "×" : "☰"}</span>
+        </button>
       </div>
+
+      {open ? (
+        <div className="border-t border-slate-200 bg-white px-5 py-4 lg:hidden">
+          <nav className="mx-auto grid max-w-[1200px] gap-2" aria-label="모바일 메뉴">
+            {menuItems.map((item) => (
+              <Link
+                key={item.href}
+                href={item.href}
+                onClick={() => setOpen(false)}
+                className="rounded-xl px-4 py-3 text-base font-bold text-slate-800 transition hover:bg-slate-50 hover:text-blue-600"
+              >
+                {item.label}
+              </Link>
+            ))}
+
+            <Link
+              href="/search"
+              onClick={() => setOpen(false)}
+              className="mt-2 inline-flex min-h-12 items-center justify-center gap-2 rounded-xl bg-blue-600 px-5 text-sm font-black text-white transition hover:bg-blue-700"
+            >
+              <SearchIcon />
+              자격증 검색
+            </Link>
+          </nav>
+        </div>
+      ) : null}
     </header>
   );
 }

@@ -1,0 +1,33 @@
+라북 자격증 정보 사이트 V6.0
+
+검증 결과
+- npm run build 성공
+- TypeScript 검사 성공
+- 정적 페이지 생성 성공
+
+주요 수정 사항
+1. 상세페이지 헤더와 히어로가 문서 흐름에서 정상 연결되도록 정리
+2. CertHero 상단·제목 영역의 과도한 여백 축소
+3. 모바일 히어로 이미지 영역과 핵심정보 카드 간격 조정
+4. 시험 준비 비중 그래프를 별도 표시하지 않고 시험 유형 문구로 통합
+5. 시험 일정·접수 안내와 시험 정보 통합 유지
+6. 상세페이지 각 섹션 간격 정리
+7. Google 웹폰트 빌드 의존성을 제거하고 시스템 글꼴로 변경
+8. page.tsx JSX 오류 정리
+
+변경 파일
+- app/layout.tsx
+- app/globals.css
+- app/cert/[slug]/page.tsx
+- components/cert/CertHero.tsx
+- components/cert/OfficialInfo.tsx (기존 통합 버전 유지)
+
+사용 방법
+1. 기존 프로젝트를 별도 폴더에 백업합니다.
+2. 이 압축을 풉니다.
+3. 프로젝트 폴더에서 npm install을 실행합니다.
+4. npm run dev를 실행합니다.
+5. http://localhost:3000/cert/computer-specialist-1 에서 확인합니다.
+
+참고
+- node_modules, .next, .git 폴더는 용량과 충돌 방지를 위해 압축에서 제외했습니다.
