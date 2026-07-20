@@ -1,0 +1,186 @@
+import fs from "fs";
+import path from "path";
+
+export type CertificateKind = "national" | "private";
+
+export type CertificateCatalogItem = {
+  name: string;
+  shortName?: string;
+  type?: CertificateKind;
+  licenseType?: string;
+  category?: string;
+  relatedTag?: string;
+};
+
+export type RelatedRelation =
+  | string
+  | {
+      slug: string;
+      tag?: string;
+      compareSlug?: string;
+      compareLabel?: string;
+    };
+
+export type ResolvedRelatedItem = {
+  name: string;
+  shortName?: string;
+  slug: string;
+  tag?: string;
+  type?: CertificateKind;
+  licenseType?: string;
+  category?: string;
+  compareSlug?: string;
+  compareLabel?: string;
+  detailReady: boolean;
+  compareReady: boolean;
+};
+
+type CertificateFile = {
+  basic?: {
+    name?: string;
+    shortName?: string;
+    type?: CertificateKind;
+    licenseType?: string;
+    category?: string;
+  };
+  hero?: {
+    title?: string;
+  };
+};
+
+type CertificateCatalog = Record<string, CertificateCatalogItem>;
+type RelatedMap = Record<string, RelatedRelation[]>;
+type ComparisonCatalog = Record<
+  string,
+  {
+    enabled?: boolean;
+    label?: string;
+  }
+>;
+
+const CERTIFICATE_DIRECTORY = path.join(
+  process.cwd(),
+  "data",
+  "certificates"
+);
+
+const CERTIFICATE_CATALOG_FILE = path.join(
+  process.cwd(),
+  "data",
+  "catalog",
+  "certificates.json"
+);
+
+const RELATED_FILE = path.join(
+  process.cwd(),
+  "data",
+  "related",
+  "related-certificates.json"
+);
+
+const COMPARISON_CATALOG_FILE = path.join(
+  process.cwd(),
+  "data",
+  "catalog",
+  "comparisons.json"
+);
+
+function readJsonFile<T>(filePath: string): T | null {
+  if (!fs.existsSync(filePath)) return null;
+
+  try {
+    return JSON.parse(fs.readFileSync(filePath, "utf-8")) as T;
+  } catch (error) {
+    console.error(`JSON 읽기 실패: ${filePath}`, error);
+    return null;
+  }
+}
+
+function normalizeRelation(relation: RelatedRelation) {
+  return typeof relation === "string"
+    ? { slug: relation }
+    : relation;
+}
+
+function getCertificateFile(slug: string): CertificateFile | null {
+  return readJsonFile<CertificateFile>(
+    path.join(CERTIFICATE_DIRECTORY, `${slug}.json`)
+  );
+}
+
+function certificateExists(slug: string): boolean {
+  return fs.existsSync(
+    path.join(CERTIFICATE_DIRECTORY, `${slug}.json`)
+  );
+}
+
+function comparisonIsEnabled(
+  compareSlug: string | undefined,
+  catalog: ComparisonCatalog
+): boolean {
+  if (!compareSlug) return false;
+  return catalog[compareSlug]?.enabled === true;
+}
+
+export function getRelatedCertificates(
+  currentSlug: string
+): ResolvedRelatedItem[] {
+  const relatedMap = readJsonFile<RelatedMap>(RELATED_FILE) ?? {};
+  const certificateCatalog =
+    readJsonFile<CertificateCatalog>(CERTIFICATE_CATALOG_FILE) ?? {};
+  const comparisonCatalog =
+    readJsonFile<ComparisonCatalog>(COMPARISON_CATALOG_FILE) ?? {};
+
+  return (relatedMap[currentSlug] ?? [])
+    .map(normalizeRelation)
+    .map((relation) => {
+      const certificateFile = getCertificateFile(relation.slug);
+      const catalogItem = certificateCatalog[relation.slug];
+
+      const name =
+        certificateFile?.basic?.name ??
+        certificateFile?.hero?.title ??
+        catalogItem?.name;
+
+      if (!name) {
+        console.warn(
+          `관련 자격증 표시정보 없음: ${relation.slug}. ` +
+            "data/catalog/certificates.json에 등록하세요."
+        );
+        return null;
+      }
+
+      return {
+        name,
+        shortName:
+          certificateFile?.basic?.shortName ??
+          catalogItem?.shortName,
+        slug: relation.slug,
+        tag:
+          relation.tag ??
+          catalogItem?.relatedTag ??
+          certificateFile?.basic?.category ??
+          catalogItem?.category,
+        type:
+          certificateFile?.basic?.type ??
+          catalogItem?.type,
+        licenseType:
+          certificateFile?.basic?.licenseType ??
+          catalogItem?.licenseType,
+        category:
+          certificateFile?.basic?.category ??
+          catalogItem?.category,
+        compareSlug: relation.compareSlug,
+        compareLabel: relation.compareLabel,
+        detailReady: certificateExists(relation.slug),
+        compareReady: comparisonIsEnabled(
+          relation.compareSlug,
+          comparisonCatalog
+        ),
+      } satisfies ResolvedRelatedItem;
+    })
+    .filter(
+      (item): item is ResolvedRelatedItem =>
+        item !== null
+    );
+}

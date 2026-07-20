@@ -1,35 +1,19 @@
 import Link from "next/link";
-
-export type RelatedItem =
-  | string
-  | {
-      name: string;
-      slug?: string;
-      tag?: string;
-      compareSlug?: string;
-      compareLabel?: string;
-    };
+import type { ResolvedRelatedItem } from "@/lib/related-certificates";
 
 type RelatedProps = {
-  items: RelatedItem[];
+  items: ResolvedRelatedItem[];
 };
 
-function normalizeItem(item: RelatedItem) {
-  if (typeof item === "string") {
-    return {
-      name: item,
-      slug: undefined,
-      tag: undefined,
-      compareSlug: undefined,
-      compareLabel: undefined,
-    };
-  }
-
-  return item;
+function getTypeLabel(item: ResolvedRelatedItem) {
+  if (item.licenseType) return item.licenseType;
+  if (item.type === "national") return "국가자격";
+  if (item.type === "private") return "민간자격";
+  return undefined;
 }
 
 export default function Related({ items }: RelatedProps) {
-  if (!items?.length) return null;
+  if (!items.length) return null;
 
   return (
     <section className="mt-10 overflow-hidden rounded-3xl border border-slate-200 bg-white shadow-sm md:mt-12">
@@ -39,34 +23,50 @@ export default function Related({ items }: RelatedProps) {
           관련 자격증
         </h2>
         <p className="mt-2 text-sm leading-6 text-slate-600 md:text-base">
-          비슷한 자격증의 상세정보를 확인하거나, 비교페이지가 준비된 경우 차이를 바로 비교할 수 있습니다.
+          상세페이지와 비교페이지가 실제로 준비된 경우에만 버튼이 자동 활성화됩니다.
         </p>
       </div>
 
       <div className="grid gap-4 p-5 sm:grid-cols-2 md:p-8">
-        {items.map((rawItem, index) => {
-          const item = normalizeItem(rawItem);
-          const detailHref = item.slug ? `/cert/${item.slug}` : undefined;
-          const compareHref = item.compareSlug
-            ? `/compare/${item.compareSlug}`
+        {items.map((item, index) => {
+          const typeLabel = getTypeLabel(item);
+          const detailHref = item.detailReady
+            ? `/cert/${item.slug}`
             : undefined;
+          const compareHref =
+            item.compareReady && item.compareSlug
+              ? `/compare/${item.compareSlug}`
+              : undefined;
 
           return (
             <article
-              key={`${item.name}-${index}`}
-              className="flex min-h-[190px] flex-col rounded-2xl border border-slate-200 bg-white p-5 transition hover:-translate-y-0.5 hover:border-slate-300 hover:shadow-md"
+              key={item.slug}
+              className="flex min-h-[210px] flex-col rounded-2xl border border-slate-200 bg-white p-5 transition hover:-translate-y-0.5 hover:border-slate-300 hover:shadow-md"
             >
               <div className="flex items-start justify-between gap-3">
                 <div>
-                  {item.tag ? (
-                    <span className="inline-flex rounded-full bg-blue-50 px-3 py-1 text-xs font-bold text-blue-700">
-                      {item.tag}
-                    </span>
-                  ) : null}
+                  <div className="flex flex-wrap gap-2">
+                    {item.tag ? (
+                      <span className="inline-flex rounded-full bg-blue-50 px-3 py-1 text-xs font-bold text-blue-700">
+                        {item.tag}
+                      </span>
+                    ) : null}
+                    {typeLabel ? (
+                      <span className="inline-flex rounded-full bg-slate-100 px-3 py-1 text-xs font-semibold text-slate-600">
+                        {typeLabel}
+                      </span>
+                    ) : null}
+                  </div>
 
                   <h3 className="mt-3 text-lg font-black leading-7 text-slate-900">
                     {item.name}
                   </h3>
+
+                  {item.category ? (
+                    <p className="mt-1 text-sm text-slate-500">
+                      {item.category}
+                    </p>
+                  ) : null}
                 </div>
 
                 <span

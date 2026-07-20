@@ -1,0 +1,42 @@
+{
+  "computer-specialist-1": {
+    "name": "컴퓨터활용능력 1급",
+    "shortName": "컴활 1급",
+    "type": "national",
+    "licenseType": "국가기술자격",
+    "category": "사무·OA",
+    "relatedTag": "상위 자격증"
+  },
+  "computer-specialist-2": {
+    "name": "컴퓨터활용능력 2급",
+    "shortName": "컴활 2급",
+    "type": "national",
+    "licenseType": "국가기술자격",
+    "category": "사무·OA",
+    "relatedTag": "가장 많이 비교"
+  },
+  "word-processor": {
+    "name": "워드프로세서",
+    "shortName": "워드프로세서",
+    "type": "national",
+    "licenseType": "국가기술자격",
+    "category": "사무·OA",
+    "relatedTag": "사무 기본"
+  },
+  "itq": {
+    "name": "ITQ",
+    "shortName": "ITQ",
+    "type": "private",
+    "licenseType": "국가공인 민간자격",
+    "category": "사무·OA",
+    "relatedTag": "OA 입문"
+  },
+  "mos": {
+    "name": "MOS",
+    "shortName": "MOS",
+    "type": "private",
+    "licenseType": "국제 민간자격",
+    "category": "사무·OA",
+    "relatedTag": "실무 활용"
+  }
+}

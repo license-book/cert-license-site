@@ -1,0 +1,21 @@
+{
+  "computer-specialist-1": [
+    {
+      "slug": "computer-specialist-2",
+      "compareSlug": "computer-specialist-1-vs-2",
+      "compareLabel": "1급과 비교"
+    },
+    "word-processor",
+    "itq",
+    "mos"
+  ],
+  "computer-specialist-2": [
+    {
+      "slug": "computer-specialist-1",
+      "compareSlug": "computer-specialist-1-vs-2",
+      "compareLabel": "1급과 비교"
+    },
+    "word-processor",
+    "itq"
+  ]
+}

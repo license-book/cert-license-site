@@ -20,6 +20,7 @@ import TrustInfo from "@/components/cert/TrustInfo";
 import FinalCTA from "@/components/cert/FinalCTA";
 import DetailToc from "@/components/cert/DetailToc";
 import FadeInSection from "@/components/common/FadeInSection";
+import { getRelatedCertificates } from "@/lib/related-certificates";
 
 type CertData = {
   basic: {
@@ -189,23 +190,11 @@ type CertData = {
     answer: string;
   }[];
 
-  related?: (
-    | string
-    | {
-        name: string;
-        slug?: string;
-        tag?: string;
-        compareSlug?: string;
-        compareLabel?: string;
-      }
-  )[];
-
   seo?: {
     title: string;
     description: string;
     keywords?: string[];
   };
-
 
   trustInfo?: {
     title: string;
@@ -253,13 +242,12 @@ function getCertData(slug: string): CertData | null {
     `${slug}.json`
   );
 
-  if (!fs.existsSync(filePath)) {
-    return null;
-  }
+  if (!fs.existsSync(filePath)) return null;
 
   try {
-    const file = fs.readFileSync(filePath, "utf-8");
-    return JSON.parse(file) as CertData;
+    return JSON.parse(
+      fs.readFileSync(filePath, "utf-8")
+    ) as CertData;
   } catch (error) {
     console.error(`자격증 JSON 읽기 실패: ${slug}`, error);
     return null;
@@ -289,12 +277,10 @@ export default async function CertDetailPage({ params }: PageProps) {
   const { slug } = await params;
   const cert = getCertData(slug);
 
-  if (!cert) {
-    notFound();
-  }
+  if (!cert) notFound();
 
+  const relatedItems = getRelatedCertificates(slug);
   const showStatistics = cert.statistics?.enabled === true;
-
 
   const showCost =
     cert.display?.cost !== false &&
@@ -338,7 +324,7 @@ export default async function CertDetailPage({ params }: PageProps) {
     { id: "faq", label: "FAQ", visible: Boolean(cert.faq?.length) },
     { id: "trust-info", label: "정보 출처", visible: Boolean(cert.trustInfo) },
     { id: "final-cta", label: "다음 단계", visible: Boolean(cert.finalCta) },
-    { id: "related", label: "관련 자격증", visible: Boolean(cert.related?.length) },
+    { id: "related", label: "관련 자격증", visible: relatedItems.length > 0 },
   ]
     .filter((item) => item.visible)
     .map(({ id, label }) => ({ id, label }));
@@ -381,13 +367,13 @@ export default async function CertDetailPage({ params }: PageProps) {
           </section>
         ) : null}
 
-        {showStatistics && (
+        {showStatistics ? (
           <section id="statistics" className="scroll-mt-44 md:scroll-mt-52">
             <FadeInSection delay={100} className="mt-10 md:mt-12">
               <ExamStatistics statistics={cert.statistics} />
             </FadeInSection>
           </section>
-        )}
+        ) : null}
 
         {cert.eligibility ? (
           <section id="eligibility" className="scroll-mt-44 md:scroll-mt-52">
@@ -399,10 +385,7 @@ export default async function CertDetailPage({ params }: PageProps) {
 
         <section id="summary" className="scroll-mt-44 md:scroll-mt-52">
           <FadeInSection delay={160} className="mt-10">
-            <CertSummary
-              title={cert.keyInfo.title}
-              items={cert.keyInfo.items}
-            />
+            <CertSummary title={cert.keyInfo.title} items={cert.keyInfo.items} />
           </FadeInSection>
         </section>
 
@@ -414,13 +397,13 @@ export default async function CertDetailPage({ params }: PageProps) {
           </section>
         ) : null}
 
-        {showCost && (
+        {showCost ? (
           <section id="cost" className="scroll-mt-44 md:scroll-mt-52">
             <FadeInSection delay={200}>
               <CostInfo data={cert.cost} />
             </FadeInSection>
           </section>
-        )}
+        ) : null}
 
         {cert.studyStrategy?.length ? (
           <section id="study-strategy" className="scroll-mt-44 md:scroll-mt-52">
@@ -430,21 +413,21 @@ export default async function CertDetailPage({ params }: PageProps) {
           </section>
         ) : null}
 
-        {showCareer && (
+        {showCareer ? (
           <section id="career" className="scroll-mt-44 md:scroll-mt-52">
             <FadeInSection delay={240}>
               <CareerInfo data={cert.career} />
             </FadeInSection>
           </section>
-        )}
+        ) : null}
 
-        {showAffiliate && (
+        {showAffiliate ? (
           <section id="affiliate" className="scroll-mt-44 md:scroll-mt-52">
             <FadeInSection delay={260}>
               <Affiliate affiliate={cert.affiliate} />
             </FadeInSection>
           </section>
-        )}
+        ) : null}
 
         {cert.faq?.length ? (
           <section id="faq" className="scroll-mt-44 md:scroll-mt-52">
@@ -470,10 +453,10 @@ export default async function CertDetailPage({ params }: PageProps) {
           </section>
         ) : null}
 
-        {cert.related?.length ? (
+        {relatedItems.length ? (
           <section id="related" className="scroll-mt-44 md:scroll-mt-52">
             <FadeInSection delay={300}>
-              <Related items={cert.related} />
+              <Related items={relatedItems} />
             </FadeInSection>
           </section>
         ) : null}
