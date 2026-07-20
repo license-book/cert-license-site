@@ -189,7 +189,16 @@ type CertData = {
     answer: string;
   }[];
 
-  related?: string[];
+  related?: (
+    | string
+    | {
+        name: string;
+        slug?: string;
+        tag?: string;
+        compareSlug?: string;
+        compareLabel?: string;
+      }
+  )[];
 
   seo?: {
     title: string;
