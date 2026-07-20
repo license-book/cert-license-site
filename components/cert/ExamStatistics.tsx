@@ -99,8 +99,8 @@ function LineChart({
   metric: MetricKey;
 }) {
   const width = 1000;
-  const height = 300;
-  const padding = { top: 28, right: 28, bottom: 48, left: 74 };
+  const height = 340;
+  const padding = { top: 32, right: 34, bottom: 64, left: 92 };
 
   const sorted = [...items].sort((a, b) => a.year - b.year);
   const values = sorted.map((item) => item[metric]);
@@ -128,10 +128,10 @@ function LineChart({
   });
 
   return (
-    <div className="w-full overflow-hidden">
+    <div className="w-full overflow-x-auto overflow-y-hidden pb-1">
       <svg
         viewBox={`0 0 ${width} ${height}`}
-        className="block h-auto w-full"
+        className="block h-auto min-w-[720px] w-full sm:min-w-0"
         role="img"
         aria-label={`${metricLabels[metric]} 연도별 추이 그래프`}
       >
@@ -152,7 +152,7 @@ function LineChart({
                 x={padding.left - 12}
                 y={gridY + 4}
                 textAnchor="end"
-                className="fill-slate-400 text-[11px]"
+                className="fill-slate-500 text-[15px] font-semibold sm:text-[16px]"
               >
                 {metric === 'passRate'
                   ? `${gridValue.toFixed(0)}%`
@@ -165,7 +165,7 @@ function LineChart({
         <polyline
           fill="none"
           stroke="currentColor"
-          strokeWidth="4"
+          strokeWidth="5"
           strokeLinecap="round"
           strokeLinejoin="round"
           points={points}
@@ -177,7 +177,7 @@ function LineChart({
             <circle
               cx={x(index)}
               cy={y(item[metric])}
-              r="6"
+              r="8"
               fill="white"
               stroke="currentColor"
               strokeWidth="4"
@@ -187,7 +187,7 @@ function LineChart({
               x={x(index)}
               y={height - 18}
               textAnchor="middle"
-              className="fill-slate-500 text-[12px] font-medium"
+              className="fill-slate-600 text-[15px] font-semibold sm:text-[16px]"
             >
               {item.year}
             </text>
@@ -360,7 +360,7 @@ export default function ExamStatistics({
                         key={key}
                         type="button"
                         onClick={() => setMetric(key)}
-                        className={`rounded-lg px-3 py-2 text-xs font-semibold transition ${
+                        className={`min-h-11 rounded-xl px-4 py-2.5 text-sm font-bold transition sm:px-5 sm:py-3 sm:text-base ${
                           metric === key
                             ? 'bg-blue-600 text-white'
                             : 'border border-slate-200 bg-white text-slate-600 hover:bg-slate-50'
