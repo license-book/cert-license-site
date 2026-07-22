@@ -223,7 +223,76 @@ function validateCertificate(file) {
       validateStringArray(data.certificateIntro.highlights, file, "certificateIntro.highlights");
     }
   }
-  validateStringArray(data.studyStrategy, file, "studyStrategy", data.studyStrategy !== undefined);
+  if (data.studyStrategy !== undefined) {
+    if (Array.isArray(data.studyStrategy)) {
+      validateStringArray(
+        data.studyStrategy,
+        file,
+        "studyStrategy",
+        true
+      );
+    } else if (!isObject(data.studyStrategy)) {
+      addError(
+        file,
+        "studyStrategy는 배열 또는 객체여야 합니다."
+      );
+    } else {
+      requireString(
+        data.studyStrategy,
+        "summary",
+        file,
+        "studyStrategy.summary"
+      );
+
+      requireString(
+        data.studyStrategy,
+        "labookAdvice",
+        file,
+        "studyStrategy.labookAdvice"
+      );
+
+      for (const key of ["written", "practical"]) {
+        const section = requireObject(
+          data.studyStrategy,
+          key,
+          file,
+          `studyStrategy.${key}`
+        );
+
+        if (section) {
+          requireString(
+            section,
+            "title",
+            file,
+            `studyStrategy.${key}.title`
+          );
+
+          validateStringArray(
+            section.items,
+            file,
+            `studyStrategy.${key}.items`,
+            true
+          );
+        }
+      }
+
+      for (const key of [
+        "roadmap",
+        "periods",
+        "tips",
+        "failures",
+        "checklist",
+        "resources",
+      ]) {
+        if (!Array.isArray(data.studyStrategy[key])) {
+          addError(
+            file,
+            `studyStrategy.${key}는 배열이어야 합니다.`
+          );
+        }
+      }
+    }
+  }
   if (data.faq !== undefined) {
     if (!Array.isArray(data.faq)) addError(file, "faq는 배열이어야 합니다.");
     else data.faq.forEach((item, i) => {
