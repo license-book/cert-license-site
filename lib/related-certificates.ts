@@ -157,56 +157,55 @@ export function getRelatedCertificates(
   const comparisonCatalog =
     readJsonFile<ComparisonCatalog>(COMPARISON_CATALOG_FILE) ?? {};
 
-  return (relatedMap[currentSlug] ?? [])
-    .map(normalizeRelation)
-    .map((relation) => {
-      const certificateFile = getCertificateFile(relation.slug);
-      const catalogItem = certificateCatalog[relation.slug];
+  const resolvedItems: ResolvedRelatedItem[] = [];
 
-      const name =
-        certificateFile?.basic?.name ??
-        certificateFile?.hero?.title ??
-        catalogItem?.name;
+  for (const rawRelation of relatedMap[currentSlug] ?? []) {
+    const relation = normalizeRelation(rawRelation);
+    const certificateFile = getCertificateFile(relation.slug);
+    const catalogItem = certificateCatalog[relation.slug];
 
-      if (!name) {
-        console.warn(
-          `관련 자격증 표시정보 없음: ${relation.slug}. ` +
-            "data/catalog/certificates.json에 등록하세요."
-        );
-        return null;
-      }
+    const name =
+      certificateFile?.basic?.name ??
+      certificateFile?.hero?.title ??
+      catalogItem?.name;
 
-      return {
-        name,
-        shortName:
-          certificateFile?.basic?.shortName ??
-          catalogItem?.shortName,
-        slug: relation.slug,
-        tag:
-          relation.tag ??
-          catalogItem?.relatedTag ??
-          certificateFile?.basic?.category ??
-          catalogItem?.category,
-        type:
-          certificateFile?.basic?.type ??
-          catalogItem?.type,
-        licenseType:
-          certificateFile?.basic?.licenseType ??
-          catalogItem?.licenseType,
-        category:
-          certificateFile?.basic?.category ??
-          catalogItem?.category,
-        compareSlug: relation.compareSlug,
-        compareLabel: relation.compareLabel,
-        detailReady: certificateExists(relation.slug),
-        compareReady: comparisonIsEnabled(
-          relation.compareSlug,
-          comparisonCatalog
-        ),
-      } satisfies ResolvedRelatedItem;
-    })
-    .filter(
-      (item): item is ResolvedRelatedItem =>
-        item !== null
-    );
+    if (!name) {
+      console.warn(
+        `관련 자격증 표시정보 없음: ${relation.slug}. ` +
+          "data/catalog/certificates.json에 등록하세요."
+      );
+      continue;
+    }
+
+    resolvedItems.push({
+      name,
+      shortName:
+        certificateFile?.basic?.shortName ??
+        catalogItem?.shortName,
+      slug: relation.slug,
+      tag:
+        relation.tag ??
+        catalogItem?.relatedTag ??
+        certificateFile?.basic?.category ??
+        catalogItem?.category,
+      type:
+        certificateFile?.basic?.type ??
+        catalogItem?.type,
+      licenseType:
+        certificateFile?.basic?.licenseType ??
+        catalogItem?.licenseType,
+      category:
+        certificateFile?.basic?.category ??
+        catalogItem?.category,
+      compareSlug: relation.compareSlug,
+      compareLabel: relation.compareLabel,
+      detailReady: certificateExists(relation.slug),
+      compareReady: comparisonIsEnabled(
+        relation.compareSlug,
+        comparisonCatalog
+      ),
+    });
+  }
+
+  return resolvedItems;
 }
