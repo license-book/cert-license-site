@@ -22,6 +22,20 @@ import DetailToc from "@/components/cert/DetailToc";
 import FadeInSection from "@/components/common/FadeInSection";
 import { getRelatedCertificates } from "@/lib/related-certificates";
 
+type StudyStrategyData = {
+  title?: string;
+  summary: string;
+  written: { title: string; items: string[]; tip?: string };
+  practical: { title: string; items: string[]; tip?: string };
+  roadmap: { step: string; title: string; description?: string }[];
+  periods: { level: string; period: string; description?: string }[];
+  tips: string[];
+  failures: string[];
+  checklist: string[];
+  resources: string[];
+  labookAdvice: string;
+};
+
 type CertData = {
   basic: {
     slug: string;
@@ -148,7 +162,7 @@ type CertData = {
     realisticNote?: string;
   };
 
-  studyStrategy?: string[];
+  studyStrategy?: StudyStrategyData;
 
   career?: {
     title: string;
@@ -318,7 +332,7 @@ export default async function CertDetailPage({ params }: PageProps) {
     { id: "summary", label: "한눈에 보기", visible: true },
     { id: "reality-guide", label: "현실 가이드", visible: Boolean(cert.realityGuide) },
     { id: "cost", label: "응시 비용", visible: showCost },
-    { id: "study-strategy", label: "공부 전략", visible: Boolean(cert.studyStrategy?.length) },
+    { id: "study-strategy", label: "공부 전략", visible: Boolean(cert.studyStrategy) },
     { id: "career", label: "취업·활용", visible: showCareer },
     { id: "affiliate", label: "추천 자료", visible: showAffiliate },
     { id: "faq", label: "FAQ", visible: Boolean(cert.faq?.length) },
@@ -405,10 +419,10 @@ export default async function CertDetailPage({ params }: PageProps) {
           </section>
         ) : null}
 
-        {cert.studyStrategy?.length ? (
+        {cert.studyStrategy ? (
           <section id="study-strategy" className="scroll-mt-44 md:scroll-mt-52">
             <FadeInSection delay={220}>
-              <StudyStrategy items={cert.studyStrategy} />
+              <StudyStrategy data={cert.studyStrategy} />
             </FadeInSection>
           </section>
         ) : null}

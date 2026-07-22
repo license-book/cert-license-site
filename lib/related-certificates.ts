@@ -9,6 +9,7 @@ export type CertificateCatalogItem = {
   type?: CertificateKind;
   licenseType?: string;
   category?: string;
+  agency?: string;
   relatedTag?: string;
 };
 
@@ -19,6 +20,8 @@ export type RelatedRelation =
       tag?: string;
       compareSlug?: string;
       compareLabel?: string;
+      source?: "manual" | "auto";
+      score?: number;
     };
 
 export type ResolvedRelatedItem = {
@@ -50,6 +53,11 @@ type CertificateFile = {
 
 type CertificateCatalog = Record<string, CertificateCatalogItem>;
 type RelatedMap = Record<string, RelatedRelation[]>;
+
+type GeneratedRelatedFile = {
+  items?: RelatedMap;
+};
+
 type ComparisonCatalog = Record<
   string,
   {
@@ -71,11 +79,18 @@ const CERTIFICATE_CATALOG_FILE = path.join(
   "certificates.json"
 );
 
-const RELATED_FILE = path.join(
+const MANUAL_RELATED_FILE = path.join(
   process.cwd(),
   "data",
   "related",
   "related-certificates.json"
+);
+
+const GENERATED_RELATED_FILE = path.join(
+  process.cwd(),
+  "data",
+  "generated",
+  "internal-links.json"
 );
 
 const COMPARISON_CATALOG_FILE = path.join(
@@ -122,10 +137,21 @@ function comparisonIsEnabled(
   return catalog[compareSlug]?.enabled === true;
 }
 
+function getRelatedMap(): RelatedMap {
+  const generated =
+    readJsonFile<GeneratedRelatedFile>(GENERATED_RELATED_FILE);
+
+  if (generated?.items) {
+    return generated.items;
+  }
+
+  return readJsonFile<RelatedMap>(MANUAL_RELATED_FILE) ?? {};
+}
+
 export function getRelatedCertificates(
   currentSlug: string
 ): ResolvedRelatedItem[] {
-  const relatedMap = readJsonFile<RelatedMap>(RELATED_FILE) ?? {};
+  const relatedMap = getRelatedMap();
   const certificateCatalog =
     readJsonFile<CertificateCatalog>(CERTIFICATE_CATALOG_FILE) ?? {};
   const comparisonCatalog =

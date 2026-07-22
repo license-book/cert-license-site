@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-07-21T21:35:40.765Z",
+  "maxRelatedPerCertificate": 4,
+  "totals": {
+    "certificates": 1,
+    "manualLinks": 4,
+    "autoLinks": 0,
+    "allLinks": 4
+  },
+  "items": {
+    "computer-specialist-1": [
+      {
+        "slug": "computer-specialist-2",
+        "compareSlug": "computer-specialist-1-vs-2",
+        "compareLabel": "1급과 비교",
+        "source": "manual"
+      },
+      {
+        "slug": "word-processor",
+        "source": "manual"
+      },
+      {
+        "slug": "itq",
+        "source": "manual"
+      },
+      {
+        "slug": "mos",
+        "source": "manual"
+      }
+    ]
+  }
+}

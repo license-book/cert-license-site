@@ -1,0 +1,79 @@
+{
+  "version": 1,
+  "generatedAt": "2026-07-21T21:24:58.193Z",
+  "total": 9,
+  "items": [
+    {
+      "label": "국가기술자격",
+      "value": "국가기술자격",
+      "slug": "computer-specialist-1",
+      "href": "/certificates/computer-specialist-1",
+      "type": "alias",
+      "category": "IT·사무"
+    },
+    {
+      "label": "대한상공회의소",
+      "value": "대한상공회의소",
+      "slug": "computer-specialist-1",
+      "href": "/certificates/computer-specialist-1",
+      "type": "alias",
+      "category": "IT·사무"
+    },
+    {
+      "label": "컴퓨터활용능력 1급",
+      "value": "컴퓨터활용능력 1급",
+      "slug": "computer-specialist-1",
+      "href": "/certificates/computer-specialist-1",
+      "type": "certificate",
+      "category": "IT·사무"
+    },
+    {
+      "label": "컴활1급",
+      "value": "컴활1급",
+      "slug": "computer-specialist-1",
+      "href": "/certificates/computer-specialist-1",
+      "type": "alias",
+      "category": "IT·사무"
+    },
+    {
+      "label": "컴활1급 공부기간",
+      "value": "컴활1급 공부기간",
+      "slug": "computer-specialist-1",
+      "href": "/certificates/computer-specialist-1",
+      "type": "alias",
+      "category": "IT·사무"
+    },
+    {
+      "label": "컴활1급 난이도",
+      "value": "컴활1급 난이도",
+      "slug": "computer-specialist-1",
+      "href": "/certificates/computer-specialist-1",
+      "type": "alias",
+      "category": "IT·사무"
+    },
+    {
+      "label": "컴활1급 독학",
+      "value": "컴활1급 독학",
+      "slug": "computer-specialist-1",
+      "href": "/certificates/computer-specialist-1",
+      "type": "alias",
+      "category": "IT·사무"
+    },
+    {
+      "label": "computer-specialist-1",
+      "value": "computer-specialist-1",
+      "slug": "computer-specialist-1",
+      "href": "/certificates/computer-specialist-1",
+      "type": "alias",
+      "category": "IT·사무"
+    },
+    {
+      "label": "IT·사무",
+      "value": "IT·사무",
+      "slug": "computer-specialist-1",
+      "href": "/certificates/computer-specialist-1",
+      "type": "alias",
+      "category": "IT·사무"
+    }
+  ]
+}

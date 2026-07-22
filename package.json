@@ -4,7 +4,11 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "validate:data": "node scripts/validate-data.mjs",
+    "generate:search": "node scripts/generate-search-index.mjs",
+    "generate:links": "node scripts/generate-internal-links.mjs",
+    "generate:seo": "node scripts/generate-seo-data.mjs",
+    "build": "npm run validate:data && npm run generate:search && npm run generate:links && npm run generate:seo && next build",
     "start": "next start",
     "lint": "eslint"
   },
