@@ -29,10 +29,25 @@ type StudyStrategyData = {
   practical: { title: string; items: string[]; tip?: string };
   roadmap: { step: string; title: string; description?: string }[];
   periods: { level: string; period: string; description?: string }[];
+  limitedTimeStrategy?: {
+    period: string;
+    focus: string[];
+    reduce?: string[];
+    mustDo: string[];
+  }[];
   tips: string[];
   failures: string[];
   checklist: string[];
   resources: string[];
+  commonSuccessfulSequence?: {
+    intro?: string;
+    steps: string[];
+    reason?: string;
+  };
+  recommendedRoadmap?: {
+    intro?: string;
+    items: { label: string; description?: string; href?: string }[];
+  };
   labookAdvice: string;
 };
 
