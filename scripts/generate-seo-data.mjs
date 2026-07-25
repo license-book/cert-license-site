@@ -69,15 +69,6 @@ function buildPage(data, fileName) {
     validDate(data.statistics?.source?.lastVerified) ||
     new Date().toISOString().slice(0, 10);
 
-  const faq = Array.isArray(data.faq)
-    ? data.faq
-        .filter((item) => text(item?.question) && text(item?.answer))
-        .map((item) => ({
-          question: text(item.question),
-          answer: text(item.answer),
-        }))
-    : [];
-
   return {
     slug,
     name,
@@ -92,7 +83,6 @@ function buildPage(data, fileName) {
     category: text(basic.category),
     agency: text(basic.agency),
     lastModified,
-    faq,
   };
 }
 

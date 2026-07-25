@@ -11,7 +11,6 @@ import CertHero from "@/components/cert/CertHero";
 import CertSummary from "@/components/cert/CertSummary";
 import CostInfo from "@/components/cert/CostInfo";
 import ExamStatistics from "@/components/cert/ExamStatistics";
-import FAQ from "@/components/cert/FAQ";
 import OfficialInfo from "@/components/cert/OfficialInfo";
 import RealityGuide from "@/components/cert/RealityGuide";
 import Related from "@/components/cert/Related";
@@ -214,10 +213,6 @@ type CertData = {
     application?: string;
   };
 
-  faq?: {
-    question: string;
-    answer: string;
-  }[];
 
   seo?: {
     title: string;
@@ -350,10 +345,9 @@ export default async function CertDetailPage({ params }: PageProps) {
     { id: "study-strategy", label: "공부 전략", visible: Boolean(cert.studyStrategy) },
     { id: "career", label: "취업·활용", visible: showCareer },
     { id: "affiliate", label: "추천 자료", visible: showAffiliate },
-    { id: "faq", label: "FAQ", visible: Boolean(cert.faq?.length) },
     { id: "trust-info", label: "정보 출처", visible: Boolean(cert.trustInfo) },
-    { id: "final-cta", label: "다음 단계", visible: Boolean(cert.finalCta) },
     { id: "related", label: "관련 자격증", visible: relatedItems.length > 0 },
+    { id: "final-cta", label: "다음 단계", visible: Boolean(cert.finalCta) },
   ]
     .filter((item) => item.visible)
     .map(({ id, label }) => ({ id, label }));
@@ -458,14 +452,6 @@ export default async function CertDetailPage({ params }: PageProps) {
           </section>
         ) : null}
 
-        {cert.faq?.length ? (
-          <section id="faq" className="scroll-mt-44 md:scroll-mt-52">
-            <FadeInSection delay={280}>
-              <FAQ items={cert.faq} />
-            </FadeInSection>
-          </section>
-        ) : null}
-
         {cert.trustInfo ? (
           <section id="trust-info" className="scroll-mt-44 md:scroll-mt-52">
             <FadeInSection delay={290}>
@@ -474,18 +460,18 @@ export default async function CertDetailPage({ params }: PageProps) {
           </section>
         ) : null}
 
-        {cert.finalCta ? (
-          <section id="final-cta" className="scroll-mt-44 md:scroll-mt-52">
-            <FadeInSection delay={295}>
-              <FinalCTA data={cert.finalCta} />
-            </FadeInSection>
-          </section>
-        ) : null}
-
         {relatedItems.length ? (
           <section id="related" className="scroll-mt-44 md:scroll-mt-52">
             <FadeInSection delay={300}>
               <Related items={relatedItems} />
+            </FadeInSection>
+          </section>
+        ) : null}
+
+        {cert.finalCta ? (
+          <section id="final-cta" className="scroll-mt-44 md:scroll-mt-52">
+            <FadeInSection delay={320}>
+              <FinalCTA data={cert.finalCta} />
             </FadeInSection>
           </section>
         ) : null}
