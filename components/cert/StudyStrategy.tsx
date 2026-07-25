@@ -69,8 +69,8 @@ export default function StudyStrategy({ data }: { data: StudyStrategyData }) {
       className="mt-10 rounded-[28px] bg-white p-5 shadow-sm ring-1 ring-slate-100 md:p-7"
     >
       <header className="max-w-[820px]">
-        <p className="text-sm font-semibold text-amber-700">
-          LABOOK STUDY STRATEGY
+        <p className="text-sm font-semibold text-blue-600">
+          합격을 위한 학습 가이드를 제공합니다.
         </p>
         <h2 className="mt-2 text-3xl font-black tracking-tight text-slate-950">
           {data.title || "공부 전략"}
@@ -79,21 +79,21 @@ export default function StudyStrategy({ data }: { data: StudyStrategyData }) {
 
       <div className="mt-7 space-y-6">
 
-      <Card title="1. 핵심 전략">
+      <Card title="핵심 전략">
         <p className="leading-8 text-slate-700">{data.summary}</p>
       </Card>
 
-      <Card title={`2. ${data.written.title}`}>
+      <Card title={data.written.title}>
         <List items={data.written.items} />
         {data.written.tip && <p className="mt-5 rounded-2xl bg-slate-100 p-4 leading-7 text-slate-700"><strong className="text-slate-950">라북 TIP</strong><br />{data.written.tip}</p>}
       </Card>
 
-      <Card title={`3. ${data.practical.title}`}>
+      <Card title={data.practical.title}>
         <List items={data.practical.items} />
         {data.practical.tip && <p className="mt-5 rounded-2xl bg-slate-100 p-4 leading-7 text-slate-700"><strong className="text-slate-950">라북 TIP</strong><br />{data.practical.tip}</p>}
       </Card>
 
-      <Card title="4. 추천 학습 순서">
+      <Card title="추천 학습 순서">
         <ol className="grid gap-4">
           {data.roadmap.map((item) => (
             <li key={`${item.step}-${item.title}`} className="rounded-2xl border border-slate-200 p-5">
@@ -105,7 +105,7 @@ export default function StudyStrategy({ data }: { data: StudyStrategyData }) {
         </ol>
       </Card>
 
-      <Card title="5. 현실적인 공부 기간">
+      <Card title="현실적인 공부 기간">
         <div className="grid gap-4 md:grid-cols-3">
           {data.periods.map((item) => (
             <div key={item.level} className="rounded-2xl border border-slate-200 p-5">
@@ -118,7 +118,7 @@ export default function StudyStrategy({ data }: { data: StudyStrategyData }) {
       </Card>
 
       {!!data.limitedTimeStrategy?.length && (
-        <Card title="6. 시간이 부족하다면 이렇게 공부하세요" featured>
+        <Card title="시간이 부족하다면 이렇게 공부하세요" featured>
           <div className="grid gap-4">
             {data.limitedTimeStrategy.map((item) => (
               <div key={item.period} className="rounded-2xl bg-white p-5 shadow-sm">
@@ -134,17 +134,17 @@ export default function StudyStrategy({ data }: { data: StudyStrategyData }) {
         </Card>
       )}
 
-      <Card title="7. 합격 팁"><List items={data.tips} /></Card>
-      <Card title="8. 많이 실패하는 이유"><List items={data.failures} /></Card>
-      <Card title="9. 시험 전 체크리스트">
+      <Card title="합격 팁"><List items={data.tips} /></Card>
+      <Card title="많이 실패하는 이유"><List items={data.failures} /></Card>
+      <Card title="시험 전 체크리스트">
         <ul className="grid gap-3 md:grid-cols-2">
           {data.checklist.map((item) => <li key={item} className="flex gap-3 rounded-2xl border border-slate-200 p-4 text-slate-700"><span aria-hidden="true">☐</span><span>{item}</span></li>)}
         </ul>
       </Card>
-      <Card title="10. 공부 자료 활용법"><List items={data.resources} /></Card>
+      <Card title="공부 자료 활용법"><List items={data.resources} /></Card>
 
       {data.commonSuccessfulSequence && (
-        <Card title="11. 실제 합격자들이 많이 선택하는 공부 순서" featured>
+        <Card title="실제 합격자들이 많이 선택하는 공부 순서" featured>
           {data.commonSuccessfulSequence.intro && <p className="leading-7 text-slate-700">{data.commonSuccessfulSequence.intro}</p>}
           <div className="mt-5 flex flex-wrap items-center gap-2">
             {data.commonSuccessfulSequence.steps.map((step, index) => (
@@ -159,7 +159,7 @@ export default function StudyStrategy({ data }: { data: StudyStrategyData }) {
       )}
 
       {data.recommendedRoadmap && (
-        <Card title="12. 라북 추천 로드맵" featured>
+        <Card title="라북 추천 로드맵" featured>
           {data.recommendedRoadmap.intro && <p className="leading-7 text-slate-700">{data.recommendedRoadmap.intro}</p>}
           <div className="mt-5 grid gap-3 md:grid-cols-2">
             {data.recommendedRoadmap.items.map((item, index) => {
@@ -170,7 +170,7 @@ export default function StudyStrategy({ data }: { data: StudyStrategyData }) {
         </Card>
       )}
 
-      <Card title="13. 라북 한 줄 조언">
+      <Card title="라북 한 줄 조언">
         <blockquote className="text-xl font-black leading-9 text-slate-950 md:text-2xl">“{data.labookAdvice}”</blockquote>
       </Card>
       </div>
