@@ -64,11 +64,20 @@ function List({ items }: { items: string[] }) {
 
 export default function StudyStrategy({ data }: { data: StudyStrategyData }) {
   return (
-    <section id="study-strategy" className="space-y-6">
-      <div>
-        <p className="text-sm font-semibold text-amber-700">LABOOK STUDY STRATEGY</p>
-        <h2 className="mt-2 text-3xl font-black tracking-tight text-slate-950">{data.title || "공부 전략"}</h2>
-      </div>
+    <section
+      id="study-strategy"
+      className="mt-10 rounded-[28px] bg-white p-5 shadow-sm ring-1 ring-slate-100 md:p-7"
+    >
+      <header className="max-w-[820px]">
+        <p className="text-sm font-semibold text-amber-700">
+          LABOOK STUDY STRATEGY
+        </p>
+        <h2 className="mt-2 text-3xl font-black tracking-tight text-slate-950">
+          {data.title || "공부 전략"}
+        </h2>
+      </header>
+
+      <div className="mt-7 space-y-6">
 
       <Card title="1. 핵심 전략">
         <p className="leading-8 text-slate-700">{data.summary}</p>
@@ -164,6 +173,7 @@ export default function StudyStrategy({ data }: { data: StudyStrategyData }) {
       <Card title="13. 라북 한 줄 조언">
         <blockquote className="text-xl font-black leading-9 text-slate-950 md:text-2xl">“{data.labookAdvice}”</blockquote>
       </Card>
+      </div>
     </section>
   );
 }
