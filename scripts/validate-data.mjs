@@ -293,7 +293,6 @@ function validateCertificate(file) {
       }
     }
   }
-
   if (data.seo === undefined) addWarning(file, "SEO용 seo 객체가 없습니다.");
   else if (!isObject(data.seo)) addError(file, "seo는 객체여야 합니다.");
   else {

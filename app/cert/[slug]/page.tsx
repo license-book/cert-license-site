@@ -452,6 +452,7 @@ export default async function CertDetailPage({ params }: PageProps) {
           </section>
         ) : null}
 
+
         {cert.trustInfo ? (
           <section id="trust-info" className="scroll-mt-44 md:scroll-mt-52">
             <FadeInSection delay={290}>
@@ -462,7 +463,7 @@ export default async function CertDetailPage({ params }: PageProps) {
 
         {relatedItems.length ? (
           <section id="related" className="scroll-mt-44 md:scroll-mt-52">
-            <FadeInSection delay={300}>
+            <FadeInSection delay={295}>
               <Related items={relatedItems} />
             </FadeInSection>
           </section>
@@ -470,7 +471,7 @@ export default async function CertDetailPage({ params }: PageProps) {
 
         {cert.finalCta ? (
           <section id="final-cta" className="scroll-mt-44 md:scroll-mt-52">
-            <FadeInSection delay={320}>
+            <FadeInSection delay={300}>
               <FinalCTA data={cert.finalCta} />
             </FadeInSection>
           </section>
