@@ -1,3 +1,4 @@
+import { listCertificateFiles } from "./certificate-files.mjs";
 import fs from "node:fs";
 import path from "node:path";
 import process from "node:process";
@@ -54,15 +55,12 @@ function loadCertificates() {
     throw new Error(`자격증 JSON 폴더가 없습니다: ${CERT_DIR}`);
   }
 
-  const files = fs
-    .readdirSync(CERT_DIR)
-    .filter((name) => name.endsWith(".json"))
-    .sort((a, b) => a.localeCompare(b, "ko-KR", { numeric: true }));
+  const files = listCertificateFiles(CERT_DIR);
 
   const certificates = new Map();
 
   for (const fileName of files) {
-    const filePath = path.join(CERT_DIR, fileName);
+    const filePath = fileName;
     const data = readJson(filePath, null);
     if (!data) continue;
 

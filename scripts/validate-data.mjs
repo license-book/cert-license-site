@@ -1,3 +1,4 @@
+import { listCertificateFiles } from "./certificate-files.mjs";
 import fs from "node:fs";
 import path from "node:path";
 import process from "node:process";
@@ -410,7 +411,7 @@ function main() {
     printResult(0);
     process.exit(1);
   }
-  const files = fs.readdirSync(CERT_DIR).filter((x) => x.endsWith(".json")).sort().map((x) => path.join(CERT_DIR, x));
+  const files = listCertificateFiles(CERT_DIR);
   if (!files.length) addError(CERT_DIR, "검사할 자격증 JSON이 없습니다.");
   const certificateMap = new Map();
   for (const file of files) {

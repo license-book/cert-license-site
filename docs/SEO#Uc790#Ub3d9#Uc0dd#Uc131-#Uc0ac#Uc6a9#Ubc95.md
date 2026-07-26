@@ -44,6 +44,7 @@ data/generated/seo-pages.json
 - Breadcrumb JSON-LD
 - WebPage JSON-LD
 - EducationalOccupationalCredential
+- FAQPage JSON-LD
 - sitemap.xml
 - robots.txt
 - lastModified

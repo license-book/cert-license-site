@@ -1,3 +1,4 @@
+import { listCertificateFiles } from "./certificate-files.mjs";
 import fs from "node:fs";
 import path from "node:path";
 import process from "node:process";
@@ -207,10 +208,7 @@ function main() {
     process.exit(1);
   }
 
-  const files = fs
-    .readdirSync(CERT_DIR)
-    .filter((name) => name.endsWith(".json"))
-    .sort((a, b) => a.localeCompare(b, "ko-KR", { numeric: true }));
+  const files = listCertificateFiles(CERT_DIR);
 
   if (files.length === 0) {
     console.error("❌ 검색 인덱스를 만들 자격증 JSON이 없습니다.");
@@ -218,7 +216,7 @@ function main() {
   }
 
   const items = files.map((fileName) =>
-    makeItem(readJson(path.join(CERT_DIR, fileName)), fileName)
+    makeItem(readJson(fileName), path.basename(fileName))
   );
 
   const slugSet = new Set();

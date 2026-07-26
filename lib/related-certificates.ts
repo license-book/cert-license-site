@@ -117,16 +117,22 @@ function normalizeRelation(relation: RelatedRelation) {
     : relation;
 }
 
+function getCertificatePath(slug: string): string | null {
+  const candidates = [
+    path.join(CERTIFICATE_DIRECTORY, `${slug}.json`),
+    path.join(CERTIFICATE_DIRECTORY, "national", `${slug}.json`),
+    path.join(CERTIFICATE_DIRECTORY, "private", `${slug}.json`),
+  ];
+  return candidates.find((file) => fs.existsSync(file)) ?? null;
+}
+
 function getCertificateFile(slug: string): CertificateFile | null {
-  return readJsonFile<CertificateFile>(
-    path.join(CERTIFICATE_DIRECTORY, `${slug}.json`)
-  );
+  const file = getCertificatePath(slug);
+  return file ? readJsonFile<CertificateFile>(file) : null;
 }
 
 function certificateExists(slug: string): boolean {
-  return fs.existsSync(
-    path.join(CERTIFICATE_DIRECTORY, `${slug}.json`)
-  );
+  return getCertificatePath(slug) !== null;
 }
 
 function comparisonIsEnabled(
