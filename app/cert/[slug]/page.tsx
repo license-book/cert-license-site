@@ -1,3 +1,4 @@
+// LABOOK V7.5: FAQ 제거 확정 및 재배포 트리거
 import fs from "fs";
 import path from "path";
 import type { Metadata } from "next";

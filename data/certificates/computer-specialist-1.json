@@ -574,8 +574,8 @@
     ]
   },
   "update": {
-    "version": "5.4-study-strategy",
-    "lastUpdated": "2026-07-23",
+    "version": "7.5.0",
+    "lastUpdated": "2026-07-26",
     "lastVerified": "2026-07-19",
     "verified": true,
     "note": "기존 상세페이지 디자인을 유지하면서 공부전략을 라북 표준 구조로 확장했습니다."

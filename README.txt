@@ -1,32 +1,23 @@
-LABOOK V7.3 FAQ FINAL FIX
+LABOOK V7.5 FAQ 제거 확정본
 
-[수정 내용]
-- 상세페이지 FAQ import, 타입, 목차, 렌더링 완전 제거
-- 컴활1급 JSON faq 데이터 제거
-- 하단 순서 변경: 정보 출처 및 업데이트 → 관련 자격증 → 다음 단계
-- SEO 생성 스크립트에서 faq 생성 제거
-- JSON 검증 스크립트에서 faq 검증 제거
-- SEO/검색/내부 링크 생성 데이터 재생성
+수정 내용
+- 상세페이지 목차에서 FAQ 제거
+- 상세페이지 본문 FAQ 렌더링 제거
+- 컴활1급 JSON의 FAQ 데이터 제거
+- 정보 출처 → 관련 자격증 → 다음 단계 순서 유지
+- Git 변경사항이 반드시 생기도록 버전 7.5.0으로 갱신
 
-[덮어쓰기 경로]
-이 ZIP을 열어 보이는 app, data, public, scripts, lib 폴더를 아래 프로젝트 루트에 그대로 덮어쓰기:
+덮어쓰기 경로
 C:\Users\malbo\cert-license-site
 
-[중요]
-- APPLY_PATCH.bat 없음
-- 관리자 권한 실행 없음
-- 기존 components\cert\FAQ.tsx 파일은 남아 있어도 import되지 않아 화면과 빌드에 영향을 주지 않음
+적용 방법
+1. 이 ZIP의 압축을 풉니다.
+2. 안의 app, data, lib, public 폴더를 cert-license-site에 복사합니다.
+3. 같은 이름의 파일을 덮어씁니다.
+4. VS Code 터미널에서 git status를 확인합니다.
+5. app/cert/[slug]/page.tsx 와 data/certificates/computer-specialist-1.json이 수정됨으로 보여야 합니다.
+6. npm run dev로 확인 후 deploy-safe.bat을 실행합니다.
 
-[확인 순서]
-1. ZIP 안의 폴더를 프로젝트 루트에 덮어쓰기
-2. VS Code에서 npm run dev
-3. http://localhost:3000/cert/computer-specialist-1 확인
-4. FAQ가 사라지고 하단이 정보 출처 → 관련 자격증 → 다음 단계인지 확인
-5. deploy-safe.bat 실행
-6. 변경 파일 목록이 보이면 Y 입력 후 Enter
-
-[검증]
-- node scripts/generate-seo-data.mjs 성공
-- node scripts/generate-search-index.mjs 성공
-- node scripts/generate-internal-links.mjs 성공
-- node scripts/validate-data.mjs 결과: 오류 0개 / 경고 0개
+주의
+- ZIP 파일 자체를 프로젝트 폴더에 복사하는 것이 아니라 반드시 압축을 풀어 폴더를 덮어씁니다.
+- 관리자 권한 실행은 필요 없습니다.
