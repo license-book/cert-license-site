@@ -21,7 +21,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   const certificatePages: MetadataRoute.Sitemap = pages.map((page) => ({
     url: `${SITE_URL}${page.path}`,
-    lastModified: new Date(page.lastModified),
+    lastModified: page.lastModified ? new Date(page.lastModified) : new Date(),
     changeFrequency: "monthly",
     priority: 0.9,
   }));

@@ -3,8 +3,14 @@ import path from "node:path";
 import type { Metadata } from "next";
 
 const SITE_NAME = "라북";
-const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://cert-license-site.vercel.app";
-const SEO_DATA_PATH = path.join(process.cwd(), "data", "generated", "seo-pages.json");
+export const SITE_URL =
+  process.env.NEXT_PUBLIC_SITE_URL ?? "https://cert-license-site.vercel.app";
+const SEO_DATA_PATH = path.join(
+  process.cwd(),
+  "data",
+  "generated",
+  "seo-pages.json"
+);
 
 export type SeoPage = {
   slug: string;
@@ -35,7 +41,9 @@ function absoluteUrl(value?: string): string {
 function readSeoPages(): SeoPage[] {
   try {
     if (!fs.existsSync(SEO_DATA_PATH)) return [];
-    const parsed = JSON.parse(fs.readFileSync(SEO_DATA_PATH, "utf-8")) as SeoPageCollection;
+    const parsed = JSON.parse(
+      fs.readFileSync(SEO_DATA_PATH, "utf-8")
+    ) as SeoPageCollection;
     return Array.isArray(parsed.items) ? parsed.items : [];
   } catch (error) {
     console.error("SEO 데이터 읽기 실패", error);
@@ -43,8 +51,12 @@ function readSeoPages(): SeoPage[] {
   }
 }
 
+export function getSeoPages(): SeoPage[] {
+  return readSeoPages();
+}
+
 export function getSeoPage(slug: string): SeoPage | undefined {
-  return readSeoPages().find((page) => page.slug === slug);
+  return getSeoPages().find((page) => page.slug === slug);
 }
 
 export function buildCertificateMetadata(page: SeoPage): Metadata {

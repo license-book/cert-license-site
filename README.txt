@@ -1,23 +1,33 @@
-LABOOK V7.5 FAQ 제거 확정본
+LABOOK V7.6 Vercel 빌드 오류 수정본
 
-수정 내용
-- 상세페이지 목차에서 FAQ 제거
-- 상세페이지 본문 FAQ 렌더링 제거
-- 컴활1급 JSON의 FAQ 데이터 제거
-- 정보 출처 → 관련 자격증 → 다음 단계 순서 유지
-- Git 변경사항이 반드시 생기도록 버전 7.5.0으로 갱신
+[수정 내용]
+- lib/seo.ts에서 SITE_URL을 export하도록 수정
+- lib/seo.ts에 getSeoPages() export 추가
+- app/sitemap.ts에서 lastModified가 없을 때도 TypeScript 오류가 나지 않도록 처리
+- Vercel Build Logs의 오류:
+  "Export getSeoPages doesn't exist in target module"
+  를 직접 해결
 
-덮어쓰기 경로
+[수정 파일]
+- lib/seo.ts
+- app/sitemap.ts
+
+[덮어쓰기 경로]
+ZIP 안의 app, lib 폴더를 다음 프로젝트 루트에 그대로 복사 후 덮어쓰기:
 C:\Users\malbo\cert-license-site
 
-적용 방법
-1. 이 ZIP의 압축을 풉니다.
-2. 안의 app, data, lib, public 폴더를 cert-license-site에 복사합니다.
-3. 같은 이름의 파일을 덮어씁니다.
-4. VS Code 터미널에서 git status를 확인합니다.
-5. app/cert/[slug]/page.tsx 와 data/certificates/computer-specialist-1.json이 수정됨으로 보여야 합니다.
-6. npm run dev로 확인 후 deploy-safe.bat을 실행합니다.
+[로컬 테스트]
+프로젝트 터미널에서:
+npm run build
 
-주의
-- ZIP 파일 자체를 프로젝트 폴더에 복사하는 것이 아니라 반드시 압축을 풀어 폴더를 덮어씁니다.
-- 관리자 권한 실행은 필요 없습니다.
+[배포]
+deploy-safe.bat 실행 후 Y 입력
+또는:
+git add app/sitemap.ts lib/seo.ts
+git commit -m "Fix Vercel SEO sitemap build"
+git push origin main
+
+[검증]
+- 최신 업로드 파일 기준으로 수정
+- TypeScript 검사: 오류 0개
+- FAQ 제거 코드는 건드리지 않음
