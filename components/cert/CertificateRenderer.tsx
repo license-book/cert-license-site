@@ -15,6 +15,7 @@ import FinalCTA from "@/components/cert/FinalCTA";
 import DetailToc from "@/components/cert/DetailToc";
 import FadeInSection from "@/components/common/FadeInSection";
 import JsonLd from "@/components/common/JsonLd";
+import AdSlot from "@/components/common/AdSlot";
 import { CERTIFICATE_SECTIONS, createCertificateJsonLd, type CertificateSectionId, type CertificateViewModel } from "@/lib/certificate-engine";
 
 function SectionContent({ id, model }: { id: CertificateSectionId; model: CertificateViewModel }) {
@@ -55,13 +56,37 @@ export default function CertificateRenderer({ model }: { model: CertificateViewM
       />
       <DetailToc items={tocItems} />
       <section className="mx-auto max-w-[1200px] px-5 py-10 md:px-6 md:py-14">
-        {CERTIFICATE_SECTIONS.map((section) => visibility[section.id] ? (
-          <section key={section.id} id={section.id} className="scroll-mt-44 md:scroll-mt-52">
-            <FadeInSection delay={section.delay} className={section.className}>
-              <SectionContent id={section.id} model={model} />
-            </FadeInSection>
-          </section>
-        ) : null)}
+        <AdSlot
+          label="상단"
+          slot={process.env.NEXT_PUBLIC_ADSENSE_SLOT_TOP}
+          className="mt-0"
+        />
+
+        {CERTIFICATE_SECTIONS.map((section) => {
+          if (!visibility[section.id]) return null;
+
+          return (
+            <div key={section.id}>
+              <section id={section.id} className="scroll-mt-44 md:scroll-mt-52">
+                <FadeInSection delay={section.delay} className={section.className}>
+                  <SectionContent id={section.id} model={model} />
+                </FadeInSection>
+              </section>
+
+              {section.id === "summary" ? (
+                <AdSlot label="본문 중단 1" slot={process.env.NEXT_PUBLIC_ADSENSE_SLOT_MIDDLE_1} />
+              ) : null}
+
+              {section.id === "study-strategy" ? (
+                <AdSlot label="본문 중단 2" slot={process.env.NEXT_PUBLIC_ADSENSE_SLOT_MIDDLE_2} />
+              ) : null}
+
+              {section.id === "affiliate" ? (
+                <AdSlot label="하단" slot={process.env.NEXT_PUBLIC_ADSENSE_SLOT_BOTTOM} />
+              ) : null}
+            </div>
+          );
+        })}
       </section>
     </main>
   );

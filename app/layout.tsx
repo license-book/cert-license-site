@@ -1,6 +1,7 @@
 import Header from "@/components/Header";
 import type { Metadata } from "next";
 import localFont from "next/font/local";
+import Script from "next/script";
 import "./globals.css";
 
 const pretendard = localFont({
@@ -25,6 +26,8 @@ export const metadata: Metadata = {
     "자격증 선택부터 시험 준비까지 현실적인 정보를 제공하는 자격증 플랫폼",
 };
 
+const adsenseClient = process.env.NEXT_PUBLIC_ADSENSE_CLIENT;
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -36,6 +39,15 @@ export default function RootLayout({
       className={`${pretendard.variable} h-full antialiased`}
     >
       <body className={`${pretendard.className} flex min-h-full flex-col`}>
+        {adsenseClient ? (
+          <Script
+            id="adsense-script"
+            async
+            strategy="afterInteractive"
+            crossOrigin="anonymous"
+            src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${adsenseClient}`}
+          />
+        ) : null}
         <Header />
         {children}
       </body>
