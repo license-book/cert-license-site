@@ -1,13 +1,69 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-26T23:30:51.782Z",
-  "total": 9,
+  "generatedAt": "2026-07-27T07:40:49.970Z",
+  "total": 43,
   "items": [
+    {
+      "label": "개발자 자격증",
+      "value": "개발자 자격증",
+      "slug": "information-processing-engineer",
+      "href": "/certificates/information-processing-engineer",
+      "type": "alias",
+      "category": "IT·개발"
+    },
+    {
+      "label": "개발자 자격증",
+      "value": "개발자 자격증",
+      "slug": "information-processing-industrial-engineer",
+      "href": "/certificates/information-processing-industrial-engineer",
+      "type": "alias",
+      "category": "IT·개발"
+    },
+    {
+      "label": "국가기술자격",
+      "value": "국가기술자격",
+      "slug": "word-processor",
+      "href": "/certificates/word-processor",
+      "type": "alias",
+      "category": "IT·사무"
+    },
     {
       "label": "국가기술자격",
       "value": "국가기술자격",
       "slug": "computer-specialist-1",
       "href": "/certificates/computer-specialist-1",
+      "type": "alias",
+      "category": "IT·사무"
+    },
+    {
+      "label": "국가기술자격",
+      "value": "국가기술자격",
+      "slug": "computer-specialist-2",
+      "href": "/certificates/computer-specialist-2",
+      "type": "alias",
+      "category": "IT·사무"
+    },
+    {
+      "label": "국가기술자격 기사",
+      "value": "국가기술자격 기사",
+      "slug": "information-processing-engineer",
+      "href": "/certificates/information-processing-engineer",
+      "type": "alias",
+      "category": "IT·개발"
+    },
+    {
+      "label": "국가기술자격 산업기사",
+      "value": "국가기술자격 산업기사",
+      "slug": "information-processing-industrial-engineer",
+      "href": "/certificates/information-processing-industrial-engineer",
+      "type": "alias",
+      "category": "IT·개발"
+    },
+    {
+      "label": "대한상공회의소",
+      "value": "대한상공회의소",
+      "slug": "word-processor",
+      "href": "/certificates/word-processor",
       "type": "alias",
       "category": "IT·사무"
     },
@@ -20,10 +76,122 @@
       "category": "IT·사무"
     },
     {
+      "label": "대한상공회의소",
+      "value": "대한상공회의소",
+      "slug": "computer-specialist-2",
+      "href": "/certificates/computer-specialist-2",
+      "type": "alias",
+      "category": "IT·사무"
+    },
+    {
+      "label": "문서작성 자격증",
+      "value": "문서작성 자격증",
+      "slug": "word-processor",
+      "href": "/certificates/word-processor",
+      "type": "alias",
+      "category": "IT·사무"
+    },
+    {
+      "label": "사무 자격증",
+      "value": "사무 자격증",
+      "slug": "word-processor",
+      "href": "/certificates/word-processor",
+      "type": "alias",
+      "category": "IT·사무"
+    },
+    {
+      "label": "사무 자격증",
+      "value": "사무 자격증",
+      "slug": "computer-specialist-2",
+      "href": "/certificates/computer-specialist-2",
+      "type": "alias",
+      "category": "IT·사무"
+    },
+    {
+      "label": "엑셀 자격증",
+      "value": "엑셀 자격증",
+      "slug": "computer-specialist-2",
+      "href": "/certificates/computer-specialist-2",
+      "type": "alias",
+      "category": "IT·사무"
+    },
+    {
+      "label": "워드 자격증",
+      "value": "워드 자격증",
+      "slug": "word-processor",
+      "href": "/certificates/word-processor",
+      "type": "alias",
+      "category": "IT·사무"
+    },
+    {
+      "label": "워드프로세서",
+      "value": "워드프로세서",
+      "slug": "word-processor",
+      "href": "/certificates/word-processor",
+      "type": "certificate",
+      "category": "IT·사무"
+    },
+    {
+      "label": "정보처리 자격증",
+      "value": "정보처리 자격증",
+      "slug": "information-processing-engineer",
+      "href": "/certificates/information-processing-engineer",
+      "type": "alias",
+      "category": "IT·개발"
+    },
+    {
+      "label": "정보처리 자격증",
+      "value": "정보처리 자격증",
+      "slug": "information-processing-industrial-engineer",
+      "href": "/certificates/information-processing-industrial-engineer",
+      "type": "alias",
+      "category": "IT·개발"
+    },
+    {
+      "label": "정보처리기사",
+      "value": "정보처리기사",
+      "slug": "information-processing-engineer",
+      "href": "/certificates/information-processing-engineer",
+      "type": "certificate",
+      "category": "IT·개발"
+    },
+    {
+      "label": "정보처리산업기사",
+      "value": "정보처리산업기사",
+      "slug": "information-processing-industrial-engineer",
+      "href": "/certificates/information-processing-industrial-engineer",
+      "type": "certificate",
+      "category": "IT·개발"
+    },
+    {
+      "label": "정처기",
+      "value": "정처기",
+      "slug": "information-processing-engineer",
+      "href": "/certificates/information-processing-engineer",
+      "type": "alias",
+      "category": "IT·개발"
+    },
+    {
+      "label": "정처산기",
+      "value": "정처산기",
+      "slug": "information-processing-industrial-engineer",
+      "href": "/certificates/information-processing-industrial-engineer",
+      "type": "alias",
+      "category": "IT·개발"
+    },
+    {
       "label": "컴퓨터활용능력 1급",
       "value": "컴퓨터활용능력 1급",
       "slug": "computer-specialist-1",
       "href": "/certificates/computer-specialist-1",
+      "type": "certificate",
+      "category": "IT·사무"
+    },
+    {
+      "label": "컴퓨터활용능력 2급",
+      "value": "컴퓨터활용능력 2급",
+      "slug": "computer-specialist-2",
+      "href": "/certificates/computer-specialist-2",
       "type": "certificate",
       "category": "IT·사무"
     },
@@ -60,6 +228,30 @@
       "category": "IT·사무"
     },
     {
+      "label": "컴활2급",
+      "value": "컴활2급",
+      "slug": "computer-specialist-2",
+      "href": "/certificates/computer-specialist-2",
+      "type": "alias",
+      "category": "IT·사무"
+    },
+    {
+      "label": "한국산업인력공단",
+      "value": "한국산업인력공단",
+      "slug": "information-processing-engineer",
+      "href": "/certificates/information-processing-engineer",
+      "type": "alias",
+      "category": "IT·개발"
+    },
+    {
+      "label": "한국산업인력공단",
+      "value": "한국산업인력공단",
+      "slug": "information-processing-industrial-engineer",
+      "href": "/certificates/information-processing-industrial-engineer",
+      "type": "alias",
+      "category": "IT·개발"
+    },
+    {
       "label": "computer-specialist-1",
       "value": "computer-specialist-1",
       "slug": "computer-specialist-1",
@@ -68,10 +260,90 @@
       "category": "IT·사무"
     },
     {
+      "label": "computer-specialist-2",
+      "value": "computer-specialist-2",
+      "slug": "computer-specialist-2",
+      "href": "/certificates/computer-specialist-2",
+      "type": "alias",
+      "category": "IT·사무"
+    },
+    {
+      "label": "information-processing-engineer",
+      "value": "information-processing-engineer",
+      "slug": "information-processing-engineer",
+      "href": "/certificates/information-processing-engineer",
+      "type": "alias",
+      "category": "IT·개발"
+    },
+    {
+      "label": "information-processing-industrial-engineer",
+      "value": "information-processing-industrial-engineer",
+      "slug": "information-processing-industrial-engineer",
+      "href": "/certificates/information-processing-industrial-engineer",
+      "type": "alias",
+      "category": "IT·개발"
+    },
+    {
+      "label": "IT 자격증",
+      "value": "IT 자격증",
+      "slug": "information-processing-engineer",
+      "href": "/certificates/information-processing-engineer",
+      "type": "alias",
+      "category": "IT·개발"
+    },
+    {
+      "label": "IT 자격증",
+      "value": "IT 자격증",
+      "slug": "information-processing-industrial-engineer",
+      "href": "/certificates/information-processing-industrial-engineer",
+      "type": "alias",
+      "category": "IT·개발"
+    },
+    {
+      "label": "IT·개발",
+      "value": "IT·개발",
+      "slug": "information-processing-engineer",
+      "href": "/certificates/information-processing-engineer",
+      "type": "alias",
+      "category": "IT·개발"
+    },
+    {
+      "label": "IT·개발",
+      "value": "IT·개발",
+      "slug": "information-processing-industrial-engineer",
+      "href": "/certificates/information-processing-industrial-engineer",
+      "type": "alias",
+      "category": "IT·개발"
+    },
+    {
+      "label": "IT·사무",
+      "value": "IT·사무",
+      "slug": "word-processor",
+      "href": "/certificates/word-processor",
+      "type": "alias",
+      "category": "IT·사무"
+    },
+    {
       "label": "IT·사무",
       "value": "IT·사무",
       "slug": "computer-specialist-1",
       "href": "/certificates/computer-specialist-1",
+      "type": "alias",
+      "category": "IT·사무"
+    },
+    {
+      "label": "IT·사무",
+      "value": "IT·사무",
+      "slug": "computer-specialist-2",
+      "href": "/certificates/computer-specialist-2",
+      "type": "alias",
+      "category": "IT·사무"
+    },
+    {
+      "label": "word-processor",
+      "value": "word-processor",
+      "slug": "word-processor",
+      "href": "/certificates/word-processor",
       "type": "alias",
       "category": "IT·사무"
     }

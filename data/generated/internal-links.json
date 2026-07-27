@@ -1,23 +1,105 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-26T23:30:52.257Z",
+  "generatedAt": "2026-07-27T07:40:50.082Z",
   "maxRelatedPerCertificate": 4,
   "totals": {
-    "certificates": 1,
-    "manualLinks": 4,
+    "certificates": 5,
+    "manualLinks": 20,
     "autoLinks": 0,
-    "allLinks": 4
+    "allLinks": 20
   },
   "items": {
     "computer-specialist-1": [
       {
         "slug": "computer-specialist-2",
         "compareSlug": "computer-specialist-1-vs-2",
-        "compareLabel": "1급과 비교",
+        "compareLabel": "1급·2급 비교",
         "source": "manual"
       },
       {
         "slug": "word-processor",
+        "source": "manual"
+      },
+      {
+        "slug": "information-processing-engineer",
+        "source": "manual"
+      },
+      {
+        "slug": "itq",
+        "source": "manual"
+      }
+    ],
+    "computer-specialist-2": [
+      {
+        "slug": "computer-specialist-1",
+        "compareSlug": "computer-specialist-1-vs-2",
+        "compareLabel": "1급·2급 비교",
+        "source": "manual"
+      },
+      {
+        "slug": "word-processor",
+        "compareSlug": "computer-specialist-2-vs-word-processor",
+        "compareLabel": "워드와 비교",
+        "source": "manual"
+      },
+      {
+        "slug": "itq",
+        "source": "manual"
+      },
+      {
+        "slug": "mos",
+        "source": "manual"
+      }
+    ],
+    "information-processing-engineer": [
+      {
+        "slug": "information-processing-industrial-engineer",
+        "compareSlug": "information-processing-engineer-vs-information-processing-industrial-engineer",
+        "compareLabel": "기사·산업기사 비교",
+        "source": "manual"
+      },
+      {
+        "slug": "computer-specialist-1",
+        "source": "manual"
+      },
+      {
+        "slug": "computer-specialist-2",
+        "source": "manual"
+      },
+      {
+        "slug": "word-processor",
+        "source": "manual"
+      }
+    ],
+    "information-processing-industrial-engineer": [
+      {
+        "slug": "information-processing-engineer",
+        "compareSlug": "information-processing-engineer-vs-information-processing-industrial-engineer",
+        "compareLabel": "기사·산업기사 비교",
+        "source": "manual"
+      },
+      {
+        "slug": "computer-specialist-2",
+        "source": "manual"
+      },
+      {
+        "slug": "computer-specialist-1",
+        "source": "manual"
+      },
+      {
+        "slug": "word-processor",
+        "source": "manual"
+      }
+    ],
+    "word-processor": [
+      {
+        "slug": "computer-specialist-2",
+        "compareSlug": "computer-specialist-2-vs-word-processor",
+        "compareLabel": "컴활2급과 비교",
+        "source": "manual"
+      },
+      {
+        "slug": "computer-specialist-1",
         "source": "manual"
       },
       {

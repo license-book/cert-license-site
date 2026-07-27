@@ -3,19 +3,54 @@
     {
       "slug": "computer-specialist-2",
       "compareSlug": "computer-specialist-1-vs-2",
-      "compareLabel": "1급과 비교"
+      "compareLabel": "1급·2급 비교"
     },
     "word-processor",
-    "itq",
-    "mos"
+    "information-processing-engineer",
+    "itq"
   ],
   "computer-specialist-2": [
     {
       "slug": "computer-specialist-1",
       "compareSlug": "computer-specialist-1-vs-2",
-      "compareLabel": "1급과 비교"
+      "compareLabel": "1급·2급 비교"
     },
-    "word-processor",
-    "itq"
+    {
+      "slug": "word-processor",
+      "compareSlug": "computer-specialist-2-vs-word-processor",
+      "compareLabel": "워드와 비교"
+    },
+    "itq",
+    "mos"
+  ],
+  "word-processor": [
+    {
+      "slug": "computer-specialist-2",
+      "compareSlug": "computer-specialist-2-vs-word-processor",
+      "compareLabel": "컴활2급과 비교"
+    },
+    "computer-specialist-1",
+    "itq",
+    "mos"
+  ],
+  "information-processing-engineer": [
+    {
+      "slug": "information-processing-industrial-engineer",
+      "compareSlug": "information-processing-engineer-vs-information-processing-industrial-engineer",
+      "compareLabel": "기사·산업기사 비교"
+    },
+    "computer-specialist-1",
+    "computer-specialist-2",
+    "word-processor"
+  ],
+  "information-processing-industrial-engineer": [
+    {
+      "slug": "information-processing-engineer",
+      "compareSlug": "information-processing-engineer-vs-information-processing-industrial-engineer",
+      "compareLabel": "기사·산업기사 비교"
+    },
+    "computer-specialist-2",
+    "computer-specialist-1",
+    "word-processor"
   ]
 }

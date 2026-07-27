@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-26T23:30:52.683Z",
-  "total": 1,
+  "generatedAt": "2026-07-27T07:40:50.185Z",
+  "total": 5,
   "items": [
     {
       "slug": "computer-specialist-1",
@@ -30,6 +30,117 @@
       "category": "IT·사무",
       "agency": "대한상공회의소",
       "lastModified": "2026-07-26"
+    },
+    {
+      "slug": "computer-specialist-2",
+      "name": "컴퓨터활용능력 2급",
+      "shortName": "컴활2급",
+      "title": "컴퓨터활용능력 2급 시험정보·난이도·공부방법 | 라북",
+      "description": "스프레드시트 활용 능력을 평가하는 대표적인 사무·OA 입문 자격증입니다. 응시자격, 시험과목, 합격기준, 준비기간, 현실적인 공부전략을 한 페이지에서 확인하세요.",
+      "keywords": [
+        "컴활2급",
+        "컴퓨터활용능력2급",
+        "엑셀 자격증",
+        "사무 자격증",
+        "컴퓨터활용능력 2급",
+        "컴퓨터활용능력 2급 시험",
+        "컴퓨터활용능력 2급 난이도",
+        "컴퓨터활용능력 2급 합격률",
+        "컴퓨터활용능력 2급 공부기간",
+        "IT·사무",
+        "국가기술자격",
+        "대한상공회의소"
+      ],
+      "image": "/images/hero/computer-specialist-2.webp",
+      "path": "/cert/computer-specialist-2",
+      "type": "national",
+      "licenseType": "국가기술자격",
+      "category": "IT·사무",
+      "agency": "대한상공회의소",
+      "lastModified": "2026-07-27"
+    },
+    {
+      "slug": "information-processing-engineer",
+      "name": "정보처리기사",
+      "shortName": "정처기",
+      "title": "정보처리기사 시험정보·난이도·공부방법 | 라북",
+      "description": "소프트웨어 개발과 정보시스템 구축·운영 역량을 평가하는 국가기술자격 기사입니다. 응시자격, 시험과목, 합격기준, 준비기간, 현실적인 공부전략을 한 페이지에서 확인하세요.",
+      "keywords": [
+        "정보처리기사",
+        "정처기",
+        "정보처리 자격증",
+        "IT 자격증",
+        "개발자 자격증",
+        "정보처리기사 시험",
+        "정보처리기사 난이도",
+        "정보처리기사 합격률",
+        "정보처리기사 공부기간",
+        "IT·개발",
+        "국가기술자격 기사",
+        "한국산업인력공단"
+      ],
+      "image": "/images/hero/information-processing-engineer.webp",
+      "path": "/cert/information-processing-engineer",
+      "type": "national",
+      "licenseType": "국가기술자격 기사",
+      "category": "IT·개발",
+      "agency": "한국산업인력공단",
+      "lastModified": "2026-07-27"
+    },
+    {
+      "slug": "information-processing-industrial-engineer",
+      "name": "정보처리산업기사",
+      "shortName": "정처산기",
+      "title": "정보처리산업기사 시험정보·난이도·공부방법 | 라북",
+      "description": "소프트웨어 개발과 정보시스템 구축·운영 역량을 평가하는 국가기술자격 산업기사입니다. 응시자격, 시험과목, 합격기준, 준비기간, 현실적인 공부전략을 한 페이지에서 확인하세요.",
+      "keywords": [
+        "정보처리산업기사",
+        "정처산기",
+        "정보처리 자격증",
+        "IT 자격증",
+        "개발자 자격증",
+        "정보처리산업기사 시험",
+        "정보처리산업기사 난이도",
+        "정보처리산업기사 합격률",
+        "정보처리산업기사 공부기간",
+        "IT·개발",
+        "국가기술자격 산업기사",
+        "한국산업인력공단"
+      ],
+      "image": "/images/hero/information-processing-industrial-engineer.webp",
+      "path": "/cert/information-processing-industrial-engineer",
+      "type": "national",
+      "licenseType": "국가기술자격 산업기사",
+      "category": "IT·개발",
+      "agency": "한국산업인력공단",
+      "lastModified": "2026-07-27"
+    },
+    {
+      "slug": "word-processor",
+      "name": "워드프로세서",
+      "shortName": "워드프로세서",
+      "title": "워드프로세서 시험정보·난이도·공부방법 | 라북",
+      "description": "문서 작성과 편집 능력을 평가하는 국가기술자격입니다. 응시자격, 시험과목, 합격기준, 준비기간, 현실적인 공부전략을 한 페이지에서 확인하세요.",
+      "keywords": [
+        "워드프로세서",
+        "워드 자격증",
+        "문서작성 자격증",
+        "사무 자격증",
+        "워드프로세서 시험",
+        "워드프로세서 난이도",
+        "워드프로세서 합격률",
+        "워드프로세서 공부기간",
+        "IT·사무",
+        "국가기술자격",
+        "대한상공회의소"
+      ],
+      "image": "/images/hero/word-processor.webp",
+      "path": "/cert/word-processor",
+      "type": "national",
+      "licenseType": "국가기술자격",
+      "category": "IT·사무",
+      "agency": "대한상공회의소",
+      "lastModified": "2026-07-27"
     }
   ]
 }

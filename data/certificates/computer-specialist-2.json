@@ -1,0 +1,354 @@
+{
+  "basic": {
+    "slug": "computer-specialist-2",
+    "name": "컴퓨터활용능력 2급",
+    "shortName": "컴활2급",
+    "type": "national",
+    "licenseType": "국가기술자격",
+    "category": "IT·사무",
+    "agency": "대한상공회의소"
+  },
+  "hero": {
+    "title": "컴퓨터활용능력 2급",
+    "subtitle": "스프레드시트 활용 능력을 평가하는 대표적인 사무·OA 입문 자격증입니다.",
+    "image": "/images/hero/computer-specialist-2.webp"
+  },
+  "certificateIntro": {
+    "title": "컴퓨터활용능력 2급은 어떤 자격증인가요?",
+    "description": "컴퓨터활용능력 2급은 대한상공회의소가 시행하는 국가기술자격으로 컴퓨터 일반과 스프레드시트 활용 능력을 평가합니다. 엑셀 중심의 실무 기초를 증명할 수 있어 사무직 입문자와 취업 준비생이 많이 선택합니다.",
+    "highlights": [
+      "국가기술자격",
+      "대한상공회의소 시행",
+      "IT·사무 분야 활용"
+    ]
+  },
+  "eligibility": {
+    "title": "응시자격",
+    "status": "none",
+    "statusLabel": "응시 제한 없음",
+    "summary": "학력, 전공, 경력과 관계없이 누구나 응시할 수 있습니다.",
+    "commonQuestion": {
+      "question": "관련 자격증을 먼저 취득해야 하나요?",
+      "answer": "아닙니다. 별도의 선행 자격증 없이 바로 응시할 수 있습니다."
+    },
+    "officialNotice": "세부 운영 기준은 시행기관 공식 안내를 확인하세요."
+  },
+  "display": {
+    "charts": false,
+    "career": true,
+    "benefits": false,
+    "cost": true,
+    "schedule": true,
+    "affiliate": false
+  },
+  "keyInfo": {
+    "title": "한눈에 보는 핵심 정보",
+    "items": [
+      {
+        "label": "현실 난이도",
+        "value": "중",
+        "note": "엑셀 기초가 있으면 접근하기 수월합니다."
+      },
+      {
+        "label": "평균 준비기간",
+        "value": "3~6주",
+        "note": "초보자는 1~2개월을 잡는 편이 안전합니다."
+      },
+      {
+        "label": "독학 적합도",
+        "value": "높음",
+        "note": "기출과 실기 반복으로 독학이 가능합니다."
+      },
+      {
+        "label": "취업 활용도",
+        "value": "높음",
+        "note": "사무·행정 지원 직무에서 널리 활용됩니다."
+      },
+      {
+        "label": "준비 비용",
+        "value": "낮음",
+        "note": "교재 중심 독학이 가능합니다."
+      },
+      {
+        "label": "초보자 적합도",
+        "value": "높음",
+        "note": "컴활1급보다 진입장벽이 낮습니다."
+      }
+    ]
+  },
+  "realityGuide": {
+    "title": "취득 전 현실 가이드",
+    "summary": "컴퓨터활용능력 2급 준비 전 확인해야 할 현실적인 판단 기준입니다.",
+    "recommendedFor": [
+      "사무직 취업을 준비하는 사람",
+      "엑셀 기초 활용 능력을 증명하려는 사람",
+      "컴활1급 전에 단계적으로 준비하려는 사람"
+    ],
+    "reconsiderIf": [
+      "이미 컴활1급 수준의 실무 능력이 있는 경우",
+      "단순 자격증보다 고급 데이터 분석 역량이 필요한 경우"
+    ],
+    "beforeStart": [
+      "필기는 40문항 40분, 실기는 작업형 40분입니다.",
+      "실기 프로그램 버전을 공식 안내에서 확인해야 합니다."
+    ],
+    "realityPoints": [
+      "실기 반복량이 합격을 좌우합니다.",
+      "기능을 아는 것과 제한 시간 안에 정확히 수행하는 것은 다릅니다."
+    ],
+    "firstStep": {
+      "title": "처음 시작한다면",
+      "description": "엑셀 화면과 기본 함수, 셀 서식, 정렬·필터부터 익히세요."
+    },
+    "nextStep": {
+      "title": "취득 후 다음 단계",
+      "description": "취득 후 컴활1급이나 워드프로세서로 확장할 수 있습니다."
+    }
+  },
+  "exam": {
+    "written": "필기",
+    "practical": "실기",
+    "passingCriteria": "필기는 과목당 40점 이상이면서 평균 60점 이상, 실기는 70점 이상",
+    "subjects": [
+      "컴퓨터 일반",
+      "스프레드시트 일반",
+      "스프레드시트 실무"
+    ]
+  },
+  "statistics": {
+    "enabled": false,
+    "title": "최근 시험 통계",
+    "summary": "공식 통계가 확인되는 시점에 갱신합니다."
+  },
+  "charts": {
+    "examWeight": {
+      "enabled": false,
+      "items": []
+    }
+  },
+  "studyStrategy": {
+    "title": "공부 전략",
+    "summary": "필기는 기출 중심으로 빠르게 정리하고 실기는 직접 엑셀을 조작하며 반복하는 것이 핵심입니다.",
+    "written": {
+      "title": "필기 공부 전략",
+      "items": [
+        "과목별 핵심 개념을 짧게 훑습니다.",
+        "최근 기출문제를 반복합니다.",
+        "오답은 선택지까지 확인합니다."
+      ],
+      "tip": "필기는 기출 반복 효과가 큰 편입니다."
+    },
+    "practical": {
+      "title": "실기 공부 전략",
+      "items": [
+        "기본작업·계산작업·분석작업·기타작업을 유형별로 연습합니다.",
+        "함수는 조건 해석과 입력 순서를 함께 익힙니다.",
+        "마지막에는 시간 제한 모의시험을 반복합니다."
+      ],
+      "tip": "눈으로 보는 학습보다 직접 작업하는 시간이 중요합니다."
+    },
+    "roadmap": [
+      {
+        "step": "STEP 1",
+        "title": "엑셀 기초 익히기",
+        "description": "화면과 기본 조작을 익힙니다."
+      },
+      {
+        "step": "STEP 2",
+        "title": "필기 기출 회독",
+        "description": "반복 출제 개념을 정리합니다."
+      },
+      {
+        "step": "STEP 3",
+        "title": "실기 유형별 연습",
+        "description": "작업 순서를 익힙니다."
+      },
+      {
+        "step": "STEP 4",
+        "title": "모의시험",
+        "description": "시간 배분을 확정합니다."
+      }
+    ],
+    "periods": [
+      {
+        "level": "엑셀 경험 있음",
+        "period": "2~4주",
+        "description": "실기 유형 적응 중심"
+      },
+      {
+        "level": "일반 초보자",
+        "period": "4~6주",
+        "description": "필기와 실기를 병행"
+      },
+      {
+        "level": "컴퓨터 초보자",
+        "period": "1~2개월",
+        "description": "기초 조작부터 시작"
+      }
+    ],
+    "tips": [
+      "필기와 실기를 너무 오래 분리하지 마세요.",
+      "실기 파일을 직접 저장하며 연습하세요."
+    ],
+    "failures": [
+      "강의만 보고 직접 따라 하지 않습니다.",
+      "함수식만 암기하고 조건을 해석하지 못합니다."
+    ],
+    "checklist": [
+      "최근 실기 기출 2회분 이상 재풀이",
+      "자주 틀리는 함수 복습",
+      "시험 시간에 맞춘 모의시험"
+    ],
+    "resources": [
+      "대한상공회의소 공식 출제기준",
+      "최근 기출문제와 실기 예제"
+    ],
+    "labookAdvice": "컴활2급은 짧게 끝내는 것이 유리합니다. 필기는 빠르게 통과하고 실기에 더 많은 시간을 쓰세요."
+  },
+  "career": {
+    "title": "취업·활용 정보",
+    "summary": "사무·행정·회계보조 등 엑셀 활용이 필요한 직무에서 기초 역량 증명용으로 활용됩니다.",
+    "sections": [
+      {
+        "title": "활용 직무",
+        "items": [
+          {
+            "label": "사무·행정",
+            "description": "문서와 표 계산 업무의 기초 역량을 보여줄 수 있습니다."
+          },
+          {
+            "label": "회계·총무 보조",
+            "description": "기본적인 스프레드시트 활용 능력과 연결됩니다."
+          }
+        ]
+      },
+      {
+        "title": "다음 단계",
+        "items": [
+          {
+            "label": "컴활1급",
+            "description": "스프레드시트와 데이터베이스 심화 역량으로 확장합니다."
+          },
+          {
+            "label": "워드프로세서",
+            "description": "문서 작성 능력을 함께 보완합니다."
+          }
+        ]
+      }
+    ],
+    "realisticNote": "자격증만으로 취업이 보장되지는 않으며 실제 엑셀 활용 경험이 함께 중요합니다."
+  },
+  "officialInfo": {
+    "title": "공식 시험 정보",
+    "summary": "시험 접수 전 시행기관의 최신 공고와 출제기준을 반드시 확인하세요.",
+    "organization": "대한상공회의소",
+    "website": "https://license.korcham.net/co/examguide.do?cd=0103&mm=202",
+    "items": [
+      {
+        "label": "시험과목",
+        "description": "필기: 컴퓨터 일반·스프레드시트 일반 / 실기: 스프레드시트 실무"
+      },
+      {
+        "label": "시험시간",
+        "description": "필기 40분, 실기 40분"
+      },
+      {
+        "label": "합격기준",
+        "description": "필기 과목당 40점 이상 및 평균 60점 이상, 실기 70점 이상"
+      },
+      {
+        "label": "실기프로그램",
+        "description": "MS Office LTSC 2021 계열"
+      }
+    ],
+    "importantNotice": [
+      "시험 일정과 운영 방식은 회차·지역에 따라 달라질 수 있습니다.",
+      "접수 전 최신 공고와 수험자 안내를 확인해야 합니다."
+    ],
+    "buttons": [
+      {
+        "title": "공식 시험 안내 확인",
+        "url": "https://license.korcham.net/co/examguide.do?cd=0103&mm=202"
+      }
+    ]
+  },
+  "cost": {
+    "title": "시험 비용과 준비비용",
+    "summary": "공식 수험료와 개인별 학습비용을 함께 고려하세요.",
+    "items": [
+      {
+        "label": "필기 수험료",
+        "value": "20,500원",
+        "note": "대한상공회의소 공식 안내 기준"
+      },
+      {
+        "label": "실기 수험료",
+        "value": "25,000원",
+        "note": "대한상공회의소 공식 안내 기준"
+      },
+      {
+        "label": "교재·강의",
+        "value": "0~10만원대",
+        "note": "학습 방식에 따라 다름"
+      }
+    ],
+    "realisticNote": "교재·강의 비용은 선택에 따라 달라지며 공식 수험료는 접수 시점에 다시 확인해야 합니다."
+  },
+  "affiliate": {},
+  "trustInfo": {
+    "title": "정보 출처 및 업데이트",
+    "description": "시행기관의 공식 시험 안내와 출제기준을 우선 확인해 작성했습니다.",
+    "sourceLabel": "대한상공회의소 공식 시험 안내",
+    "sourceUrl": "https://license.korcham.net/co/examguide.do?cd=0103&mm=202",
+    "lastVerified": "2026-07-27",
+    "lastUpdated": "2026-07-27",
+    "notice": "시험제도와 수수료는 변경될 수 있으므로 접수 전 공식 안내를 확인하세요."
+  },
+  "finalCta": {
+    "title": "컴퓨터활용능력 2급, 지금 준비해도 될까요?",
+    "description": "응시자격과 준비기간을 확인하고 본인에게 맞는 학습 계획부터 세워보세요.",
+    "primaryButton": {
+      "label": "공식 시험 안내 확인",
+      "url": "https://license.korcham.net/co/examguide.do?cd=0103&mm=202"
+    },
+    "secondaryButton": {
+      "label": "관련 자격증 보기",
+      "url": "#related"
+    }
+  },
+  "seo": {
+    "title": "컴퓨터활용능력 2급 시험정보·난이도·공부방법 | 라북",
+    "description": "스프레드시트 활용 능력을 평가하는 대표적인 사무·OA 입문 자격증입니다. 응시자격, 시험과목, 합격기준, 준비기간, 현실적인 공부전략을 한 페이지에서 확인하세요.",
+    "keywords": [
+      "컴활2급",
+      "컴퓨터활용능력2급",
+      "엑셀 자격증",
+      "사무 자격증"
+    ],
+    "image": "/images/hero/computer-specialist-2.webp"
+  },
+  "update": {
+    "version": "1.0.0",
+    "lastUpdated": "2026-07-27",
+    "lastVerified": "2026-07-27",
+    "verified": true,
+    "note": "1차 IT·사무 자격증 묶음 제작"
+  },
+  "faq": {
+    "title": "자주 묻는 질문",
+    "items": [
+      {
+        "question": "컴활1급과 2급 중 무엇부터 준비해야 하나요?",
+        "answer": "엑셀 초보자이거나 빠른 취득이 필요하면 2급부터 시작하는 편이 현실적입니다."
+      },
+      {
+        "question": "독학이 가능한가요?",
+        "answer": "가능합니다. 다만 실기는 반드시 프로그램에서 직접 반복해야 합니다."
+      },
+      {
+        "question": "필기 합격 유효기간은 얼마인가요?",
+        "answer": "필기 합격 후 2년 이내에 실기시험에 합격해야 합니다."
+      }
+    ]
+  }
+}

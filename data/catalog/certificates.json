@@ -4,31 +4,52 @@
     "shortName": "컴활 1급",
     "type": "national",
     "licenseType": "국가기술자격",
-    "category": "사무·OA",
-    "relatedTag": "상위 자격증"
+    "category": "IT·사무",
+    "agency": "대한상공회의소",
+    "relatedTag": "상위 OA"
   },
   "computer-specialist-2": {
     "name": "컴퓨터활용능력 2급",
     "shortName": "컴활 2급",
     "type": "national",
     "licenseType": "국가기술자격",
-    "category": "사무·OA",
-    "relatedTag": "가장 많이 비교"
+    "category": "IT·사무",
+    "agency": "대한상공회의소",
+    "relatedTag": "OA 입문"
   },
   "word-processor": {
     "name": "워드프로세서",
     "shortName": "워드프로세서",
     "type": "national",
     "licenseType": "국가기술자격",
-    "category": "사무·OA",
-    "relatedTag": "사무 기본"
+    "category": "IT·사무",
+    "agency": "대한상공회의소",
+    "relatedTag": "문서 작성"
+  },
+  "information-processing-engineer": {
+    "name": "정보처리기사",
+    "shortName": "정처기",
+    "type": "national",
+    "licenseType": "국가기술자격 기사",
+    "category": "IT·개발",
+    "agency": "한국산업인력공단",
+    "relatedTag": "개발·전산"
+  },
+  "information-processing-industrial-engineer": {
+    "name": "정보처리산업기사",
+    "shortName": "정처산기",
+    "type": "national",
+    "licenseType": "국가기술자격 산업기사",
+    "category": "IT·개발",
+    "agency": "한국산업인력공단",
+    "relatedTag": "개발 입문"
   },
   "itq": {
     "name": "ITQ",
     "shortName": "ITQ",
     "type": "private",
     "licenseType": "국가공인 민간자격",
-    "category": "사무·OA",
+    "category": "IT·사무",
     "relatedTag": "OA 입문"
   },
   "mos": {
@@ -36,7 +57,7 @@
     "shortName": "MOS",
     "type": "private",
     "licenseType": "국제 민간자격",
-    "category": "사무·OA",
+    "category": "IT·사무",
     "relatedTag": "실무 활용"
   }
 }

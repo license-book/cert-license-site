@@ -1,0 +1,355 @@
+{
+  "basic": {
+    "slug": "word-processor",
+    "name": "워드프로세서",
+    "shortName": "워드프로세서",
+    "type": "national",
+    "licenseType": "국가기술자격",
+    "category": "IT·사무",
+    "agency": "대한상공회의소"
+  },
+  "hero": {
+    "title": "워드프로세서",
+    "subtitle": "문서 작성과 편집 능력을 평가하는 국가기술자격입니다.",
+    "image": "/images/hero/word-processor.webp"
+  },
+  "certificateIntro": {
+    "title": "워드프로세서은 어떤 자격증인가요?",
+    "description": "워드프로세서는 대한상공회의소가 시행하는 단일등급 국가기술자격으로 컴퓨터 기초 지식과 문서편집 능력을 평가합니다. 실기에서는 정해진 시간 안에 문서를 정확히 작성하고 편집하는 능력이 핵심입니다.",
+    "highlights": [
+      "국가기술자격",
+      "대한상공회의소 시행",
+      "IT·사무 분야 활용"
+    ]
+  },
+  "eligibility": {
+    "title": "응시자격",
+    "status": "none",
+    "statusLabel": "응시 제한 없음",
+    "summary": "학력, 전공, 경력과 관계없이 누구나 응시할 수 있습니다.",
+    "commonQuestion": {
+      "question": "관련 자격증을 먼저 취득해야 하나요?",
+      "answer": "아닙니다. 별도의 선행 자격증 없이 바로 응시할 수 있습니다."
+    },
+    "officialNotice": "세부 운영 기준은 시행기관 공식 안내를 확인하세요."
+  },
+  "display": {
+    "charts": false,
+    "career": true,
+    "benefits": false,
+    "cost": true,
+    "schedule": true,
+    "affiliate": false
+  },
+  "keyInfo": {
+    "title": "한눈에 보는 핵심 정보",
+    "items": [
+      {
+        "label": "현실 난이도",
+        "value": "중",
+        "note": "실기 시간 관리가 중요합니다."
+      },
+      {
+        "label": "평균 준비기간",
+        "value": "3~6주",
+        "note": "문서편집 경험에 따라 달라집니다."
+      },
+      {
+        "label": "독학 적합도",
+        "value": "높음",
+        "note": "기출과 실기 연습으로 준비 가능합니다."
+      },
+      {
+        "label": "취업 활용도",
+        "value": "보통~높음",
+        "note": "사무 기본 역량 증명에 활용됩니다."
+      },
+      {
+        "label": "준비 비용",
+        "value": "낮음",
+        "note": "교재 중심 독학이 가능합니다."
+      },
+      {
+        "label": "초보자 적합도",
+        "value": "높음",
+        "note": "문서작성 입문 자격으로 적합합니다."
+      }
+    ]
+  },
+  "realityGuide": {
+    "title": "취득 전 현실 가이드",
+    "summary": "워드프로세서 준비 전 확인해야 할 현실적인 판단 기준입니다.",
+    "recommendedFor": [
+      "사무직 기본 자격을 준비하는 사람",
+      "문서작성 능력을 체계적으로 익히려는 사람",
+      "컴활과 함께 OA 역량을 보완하려는 사람"
+    ],
+    "reconsiderIf": [
+      "고급 데이터 분석 역량이 필요한 경우",
+      "실제 문서편집 연습 시간을 확보하기 어려운 경우"
+    ],
+    "beforeStart": [
+      "필기는 60문항 60분, 실기는 작업형 30분입니다.",
+      "실기는 한글 2022 또는 Word 2021 환경을 확인해야 합니다."
+    ],
+    "realityPoints": [
+      "실기 합격선이 80점으로 높습니다.",
+      "오탈자와 편집 실수가 점수에 직접 영향을 줍니다."
+    ],
+    "firstStep": {
+      "title": "처음 시작한다면",
+      "description": "기본 입력, 문단 모양, 표, 차트, 스타일 기능을 익히세요."
+    },
+    "nextStep": {
+      "title": "취득 후 다음 단계",
+      "description": "취득 후 컴활2급 또는 컴활1급으로 OA 역량을 확장할 수 있습니다."
+    }
+  },
+  "exam": {
+    "written": "필기",
+    "practical": "실기",
+    "passingCriteria": "필기는 과목당 40점 이상이면서 평균 60점 이상, 실기는 80점 이상",
+    "subjects": [
+      "워드프로세싱 용어 및 기능",
+      "PC 운영체제",
+      "PC 기본상식",
+      "문서편집 기능"
+    ]
+  },
+  "statistics": {
+    "enabled": false,
+    "title": "최근 시험 통계",
+    "summary": "공식 통계가 확인되는 시점에 갱신합니다."
+  },
+  "charts": {
+    "examWeight": {
+      "enabled": false,
+      "items": []
+    }
+  },
+  "studyStrategy": {
+    "title": "공부 전략",
+    "summary": "필기는 기출 중심, 실기는 입력 속도와 편집 정확도를 동시에 높이는 방식이 효율적입니다.",
+    "written": {
+      "title": "필기 공부 전략",
+      "items": [
+        "세 과목의 핵심 용어를 정리합니다.",
+        "최근 기출을 반복합니다.",
+        "운영체제와 PC 상식 오답을 따로 정리합니다."
+      ],
+      "tip": "필기는 기출 회독과 오답 정리가 효과적입니다."
+    },
+    "practical": {
+      "title": "실기 공부 전략",
+      "items": [
+        "문서 입력 속도를 먼저 확보합니다.",
+        "표·차트·스타일·쪽 설정을 작업 순서대로 반복합니다.",
+        "30분 안에 완성하는 실전 연습을 합니다."
+      ],
+      "tip": "오탈자와 누락을 줄이는 마지막 검토 습관이 중요합니다."
+    },
+    "roadmap": [
+      {
+        "step": "STEP 1",
+        "title": "기본 기능 익히기",
+        "description": "문서편집 메뉴를 익힙니다."
+      },
+      {
+        "step": "STEP 2",
+        "title": "필기 기출 회독",
+        "description": "반복 출제 개념을 정리합니다."
+      },
+      {
+        "step": "STEP 3",
+        "title": "실기 유형 연습",
+        "description": "작업 순서를 익힙니다."
+      },
+      {
+        "step": "STEP 4",
+        "title": "30분 모의시험",
+        "description": "속도와 정확도를 점검합니다."
+      }
+    ],
+    "periods": [
+      {
+        "level": "문서편집 경험 있음",
+        "period": "2~3주",
+        "description": "실기 시간 단축 중심"
+      },
+      {
+        "level": "일반 초보자",
+        "period": "4~6주",
+        "description": "필기와 실기 병행"
+      },
+      {
+        "level": "타자·편집 초보자",
+        "period": "1~2개월",
+        "description": "입력과 기본 기능부터 시작"
+      }
+    ],
+    "tips": [
+      "실기 연습은 같은 유형을 반복하세요.",
+      "마지막 3~5분은 검토 시간으로 남기세요."
+    ],
+    "failures": [
+      "입력에 시간이 너무 오래 걸립니다.",
+      "편집 순서를 정하지 않고 문제를 오갑니다."
+    ],
+    "checklist": [
+      "실기 30분 모의시험",
+      "오탈자 검토 습관",
+      "표·차트·스타일 재연습"
+    ],
+    "resources": [
+      "대한상공회의소 공식 출제기준",
+      "한글 2022·Word 2021 실기 예제"
+    ],
+    "labookAdvice": "워드프로세서는 기능을 많이 아는 것보다 정해진 순서로 빠르고 정확하게 문서를 완성하는 능력이 중요합니다."
+  },
+  "career": {
+    "title": "취업·활용 정보",
+    "summary": "문서 작성이 많은 사무·행정 직무에서 기본 OA 역량을 보여주는 보조 자격으로 활용됩니다.",
+    "sections": [
+      {
+        "title": "활용 직무",
+        "items": [
+          {
+            "label": "사무·행정",
+            "description": "공문서와 보고서 작성 능력의 기초를 보여줍니다."
+          },
+          {
+            "label": "총무·인사 보조",
+            "description": "문서 편집과 서식 작성 업무에 연결됩니다."
+          }
+        ]
+      },
+      {
+        "title": "함께 준비할 자격",
+        "items": [
+          {
+            "label": "컴활2급",
+            "description": "스프레드시트 기초 역량을 보완합니다."
+          },
+          {
+            "label": "컴활1급",
+            "description": "고급 사무 데이터 처리 역량으로 확장합니다."
+          }
+        ]
+      }
+    ],
+    "realisticNote": "채용에서의 영향은 기관마다 다르므로 실제 공고를 확인해야 합니다."
+  },
+  "officialInfo": {
+    "title": "공식 시험 정보",
+    "summary": "시험 접수 전 시행기관의 최신 공고와 출제기준을 반드시 확인하세요.",
+    "organization": "대한상공회의소",
+    "website": "https://license.korcham.net/co/examguide.do?cd=0102&mm=21",
+    "items": [
+      {
+        "label": "시험과목",
+        "description": "필기 3과목, 실기 문서편집 기능"
+      },
+      {
+        "label": "시험시간",
+        "description": "필기 60분, 실기 30분"
+      },
+      {
+        "label": "합격기준",
+        "description": "필기 과목당 40점 이상 및 평균 60점 이상, 실기 80점 이상"
+      },
+      {
+        "label": "실기프로그램",
+        "description": "한글 2022, MS Office LTSC Word 2021"
+      }
+    ],
+    "importantNotice": [
+      "시험 일정과 운영 방식은 회차·지역에 따라 달라질 수 있습니다.",
+      "접수 전 최신 공고와 수험자 안내를 확인해야 합니다."
+    ],
+    "buttons": [
+      {
+        "title": "공식 시험 안내 확인",
+        "url": "https://license.korcham.net/co/examguide.do?cd=0102&mm=21"
+      }
+    ]
+  },
+  "cost": {
+    "title": "시험 비용과 준비비용",
+    "summary": "공식 수험료와 개인별 학습비용을 함께 고려하세요.",
+    "items": [
+      {
+        "label": "필기 수험료",
+        "value": "19,000원",
+        "note": "대한상공회의소 공식 안내 기준"
+      },
+      {
+        "label": "실기 수험료",
+        "value": "22,000원",
+        "note": "대한상공회의소 공식 안내 기준"
+      },
+      {
+        "label": "교재·강의",
+        "value": "0~10만원대",
+        "note": "학습 방식에 따라 다름"
+      }
+    ],
+    "realisticNote": "교재·강의 비용은 선택에 따라 달라지며 공식 수험료는 접수 시점에 다시 확인해야 합니다."
+  },
+  "affiliate": {},
+  "trustInfo": {
+    "title": "정보 출처 및 업데이트",
+    "description": "시행기관의 공식 시험 안내와 출제기준을 우선 확인해 작성했습니다.",
+    "sourceLabel": "대한상공회의소 공식 시험 안내",
+    "sourceUrl": "https://license.korcham.net/co/examguide.do?cd=0102&mm=21",
+    "lastVerified": "2026-07-27",
+    "lastUpdated": "2026-07-27",
+    "notice": "시험제도와 수수료는 변경될 수 있으므로 접수 전 공식 안내를 확인하세요."
+  },
+  "finalCta": {
+    "title": "워드프로세서, 지금 준비해도 될까요?",
+    "description": "응시자격과 준비기간을 확인하고 본인에게 맞는 학습 계획부터 세워보세요.",
+    "primaryButton": {
+      "label": "공식 시험 안내 확인",
+      "url": "https://license.korcham.net/co/examguide.do?cd=0102&mm=21"
+    },
+    "secondaryButton": {
+      "label": "관련 자격증 보기",
+      "url": "#related"
+    }
+  },
+  "seo": {
+    "title": "워드프로세서 시험정보·난이도·공부방법 | 라북",
+    "description": "문서 작성과 편집 능력을 평가하는 국가기술자격입니다. 응시자격, 시험과목, 합격기준, 준비기간, 현실적인 공부전략을 한 페이지에서 확인하세요.",
+    "keywords": [
+      "워드프로세서",
+      "워드 자격증",
+      "문서작성 자격증",
+      "사무 자격증"
+    ],
+    "image": "/images/hero/word-processor.webp"
+  },
+  "update": {
+    "version": "1.0.0",
+    "lastUpdated": "2026-07-27",
+    "lastVerified": "2026-07-27",
+    "verified": true,
+    "note": "1차 IT·사무 자격증 묶음 제작"
+  },
+  "faq": {
+    "title": "자주 묻는 질문",
+    "items": [
+      {
+        "question": "워드프로세서는 단일등급인가요?",
+        "answer": "현재는 단일등급으로 시행됩니다."
+      },
+      {
+        "question": "실기에서 어떤 프로그램을 사용하나요?",
+        "answer": "공식 안내 기준 한글 2022와 Word 2021 환경을 확인해야 합니다."
+      },
+      {
+        "question": "독학이 가능한가요?",
+        "answer": "가능하지만 실기 시간을 맞추는 반복 훈련이 필요합니다."
+      }
+    ]
+  }
+}

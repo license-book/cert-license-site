@@ -1,6 +1,14 @@
 {
   "computer-specialist-1-vs-2": {
-    "enabled": false,
+    "enabled": true,
     "label": "컴활 1급·2급 비교"
+  },
+  "computer-specialist-2-vs-word-processor": {
+    "enabled": true,
+    "label": "컴활 2급·워드프로세서 비교"
+  },
+  "information-processing-engineer-vs-information-processing-industrial-engineer": {
+    "enabled": true,
+    "label": "정보처리기사·산업기사 비교"
   }
 }
