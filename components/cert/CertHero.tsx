@@ -97,11 +97,11 @@ export default function CertHero({
           fill
           priority
           sizes="100vw"
-          className="cert-hero-bg object-cover object-[68%_center] md:object-center"
+          className="cert-hero-bg object-cover object-[60%_center] md:object-[58%_center]"
         />
 
         {/* PC용 왼쪽 그라데이션 */}
-        <div className="absolute inset-0 bg-gradient-to-r from-[#061b48] via-[#061b48]/95 to-[#061b48]/20" />
+        <div className="absolute inset-0 bg-gradient-to-r from-[#061b48]/82 via-[#061b48]/45 to-transparent" />
 
         {/* 모바일용 상하 그라데이션 */}
         <div className="absolute inset-0 bg-gradient-to-b from-[#061b48]/95 via-[#061b48]/55 to-[#061b48] md:hidden" />
