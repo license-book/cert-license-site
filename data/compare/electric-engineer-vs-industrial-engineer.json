@@ -1,0 +1,41 @@
+{
+  "slug": "electric-engineer-vs-industrial-engineer",
+  "title": "전기기사 vs 전기산업기사",
+  "description": "응시자격, 난이도, 준비기간, 활용 범위를 현실적으로 비교합니다.",
+  "left": "electric-engineer",
+  "right": "electric-industrial-engineer",
+  "summary": "기사 응시자격을 충족하고 장기 활용도를 중시하면 전기기사, 입문과 단계적 경력 확장을 원하면 전기산업기사가 현실적입니다.",
+  "items": [
+    {
+      "label": "등급",
+      "left": "기사",
+      "right": "산업기사"
+    },
+    {
+      "label": "현실 난이도",
+      "left": "상",
+      "right": "중상"
+    },
+    {
+      "label": "권장 준비기간",
+      "left": "4~8개월",
+      "right": "3~6개월"
+    },
+    {
+      "label": "필기",
+      "left": "5과목",
+      "right": "5과목"
+    },
+    {
+      "label": "실기",
+      "left": "필답형",
+      "right": "필답형"
+    },
+    {
+      "label": "활용 방향",
+      "left": "전기 기술직·선임·경력 확장",
+      "right": "현장 실무 입문·기사 단계 준비"
+    }
+  ],
+  "lastUpdated": "2026-07-28"
+}

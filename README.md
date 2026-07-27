@@ -1,19 +1,26 @@
-# LABOOK V7 공부전략 FINAL 패치
+# 라북 2차 자격증 묶음 완성본
 
-프로젝트 최상위 폴더에 압축을 풀고 폴더 구조를 유지한 채 덮어쓰세요.
+## 포함 자격증
+- 전기기사
+- 전기산업기사
+- 산업안전기사
+- 위험물산업기사
 
-포함 파일:
-- app/cert/[slug]/page.tsx
-- components/cert/StudyStrategy.tsx
-- data/certificates/computer-specialist-1.json
-- data/templates/study-strategy-template.json
-- docs/LABOOK_V7_공부전략_FINAL.md
+## 포함 파일
+- `data/certificates/*.json` 4개
+- `data/compare/*.json` 2개
+- `bundle-manifest.json`
+- `docs/BUNDLE_2_REPORT.md`
 
-검증 결과:
-- JSON 검증: 오류 0, 경고 0
-- TypeScript 검사: 통과
+## 적용 방법
+1. 현재 프로젝트를 ZIP 또는 별도 폴더로 백업합니다.
+2. 이 압축파일의 `data` 폴더를 프로젝트 최상위에 덮어씁니다.
+3. Hero 이미지 4개를 `public/images/hero/`에 추가합니다.
+4. `npm run validate:data`
+5. `npm run build`
+6. `npm run dev`
 
-추가된 핵심 섹션:
-- 시간이 부족하다면 이렇게 공부하세요
-- 실제 합격자들이 많이 선택하는 공부 순서
-- 라북 추천 로드맵
+## 중요
+- 공통 엔진·컴포넌트·레이아웃은 포함하지 않았습니다.
+- 기존 최신 완성본을 보존하면서 데이터만 추가하는 최소 변경 패키지입니다.
+- Hero 이미지 파일 자체는 포함하지 않았으며 JSON 경로만 준비했습니다.

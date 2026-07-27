@@ -1,0 +1,22 @@
+{
+  "bundle": "LABOOK 2차 자격증 묶음",
+  "version": "2.0.0",
+  "createdAt": "2026-07-28",
+  "certificates": [
+    "electric-engineer",
+    "electric-industrial-engineer",
+    "industrial-safety-engineer",
+    "hazardous-material-industrial-engineer"
+  ],
+  "comparisons": [
+    "electric-engineer-vs-industrial-engineer",
+    "industrial-safety-vs-hazardous-material"
+  ],
+  "heroImagesRequired": [
+    "/public/images/hero/electric-engineer.webp",
+    "/public/images/hero/electric-industrial-engineer.webp",
+    "/public/images/hero/industrial-safety-engineer.webp",
+    "/public/images/hero/hazardous-material-industrial-engineer.webp"
+  ],
+  "note": "Hero 이미지 파일은 기존 프로젝트 이미지 제작 단계에서 추가해야 합니다. JSON은 이미지 경로를 포함합니다."
+}

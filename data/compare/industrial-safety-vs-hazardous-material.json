@@ -1,0 +1,36 @@
+{
+  "slug": "industrial-safety-vs-hazardous-material",
+  "title": "산업안전기사 vs 위험물산업기사",
+  "description": "안전관리와 위험물 취급 분야의 차이를 비교합니다.",
+  "left": "industrial-safety-engineer",
+  "right": "hazardous-material-industrial-engineer",
+  "summary": "여러 산업의 종합 안전관리를 목표로 하면 산업안전기사, 화학물질·위험물 저장과 취급 분야를 목표로 하면 위험물산업기사가 더 직접적입니다.",
+  "items": [
+    {
+      "label": "등급",
+      "left": "기사",
+      "right": "산업기사"
+    },
+    {
+      "label": "핵심 분야",
+      "left": "산업재해 예방과 종합 안전관리",
+      "right": "위험물 성질·저장·취급·화재예방"
+    },
+    {
+      "label": "현실 난이도",
+      "left": "중상",
+      "right": "중"
+    },
+    {
+      "label": "실기",
+      "left": "복합형(필답+작업)",
+      "right": "필답형"
+    },
+    {
+      "label": "주요 진출",
+      "left": "제조·건설·물류·공공기관",
+      "right": "화학·정유·제조·위험물 저장시설"
+    }
+  ],
+  "lastUpdated": "2026-07-28"
+}
