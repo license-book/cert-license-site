@@ -1,0 +1,47 @@
+{
+  "slug": "computerized-accounting-grade1-vs-grade2",
+  "enabled": true,
+  "title": "전산회계 1급 vs 전산회계 2급",
+  "description": "시험 범위, 난이도, 준비기간과 활용 목적을 비교해 현재 수준에 맞는 등급을 선택합니다.",
+  "left": {
+    "slug": "computerized-accounting-grade-1",
+    "name": "전산회계 1급"
+  },
+  "right": {
+    "slug": "computerized-accounting-grade-2",
+    "name": "전산회계 2급"
+  },
+  "summary": [
+    {
+      "label": "추천 대상",
+      "left": "회계 기초가 있고 실무 활용도를 높이려는 사람",
+      "right": "회계를 처음 시작하는 사람"
+    },
+    {
+      "label": "체감 난이도",
+      "left": "중급",
+      "right": "초중급"
+    },
+    {
+      "label": "준비기간",
+      "left": "약 1~2개월",
+      "right": "약 2~5주"
+    },
+    {
+      "label": "학습 범위",
+      "left": "회계이론과 전산 실무를 더 넓게 평가",
+      "right": "기초 회계와 기본 입력 중심"
+    }
+  ],
+  "recommendation": "회계가 완전 처음이면 2급으로 기초를 다지고, 취업 활용과 다음 단계 학습까지 고려하면 1급을 목표로 하는 것이 일반적입니다.",
+  "faq": [
+    {
+      "question": "2급을 취득해야 1급에 응시할 수 있나요?",
+      "answer": "아닙니다. 등급별 응시 제한은 없으므로 현재 회계 기초 수준에 따라 선택할 수 있습니다."
+    }
+  ],
+  "seo": {
+    "title": "전산회계 1급 vs 2급 차이·난이도·추천 | 라북",
+    "description": "전산회계 1급과 2급의 시험 범위, 난이도, 준비기간과 추천 대상을 비교합니다."
+  }
+}

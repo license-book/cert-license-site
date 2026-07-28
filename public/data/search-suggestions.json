@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-28T00:07:19.474Z",
-  "total": 111,
+  "generatedAt": "2026-07-28T02:33:34.940Z",
+  "total": 187,
   "items": [
     {
       "label": "개발자 자격증",
@@ -20,12 +20,188 @@
       "category": "IT·개발"
     },
     {
+      "label": "건설·건축",
+      "value": "건설·건축",
+      "slug": "architectural-engineer",
+      "href": "/certificates/architectural-engineer",
+      "type": "alias",
+      "category": "건설·건축"
+    },
+    {
+      "label": "건설·건축",
+      "value": "건설·건축",
+      "slug": "architectural-industrial-engineer",
+      "href": "/certificates/architectural-industrial-engineer",
+      "type": "alias",
+      "category": "건설·건축"
+    },
+    {
+      "label": "건축기사",
+      "value": "건축기사",
+      "slug": "architectural-engineer",
+      "href": "/certificates/architectural-engineer",
+      "type": "certificate",
+      "category": "건설·건축"
+    },
+    {
+      "label": "건축기사 공부방법",
+      "value": "건축기사 공부방법",
+      "slug": "architectural-engineer",
+      "href": "/certificates/architectural-engineer",
+      "type": "alias",
+      "category": "건설·건축"
+    },
+    {
+      "label": "건축기사 난이도",
+      "value": "건축기사 난이도",
+      "slug": "architectural-engineer",
+      "href": "/certificates/architectural-engineer",
+      "type": "alias",
+      "category": "건설·건축"
+    },
+    {
+      "label": "건축기사 시험과목",
+      "value": "건축기사 시험과목",
+      "slug": "architectural-engineer",
+      "href": "/certificates/architectural-engineer",
+      "type": "alias",
+      "category": "건설·건축"
+    },
+    {
+      "label": "건축기사 응시자격",
+      "value": "건축기사 응시자격",
+      "slug": "architectural-engineer",
+      "href": "/certificates/architectural-engineer",
+      "type": "alias",
+      "category": "건설·건축"
+    },
+    {
+      "label": "건축산업기사",
+      "value": "건축산업기사",
+      "slug": "architectural-industrial-engineer",
+      "href": "/certificates/architectural-industrial-engineer",
+      "type": "certificate",
+      "category": "건설·건축"
+    },
+    {
+      "label": "건축산업기사 공부방법",
+      "value": "건축산업기사 공부방법",
+      "slug": "architectural-industrial-engineer",
+      "href": "/certificates/architectural-industrial-engineer",
+      "type": "alias",
+      "category": "건설·건축"
+    },
+    {
+      "label": "건축산업기사 난이도",
+      "value": "건축산업기사 난이도",
+      "slug": "architectural-industrial-engineer",
+      "href": "/certificates/architectural-industrial-engineer",
+      "type": "alias",
+      "category": "건설·건축"
+    },
+    {
+      "label": "건축산업기사 시험과목",
+      "value": "건축산업기사 시험과목",
+      "slug": "architectural-industrial-engineer",
+      "href": "/certificates/architectural-industrial-engineer",
+      "type": "alias",
+      "category": "건설·건축"
+    },
+    {
+      "label": "건축산업기사 응시자격",
+      "value": "건축산업기사 응시자격",
+      "slug": "architectural-industrial-engineer",
+      "href": "/certificates/architectural-industrial-engineer",
+      "type": "alias",
+      "category": "건설·건축"
+    },
+    {
+      "label": "공조냉동기계기능사",
+      "value": "공조냉동기계기능사",
+      "slug": "air-conditioning-refrigeration-craftsman",
+      "href": "/certificates/air-conditioning-refrigeration-craftsman",
+      "type": "certificate",
+      "category": "기계·설비"
+    },
+    {
+      "label": "공조냉동기계기능사 공부방법",
+      "value": "공조냉동기계기능사 공부방법",
+      "slug": "air-conditioning-refrigeration-craftsman",
+      "href": "/certificates/air-conditioning-refrigeration-craftsman",
+      "type": "alias",
+      "category": "기계·설비"
+    },
+    {
+      "label": "공조냉동기계기능사 난이도",
+      "value": "공조냉동기계기능사 난이도",
+      "slug": "air-conditioning-refrigeration-craftsman",
+      "href": "/certificates/air-conditioning-refrigeration-craftsman",
+      "type": "alias",
+      "category": "기계·설비"
+    },
+    {
+      "label": "공조냉동기계기능사 시험과목",
+      "value": "공조냉동기계기능사 시험과목",
+      "slug": "air-conditioning-refrigeration-craftsman",
+      "href": "/certificates/air-conditioning-refrigeration-craftsman",
+      "type": "alias",
+      "category": "기계·설비"
+    },
+    {
+      "label": "공조냉동기계기능사 실기",
+      "value": "공조냉동기계기능사 실기",
+      "slug": "air-conditioning-refrigeration-craftsman",
+      "href": "/certificates/air-conditioning-refrigeration-craftsman",
+      "type": "alias",
+      "category": "기계·설비"
+    },
+    {
+      "label": "공조냉동기계기능사 취업",
+      "value": "공조냉동기계기능사 취업",
+      "slug": "air-conditioning-refrigeration-craftsman",
+      "href": "/certificates/air-conditioning-refrigeration-craftsman",
+      "type": "alias",
+      "category": "기계·설비"
+    },
+    {
+      "label": "국가공인 민간자격",
+      "value": "국가공인 민간자격",
+      "slug": "computerized-tax-grade-2",
+      "href": "/certificates/computerized-tax-grade-2",
+      "type": "alias",
+      "category": "회계·세무"
+    },
+    {
       "label": "국가공인 민간자격",
       "value": "국가공인 민간자격",
       "slug": "computerized-accounting-grade-1",
       "href": "/certificates/computerized-accounting-grade-1",
       "type": "alias",
       "category": "회계·세무"
+    },
+    {
+      "label": "국가공인 민간자격",
+      "value": "국가공인 민간자격",
+      "slug": "computerized-accounting-grade-2",
+      "href": "/certificates/computerized-accounting-grade-2",
+      "type": "alias",
+      "category": "회계·세무"
+    },
+    {
+      "label": "국가기술자격",
+      "value": "국가기술자격",
+      "slug": "architectural-engineer",
+      "href": "/certificates/architectural-engineer",
+      "type": "alias",
+      "category": "건설·건축"
+    },
+    {
+      "label": "국가기술자격",
+      "value": "국가기술자격",
+      "slug": "architectural-industrial-engineer",
+      "href": "/certificates/architectural-industrial-engineer",
+      "type": "alias",
+      "category": "건설·건축"
     },
     {
       "label": "국가기술자격",
@@ -84,6 +260,38 @@
       "category": "IT·사무"
     },
     {
+      "label": "국가기술자격 기능사",
+      "value": "국가기술자격 기능사",
+      "slug": "air-conditioning-refrigeration-craftsman",
+      "href": "/certificates/air-conditioning-refrigeration-craftsman",
+      "type": "alias",
+      "category": "기계·설비"
+    },
+    {
+      "label": "국가기술자격 기능사",
+      "value": "국가기술자격 기능사",
+      "slug": "energy-management-craftsman",
+      "href": "/certificates/energy-management-craftsman",
+      "type": "alias",
+      "category": "에너지·설비"
+    },
+    {
+      "label": "국가기술자격 기능사",
+      "value": "국가기술자격 기능사",
+      "slug": "welding-craftsman",
+      "href": "/certificates/welding-craftsman",
+      "type": "alias",
+      "category": "기계·금속"
+    },
+    {
+      "label": "국가기술자격 기능사",
+      "value": "국가기술자격 기능사",
+      "slug": "electric-craftsman",
+      "href": "/certificates/electric-craftsman",
+      "type": "alias",
+      "category": "전기·전자"
+    },
+    {
       "label": "국가기술자격 기사",
       "value": "국가기술자격 기사",
       "slug": "information-security-engineer",
@@ -122,6 +330,22 @@
       "href": "/certificates/information-processing-industrial-engineer",
       "type": "alias",
       "category": "IT·개발"
+    },
+    {
+      "label": "기계·금속",
+      "value": "기계·금속",
+      "slug": "welding-craftsman",
+      "href": "/certificates/welding-craftsman",
+      "type": "alias",
+      "category": "기계·금속"
+    },
+    {
+      "label": "기계·설비",
+      "value": "기계·설비",
+      "slug": "air-conditioning-refrigeration-craftsman",
+      "href": "/certificates/air-conditioning-refrigeration-craftsman",
+      "type": "alias",
+      "category": "기계·설비"
     },
     {
       "label": "대한상공회의소",
@@ -252,12 +476,116 @@
       "category": "안전관리"
     },
     {
+      "label": "에너지·설비",
+      "value": "에너지·설비",
+      "slug": "energy-management-craftsman",
+      "href": "/certificates/energy-management-craftsman",
+      "type": "alias",
+      "category": "에너지·설비"
+    },
+    {
+      "label": "에너지관리기능사",
+      "value": "에너지관리기능사",
+      "slug": "energy-management-craftsman",
+      "href": "/certificates/energy-management-craftsman",
+      "type": "certificate",
+      "category": "에너지·설비"
+    },
+    {
+      "label": "에너지관리기능사 공부방법",
+      "value": "에너지관리기능사 공부방법",
+      "slug": "energy-management-craftsman",
+      "href": "/certificates/energy-management-craftsman",
+      "type": "alias",
+      "category": "에너지·설비"
+    },
+    {
+      "label": "에너지관리기능사 난이도",
+      "value": "에너지관리기능사 난이도",
+      "slug": "energy-management-craftsman",
+      "href": "/certificates/energy-management-craftsman",
+      "type": "alias",
+      "category": "에너지·설비"
+    },
+    {
+      "label": "에너지관리기능사 시험과목",
+      "value": "에너지관리기능사 시험과목",
+      "slug": "energy-management-craftsman",
+      "href": "/certificates/energy-management-craftsman",
+      "type": "alias",
+      "category": "에너지·설비"
+    },
+    {
+      "label": "에너지관리기능사 실기",
+      "value": "에너지관리기능사 실기",
+      "slug": "energy-management-craftsman",
+      "href": "/certificates/energy-management-craftsman",
+      "type": "alias",
+      "category": "에너지·설비"
+    },
+    {
+      "label": "에너지관리기능사 취업",
+      "value": "에너지관리기능사 취업",
+      "slug": "energy-management-craftsman",
+      "href": "/certificates/energy-management-craftsman",
+      "type": "alias",
+      "category": "에너지·설비"
+    },
+    {
       "label": "엑셀 자격증",
       "value": "엑셀 자격증",
       "slug": "computer-specialist-2",
       "href": "/certificates/computer-specialist-2",
       "type": "alias",
       "category": "IT·사무"
+    },
+    {
+      "label": "용접기능사",
+      "value": "용접기능사",
+      "slug": "welding-craftsman",
+      "href": "/certificates/welding-craftsman",
+      "type": "certificate",
+      "category": "기계·금속"
+    },
+    {
+      "label": "용접기능사 공부방법",
+      "value": "용접기능사 공부방법",
+      "slug": "welding-craftsman",
+      "href": "/certificates/welding-craftsman",
+      "type": "alias",
+      "category": "기계·금속"
+    },
+    {
+      "label": "용접기능사 난이도",
+      "value": "용접기능사 난이도",
+      "slug": "welding-craftsman",
+      "href": "/certificates/welding-craftsman",
+      "type": "alias",
+      "category": "기계·금속"
+    },
+    {
+      "label": "용접기능사 시험과목",
+      "value": "용접기능사 시험과목",
+      "slug": "welding-craftsman",
+      "href": "/certificates/welding-craftsman",
+      "type": "alias",
+      "category": "기계·금속"
+    },
+    {
+      "label": "용접기능사 실기",
+      "value": "용접기능사 실기",
+      "slug": "welding-craftsman",
+      "href": "/certificates/welding-craftsman",
+      "type": "alias",
+      "category": "기계·금속"
+    },
+    {
+      "label": "용접기능사 취업",
+      "value": "용접기능사 취업",
+      "slug": "welding-craftsman",
+      "href": "/certificates/welding-craftsman",
+      "type": "alias",
+      "category": "기계·금속"
     },
     {
       "label": "워드 자격증",
@@ -318,6 +646,14 @@
     {
       "label": "전기·전자",
       "value": "전기·전자",
+      "slug": "electric-craftsman",
+      "href": "/certificates/electric-craftsman",
+      "type": "alias",
+      "category": "전기·전자"
+    },
+    {
+      "label": "전기·전자",
+      "value": "전기·전자",
       "slug": "electric-engineer",
       "href": "/certificates/electric-engineer",
       "type": "alias",
@@ -328,6 +664,54 @@
       "value": "전기·전자",
       "slug": "electric-industrial-engineer",
       "href": "/certificates/electric-industrial-engineer",
+      "type": "alias",
+      "category": "전기·전자"
+    },
+    {
+      "label": "전기기능사",
+      "value": "전기기능사",
+      "slug": "electric-craftsman",
+      "href": "/certificates/electric-craftsman",
+      "type": "certificate",
+      "category": "전기·전자"
+    },
+    {
+      "label": "전기기능사 공부방법",
+      "value": "전기기능사 공부방법",
+      "slug": "electric-craftsman",
+      "href": "/certificates/electric-craftsman",
+      "type": "alias",
+      "category": "전기·전자"
+    },
+    {
+      "label": "전기기능사 난이도",
+      "value": "전기기능사 난이도",
+      "slug": "electric-craftsman",
+      "href": "/certificates/electric-craftsman",
+      "type": "alias",
+      "category": "전기·전자"
+    },
+    {
+      "label": "전기기능사 시험과목",
+      "value": "전기기능사 시험과목",
+      "slug": "electric-craftsman",
+      "href": "/certificates/electric-craftsman",
+      "type": "alias",
+      "category": "전기·전자"
+    },
+    {
+      "label": "전기기능사 실기",
+      "value": "전기기능사 실기",
+      "slug": "electric-craftsman",
+      "href": "/certificates/electric-craftsman",
+      "type": "alias",
+      "category": "전기·전자"
+    },
+    {
+      "label": "전기기능사 취업",
+      "value": "전기기능사 취업",
+      "slug": "electric-craftsman",
+      "href": "/certificates/electric-craftsman",
       "type": "alias",
       "category": "전기·전자"
     },
@@ -412,6 +796,46 @@
       "category": "전기·전자"
     },
     {
+      "label": "전산세무 2급",
+      "value": "전산세무 2급",
+      "slug": "computerized-tax-grade-2",
+      "href": "/certificates/computerized-tax-grade-2",
+      "type": "certificate",
+      "category": "회계·세무"
+    },
+    {
+      "label": "전산세무 2급 공부방법",
+      "value": "전산세무 2급 공부방법",
+      "slug": "computerized-tax-grade-2",
+      "href": "/certificates/computerized-tax-grade-2",
+      "type": "alias",
+      "category": "회계·세무"
+    },
+    {
+      "label": "전산세무 2급 난이도",
+      "value": "전산세무 2급 난이도",
+      "slug": "computerized-tax-grade-2",
+      "href": "/certificates/computerized-tax-grade-2",
+      "type": "alias",
+      "category": "회계·세무"
+    },
+    {
+      "label": "전산세무 2급 시험과목",
+      "value": "전산세무 2급 시험과목",
+      "slug": "computerized-tax-grade-2",
+      "href": "/certificates/computerized-tax-grade-2",
+      "type": "alias",
+      "category": "회계·세무"
+    },
+    {
+      "label": "전산세무 2급 응시자격",
+      "value": "전산세무 2급 응시자격",
+      "slug": "computerized-tax-grade-2",
+      "href": "/certificates/computerized-tax-grade-2",
+      "type": "alias",
+      "category": "회계·세무"
+    },
+    {
       "label": "전산회계 1급",
       "value": "전산회계 1급",
       "slug": "computerized-accounting-grade-1",
@@ -440,6 +864,46 @@
       "value": "전산회계 1급 시험과목",
       "slug": "computerized-accounting-grade-1",
       "href": "/certificates/computerized-accounting-grade-1",
+      "type": "alias",
+      "category": "회계·세무"
+    },
+    {
+      "label": "전산회계 2급",
+      "value": "전산회계 2급",
+      "slug": "computerized-accounting-grade-2",
+      "href": "/certificates/computerized-accounting-grade-2",
+      "type": "certificate",
+      "category": "회계·세무"
+    },
+    {
+      "label": "전산회계 2급 공부방법",
+      "value": "전산회계 2급 공부방법",
+      "slug": "computerized-accounting-grade-2",
+      "href": "/certificates/computerized-accounting-grade-2",
+      "type": "alias",
+      "category": "회계·세무"
+    },
+    {
+      "label": "전산회계 2급 난이도",
+      "value": "전산회계 2급 난이도",
+      "slug": "computerized-accounting-grade-2",
+      "href": "/certificates/computerized-accounting-grade-2",
+      "type": "alias",
+      "category": "회계·세무"
+    },
+    {
+      "label": "전산회계 2급 시험과목",
+      "value": "전산회계 2급 시험과목",
+      "slug": "computerized-accounting-grade-2",
+      "href": "/certificates/computerized-accounting-grade-2",
+      "type": "alias",
+      "category": "회계·세무"
+    },
+    {
+      "label": "전산회계 2급 응시자격",
+      "value": "전산회계 2급 응시자격",
+      "slug": "computerized-accounting-grade-2",
+      "href": "/certificates/computerized-accounting-grade-2",
       "type": "alias",
       "category": "회계·세무"
     },
@@ -630,6 +1094,30 @@
     {
       "label": "한국산업인력공단",
       "value": "한국산업인력공단",
+      "slug": "architectural-engineer",
+      "href": "/certificates/architectural-engineer",
+      "type": "alias",
+      "category": "건설·건축"
+    },
+    {
+      "label": "한국산업인력공단",
+      "value": "한국산업인력공단",
+      "slug": "architectural-industrial-engineer",
+      "href": "/certificates/architectural-industrial-engineer",
+      "type": "alias",
+      "category": "건설·건축"
+    },
+    {
+      "label": "한국산업인력공단",
+      "value": "한국산업인력공단",
+      "slug": "air-conditioning-refrigeration-craftsman",
+      "href": "/certificates/air-conditioning-refrigeration-craftsman",
+      "type": "alias",
+      "category": "기계·설비"
+    },
+    {
+      "label": "한국산업인력공단",
+      "value": "한국산업인력공단",
       "slug": "office-automation-industrial-engineer",
       "href": "/certificates/office-automation-industrial-engineer",
       "type": "alias",
@@ -646,10 +1134,34 @@
     {
       "label": "한국산업인력공단",
       "value": "한국산업인력공단",
+      "slug": "energy-management-craftsman",
+      "href": "/certificates/energy-management-craftsman",
+      "type": "alias",
+      "category": "에너지·설비"
+    },
+    {
+      "label": "한국산업인력공단",
+      "value": "한국산업인력공단",
+      "slug": "welding-craftsman",
+      "href": "/certificates/welding-craftsman",
+      "type": "alias",
+      "category": "기계·금속"
+    },
+    {
+      "label": "한국산업인력공단",
+      "value": "한국산업인력공단",
       "slug": "hazardous-material-industrial-engineer",
       "href": "/certificates/hazardous-material-industrial-engineer",
       "type": "alias",
       "category": "화학·안전"
+    },
+    {
+      "label": "한국산업인력공단",
+      "value": "한국산업인력공단",
+      "slug": "electric-craftsman",
+      "href": "/certificates/electric-craftsman",
+      "type": "alias",
+      "category": "전기·전자"
     },
     {
       "label": "한국산업인력공단",
@@ -686,8 +1198,24 @@
     {
       "label": "한국세무사회",
       "value": "한국세무사회",
+      "slug": "computerized-tax-grade-2",
+      "href": "/certificates/computerized-tax-grade-2",
+      "type": "alias",
+      "category": "회계·세무"
+    },
+    {
+      "label": "한국세무사회",
+      "value": "한국세무사회",
       "slug": "computerized-accounting-grade-1",
       "href": "/certificates/computerized-accounting-grade-1",
+      "type": "alias",
+      "category": "회계·세무"
+    },
+    {
+      "label": "한국세무사회",
+      "value": "한국세무사회",
+      "slug": "computerized-accounting-grade-2",
+      "href": "/certificates/computerized-accounting-grade-2",
       "type": "alias",
       "category": "회계·세무"
     },
@@ -702,10 +1230,50 @@
     {
       "label": "회계·세무",
       "value": "회계·세무",
+      "slug": "computerized-tax-grade-2",
+      "href": "/certificates/computerized-tax-grade-2",
+      "type": "alias",
+      "category": "회계·세무"
+    },
+    {
+      "label": "회계·세무",
+      "value": "회계·세무",
       "slug": "computerized-accounting-grade-1",
       "href": "/certificates/computerized-accounting-grade-1",
       "type": "alias",
       "category": "회계·세무"
+    },
+    {
+      "label": "회계·세무",
+      "value": "회계·세무",
+      "slug": "computerized-accounting-grade-2",
+      "href": "/certificates/computerized-accounting-grade-2",
+      "type": "alias",
+      "category": "회계·세무"
+    },
+    {
+      "label": "air-conditioning-refrigeration-craftsman",
+      "value": "air-conditioning-refrigeration-craftsman",
+      "slug": "air-conditioning-refrigeration-craftsman",
+      "href": "/certificates/air-conditioning-refrigeration-craftsman",
+      "type": "alias",
+      "category": "기계·설비"
+    },
+    {
+      "label": "architectural-engineer",
+      "value": "architectural-engineer",
+      "slug": "architectural-engineer",
+      "href": "/certificates/architectural-engineer",
+      "type": "alias",
+      "category": "건설·건축"
+    },
+    {
+      "label": "architectural-industrial-engineer",
+      "value": "architectural-industrial-engineer",
+      "slug": "architectural-industrial-engineer",
+      "href": "/certificates/architectural-industrial-engineer",
+      "type": "alias",
+      "category": "건설·건축"
     },
     {
       "label": "computer-specialist-1",
@@ -732,6 +1300,30 @@
       "category": "회계·세무"
     },
     {
+      "label": "computerized-accounting-grade-2",
+      "value": "computerized-accounting-grade-2",
+      "slug": "computerized-accounting-grade-2",
+      "href": "/certificates/computerized-accounting-grade-2",
+      "type": "alias",
+      "category": "회계·세무"
+    },
+    {
+      "label": "computerized-tax-grade-2",
+      "value": "computerized-tax-grade-2",
+      "slug": "computerized-tax-grade-2",
+      "href": "/certificates/computerized-tax-grade-2",
+      "type": "alias",
+      "category": "회계·세무"
+    },
+    {
+      "label": "electric-craftsman",
+      "value": "electric-craftsman",
+      "slug": "electric-craftsman",
+      "href": "/certificates/electric-craftsman",
+      "type": "alias",
+      "category": "전기·전자"
+    },
+    {
       "label": "electric-engineer",
       "value": "electric-engineer",
       "slug": "electric-engineer",
@@ -746,6 +1338,14 @@
       "href": "/certificates/electric-industrial-engineer",
       "type": "alias",
       "category": "전기·전자"
+    },
+    {
+      "label": "energy-management-craftsman",
+      "value": "energy-management-craftsman",
+      "slug": "energy-management-craftsman",
+      "href": "/certificates/energy-management-craftsman",
+      "type": "alias",
+      "category": "에너지·설비"
     },
     {
       "label": "hazardous-material-industrial-engineer",
@@ -882,6 +1482,14 @@
       "href": "/certificates/office-automation-industrial-engineer",
       "type": "alias",
       "category": "IT·사무"
+    },
+    {
+      "label": "welding-craftsman",
+      "value": "welding-craftsman",
+      "slug": "welding-craftsman",
+      "href": "/certificates/welding-craftsman",
+      "type": "alias",
+      "category": "기계·금속"
     },
     {
       "label": "word-processor",

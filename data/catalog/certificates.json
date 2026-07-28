@@ -131,5 +131,77 @@
     "category": "회계·세무",
     "agency": "한국세무사회",
     "relatedTag": "회계·세무"
+  },
+  "computerized-accounting-grade-2": {
+    "name": "전산회계 2급",
+    "shortName": "전산회계2급",
+    "type": "national",
+    "licenseType": "국가공인 민간자격",
+    "category": "회계·세무",
+    "agency": "한국세무사회",
+    "relatedTag": "회계·세무"
+  },
+  "computerized-tax-grade-2": {
+    "name": "전산세무 2급",
+    "shortName": "전산세무2급",
+    "type": "national",
+    "licenseType": "국가공인 민간자격",
+    "category": "회계·세무",
+    "agency": "한국세무사회",
+    "relatedTag": "회계·세무"
+  },
+  "architectural-engineer": {
+    "name": "건축기사",
+    "shortName": "건축기사",
+    "type": "national",
+    "licenseType": "국가기술자격",
+    "category": "건설·건축",
+    "agency": "한국산업인력공단",
+    "relatedTag": "건설·건축"
+  },
+  "architectural-industrial-engineer": {
+    "name": "건축산업기사",
+    "shortName": "건축산업기사",
+    "type": "national",
+    "licenseType": "국가기술자격",
+    "category": "건설·건축",
+    "agency": "한국산업인력공단",
+    "relatedTag": "건설·건축"
+  },
+  "electric-craftsman": {
+    "name": "전기기능사",
+    "shortName": "전기기능사",
+    "type": "national",
+    "licenseType": "국가기술자격 기능사",
+    "category": "전기·전자",
+    "agency": "한국산업인력공단",
+    "relatedTag": "전기·전자"
+  },
+  "welding-craftsman": {
+    "name": "용접기능사",
+    "shortName": "용접기능사",
+    "type": "national",
+    "licenseType": "국가기술자격 기능사",
+    "category": "기계·금속",
+    "agency": "한국산업인력공단",
+    "relatedTag": "기계·금속"
+  },
+  "energy-management-craftsman": {
+    "name": "에너지관리기능사",
+    "shortName": "에너지관리기능사",
+    "type": "national",
+    "licenseType": "국가기술자격 기능사",
+    "category": "에너지·설비",
+    "agency": "한국산업인력공단",
+    "relatedTag": "에너지·설비"
+  },
+  "air-conditioning-refrigeration-craftsman": {
+    "name": "공조냉동기계기능사",
+    "shortName": "공조냉동기계기능사",
+    "type": "national",
+    "licenseType": "국가기술자격 기능사",
+    "category": "기계·설비",
+    "agency": "한국산업인력공단",
+    "relatedTag": "기계·설비"
   }
 }

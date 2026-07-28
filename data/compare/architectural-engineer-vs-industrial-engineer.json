@@ -1,0 +1,47 @@
+{
+  "slug": "architectural-engineer-vs-industrial-engineer",
+  "enabled": true,
+  "title": "건축기사 vs 건축산업기사",
+  "description": "응시자격, 난이도, 준비기간과 활용 분야를 비교해 적합한 자격을 선택합니다.",
+  "left": {
+    "slug": "architectural-engineer",
+    "name": "건축기사"
+  },
+  "right": {
+    "slug": "architectural-industrial-engineer",
+    "name": "건축산업기사"
+  },
+  "summary": [
+    {
+      "label": "자격 등급",
+      "left": "기사",
+      "right": "산업기사"
+    },
+    {
+      "label": "응시자격",
+      "left": "기사 기준 충족 필요",
+      "right": "산업기사 기준 충족 필요"
+    },
+    {
+      "label": "체감 난이도",
+      "left": "상",
+      "right": "중상"
+    },
+    {
+      "label": "추천 대상",
+      "left": "건축 전문직·기사급 자격이 필요한 사람",
+      "right": "건축 실무 입문과 단계적 취득을 원하는 사람"
+    }
+  ],
+  "recommendation": "기사 응시자격을 충족하고 장기적인 건축 기술직 활용을 목표로 한다면 건축기사가 유리합니다. 현재 조건이 산업기사에 맞거나 단계적으로 준비하려면 건축산업기사가 현실적입니다.",
+  "faq": [
+    {
+      "question": "산업기사 취득 후 기사로 올라갈 수 있나요?",
+      "answer": "보유 자격과 실무경력을 포함한 기사 응시자격을 충족하면 도전할 수 있습니다. 개인별 인정 여부는 Q-Net에서 확인해야 합니다."
+    }
+  ],
+  "seo": {
+    "title": "건축기사 vs 건축산업기사 차이·응시자격·난이도 | 라북",
+    "description": "건축기사와 건축산업기사의 응시자격, 난이도, 준비기간과 활용 분야를 비교합니다."
+  }
+}

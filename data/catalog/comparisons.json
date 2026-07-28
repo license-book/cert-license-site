@@ -32,5 +32,35 @@
     "right": "computerized-accounting-grade-1",
     "description": "사무자동화와 회계 실무 자격의 차이를 비교합니다.",
     "enabled": true
+  },
+  "computerized-accounting-grade1-vs-grade2": {
+    "enabled": true,
+    "label": "전산회계 1급 vs 전산회계 2급",
+    "title": "전산회계 1급 vs 전산회계 2급",
+    "left": "computerized-accounting-grade-1",
+    "right": "computerized-accounting-grade-2",
+    "description": "시험 범위, 난이도, 준비기간과 활용 목적을 비교합니다."
+  },
+  "architectural-engineer-vs-industrial-engineer": {
+    "enabled": true,
+    "label": "건축기사 vs 건축산업기사",
+    "title": "건축기사 vs 건축산업기사",
+    "left": "architectural-engineer",
+    "right": "architectural-industrial-engineer",
+    "description": "응시자격, 난이도, 준비기간과 활용 범위를 비교합니다."
+  },
+  "electric-engineer-vs-craftsman": {
+    "title": "전기기사 vs 전기기능사",
+    "left": "electric-engineer",
+    "right": "electric-craftsman",
+    "description": "응시자격, 난이도, 시험구조, 준비기간과 활용 방향을 현실적으로 비교합니다.",
+    "enabled": true
+  },
+  "energy-management-vs-air-conditioning-craftsman": {
+    "title": "에너지관리기능사 vs 공조냉동기계기능사",
+    "left": "energy-management-craftsman",
+    "right": "air-conditioning-refrigeration-craftsman",
+    "description": "열설비와 냉동·공조설비 기능사 중 어떤 자격이 진로에 맞는지 비교합니다.",
+    "enabled": true
   }
 }

@@ -5,7 +5,7 @@ type EligibilityCondition = {
 
 type EligibilityData = {
   title: string;
-  status: "none" | "conditional" | "restricted";
+  status: "none" | "conditional" | "restricted" | "required";
   statusLabel: string;
   summary: string;
   conditions?: EligibilityCondition[];
@@ -32,6 +32,10 @@ const statusStyles = {
   restricted: {
     badge: "bg-rose-100 text-rose-700",
     panel: "bg-rose-50 ring-rose-100",
+  },
+  required: {
+    badge: "bg-amber-100 text-amber-700",
+    panel: "bg-amber-50 ring-amber-100",
   },
 };
 

@@ -1,0 +1,12 @@
+{
+  "bundle": "LABOOK 4차 자격증 묶음",
+  "date": "2026-07-28",
+  "certificateCount": 17,
+  "addedCertificates": 4,
+  "addedComparisons": 2,
+  "dataValidation": "passed",
+  "searchGeneration": "passed",
+  "internalLinksGeneration": "passed",
+  "seoGeneration": "passed",
+  "nextBuild": "not completed because dependency installation did not finish in the execution environment"
+}

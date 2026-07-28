@@ -1,0 +1,41 @@
+{
+  "slug": "energy-management-vs-air-conditioning-craftsman",
+  "title": "에너지관리기능사 vs 공조냉동기계기능사",
+  "description": "열설비와 냉동·공조설비 기능사 중 어떤 자격이 진로에 맞는지 비교합니다.",
+  "left": "energy-management-craftsman",
+  "right": "air-conditioning-refrigeration-craftsman",
+  "summary": "보일러와 열원·배관설비 관리가 목표라면 에너지관리기능사, 냉동·냉난방·공조설비 설치와 유지보수가 목표라면 공조냉동기계기능사가 더 직접적입니다.",
+  "items": [
+    {
+      "label": "주요 분야",
+      "left": "보일러·열설비",
+      "right": "냉동·공조·냉난방"
+    },
+    {
+      "label": "응시자격",
+      "left": "제한 없음",
+      "right": "제한 없음"
+    },
+    {
+      "label": "현실 난이도",
+      "left": "중",
+      "right": "중"
+    },
+    {
+      "label": "권장 준비기간",
+      "left": "2~4개월",
+      "right": "2~4개월"
+    },
+    {
+      "label": "실기 핵심",
+      "left": "열설비·배관 작업",
+      "right": "냉동설비·배관 작업"
+    },
+    {
+      "label": "활용 방향",
+      "left": "보일러·시설 열원관리",
+      "right": "냉동창고·냉난방·시설관리"
+    }
+  ],
+  "lastUpdated": "2026-07-28"
+}

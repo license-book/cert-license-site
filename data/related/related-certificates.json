@@ -172,5 +172,61 @@
     {
       "slug": "computer-specialist-2"
     }
+  ],
+  "electric-craftsman": [
+    {
+      "slug": "electric-industrial-engineer",
+      "reason": "상위 전기 자격"
+    },
+    {
+      "slug": "electric-engineer",
+      "reason": "기사 단계 확장"
+    },
+    {
+      "slug": "industrial-safety-engineer",
+      "reason": "현장 안전 연계"
+    }
+  ],
+  "welding-craftsman": [
+    {
+      "slug": "industrial-safety-engineer",
+      "reason": "현장 안전 연계"
+    },
+    {
+      "slug": "hazardous-material-industrial-engineer",
+      "reason": "산업현장 안전 연계"
+    },
+    {
+      "slug": "energy-management-craftsman",
+      "reason": "배관·설비 분야 연계"
+    }
+  ],
+  "energy-management-craftsman": [
+    {
+      "slug": "air-conditioning-refrigeration-craftsman",
+      "reason": "시설 기계설비 연계"
+    },
+    {
+      "slug": "electric-craftsman",
+      "reason": "시설 전기설비 연계"
+    },
+    {
+      "slug": "industrial-safety-engineer",
+      "reason": "설비 안전관리 연계"
+    }
+  ],
+  "air-conditioning-refrigeration-craftsman": [
+    {
+      "slug": "energy-management-craftsman",
+      "reason": "열원·시설관리 연계"
+    },
+    {
+      "slug": "electric-craftsman",
+      "reason": "설비 전기기초 연계"
+    },
+    {
+      "slug": "industrial-safety-engineer",
+      "reason": "현장 안전관리 연계"
+    }
   ]
 }

@@ -1,0 +1,41 @@
+{
+  "slug": "electric-engineer-vs-craftsman",
+  "title": "전기기사 vs 전기기능사",
+  "description": "응시자격, 난이도, 시험구조, 준비기간과 활용 방향을 현실적으로 비교합니다.",
+  "left": "electric-engineer",
+  "right": "electric-craftsman",
+  "summary": "응시자격을 갖추고 전문기술직과 장기 활용을 중시하면 전기기사, 응시 제한 없이 전기 분야에 입문하고 실무기초를 쌓으려면 전기기능사가 현실적입니다.",
+  "items": [
+    {
+      "label": "등급",
+      "left": "기사",
+      "right": "기능사"
+    },
+    {
+      "label": "응시자격",
+      "left": "기사 응시요건 필요",
+      "right": "제한 없음"
+    },
+    {
+      "label": "현실 난이도",
+      "left": "상",
+      "right": "중"
+    },
+    {
+      "label": "권장 준비기간",
+      "left": "4~8개월",
+      "right": "2~4개월"
+    },
+    {
+      "label": "실기",
+      "left": "필답형",
+      "right": "작업형"
+    },
+    {
+      "label": "활용 방향",
+      "left": "전기 기술직·경력 확장",
+      "right": "전기 현장 입문·기초 실무"
+    }
+  ],
+  "lastUpdated": "2026-07-28"
+}

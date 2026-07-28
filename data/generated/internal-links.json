@@ -1,14 +1,89 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-28T00:07:19.510Z",
+  "generatedAt": "2026-07-28T02:33:35.058Z",
   "maxRelatedPerCertificate": 4,
   "totals": {
-    "certificates": 13,
-    "manualLinks": 48,
-    "autoLinks": 4,
-    "allLinks": 52
+    "certificates": 21,
+    "manualLinks": 60,
+    "autoLinks": 24,
+    "allLinks": 84
   },
   "items": {
+    "air-conditioning-refrigeration-craftsman": [
+      {
+        "slug": "energy-management-craftsman",
+        "reason": "열원·시설관리 연계",
+        "source": "manual"
+      },
+      {
+        "slug": "electric-craftsman",
+        "reason": "설비 전기기초 연계",
+        "source": "manual"
+      },
+      {
+        "slug": "industrial-safety-engineer",
+        "reason": "현장 안전관리 연계",
+        "source": "manual"
+      },
+      {
+        "slug": "welding-craftsman",
+        "tag": "기계·금속",
+        "source": "auto",
+        "score": 50
+      }
+    ],
+    "architectural-engineer": [
+      {
+        "slug": "architectural-industrial-engineer",
+        "tag": "건설·건축",
+        "source": "auto",
+        "score": 100
+      },
+      {
+        "slug": "industrial-safety-engineer",
+        "tag": "산업 안전",
+        "source": "auto",
+        "score": 50
+      },
+      {
+        "slug": "hazardous-material-industrial-engineer",
+        "tag": "위험물 안전",
+        "source": "auto",
+        "score": 50
+      },
+      {
+        "slug": "electric-engineer",
+        "tag": "전기 분야",
+        "source": "auto",
+        "score": 50
+      }
+    ],
+    "architectural-industrial-engineer": [
+      {
+        "slug": "architectural-engineer",
+        "tag": "건설·건축",
+        "source": "auto",
+        "score": 100
+      },
+      {
+        "slug": "industrial-safety-engineer",
+        "tag": "산업 안전",
+        "source": "auto",
+        "score": 50
+      },
+      {
+        "slug": "hazardous-material-industrial-engineer",
+        "tag": "위험물 안전",
+        "source": "auto",
+        "score": 50
+      },
+      {
+        "slug": "electric-engineer",
+        "tag": "전기 분야",
+        "source": "auto",
+        "score": 50
+      }
+    ],
     "computer-specialist-1": [
       {
         "slug": "computer-specialist-2",
@@ -69,6 +144,81 @@
         "source": "manual"
       }
     ],
+    "computerized-accounting-grade-2": [
+      {
+        "slug": "computerized-tax-grade-2",
+        "tag": "회계·세무",
+        "source": "auto",
+        "score": 100
+      },
+      {
+        "slug": "computerized-accounting-grade-1",
+        "tag": "회계·세무",
+        "source": "auto",
+        "score": 80
+      },
+      {
+        "slug": "architectural-engineer",
+        "tag": "건설·건축",
+        "source": "auto",
+        "score": 25
+      },
+      {
+        "slug": "architectural-industrial-engineer",
+        "tag": "건설·건축",
+        "source": "auto",
+        "score": 25
+      }
+    ],
+    "computerized-tax-grade-2": [
+      {
+        "slug": "computerized-accounting-grade-2",
+        "tag": "회계·세무",
+        "source": "auto",
+        "score": 100
+      },
+      {
+        "slug": "computerized-accounting-grade-1",
+        "tag": "회계·세무",
+        "source": "auto",
+        "score": 80
+      },
+      {
+        "slug": "architectural-engineer",
+        "tag": "건설·건축",
+        "source": "auto",
+        "score": 25
+      },
+      {
+        "slug": "architectural-industrial-engineer",
+        "tag": "건설·건축",
+        "source": "auto",
+        "score": 25
+      }
+    ],
+    "electric-craftsman": [
+      {
+        "slug": "electric-industrial-engineer",
+        "reason": "상위 전기 자격",
+        "source": "manual"
+      },
+      {
+        "slug": "electric-engineer",
+        "reason": "기사 단계 확장",
+        "source": "manual"
+      },
+      {
+        "slug": "industrial-safety-engineer",
+        "reason": "현장 안전 연계",
+        "source": "manual"
+      },
+      {
+        "slug": "air-conditioning-refrigeration-craftsman",
+        "tag": "기계·설비",
+        "source": "auto",
+        "score": 50
+      }
+    ],
     "electric-engineer": [
       {
         "slug": "electric-industrial-engineer",
@@ -88,10 +238,10 @@
         "source": "manual"
       },
       {
-        "slug": "word-processor",
-        "tag": "문서 작성",
+        "slug": "electric-craftsman",
+        "tag": "전기·전자",
         "source": "auto",
-        "score": 40
+        "score": 85
       }
     ],
     "electric-industrial-engineer": [
@@ -113,10 +263,33 @@
         "source": "manual"
       },
       {
-        "slug": "word-processor",
-        "tag": "문서 작성",
+        "slug": "electric-craftsman",
+        "tag": "전기·전자",
         "source": "auto",
-        "score": 40
+        "score": 85
+      }
+    ],
+    "energy-management-craftsman": [
+      {
+        "slug": "air-conditioning-refrigeration-craftsman",
+        "reason": "시설 기계설비 연계",
+        "source": "manual"
+      },
+      {
+        "slug": "electric-craftsman",
+        "reason": "시설 전기설비 연계",
+        "source": "manual"
+      },
+      {
+        "slug": "industrial-safety-engineer",
+        "reason": "설비 안전관리 연계",
+        "source": "manual"
+      },
+      {
+        "slug": "welding-craftsman",
+        "tag": "기계·금속",
+        "source": "auto",
+        "score": 50
       }
     ],
     "hazardous-material-industrial-engineer": [
@@ -138,10 +311,10 @@
         "source": "manual"
       },
       {
-        "slug": "word-processor",
-        "tag": "문서 작성",
+        "slug": "architectural-engineer",
+        "tag": "건설·건축",
         "source": "auto",
-        "score": 40
+        "score": 50
       }
     ],
     "industrial-safety-engineer": [
@@ -163,10 +336,10 @@
         "source": "manual"
       },
       {
-        "slug": "word-processor",
-        "tag": "문서 작성",
+        "slug": "architectural-engineer",
+        "tag": "건설·건축",
         "source": "auto",
-        "score": 40
+        "score": 50
       }
     ],
     "information-processing-engineer": [
@@ -261,6 +434,29 @@
       {
         "slug": "computer-specialist-2",
         "source": "manual"
+      }
+    ],
+    "welding-craftsman": [
+      {
+        "slug": "industrial-safety-engineer",
+        "reason": "현장 안전 연계",
+        "source": "manual"
+      },
+      {
+        "slug": "hazardous-material-industrial-engineer",
+        "reason": "산업현장 안전 연계",
+        "source": "manual"
+      },
+      {
+        "slug": "energy-management-craftsman",
+        "reason": "배관·설비 분야 연계",
+        "source": "manual"
+      },
+      {
+        "slug": "air-conditioning-refrigeration-craftsman",
+        "tag": "기계·설비",
+        "source": "auto",
+        "score": 50
       }
     ],
     "word-processor": [
