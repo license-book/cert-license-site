@@ -10,5 +10,27 @@
   "information-processing-engineer-vs-information-processing-industrial-engineer": {
     "enabled": true,
     "label": "정보처리기사·산업기사 비교"
+  },
+  "electric-engineer-vs-industrial-engineer": {
+    "enabled": true,
+    "label": "전기기사·전기산업기사 비교"
+  },
+  "industrial-safety-vs-hazardous-material": {
+    "enabled": true,
+    "label": "산업안전기사·위험물산업기사 비교"
+  },
+  "information-security-engineer-vs-industrial-engineer": {
+    "title": "정보보안기사 vs 정보보안산업기사",
+    "left": "information-security-engineer",
+    "right": "information-security-industrial-engineer",
+    "description": "응시자격, 난이도, 준비기간, 활용 범위를 현실적으로 비교합니다.",
+    "enabled": true
+  },
+  "office-automation-vs-accounting-grade1": {
+    "title": "사무자동화산업기사 vs 전산회계 1급",
+    "left": "office-automation-industrial-engineer",
+    "right": "computerized-accounting-grade-1",
+    "description": "사무자동화와 회계 실무 자격의 차이를 비교합니다.",
+    "enabled": true
   }
 }

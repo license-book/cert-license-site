@@ -1,0 +1,28 @@
+{
+  "checkedAt": "2026-07-28",
+  "certificateFiles": 4,
+  "slugValidation": {
+    "electric-engineer.json": {
+      "expected": "electric-engineer",
+      "actual": "electric-engineer",
+      "matched": true
+    },
+    "electric-industrial-engineer.json": {
+      "expected": "electric-industrial-engineer",
+      "actual": "electric-industrial-engineer",
+      "matched": true
+    },
+    "industrial-safety-engineer.json": {
+      "expected": "industrial-safety-engineer",
+      "actual": "industrial-safety-engineer",
+      "matched": true
+    },
+    "hazardous-material-industrial-engineer.json": {
+      "expected": "hazardous-material-industrial-engineer",
+      "actual": "hazardous-material-industrial-engineer",
+      "matched": true
+    }
+  },
+  "errors": [],
+  "status": "PASS"
+}

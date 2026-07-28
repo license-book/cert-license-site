@@ -1,0 +1,31 @@
+{
+  "slug": "information-security-engineer-vs-industrial-engineer",
+  "title": "정보보안기사 vs 정보보안산업기사",
+  "description": "응시자격, 난이도, 준비기간, 활용 범위를 현실적으로 비교합니다.",
+  "left": "information-security-engineer",
+  "right": "information-security-industrial-engineer",
+  "summary": "기사 응시자격과 심화 보안 역량을 목표로 하면 정보보안기사, 입문과 단계적 준비를 원하면 정보보안산업기사가 현실적입니다.",
+  "items": [
+    {
+      "label": "등급",
+      "left": "기사",
+      "right": "산업기사"
+    },
+    {
+      "label": "현실 난이도",
+      "left": "상",
+      "right": "중상"
+    },
+    {
+      "label": "권장 준비기간",
+      "left": "4~7개월",
+      "right": "3~5개월"
+    },
+    {
+      "label": "활용 방향",
+      "left": "보안 설계·관리·대응",
+      "right": "보안 운영·점검 입문"
+    }
+  ],
+  "lastUpdated": "2026-07-28"
+}

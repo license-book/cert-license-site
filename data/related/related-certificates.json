@@ -52,5 +52,125 @@
     "computer-specialist-2",
     "computer-specialist-1",
     "word-processor"
+  ],
+  "electric-engineer": [
+    {
+      "slug": "electric-industrial-engineer",
+      "tag": "가장 많이 비교",
+      "compareSlug": "electric-engineer-vs-industrial-engineer",
+      "compareLabel": "기사·산업기사 비교"
+    },
+    {
+      "slug": "industrial-safety-engineer",
+      "tag": "안전관리"
+    },
+    {
+      "slug": "hazardous-material-industrial-engineer",
+      "tag": "화학·안전"
+    }
+  ],
+  "electric-industrial-engineer": [
+    {
+      "slug": "electric-engineer",
+      "tag": "상위 단계",
+      "compareSlug": "electric-engineer-vs-industrial-engineer",
+      "compareLabel": "기사·산업기사 비교"
+    },
+    {
+      "slug": "industrial-safety-engineer",
+      "tag": "안전관리"
+    },
+    {
+      "slug": "hazardous-material-industrial-engineer",
+      "tag": "화학·안전"
+    }
+  ],
+  "industrial-safety-engineer": [
+    {
+      "slug": "hazardous-material-industrial-engineer",
+      "tag": "화학·안전",
+      "compareSlug": "industrial-safety-vs-hazardous-material",
+      "compareLabel": "위험물과 비교"
+    },
+    {
+      "slug": "electric-engineer",
+      "tag": "기술·안전"
+    },
+    {
+      "slug": "electric-industrial-engineer",
+      "tag": "현장 실무"
+    }
+  ],
+  "hazardous-material-industrial-engineer": [
+    {
+      "slug": "industrial-safety-engineer",
+      "tag": "종합 안전",
+      "compareSlug": "industrial-safety-vs-hazardous-material",
+      "compareLabel": "산업안전과 비교"
+    },
+    {
+      "slug": "electric-engineer",
+      "tag": "전기·안전"
+    },
+    {
+      "slug": "electric-industrial-engineer",
+      "tag": "현장 실무"
+    }
+  ],
+  "office-automation-industrial-engineer": [
+    {
+      "slug": "computerized-accounting-grade-1"
+    },
+    {
+      "slug": "computer-specialist-1"
+    },
+    {
+      "slug": "word-processor"
+    },
+    {
+      "slug": "computer-specialist-2"
+    }
+  ],
+  "computerized-accounting-grade-1": [
+    {
+      "slug": "office-automation-industrial-engineer"
+    },
+    {
+      "slug": "computer-specialist-1"
+    },
+    {
+      "slug": "computer-specialist-2"
+    },
+    {
+      "slug": "word-processor"
+    }
+  ],
+  "information-security-engineer": [
+    {
+      "slug": "information-security-industrial-engineer"
+    },
+    {
+      "slug": "information-processing-engineer"
+    },
+    {
+      "slug": "information-processing-industrial-engineer"
+    },
+    {
+      "slug": "computer-specialist-1"
+    }
+  ],
+  "information-security-industrial-engineer": [
+    {
+      "slug": "information-security-engineer"
+    },
+    {
+      "slug": "information-processing-industrial-engineer"
+    },
+    {
+      "slug": "information-processing-engineer"
+    },
+    {
+      "slug": "computer-specialist-2"
+    }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-27T07:40:49.970Z",
-  "total": 43,
+  "generatedAt": "2026-07-28T00:07:19.474Z",
+  "total": 111,
   "items": [
     {
       "label": "개발자 자격증",
@@ -20,12 +20,52 @@
       "category": "IT·개발"
     },
     {
+      "label": "국가공인 민간자격",
+      "value": "국가공인 민간자격",
+      "slug": "computerized-accounting-grade-1",
+      "href": "/certificates/computerized-accounting-grade-1",
+      "type": "alias",
+      "category": "회계·세무"
+    },
+    {
+      "label": "국가기술자격",
+      "value": "국가기술자격",
+      "slug": "industrial-safety-engineer",
+      "href": "/certificates/industrial-safety-engineer",
+      "type": "alias",
+      "category": "안전관리"
+    },
+    {
       "label": "국가기술자격",
       "value": "국가기술자격",
       "slug": "word-processor",
       "href": "/certificates/word-processor",
       "type": "alias",
       "category": "IT·사무"
+    },
+    {
+      "label": "국가기술자격",
+      "value": "국가기술자격",
+      "slug": "hazardous-material-industrial-engineer",
+      "href": "/certificates/hazardous-material-industrial-engineer",
+      "type": "alias",
+      "category": "화학·안전"
+    },
+    {
+      "label": "국가기술자격",
+      "value": "국가기술자격",
+      "slug": "electric-engineer",
+      "href": "/certificates/electric-engineer",
+      "type": "alias",
+      "category": "전기·전자"
+    },
+    {
+      "label": "국가기술자격",
+      "value": "국가기술자격",
+      "slug": "electric-industrial-engineer",
+      "href": "/certificates/electric-industrial-engineer",
+      "type": "alias",
+      "category": "전기·전자"
     },
     {
       "label": "국가기술자격",
@@ -46,10 +86,34 @@
     {
       "label": "국가기술자격 기사",
       "value": "국가기술자격 기사",
+      "slug": "information-security-engineer",
+      "href": "/certificates/information-security-engineer",
+      "type": "alias",
+      "category": "IT·보안"
+    },
+    {
+      "label": "국가기술자격 기사",
+      "value": "국가기술자격 기사",
       "slug": "information-processing-engineer",
       "href": "/certificates/information-processing-engineer",
       "type": "alias",
       "category": "IT·개발"
+    },
+    {
+      "label": "국가기술자격 산업기사",
+      "value": "국가기술자격 산업기사",
+      "slug": "office-automation-industrial-engineer",
+      "href": "/certificates/office-automation-industrial-engineer",
+      "type": "alias",
+      "category": "IT·사무"
+    },
+    {
+      "label": "국가기술자격 산업기사",
+      "value": "국가기술자격 산업기사",
+      "slug": "information-security-industrial-engineer",
+      "href": "/certificates/information-security-industrial-engineer",
+      "type": "alias",
+      "category": "IT·보안"
     },
     {
       "label": "국가기술자격 산업기사",
@@ -108,6 +172,86 @@
       "category": "IT·사무"
     },
     {
+      "label": "사무자동화산업기사",
+      "value": "사무자동화산업기사",
+      "slug": "office-automation-industrial-engineer",
+      "href": "/certificates/office-automation-industrial-engineer",
+      "type": "certificate",
+      "category": "IT·사무"
+    },
+    {
+      "label": "사무자동화산업기사 공부기간",
+      "value": "사무자동화산업기사 공부기간",
+      "slug": "office-automation-industrial-engineer",
+      "href": "/certificates/office-automation-industrial-engineer",
+      "type": "alias",
+      "category": "IT·사무"
+    },
+    {
+      "label": "사무자동화산업기사 난이도",
+      "value": "사무자동화산업기사 난이도",
+      "slug": "office-automation-industrial-engineer",
+      "href": "/certificates/office-automation-industrial-engineer",
+      "type": "alias",
+      "category": "IT·사무"
+    },
+    {
+      "label": "사무자동화산업기사 시험과목",
+      "value": "사무자동화산업기사 시험과목",
+      "slug": "office-automation-industrial-engineer",
+      "href": "/certificates/office-automation-industrial-engineer",
+      "type": "alias",
+      "category": "IT·사무"
+    },
+    {
+      "label": "산업안전기사",
+      "value": "산업안전기사",
+      "slug": "industrial-safety-engineer",
+      "href": "/certificates/industrial-safety-engineer",
+      "type": "certificate",
+      "category": "안전관리"
+    },
+    {
+      "label": "산업안전기사 공부기간",
+      "value": "산업안전기사 공부기간",
+      "slug": "industrial-safety-engineer",
+      "href": "/certificates/industrial-safety-engineer",
+      "type": "alias",
+      "category": "안전관리"
+    },
+    {
+      "label": "산업안전기사 난이도",
+      "value": "산업안전기사 난이도",
+      "slug": "industrial-safety-engineer",
+      "href": "/certificates/industrial-safety-engineer",
+      "type": "alias",
+      "category": "안전관리"
+    },
+    {
+      "label": "산업안전기사 시험과목",
+      "value": "산업안전기사 시험과목",
+      "slug": "industrial-safety-engineer",
+      "href": "/certificates/industrial-safety-engineer",
+      "type": "alias",
+      "category": "안전관리"
+    },
+    {
+      "label": "산업안전기사 응시자격",
+      "value": "산업안전기사 응시자격",
+      "slug": "industrial-safety-engineer",
+      "href": "/certificates/industrial-safety-engineer",
+      "type": "alias",
+      "category": "안전관리"
+    },
+    {
+      "label": "안전관리",
+      "value": "안전관리",
+      "slug": "industrial-safety-engineer",
+      "href": "/certificates/industrial-safety-engineer",
+      "type": "alias",
+      "category": "안전관리"
+    },
+    {
       "label": "엑셀 자격증",
       "value": "엑셀 자격증",
       "slug": "computer-specialist-2",
@@ -130,6 +274,238 @@
       "href": "/certificates/word-processor",
       "type": "certificate",
       "category": "IT·사무"
+    },
+    {
+      "label": "위험물산업기사",
+      "value": "위험물산업기사",
+      "slug": "hazardous-material-industrial-engineer",
+      "href": "/certificates/hazardous-material-industrial-engineer",
+      "type": "certificate",
+      "category": "화학·안전"
+    },
+    {
+      "label": "위험물산업기사 공부기간",
+      "value": "위험물산업기사 공부기간",
+      "slug": "hazardous-material-industrial-engineer",
+      "href": "/certificates/hazardous-material-industrial-engineer",
+      "type": "alias",
+      "category": "화학·안전"
+    },
+    {
+      "label": "위험물산업기사 난이도",
+      "value": "위험물산업기사 난이도",
+      "slug": "hazardous-material-industrial-engineer",
+      "href": "/certificates/hazardous-material-industrial-engineer",
+      "type": "alias",
+      "category": "화학·안전"
+    },
+    {
+      "label": "위험물산업기사 시험과목",
+      "value": "위험물산업기사 시험과목",
+      "slug": "hazardous-material-industrial-engineer",
+      "href": "/certificates/hazardous-material-industrial-engineer",
+      "type": "alias",
+      "category": "화학·안전"
+    },
+    {
+      "label": "위험물산업기사 응시자격",
+      "value": "위험물산업기사 응시자격",
+      "slug": "hazardous-material-industrial-engineer",
+      "href": "/certificates/hazardous-material-industrial-engineer",
+      "type": "alias",
+      "category": "화학·안전"
+    },
+    {
+      "label": "전기·전자",
+      "value": "전기·전자",
+      "slug": "electric-engineer",
+      "href": "/certificates/electric-engineer",
+      "type": "alias",
+      "category": "전기·전자"
+    },
+    {
+      "label": "전기·전자",
+      "value": "전기·전자",
+      "slug": "electric-industrial-engineer",
+      "href": "/certificates/electric-industrial-engineer",
+      "type": "alias",
+      "category": "전기·전자"
+    },
+    {
+      "label": "전기기사",
+      "value": "전기기사",
+      "slug": "electric-engineer",
+      "href": "/certificates/electric-engineer",
+      "type": "certificate",
+      "category": "전기·전자"
+    },
+    {
+      "label": "전기기사 공부기간",
+      "value": "전기기사 공부기간",
+      "slug": "electric-engineer",
+      "href": "/certificates/electric-engineer",
+      "type": "alias",
+      "category": "전기·전자"
+    },
+    {
+      "label": "전기기사 난이도",
+      "value": "전기기사 난이도",
+      "slug": "electric-engineer",
+      "href": "/certificates/electric-engineer",
+      "type": "alias",
+      "category": "전기·전자"
+    },
+    {
+      "label": "전기기사 시험과목",
+      "value": "전기기사 시험과목",
+      "slug": "electric-engineer",
+      "href": "/certificates/electric-engineer",
+      "type": "alias",
+      "category": "전기·전자"
+    },
+    {
+      "label": "전기기사 응시자격",
+      "value": "전기기사 응시자격",
+      "slug": "electric-engineer",
+      "href": "/certificates/electric-engineer",
+      "type": "alias",
+      "category": "전기·전자"
+    },
+    {
+      "label": "전기산업기사",
+      "value": "전기산업기사",
+      "slug": "electric-industrial-engineer",
+      "href": "/certificates/electric-industrial-engineer",
+      "type": "certificate",
+      "category": "전기·전자"
+    },
+    {
+      "label": "전기산업기사 공부기간",
+      "value": "전기산업기사 공부기간",
+      "slug": "electric-industrial-engineer",
+      "href": "/certificates/electric-industrial-engineer",
+      "type": "alias",
+      "category": "전기·전자"
+    },
+    {
+      "label": "전기산업기사 난이도",
+      "value": "전기산업기사 난이도",
+      "slug": "electric-industrial-engineer",
+      "href": "/certificates/electric-industrial-engineer",
+      "type": "alias",
+      "category": "전기·전자"
+    },
+    {
+      "label": "전기산업기사 시험과목",
+      "value": "전기산업기사 시험과목",
+      "slug": "electric-industrial-engineer",
+      "href": "/certificates/electric-industrial-engineer",
+      "type": "alias",
+      "category": "전기·전자"
+    },
+    {
+      "label": "전기산업기사 응시자격",
+      "value": "전기산업기사 응시자격",
+      "slug": "electric-industrial-engineer",
+      "href": "/certificates/electric-industrial-engineer",
+      "type": "alias",
+      "category": "전기·전자"
+    },
+    {
+      "label": "전산회계 1급",
+      "value": "전산회계 1급",
+      "slug": "computerized-accounting-grade-1",
+      "href": "/certificates/computerized-accounting-grade-1",
+      "type": "certificate",
+      "category": "회계·세무"
+    },
+    {
+      "label": "전산회계 1급 공부기간",
+      "value": "전산회계 1급 공부기간",
+      "slug": "computerized-accounting-grade-1",
+      "href": "/certificates/computerized-accounting-grade-1",
+      "type": "alias",
+      "category": "회계·세무"
+    },
+    {
+      "label": "전산회계 1급 난이도",
+      "value": "전산회계 1급 난이도",
+      "slug": "computerized-accounting-grade-1",
+      "href": "/certificates/computerized-accounting-grade-1",
+      "type": "alias",
+      "category": "회계·세무"
+    },
+    {
+      "label": "전산회계 1급 시험과목",
+      "value": "전산회계 1급 시험과목",
+      "slug": "computerized-accounting-grade-1",
+      "href": "/certificates/computerized-accounting-grade-1",
+      "type": "alias",
+      "category": "회계·세무"
+    },
+    {
+      "label": "정보보안기사",
+      "value": "정보보안기사",
+      "slug": "information-security-engineer",
+      "href": "/certificates/information-security-engineer",
+      "type": "certificate",
+      "category": "IT·보안"
+    },
+    {
+      "label": "정보보안기사 공부기간",
+      "value": "정보보안기사 공부기간",
+      "slug": "information-security-engineer",
+      "href": "/certificates/information-security-engineer",
+      "type": "alias",
+      "category": "IT·보안"
+    },
+    {
+      "label": "정보보안기사 난이도",
+      "value": "정보보안기사 난이도",
+      "slug": "information-security-engineer",
+      "href": "/certificates/information-security-engineer",
+      "type": "alias",
+      "category": "IT·보안"
+    },
+    {
+      "label": "정보보안기사 시험과목",
+      "value": "정보보안기사 시험과목",
+      "slug": "information-security-engineer",
+      "href": "/certificates/information-security-engineer",
+      "type": "alias",
+      "category": "IT·보안"
+    },
+    {
+      "label": "정보보안산업기사",
+      "value": "정보보안산업기사",
+      "slug": "information-security-industrial-engineer",
+      "href": "/certificates/information-security-industrial-engineer",
+      "type": "certificate",
+      "category": "IT·보안"
+    },
+    {
+      "label": "정보보안산업기사 공부기간",
+      "value": "정보보안산업기사 공부기간",
+      "slug": "information-security-industrial-engineer",
+      "href": "/certificates/information-security-industrial-engineer",
+      "type": "alias",
+      "category": "IT·보안"
+    },
+    {
+      "label": "정보보안산업기사 난이도",
+      "value": "정보보안산업기사 난이도",
+      "slug": "information-security-industrial-engineer",
+      "href": "/certificates/information-security-industrial-engineer",
+      "type": "alias",
+      "category": "IT·보안"
+    },
+    {
+      "label": "정보보안산업기사 시험과목",
+      "value": "정보보안산업기사 시험과목",
+      "slug": "information-security-industrial-engineer",
+      "href": "/certificates/information-security-industrial-engineer",
+      "type": "alias",
+      "category": "IT·보안"
     },
     {
       "label": "정보처리 자격증",
@@ -236,6 +612,62 @@
       "category": "IT·사무"
     },
     {
+      "label": "한국방송통신전파진흥원",
+      "value": "한국방송통신전파진흥원",
+      "slug": "information-security-engineer",
+      "href": "/certificates/information-security-engineer",
+      "type": "alias",
+      "category": "IT·보안"
+    },
+    {
+      "label": "한국방송통신전파진흥원",
+      "value": "한국방송통신전파진흥원",
+      "slug": "information-security-industrial-engineer",
+      "href": "/certificates/information-security-industrial-engineer",
+      "type": "alias",
+      "category": "IT·보안"
+    },
+    {
+      "label": "한국산업인력공단",
+      "value": "한국산업인력공단",
+      "slug": "office-automation-industrial-engineer",
+      "href": "/certificates/office-automation-industrial-engineer",
+      "type": "alias",
+      "category": "IT·사무"
+    },
+    {
+      "label": "한국산업인력공단",
+      "value": "한국산업인력공단",
+      "slug": "industrial-safety-engineer",
+      "href": "/certificates/industrial-safety-engineer",
+      "type": "alias",
+      "category": "안전관리"
+    },
+    {
+      "label": "한국산업인력공단",
+      "value": "한국산업인력공단",
+      "slug": "hazardous-material-industrial-engineer",
+      "href": "/certificates/hazardous-material-industrial-engineer",
+      "type": "alias",
+      "category": "화학·안전"
+    },
+    {
+      "label": "한국산업인력공단",
+      "value": "한국산업인력공단",
+      "slug": "electric-engineer",
+      "href": "/certificates/electric-engineer",
+      "type": "alias",
+      "category": "전기·전자"
+    },
+    {
+      "label": "한국산업인력공단",
+      "value": "한국산업인력공단",
+      "slug": "electric-industrial-engineer",
+      "href": "/certificates/electric-industrial-engineer",
+      "type": "alias",
+      "category": "전기·전자"
+    },
+    {
       "label": "한국산업인력공단",
       "value": "한국산업인력공단",
       "slug": "information-processing-engineer",
@@ -250,6 +682,30 @@
       "href": "/certificates/information-processing-industrial-engineer",
       "type": "alias",
       "category": "IT·개발"
+    },
+    {
+      "label": "한국세무사회",
+      "value": "한국세무사회",
+      "slug": "computerized-accounting-grade-1",
+      "href": "/certificates/computerized-accounting-grade-1",
+      "type": "alias",
+      "category": "회계·세무"
+    },
+    {
+      "label": "화학·안전",
+      "value": "화학·안전",
+      "slug": "hazardous-material-industrial-engineer",
+      "href": "/certificates/hazardous-material-industrial-engineer",
+      "type": "alias",
+      "category": "화학·안전"
+    },
+    {
+      "label": "회계·세무",
+      "value": "회계·세무",
+      "slug": "computerized-accounting-grade-1",
+      "href": "/certificates/computerized-accounting-grade-1",
+      "type": "alias",
+      "category": "회계·세무"
     },
     {
       "label": "computer-specialist-1",
@@ -268,6 +724,46 @@
       "category": "IT·사무"
     },
     {
+      "label": "computerized-accounting-grade-1",
+      "value": "computerized-accounting-grade-1",
+      "slug": "computerized-accounting-grade-1",
+      "href": "/certificates/computerized-accounting-grade-1",
+      "type": "alias",
+      "category": "회계·세무"
+    },
+    {
+      "label": "electric-engineer",
+      "value": "electric-engineer",
+      "slug": "electric-engineer",
+      "href": "/certificates/electric-engineer",
+      "type": "alias",
+      "category": "전기·전자"
+    },
+    {
+      "label": "electric-industrial-engineer",
+      "value": "electric-industrial-engineer",
+      "slug": "electric-industrial-engineer",
+      "href": "/certificates/electric-industrial-engineer",
+      "type": "alias",
+      "category": "전기·전자"
+    },
+    {
+      "label": "hazardous-material-industrial-engineer",
+      "value": "hazardous-material-industrial-engineer",
+      "slug": "hazardous-material-industrial-engineer",
+      "href": "/certificates/hazardous-material-industrial-engineer",
+      "type": "alias",
+      "category": "화학·안전"
+    },
+    {
+      "label": "industrial-safety-engineer",
+      "value": "industrial-safety-engineer",
+      "slug": "industrial-safety-engineer",
+      "href": "/certificates/industrial-safety-engineer",
+      "type": "alias",
+      "category": "안전관리"
+    },
+    {
       "label": "information-processing-engineer",
       "value": "information-processing-engineer",
       "slug": "information-processing-engineer",
@@ -284,6 +780,22 @@
       "category": "IT·개발"
     },
     {
+      "label": "information-security-engineer",
+      "value": "information-security-engineer",
+      "slug": "information-security-engineer",
+      "href": "/certificates/information-security-engineer",
+      "type": "alias",
+      "category": "IT·보안"
+    },
+    {
+      "label": "information-security-industrial-engineer",
+      "value": "information-security-industrial-engineer",
+      "slug": "information-security-industrial-engineer",
+      "href": "/certificates/information-security-industrial-engineer",
+      "type": "alias",
+      "category": "IT·보안"
+    },
+    {
       "label": "IT 자격증",
       "value": "IT 자격증",
       "slug": "information-processing-engineer",
@@ -314,6 +826,30 @@
       "href": "/certificates/information-processing-industrial-engineer",
       "type": "alias",
       "category": "IT·개발"
+    },
+    {
+      "label": "IT·보안",
+      "value": "IT·보안",
+      "slug": "information-security-engineer",
+      "href": "/certificates/information-security-engineer",
+      "type": "alias",
+      "category": "IT·보안"
+    },
+    {
+      "label": "IT·보안",
+      "value": "IT·보안",
+      "slug": "information-security-industrial-engineer",
+      "href": "/certificates/information-security-industrial-engineer",
+      "type": "alias",
+      "category": "IT·보안"
+    },
+    {
+      "label": "IT·사무",
+      "value": "IT·사무",
+      "slug": "office-automation-industrial-engineer",
+      "href": "/certificates/office-automation-industrial-engineer",
+      "type": "alias",
+      "category": "IT·사무"
     },
     {
       "label": "IT·사무",
@@ -336,6 +872,14 @@
       "value": "IT·사무",
       "slug": "computer-specialist-2",
       "href": "/certificates/computer-specialist-2",
+      "type": "alias",
+      "category": "IT·사무"
+    },
+    {
+      "label": "office-automation-industrial-engineer",
+      "value": "office-automation-industrial-engineer",
+      "slug": "office-automation-industrial-engineer",
+      "href": "/certificates/office-automation-industrial-engineer",
       "type": "alias",
       "category": "IT·사무"
     },

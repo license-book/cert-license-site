@@ -1,7 +1,16 @@
 {
+  "status": "PASS",
   "checkedAt": "2026-07-28",
-  "certificateFiles": 4,
-  "comparisonFiles": 2,
-  "errors": [],
-  "status": "PASS"
+  "certificateFiles": [
+    "electric-engineer",
+    "electric-industrial-engineer",
+    "industrial-safety-engineer",
+    "hazardous-material-industrial-engineer"
+  ],
+  "relatedSourceActuallyUsedByEngine": "data/generated/internal-links.json",
+  "comparisonFiles": [
+    "electric-engineer-vs-industrial-engineer",
+    "industrial-safety-vs-hazardous-material"
+  ],
+  "errors": []
 }

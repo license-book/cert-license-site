@@ -1,26 +1,26 @@
-# 라북 2차 자격증 묶음 완성본
+# 라북 2차 자격증 최종 완성 묶음
 
-## 포함 자격증
-- 전기기사
-- 전기산업기사
-- 산업안전기사
-- 위험물산업기사
-
-## 포함 파일
-- `data/certificates/*.json` 4개
-- `data/compare/*.json` 2개
-- `bundle-manifest.json`
-- `docs/BUNDLE_2_REPORT.md`
+## 포함 내용
+- 자격증 상세 JSON 4개
+- 관련 자격증 수동 맵
+- 엔진이 우선 사용하는 generated/internal-links.json
+- 자격증 catalog 병합본
+- 비교 catalog 병합본
+- 비교페이지 JSON 2개
+- 검증 결과
 
 ## 적용 방법
-1. 현재 프로젝트를 ZIP 또는 별도 폴더로 백업합니다.
-2. 이 압축파일의 `data` 폴더를 프로젝트 최상위에 덮어씁니다.
-3. Hero 이미지 4개를 `public/images/hero/`에 추가합니다.
-4. `npm run validate:data`
-5. `npm run build`
-6. `npm run dev`
+ZIP 안의 `data` 폴더를 프로젝트 루트의 `data` 폴더에 덮어쓰세요.
 
 ## 중요
-- 공통 엔진·컴포넌트·레이아웃은 포함하지 않았습니다.
-- 기존 최신 완성본을 보존하면서 데이터만 추가하는 최소 변경 패키지입니다.
-- Hero 이미지 파일 자체는 포함하지 않았으며 JSON 경로만 준비했습니다.
+현재 관련 자격증 엔진은 `data/generated/internal-links.json`이 존재하면
+`data/related/related-certificates.json`보다 이를 우선 사용합니다.
+따라서 두 파일을 모두 포함했습니다.
+
+## 섹션 연결
+- 전기기사 ↔ 전기산업기사 비교
+- 산업안전기사 ↔ 위험물산업기사 비교
+- 네 자격증끼리 관련 자격증 카드가 실제 상세페이지 기준으로 활성화
+
+## 검증
+`validation-result.json`이 PASS인지 확인했습니다.

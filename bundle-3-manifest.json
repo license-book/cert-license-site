@@ -1,0 +1,21 @@
+{
+  "bundle": "LABOOK 3차 자격증 묶음",
+  "version": "3.0.0",
+  "createdAt": "2026-07-28",
+  "certificates": [
+    "office-automation-industrial-engineer",
+    "information-security-engineer",
+    "information-security-industrial-engineer",
+    "computerized-accounting-grade-1"
+  ],
+  "comparisons": [
+    "information-security-engineer-vs-industrial-engineer",
+    "office-automation-vs-accounting-grade1"
+  ],
+  "heroImages": [
+    "/public/images/hero/office-automation-industrial-engineer.webp",
+    "/public/images/hero/information-security-engineer.webp",
+    "/public/images/hero/information-security-industrial-engineer.webp",
+    "/public/images/hero/computerized-accounting-grade-1.webp"
+  ]
+}

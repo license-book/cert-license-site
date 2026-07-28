@@ -1,0 +1,31 @@
+{
+  "slug": "office-automation-vs-accounting-grade1",
+  "title": "사무자동화산업기사 vs 전산회계 1급",
+  "description": "사무자동화와 회계 실무 자격의 차이를 비교합니다.",
+  "left": "office-automation-industrial-engineer",
+  "right": "computerized-accounting-grade-1",
+  "summary": "일반 사무와 정보처리 역량은 사무자동화산업기사, 회계·경리 실무는 전산회계 1급이 더 직접적입니다.",
+  "items": [
+    {
+      "label": "자격 성격",
+      "left": "국가기술자격 산업기사",
+      "right": "국가공인 민간자격"
+    },
+    {
+      "label": "응시자격",
+      "left": "산업기사 요건 필요",
+      "right": "제한 없음"
+    },
+    {
+      "label": "권장 준비기간",
+      "left": "2~4개월",
+      "right": "1~3개월"
+    },
+    {
+      "label": "활용 방향",
+      "left": "사무정보·OA 실무",
+      "right": "회계·경리 실무"
+    }
+  ],
+  "lastUpdated": "2026-07-28"
+}
