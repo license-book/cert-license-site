@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-29T02:04:20.912Z",
-  "total": 29,
+  "generatedAt": "2026-07-29T02:23:35.948Z",
+  "total": 33,
   "items": [
     {
       "slug": "air-conditioning-refrigeration-craftsman",
@@ -84,6 +84,34 @@
       "category": "건설·건축",
       "agency": "한국산업인력공단",
       "lastModified": "2026-07-28"
+    },
+    {
+      "slug": "big-data-analysis-engineer",
+      "name": "빅데이터분석기사",
+      "shortName": "빅데이터분석기사",
+      "title": "빅데이터분석기사 응시자격·시험과목·난이도·공부방법 | 라북",
+      "description": "빅데이터분석기사의 응시자격, 시험과목, 현실 난이도, 준비기간, 실기 준비방법과 활용 분야를 확인하세요.",
+      "keywords": [
+        "빅데이터분석기사",
+        "빅데이터분석기사 응시자격",
+        "빅데이터분석기사 시험과목",
+        "빅데이터분석기사 난이도",
+        "빅데이터분석기사 공부방법",
+        "빅데이터분석기사 취업",
+        "빅데이터분석기사 시험",
+        "빅데이터분석기사 합격률",
+        "빅데이터분석기사 공부기간",
+        "데이터·IT",
+        "국가기술자격 기사",
+        "한국데이터산업진흥원"
+      ],
+      "image": "/images/hero/big-data-analysis-engineer.webp",
+      "path": "/cert/big-data-analysis-engineer",
+      "type": "national",
+      "licenseType": "국가기술자격 기사",
+      "category": "데이터·IT",
+      "agency": "한국데이터산업진흥원",
+      "lastModified": "2026-07-29"
     },
     {
       "slug": "broadcast-communication-engineer",
@@ -495,6 +523,34 @@
       "lastModified": "2026-07-28"
     },
     {
+      "slug": "general-mechanical-engineer",
+      "name": "일반기계기사",
+      "shortName": "일반기계기사",
+      "title": "일반기계기사 응시자격·시험과목·난이도·공부방법 | 라북",
+      "description": "일반기계기사의 응시자격, 시험과목, 현실 난이도, 준비기간, 실기 준비방법과 활용 분야를 확인하세요.",
+      "keywords": [
+        "일반기계기사",
+        "일반기계기사 응시자격",
+        "일반기계기사 시험과목",
+        "일반기계기사 난이도",
+        "일반기계기사 공부방법",
+        "일반기계기사 취업",
+        "일반기계기사 시험",
+        "일반기계기사 합격률",
+        "일반기계기사 공부기간",
+        "기계",
+        "국가기술자격 기사",
+        "한국산업인력공단"
+      ],
+      "image": "/images/hero/general-mechanical-engineer.webp",
+      "path": "/cert/general-mechanical-engineer",
+      "type": "national",
+      "licenseType": "국가기술자격 기사",
+      "category": "기계",
+      "agency": "한국산업인력공단",
+      "lastModified": "2026-07-29"
+    },
+    {
       "slug": "hazardous-material-industrial-engineer",
       "name": "위험물산업기사",
       "shortName": "위험물산업기사",
@@ -570,6 +626,34 @@
       "path": "/cert/information-communication-engineer",
       "type": "national",
       "licenseType": "국가기술자격 기사",
+      "category": "정보통신",
+      "agency": "한국방송통신전파진흥원",
+      "lastModified": "2026-07-29"
+    },
+    {
+      "slug": "information-communication-industrial-engineer",
+      "name": "정보통신산업기사",
+      "shortName": "정보통신산업기사",
+      "title": "정보통신산업기사 응시자격·시험과목·난이도·공부방법 | 라북",
+      "description": "정보통신산업기사의 응시자격, 시험과목, 현실 난이도, 준비기간, 실기 준비방법과 활용 분야를 확인하세요.",
+      "keywords": [
+        "정보통신산업기사",
+        "정보통신산업기사 응시자격",
+        "정보통신산업기사 시험과목",
+        "정보통신산업기사 난이도",
+        "정보통신산업기사 공부방법",
+        "정보통신산업기사 취업",
+        "정보통신산업기사 시험",
+        "정보통신산업기사 합격률",
+        "정보통신산업기사 공부기간",
+        "정보통신",
+        "국가기술자격 산업기사",
+        "한국방송통신전파진흥원"
+      ],
+      "image": "/images/hero/information-communication-industrial-engineer.webp",
+      "path": "/cert/information-communication-industrial-engineer",
+      "type": "national",
+      "licenseType": "국가기술자격 산업기사",
       "category": "정보통신",
       "agency": "한국방송통신전파진흥원",
       "lastModified": "2026-07-29"
@@ -679,6 +763,34 @@
       "category": "IT·보안",
       "agency": "한국방송통신전파진흥원",
       "lastModified": "2026-07-28"
+    },
+    {
+      "slug": "mechanical-design-engineer",
+      "name": "기계설계기사",
+      "shortName": "기계설계기사",
+      "title": "기계설계기사 응시자격·시험과목·난이도·공부방법 | 라북",
+      "description": "기계설계기사의 2024년 일반기계기사 통합 내용과 현재 응시 가능한 종목, 준비 시 주의사항을 확인하세요.",
+      "keywords": [
+        "기계설계기사",
+        "기계설계기사 응시자격",
+        "기계설계기사 시험과목",
+        "기계설계기사 난이도",
+        "기계설계기사 공부방법",
+        "기계설계기사 취업",
+        "기계설계기사 시험",
+        "기계설계기사 합격률",
+        "기계설계기사 공부기간",
+        "기계",
+        "종전 국가기술자격 기사",
+        "한국산업인력공단"
+      ],
+      "image": "/images/hero/mechanical-design-engineer.webp",
+      "path": "/cert/mechanical-design-engineer",
+      "type": "national",
+      "licenseType": "종전 국가기술자격 기사",
+      "category": "기계",
+      "agency": "한국산업인력공단",
+      "lastModified": "2026-07-29"
     },
     {
       "slug": "office-automation-industrial-engineer",

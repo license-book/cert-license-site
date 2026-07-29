@@ -5,7 +5,7 @@ type EligibilityCondition = {
 
 type EligibilityData = {
   title: string;
-  status: "none" | "conditional" | "restricted" | "required";
+  status: "none" | "conditional" | "restricted" | "required" | "closed";
   statusLabel: string;
   summary: string;
   conditions?: EligibilityCondition[];
@@ -37,12 +37,16 @@ const statusStyles = {
     badge: "bg-amber-100 text-amber-700",
     panel: "bg-amber-50 ring-amber-100",
   },
+  closed: {
+    badge: "bg-slate-200 text-slate-700",
+    panel: "bg-slate-50 ring-slate-200",
+  },
 };
 
 export default function EligibilityInfo({ data }: Props) {
   if (!data) return null;
 
-  const style = statusStyles[data.status];
+  const style = statusStyles[data.status] ?? statusStyles.conditional;
 
   return (
     <section className="mt-10 rounded-[28px] bg-white p-7 shadow-sm ring-1 ring-slate-100">

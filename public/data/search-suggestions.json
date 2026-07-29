@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-29T02:04:20.070Z",
-  "total": 267,
+  "generatedAt": "2026-07-29T02:23:35.009Z",
+  "total": 307,
   "items": [
     {
       "label": "개발자 자격증",
@@ -310,6 +310,22 @@
     {
       "label": "국가기술자격 기사",
       "value": "국가기술자격 기사",
+      "slug": "big-data-analysis-engineer",
+      "href": "/certificates/big-data-analysis-engineer",
+      "type": "alias",
+      "category": "데이터·IT"
+    },
+    {
+      "label": "국가기술자격 기사",
+      "value": "국가기술자격 기사",
+      "slug": "general-mechanical-engineer",
+      "href": "/certificates/general-mechanical-engineer",
+      "type": "alias",
+      "category": "기계"
+    },
+    {
+      "label": "국가기술자격 기사",
+      "value": "국가기술자격 기사",
       "slug": "electrical-construction-engineer",
       "href": "/certificates/electrical-construction-engineer",
       "type": "alias",
@@ -396,6 +412,30 @@
       "category": "IT·개발"
     },
     {
+      "label": "국가기술자격 산업기사",
+      "value": "국가기술자격 산업기사",
+      "slug": "information-communication-industrial-engineer",
+      "href": "/certificates/information-communication-industrial-engineer",
+      "type": "alias",
+      "category": "정보통신"
+    },
+    {
+      "label": "기계",
+      "value": "기계",
+      "slug": "mechanical-design-engineer",
+      "href": "/certificates/mechanical-design-engineer",
+      "type": "alias",
+      "category": "기계"
+    },
+    {
+      "label": "기계",
+      "value": "기계",
+      "slug": "general-mechanical-engineer",
+      "href": "/certificates/general-mechanical-engineer",
+      "type": "alias",
+      "category": "기계"
+    },
+    {
       "label": "기계·금속",
       "value": "기계·금속",
       "slug": "welding-craftsman",
@@ -410,6 +450,54 @@
       "href": "/certificates/air-conditioning-refrigeration-craftsman",
       "type": "alias",
       "category": "기계·설비"
+    },
+    {
+      "label": "기계설계기사",
+      "value": "기계설계기사",
+      "slug": "mechanical-design-engineer",
+      "href": "/certificates/mechanical-design-engineer",
+      "type": "certificate",
+      "category": "기계"
+    },
+    {
+      "label": "기계설계기사 공부방법",
+      "value": "기계설계기사 공부방법",
+      "slug": "mechanical-design-engineer",
+      "href": "/certificates/mechanical-design-engineer",
+      "type": "alias",
+      "category": "기계"
+    },
+    {
+      "label": "기계설계기사 난이도",
+      "value": "기계설계기사 난이도",
+      "slug": "mechanical-design-engineer",
+      "href": "/certificates/mechanical-design-engineer",
+      "type": "alias",
+      "category": "기계"
+    },
+    {
+      "label": "기계설계기사 시험과목",
+      "value": "기계설계기사 시험과목",
+      "slug": "mechanical-design-engineer",
+      "href": "/certificates/mechanical-design-engineer",
+      "type": "alias",
+      "category": "기계"
+    },
+    {
+      "label": "기계설계기사 응시자격",
+      "value": "기계설계기사 응시자격",
+      "slug": "mechanical-design-engineer",
+      "href": "/certificates/mechanical-design-engineer",
+      "type": "alias",
+      "category": "기계"
+    },
+    {
+      "label": "기계설계기사 취업",
+      "value": "기계설계기사 취업",
+      "slug": "mechanical-design-engineer",
+      "href": "/certificates/mechanical-design-engineer",
+      "type": "alias",
+      "category": "기계"
     },
     {
       "label": "대한상공회의소",
@@ -434,6 +522,14 @@
       "href": "/certificates/computer-specialist-2",
       "type": "alias",
       "category": "IT·사무"
+    },
+    {
+      "label": "데이터·IT",
+      "value": "데이터·IT",
+      "slug": "big-data-analysis-engineer",
+      "href": "/certificates/big-data-analysis-engineer",
+      "type": "alias",
+      "category": "데이터·IT"
     },
     {
       "label": "문서작성 자격증",
@@ -490,6 +586,54 @@
       "href": "/certificates/broadcast-communication-engineer",
       "type": "alias",
       "category": "정보통신"
+    },
+    {
+      "label": "빅데이터분석기사",
+      "value": "빅데이터분석기사",
+      "slug": "big-data-analysis-engineer",
+      "href": "/certificates/big-data-analysis-engineer",
+      "type": "certificate",
+      "category": "데이터·IT"
+    },
+    {
+      "label": "빅데이터분석기사 공부방법",
+      "value": "빅데이터분석기사 공부방법",
+      "slug": "big-data-analysis-engineer",
+      "href": "/certificates/big-data-analysis-engineer",
+      "type": "alias",
+      "category": "데이터·IT"
+    },
+    {
+      "label": "빅데이터분석기사 난이도",
+      "value": "빅데이터분석기사 난이도",
+      "slug": "big-data-analysis-engineer",
+      "href": "/certificates/big-data-analysis-engineer",
+      "type": "alias",
+      "category": "데이터·IT"
+    },
+    {
+      "label": "빅데이터분석기사 시험과목",
+      "value": "빅데이터분석기사 시험과목",
+      "slug": "big-data-analysis-engineer",
+      "href": "/certificates/big-data-analysis-engineer",
+      "type": "alias",
+      "category": "데이터·IT"
+    },
+    {
+      "label": "빅데이터분석기사 응시자격",
+      "value": "빅데이터분석기사 응시자격",
+      "slug": "big-data-analysis-engineer",
+      "href": "/certificates/big-data-analysis-engineer",
+      "type": "alias",
+      "category": "데이터·IT"
+    },
+    {
+      "label": "빅데이터분석기사 취업",
+      "value": "빅데이터분석기사 취업",
+      "slug": "big-data-analysis-engineer",
+      "href": "/certificates/big-data-analysis-engineer",
+      "type": "alias",
+      "category": "데이터·IT"
     },
     {
       "label": "사무 자격증",
@@ -754,6 +898,54 @@
       "href": "/certificates/hazardous-material-industrial-engineer",
       "type": "alias",
       "category": "화학·안전"
+    },
+    {
+      "label": "일반기계기사",
+      "value": "일반기계기사",
+      "slug": "general-mechanical-engineer",
+      "href": "/certificates/general-mechanical-engineer",
+      "type": "certificate",
+      "category": "기계"
+    },
+    {
+      "label": "일반기계기사 공부방법",
+      "value": "일반기계기사 공부방법",
+      "slug": "general-mechanical-engineer",
+      "href": "/certificates/general-mechanical-engineer",
+      "type": "alias",
+      "category": "기계"
+    },
+    {
+      "label": "일반기계기사 난이도",
+      "value": "일반기계기사 난이도",
+      "slug": "general-mechanical-engineer",
+      "href": "/certificates/general-mechanical-engineer",
+      "type": "alias",
+      "category": "기계"
+    },
+    {
+      "label": "일반기계기사 시험과목",
+      "value": "일반기계기사 시험과목",
+      "slug": "general-mechanical-engineer",
+      "href": "/certificates/general-mechanical-engineer",
+      "type": "alias",
+      "category": "기계"
+    },
+    {
+      "label": "일반기계기사 응시자격",
+      "value": "일반기계기사 응시자격",
+      "slug": "general-mechanical-engineer",
+      "href": "/certificates/general-mechanical-engineer",
+      "type": "alias",
+      "category": "기계"
+    },
+    {
+      "label": "일반기계기사 취업",
+      "value": "일반기계기사 취업",
+      "slug": "general-mechanical-engineer",
+      "href": "/certificates/general-mechanical-engineer",
+      "type": "alias",
+      "category": "기계"
     },
     {
       "label": "전기·전자",
@@ -1468,6 +1660,14 @@
       "category": "정보통신"
     },
     {
+      "label": "정보통신",
+      "value": "정보통신",
+      "slug": "information-communication-industrial-engineer",
+      "href": "/certificates/information-communication-industrial-engineer",
+      "type": "alias",
+      "category": "정보통신"
+    },
+    {
       "label": "정보통신기사",
       "value": "정보통신기사",
       "slug": "information-communication-engineer",
@@ -1516,6 +1716,54 @@
       "category": "정보통신"
     },
     {
+      "label": "정보통신산업기사",
+      "value": "정보통신산업기사",
+      "slug": "information-communication-industrial-engineer",
+      "href": "/certificates/information-communication-industrial-engineer",
+      "type": "certificate",
+      "category": "정보통신"
+    },
+    {
+      "label": "정보통신산업기사 공부방법",
+      "value": "정보통신산업기사 공부방법",
+      "slug": "information-communication-industrial-engineer",
+      "href": "/certificates/information-communication-industrial-engineer",
+      "type": "alias",
+      "category": "정보통신"
+    },
+    {
+      "label": "정보통신산업기사 난이도",
+      "value": "정보통신산업기사 난이도",
+      "slug": "information-communication-industrial-engineer",
+      "href": "/certificates/information-communication-industrial-engineer",
+      "type": "alias",
+      "category": "정보통신"
+    },
+    {
+      "label": "정보통신산업기사 시험과목",
+      "value": "정보통신산업기사 시험과목",
+      "slug": "information-communication-industrial-engineer",
+      "href": "/certificates/information-communication-industrial-engineer",
+      "type": "alias",
+      "category": "정보통신"
+    },
+    {
+      "label": "정보통신산업기사 응시자격",
+      "value": "정보통신산업기사 응시자격",
+      "slug": "information-communication-industrial-engineer",
+      "href": "/certificates/information-communication-industrial-engineer",
+      "type": "alias",
+      "category": "정보통신"
+    },
+    {
+      "label": "정보통신산업기사 취업",
+      "value": "정보통신산업기사 취업",
+      "slug": "information-communication-industrial-engineer",
+      "href": "/certificates/information-communication-industrial-engineer",
+      "type": "alias",
+      "category": "정보통신"
+    },
+    {
       "label": "정처기",
       "value": "정처기",
       "slug": "information-processing-engineer",
@@ -1530,6 +1778,14 @@
       "href": "/certificates/information-processing-industrial-engineer",
       "type": "alias",
       "category": "IT·개발"
+    },
+    {
+      "label": "종전 국가기술자격 기사",
+      "value": "종전 국가기술자격 기사",
+      "slug": "mechanical-design-engineer",
+      "href": "/certificates/mechanical-design-engineer",
+      "type": "alias",
+      "category": "기계"
     },
     {
       "label": "컴퓨터활용능력 1급",
@@ -1588,6 +1844,14 @@
       "category": "IT·사무"
     },
     {
+      "label": "한국데이터산업진흥원",
+      "value": "한국데이터산업진흥원",
+      "slug": "big-data-analysis-engineer",
+      "href": "/certificates/big-data-analysis-engineer",
+      "type": "alias",
+      "category": "데이터·IT"
+    },
+    {
       "label": "한국방송통신전파진흥원",
       "value": "한국방송통신전파진흥원",
       "slug": "broadcast-communication-engineer",
@@ -1628,6 +1892,14 @@
       "category": "정보통신"
     },
     {
+      "label": "한국방송통신전파진흥원",
+      "value": "한국방송통신전파진흥원",
+      "slug": "information-communication-industrial-engineer",
+      "href": "/certificates/information-communication-industrial-engineer",
+      "type": "alias",
+      "category": "정보통신"
+    },
+    {
       "label": "한국산업인력공단",
       "value": "한국산업인력공단",
       "slug": "architectural-engineer",
@@ -1650,6 +1922,14 @@
       "href": "/certificates/air-conditioning-refrigeration-craftsman",
       "type": "alias",
       "category": "기계·설비"
+    },
+    {
+      "label": "한국산업인력공단",
+      "value": "한국산업인력공단",
+      "slug": "mechanical-design-engineer",
+      "href": "/certificates/mechanical-design-engineer",
+      "type": "alias",
+      "category": "기계"
     },
     {
       "label": "한국산업인력공단",
@@ -1690,6 +1970,14 @@
       "href": "/certificates/hazardous-material-industrial-engineer",
       "type": "alias",
       "category": "화학·안전"
+    },
+    {
+      "label": "한국산업인력공단",
+      "value": "한국산업인력공단",
+      "slug": "general-mechanical-engineer",
+      "href": "/certificates/general-mechanical-engineer",
+      "type": "alias",
+      "category": "기계"
     },
     {
       "label": "한국산업인력공단",
@@ -1852,6 +2140,14 @@
       "category": "건설·건축"
     },
     {
+      "label": "big-data-analysis-engineer",
+      "value": "big-data-analysis-engineer",
+      "slug": "big-data-analysis-engineer",
+      "href": "/certificates/big-data-analysis-engineer",
+      "type": "alias",
+      "category": "데이터·IT"
+    },
+    {
       "label": "broadcast-communication-engineer",
       "value": "broadcast-communication-engineer",
       "slug": "broadcast-communication-engineer",
@@ -1972,6 +2268,14 @@
       "category": "에너지·설비"
     },
     {
+      "label": "general-mechanical-engineer",
+      "value": "general-mechanical-engineer",
+      "slug": "general-mechanical-engineer",
+      "href": "/certificates/general-mechanical-engineer",
+      "type": "alias",
+      "category": "기계"
+    },
+    {
       "label": "hazardous-material-industrial-engineer",
       "value": "hazardous-material-industrial-engineer",
       "slug": "hazardous-material-industrial-engineer",
@@ -1992,6 +2296,14 @@
       "value": "information-communication-engineer",
       "slug": "information-communication-engineer",
       "href": "/certificates/information-communication-engineer",
+      "type": "alias",
+      "category": "정보통신"
+    },
+    {
+      "label": "information-communication-industrial-engineer",
+      "value": "information-communication-industrial-engineer",
+      "slug": "information-communication-industrial-engineer",
+      "href": "/certificates/information-communication-industrial-engineer",
       "type": "alias",
       "category": "정보통신"
     },
@@ -2106,6 +2418,14 @@
       "href": "/certificates/computer-specialist-2",
       "type": "alias",
       "category": "IT·사무"
+    },
+    {
+      "label": "mechanical-design-engineer",
+      "value": "mechanical-design-engineer",
+      "slug": "mechanical-design-engineer",
+      "href": "/certificates/mechanical-design-engineer",
+      "type": "alias",
+      "category": "기계"
     },
     {
       "label": "office-automation-industrial-engineer",

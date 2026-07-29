@@ -284,5 +284,29 @@
       "slug": "information-security-engineer",
       "reason": "통신보안 분야 연계"
     }
+  ],
+  "information-communication-industrial-engineer": [
+    "information-communication-engineer",
+    "broadcast-communication-engineer",
+    "radio-electronic-communication-engineer",
+    "information-processing-industrial-engineer"
+  ],
+  "big-data-analysis-engineer": [
+    "information-processing-engineer",
+    "information-processing-industrial-engineer",
+    "information-security-engineer",
+    "office-automation-industrial-engineer"
+  ],
+  "general-mechanical-engineer": [
+    "mechanical-design-engineer",
+    "architectural-engineer",
+    "energy-management-craftsman",
+    "air-conditioning-refrigeration-craftsman"
+  ],
+  "mechanical-design-engineer": [
+    "general-mechanical-engineer",
+    "architectural-engineer",
+    "electronics-engineer",
+    "welding-craftsman"
   ]
 }

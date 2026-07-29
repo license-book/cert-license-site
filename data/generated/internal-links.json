@@ -1,12 +1,12 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-29T02:04:20.520Z",
+  "generatedAt": "2026-07-29T02:23:35.521Z",
   "maxRelatedPerCertificate": 4,
   "totals": {
-    "certificates": 29,
-    "manualLinks": 72,
+    "certificates": 33,
+    "manualLinks": 88,
     "autoLinks": 44,
-    "allLinks": 116
+    "allLinks": 132
   },
   "items": {
     "air-conditioning-refrigeration-craftsman": [
@@ -84,6 +84,24 @@
         "score": 50
       }
     ],
+    "big-data-analysis-engineer": [
+      {
+        "slug": "information-processing-engineer",
+        "source": "manual"
+      },
+      {
+        "slug": "information-processing-industrial-engineer",
+        "source": "manual"
+      },
+      {
+        "slug": "information-security-engineer",
+        "source": "manual"
+      },
+      {
+        "slug": "office-automation-industrial-engineer",
+        "source": "manual"
+      }
+    ],
     "broadcast-communication-engineer": [
       {
         "slug": "radio-electronic-communication-engineer",
@@ -101,10 +119,10 @@
         "source": "manual"
       },
       {
-        "slug": "information-security-engineer",
-        "tag": "IT·보안",
+        "slug": "information-communication-industrial-engineer",
+        "tag": "정보통신 실무",
         "source": "auto",
-        "score": 50
+        "score": 85
       }
     ],
     "computer-specialist-1": [
@@ -442,6 +460,24 @@
         "score": 50
       }
     ],
+    "general-mechanical-engineer": [
+      {
+        "slug": "mechanical-design-engineer",
+        "source": "manual"
+      },
+      {
+        "slug": "architectural-engineer",
+        "source": "manual"
+      },
+      {
+        "slug": "energy-management-craftsman",
+        "source": "manual"
+      },
+      {
+        "slug": "air-conditioning-refrigeration-craftsman",
+        "source": "manual"
+      }
+    ],
     "hazardous-material-industrial-engineer": [
       {
         "slug": "industrial-safety-engineer",
@@ -509,10 +545,28 @@
         "source": "manual"
       },
       {
-        "slug": "electrical-construction-engineer",
-        "tag": "전기·전자",
+        "slug": "information-communication-industrial-engineer",
+        "tag": "정보통신 실무",
         "source": "auto",
-        "score": 40
+        "score": 85
+      }
+    ],
+    "information-communication-industrial-engineer": [
+      {
+        "slug": "information-communication-engineer",
+        "source": "manual"
+      },
+      {
+        "slug": "broadcast-communication-engineer",
+        "source": "manual"
+      },
+      {
+        "slug": "radio-electronic-communication-engineer",
+        "source": "manual"
+      },
+      {
+        "slug": "information-processing-industrial-engineer",
+        "source": "manual"
       }
     ],
     "information-processing-engineer": [
@@ -591,6 +645,24 @@
         "source": "manual"
       }
     ],
+    "mechanical-design-engineer": [
+      {
+        "slug": "general-mechanical-engineer",
+        "source": "manual"
+      },
+      {
+        "slug": "architectural-engineer",
+        "source": "manual"
+      },
+      {
+        "slug": "electronics-engineer",
+        "source": "manual"
+      },
+      {
+        "slug": "welding-craftsman",
+        "source": "manual"
+      }
+    ],
     "office-automation-industrial-engineer": [
       {
         "slug": "computerized-accounting-grade-1",
@@ -626,10 +698,10 @@
         "source": "manual"
       },
       {
-        "slug": "information-security-engineer",
-        "tag": "IT·보안",
+        "slug": "information-communication-industrial-engineer",
+        "tag": "정보통신 실무",
         "source": "auto",
-        "score": 50
+        "score": 85
       }
     ],
     "welding-craftsman": [

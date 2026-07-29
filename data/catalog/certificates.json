@@ -275,5 +275,41 @@
     "category": "정보통신",
     "agency": "한국방송통신전파진흥원",
     "relatedTag": "통신망"
+  },
+  "information-communication-industrial-engineer": {
+    "name": "정보통신산업기사",
+    "shortName": "정보통신산업기사",
+    "type": "national",
+    "licenseType": "국가기술자격 산업기사",
+    "category": "정보통신",
+    "agency": "한국방송통신전파진흥원",
+    "relatedTag": "정보통신 실무"
+  },
+  "big-data-analysis-engineer": {
+    "name": "빅데이터분석기사",
+    "shortName": "빅데이터분석기사",
+    "type": "national",
+    "licenseType": "국가기술자격 기사",
+    "category": "데이터·IT",
+    "agency": "한국데이터산업진흥원",
+    "relatedTag": "데이터 분석"
+  },
+  "general-mechanical-engineer": {
+    "name": "일반기계기사",
+    "shortName": "일반기계기사",
+    "type": "national",
+    "licenseType": "국가기술자격 기사",
+    "category": "기계",
+    "agency": "한국산업인력공단",
+    "relatedTag": "기계 설계"
+  },
+  "mechanical-design-engineer": {
+    "name": "기계설계기사",
+    "shortName": "기계설계기사",
+    "type": "national",
+    "licenseType": "종전 국가기술자격 기사",
+    "category": "기계",
+    "agency": "한국산업인력공단",
+    "relatedTag": "일반기계기사 통합"
   }
 }
