@@ -419,5 +419,41 @@
     "category": "소방·안전",
     "agency": "한국산업인력공단",
     "relatedTag": "소방전기시설의 설계·시공·점검 관련 직무"
+  },
+  "fire-protection-mechanical-engineer": {
+    "name": "소방설비기사(기계분야)",
+    "shortName": "소방설비기사(기계)",
+    "type": "national",
+    "licenseType": "국가기술자격 기사",
+    "category": "소방·안전",
+    "agency": "한국산업인력공단",
+    "relatedTag": "소방 기계"
+  },
+  "fire-protection-electrical-industrial-engineer": {
+    "name": "소방설비산업기사(전기분야)",
+    "shortName": "소방설비산업기사(전기)",
+    "type": "national",
+    "licenseType": "국가기술자격 산업기사",
+    "category": "소방·안전",
+    "agency": "한국산업인력공단",
+    "relatedTag": "소방 전기"
+  },
+  "fire-protection-mechanical-industrial-engineer": {
+    "name": "소방설비산업기사(기계분야)",
+    "shortName": "소방설비산업기사(기계)",
+    "type": "national",
+    "licenseType": "국가기술자격 산업기사",
+    "category": "소방·안전",
+    "agency": "한국산업인력공단",
+    "relatedTag": "소방 기계"
+  },
+  "hazardous-material-craftsman": {
+    "name": "위험물기능사",
+    "shortName": "위험물기능사",
+    "type": "national",
+    "licenseType": "국가기술자격 기능사",
+    "category": "화학·안전",
+    "agency": "한국산업인력공단",
+    "relatedTag": "위험물 입문"
   }
 }
