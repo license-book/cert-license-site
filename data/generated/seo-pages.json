@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-29T06:08:04.176Z",
-  "total": 76,
+  "generatedAt": "2026-07-29T06:22:04.753Z",
+  "total": 80,
   "items": [
     {
       "slug": "air-conditioning-refrigeration-craftsman",
@@ -251,6 +251,34 @@
       "lastModified": "2026-07-29"
     },
     {
+      "slug": "bartender-craftsman",
+      "name": "조주기능사",
+      "shortName": "조주기능사",
+      "title": "조주기능사 시험과목·난이도·실기·현실가이드 | 라북",
+      "description": "조주기능사의 시험과목, 현실 난이도, 준비기간, 실기 준비방법과 취업 활용을 확인하세요.",
+      "keywords": [
+        "조주기능사",
+        "조주기능사 필기",
+        "조주기능사 실기",
+        "조주기능사 칵테일",
+        "조주기능사 난이도",
+        "조주기능사 취업",
+        "조주기능사 시험",
+        "조주기능사 합격률",
+        "조주기능사 공부기간",
+        "조리·서비스",
+        "국가기술자격 기능사",
+        "한국산업인력공단"
+      ],
+      "image": "/images/hero/bartender-craftsman.webp",
+      "path": "/cert/bartender-craftsman",
+      "type": "national",
+      "licenseType": "국가기술자격 기능사",
+      "category": "조리·서비스",
+      "agency": "한국산업인력공단",
+      "lastModified": "2026-07-29"
+    },
+    {
       "slug": "big-data-analysis-engineer",
       "name": "빅데이터분석기사",
       "shortName": "빅데이터분석기사",
@@ -276,6 +304,34 @@
       "licenseType": "국가기술자격 기사",
       "category": "데이터·IT",
       "agency": "한국데이터산업진흥원",
+      "lastModified": "2026-07-29"
+    },
+    {
+      "slug": "bread-making-craftsman",
+      "name": "제빵기능사",
+      "shortName": "제빵기능사",
+      "title": "제빵기능사 시험과목·난이도·실기·현실가이드 | 라북",
+      "description": "제빵기능사의 시험과목, 현실 난이도, 준비기간, 실기 준비방법과 취업 활용을 확인하세요.",
+      "keywords": [
+        "제빵기능사",
+        "제빵기능사 필기",
+        "제빵기능사 실기",
+        "제빵기능사 공개문제",
+        "제빵기능사 난이도",
+        "제빵기능사 취업",
+        "제빵기능사 시험",
+        "제빵기능사 합격률",
+        "제빵기능사 공부기간",
+        "조리·서비스",
+        "국가기술자격 기능사",
+        "한국산업인력공단"
+      ],
+      "image": "/images/hero/bread-making-craftsman.webp",
+      "path": "/cert/bread-making-craftsman",
+      "type": "national",
+      "licenseType": "국가기술자격 기능사",
+      "category": "조리·서비스",
+      "agency": "한국산업인력공단",
       "lastModified": "2026-07-29"
     },
     {
@@ -606,6 +662,34 @@
       "category": "회계·세무",
       "agency": "한국세무사회",
       "lastModified": "2026-07-28"
+    },
+    {
+      "slug": "confectionery-craftsman",
+      "name": "제과기능사",
+      "shortName": "제과기능사",
+      "title": "제과기능사 시험과목·난이도·실기·현실가이드 | 라북",
+      "description": "제과기능사의 시험과목, 현실 난이도, 준비기간, 실기 준비방법과 취업 활용을 확인하세요.",
+      "keywords": [
+        "제과기능사",
+        "제과기능사 필기",
+        "제과기능사 실기",
+        "제과기능사 공개문제",
+        "제과기능사 난이도",
+        "제과기능사 취업",
+        "제과기능사 시험",
+        "제과기능사 합격률",
+        "제과기능사 공부기간",
+        "조리·서비스",
+        "국가기술자격 기능사",
+        "한국산업인력공단"
+      ],
+      "image": "/images/hero/confectionery-craftsman.webp",
+      "path": "/cert/confectionery-craftsman",
+      "type": "national",
+      "licenseType": "국가기술자격 기능사",
+      "category": "조리·서비스",
+      "agency": "한국산업인력공단",
+      "lastModified": "2026-07-29"
     },
     {
       "slug": "construction-machinery-equipment-engineer",
@@ -1670,6 +1754,34 @@
       "category": "건설·건축",
       "agency": "한국산업인력공단",
       "lastModified": "2026-07-28"
+    },
+    {
+      "slug": "japanese-cuisine-craftsman",
+      "name": "일식조리기능사",
+      "shortName": "일식조리기능사",
+      "title": "일식조리기능사 시험과목·난이도·실기·현실가이드 | 라북",
+      "description": "일식조리기능사의 시험과목, 현실 난이도, 준비기간, 실기 준비방법과 취업 활용을 확인하세요.",
+      "keywords": [
+        "일식조리기능사",
+        "일식조리기능사 필기",
+        "일식조리기능사 실기",
+        "일식조리기능사 공개문제",
+        "일식조리기능사 난이도",
+        "일식조리기능사 취업",
+        "일식조리기능사 시험",
+        "일식조리기능사 합격률",
+        "일식조리기능사 공부기간",
+        "조리·서비스",
+        "국가기술자격 기능사",
+        "한국산업인력공단"
+      ],
+      "image": "/images/hero/japanese-cuisine-craftsman.webp",
+      "path": "/cert/japanese-cuisine-craftsman",
+      "type": "national",
+      "licenseType": "국가기술자격 기능사",
+      "category": "조리·서비스",
+      "agency": "한국산업인력공단",
+      "lastModified": "2026-07-29"
     },
     {
       "slug": "korean-cuisine-craftsman",

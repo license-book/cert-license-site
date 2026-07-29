@@ -490,5 +490,25 @@
     "korean-cuisine-craftsman",
     "western-cuisine-craftsman",
     "energy-management-craftsman"
+  ],
+  "japanese-cuisine-craftsman": [
+    "korean-cuisine-craftsman",
+    "western-cuisine-craftsman",
+    "chinese-cuisine-craftsman"
+  ],
+  "confectionery-craftsman": [
+    "bread-making-craftsman",
+    "korean-cuisine-craftsman",
+    "bartender-craftsman"
+  ],
+  "bread-making-craftsman": [
+    "confectionery-craftsman",
+    "korean-cuisine-craftsman",
+    "bartender-craftsman"
+  ],
+  "bartender-craftsman": [
+    "western-cuisine-craftsman",
+    "confectionery-craftsman",
+    "bread-making-craftsman"
   ]
 }

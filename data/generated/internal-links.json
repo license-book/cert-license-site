@@ -1,12 +1,12 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-29T06:08:04.046Z",
+  "generatedAt": "2026-07-29T06:22:04.638Z",
   "maxRelatedPerCertificate": 4,
   "totals": {
-    "certificates": 76,
-    "manualLinks": 172,
-    "autoLinks": 132,
-    "allLinks": 304
+    "certificates": 80,
+    "manualLinks": 184,
+    "autoLinks": 136,
+    "allLinks": 320
   },
   "items": {
     "air-conditioning-refrigeration-craftsman": [
@@ -204,6 +204,26 @@
         "source": "manual"
       }
     ],
+    "bartender-craftsman": [
+      {
+        "slug": "western-cuisine-craftsman",
+        "source": "manual"
+      },
+      {
+        "slug": "confectionery-craftsman",
+        "source": "manual"
+      },
+      {
+        "slug": "bread-making-craftsman",
+        "source": "manual"
+      },
+      {
+        "slug": "japanese-cuisine-craftsman",
+        "tag": "조리·서비스",
+        "source": "auto",
+        "score": 100
+      }
+    ],
     "big-data-analysis-engineer": [
       {
         "slug": "information-processing-engineer",
@@ -220,6 +240,26 @@
       {
         "slug": "office-automation-industrial-engineer",
         "source": "manual"
+      }
+    ],
+    "bread-making-craftsman": [
+      {
+        "slug": "confectionery-craftsman",
+        "source": "manual"
+      },
+      {
+        "slug": "korean-cuisine-craftsman",
+        "source": "manual"
+      },
+      {
+        "slug": "bartender-craftsman",
+        "source": "manual"
+      },
+      {
+        "slug": "japanese-cuisine-craftsman",
+        "tag": "조리·서비스",
+        "source": "auto",
+        "score": 100
       }
     ],
     "broadcast-communication-engineer": [
@@ -485,6 +525,26 @@
         "tag": "가스 안전",
         "source": "auto",
         "score": 25
+      }
+    ],
+    "confectionery-craftsman": [
+      {
+        "slug": "bread-making-craftsman",
+        "source": "manual"
+      },
+      {
+        "slug": "korean-cuisine-craftsman",
+        "source": "manual"
+      },
+      {
+        "slug": "bartender-craftsman",
+        "source": "manual"
+      },
+      {
+        "slug": "japanese-cuisine-craftsman",
+        "tag": "조리·서비스",
+        "source": "auto",
+        "score": 100
       }
     ],
     "construction-machinery-equipment-engineer": [
@@ -1383,6 +1443,26 @@
         "tag": "건축설비",
         "source": "auto",
         "score": 85
+      }
+    ],
+    "japanese-cuisine-craftsman": [
+      {
+        "slug": "korean-cuisine-craftsman",
+        "source": "manual"
+      },
+      {
+        "slug": "western-cuisine-craftsman",
+        "source": "manual"
+      },
+      {
+        "slug": "chinese-cuisine-craftsman",
+        "source": "manual"
+      },
+      {
+        "slug": "confectionery-craftsman",
+        "tag": "조리·서비스",
+        "source": "auto",
+        "score": 100
       }
     ],
     "korean-cuisine-craftsman": [

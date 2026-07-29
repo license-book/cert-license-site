@@ -662,5 +662,41 @@
     "category": "조리·외식",
     "agency": "한국산업인력공단",
     "relatedTag": "조리·외식"
+  },
+  "japanese-cuisine-craftsman": {
+    "name": "일식조리기능사",
+    "shortName": "일식조리기능사",
+    "type": "national",
+    "licenseType": "국가기술자격 기능사",
+    "category": "조리·서비스",
+    "agency": "한국산업인력공단",
+    "relatedTag": "조리·서비스"
+  },
+  "confectionery-craftsman": {
+    "name": "제과기능사",
+    "shortName": "제과기능사",
+    "type": "national",
+    "licenseType": "국가기술자격 기능사",
+    "category": "조리·서비스",
+    "agency": "한국산업인력공단",
+    "relatedTag": "조리·서비스"
+  },
+  "bread-making-craftsman": {
+    "name": "제빵기능사",
+    "shortName": "제빵기능사",
+    "type": "national",
+    "licenseType": "국가기술자격 기능사",
+    "category": "조리·서비스",
+    "agency": "한국산업인력공단",
+    "relatedTag": "조리·서비스"
+  },
+  "bartender-craftsman": {
+    "name": "조주기능사",
+    "shortName": "조주기능사",
+    "type": "national",
+    "licenseType": "국가기술자격 기능사",
+    "category": "조리·서비스",
+    "agency": "한국산업인력공단",
+    "relatedTag": "조리·서비스"
   }
 }

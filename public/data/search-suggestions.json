@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-29T06:08:03.770Z",
-  "total": 723,
+  "generatedAt": "2026-07-29T06:22:04.373Z",
+  "total": 763,
   "items": [
     {
       "label": "가스기능사",
@@ -886,6 +886,14 @@
     {
       "label": "국가기술자격 기능사",
       "value": "국가기술자격 기능사",
+      "slug": "japanese-cuisine-craftsman",
+      "href": "/certificates/japanese-cuisine-craftsman",
+      "type": "alias",
+      "category": "조리·서비스"
+    },
+    {
+      "label": "국가기술자격 기능사",
+      "value": "국가기술자격 기능사",
       "slug": "automotive-maintenance-craftsman",
       "href": "/certificates/automotive-maintenance-craftsman",
       "type": "alias",
@@ -906,6 +914,30 @@
       "href": "/certificates/electronic-craftsman",
       "type": "alias",
       "category": "전기·전자"
+    },
+    {
+      "label": "국가기술자격 기능사",
+      "value": "국가기술자격 기능사",
+      "slug": "confectionery-craftsman",
+      "href": "/certificates/confectionery-craftsman",
+      "type": "alias",
+      "category": "조리·서비스"
+    },
+    {
+      "label": "국가기술자격 기능사",
+      "value": "국가기술자격 기능사",
+      "slug": "bread-making-craftsman",
+      "href": "/certificates/bread-making-craftsman",
+      "type": "alias",
+      "category": "조리·서비스"
+    },
+    {
+      "label": "국가기술자격 기능사",
+      "value": "국가기술자격 기능사",
+      "slug": "bartender-craftsman",
+      "href": "/certificates/bartender-craftsman",
+      "type": "alias",
+      "category": "조리·서비스"
     },
     {
       "label": "국가기술자격 기능사",
@@ -2940,6 +2972,54 @@
       "category": "기계"
     },
     {
+      "label": "일식조리기능사",
+      "value": "일식조리기능사",
+      "slug": "japanese-cuisine-craftsman",
+      "href": "/certificates/japanese-cuisine-craftsman",
+      "type": "certificate",
+      "category": "조리·서비스"
+    },
+    {
+      "label": "일식조리기능사 공개문제",
+      "value": "일식조리기능사 공개문제",
+      "slug": "japanese-cuisine-craftsman",
+      "href": "/certificates/japanese-cuisine-craftsman",
+      "type": "alias",
+      "category": "조리·서비스"
+    },
+    {
+      "label": "일식조리기능사 난이도",
+      "value": "일식조리기능사 난이도",
+      "slug": "japanese-cuisine-craftsman",
+      "href": "/certificates/japanese-cuisine-craftsman",
+      "type": "alias",
+      "category": "조리·서비스"
+    },
+    {
+      "label": "일식조리기능사 실기",
+      "value": "일식조리기능사 실기",
+      "slug": "japanese-cuisine-craftsman",
+      "href": "/certificates/japanese-cuisine-craftsman",
+      "type": "alias",
+      "category": "조리·서비스"
+    },
+    {
+      "label": "일식조리기능사 취업",
+      "value": "일식조리기능사 취업",
+      "slug": "japanese-cuisine-craftsman",
+      "href": "/certificates/japanese-cuisine-craftsman",
+      "type": "alias",
+      "category": "조리·서비스"
+    },
+    {
+      "label": "일식조리기능사 필기",
+      "value": "일식조리기능사 필기",
+      "slug": "japanese-cuisine-craftsman",
+      "href": "/certificates/japanese-cuisine-craftsman",
+      "type": "alias",
+      "category": "조리·서비스"
+    },
+    {
       "label": "자동차정비기능사",
       "value": "자동차정비기능사",
       "slug": "automotive-maintenance-craftsman",
@@ -3892,6 +3972,134 @@
       "category": "IT·개발"
     },
     {
+      "label": "제과기능사",
+      "value": "제과기능사",
+      "slug": "confectionery-craftsman",
+      "href": "/certificates/confectionery-craftsman",
+      "type": "certificate",
+      "category": "조리·서비스"
+    },
+    {
+      "label": "제과기능사 공개문제",
+      "value": "제과기능사 공개문제",
+      "slug": "confectionery-craftsman",
+      "href": "/certificates/confectionery-craftsman",
+      "type": "alias",
+      "category": "조리·서비스"
+    },
+    {
+      "label": "제과기능사 난이도",
+      "value": "제과기능사 난이도",
+      "slug": "confectionery-craftsman",
+      "href": "/certificates/confectionery-craftsman",
+      "type": "alias",
+      "category": "조리·서비스"
+    },
+    {
+      "label": "제과기능사 실기",
+      "value": "제과기능사 실기",
+      "slug": "confectionery-craftsman",
+      "href": "/certificates/confectionery-craftsman",
+      "type": "alias",
+      "category": "조리·서비스"
+    },
+    {
+      "label": "제과기능사 취업",
+      "value": "제과기능사 취업",
+      "slug": "confectionery-craftsman",
+      "href": "/certificates/confectionery-craftsman",
+      "type": "alias",
+      "category": "조리·서비스"
+    },
+    {
+      "label": "제과기능사 필기",
+      "value": "제과기능사 필기",
+      "slug": "confectionery-craftsman",
+      "href": "/certificates/confectionery-craftsman",
+      "type": "alias",
+      "category": "조리·서비스"
+    },
+    {
+      "label": "제빵기능사",
+      "value": "제빵기능사",
+      "slug": "bread-making-craftsman",
+      "href": "/certificates/bread-making-craftsman",
+      "type": "certificate",
+      "category": "조리·서비스"
+    },
+    {
+      "label": "제빵기능사 공개문제",
+      "value": "제빵기능사 공개문제",
+      "slug": "bread-making-craftsman",
+      "href": "/certificates/bread-making-craftsman",
+      "type": "alias",
+      "category": "조리·서비스"
+    },
+    {
+      "label": "제빵기능사 난이도",
+      "value": "제빵기능사 난이도",
+      "slug": "bread-making-craftsman",
+      "href": "/certificates/bread-making-craftsman",
+      "type": "alias",
+      "category": "조리·서비스"
+    },
+    {
+      "label": "제빵기능사 실기",
+      "value": "제빵기능사 실기",
+      "slug": "bread-making-craftsman",
+      "href": "/certificates/bread-making-craftsman",
+      "type": "alias",
+      "category": "조리·서비스"
+    },
+    {
+      "label": "제빵기능사 취업",
+      "value": "제빵기능사 취업",
+      "slug": "bread-making-craftsman",
+      "href": "/certificates/bread-making-craftsman",
+      "type": "alias",
+      "category": "조리·서비스"
+    },
+    {
+      "label": "제빵기능사 필기",
+      "value": "제빵기능사 필기",
+      "slug": "bread-making-craftsman",
+      "href": "/certificates/bread-making-craftsman",
+      "type": "alias",
+      "category": "조리·서비스"
+    },
+    {
+      "label": "조리·서비스",
+      "value": "조리·서비스",
+      "slug": "japanese-cuisine-craftsman",
+      "href": "/certificates/japanese-cuisine-craftsman",
+      "type": "alias",
+      "category": "조리·서비스"
+    },
+    {
+      "label": "조리·서비스",
+      "value": "조리·서비스",
+      "slug": "confectionery-craftsman",
+      "href": "/certificates/confectionery-craftsman",
+      "type": "alias",
+      "category": "조리·서비스"
+    },
+    {
+      "label": "조리·서비스",
+      "value": "조리·서비스",
+      "slug": "bread-making-craftsman",
+      "href": "/certificates/bread-making-craftsman",
+      "type": "alias",
+      "category": "조리·서비스"
+    },
+    {
+      "label": "조리·서비스",
+      "value": "조리·서비스",
+      "slug": "bartender-craftsman",
+      "href": "/certificates/bartender-craftsman",
+      "type": "alias",
+      "category": "조리·서비스"
+    },
+    {
       "label": "조리·외식",
       "value": "조리·외식",
       "slug": "western-cuisine-craftsman",
@@ -3914,6 +4122,54 @@
       "href": "/certificates/korean-cuisine-craftsman",
       "type": "alias",
       "category": "조리·외식"
+    },
+    {
+      "label": "조주기능사",
+      "value": "조주기능사",
+      "slug": "bartender-craftsman",
+      "href": "/certificates/bartender-craftsman",
+      "type": "certificate",
+      "category": "조리·서비스"
+    },
+    {
+      "label": "조주기능사 난이도",
+      "value": "조주기능사 난이도",
+      "slug": "bartender-craftsman",
+      "href": "/certificates/bartender-craftsman",
+      "type": "alias",
+      "category": "조리·서비스"
+    },
+    {
+      "label": "조주기능사 실기",
+      "value": "조주기능사 실기",
+      "slug": "bartender-craftsman",
+      "href": "/certificates/bartender-craftsman",
+      "type": "alias",
+      "category": "조리·서비스"
+    },
+    {
+      "label": "조주기능사 취업",
+      "value": "조주기능사 취업",
+      "slug": "bartender-craftsman",
+      "href": "/certificates/bartender-craftsman",
+      "type": "alias",
+      "category": "조리·서비스"
+    },
+    {
+      "label": "조주기능사 칵테일",
+      "value": "조주기능사 칵테일",
+      "slug": "bartender-craftsman",
+      "href": "/certificates/bartender-craftsman",
+      "type": "alias",
+      "category": "조리·서비스"
+    },
+    {
+      "label": "조주기능사 필기",
+      "value": "조주기능사 필기",
+      "slug": "bartender-craftsman",
+      "href": "/certificates/bartender-craftsman",
+      "type": "alias",
+      "category": "조리·서비스"
     },
     {
       "label": "종전 국가기술자격 기사",
@@ -4654,6 +4910,14 @@
     {
       "label": "한국산업인력공단",
       "value": "한국산업인력공단",
+      "slug": "japanese-cuisine-craftsman",
+      "href": "/certificates/japanese-cuisine-craftsman",
+      "type": "alias",
+      "category": "조리·서비스"
+    },
+    {
+      "label": "한국산업인력공단",
+      "value": "한국산업인력공단",
       "slug": "automotive-maintenance-craftsman",
       "href": "/certificates/automotive-maintenance-craftsman",
       "type": "alias",
@@ -4754,6 +5018,30 @@
       "href": "/certificates/information-processing-industrial-engineer",
       "type": "alias",
       "category": "IT·개발"
+    },
+    {
+      "label": "한국산업인력공단",
+      "value": "한국산업인력공단",
+      "slug": "confectionery-craftsman",
+      "href": "/certificates/confectionery-craftsman",
+      "type": "alias",
+      "category": "조리·서비스"
+    },
+    {
+      "label": "한국산업인력공단",
+      "value": "한국산업인력공단",
+      "slug": "bread-making-craftsman",
+      "href": "/certificates/bread-making-craftsman",
+      "type": "alias",
+      "category": "조리·서비스"
+    },
+    {
+      "label": "한국산업인력공단",
+      "value": "한국산업인력공단",
+      "slug": "bartender-craftsman",
+      "href": "/certificates/bartender-craftsman",
+      "type": "alias",
+      "category": "조리·서비스"
     },
     {
       "label": "한국산업인력공단",
@@ -5172,12 +5460,28 @@
       "category": "기계·자동차"
     },
     {
+      "label": "bartender-craftsman",
+      "value": "bartender-craftsman",
+      "slug": "bartender-craftsman",
+      "href": "/certificates/bartender-craftsman",
+      "type": "alias",
+      "category": "조리·서비스"
+    },
+    {
       "label": "big-data-analysis-engineer",
       "value": "big-data-analysis-engineer",
       "slug": "big-data-analysis-engineer",
       "href": "/certificates/big-data-analysis-engineer",
       "type": "alias",
       "category": "데이터·IT"
+    },
+    {
+      "label": "bread-making-craftsman",
+      "value": "bread-making-craftsman",
+      "slug": "bread-making-craftsman",
+      "href": "/certificates/bread-making-craftsman",
+      "type": "alias",
+      "category": "조리·서비스"
     },
     {
       "label": "broadcast-communication-engineer",
@@ -5274,6 +5578,14 @@
       "href": "/certificates/computerized-tax-grade-2",
       "type": "alias",
       "category": "회계·세무"
+    },
+    {
+      "label": "confectionery-craftsman",
+      "value": "confectionery-craftsman",
+      "slug": "confectionery-craftsman",
+      "href": "/certificates/confectionery-craftsman",
+      "type": "alias",
+      "category": "조리·서비스"
     },
     {
       "label": "construction-machinery-equipment-engineer",
@@ -5666,6 +5978,14 @@
       "href": "/certificates/computer-specialist-2",
       "type": "alias",
       "category": "IT·사무"
+    },
+    {
+      "label": "japanese-cuisine-craftsman",
+      "value": "japanese-cuisine-craftsman",
+      "slug": "japanese-cuisine-craftsman",
+      "href": "/certificates/japanese-cuisine-craftsman",
+      "type": "alias",
+      "category": "조리·서비스"
     },
     {
       "label": "korean-cuisine-craftsman",
