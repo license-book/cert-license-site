@@ -563,5 +563,68 @@
     "category": "기계·건설기계",
     "agency": "한국산업인력공단",
     "relatedTag": "건설기계 정비"
+  },
+  "forklift-truck-operator-craftsman": {
+    "name": "지게차운전기능사",
+    "shortName": "지게차운전기능사",
+    "type": "national",
+    "licenseType": "국가기술자격 기능사",
+    "category": "운전·건설기계",
+    "agency": "한국산업인력공단",
+    "relatedTag": "운전·건설기계"
+  },
+  "excavator-operator-craftsman": {
+    "name": "굴착기운전기능사",
+    "shortName": "굴착기운전기능사",
+    "type": "national",
+    "licenseType": "국가기술자격 기능사",
+    "category": "운전·건설기계",
+    "agency": "한국산업인력공단",
+    "relatedTag": "운전·건설기계"
+  },
+  "crane-operator-craftsman": {
+    "name": "기중기운전기능사",
+    "shortName": "기중기운전기능사",
+    "type": "national",
+    "licenseType": "국가기술자격 기능사",
+    "category": "운전·건설기계",
+    "agency": "한국산업인력공단",
+    "relatedTag": "운전·건설기계"
+  },
+  "welding-engineer": {
+    "name": "용접기사",
+    "shortName": "용접기사",
+    "type": "national",
+    "licenseType": "국가기술자격 기사",
+    "category": "기계·금속",
+    "agency": "한국산업인력공단",
+    "relatedTag": "기계·금속"
+  },
+  "welding-industrial-engineer": {
+    "name": "용접산업기사",
+    "shortName": "용접산업기사",
+    "type": "national",
+    "licenseType": "국가기술자격 산업기사",
+    "category": "기계·금속",
+    "agency": "한국산업인력공단",
+    "relatedTag": "기계·금속"
+  },
+  "metal-materials-engineer": {
+    "name": "금속재료기사",
+    "shortName": "금속재료기사",
+    "type": "national",
+    "licenseType": "국가기술자격 기사",
+    "category": "기계·금속",
+    "agency": "한국산업인력공단",
+    "relatedTag": "기계·금속"
+  },
+  "metal-materials-industrial-engineer": {
+    "name": "금속재료산업기사",
+    "shortName": "금속재료산업기사",
+    "type": "national",
+    "licenseType": "국가기술자격 산업기사",
+    "category": "기계·금속",
+    "agency": "한국산업인력공단",
+    "relatedTag": "기계·금속"
   }
 }

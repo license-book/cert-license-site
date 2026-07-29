@@ -450,5 +450,25 @@
     "construction-machinery-equipment-engineer",
     "automotive-maintenance-industrial-engineer",
     "automotive-maintenance-craftsman"
+  ],
+  "forklift-truck-operator-craftsman": [
+    "excavator-operator-craftsman",
+    "crane-operator-craftsman",
+    "construction-machinery-maintenance-industrial-engineer"
+  ],
+  "excavator-operator-craftsman": [
+    "forklift-truck-operator-craftsman",
+    "crane-operator-craftsman",
+    "construction-machinery-equipment-engineer"
+  ],
+  "crane-operator-craftsman": [
+    "forklift-truck-operator-craftsman",
+    "excavator-operator-craftsman",
+    "construction-machinery-maintenance-industrial-engineer"
+  ],
+  "welding-engineer": [
+    "welding-craftsman",
+    "general-mechanical-engineer",
+    "industrial-safety-engineer"
   ]
 }

@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-29T04:18:02.301Z",
-  "total": 578,
+  "generatedAt": "2026-07-29T04:52:50.806Z",
+  "total": 644,
   "items": [
     {
       "label": "가스기능사",
@@ -838,6 +838,22 @@
     {
       "label": "국가기술자격 기능사",
       "value": "국가기술자격 기능사",
+      "slug": "excavator-operator-craftsman",
+      "href": "/certificates/excavator-operator-craftsman",
+      "type": "alias",
+      "category": "운전·건설기계"
+    },
+    {
+      "label": "국가기술자격 기능사",
+      "value": "국가기술자격 기능사",
+      "slug": "crane-operator-craftsman",
+      "href": "/certificates/crane-operator-craftsman",
+      "type": "alias",
+      "category": "운전·건설기계"
+    },
+    {
+      "label": "국가기술자격 기능사",
+      "value": "국가기술자격 기능사",
       "slug": "energy-management-craftsman",
       "href": "/certificates/energy-management-craftsman",
       "type": "alias",
@@ -882,6 +898,14 @@
       "href": "/certificates/electronic-craftsman",
       "type": "alias",
       "category": "전기·전자"
+    },
+    {
+      "label": "국가기술자격 기능사",
+      "value": "국가기술자격 기능사",
+      "slug": "forklift-truck-operator-craftsman",
+      "href": "/certificates/forklift-truck-operator-craftsman",
+      "type": "alias",
+      "category": "운전·건설기계"
     },
     {
       "label": "국가기술자격 기사",
@@ -934,6 +958,14 @@
     {
       "label": "국가기술자격 기사",
       "value": "국가기술자격 기사",
+      "slug": "metal-materials-engineer",
+      "href": "/certificates/metal-materials-engineer",
+      "type": "alias",
+      "category": "기계·금속"
+    },
+    {
+      "label": "국가기술자격 기사",
+      "value": "국가기술자격 기사",
       "slug": "broadcast-communication-engineer",
       "href": "/certificates/broadcast-communication-engineer",
       "type": "alias",
@@ -978,6 +1010,14 @@
       "href": "/certificates/energy-management-engineer",
       "type": "alias",
       "category": "에너지·설비"
+    },
+    {
+      "label": "국가기술자격 기사",
+      "value": "국가기술자격 기사",
+      "slug": "welding-engineer",
+      "href": "/certificates/welding-engineer",
+      "type": "alias",
+      "category": "기계·금속"
     },
     {
       "label": "국가기술자격 기사",
@@ -1094,6 +1134,14 @@
     {
       "label": "국가기술자격 산업기사",
       "value": "국가기술자격 산업기사",
+      "slug": "metal-materials-industrial-engineer",
+      "href": "/certificates/metal-materials-industrial-engineer",
+      "type": "alias",
+      "category": "기계·금속"
+    },
+    {
+      "label": "국가기술자격 산업기사",
+      "value": "국가기술자격 산업기사",
       "slug": "office-automation-industrial-engineer",
       "href": "/certificates/office-automation-industrial-engineer",
       "type": "alias",
@@ -1138,6 +1186,14 @@
       "href": "/certificates/energy-management-industrial-engineer",
       "type": "alias",
       "category": "에너지·설비"
+    },
+    {
+      "label": "국가기술자격 산업기사",
+      "value": "국가기술자격 산업기사",
+      "slug": "welding-industrial-engineer",
+      "href": "/certificates/welding-industrial-engineer",
+      "type": "alias",
+      "category": "기계·금속"
     },
     {
       "label": "국가기술자격 산업기사",
@@ -1204,6 +1260,142 @@
       "category": "건설·토목"
     },
     {
+      "label": "굴착기운전기능사",
+      "value": "굴착기운전기능사",
+      "slug": "excavator-operator-craftsman",
+      "href": "/certificates/excavator-operator-craftsman",
+      "type": "certificate",
+      "category": "운전·건설기계"
+    },
+    {
+      "label": "굴착기운전기능사 난이도",
+      "value": "굴착기운전기능사 난이도",
+      "slug": "excavator-operator-craftsman",
+      "href": "/certificates/excavator-operator-craftsman",
+      "type": "alias",
+      "category": "운전·건설기계"
+    },
+    {
+      "label": "굴착기운전기능사 시험과목",
+      "value": "굴착기운전기능사 시험과목",
+      "slug": "excavator-operator-craftsman",
+      "href": "/certificates/excavator-operator-craftsman",
+      "type": "alias",
+      "category": "운전·건설기계"
+    },
+    {
+      "label": "굴착기운전기능사 실기",
+      "value": "굴착기운전기능사 실기",
+      "slug": "excavator-operator-craftsman",
+      "href": "/certificates/excavator-operator-craftsman",
+      "type": "alias",
+      "category": "운전·건설기계"
+    },
+    {
+      "label": "굴착기운전기능사 취업",
+      "value": "굴착기운전기능사 취업",
+      "slug": "excavator-operator-craftsman",
+      "href": "/certificates/excavator-operator-craftsman",
+      "type": "alias",
+      "category": "운전·건설기계"
+    },
+    {
+      "label": "금속재료기사",
+      "value": "금속재료기사",
+      "slug": "metal-materials-engineer",
+      "href": "/certificates/metal-materials-engineer",
+      "type": "certificate",
+      "category": "기계·금속"
+    },
+    {
+      "label": "금속재료기사 난이도",
+      "value": "금속재료기사 난이도",
+      "slug": "metal-materials-engineer",
+      "href": "/certificates/metal-materials-engineer",
+      "type": "alias",
+      "category": "기계·금속"
+    },
+    {
+      "label": "금속재료기사 시험과목",
+      "value": "금속재료기사 시험과목",
+      "slug": "metal-materials-engineer",
+      "href": "/certificates/metal-materials-engineer",
+      "type": "alias",
+      "category": "기계·금속"
+    },
+    {
+      "label": "금속재료기사 실기",
+      "value": "금속재료기사 실기",
+      "slug": "metal-materials-engineer",
+      "href": "/certificates/metal-materials-engineer",
+      "type": "alias",
+      "category": "기계·금속"
+    },
+    {
+      "label": "금속재료기사 응시자격",
+      "value": "금속재료기사 응시자격",
+      "slug": "metal-materials-engineer",
+      "href": "/certificates/metal-materials-engineer",
+      "type": "alias",
+      "category": "기계·금속"
+    },
+    {
+      "label": "금속재료기사 취업",
+      "value": "금속재료기사 취업",
+      "slug": "metal-materials-engineer",
+      "href": "/certificates/metal-materials-engineer",
+      "type": "alias",
+      "category": "기계·금속"
+    },
+    {
+      "label": "금속재료산업기사",
+      "value": "금속재료산업기사",
+      "slug": "metal-materials-industrial-engineer",
+      "href": "/certificates/metal-materials-industrial-engineer",
+      "type": "certificate",
+      "category": "기계·금속"
+    },
+    {
+      "label": "금속재료산업기사 난이도",
+      "value": "금속재료산업기사 난이도",
+      "slug": "metal-materials-industrial-engineer",
+      "href": "/certificates/metal-materials-industrial-engineer",
+      "type": "alias",
+      "category": "기계·금속"
+    },
+    {
+      "label": "금속재료산업기사 시험과목",
+      "value": "금속재료산업기사 시험과목",
+      "slug": "metal-materials-industrial-engineer",
+      "href": "/certificates/metal-materials-industrial-engineer",
+      "type": "alias",
+      "category": "기계·금속"
+    },
+    {
+      "label": "금속재료산업기사 실기",
+      "value": "금속재료산업기사 실기",
+      "slug": "metal-materials-industrial-engineer",
+      "href": "/certificates/metal-materials-industrial-engineer",
+      "type": "alias",
+      "category": "기계·금속"
+    },
+    {
+      "label": "금속재료산업기사 응시자격",
+      "value": "금속재료산업기사 응시자격",
+      "slug": "metal-materials-industrial-engineer",
+      "href": "/certificates/metal-materials-industrial-engineer",
+      "type": "alias",
+      "category": "기계·금속"
+    },
+    {
+      "label": "금속재료산업기사 취업",
+      "value": "금속재료산업기사 취업",
+      "slug": "metal-materials-industrial-engineer",
+      "href": "/certificates/metal-materials-industrial-engineer",
+      "type": "alias",
+      "category": "기계·금속"
+    },
+    {
       "label": "기계",
       "value": "기계",
       "slug": "mechanical-design-engineer",
@@ -1238,8 +1430,40 @@
     {
       "label": "기계·금속",
       "value": "기계·금속",
+      "slug": "metal-materials-engineer",
+      "href": "/certificates/metal-materials-engineer",
+      "type": "alias",
+      "category": "기계·금속"
+    },
+    {
+      "label": "기계·금속",
+      "value": "기계·금속",
+      "slug": "metal-materials-industrial-engineer",
+      "href": "/certificates/metal-materials-industrial-engineer",
+      "type": "alias",
+      "category": "기계·금속"
+    },
+    {
+      "label": "기계·금속",
+      "value": "기계·금속",
       "slug": "welding-craftsman",
       "href": "/certificates/welding-craftsman",
+      "type": "alias",
+      "category": "기계·금속"
+    },
+    {
+      "label": "기계·금속",
+      "value": "기계·금속",
+      "slug": "welding-engineer",
+      "href": "/certificates/welding-engineer",
+      "type": "alias",
+      "category": "기계·금속"
+    },
+    {
+      "label": "기계·금속",
+      "value": "기계·금속",
+      "slug": "welding-industrial-engineer",
+      "href": "/certificates/welding-industrial-engineer",
       "type": "alias",
       "category": "기계·금속"
     },
@@ -1346,6 +1570,46 @@
       "href": "/certificates/mechanical-design-engineer",
       "type": "alias",
       "category": "기계"
+    },
+    {
+      "label": "기중기운전기능사",
+      "value": "기중기운전기능사",
+      "slug": "crane-operator-craftsman",
+      "href": "/certificates/crane-operator-craftsman",
+      "type": "certificate",
+      "category": "운전·건설기계"
+    },
+    {
+      "label": "기중기운전기능사 난이도",
+      "value": "기중기운전기능사 난이도",
+      "slug": "crane-operator-craftsman",
+      "href": "/certificates/crane-operator-craftsman",
+      "type": "alias",
+      "category": "운전·건설기계"
+    },
+    {
+      "label": "기중기운전기능사 시험과목",
+      "value": "기중기운전기능사 시험과목",
+      "slug": "crane-operator-craftsman",
+      "href": "/certificates/crane-operator-craftsman",
+      "type": "alias",
+      "category": "운전·건설기계"
+    },
+    {
+      "label": "기중기운전기능사 실기",
+      "value": "기중기운전기능사 실기",
+      "slug": "crane-operator-craftsman",
+      "href": "/certificates/crane-operator-craftsman",
+      "type": "alias",
+      "category": "운전·건설기계"
+    },
+    {
+      "label": "기중기운전기능사 취업",
+      "value": "기중기운전기능사 취업",
+      "slug": "crane-operator-craftsman",
+      "href": "/certificates/crane-operator-craftsman",
+      "type": "alias",
+      "category": "운전·건설기계"
     },
     {
       "label": "대한상공회의소",
@@ -2172,16 +2436,16 @@
       "category": "기계·금속"
     },
     {
-      "label": "용접기능사 공부방법",
-      "value": "용접기능사 공부방법",
+      "label": "용접기능사 난이도",
+      "value": "용접기능사 난이도",
       "slug": "welding-craftsman",
       "href": "/certificates/welding-craftsman",
       "type": "alias",
       "category": "기계·금속"
     },
     {
-      "label": "용접기능사 난이도",
-      "value": "용접기능사 난이도",
+      "label": "용접기능사 독학",
+      "value": "용접기능사 독학",
       "slug": "welding-craftsman",
       "href": "/certificates/welding-craftsman",
       "type": "alias",
@@ -2210,6 +2474,118 @@
       "href": "/certificates/welding-craftsman",
       "type": "alias",
       "category": "기계·금속"
+    },
+    {
+      "label": "용접기사",
+      "value": "용접기사",
+      "slug": "welding-engineer",
+      "href": "/certificates/welding-engineer",
+      "type": "certificate",
+      "category": "기계·금속"
+    },
+    {
+      "label": "용접기사 난이도",
+      "value": "용접기사 난이도",
+      "slug": "welding-engineer",
+      "href": "/certificates/welding-engineer",
+      "type": "alias",
+      "category": "기계·금속"
+    },
+    {
+      "label": "용접기사 시험과목",
+      "value": "용접기사 시험과목",
+      "slug": "welding-engineer",
+      "href": "/certificates/welding-engineer",
+      "type": "alias",
+      "category": "기계·금속"
+    },
+    {
+      "label": "용접기사 실기",
+      "value": "용접기사 실기",
+      "slug": "welding-engineer",
+      "href": "/certificates/welding-engineer",
+      "type": "alias",
+      "category": "기계·금속"
+    },
+    {
+      "label": "용접기사 취업",
+      "value": "용접기사 취업",
+      "slug": "welding-engineer",
+      "href": "/certificates/welding-engineer",
+      "type": "alias",
+      "category": "기계·금속"
+    },
+    {
+      "label": "용접산업기사",
+      "value": "용접산업기사",
+      "slug": "welding-industrial-engineer",
+      "href": "/certificates/welding-industrial-engineer",
+      "type": "certificate",
+      "category": "기계·금속"
+    },
+    {
+      "label": "용접산업기사 공부기간",
+      "value": "용접산업기사 공부기간",
+      "slug": "welding-industrial-engineer",
+      "href": "/certificates/welding-industrial-engineer",
+      "type": "alias",
+      "category": "기계·금속"
+    },
+    {
+      "label": "용접산업기사 난이도",
+      "value": "용접산업기사 난이도",
+      "slug": "welding-industrial-engineer",
+      "href": "/certificates/welding-industrial-engineer",
+      "type": "alias",
+      "category": "기계·금속"
+    },
+    {
+      "label": "용접산업기사 시험과목",
+      "value": "용접산업기사 시험과목",
+      "slug": "welding-industrial-engineer",
+      "href": "/certificates/welding-industrial-engineer",
+      "type": "alias",
+      "category": "기계·금속"
+    },
+    {
+      "label": "용접산업기사 실기",
+      "value": "용접산업기사 실기",
+      "slug": "welding-industrial-engineer",
+      "href": "/certificates/welding-industrial-engineer",
+      "type": "alias",
+      "category": "기계·금속"
+    },
+    {
+      "label": "용접산업기사 응시자격",
+      "value": "용접산업기사 응시자격",
+      "slug": "welding-industrial-engineer",
+      "href": "/certificates/welding-industrial-engineer",
+      "type": "alias",
+      "category": "기계·금속"
+    },
+    {
+      "label": "운전·건설기계",
+      "value": "운전·건설기계",
+      "slug": "excavator-operator-craftsman",
+      "href": "/certificates/excavator-operator-craftsman",
+      "type": "alias",
+      "category": "운전·건설기계"
+    },
+    {
+      "label": "운전·건설기계",
+      "value": "운전·건설기계",
+      "slug": "crane-operator-craftsman",
+      "href": "/certificates/crane-operator-craftsman",
+      "type": "alias",
+      "category": "운전·건설기계"
+    },
+    {
+      "label": "운전·건설기계",
+      "value": "운전·건설기계",
+      "slug": "forklift-truck-operator-craftsman",
+      "href": "/certificates/forklift-truck-operator-craftsman",
+      "type": "alias",
+      "category": "운전·건설기계"
     },
     {
       "label": "워드 자격증",
@@ -3316,6 +3692,46 @@
       "category": "기계"
     },
     {
+      "label": "지게차운전기능사",
+      "value": "지게차운전기능사",
+      "slug": "forklift-truck-operator-craftsman",
+      "href": "/certificates/forklift-truck-operator-craftsman",
+      "type": "certificate",
+      "category": "운전·건설기계"
+    },
+    {
+      "label": "지게차운전기능사 난이도",
+      "value": "지게차운전기능사 난이도",
+      "slug": "forklift-truck-operator-craftsman",
+      "href": "/certificates/forklift-truck-operator-craftsman",
+      "type": "alias",
+      "category": "운전·건설기계"
+    },
+    {
+      "label": "지게차운전기능사 시험과목",
+      "value": "지게차운전기능사 시험과목",
+      "slug": "forklift-truck-operator-craftsman",
+      "href": "/certificates/forklift-truck-operator-craftsman",
+      "type": "alias",
+      "category": "운전·건설기계"
+    },
+    {
+      "label": "지게차운전기능사 실기",
+      "value": "지게차운전기능사 실기",
+      "slug": "forklift-truck-operator-craftsman",
+      "href": "/certificates/forklift-truck-operator-craftsman",
+      "type": "alias",
+      "category": "운전·건설기계"
+    },
+    {
+      "label": "지게차운전기능사 취업",
+      "value": "지게차운전기능사 취업",
+      "slug": "forklift-truck-operator-craftsman",
+      "href": "/certificates/forklift-truck-operator-craftsman",
+      "type": "alias",
+      "category": "운전·건설기계"
+    },
+    {
       "label": "측량및지형공간정보기사",
       "value": "측량및지형공간정보기사",
       "slug": "surveying-geospatial-information-engineer",
@@ -3702,10 +4118,42 @@
     {
       "label": "한국산업인력공단",
       "value": "한국산업인력공단",
+      "slug": "excavator-operator-craftsman",
+      "href": "/certificates/excavator-operator-craftsman",
+      "type": "alias",
+      "category": "운전·건설기계"
+    },
+    {
+      "label": "한국산업인력공단",
+      "value": "한국산업인력공단",
+      "slug": "metal-materials-engineer",
+      "href": "/certificates/metal-materials-engineer",
+      "type": "alias",
+      "category": "기계·금속"
+    },
+    {
+      "label": "한국산업인력공단",
+      "value": "한국산업인력공단",
+      "slug": "metal-materials-industrial-engineer",
+      "href": "/certificates/metal-materials-industrial-engineer",
+      "type": "alias",
+      "category": "기계·금속"
+    },
+    {
+      "label": "한국산업인력공단",
+      "value": "한국산업인력공단",
       "slug": "mechanical-design-engineer",
       "href": "/certificates/mechanical-design-engineer",
       "type": "alias",
       "category": "기계"
+    },
+    {
+      "label": "한국산업인력공단",
+      "value": "한국산업인력공단",
+      "slug": "crane-operator-craftsman",
+      "href": "/certificates/crane-operator-craftsman",
+      "type": "alias",
+      "category": "운전·건설기계"
     },
     {
       "label": "한국산업인력공단",
@@ -3808,6 +4256,22 @@
       "value": "한국산업인력공단",
       "slug": "welding-craftsman",
       "href": "/certificates/welding-craftsman",
+      "type": "alias",
+      "category": "기계·금속"
+    },
+    {
+      "label": "한국산업인력공단",
+      "value": "한국산업인력공단",
+      "slug": "welding-engineer",
+      "href": "/certificates/welding-engineer",
+      "type": "alias",
+      "category": "기계·금속"
+    },
+    {
+      "label": "한국산업인력공단",
+      "value": "한국산업인력공단",
+      "slug": "welding-industrial-engineer",
+      "href": "/certificates/welding-industrial-engineer",
       "type": "alias",
       "category": "기계·금속"
     },
@@ -3938,6 +4402,14 @@
       "href": "/certificates/information-processing-industrial-engineer",
       "type": "alias",
       "category": "IT·개발"
+    },
+    {
+      "label": "한국산업인력공단",
+      "value": "한국산업인력공단",
+      "slug": "forklift-truck-operator-craftsman",
+      "href": "/certificates/forklift-truck-operator-craftsman",
+      "type": "alias",
+      "category": "운전·건설기계"
     },
     {
       "label": "한국산업인력공단",
@@ -4244,6 +4716,14 @@
       "category": "안전관리"
     },
     {
+      "label": "crane-operator-craftsman",
+      "value": "crane-operator-craftsman",
+      "slug": "crane-operator-craftsman",
+      "href": "/certificates/crane-operator-craftsman",
+      "type": "alias",
+      "category": "운전·건설기계"
+    },
+    {
       "label": "electric-craftsman",
       "value": "electric-craftsman",
       "slug": "electric-craftsman",
@@ -4332,6 +4812,14 @@
       "category": "에너지·설비"
     },
     {
+      "label": "excavator-operator-craftsman",
+      "value": "excavator-operator-craftsman",
+      "slug": "excavator-operator-craftsman",
+      "href": "/certificates/excavator-operator-craftsman",
+      "type": "alias",
+      "category": "운전·건설기계"
+    },
+    {
       "label": "fire-protection-electrical-engineer",
       "value": "fire-protection-electrical-engineer",
       "slug": "fire-protection-electrical-engineer",
@@ -4362,6 +4850,14 @@
       "href": "/certificates/fire-protection-mechanical-industrial-engineer",
       "type": "alias",
       "category": "소방·안전"
+    },
+    {
+      "label": "forklift-truck-operator-craftsman",
+      "value": "forklift-truck-operator-craftsman",
+      "slug": "forklift-truck-operator-craftsman",
+      "href": "/certificates/forklift-truck-operator-craftsman",
+      "type": "alias",
+      "category": "운전·건설기계"
     },
     {
       "label": "gas-craftsman",
@@ -4580,6 +5076,22 @@
       "category": "기계"
     },
     {
+      "label": "metal-materials-engineer",
+      "value": "metal-materials-engineer",
+      "slug": "metal-materials-engineer",
+      "href": "/certificates/metal-materials-engineer",
+      "type": "alias",
+      "category": "기계·금속"
+    },
+    {
+      "label": "metal-materials-industrial-engineer",
+      "value": "metal-materials-industrial-engineer",
+      "slug": "metal-materials-industrial-engineer",
+      "href": "/certificates/metal-materials-industrial-engineer",
+      "type": "alias",
+      "category": "기계·금속"
+    },
+    {
       "label": "office-automation-industrial-engineer",
       "value": "office-automation-industrial-engineer",
       "slug": "office-automation-industrial-engineer",
@@ -4616,6 +5128,22 @@
       "value": "welding-craftsman",
       "slug": "welding-craftsman",
       "href": "/certificates/welding-craftsman",
+      "type": "alias",
+      "category": "기계·금속"
+    },
+    {
+      "label": "welding-engineer",
+      "value": "welding-engineer",
+      "slug": "welding-engineer",
+      "href": "/certificates/welding-engineer",
+      "type": "alias",
+      "category": "기계·금속"
+    },
+    {
+      "label": "welding-industrial-engineer",
+      "value": "welding-industrial-engineer",
+      "slug": "welding-industrial-engineer",
+      "href": "/certificates/welding-industrial-engineer",
       "type": "alias",
       "category": "기계·금속"
     },

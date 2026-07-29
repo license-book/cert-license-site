@@ -1,12 +1,12 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-29T04:18:02.609Z",
+  "generatedAt": "2026-07-29T04:52:51.450Z",
   "maxRelatedPerCertificate": 4,
   "totals": {
-    "certificates": 61,
-    "manualLinks": 148,
-    "autoLinks": 96,
-    "allLinks": 244
+    "certificates": 68,
+    "manualLinks": 160,
+    "autoLinks": 112,
+    "allLinks": 272
   },
   "items": {
     "air-conditioning-refrigeration-craftsman": [
@@ -501,6 +501,26 @@
         "score": 50
       }
     ],
+    "crane-operator-craftsman": [
+      {
+        "slug": "forklift-truck-operator-craftsman",
+        "source": "manual"
+      },
+      {
+        "slug": "excavator-operator-craftsman",
+        "source": "manual"
+      },
+      {
+        "slug": "construction-machinery-maintenance-industrial-engineer",
+        "source": "manual"
+      },
+      {
+        "slug": "gas-craftsman",
+        "tag": "가스 입문",
+        "source": "auto",
+        "score": 50
+      }
+    ],
     "electric-craftsman": [
       {
         "slug": "electric-industrial-engineer",
@@ -768,6 +788,26 @@
         "score": 50
       }
     ],
+    "excavator-operator-craftsman": [
+      {
+        "slug": "forklift-truck-operator-craftsman",
+        "source": "manual"
+      },
+      {
+        "slug": "crane-operator-craftsman",
+        "source": "manual"
+      },
+      {
+        "slug": "construction-machinery-equipment-engineer",
+        "source": "manual"
+      },
+      {
+        "slug": "gas-craftsman",
+        "tag": "가스 입문",
+        "source": "auto",
+        "score": 50
+      }
+    ],
     "fire-protection-electrical-engineer": [
       {
         "slug": "fire-protection-mechanical-engineer",
@@ -868,6 +908,26 @@
       {
         "slug": "gas-industrial-engineer",
         "tag": "가스 안전",
+        "source": "auto",
+        "score": 50
+      }
+    ],
+    "forklift-truck-operator-craftsman": [
+      {
+        "slug": "excavator-operator-craftsman",
+        "source": "manual"
+      },
+      {
+        "slug": "crane-operator-craftsman",
+        "source": "manual"
+      },
+      {
+        "slug": "construction-machinery-maintenance-industrial-engineer",
+        "source": "manual"
+      },
+      {
+        "slug": "gas-craftsman",
+        "tag": "가스 입문",
         "source": "auto",
         "score": 50
       }
@@ -1251,6 +1311,58 @@
         "source": "manual"
       }
     ],
+    "metal-materials-engineer": [
+      {
+        "slug": "welding-engineer",
+        "tag": "기계·금속",
+        "source": "auto",
+        "score": 100
+      },
+      {
+        "slug": "metal-materials-industrial-engineer",
+        "tag": "기계·금속",
+        "source": "auto",
+        "score": 85
+      },
+      {
+        "slug": "welding-craftsman",
+        "tag": "기계·금속",
+        "source": "auto",
+        "score": 85
+      },
+      {
+        "slug": "welding-industrial-engineer",
+        "tag": "기계·금속",
+        "source": "auto",
+        "score": 85
+      }
+    ],
+    "metal-materials-industrial-engineer": [
+      {
+        "slug": "welding-industrial-engineer",
+        "tag": "기계·금속",
+        "source": "auto",
+        "score": 100
+      },
+      {
+        "slug": "metal-materials-engineer",
+        "tag": "기계·금속",
+        "source": "auto",
+        "score": 85
+      },
+      {
+        "slug": "welding-craftsman",
+        "tag": "기계·금속",
+        "source": "auto",
+        "score": 85
+      },
+      {
+        "slug": "welding-engineer",
+        "tag": "기계·금속",
+        "source": "auto",
+        "score": 85
+      }
+    ],
     "office-automation-industrial-engineer": [
       {
         "slug": "computerized-accounting-grade-1",
@@ -1347,10 +1459,56 @@
         "source": "manual"
       },
       {
-        "slug": "gas-craftsman",
-        "tag": "가스 입문",
+        "slug": "metal-materials-engineer",
+        "tag": "기계·금속",
         "source": "auto",
-        "score": 50
+        "score": 85
+      }
+    ],
+    "welding-engineer": [
+      {
+        "slug": "welding-craftsman",
+        "source": "manual"
+      },
+      {
+        "slug": "general-mechanical-engineer",
+        "source": "manual"
+      },
+      {
+        "slug": "industrial-safety-engineer",
+        "source": "manual"
+      },
+      {
+        "slug": "metal-materials-engineer",
+        "tag": "기계·금속",
+        "source": "auto",
+        "score": 100
+      }
+    ],
+    "welding-industrial-engineer": [
+      {
+        "slug": "metal-materials-industrial-engineer",
+        "tag": "기계·금속",
+        "source": "auto",
+        "score": 100
+      },
+      {
+        "slug": "metal-materials-engineer",
+        "tag": "기계·금속",
+        "source": "auto",
+        "score": 85
+      },
+      {
+        "slug": "welding-craftsman",
+        "tag": "기계·금속",
+        "source": "auto",
+        "score": 85
+      },
+      {
+        "slug": "welding-engineer",
+        "tag": "기계·금속",
+        "source": "auto",
+        "score": 85
       }
     ],
     "word-processor": [
