@@ -470,5 +470,25 @@
     "welding-craftsman",
     "general-mechanical-engineer",
     "industrial-safety-engineer"
+  ],
+  "chemical-analysis-engineer": [
+    "chemical-engineering-engineer",
+    "water-pollution-environmental-engineer",
+    "air-pollution-environmental-engineer"
+  ],
+  "korean-cuisine-craftsman": [
+    "western-cuisine-craftsman",
+    "chinese-cuisine-craftsman",
+    "energy-management-craftsman"
+  ],
+  "western-cuisine-craftsman": [
+    "korean-cuisine-craftsman",
+    "chinese-cuisine-craftsman",
+    "energy-management-craftsman"
+  ],
+  "chinese-cuisine-craftsman": [
+    "korean-cuisine-craftsman",
+    "western-cuisine-craftsman",
+    "energy-management-craftsman"
   ]
 }

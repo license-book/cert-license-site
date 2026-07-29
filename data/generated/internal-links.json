@@ -1,12 +1,12 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-29T05:47:14.898Z",
+  "generatedAt": "2026-07-29T06:08:04.046Z",
   "maxRelatedPerCertificate": 4,
   "totals": {
-    "certificates": 72,
-    "manualLinks": 160,
-    "autoLinks": 128,
-    "allLinks": 288
+    "certificates": 76,
+    "manualLinks": 172,
+    "autoLinks": 132,
+    "allLinks": 304
   },
   "items": {
     "air-conditioning-refrigeration-craftsman": [
@@ -268,7 +268,33 @@
         "score": 100
       }
     ],
+    "chemical-analysis-engineer": [
+      {
+        "slug": "chemical-engineering-engineer",
+        "source": "manual"
+      },
+      {
+        "slug": "water-pollution-environmental-engineer",
+        "source": "manual"
+      },
+      {
+        "slug": "air-pollution-environmental-engineer",
+        "source": "manual"
+      },
+      {
+        "slug": "gas-engineer",
+        "tag": "가스 안전",
+        "source": "auto",
+        "score": 50
+      }
+    ],
     "chemical-engineering-engineer": [
+      {
+        "slug": "chemical-analysis-engineer",
+        "tag": "화학·바이오",
+        "source": "auto",
+        "score": 100
+      },
       {
         "slug": "gas-engineer",
         "tag": "가스 안전",
@@ -286,10 +312,24 @@
         "tag": "건설기계 정비",
         "source": "auto",
         "score": 50
+      }
+    ],
+    "chinese-cuisine-craftsman": [
+      {
+        "slug": "korean-cuisine-craftsman",
+        "source": "manual"
       },
       {
-        "slug": "construction-safety-engineer",
-        "tag": "건축·토목 공사현장의 안전관리 직무",
+        "slug": "western-cuisine-craftsman",
+        "source": "manual"
+      },
+      {
+        "slug": "energy-management-craftsman",
+        "source": "manual"
+      },
+      {
+        "slug": "gas-craftsman",
+        "tag": "가스 입문",
         "source": "auto",
         "score": 50
       }
@@ -1345,6 +1385,26 @@
         "score": 85
       }
     ],
+    "korean-cuisine-craftsman": [
+      {
+        "slug": "western-cuisine-craftsman",
+        "source": "manual"
+      },
+      {
+        "slug": "chinese-cuisine-craftsman",
+        "source": "manual"
+      },
+      {
+        "slug": "energy-management-craftsman",
+        "source": "manual"
+      },
+      {
+        "slug": "gas-craftsman",
+        "tag": "가스 입문",
+        "source": "auto",
+        "score": 50
+      }
+    ],
     "mechanical-design-engineer": [
       {
         "slug": "general-mechanical-engineer",
@@ -1613,6 +1673,26 @@
         "tag": "기계·금속",
         "source": "auto",
         "score": 85
+      }
+    ],
+    "western-cuisine-craftsman": [
+      {
+        "slug": "korean-cuisine-craftsman",
+        "source": "manual"
+      },
+      {
+        "slug": "chinese-cuisine-craftsman",
+        "source": "manual"
+      },
+      {
+        "slug": "energy-management-craftsman",
+        "source": "manual"
+      },
+      {
+        "slug": "gas-craftsman",
+        "tag": "가스 입문",
+        "source": "auto",
+        "score": 50
       }
     ],
     "word-processor": [

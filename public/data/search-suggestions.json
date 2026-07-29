@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-29T05:47:14.732Z",
-  "total": 684,
+  "generatedAt": "2026-07-29T06:08:03.770Z",
+  "total": 723,
   "items": [
     {
       "label": "가스기능사",
@@ -854,6 +854,14 @@
     {
       "label": "국가기술자격 기능사",
       "value": "국가기술자격 기능사",
+      "slug": "western-cuisine-craftsman",
+      "href": "/certificates/western-cuisine-craftsman",
+      "type": "alias",
+      "category": "조리·외식"
+    },
+    {
+      "label": "국가기술자격 기능사",
+      "value": "국가기술자격 기능사",
       "slug": "energy-management-craftsman",
       "href": "/certificates/energy-management-craftsman",
       "type": "alias",
@@ -902,10 +910,26 @@
     {
       "label": "국가기술자격 기능사",
       "value": "국가기술자격 기능사",
+      "slug": "chinese-cuisine-craftsman",
+      "href": "/certificates/chinese-cuisine-craftsman",
+      "type": "alias",
+      "category": "조리·외식"
+    },
+    {
+      "label": "국가기술자격 기능사",
+      "value": "국가기술자격 기능사",
       "slug": "forklift-truck-operator-craftsman",
       "href": "/certificates/forklift-truck-operator-craftsman",
       "type": "alias",
       "category": "운전·건설기계"
+    },
+    {
+      "label": "국가기술자격 기능사",
+      "value": "국가기술자격 기능사",
+      "slug": "korean-cuisine-craftsman",
+      "href": "/certificates/korean-cuisine-craftsman",
+      "type": "alias",
+      "category": "조리·외식"
     },
     {
       "label": "국가기술자격 기사",
@@ -1128,6 +1152,14 @@
       "value": "국가기술자격 기사",
       "slug": "chemical-engineering-engineer",
       "href": "/certificates/chemical-engineering-engineer",
+      "type": "alias",
+      "category": "화학·바이오"
+    },
+    {
+      "label": "국가기술자격 기사",
+      "value": "국가기술자격 기사",
+      "slug": "chemical-analysis-engineer",
+      "href": "/certificates/chemical-analysis-engineer",
       "type": "alias",
       "category": "화학·바이오"
     },
@@ -2378,6 +2410,54 @@
       "href": "/certificates/industrial-safety-industrial-engineer",
       "type": "alias",
       "category": "안전관리"
+    },
+    {
+      "label": "양식조리기능사",
+      "value": "양식조리기능사",
+      "slug": "western-cuisine-craftsman",
+      "href": "/certificates/western-cuisine-craftsman",
+      "type": "certificate",
+      "category": "조리·외식"
+    },
+    {
+      "label": "양식조리기능사 공개문제",
+      "value": "양식조리기능사 공개문제",
+      "slug": "western-cuisine-craftsman",
+      "href": "/certificates/western-cuisine-craftsman",
+      "type": "alias",
+      "category": "조리·외식"
+    },
+    {
+      "label": "양식조리기능사 난이도",
+      "value": "양식조리기능사 난이도",
+      "slug": "western-cuisine-craftsman",
+      "href": "/certificates/western-cuisine-craftsman",
+      "type": "alias",
+      "category": "조리·외식"
+    },
+    {
+      "label": "양식조리기능사 시험과목",
+      "value": "양식조리기능사 시험과목",
+      "slug": "western-cuisine-craftsman",
+      "href": "/certificates/western-cuisine-craftsman",
+      "type": "alias",
+      "category": "조리·외식"
+    },
+    {
+      "label": "양식조리기능사 실기",
+      "value": "양식조리기능사 실기",
+      "slug": "western-cuisine-craftsman",
+      "href": "/certificates/western-cuisine-craftsman",
+      "type": "alias",
+      "category": "조리·외식"
+    },
+    {
+      "label": "양식조리기능사 취업",
+      "value": "양식조리기능사 취업",
+      "slug": "western-cuisine-craftsman",
+      "href": "/certificates/western-cuisine-craftsman",
+      "type": "alias",
+      "category": "조리·외식"
     },
     {
       "label": "에너지·설비",
@@ -3812,12 +3892,84 @@
       "category": "IT·개발"
     },
     {
+      "label": "조리·외식",
+      "value": "조리·외식",
+      "slug": "western-cuisine-craftsman",
+      "href": "/certificates/western-cuisine-craftsman",
+      "type": "alias",
+      "category": "조리·외식"
+    },
+    {
+      "label": "조리·외식",
+      "value": "조리·외식",
+      "slug": "chinese-cuisine-craftsman",
+      "href": "/certificates/chinese-cuisine-craftsman",
+      "type": "alias",
+      "category": "조리·외식"
+    },
+    {
+      "label": "조리·외식",
+      "value": "조리·외식",
+      "slug": "korean-cuisine-craftsman",
+      "href": "/certificates/korean-cuisine-craftsman",
+      "type": "alias",
+      "category": "조리·외식"
+    },
+    {
       "label": "종전 국가기술자격 기사",
       "value": "종전 국가기술자격 기사",
       "slug": "mechanical-design-engineer",
       "href": "/certificates/mechanical-design-engineer",
       "type": "alias",
       "category": "기계"
+    },
+    {
+      "label": "중식조리기능사",
+      "value": "중식조리기능사",
+      "slug": "chinese-cuisine-craftsman",
+      "href": "/certificates/chinese-cuisine-craftsman",
+      "type": "certificate",
+      "category": "조리·외식"
+    },
+    {
+      "label": "중식조리기능사 공개문제",
+      "value": "중식조리기능사 공개문제",
+      "slug": "chinese-cuisine-craftsman",
+      "href": "/certificates/chinese-cuisine-craftsman",
+      "type": "alias",
+      "category": "조리·외식"
+    },
+    {
+      "label": "중식조리기능사 난이도",
+      "value": "중식조리기능사 난이도",
+      "slug": "chinese-cuisine-craftsman",
+      "href": "/certificates/chinese-cuisine-craftsman",
+      "type": "alias",
+      "category": "조리·외식"
+    },
+    {
+      "label": "중식조리기능사 시험과목",
+      "value": "중식조리기능사 시험과목",
+      "slug": "chinese-cuisine-craftsman",
+      "href": "/certificates/chinese-cuisine-craftsman",
+      "type": "alias",
+      "category": "조리·외식"
+    },
+    {
+      "label": "중식조리기능사 실기",
+      "value": "중식조리기능사 실기",
+      "slug": "chinese-cuisine-craftsman",
+      "href": "/certificates/chinese-cuisine-craftsman",
+      "type": "alias",
+      "category": "조리·외식"
+    },
+    {
+      "label": "중식조리기능사 취업",
+      "value": "중식조리기능사 취업",
+      "slug": "chinese-cuisine-craftsman",
+      "href": "/certificates/chinese-cuisine-craftsman",
+      "type": "alias",
+      "category": "조리·외식"
     },
     {
       "label": "지게차운전기능사",
@@ -4422,6 +4574,14 @@
     {
       "label": "한국산업인력공단",
       "value": "한국산업인력공단",
+      "slug": "western-cuisine-craftsman",
+      "href": "/certificates/western-cuisine-craftsman",
+      "type": "alias",
+      "category": "조리·외식"
+    },
+    {
+      "label": "한국산업인력공단",
+      "value": "한국산업인력공단",
       "slug": "energy-management-craftsman",
       "href": "/certificates/energy-management-craftsman",
       "type": "alias",
@@ -4598,6 +4758,14 @@
     {
       "label": "한국산업인력공단",
       "value": "한국산업인력공단",
+      "slug": "chinese-cuisine-craftsman",
+      "href": "/certificates/chinese-cuisine-craftsman",
+      "type": "alias",
+      "category": "조리·외식"
+    },
+    {
+      "label": "한국산업인력공단",
+      "value": "한국산업인력공단",
       "slug": "forklift-truck-operator-craftsman",
       "href": "/certificates/forklift-truck-operator-craftsman",
       "type": "alias",
@@ -4646,8 +4814,24 @@
     {
       "label": "한국산업인력공단",
       "value": "한국산업인력공단",
+      "slug": "korean-cuisine-craftsman",
+      "href": "/certificates/korean-cuisine-craftsman",
+      "type": "alias",
+      "category": "조리·외식"
+    },
+    {
+      "label": "한국산업인력공단",
+      "value": "한국산업인력공단",
       "slug": "chemical-engineering-engineer",
       "href": "/certificates/chemical-engineering-engineer",
+      "type": "alias",
+      "category": "화학·바이오"
+    },
+    {
+      "label": "한국산업인력공단",
+      "value": "한국산업인력공단",
+      "slug": "chemical-analysis-engineer",
+      "href": "/certificates/chemical-analysis-engineer",
       "type": "alias",
       "category": "화학·바이오"
     },
@@ -4674,6 +4858,54 @@
       "href": "/certificates/computerized-accounting-grade-2",
       "type": "alias",
       "category": "회계·세무"
+    },
+    {
+      "label": "한식조리기능사",
+      "value": "한식조리기능사",
+      "slug": "korean-cuisine-craftsman",
+      "href": "/certificates/korean-cuisine-craftsman",
+      "type": "certificate",
+      "category": "조리·외식"
+    },
+    {
+      "label": "한식조리기능사 공개문제",
+      "value": "한식조리기능사 공개문제",
+      "slug": "korean-cuisine-craftsman",
+      "href": "/certificates/korean-cuisine-craftsman",
+      "type": "alias",
+      "category": "조리·외식"
+    },
+    {
+      "label": "한식조리기능사 난이도",
+      "value": "한식조리기능사 난이도",
+      "slug": "korean-cuisine-craftsman",
+      "href": "/certificates/korean-cuisine-craftsman",
+      "type": "alias",
+      "category": "조리·외식"
+    },
+    {
+      "label": "한식조리기능사 시험과목",
+      "value": "한식조리기능사 시험과목",
+      "slug": "korean-cuisine-craftsman",
+      "href": "/certificates/korean-cuisine-craftsman",
+      "type": "alias",
+      "category": "조리·외식"
+    },
+    {
+      "label": "한식조리기능사 실기",
+      "value": "한식조리기능사 실기",
+      "slug": "korean-cuisine-craftsman",
+      "href": "/certificates/korean-cuisine-craftsman",
+      "type": "alias",
+      "category": "조리·외식"
+    },
+    {
+      "label": "한식조리기능사 취업",
+      "value": "한식조리기능사 취업",
+      "slug": "korean-cuisine-craftsman",
+      "href": "/certificates/korean-cuisine-craftsman",
+      "type": "alias",
+      "category": "조리·외식"
     },
     {
       "label": "화공기사",
@@ -4732,6 +4964,14 @@
       "category": "화학·바이오"
     },
     {
+      "label": "화학·바이오",
+      "value": "화학·바이오",
+      "slug": "chemical-analysis-engineer",
+      "href": "/certificates/chemical-analysis-engineer",
+      "type": "alias",
+      "category": "화학·바이오"
+    },
+    {
       "label": "화학·안전",
       "value": "화학·안전",
       "slug": "gas-craftsman",
@@ -4770,6 +5010,46 @@
       "href": "/certificates/hazardous-material-industrial-engineer",
       "type": "alias",
       "category": "화학·안전"
+    },
+    {
+      "label": "화학분석기사",
+      "value": "화학분석기사",
+      "slug": "chemical-analysis-engineer",
+      "href": "/certificates/chemical-analysis-engineer",
+      "type": "certificate",
+      "category": "화학·바이오"
+    },
+    {
+      "label": "화학분석기사 난이도",
+      "value": "화학분석기사 난이도",
+      "slug": "chemical-analysis-engineer",
+      "href": "/certificates/chemical-analysis-engineer",
+      "type": "alias",
+      "category": "화학·바이오"
+    },
+    {
+      "label": "화학분석기사 시험과목",
+      "value": "화학분석기사 시험과목",
+      "slug": "chemical-analysis-engineer",
+      "href": "/certificates/chemical-analysis-engineer",
+      "type": "alias",
+      "category": "화학·바이오"
+    },
+    {
+      "label": "화학분석기사 실기",
+      "value": "화학분석기사 실기",
+      "slug": "chemical-analysis-engineer",
+      "href": "/certificates/chemical-analysis-engineer",
+      "type": "alias",
+      "category": "화학·바이오"
+    },
+    {
+      "label": "화학분석기사 취업",
+      "value": "화학분석기사 취업",
+      "slug": "chemical-analysis-engineer",
+      "href": "/certificates/chemical-analysis-engineer",
+      "type": "alias",
+      "category": "화학·바이오"
     },
     {
       "label": "환경·에너지",
@@ -4916,12 +5196,28 @@
       "category": "건설·건축"
     },
     {
+      "label": "chemical-analysis-engineer",
+      "value": "chemical-analysis-engineer",
+      "slug": "chemical-analysis-engineer",
+      "href": "/certificates/chemical-analysis-engineer",
+      "type": "alias",
+      "category": "화학·바이오"
+    },
+    {
       "label": "chemical-engineering-engineer",
       "value": "chemical-engineering-engineer",
       "slug": "chemical-engineering-engineer",
       "href": "/certificates/chemical-engineering-engineer",
       "type": "alias",
       "category": "화학·바이오"
+    },
+    {
+      "label": "chinese-cuisine-craftsman",
+      "value": "chinese-cuisine-craftsman",
+      "slug": "chinese-cuisine-craftsman",
+      "href": "/certificates/chinese-cuisine-craftsman",
+      "type": "alias",
+      "category": "조리·외식"
     },
     {
       "label": "civil-engineer",
@@ -5372,6 +5668,14 @@
       "category": "IT·사무"
     },
     {
+      "label": "korean-cuisine-craftsman",
+      "value": "korean-cuisine-craftsman",
+      "slug": "korean-cuisine-craftsman",
+      "href": "/certificates/korean-cuisine-craftsman",
+      "type": "alias",
+      "category": "조리·외식"
+    },
+    {
       "label": "mechanical-design-engineer",
       "value": "mechanical-design-engineer",
       "slug": "mechanical-design-engineer",
@@ -5466,6 +5770,14 @@
       "href": "/certificates/welding-industrial-engineer",
       "type": "alias",
       "category": "기계·금속"
+    },
+    {
+      "label": "western-cuisine-craftsman",
+      "value": "western-cuisine-craftsman",
+      "slug": "western-cuisine-craftsman",
+      "href": "/certificates/western-cuisine-craftsman",
+      "type": "alias",
+      "category": "조리·외식"
     },
     {
       "label": "word-processor",

@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-29T05:47:14.939Z",
-  "total": 72,
+  "generatedAt": "2026-07-29T06:08:04.176Z",
+  "total": 76,
   "items": [
     {
       "slug": "air-conditioning-refrigeration-craftsman",
@@ -334,6 +334,33 @@
       "lastModified": "2026-07-28"
     },
     {
+      "slug": "chemical-analysis-engineer",
+      "name": "화학분석기사",
+      "shortName": "화학분석기사",
+      "title": "화학분석기사 시험과목·난이도·실기·현실가이드 | 라북",
+      "description": "화학분석기사의 응시자격, 시험과목, 현실 난이도, 준비기간, 실기 준비방법과 취업 활용을 확인하세요.",
+      "keywords": [
+        "화학분석기사",
+        "화학분석기사 시험과목",
+        "화학분석기사 실기",
+        "화학분석기사 난이도",
+        "화학분석기사 취업",
+        "화학분석기사 시험",
+        "화학분석기사 합격률",
+        "화학분석기사 공부기간",
+        "화학·바이오",
+        "국가기술자격 기사",
+        "한국산업인력공단"
+      ],
+      "image": "/images/hero/chemical-analysis-engineer.webp",
+      "path": "/cert/chemical-analysis-engineer",
+      "type": "national",
+      "licenseType": "국가기술자격 기사",
+      "category": "화학·바이오",
+      "agency": "한국산업인력공단",
+      "lastModified": "2026-07-29"
+    },
+    {
       "slug": "chemical-engineering-engineer",
       "name": "화공기사",
       "shortName": "화공기사",
@@ -358,6 +385,34 @@
       "type": "national",
       "licenseType": "국가기술자격 기사",
       "category": "화학·바이오",
+      "agency": "한국산업인력공단",
+      "lastModified": "2026-07-29"
+    },
+    {
+      "slug": "chinese-cuisine-craftsman",
+      "name": "중식조리기능사",
+      "shortName": "중식조리기능사",
+      "title": "중식조리기능사 시험과목·난이도·실기·현실가이드 | 라북",
+      "description": "중식조리기능사의 응시자격, 시험과목, 현실 난이도, 준비기간, 실기 준비방법과 취업 활용을 확인하세요.",
+      "keywords": [
+        "중식조리기능사",
+        "중식조리기능사 시험과목",
+        "중식조리기능사 실기",
+        "중식조리기능사 공개문제",
+        "중식조리기능사 난이도",
+        "중식조리기능사 취업",
+        "중식조리기능사 시험",
+        "중식조리기능사 합격률",
+        "중식조리기능사 공부기간",
+        "조리·외식",
+        "국가기술자격 기능사",
+        "한국산업인력공단"
+      ],
+      "image": "/images/hero/chinese-cuisine-craftsman.webp",
+      "path": "/cert/chinese-cuisine-craftsman",
+      "type": "national",
+      "licenseType": "국가기술자격 기능사",
+      "category": "조리·외식",
       "agency": "한국산업인력공단",
       "lastModified": "2026-07-29"
     },
@@ -1617,6 +1672,34 @@
       "lastModified": "2026-07-28"
     },
     {
+      "slug": "korean-cuisine-craftsman",
+      "name": "한식조리기능사",
+      "shortName": "한식조리기능사",
+      "title": "한식조리기능사 시험과목·난이도·실기·현실가이드 | 라북",
+      "description": "한식조리기능사의 응시자격, 시험과목, 현실 난이도, 준비기간, 실기 준비방법과 취업 활용을 확인하세요.",
+      "keywords": [
+        "한식조리기능사",
+        "한식조리기능사 시험과목",
+        "한식조리기능사 실기",
+        "한식조리기능사 공개문제",
+        "한식조리기능사 난이도",
+        "한식조리기능사 취업",
+        "한식조리기능사 시험",
+        "한식조리기능사 합격률",
+        "한식조리기능사 공부기간",
+        "조리·외식",
+        "국가기술자격 기능사",
+        "한국산업인력공단"
+      ],
+      "image": "/images/hero/korean-cuisine-craftsman.webp",
+      "path": "/cert/korean-cuisine-craftsman",
+      "type": "national",
+      "licenseType": "국가기술자격 기능사",
+      "category": "조리·외식",
+      "agency": "한국산업인력공단",
+      "lastModified": "2026-07-29"
+    },
+    {
       "slug": "mechanical-design-engineer",
       "name": "기계설계기사",
       "shortName": "기계설계기사",
@@ -1942,6 +2025,34 @@
       "type": "national",
       "licenseType": "국가기술자격 산업기사",
       "category": "기계·금속",
+      "agency": "한국산업인력공단",
+      "lastModified": "2026-07-29"
+    },
+    {
+      "slug": "western-cuisine-craftsman",
+      "name": "양식조리기능사",
+      "shortName": "양식조리기능사",
+      "title": "양식조리기능사 시험과목·난이도·실기·현실가이드 | 라북",
+      "description": "양식조리기능사의 응시자격, 시험과목, 현실 난이도, 준비기간, 실기 준비방법과 취업 활용을 확인하세요.",
+      "keywords": [
+        "양식조리기능사",
+        "양식조리기능사 시험과목",
+        "양식조리기능사 실기",
+        "양식조리기능사 공개문제",
+        "양식조리기능사 난이도",
+        "양식조리기능사 취업",
+        "양식조리기능사 시험",
+        "양식조리기능사 합격률",
+        "양식조리기능사 공부기간",
+        "조리·외식",
+        "국가기술자격 기능사",
+        "한국산업인력공단"
+      ],
+      "image": "/images/hero/western-cuisine-craftsman.webp",
+      "path": "/cert/western-cuisine-craftsman",
+      "type": "national",
+      "licenseType": "국가기술자격 기능사",
+      "category": "조리·외식",
       "agency": "한국산업인력공단",
       "lastModified": "2026-07-29"
     },
