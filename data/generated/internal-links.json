@@ -1,12 +1,12 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-29T02:31:10.804Z",
+  "generatedAt": "2026-07-29T02:46:12.488Z",
   "maxRelatedPerCertificate": 4,
   "totals": {
-    "certificates": 37,
+    "certificates": 41,
     "manualLinks": 104,
-    "autoLinks": 44,
-    "allLinks": 148
+    "autoLinks": 60,
+    "allLinks": 164
   },
   "items": {
     "air-conditioning-refrigeration-craftsman": [
@@ -239,14 +239,14 @@
         "score": 80
       },
       {
-        "slug": "construction-machinery-equipment-engineer",
-        "tag": "기계·설비",
+        "slug": "gas-craftsman",
+        "tag": "가스 입문",
         "source": "auto",
         "score": 25
       },
       {
-        "slug": "architectural-engineer",
-        "tag": "건설·건축",
+        "slug": "gas-engineer",
+        "tag": "가스 안전",
         "source": "auto",
         "score": 25
       }
@@ -265,14 +265,14 @@
         "score": 80
       },
       {
-        "slug": "construction-machinery-equipment-engineer",
-        "tag": "기계·설비",
+        "slug": "gas-craftsman",
+        "tag": "가스 입문",
         "source": "auto",
         "score": 25
       },
       {
-        "slug": "architectural-engineer",
-        "tag": "건설·건축",
+        "slug": "gas-engineer",
+        "tag": "가스 안전",
         "source": "auto",
         "score": 25
       }
@@ -536,6 +536,110 @@
         "source": "manual"
       }
     ],
+    "energy-management-industrial-engineer": [
+      {
+        "slug": "energy-management-craftsman",
+        "tag": "에너지·설비",
+        "source": "auto",
+        "score": 85
+      },
+      {
+        "slug": "energy-management-engineer",
+        "tag": "에너지·설비",
+        "source": "auto",
+        "score": 85
+      },
+      {
+        "slug": "gas-industrial-engineer",
+        "tag": "가스 안전",
+        "source": "auto",
+        "score": 50
+      },
+      {
+        "slug": "air-conditioning-refrigeration-industrial-engineer",
+        "tag": "기계·설비",
+        "source": "auto",
+        "score": 50
+      }
+    ],
+    "gas-craftsman": [
+      {
+        "slug": "gas-engineer",
+        "tag": "가스 안전",
+        "source": "auto",
+        "score": 85
+      },
+      {
+        "slug": "gas-industrial-engineer",
+        "tag": "가스 안전",
+        "source": "auto",
+        "score": 85
+      },
+      {
+        "slug": "hazardous-material-industrial-engineer",
+        "tag": "위험물 안전",
+        "source": "auto",
+        "score": 85
+      },
+      {
+        "slug": "air-conditioning-refrigeration-craftsman",
+        "tag": "기계·설비",
+        "source": "auto",
+        "score": 50
+      }
+    ],
+    "gas-engineer": [
+      {
+        "slug": "gas-craftsman",
+        "tag": "가스 입문",
+        "source": "auto",
+        "score": 85
+      },
+      {
+        "slug": "gas-industrial-engineer",
+        "tag": "가스 안전",
+        "source": "auto",
+        "score": 85
+      },
+      {
+        "slug": "hazardous-material-industrial-engineer",
+        "tag": "위험물 안전",
+        "source": "auto",
+        "score": 85
+      },
+      {
+        "slug": "construction-machinery-equipment-engineer",
+        "tag": "기계·설비",
+        "source": "auto",
+        "score": 50
+      }
+    ],
+    "gas-industrial-engineer": [
+      {
+        "slug": "gas-craftsman",
+        "tag": "가스 입문",
+        "source": "auto",
+        "score": 85
+      },
+      {
+        "slug": "gas-engineer",
+        "tag": "가스 안전",
+        "source": "auto",
+        "score": 85
+      },
+      {
+        "slug": "hazardous-material-industrial-engineer",
+        "tag": "위험물 안전",
+        "source": "auto",
+        "score": 85
+      },
+      {
+        "slug": "air-conditioning-refrigeration-industrial-engineer",
+        "tag": "기계·설비",
+        "source": "auto",
+        "score": 50
+      }
+    ],
     "general-mechanical-engineer": [
       {
         "slug": "mechanical-design-engineer",
@@ -573,10 +677,10 @@
         "source": "manual"
       },
       {
-        "slug": "architectural-engineer",
-        "tag": "건설·건축",
+        "slug": "gas-craftsman",
+        "tag": "가스 입문",
         "source": "auto",
-        "score": 50
+        "score": 85
       }
     ],
     "industrial-safety-engineer": [
@@ -797,8 +901,8 @@
         "source": "manual"
       },
       {
-        "slug": "air-conditioning-refrigeration-craftsman",
-        "tag": "기계·설비",
+        "slug": "gas-craftsman",
+        "tag": "가스 입문",
         "source": "auto",
         "score": 50
       }

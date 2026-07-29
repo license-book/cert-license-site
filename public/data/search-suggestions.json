@@ -1,8 +1,152 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-29T02:31:10.320Z",
-  "total": 347,
+  "generatedAt": "2026-07-29T02:46:11.954Z",
+  "total": 387,
   "items": [
+    {
+      "label": "가스기능사",
+      "value": "가스기능사",
+      "slug": "gas-craftsman",
+      "href": "/certificates/gas-craftsman",
+      "type": "certificate",
+      "category": "화학·안전"
+    },
+    {
+      "label": "가스기능사 난이도",
+      "value": "가스기능사 난이도",
+      "slug": "gas-craftsman",
+      "href": "/certificates/gas-craftsman",
+      "type": "alias",
+      "category": "화학·안전"
+    },
+    {
+      "label": "가스기능사 시험과목",
+      "value": "가스기능사 시험과목",
+      "slug": "gas-craftsman",
+      "href": "/certificates/gas-craftsman",
+      "type": "alias",
+      "category": "화학·안전"
+    },
+    {
+      "label": "가스기능사 실기",
+      "value": "가스기능사 실기",
+      "slug": "gas-craftsman",
+      "href": "/certificates/gas-craftsman",
+      "type": "alias",
+      "category": "화학·안전"
+    },
+    {
+      "label": "가스기능사 응시자격",
+      "value": "가스기능사 응시자격",
+      "slug": "gas-craftsman",
+      "href": "/certificates/gas-craftsman",
+      "type": "alias",
+      "category": "화학·안전"
+    },
+    {
+      "label": "가스기능사 취업",
+      "value": "가스기능사 취업",
+      "slug": "gas-craftsman",
+      "href": "/certificates/gas-craftsman",
+      "type": "alias",
+      "category": "화학·안전"
+    },
+    {
+      "label": "가스기사",
+      "value": "가스기사",
+      "slug": "gas-engineer",
+      "href": "/certificates/gas-engineer",
+      "type": "certificate",
+      "category": "화학·안전"
+    },
+    {
+      "label": "가스기사 난이도",
+      "value": "가스기사 난이도",
+      "slug": "gas-engineer",
+      "href": "/certificates/gas-engineer",
+      "type": "alias",
+      "category": "화학·안전"
+    },
+    {
+      "label": "가스기사 시험과목",
+      "value": "가스기사 시험과목",
+      "slug": "gas-engineer",
+      "href": "/certificates/gas-engineer",
+      "type": "alias",
+      "category": "화학·안전"
+    },
+    {
+      "label": "가스기사 실기",
+      "value": "가스기사 실기",
+      "slug": "gas-engineer",
+      "href": "/certificates/gas-engineer",
+      "type": "alias",
+      "category": "화학·안전"
+    },
+    {
+      "label": "가스기사 응시자격",
+      "value": "가스기사 응시자격",
+      "slug": "gas-engineer",
+      "href": "/certificates/gas-engineer",
+      "type": "alias",
+      "category": "화학·안전"
+    },
+    {
+      "label": "가스기사 취업",
+      "value": "가스기사 취업",
+      "slug": "gas-engineer",
+      "href": "/certificates/gas-engineer",
+      "type": "alias",
+      "category": "화학·안전"
+    },
+    {
+      "label": "가스산업기사",
+      "value": "가스산업기사",
+      "slug": "gas-industrial-engineer",
+      "href": "/certificates/gas-industrial-engineer",
+      "type": "certificate",
+      "category": "화학·안전"
+    },
+    {
+      "label": "가스산업기사 난이도",
+      "value": "가스산업기사 난이도",
+      "slug": "gas-industrial-engineer",
+      "href": "/certificates/gas-industrial-engineer",
+      "type": "alias",
+      "category": "화학·안전"
+    },
+    {
+      "label": "가스산업기사 시험과목",
+      "value": "가스산업기사 시험과목",
+      "slug": "gas-industrial-engineer",
+      "href": "/certificates/gas-industrial-engineer",
+      "type": "alias",
+      "category": "화학·안전"
+    },
+    {
+      "label": "가스산업기사 실기",
+      "value": "가스산업기사 실기",
+      "slug": "gas-industrial-engineer",
+      "href": "/certificates/gas-industrial-engineer",
+      "type": "alias",
+      "category": "화학·안전"
+    },
+    {
+      "label": "가스산업기사 응시자격",
+      "value": "가스산업기사 응시자격",
+      "slug": "gas-industrial-engineer",
+      "href": "/certificates/gas-industrial-engineer",
+      "type": "alias",
+      "category": "화학·안전"
+    },
+    {
+      "label": "가스산업기사 취업",
+      "value": "가스산업기사 취업",
+      "slug": "gas-industrial-engineer",
+      "href": "/certificates/gas-industrial-engineer",
+      "type": "alias",
+      "category": "화학·안전"
+    },
     {
       "label": "개발자 자격증",
       "value": "개발자 자격증",
@@ -406,6 +550,14 @@
     {
       "label": "국가기술자격 기능사",
       "value": "국가기술자격 기능사",
+      "slug": "gas-craftsman",
+      "href": "/certificates/gas-craftsman",
+      "type": "alias",
+      "category": "화학·안전"
+    },
+    {
+      "label": "국가기술자격 기능사",
+      "value": "국가기술자격 기능사",
       "slug": "air-conditioning-refrigeration-craftsman",
       "href": "/certificates/air-conditioning-refrigeration-craftsman",
       "type": "alias",
@@ -442,6 +594,14 @@
       "href": "/certificates/electronic-craftsman",
       "type": "alias",
       "category": "전기·전자"
+    },
+    {
+      "label": "국가기술자격 기사",
+      "value": "국가기술자격 기사",
+      "slug": "gas-engineer",
+      "href": "/certificates/gas-engineer",
+      "type": "alias",
+      "category": "화학·안전"
     },
     {
       "label": "국가기술자격 기사",
@@ -542,6 +702,14 @@
     {
       "label": "국가기술자격 산업기사",
       "value": "국가기술자격 산업기사",
+      "slug": "gas-industrial-engineer",
+      "href": "/certificates/gas-industrial-engineer",
+      "type": "alias",
+      "category": "화학·안전"
+    },
+    {
+      "label": "국가기술자격 산업기사",
+      "value": "국가기술자격 산업기사",
       "slug": "air-conditioning-refrigeration-industrial-engineer",
       "href": "/certificates/air-conditioning-refrigeration-industrial-engineer",
       "type": "alias",
@@ -554,6 +722,14 @@
       "href": "/certificates/office-automation-industrial-engineer",
       "type": "alias",
       "category": "IT·사무"
+    },
+    {
+      "label": "국가기술자격 산업기사",
+      "value": "국가기술자격 산업기사",
+      "slug": "energy-management-industrial-engineer",
+      "href": "/certificates/energy-management-industrial-engineer",
+      "type": "alias",
+      "category": "에너지·설비"
     },
     {
       "label": "국가기술자격 산업기사",
@@ -948,6 +1124,14 @@
       "category": "에너지·설비"
     },
     {
+      "label": "에너지·설비",
+      "value": "에너지·설비",
+      "slug": "energy-management-industrial-engineer",
+      "href": "/certificates/energy-management-industrial-engineer",
+      "type": "alias",
+      "category": "에너지·설비"
+    },
+    {
       "label": "에너지관리기능사",
       "value": "에너지관리기능사",
       "slug": "energy-management-craftsman",
@@ -1040,6 +1224,54 @@
       "value": "에너지관리기사 취업",
       "slug": "energy-management-engineer",
       "href": "/certificates/energy-management-engineer",
+      "type": "alias",
+      "category": "에너지·설비"
+    },
+    {
+      "label": "에너지관리산업기사",
+      "value": "에너지관리산업기사",
+      "slug": "energy-management-industrial-engineer",
+      "href": "/certificates/energy-management-industrial-engineer",
+      "type": "certificate",
+      "category": "에너지·설비"
+    },
+    {
+      "label": "에너지관리산업기사 난이도",
+      "value": "에너지관리산업기사 난이도",
+      "slug": "energy-management-industrial-engineer",
+      "href": "/certificates/energy-management-industrial-engineer",
+      "type": "alias",
+      "category": "에너지·설비"
+    },
+    {
+      "label": "에너지관리산업기사 시험과목",
+      "value": "에너지관리산업기사 시험과목",
+      "slug": "energy-management-industrial-engineer",
+      "href": "/certificates/energy-management-industrial-engineer",
+      "type": "alias",
+      "category": "에너지·설비"
+    },
+    {
+      "label": "에너지관리산업기사 실기",
+      "value": "에너지관리산업기사 실기",
+      "slug": "energy-management-industrial-engineer",
+      "href": "/certificates/energy-management-industrial-engineer",
+      "type": "alias",
+      "category": "에너지·설비"
+    },
+    {
+      "label": "에너지관리산업기사 응시자격",
+      "value": "에너지관리산업기사 응시자격",
+      "slug": "energy-management-industrial-engineer",
+      "href": "/certificates/energy-management-industrial-engineer",
+      "type": "alias",
+      "category": "에너지·설비"
+    },
+    {
+      "label": "에너지관리산업기사 취업",
+      "value": "에너지관리산업기사 취업",
+      "slug": "energy-management-industrial-engineer",
+      "href": "/certificates/energy-management-industrial-engineer",
       "type": "alias",
       "category": "에너지·설비"
     },
@@ -2158,6 +2390,30 @@
     {
       "label": "한국산업인력공단",
       "value": "한국산업인력공단",
+      "slug": "gas-craftsman",
+      "href": "/certificates/gas-craftsman",
+      "type": "alias",
+      "category": "화학·안전"
+    },
+    {
+      "label": "한국산업인력공단",
+      "value": "한국산업인력공단",
+      "slug": "gas-engineer",
+      "href": "/certificates/gas-engineer",
+      "type": "alias",
+      "category": "화학·안전"
+    },
+    {
+      "label": "한국산업인력공단",
+      "value": "한국산업인력공단",
+      "slug": "gas-industrial-engineer",
+      "href": "/certificates/gas-industrial-engineer",
+      "type": "alias",
+      "category": "화학·안전"
+    },
+    {
+      "label": "한국산업인력공단",
+      "value": "한국산업인력공단",
       "slug": "construction-machinery-equipment-engineer",
       "href": "/certificates/construction-machinery-equipment-engineer",
       "type": "alias",
@@ -2240,6 +2496,14 @@
       "value": "한국산업인력공단",
       "slug": "energy-management-engineer",
       "href": "/certificates/energy-management-engineer",
+      "type": "alias",
+      "category": "에너지·설비"
+    },
+    {
+      "label": "한국산업인력공단",
+      "value": "한국산업인력공단",
+      "slug": "energy-management-industrial-engineer",
+      "href": "/certificates/energy-management-industrial-engineer",
       "type": "alias",
       "category": "에너지·설비"
     },
@@ -2370,6 +2634,30 @@
       "href": "/certificates/computerized-accounting-grade-2",
       "type": "alias",
       "category": "회계·세무"
+    },
+    {
+      "label": "화학·안전",
+      "value": "화학·안전",
+      "slug": "gas-craftsman",
+      "href": "/certificates/gas-craftsman",
+      "type": "alias",
+      "category": "화학·안전"
+    },
+    {
+      "label": "화학·안전",
+      "value": "화학·안전",
+      "slug": "gas-engineer",
+      "href": "/certificates/gas-engineer",
+      "type": "alias",
+      "category": "화학·안전"
+    },
+    {
+      "label": "화학·안전",
+      "value": "화학·안전",
+      "slug": "gas-industrial-engineer",
+      "href": "/certificates/gas-industrial-engineer",
+      "type": "alias",
+      "category": "화학·안전"
     },
     {
       "label": "화학·안전",
@@ -2586,6 +2874,38 @@
       "href": "/certificates/energy-management-engineer",
       "type": "alias",
       "category": "에너지·설비"
+    },
+    {
+      "label": "energy-management-industrial-engineer",
+      "value": "energy-management-industrial-engineer",
+      "slug": "energy-management-industrial-engineer",
+      "href": "/certificates/energy-management-industrial-engineer",
+      "type": "alias",
+      "category": "에너지·설비"
+    },
+    {
+      "label": "gas-craftsman",
+      "value": "gas-craftsman",
+      "slug": "gas-craftsman",
+      "href": "/certificates/gas-craftsman",
+      "type": "alias",
+      "category": "화학·안전"
+    },
+    {
+      "label": "gas-engineer",
+      "value": "gas-engineer",
+      "slug": "gas-engineer",
+      "href": "/certificates/gas-engineer",
+      "type": "alias",
+      "category": "화학·안전"
+    },
+    {
+      "label": "gas-industrial-engineer",
+      "value": "gas-industrial-engineer",
+      "slug": "gas-industrial-engineer",
+      "href": "/certificates/gas-industrial-engineer",
+      "type": "alias",
+      "category": "화학·안전"
     },
     {
       "label": "general-mechanical-engineer",

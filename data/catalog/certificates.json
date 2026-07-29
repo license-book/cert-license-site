@@ -347,5 +347,41 @@
     "category": "에너지·설비",
     "agency": "한국산업인력공단",
     "relatedTag": "에너지·설비"
+  },
+  "energy-management-industrial-engineer": {
+    "name": "에너지관리산업기사",
+    "shortName": "에너지관리산업기사",
+    "type": "national",
+    "licenseType": "국가기술자격 산업기사",
+    "category": "에너지·설비",
+    "agency": "한국산업인력공단",
+    "relatedTag": "에너지·설비"
+  },
+  "gas-engineer": {
+    "name": "가스기사",
+    "shortName": "가스기사",
+    "type": "national",
+    "licenseType": "국가기술자격 기사",
+    "category": "화학·안전",
+    "agency": "한국산업인력공단",
+    "relatedTag": "가스 안전"
+  },
+  "gas-industrial-engineer": {
+    "name": "가스산업기사",
+    "shortName": "가스산업기사",
+    "type": "national",
+    "licenseType": "국가기술자격 산업기사",
+    "category": "화학·안전",
+    "agency": "한국산업인력공단",
+    "relatedTag": "가스 안전"
+  },
+  "gas-craftsman": {
+    "name": "가스기능사",
+    "shortName": "가스기능사",
+    "type": "national",
+    "licenseType": "국가기술자격 기능사",
+    "category": "화학·안전",
+    "agency": "한국산업인력공단",
+    "relatedTag": "가스 입문"
   }
 }
