@@ -1,0 +1,356 @@
+{
+  "basic": {
+    "slug": "itq",
+    "name": "ITQ",
+    "shortName": "ITQ",
+    "type": "private",
+    "licenseType": "국가공인 민간자격",
+    "category": "IT·사무",
+    "agency": "한국생산성본부"
+  },
+  "hero": {
+    "title": "ITQ 정보기술자격",
+    "subtitle": "한글·엑셀·파워포인트 등 OA 프로그램의 실무 활용 능력을 과목별 A·B·C등급으로 평가하는 국가공인 민간자격입니다.",
+    "image": "/images/hero/itq.webp"
+  },
+  "certificateIntro": {
+    "title": "ITQ는 어떤 자격증인가요?",
+    "description": "ITQ(정보기술자격)는 한국생산성본부가 시행하는 국가공인 민간자격으로, 필기 없이 실제 프로그램을 사용하는 작업형 시험을 통해 OA 활용 능력을 평가합니다. 과목별로 응시하며 500점 만점 성적에 따라 A·B·C등급을 취득합니다.",
+    "highlights": [
+      "국가공인 민간자격",
+      "필기 없이 작업형으로 평가",
+      "과목별 A·B·C등급 취득"
+    ]
+  },
+  "eligibility": {
+    "title": "응시자격",
+    "status": "none",
+    "statusLabel": "응시 제한 없음",
+    "summary": "학력·전공·경력·연령에 관계없이 누구나 응시할 수 있습니다.",
+    "commonQuestion": {
+      "question": "한 번에 여러 과목을 응시할 수 있나요?",
+      "answer": "가능하지만 동일 교시 과목과 시험장 운영조건을 확인해야 합니다. 접수 화면에서 회차별 가능한 과목과 프로그램 버전을 확인하세요."
+    },
+    "officialNotice": "과목과 프로그램 버전, 교시 운영은 시험 회차와 고사장에 따라 달라질 수 있습니다."
+  },
+  "display": {
+    "charts": false,
+    "career": true,
+    "benefits": false,
+    "cost": true,
+    "schedule": true,
+    "affiliate": false
+  },
+  "keyInfo": {
+    "title": "한눈에 보는 핵심 정보",
+    "items": [
+      {
+        "label": "현실 난이도",
+        "value": "하~중",
+        "note": "기본 조작보다 제한시간 내 정확한 작업 수행이 관건입니다."
+      },
+      {
+        "label": "평균 준비기간",
+        "value": "과목당 2~6주",
+        "note": "OA 경험과 목표등급에 따라 달라집니다."
+      },
+      {
+        "label": "독학 적합도",
+        "value": "높음",
+        "note": "출제기준과 공개문제 유형을 직접 반복하는 방식이 효과적입니다."
+      },
+      {
+        "label": "취업 활용도",
+        "value": "기초 OA 역량 증명",
+        "note": "학교·공공기관·사무직 지원 시 활용 여부는 기관별로 다릅니다."
+      },
+      {
+        "label": "합격 체계",
+        "value": "A·B·C등급",
+        "note": "500점 만점 기준 A 400점 이상, B 300점 이상, C 200점 이상입니다."
+      },
+      {
+        "label": "응시자격",
+        "value": "제한 없음",
+        "note": "과목별로 독립 응시할 수 있습니다."
+      }
+    ]
+  },
+  "realityGuide": {
+    "title": "취득 전 현실 가이드",
+    "summary": "ITQ는 진입장벽이 낮지만 높은 등급을 받으려면 단축키와 작업 순서를 익혀 제한시간 안에 실수를 줄여야 합니다.",
+    "recommendedFor": [
+      "OA 프로그램을 처음 체계적으로 익히는 학생·취업준비생",
+      "한글·엑셀·파워포인트 기초 실무능력을 증명하려는 사람",
+      "필기보다 실습 중심 자격을 선호하는 사람"
+    ],
+    "reconsiderIf": [
+      "이미 컴활 1급 수준의 고급 엑셀 활용 능력이 있는 경우",
+      "직무에서 요구하는 프로그램이나 버전이 ITQ 시험환경과 크게 다른 경우"
+    ],
+    "beforeStart": [
+      "응시 과목과 소프트웨어 버전을 먼저 결정하세요.",
+      "목표등급이 A라면 정확도뿐 아니라 시간관리까지 계획해야 합니다."
+    ],
+    "realityPoints": [
+      "과목별 자격이므로 여러 과목 취득 시 비용과 준비기간이 누적됩니다.",
+      "OA Master는 별도의 과목 조합 요건을 충족해야 합니다."
+    ],
+    "firstStep": {
+      "title": "처음 시작한다면",
+      "description": "공식 출제기준을 확인하고 실제 시험 프로그램에서 기본 조작부터 따라 해보세요."
+    },
+    "nextStep": {
+      "title": "취득 후 다음 단계",
+      "description": "컴퓨터활용능력, 워드프로세서 또는 ITQ OA Master로 확장할 수 있습니다."
+    }
+  },
+  "exam": {
+    "written": "필기 없음",
+    "practical": "과목별 작업형 실기",
+    "passingCriteria": "500점 만점 중 200점 이상 취득 시 C등급 이상. A등급 400~500점, B등급 300~399점, C등급 200~299점",
+    "subjects": [
+      "아래한글 또는 MS워드",
+      "한글엑셀 또는 한셀",
+      "한글파워포인트 또는 한쇼",
+      "한글액세스",
+      "인터넷"
+    ]
+  },
+  "statistics": {
+    "enabled": false,
+    "title": "최근 시험 통계",
+    "summary": "공식 통계가 확인되는 시점에 갱신합니다."
+  },
+  "charts": {
+    "examWeight": {
+      "enabled": false,
+      "items": []
+    }
+  },
+  "studyStrategy": {
+    "title": "공부 전략",
+    "summary": "선택한 과목의 공식 출제기준과 작업 유형을 순서대로 익힌 뒤, 실제 시험시간에 맞춰 반복하는 것이 핵심입니다.",
+    "written": {
+      "title": "개념·기능 정리",
+      "items": [
+        "메뉴 위치와 기본 기능을 먼저 익힙니다.",
+        "출제영역별 필수 기능을 체크리스트로 정리합니다.",
+        "자주 쓰는 단축키와 저장 방식을 익힙니다."
+      ],
+      "tip": "필기시험은 없지만 기능의 목적을 이해해야 실전에서 빠르게 적용할 수 있습니다."
+    },
+    "practical": {
+      "title": "작업형 공부 전략",
+      "items": [
+        "공식 공개문제와 유사 유형을 직접 완성합니다.",
+        "한 문제를 여러 번 풀어 작업 순서를 고정합니다.",
+        "마지막에는 제한시간 모의시험으로 검토시간을 확보합니다."
+      ],
+      "tip": "A등급 목표라면 부분점수에 의존하지 말고 감점 요소를 반복 점검하세요."
+    },
+    "roadmap": [
+      {
+        "step": "STEP 1",
+        "title": "엑셀 기초 익히기",
+        "description": "화면과 기본 조작을 익힙니다."
+      },
+      {
+        "step": "STEP 2",
+        "title": "필기 기출 회독",
+        "description": "반복 출제 개념을 정리합니다."
+      },
+      {
+        "step": "STEP 3",
+        "title": "실기 유형별 연습",
+        "description": "작업 순서를 익힙니다."
+      },
+      {
+        "step": "STEP 4",
+        "title": "모의시험",
+        "description": "시간 배분을 확정합니다."
+      }
+    ],
+    "periods": [
+      {
+        "level": "OA 경험 있음",
+        "period": "1~3주",
+        "description": "유형과 시간배분 적응 중심"
+      },
+      {
+        "level": "일반 초보자",
+        "period": "3~6주",
+        "description": "기능학습과 기출 반복"
+      },
+      {
+        "level": "컴퓨터 초보자",
+        "period": "1~2개월",
+        "description": "기초 조작부터 단계적으로 준비"
+      }
+    ],
+    "tips": [
+      "필기와 실기를 너무 오래 분리하지 마세요.",
+      "실기 파일을 직접 저장하며 연습하세요."
+    ],
+    "failures": [
+      "강의만 보고 직접 따라 하지 않습니다.",
+      "함수식만 암기하고 조건을 해석하지 못합니다."
+    ],
+    "checklist": [
+      "최근 실기 기출 2회분 이상 재풀이",
+      "자주 틀리는 함수 복습",
+      "시험 시간에 맞춘 모의시험"
+    ],
+    "resources": [
+      "대한상공회의소 공식 출제기준",
+      "최근 기출문제와 실기 예제"
+    ],
+    "labookAdvice": "ITQ는 여러 과목을 동시에 넓게 준비하기보다 한 과목에서 A등급 흐름을 만든 뒤 다음 과목으로 확장하는 편이 안정적입니다."
+  },
+  "career": {
+    "title": "취업·활용 정보",
+    "summary": "문서작성·스프레드시트·프레젠테이션 등 기초 OA 활용 능력을 보여주는 자료로 활용할 수 있습니다.",
+    "sections": [
+      {
+        "title": "활용 분야",
+        "items": [
+          {
+            "label": "학교·교육",
+            "description": "정보활용 교육성과와 OA 기초능력 확인에 활용될 수 있습니다."
+          },
+          {
+            "label": "사무·행정 지원",
+            "description": "문서·표·발표자료 작성 기초를 보여주는 보조자료가 될 수 있습니다."
+          }
+        ]
+      },
+      {
+        "title": "다음 단계",
+        "items": [
+          {
+            "label": "ITQ OA Master",
+            "description": "서로 다른 3과목에서 A등급을 취득하면 OA Master 요건을 충족할 수 있습니다."
+          },
+          {
+            "label": "컴퓨터활용능력",
+            "description": "엑셀과 데이터 처리 역량을 더 깊게 증명할 수 있습니다."
+          }
+        ]
+      }
+    ],
+    "realisticNote": "채용 가점이나 학점 인정 여부는 기관별 규정이 다르므로 지원처 공고를 확인해야 합니다."
+  },
+  "officialInfo": {
+    "title": "공식 시험 정보",
+    "summary": "시험 접수 전 한국생산성본부의 최신 시험일정·출제기준·고사장 프로그램 버전을 확인하세요.",
+    "organization": "한국생산성본부",
+    "website": "https://license.kpc.or.kr/nasec/qlfint/qlfint/selectItqinfotchnlgyqc.do",
+    "items": [
+      {
+        "label": "시험방식",
+        "description": "과목별 작업형 실기시험, 필기시험 없음"
+      },
+      {
+        "label": "평가체계",
+        "description": "500점 만점, A 400~500점 / B 300~399점 / C 200~299점"
+      },
+      {
+        "label": "시험일정",
+        "description": "정기시험은 통상 매월 시행되며 특별시험도 운영됩니다. 정확한 일정은 공식 페이지 확인"
+      },
+      {
+        "label": "응시과목",
+        "description": "한글·워드, 엑셀·한셀, 파워포인트·한쇼, 액세스, 인터넷 등"
+      }
+    ],
+    "importantNotice": [
+      "고사장별 사용 가능한 소프트웨어와 버전이 다를 수 있습니다.",
+      "검정수수료와 일정은 접수 시점 공식 안내를 최종 기준으로 확인하세요."
+    ],
+    "buttons": [
+      {
+        "title": "KPC ITQ 공식 안내",
+        "url": "https://license.kpc.or.kr/nasec/qlfint/qlfint/selectItqinfotchnlgyqc.do"
+      }
+    ]
+  },
+  "cost": {
+    "title": "시험 비용과 준비비용",
+    "summary": "과목 수와 학습 방식에 따라 전체 비용이 달라집니다.",
+    "items": [
+      {
+        "label": "검정수수료",
+        "value": "접수 시 공식 확인",
+        "note": "과목 수와 접수 방식에 따라 달라질 수 있음"
+      },
+      {
+        "label": "교재·강의",
+        "value": "0~10만원대",
+        "note": "독학·온라인강의 선택에 따라 다름"
+      },
+      {
+        "label": "프로그램 환경",
+        "value": "개인별 상이",
+        "note": "연습용 소프트웨어 이용환경 확인 필요"
+      }
+    ],
+    "realisticNote": "여러 과목을 응시하면 수수료가 누적되므로 목표 과목과 등급을 먼저 정하세요."
+  },
+  "affiliate": {},
+  "trustInfo": {
+    "title": "정보 출처 및 업데이트",
+    "description": "한국생산성본부의 ITQ 공식 안내를 우선 확인해 작성했습니다.",
+    "sourceLabel": "한국생산성본부 ITQ 공식 안내",
+    "sourceUrl": "https://license.kpc.or.kr/nasec/qlfint/qlfint/selectItqinfotchnlgyqc.do",
+    "lastVerified": "2026-07-29",
+    "lastUpdated": "2026-07-29",
+    "notice": "시험과목·소프트웨어·일정·수수료는 변경될 수 있으므로 접수 전 공식 안내를 확인하세요."
+  },
+  "finalCta": {
+    "title": "ITQ, 지금 준비해도 될까요?",
+    "description": "목표 과목과 등급을 정하고 실제 시험 프로그램에서 첫 공개문제부터 풀어보세요.",
+    "primaryButton": {
+      "label": "ITQ 공식 안내 확인",
+      "url": "https://license.kpc.or.kr/nasec/qlfint/qlfint/selectItqinfotchnlgyqc.do"
+    },
+    "secondaryButton": {
+      "label": "관련 자격증 보기",
+      "url": "#related"
+    }
+  },
+  "seo": {
+    "title": "ITQ 시험정보·등급·과목·공부방법 | 라북",
+    "description": "ITQ 정보기술자격의 응시자격, 시험과목, A·B·C등급 기준, 준비기간과 현실적인 공부전략을 확인하세요.",
+    "keywords": [
+      "ITQ",
+      "정보기술자격",
+      "ITQ A등급",
+      "OA 자격증"
+    ],
+    "image": "/images/hero/itq.webp"
+  },
+  "update": {
+    "version": "1.0.0",
+    "lastUpdated": "2026-07-29",
+    "lastVerified": "2026-07-29",
+    "verified": true,
+    "note": "ITQ 상세페이지 신규 제작"
+  },
+  "faq": {
+    "title": "자주 묻는 질문",
+    "items": [
+      {
+        "question": "ITQ는 필기시험이 있나요?",
+        "answer": "없습니다. 선택한 OA 프로그램을 직접 사용하는 작업형 시험으로 평가합니다."
+      },
+      {
+        "question": "등급은 어떻게 결정되나요?",
+        "answer": "500점 만점 기준으로 A등급은 400점 이상, B등급은 300점 이상, C등급은 200점 이상입니다."
+      },
+      {
+        "question": "OA Master는 어떻게 취득하나요?",
+        "answer": "ITQ 시험에서 서로 다른 3과목 이상 A등급을 취득하면 공식 요건에 따라 OA Master를 신청할 수 있습니다."
+      }
+    ]
+  }
+}

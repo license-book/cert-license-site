@@ -50,7 +50,8 @@
     "type": "private",
     "licenseType": "국가공인 민간자격",
     "category": "IT·사무",
-    "relatedTag": "OA 입문"
+    "relatedTag": "OA 입문",
+    "agency": "한국생산성본부"
   },
   "mos": {
     "name": "MOS",
@@ -58,7 +59,8 @@
     "type": "private",
     "licenseType": "국제 민간자격",
     "category": "IT·사무",
-    "relatedTag": "실무 활용"
+    "relatedTag": "실무 활용",
+    "agency": "Microsoft·Certiport / 국내 YBM 시행"
   },
   "electric-engineer": {
     "name": "전기기사",
@@ -626,6 +628,42 @@
     "category": "기계·금속",
     "agency": "한국산업인력공단",
     "relatedTag": "기계·금속"
+  },
+  "air-pollution-environmental-engineer": {
+    "name": "대기환경기사",
+    "shortName": "대기환경기사",
+    "type": "national",
+    "licenseType": "국가기술자격 기사",
+    "category": "환경·에너지",
+    "agency": "한국산업인력공단",
+    "relatedTag": "대기환경"
+  },
+  "water-quality-environmental-engineer": {
+    "name": "수질환경기사",
+    "shortName": "수질환경기사",
+    "type": "national",
+    "licenseType": "국가기술자격 기사",
+    "category": "환경·에너지",
+    "agency": "한국산업인력공단",
+    "relatedTag": "수질환경"
+  },
+  "waste-treatment-engineer": {
+    "name": "폐기물처리기사",
+    "shortName": "폐기물처리기사",
+    "type": "national",
+    "licenseType": "국가기술자격 기사",
+    "category": "환경·에너지",
+    "agency": "한국산업인력공단",
+    "relatedTag": "폐기물"
+  },
+  "chemical-engineering-engineer": {
+    "name": "화공기사",
+    "shortName": "화공기사",
+    "type": "national",
+    "licenseType": "국가기술자격 기사",
+    "category": "화학·환경",
+    "agency": "한국산업인력공단",
+    "relatedTag": "화학공정"
   },
   "chemical-analysis-engineer": {
     "name": "화학분석기사",

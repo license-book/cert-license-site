@@ -1,0 +1,358 @@
+{
+  "basic": {
+    "slug": "mos",
+    "name": "MOS",
+    "shortName": "MOS",
+    "type": "private",
+    "licenseType": "국제 민간자격",
+    "category": "IT·사무",
+    "agency": "Microsoft·Certiport / 국내 YBM 시행"
+  },
+  "hero": {
+    "title": "MOS",
+    "subtitle": "Microsoft Office 프로그램의 실제 활용 능력을 평가하는 국제인증 자격시험입니다.",
+    "image": "/images/hero/mos.webp"
+  },
+  "certificateIntro": {
+    "title": "MOS는 어떤 자격증인가요?",
+    "description": "MOS(Microsoft Office Specialist)는 Word·Excel·PowerPoint 등 Microsoft Office 프로그램의 활용 능력을 실제 프로그램 기반 시험으로 평가하는 국제인증 자격입니다. 국내 시험은 YBM을 통해 접수·운영됩니다.",
+    "highlights": [
+      "Microsoft Office 국제인증",
+      "실제 프로그램 기반 실기시험",
+      "과목별 자격 및 Associate·Expert 인증 체계"
+    ]
+  },
+  "eligibility": {
+    "title": "응시자격",
+    "status": "none",
+    "statusLabel": "응시 제한 없음",
+    "summary": "학력·전공·경력·연령 제한 없이 원하는 과목과 레벨에 응시할 수 있습니다.",
+    "commonQuestion": {
+      "question": "Associate를 먼저 취득해야 Expert 과목에 응시할 수 있나요?",
+      "answer": "과목 응시 자체의 선행조건과 종합 인증 발급요건은 구분해야 합니다. MOS 365 Associate·Expert 종합 인증은 공식 과목 조합을 충족해야 합니다."
+    },
+    "officialNotice": "버전별 시행과목과 종합 자격 발급요건은 공식 MOS 안내를 확인하세요."
+  },
+  "display": {
+    "charts": false,
+    "career": true,
+    "benefits": false,
+    "cost": true,
+    "schedule": true,
+    "affiliate": false
+  },
+  "keyInfo": {
+    "title": "한눈에 보는 핵심 정보",
+    "items": [
+      {
+        "label": "현실 난이도",
+        "value": "중",
+        "note": "Associate는 실무기초, Expert는 고급 함수·문서관리 역량이 요구됩니다."
+      },
+      {
+        "label": "평균 준비기간",
+        "value": "과목당 2~8주",
+        "note": "Office 경험과 응시 레벨에 따라 차이가 큽니다."
+      },
+      {
+        "label": "독학 적합도",
+        "value": "높음",
+        "note": "시험 버전과 동일한 환경에서 반복하면 독학이 가능합니다."
+      },
+      {
+        "label": "취업 활용도",
+        "value": "OA 실무능력 보조 증명",
+        "note": "채용 인정 여부는 기업·기관별로 다릅니다."
+      },
+      {
+        "label": "시험시간",
+        "value": "MOS 365 과목당 50분",
+        "note": "약 25~35문항의 실기형 시험입니다."
+      },
+      {
+        "label": "합격기준",
+        "value": "1,000점 만점 700점 이상",
+        "note": "시험 종료 후 점수와 합격 여부를 확인합니다."
+      }
+    ]
+  },
+  "realityGuide": {
+    "title": "취득 전 현실 가이드",
+    "summary": "MOS는 실제 Office 작업 속도와 정확성을 평가하므로 기능 이름을 외우는 것보다 화면에서 바로 실행하는 능력이 중요합니다.",
+    "recommendedFor": [
+      "Word·Excel·PowerPoint 실무능력을 국제인증으로 증명하려는 사람",
+      "시험 결과를 즉시 확인하고 과목별로 단계적으로 취득하려는 사람",
+      "MOS Associate 또는 Expert 종합 인증을 목표로 하는 사람"
+    ],
+    "reconsiderIf": [
+      "응시료 부담에 비해 지원처에서 MOS를 인정하지 않는 경우",
+      "시험 버전과 실제 업무환경이 달라 별도 적응이 필요한 경우"
+    ],
+    "beforeStart": [
+      "MOS 365와 기존 버전 중 현재 응시 가능한 과목을 확인하세요.",
+      "과목별 자격과 Associate·Expert 종합 인증 요건을 구분하세요."
+    ],
+    "realityPoints": [
+      "과목별 응시료가 높아 재응시 비용까지 고려해야 합니다.",
+      "시험 인터페이스와 지시문 방식에 익숙해지는 것이 중요합니다."
+    ],
+    "firstStep": {
+      "title": "처음 시작한다면",
+      "description": "응시할 버전과 과목을 정하고 공식 평가항목을 기준으로 현재 실력을 점검하세요."
+    },
+    "nextStep": {
+      "title": "취득 후 다음 단계",
+      "description": "Word·Excel·PowerPoint 과목 조합을 완성해 Associate 또는 Expert 인증으로 확장할 수 있습니다."
+    }
+  },
+  "exam": {
+    "written": "필기 없음",
+    "practical": "실제 Office 프로그램 기반 실기시험",
+    "passingCriteria": "MOS 365 기준 1,000점 만점에 700점 이상",
+    "subjects": [
+      "Word 365 Associate / Expert",
+      "Excel 365 Associate / Expert",
+      "PowerPoint 365 Associate"
+    ]
+  },
+  "statistics": {
+    "enabled": false,
+    "title": "최근 시험 통계",
+    "summary": "공식 통계가 확인되는 시점에 갱신합니다."
+  },
+  "charts": {
+    "examWeight": {
+      "enabled": false,
+      "items": []
+    }
+  },
+  "studyStrategy": {
+    "title": "공부 전략",
+    "summary": "공식 평가항목별 기능을 실제 프로그램에서 반복하고, 시험 인터페이스와 제한시간에 익숙해지는 것이 핵심입니다.",
+    "written": {
+      "title": "평가항목 정리",
+      "items": [
+        "응시 과목의 공식 평가영역을 체크합니다.",
+        "각 기능이 어떤 메뉴와 상황에서 사용되는지 정리합니다.",
+        "지시문에서 요구하는 결과를 정확히 해석합니다."
+      ],
+      "tip": "필기는 없지만 평가항목을 모르면 기능을 빠르게 찾기 어렵습니다."
+    },
+    "practical": {
+      "title": "실기 공부 전략",
+      "items": [
+        "시험 버전과 동일한 Office 환경에서 연습합니다.",
+        "문서·통합문서·프레젠테이션 단위 과제를 반복합니다.",
+        "50분 모의시험으로 막히는 기능을 별도 복습합니다."
+      ],
+      "tip": "한 기능에 오래 머물기보다 전체 과제를 완주하는 시간관리도 중요합니다."
+    },
+    "roadmap": [
+      {
+        "step": "STEP 1",
+        "title": "엑셀 기초 익히기",
+        "description": "화면과 기본 조작을 익힙니다."
+      },
+      {
+        "step": "STEP 2",
+        "title": "필기 기출 회독",
+        "description": "반복 출제 개념을 정리합니다."
+      },
+      {
+        "step": "STEP 3",
+        "title": "실기 유형별 연습",
+        "description": "작업 순서를 익힙니다."
+      },
+      {
+        "step": "STEP 4",
+        "title": "모의시험",
+        "description": "시간 배분을 확정합니다."
+      }
+    ],
+    "periods": [
+      {
+        "level": "Office 실무 경험 있음",
+        "period": "1~3주",
+        "description": "시험형식 적응 중심"
+      },
+      {
+        "level": "일반 사용자",
+        "period": "3~6주",
+        "description": "평가항목별 실습 반복"
+      },
+      {
+        "level": "초보자·Expert 목표",
+        "period": "1~2개월 이상",
+        "description": "기초 기능 또는 고급 기능 보완"
+      }
+    ],
+    "tips": [
+      "필기와 실기를 너무 오래 분리하지 마세요.",
+      "실기 파일을 직접 저장하며 연습하세요."
+    ],
+    "failures": [
+      "강의만 보고 직접 따라 하지 않습니다.",
+      "함수식만 암기하고 조건을 해석하지 못합니다."
+    ],
+    "checklist": [
+      "최근 실기 기출 2회분 이상 재풀이",
+      "자주 틀리는 함수 복습",
+      "시험 시간에 맞춘 모의시험"
+    ],
+    "resources": [
+      "대한상공회의소 공식 출제기준",
+      "최근 기출문제와 실기 예제"
+    ],
+    "labookAdvice": "응시료가 높은 편이므로 시험을 경험 삼아 보기보다, 모의과제를 시간 안에 안정적으로 완성한 뒤 접수하는 것이 좋습니다."
+  },
+  "career": {
+    "title": "취업·활용 정보",
+    "summary": "Office 활용 능력을 국제인증 형태로 보여줄 수 있으며 기업·학교·군 등 일부 기관에서 활용됩니다.",
+    "sections": [
+      {
+        "title": "활용 분야",
+        "items": [
+          {
+            "label": "사무·기획·데이터업무",
+            "description": "Word·Excel·PowerPoint 실무능력을 과목별로 제시할 수 있습니다."
+          },
+          {
+            "label": "학교·기관 인증",
+            "description": "졸업요건·학점·가점 적용 여부는 각 기관 기준을 확인해야 합니다."
+          }
+        ]
+      },
+      {
+        "title": "다음 단계",
+        "items": [
+          {
+            "label": "MOS Associate",
+            "description": "MOS 365의 Word·Excel·PowerPoint Associate 3과목 취득으로 구성됩니다."
+          },
+          {
+            "label": "MOS Expert",
+            "description": "Associate 3과목과 Word·Excel Expert를 포함한 공식 조합을 충족해야 합니다."
+          }
+        ]
+      }
+    ],
+    "realisticNote": "MOS는 실무능력의 보조 증명이며 자격증만으로 취업이나 승진이 보장되지는 않습니다."
+  },
+  "officialInfo": {
+    "title": "공식 시험 정보",
+    "summary": "접수 전 YBM MOS 공식 페이지에서 버전·시험센터·일정·응시료를 확인하세요.",
+    "organization": "Microsoft·Certiport / 국내 YBM 시행",
+    "website": "https://www.ybmit.com/mos/int_test.jsp",
+    "items": [
+      {
+        "label": "MOS 365 시험시간",
+        "description": "과목당 50분"
+      },
+      {
+        "label": "검정방법",
+        "description": "실기시험, 약 25~35문항"
+      },
+      {
+        "label": "합격기준",
+        "description": "1,000점 만점에 700점 이상"
+      },
+      {
+        "label": "응시료",
+        "description": "MOS 365 Associate / Expert 과목당 84,000원"
+      },
+      {
+        "label": "성적발표",
+        "description": "시험 종료 즉시 확인"
+      }
+    ],
+    "importantNotice": [
+      "시험 버전과 과목별 시행 여부는 시험센터에 따라 확인이 필요합니다.",
+      "응시료와 운영정책은 변경될 수 있으므로 결제 전 공식 안내를 확인하세요."
+    ],
+    "buttons": [
+      {
+        "title": "YBM MOS 공식 안내",
+        "url": "https://www.ybmit.com/mos/int_test.jsp"
+      }
+    ]
+  },
+  "cost": {
+    "title": "시험 비용과 준비비용",
+    "summary": "MOS는 과목별 응시료가 발생하므로 종합 인증 목표라면 전체 과목 수를 고려해야 합니다.",
+    "items": [
+      {
+        "label": "MOS 365 응시료",
+        "value": "과목당 84,000원",
+        "note": "Associate / Expert 공식 안내 기준"
+      },
+      {
+        "label": "교재·강의",
+        "value": "0~20만원대",
+        "note": "과목·학습방식에 따라 다름"
+      },
+      {
+        "label": "재응시 비용",
+        "value": "과목별 추가 발생",
+        "note": "불합격 시 동일 과목 재접수 필요"
+      }
+    ],
+    "realisticNote": "Associate 3과목 또는 Expert 5과목을 목표로 하면 총 응시료가 커지므로 필요한 인증 수준부터 결정하세요."
+  },
+  "affiliate": {},
+  "trustInfo": {
+    "title": "정보 출처 및 업데이트",
+    "description": "YBM MOS 공식 시험안내와 MOS 365 과목 안내를 우선 확인해 작성했습니다.",
+    "sourceLabel": "YBM MOS 공식 시험 안내",
+    "sourceUrl": "https://www.ybmit.com/mos/int_test.jsp",
+    "lastVerified": "2026-07-29",
+    "lastUpdated": "2026-07-29",
+    "notice": "시험버전·과목·응시료·인증요건은 변경될 수 있으므로 접수 전 공식 안내를 확인하세요."
+  },
+  "finalCta": {
+    "title": "MOS, 지금 준비해도 될까요?",
+    "description": "필요한 과목과 인증 수준을 정하고 현재 Office 실력을 공식 평가항목으로 점검해보세요.",
+    "primaryButton": {
+      "label": "MOS 공식 안내 확인",
+      "url": "https://www.ybmit.com/mos/int_test.jsp"
+    },
+    "secondaryButton": {
+      "label": "관련 자격증 보기",
+      "url": "#related"
+    }
+  },
+  "seo": {
+    "title": "MOS 시험정보·응시료·합격기준·공부방법 | 라북",
+    "description": "MOS 365의 과목, 시험시간, 700점 합격기준, 응시료, Associate·Expert 취득요건과 공부전략을 확인하세요.",
+    "keywords": [
+      "MOS",
+      "MOS 365",
+      "MOS 자격증",
+      "Microsoft Office Specialist"
+    ],
+    "image": "/images/hero/mos.webp"
+  },
+  "update": {
+    "version": "1.0.0",
+    "lastUpdated": "2026-07-29",
+    "lastVerified": "2026-07-29",
+    "verified": true,
+    "note": "MOS 상세페이지 신규 제작"
+  },
+  "faq": {
+    "title": "자주 묻는 질문",
+    "items": [
+      {
+        "question": "MOS 시험은 필기와 실기로 나뉘나요?",
+        "answer": "별도의 필기시험 없이 실제 Office 프로그램을 활용하는 실기형 시험으로 진행됩니다."
+      },
+      {
+        "question": "MOS 365 합격점수는 몇 점인가요?",
+        "answer": "1,000점 만점에 700점 이상이며 시험 종료 후 점수와 합격 여부를 확인할 수 있습니다."
+      },
+      {
+        "question": "MOS Associate와 Expert는 어떻게 취득하나요?",
+        "answer": "MOS 365 Associate는 Word·Excel·PowerPoint Associate 3과목, Expert는 해당 3과목에 Word Expert와 Excel Expert를 더한 5과목 조합이 필요합니다."
+      }
+    ]
+  }
+}

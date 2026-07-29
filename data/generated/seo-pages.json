@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-29T06:56:20.408Z",
-  "total": 86,
+  "generatedAt": "2026-07-29T07:59:40.686Z",
+  "total": 88,
   "items": [
     {
       "slug": "air-conditioning-refrigeration-craftsman",
@@ -1786,6 +1786,33 @@
       "lastModified": "2026-07-28"
     },
     {
+      "slug": "itq",
+      "name": "ITQ",
+      "shortName": "ITQ",
+      "title": "ITQ 시험정보·등급·과목·공부방법 | 라북",
+      "description": "ITQ 정보기술자격의 응시자격, 시험과목, A·B·C등급 기준, 준비기간과 현실적인 공부전략을 확인하세요.",
+      "keywords": [
+        "ITQ",
+        "정보기술자격",
+        "ITQ A등급",
+        "OA 자격증",
+        "ITQ 시험",
+        "ITQ 난이도",
+        "ITQ 합격률",
+        "ITQ 공부기간",
+        "IT·사무",
+        "국가공인 민간자격",
+        "한국생산성본부"
+      ],
+      "image": "/images/hero/itq.webp",
+      "path": "/cert/itq",
+      "type": "private",
+      "licenseType": "국가공인 민간자격",
+      "category": "IT·사무",
+      "agency": "한국생산성본부",
+      "lastModified": "2026-07-29"
+    },
+    {
       "slug": "japanese-cuisine-craftsman",
       "name": "일식조리기능사",
       "shortName": "일식조리기능사",
@@ -1950,6 +1977,33 @@
       "licenseType": "국가기술자격 산업기사",
       "category": "기계·금속",
       "agency": "한국산업인력공단",
+      "lastModified": "2026-07-29"
+    },
+    {
+      "slug": "mos",
+      "name": "MOS",
+      "shortName": "MOS",
+      "title": "MOS 시험정보·응시료·합격기준·공부방법 | 라북",
+      "description": "MOS 365의 과목, 시험시간, 700점 합격기준, 응시료, Associate·Expert 취득요건과 공부전략을 확인하세요.",
+      "keywords": [
+        "MOS",
+        "MOS 365",
+        "MOS 자격증",
+        "Microsoft Office Specialist",
+        "MOS 시험",
+        "MOS 난이도",
+        "MOS 합격률",
+        "MOS 공부기간",
+        "IT·사무",
+        "국제 민간자격",
+        "Microsoft·Certiport / 국내 YBM 시행"
+      ],
+      "image": "/images/hero/mos.webp",
+      "path": "/cert/mos",
+      "type": "private",
+      "licenseType": "국제 민간자격",
+      "category": "IT·사무",
+      "agency": "Microsoft·Certiport / 국내 YBM 시행",
       "lastModified": "2026-07-29"
     },
     {

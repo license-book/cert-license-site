@@ -1,12 +1,12 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-29T06:56:20.299Z",
+  "generatedAt": "2026-07-29T07:59:40.340Z",
   "maxRelatedPerCertificate": 4,
   "totals": {
-    "certificates": 86,
+    "certificates": 88,
     "manualLinks": 190,
-    "autoLinks": 154,
-    "allLinks": 344
+    "autoLinks": 162,
+    "allLinks": 352
   },
   "items": {
     "air-conditioning-refrigeration-craftsman": [
@@ -81,19 +81,19 @@
       },
       {
         "slug": "waste-treatment-engineer",
-        "tag": "같은 분야",
+        "tag": "폐기물",
         "source": "auto",
         "score": 100
       },
       {
-        "slug": "gas-engineer",
-        "tag": "가스 안전",
+        "slug": "water-quality-environmental-engineer",
+        "tag": "수질환경",
         "source": "auto",
-        "score": 50
+        "score": 95
       },
       {
-        "slug": "construction-machinery-equipment-engineer",
-        "tag": "기계·설비",
+        "slug": "gas-engineer",
+        "tag": "가스 안전",
         "source": "auto",
         "score": 50
       }
@@ -1465,6 +1465,32 @@
         "score": 85
       }
     ],
+    "itq": [
+      {
+        "slug": "mos",
+        "tag": "실무 활용",
+        "source": "auto",
+        "score": 75
+      },
+      {
+        "slug": "office-automation-industrial-engineer",
+        "tag": "IT·사무",
+        "source": "auto",
+        "score": 55
+      },
+      {
+        "slug": "word-processor",
+        "tag": "문서 작성",
+        "source": "auto",
+        "score": 55
+      },
+      {
+        "slug": "computer-specialist-1",
+        "tag": "상위 OA",
+        "source": "auto",
+        "score": 55
+      }
+    ],
     "japanese-cuisine-craftsman": [
       {
         "slug": "korean-cuisine-craftsman",
@@ -1593,6 +1619,32 @@
         "tag": "기계·금속",
         "source": "auto",
         "score": 85
+      }
+    ],
+    "mos": [
+      {
+        "slug": "itq",
+        "tag": "OA 입문",
+        "source": "auto",
+        "score": 75
+      },
+      {
+        "slug": "office-automation-industrial-engineer",
+        "tag": "IT·사무",
+        "source": "auto",
+        "score": 55
+      },
+      {
+        "slug": "word-processor",
+        "tag": "문서 작성",
+        "source": "auto",
+        "score": 55
+      },
+      {
+        "slug": "computer-specialist-1",
+        "tag": "상위 OA",
+        "source": "auto",
+        "score": 55
       }
     ],
     "nursing-assistant": [
@@ -1755,7 +1807,7 @@
     "waste-treatment-engineer": [
       {
         "slug": "air-pollution-environmental-engineer",
-        "tag": "같은 분야",
+        "tag": "대기환경",
         "source": "auto",
         "score": 100
       },
@@ -1766,14 +1818,14 @@
         "score": 100
       },
       {
-        "slug": "gas-engineer",
-        "tag": "가스 안전",
+        "slug": "water-quality-environmental-engineer",
+        "tag": "수질환경",
         "source": "auto",
-        "score": 50
+        "score": 95
       },
       {
-        "slug": "construction-machinery-equipment-engineer",
-        "tag": "기계·설비",
+        "slug": "gas-engineer",
+        "tag": "가스 안전",
         "source": "auto",
         "score": 50
       }
@@ -1781,25 +1833,25 @@
     "water-pollution-environmental-engineer": [
       {
         "slug": "air-pollution-environmental-engineer",
-        "tag": "같은 분야",
+        "tag": "대기환경",
         "source": "auto",
         "score": 100
       },
       {
         "slug": "waste-treatment-engineer",
-        "tag": "같은 분야",
+        "tag": "폐기물",
         "source": "auto",
         "score": 100
       },
       {
-        "slug": "gas-engineer",
-        "tag": "가스 안전",
+        "slug": "water-quality-environmental-engineer",
+        "tag": "수질환경",
         "source": "auto",
-        "score": 50
+        "score": 95
       },
       {
-        "slug": "construction-machinery-equipment-engineer",
-        "tag": "기계·설비",
+        "slug": "gas-engineer",
+        "tag": "가스 안전",
         "source": "auto",
         "score": 50
       }

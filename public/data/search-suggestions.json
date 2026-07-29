@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-29T06:56:19.935Z",
-  "total": 819,
+  "generatedAt": "2026-07-29T07:59:39.745Z",
+  "total": 833,
   "items": [
     {
       "label": "가스기능사",
@@ -836,6 +836,14 @@
       "category": "회계·세무"
     },
     {
+      "label": "국가공인 민간자격",
+      "value": "국가공인 민간자격",
+      "slug": "itq",
+      "href": "/certificates/itq",
+      "type": "alias",
+      "category": "IT·사무"
+    },
+    {
       "label": "국가기술자격",
       "value": "국가기술자격",
       "slug": "architectural-engineer",
@@ -1490,6 +1498,14 @@
       "href": "/certificates/youth-counselor",
       "type": "alias",
       "category": "상담·청소년"
+    },
+    {
+      "label": "국제 민간자격",
+      "value": "국제 민간자격",
+      "slug": "mos",
+      "href": "/certificates/mos",
+      "type": "alias",
+      "category": "IT·사무"
     },
     {
       "label": "굴착기운전기능사",
@@ -3956,6 +3972,14 @@
       "category": "정보통신"
     },
     {
+      "label": "정보기술자격",
+      "value": "정보기술자격",
+      "slug": "itq",
+      "href": "/certificates/itq",
+      "type": "alias",
+      "category": "IT·사무"
+    },
+    {
       "label": "정보보안기사",
       "value": "정보보안기사",
       "slug": "information-security-engineer",
@@ -5524,6 +5548,14 @@
       "category": "화학·바이오"
     },
     {
+      "label": "한국생산성본부",
+      "value": "한국생산성본부",
+      "slug": "itq",
+      "href": "/certificates/itq",
+      "type": "alias",
+      "category": "IT·사무"
+    },
+    {
       "label": "한국세무사회",
       "value": "한국세무사회",
       "slug": "computerized-tax-grade-2",
@@ -6388,6 +6420,38 @@
       "category": "IT·사무"
     },
     {
+      "label": "IT·사무",
+      "value": "IT·사무",
+      "slug": "itq",
+      "href": "/certificates/itq",
+      "type": "alias",
+      "category": "IT·사무"
+    },
+    {
+      "label": "IT·사무",
+      "value": "IT·사무",
+      "slug": "mos",
+      "href": "/certificates/mos",
+      "type": "alias",
+      "category": "IT·사무"
+    },
+    {
+      "label": "ITQ",
+      "value": "ITQ",
+      "slug": "itq",
+      "href": "/certificates/itq",
+      "type": "certificate",
+      "category": "IT·사무"
+    },
+    {
+      "label": "ITQ A등급",
+      "value": "ITQ A등급",
+      "slug": "itq",
+      "href": "/certificates/itq",
+      "type": "alias",
+      "category": "IT·사무"
+    },
+    {
       "label": "japanese-cuisine-craftsman",
       "value": "japanese-cuisine-craftsman",
       "slug": "japanese-cuisine-craftsman",
@@ -6436,12 +6500,60 @@
       "category": "기계·금속"
     },
     {
+      "label": "Microsoft Office Specialist",
+      "value": "Microsoft Office Specialist",
+      "slug": "mos",
+      "href": "/certificates/mos",
+      "type": "alias",
+      "category": "IT·사무"
+    },
+    {
+      "label": "Microsoft·Certiport / 국내 YBM 시행",
+      "value": "Microsoft·Certiport / 국내 YBM 시행",
+      "slug": "mos",
+      "href": "/certificates/mos",
+      "type": "alias",
+      "category": "IT·사무"
+    },
+    {
+      "label": "MOS",
+      "value": "MOS",
+      "slug": "mos",
+      "href": "/certificates/mos",
+      "type": "certificate",
+      "category": "IT·사무"
+    },
+    {
+      "label": "MOS 365",
+      "value": "MOS 365",
+      "slug": "mos",
+      "href": "/certificates/mos",
+      "type": "alias",
+      "category": "IT·사무"
+    },
+    {
+      "label": "MOS 자격증",
+      "value": "MOS 자격증",
+      "slug": "mos",
+      "href": "/certificates/mos",
+      "type": "alias",
+      "category": "IT·사무"
+    },
+    {
       "label": "nursing-assistant",
       "value": "nursing-assistant",
       "slug": "nursing-assistant",
       "href": "/certificates/nursing-assistant",
       "type": "alias",
       "category": "보건·의료"
+    },
+    {
+      "label": "OA 자격증",
+      "value": "OA 자격증",
+      "slug": "itq",
+      "href": "/certificates/itq",
+      "type": "alias",
+      "category": "IT·사무"
     },
     {
       "label": "office-automation-industrial-engineer",
