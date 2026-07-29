@@ -510,5 +510,15 @@
     "western-cuisine-craftsman",
     "confectionery-craftsman",
     "bread-making-craftsman"
+  ],
+  "licensed-real-estate-agent": [
+    "housing-manager-assistant",
+    "architectural-engineer",
+    "computerized-tax-grade-2"
+  ],
+  "housing-manager-assistant": [
+    "licensed-real-estate-agent",
+    "building-services-engineer",
+    "fire-protection-electrical-engineer"
   ]
 }

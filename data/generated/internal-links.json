@@ -1,12 +1,12 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-29T06:22:04.638Z",
+  "generatedAt": "2026-07-29T06:56:20.299Z",
   "maxRelatedPerCertificate": 4,
   "totals": {
-    "certificates": 80,
-    "manualLinks": 184,
-    "autoLinks": 136,
-    "allLinks": 320
+    "certificates": 86,
+    "manualLinks": 190,
+    "autoLinks": 154,
+    "allLinks": 344
   },
   "items": {
     "air-conditioning-refrigeration-craftsman": [
@@ -1231,6 +1231,26 @@
         "score": 85
       }
     ],
+    "housing-manager-assistant": [
+      {
+        "slug": "licensed-real-estate-agent",
+        "source": "manual"
+      },
+      {
+        "slug": "building-services-engineer",
+        "source": "manual"
+      },
+      {
+        "slug": "fire-protection-electrical-engineer",
+        "source": "manual"
+      },
+      {
+        "slug": "social-worker-level-1",
+        "tag": "복지·상담",
+        "source": "auto",
+        "score": 50
+      }
+    ],
     "industrial-safety-engineer": [
       {
         "slug": "hazardous-material-industrial-engineer",
@@ -1485,6 +1505,26 @@
         "score": 50
       }
     ],
+    "licensed-real-estate-agent": [
+      {
+        "slug": "housing-manager-assistant",
+        "source": "manual"
+      },
+      {
+        "slug": "architectural-engineer",
+        "source": "manual"
+      },
+      {
+        "slug": "computerized-tax-grade-2",
+        "source": "manual"
+      },
+      {
+        "slug": "social-worker-level-1",
+        "tag": "복지·상담",
+        "source": "auto",
+        "score": 50
+      }
+    ],
     "mechanical-design-engineer": [
       {
         "slug": "general-mechanical-engineer",
@@ -1555,6 +1595,32 @@
         "score": 85
       }
     ],
+    "nursing-assistant": [
+      {
+        "slug": "gas-craftsman",
+        "tag": "가스 입문",
+        "source": "auto",
+        "score": 25
+      },
+      {
+        "slug": "gas-engineer",
+        "tag": "가스 안전",
+        "source": "auto",
+        "score": 25
+      },
+      {
+        "slug": "gas-industrial-engineer",
+        "tag": "가스 안전",
+        "source": "auto",
+        "score": 25
+      },
+      {
+        "slug": "construction-machinery-equipment-engineer",
+        "tag": "기계·설비",
+        "source": "auto",
+        "score": 25
+      }
+    ],
     "office-automation-industrial-engineer": [
       {
         "slug": "computerized-accounting-grade-1",
@@ -1596,6 +1662,32 @@
         "score": 85
       }
     ],
+    "social-worker-level-1": [
+      {
+        "slug": "licensed-real-estate-agent",
+        "tag": "부동산·주택관리",
+        "source": "auto",
+        "score": 50
+      },
+      {
+        "slug": "housing-manager-assistant",
+        "tag": "부동산·주택관리",
+        "source": "auto",
+        "score": 50
+      },
+      {
+        "slug": "youth-counselor",
+        "tag": "상담·청소년",
+        "source": "auto",
+        "score": 50
+      },
+      {
+        "slug": "gas-craftsman",
+        "tag": "가스 입문",
+        "source": "auto",
+        "score": 35
+      }
+    ],
     "surveying-geospatial-information-engineer": [
       {
         "slug": "surveying-geospatial-information-industrial-engineer",
@@ -1632,6 +1724,32 @@
       {
         "slug": "construction-safety-industrial-engineer",
         "source": "manual"
+      }
+    ],
+    "vocational-counselor-level-2": [
+      {
+        "slug": "gas-craftsman",
+        "tag": "가스 입문",
+        "source": "auto",
+        "score": 35
+      },
+      {
+        "slug": "gas-engineer",
+        "tag": "가스 안전",
+        "source": "auto",
+        "score": 35
+      },
+      {
+        "slug": "gas-industrial-engineer",
+        "tag": "가스 안전",
+        "source": "auto",
+        "score": 35
+      },
+      {
+        "slug": "construction-machinery-equipment-engineer",
+        "tag": "기계·설비",
+        "source": "auto",
+        "score": 35
       }
     ],
     "waste-treatment-engineer": [
@@ -1793,6 +1911,32 @@
       {
         "slug": "mos",
         "source": "manual"
+      }
+    ],
+    "youth-counselor": [
+      {
+        "slug": "licensed-real-estate-agent",
+        "tag": "부동산·주택관리",
+        "source": "auto",
+        "score": 50
+      },
+      {
+        "slug": "social-worker-level-1",
+        "tag": "복지·상담",
+        "source": "auto",
+        "score": 50
+      },
+      {
+        "slug": "housing-manager-assistant",
+        "tag": "부동산·주택관리",
+        "source": "auto",
+        "score": 50
+      },
+      {
+        "slug": "gas-craftsman",
+        "tag": "가스 입문",
+        "source": "auto",
+        "score": 35
       }
     ]
   }

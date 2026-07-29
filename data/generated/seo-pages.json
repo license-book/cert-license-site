@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-29T06:22:04.753Z",
-  "total": 80,
+  "generatedAt": "2026-07-29T06:56:20.408Z",
+  "total": 86,
   "items": [
     {
       "slug": "air-conditioning-refrigeration-craftsman",
@@ -1487,6 +1487,36 @@
       "lastModified": "2026-07-28"
     },
     {
+      "slug": "housing-manager-assistant",
+      "name": "주택관리사(보)",
+      "shortName": "주택관리사(보)",
+      "title": "주택관리사(보) 시험과목·난이도·준비기간·현실가이드 | 라북",
+      "description": "주택관리사(보)의 응시자격, 시험과목, 현실 난이도, 준비기간, 공부전략과 취업 활용을 확인하세요.",
+      "keywords": [
+        "주택관리사보",
+        "주택관리사 시험",
+        "주택관리사보 시험과목",
+        "주택관리사보 난이도",
+        "주택관리사보 준비기간",
+        "주택관리사보 회계",
+        "주택관리사(보)",
+        "주택관리사(보) 시험",
+        "주택관리사(보) 난이도",
+        "주택관리사(보) 합격률",
+        "주택관리사(보) 공부기간",
+        "부동산·주택관리",
+        "국가전문자격",
+        "한국산업인력공단"
+      ],
+      "image": "/images/hero/housing-manager-assistant.webp",
+      "path": "/cert/housing-manager-assistant",
+      "type": "national",
+      "licenseType": "국가전문자격",
+      "category": "부동산·주택관리",
+      "agency": "한국산업인력공단",
+      "lastModified": "2026-07-29"
+    },
+    {
       "slug": "industrial-safety-engineer",
       "name": "산업안전기사",
       "shortName": "산업안전기사",
@@ -1812,6 +1842,33 @@
       "lastModified": "2026-07-29"
     },
     {
+      "slug": "licensed-real-estate-agent",
+      "name": "공인중개사",
+      "shortName": "공인중개사",
+      "title": "공인중개사 시험과목·난이도·준비기간·현실가이드 | 라북",
+      "description": "공인중개사의 응시자격, 시험과목, 현실 난이도, 준비기간, 공부전략과 취업 활용을 확인하세요.",
+      "keywords": [
+        "공인중개사",
+        "공인중개사 시험",
+        "공인중개사 시험과목",
+        "공인중개사 난이도",
+        "공인중개사 준비기간",
+        "공인중개사 독학",
+        "공인중개사 합격률",
+        "공인중개사 공부기간",
+        "부동산·중개",
+        "국가전문자격",
+        "한국산업인력공단"
+      ],
+      "image": "/images/hero/licensed-real-estate-agent.webp",
+      "path": "/cert/licensed-real-estate-agent",
+      "type": "national",
+      "licenseType": "국가전문자격",
+      "category": "부동산·중개",
+      "agency": "한국산업인력공단",
+      "lastModified": "2026-07-29"
+    },
+    {
       "slug": "mechanical-design-engineer",
       "name": "기계설계기사",
       "shortName": "기계설계기사",
@@ -1896,6 +1953,34 @@
       "lastModified": "2026-07-29"
     },
     {
+      "slug": "nursing-assistant",
+      "name": "간호조무사",
+      "shortName": "간호조무사",
+      "title": "간호조무사 응시자격·시험과목·난이도·현실가이드 | 라북",
+      "description": "간호조무사의 응시자격, 시험과목, 현실 난이도, 준비기간, 공부전략과 취업 활용을 확인하세요.",
+      "keywords": [
+        "간호조무사",
+        "간호조무사 응시자격",
+        "간호조무사 시험과목",
+        "간호조무사 교육과정",
+        "간호조무사 현실",
+        "간호조무사 시험",
+        "간호조무사 난이도",
+        "간호조무사 합격률",
+        "간호조무사 공부기간",
+        "보건·의료",
+        "국가자격",
+        "한국보건의료인국가시험원"
+      ],
+      "image": "/images/hero/nursing-assistant.webp",
+      "path": "/cert/nursing-assistant",
+      "type": "national",
+      "licenseType": "국가자격",
+      "category": "보건·의료",
+      "agency": "한국보건의료인국가시험원",
+      "lastModified": "2026-07-29"
+    },
+    {
       "slug": "office-automation-industrial-engineer",
       "name": "사무자동화산업기사",
       "shortName": "사무자동화산업기사",
@@ -1949,6 +2034,33 @@
       "lastModified": "2026-07-29"
     },
     {
+      "slug": "social-worker-level-1",
+      "name": "사회복지사 1급",
+      "shortName": "사회복지사 1급",
+      "title": "사회복지사 1급 응시자격·시험과목·난이도·현실가이드 | 라북",
+      "description": "사회복지사 1급의 응시자격, 시험과목, 현실 난이도, 준비기간, 공부전략과 취업 활용을 확인하세요.",
+      "keywords": [
+        "사회복지사 1급",
+        "사회복지사 1급 응시자격",
+        "사회복지사 1급 시험과목",
+        "사회복지사 1급 난이도",
+        "사회복지사 1급 공부법",
+        "사회복지사 1급 시험",
+        "사회복지사 1급 합격률",
+        "사회복지사 1급 공부기간",
+        "복지·상담",
+        "국가전문자격",
+        "한국산업인력공단"
+      ],
+      "image": "/images/hero/social-worker-level-1.webp",
+      "path": "/cert/social-worker-level-1",
+      "type": "national",
+      "licenseType": "국가전문자격",
+      "category": "복지·상담",
+      "agency": "한국산업인력공단",
+      "lastModified": "2026-07-29"
+    },
+    {
       "slug": "surveying-geospatial-information-engineer",
       "name": "측량및지형공간정보기사",
       "shortName": "측량및지형공간정보기사",
@@ -1999,6 +2111,33 @@
       "type": "national",
       "licenseType": "국가기술자격 산업기사",
       "category": "건설·측량",
+      "agency": "한국산업인력공단",
+      "lastModified": "2026-07-29"
+    },
+    {
+      "slug": "vocational-counselor-level-2",
+      "name": "직업상담사 2급",
+      "shortName": "직업상담사 2급",
+      "title": "직업상담사 2급 응시자격·시험과목·난이도·현실가이드 | 라북",
+      "description": "직업상담사 2급의 응시자격, 시험과목, 현실 난이도, 준비기간, 공부전략과 취업 활용을 확인하세요.",
+      "keywords": [
+        "직업상담사 2급",
+        "직업상담사 2급 시험과목",
+        "직업상담사 2급 실기",
+        "직업상담사 2급 난이도",
+        "직업상담사 2급 취업",
+        "직업상담사 2급 시험",
+        "직업상담사 2급 합격률",
+        "직업상담사 2급 공부기간",
+        "상담·고용",
+        "국가기술자격 기사급",
+        "한국산업인력공단"
+      ],
+      "image": "/images/hero/vocational-counselor-level-2.webp",
+      "path": "/cert/vocational-counselor-level-2",
+      "type": "national",
+      "licenseType": "국가기술자격 기사급",
+      "category": "상담·고용",
       "agency": "한국산업인력공단",
       "lastModified": "2026-07-29"
     },
@@ -2194,6 +2333,34 @@
       "category": "IT·사무",
       "agency": "대한상공회의소",
       "lastModified": "2026-07-27"
+    },
+    {
+      "slug": "youth-counselor",
+      "name": "청소년상담사",
+      "shortName": "청소년상담사",
+      "title": "청소년상담사 응시자격·시험과목·난이도·현실가이드 | 라북",
+      "description": "청소년상담사의 응시자격, 시험과목, 현실 난이도, 준비기간, 공부전략과 취업 활용을 확인하세요.",
+      "keywords": [
+        "청소년상담사",
+        "청소년상담사 응시자격",
+        "청소년상담사 시험과목",
+        "청소년상담사 면접",
+        "청소년상담사 3급",
+        "청소년상담사 시험",
+        "청소년상담사 난이도",
+        "청소년상담사 합격률",
+        "청소년상담사 공부기간",
+        "상담·청소년",
+        "국가전문자격",
+        "한국산업인력공단"
+      ],
+      "image": "/images/hero/youth-counselor.webp",
+      "path": "/cert/youth-counselor",
+      "type": "national",
+      "licenseType": "국가전문자격",
+      "category": "상담·청소년",
+      "agency": "한국산업인력공단",
+      "lastModified": "2026-07-29"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-29T06:22:04.373Z",
-  "total": 763,
+  "generatedAt": "2026-07-29T06:56:19.935Z",
+  "total": 819,
   "items": [
     {
       "label": "가스기능사",
@@ -146,6 +146,46 @@
       "href": "/certificates/gas-industrial-engineer",
       "type": "alias",
       "category": "화학·안전"
+    },
+    {
+      "label": "간호조무사",
+      "value": "간호조무사",
+      "slug": "nursing-assistant",
+      "href": "/certificates/nursing-assistant",
+      "type": "certificate",
+      "category": "보건·의료"
+    },
+    {
+      "label": "간호조무사 교육과정",
+      "value": "간호조무사 교육과정",
+      "slug": "nursing-assistant",
+      "href": "/certificates/nursing-assistant",
+      "type": "alias",
+      "category": "보건·의료"
+    },
+    {
+      "label": "간호조무사 시험과목",
+      "value": "간호조무사 시험과목",
+      "slug": "nursing-assistant",
+      "href": "/certificates/nursing-assistant",
+      "type": "alias",
+      "category": "보건·의료"
+    },
+    {
+      "label": "간호조무사 응시자격",
+      "value": "간호조무사 응시자격",
+      "slug": "nursing-assistant",
+      "href": "/certificates/nursing-assistant",
+      "type": "alias",
+      "category": "보건·의료"
+    },
+    {
+      "label": "간호조무사 현실",
+      "value": "간호조무사 현실",
+      "slug": "nursing-assistant",
+      "href": "/certificates/nursing-assistant",
+      "type": "alias",
+      "category": "보건·의료"
     },
     {
       "label": "개발자 자격증",
@@ -578,6 +618,54 @@
       "href": "/certificates/building-services-engineer",
       "type": "alias",
       "category": "건설·건축"
+    },
+    {
+      "label": "공인중개사",
+      "value": "공인중개사",
+      "slug": "licensed-real-estate-agent",
+      "href": "/certificates/licensed-real-estate-agent",
+      "type": "certificate",
+      "category": "부동산·중개"
+    },
+    {
+      "label": "공인중개사 난이도",
+      "value": "공인중개사 난이도",
+      "slug": "licensed-real-estate-agent",
+      "href": "/certificates/licensed-real-estate-agent",
+      "type": "alias",
+      "category": "부동산·중개"
+    },
+    {
+      "label": "공인중개사 독학",
+      "value": "공인중개사 독학",
+      "slug": "licensed-real-estate-agent",
+      "href": "/certificates/licensed-real-estate-agent",
+      "type": "alias",
+      "category": "부동산·중개"
+    },
+    {
+      "label": "공인중개사 시험",
+      "value": "공인중개사 시험",
+      "slug": "licensed-real-estate-agent",
+      "href": "/certificates/licensed-real-estate-agent",
+      "type": "alias",
+      "category": "부동산·중개"
+    },
+    {
+      "label": "공인중개사 시험과목",
+      "value": "공인중개사 시험과목",
+      "slug": "licensed-real-estate-agent",
+      "href": "/certificates/licensed-real-estate-agent",
+      "type": "alias",
+      "category": "부동산·중개"
+    },
+    {
+      "label": "공인중개사 준비기간",
+      "value": "공인중개사 준비기간",
+      "slug": "licensed-real-estate-agent",
+      "href": "/certificates/licensed-real-estate-agent",
+      "type": "alias",
+      "category": "부동산·중개"
     },
     {
       "label": "공조냉동기계기능사",
@@ -1196,6 +1284,14 @@
       "category": "화학·바이오"
     },
     {
+      "label": "국가기술자격 기사급",
+      "value": "국가기술자격 기사급",
+      "slug": "vocational-counselor-level-2",
+      "href": "/certificates/vocational-counselor-level-2",
+      "type": "alias",
+      "category": "상담·고용"
+    },
+    {
       "label": "국가기술자격 산업기사",
       "value": "국가기술자격 산업기사",
       "slug": "gas-industrial-engineer",
@@ -1354,6 +1450,46 @@
       "href": "/certificates/civil-industrial-engineer",
       "type": "alias",
       "category": "건설·토목"
+    },
+    {
+      "label": "국가자격",
+      "value": "국가자격",
+      "slug": "nursing-assistant",
+      "href": "/certificates/nursing-assistant",
+      "type": "alias",
+      "category": "보건·의료"
+    },
+    {
+      "label": "국가전문자격",
+      "value": "국가전문자격",
+      "slug": "licensed-real-estate-agent",
+      "href": "/certificates/licensed-real-estate-agent",
+      "type": "alias",
+      "category": "부동산·중개"
+    },
+    {
+      "label": "국가전문자격",
+      "value": "국가전문자격",
+      "slug": "social-worker-level-1",
+      "href": "/certificates/social-worker-level-1",
+      "type": "alias",
+      "category": "복지·상담"
+    },
+    {
+      "label": "국가전문자격",
+      "value": "국가전문자격",
+      "slug": "housing-manager-assistant",
+      "href": "/certificates/housing-manager-assistant",
+      "type": "alias",
+      "category": "부동산·주택관리"
+    },
+    {
+      "label": "국가전문자격",
+      "value": "국가전문자격",
+      "slug": "youth-counselor",
+      "href": "/certificates/youth-counselor",
+      "type": "alias",
+      "category": "상담·청소년"
     },
     {
       "label": "굴착기운전기능사",
@@ -1844,6 +1980,38 @@
       "category": "정보통신"
     },
     {
+      "label": "보건·의료",
+      "value": "보건·의료",
+      "slug": "nursing-assistant",
+      "href": "/certificates/nursing-assistant",
+      "type": "alias",
+      "category": "보건·의료"
+    },
+    {
+      "label": "복지·상담",
+      "value": "복지·상담",
+      "slug": "social-worker-level-1",
+      "href": "/certificates/social-worker-level-1",
+      "type": "alias",
+      "category": "복지·상담"
+    },
+    {
+      "label": "부동산·주택관리",
+      "value": "부동산·주택관리",
+      "slug": "housing-manager-assistant",
+      "href": "/certificates/housing-manager-assistant",
+      "type": "alias",
+      "category": "부동산·주택관리"
+    },
+    {
+      "label": "부동산·중개",
+      "value": "부동산·중개",
+      "slug": "licensed-real-estate-agent",
+      "href": "/certificates/licensed-real-estate-agent",
+      "type": "alias",
+      "category": "부동산·중개"
+    },
+    {
       "label": "빅데이터분석기사",
       "value": "빅데이터분석기사",
       "slug": "big-data-analysis-engineer",
@@ -1940,6 +2108,46 @@
       "category": "IT·사무"
     },
     {
+      "label": "사회복지사 1급",
+      "value": "사회복지사 1급",
+      "slug": "social-worker-level-1",
+      "href": "/certificates/social-worker-level-1",
+      "type": "certificate",
+      "category": "복지·상담"
+    },
+    {
+      "label": "사회복지사 1급 공부법",
+      "value": "사회복지사 1급 공부법",
+      "slug": "social-worker-level-1",
+      "href": "/certificates/social-worker-level-1",
+      "type": "alias",
+      "category": "복지·상담"
+    },
+    {
+      "label": "사회복지사 1급 난이도",
+      "value": "사회복지사 1급 난이도",
+      "slug": "social-worker-level-1",
+      "href": "/certificates/social-worker-level-1",
+      "type": "alias",
+      "category": "복지·상담"
+    },
+    {
+      "label": "사회복지사 1급 시험과목",
+      "value": "사회복지사 1급 시험과목",
+      "slug": "social-worker-level-1",
+      "href": "/certificates/social-worker-level-1",
+      "type": "alias",
+      "category": "복지·상담"
+    },
+    {
+      "label": "사회복지사 1급 응시자격",
+      "value": "사회복지사 1급 응시자격",
+      "slug": "social-worker-level-1",
+      "href": "/certificates/social-worker-level-1",
+      "type": "alias",
+      "category": "복지·상담"
+    },
+    {
       "label": "산업안전기사",
       "value": "산업안전기사",
       "slug": "industrial-safety-engineer",
@@ -2026,6 +2234,22 @@
       "href": "/certificates/industrial-safety-industrial-engineer",
       "type": "alias",
       "category": "안전관리"
+    },
+    {
+      "label": "상담·고용",
+      "value": "상담·고용",
+      "slug": "vocational-counselor-level-2",
+      "href": "/certificates/vocational-counselor-level-2",
+      "type": "alias",
+      "category": "상담·고용"
+    },
+    {
+      "label": "상담·청소년",
+      "value": "상담·청소년",
+      "slug": "youth-counselor",
+      "href": "/certificates/youth-counselor",
+      "type": "alias",
+      "category": "상담·청소년"
     },
     {
       "label": "소방·안전",
@@ -4180,6 +4404,54 @@
       "category": "기계"
     },
     {
+      "label": "주택관리사 시험",
+      "value": "주택관리사 시험",
+      "slug": "housing-manager-assistant",
+      "href": "/certificates/housing-manager-assistant",
+      "type": "alias",
+      "category": "부동산·주택관리"
+    },
+    {
+      "label": "주택관리사(보)",
+      "value": "주택관리사(보)",
+      "slug": "housing-manager-assistant",
+      "href": "/certificates/housing-manager-assistant",
+      "type": "certificate",
+      "category": "부동산·주택관리"
+    },
+    {
+      "label": "주택관리사보 난이도",
+      "value": "주택관리사보 난이도",
+      "slug": "housing-manager-assistant",
+      "href": "/certificates/housing-manager-assistant",
+      "type": "alias",
+      "category": "부동산·주택관리"
+    },
+    {
+      "label": "주택관리사보 시험과목",
+      "value": "주택관리사보 시험과목",
+      "slug": "housing-manager-assistant",
+      "href": "/certificates/housing-manager-assistant",
+      "type": "alias",
+      "category": "부동산·주택관리"
+    },
+    {
+      "label": "주택관리사보 준비기간",
+      "value": "주택관리사보 준비기간",
+      "slug": "housing-manager-assistant",
+      "href": "/certificates/housing-manager-assistant",
+      "type": "alias",
+      "category": "부동산·주택관리"
+    },
+    {
+      "label": "주택관리사보 회계",
+      "value": "주택관리사보 회계",
+      "slug": "housing-manager-assistant",
+      "href": "/certificates/housing-manager-assistant",
+      "type": "alias",
+      "category": "부동산·주택관리"
+    },
+    {
       "label": "중식조리기능사",
       "value": "중식조리기능사",
       "slug": "chinese-cuisine-craftsman",
@@ -4266,6 +4538,86 @@
       "href": "/certificates/forklift-truck-operator-craftsman",
       "type": "alias",
       "category": "운전·건설기계"
+    },
+    {
+      "label": "직업상담사 2급",
+      "value": "직업상담사 2급",
+      "slug": "vocational-counselor-level-2",
+      "href": "/certificates/vocational-counselor-level-2",
+      "type": "certificate",
+      "category": "상담·고용"
+    },
+    {
+      "label": "직업상담사 2급 난이도",
+      "value": "직업상담사 2급 난이도",
+      "slug": "vocational-counselor-level-2",
+      "href": "/certificates/vocational-counselor-level-2",
+      "type": "alias",
+      "category": "상담·고용"
+    },
+    {
+      "label": "직업상담사 2급 시험과목",
+      "value": "직업상담사 2급 시험과목",
+      "slug": "vocational-counselor-level-2",
+      "href": "/certificates/vocational-counselor-level-2",
+      "type": "alias",
+      "category": "상담·고용"
+    },
+    {
+      "label": "직업상담사 2급 실기",
+      "value": "직업상담사 2급 실기",
+      "slug": "vocational-counselor-level-2",
+      "href": "/certificates/vocational-counselor-level-2",
+      "type": "alias",
+      "category": "상담·고용"
+    },
+    {
+      "label": "직업상담사 2급 취업",
+      "value": "직업상담사 2급 취업",
+      "slug": "vocational-counselor-level-2",
+      "href": "/certificates/vocational-counselor-level-2",
+      "type": "alias",
+      "category": "상담·고용"
+    },
+    {
+      "label": "청소년상담사",
+      "value": "청소년상담사",
+      "slug": "youth-counselor",
+      "href": "/certificates/youth-counselor",
+      "type": "certificate",
+      "category": "상담·청소년"
+    },
+    {
+      "label": "청소년상담사 3급",
+      "value": "청소년상담사 3급",
+      "slug": "youth-counselor",
+      "href": "/certificates/youth-counselor",
+      "type": "alias",
+      "category": "상담·청소년"
+    },
+    {
+      "label": "청소년상담사 면접",
+      "value": "청소년상담사 면접",
+      "slug": "youth-counselor",
+      "href": "/certificates/youth-counselor",
+      "type": "alias",
+      "category": "상담·청소년"
+    },
+    {
+      "label": "청소년상담사 시험과목",
+      "value": "청소년상담사 시험과목",
+      "slug": "youth-counselor",
+      "href": "/certificates/youth-counselor",
+      "type": "alias",
+      "category": "상담·청소년"
+    },
+    {
+      "label": "청소년상담사 응시자격",
+      "value": "청소년상담사 응시자격",
+      "slug": "youth-counselor",
+      "href": "/certificates/youth-counselor",
+      "type": "alias",
+      "category": "상담·청소년"
     },
     {
       "label": "측량및지형공간정보기사",
@@ -4588,6 +4940,14 @@
       "category": "정보통신"
     },
     {
+      "label": "한국보건의료인국가시험원",
+      "value": "한국보건의료인국가시험원",
+      "slug": "nursing-assistant",
+      "href": "/certificates/nursing-assistant",
+      "type": "alias",
+      "category": "보건·의료"
+    },
+    {
       "label": "한국산업인력공단",
       "value": "한국산업인력공단",
       "slug": "gas-craftsman",
@@ -4678,6 +5038,14 @@
     {
       "label": "한국산업인력공단",
       "value": "한국산업인력공단",
+      "slug": "licensed-real-estate-agent",
+      "href": "/certificates/licensed-real-estate-agent",
+      "type": "alias",
+      "category": "부동산·중개"
+    },
+    {
+      "label": "한국산업인력공단",
+      "value": "한국산업인력공단",
       "slug": "air-conditioning-refrigeration-craftsman",
       "href": "/certificates/air-conditioning-refrigeration-craftsman",
       "type": "alias",
@@ -4754,6 +5122,14 @@
       "href": "/certificates/office-automation-industrial-engineer",
       "type": "alias",
       "category": "IT·사무"
+    },
+    {
+      "label": "한국산업인력공단",
+      "value": "한국산업인력공단",
+      "slug": "social-worker-level-1",
+      "href": "/certificates/social-worker-level-1",
+      "type": "alias",
+      "category": "복지·상담"
     },
     {
       "label": "한국산업인력공단",
@@ -5046,6 +5422,14 @@
     {
       "label": "한국산업인력공단",
       "value": "한국산업인력공단",
+      "slug": "housing-manager-assistant",
+      "href": "/certificates/housing-manager-assistant",
+      "type": "alias",
+      "category": "부동산·주택관리"
+    },
+    {
+      "label": "한국산업인력공단",
+      "value": "한국산업인력공단",
       "slug": "chinese-cuisine-craftsman",
       "href": "/certificates/chinese-cuisine-craftsman",
       "type": "alias",
@@ -5058,6 +5442,22 @@
       "href": "/certificates/forklift-truck-operator-craftsman",
       "type": "alias",
       "category": "운전·건설기계"
+    },
+    {
+      "label": "한국산업인력공단",
+      "value": "한국산업인력공단",
+      "slug": "vocational-counselor-level-2",
+      "href": "/certificates/vocational-counselor-level-2",
+      "type": "alias",
+      "category": "상담·고용"
+    },
+    {
+      "label": "한국산업인력공단",
+      "value": "한국산업인력공단",
+      "slug": "youth-counselor",
+      "href": "/certificates/youth-counselor",
+      "type": "alias",
+      "category": "상담·청소년"
     },
     {
       "label": "한국산업인력공단",
@@ -5820,6 +6220,14 @@
       "category": "화학·안전"
     },
     {
+      "label": "housing-manager-assistant",
+      "value": "housing-manager-assistant",
+      "slug": "housing-manager-assistant",
+      "href": "/certificates/housing-manager-assistant",
+      "type": "alias",
+      "category": "부동산·주택관리"
+    },
+    {
       "label": "industrial-safety-engineer",
       "value": "industrial-safety-engineer",
       "slug": "industrial-safety-engineer",
@@ -5996,6 +6404,14 @@
       "category": "조리·외식"
     },
     {
+      "label": "licensed-real-estate-agent",
+      "value": "licensed-real-estate-agent",
+      "slug": "licensed-real-estate-agent",
+      "href": "/certificates/licensed-real-estate-agent",
+      "type": "alias",
+      "category": "부동산·중개"
+    },
+    {
       "label": "mechanical-design-engineer",
       "value": "mechanical-design-engineer",
       "slug": "mechanical-design-engineer",
@@ -6020,6 +6436,14 @@
       "category": "기계·금속"
     },
     {
+      "label": "nursing-assistant",
+      "value": "nursing-assistant",
+      "slug": "nursing-assistant",
+      "href": "/certificates/nursing-assistant",
+      "type": "alias",
+      "category": "보건·의료"
+    },
+    {
       "label": "office-automation-industrial-engineer",
       "value": "office-automation-industrial-engineer",
       "slug": "office-automation-industrial-engineer",
@@ -6036,6 +6460,14 @@
       "category": "정보통신"
     },
     {
+      "label": "social-worker-level-1",
+      "value": "social-worker-level-1",
+      "slug": "social-worker-level-1",
+      "href": "/certificates/social-worker-level-1",
+      "type": "alias",
+      "category": "복지·상담"
+    },
+    {
       "label": "surveying-geospatial-information-engineer",
       "value": "surveying-geospatial-information-engineer",
       "slug": "surveying-geospatial-information-engineer",
@@ -6050,6 +6482,14 @@
       "href": "/certificates/surveying-geospatial-information-industrial-engineer",
       "type": "alias",
       "category": "건설·측량"
+    },
+    {
+      "label": "vocational-counselor-level-2",
+      "value": "vocational-counselor-level-2",
+      "slug": "vocational-counselor-level-2",
+      "href": "/certificates/vocational-counselor-level-2",
+      "type": "alias",
+      "category": "상담·고용"
     },
     {
       "label": "waste-treatment-engineer",
@@ -6106,6 +6546,14 @@
       "href": "/certificates/word-processor",
       "type": "alias",
       "category": "IT·사무"
+    },
+    {
+      "label": "youth-counselor",
+      "value": "youth-counselor",
+      "slug": "youth-counselor",
+      "href": "/certificates/youth-counselor",
+      "type": "alias",
+      "category": "상담·청소년"
     }
   ]
 }

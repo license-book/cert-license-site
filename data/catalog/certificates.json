@@ -698,5 +698,59 @@
     "category": "조리·서비스",
     "agency": "한국산업인력공단",
     "relatedTag": "조리·서비스"
+  },
+  "social-worker-level-1": {
+    "name": "사회복지사 1급",
+    "shortName": "사회복지사 1급",
+    "type": "national",
+    "licenseType": "국가전문자격",
+    "category": "복지·상담",
+    "agency": "한국산업인력공단",
+    "relatedTag": "복지·상담"
+  },
+  "nursing-assistant": {
+    "name": "간호조무사",
+    "shortName": "간호조무사",
+    "type": "national",
+    "licenseType": "국가자격",
+    "category": "보건·의료",
+    "agency": "한국보건의료인국가시험원",
+    "relatedTag": "보건·의료"
+  },
+  "vocational-counselor-level-2": {
+    "name": "직업상담사 2급",
+    "shortName": "직업상담사 2급",
+    "type": "national",
+    "licenseType": "국가기술자격 기사급",
+    "category": "상담·고용",
+    "agency": "한국산업인력공단",
+    "relatedTag": "상담·고용"
+  },
+  "youth-counselor": {
+    "name": "청소년상담사",
+    "shortName": "청소년상담사",
+    "type": "national",
+    "licenseType": "국가전문자격",
+    "category": "상담·청소년",
+    "agency": "한국산업인력공단",
+    "relatedTag": "상담·청소년"
+  },
+  "licensed-real-estate-agent": {
+    "name": "공인중개사",
+    "shortName": "공인중개사",
+    "type": "national",
+    "licenseType": "국가전문자격",
+    "category": "부동산·중개",
+    "agency": "한국산업인력공단",
+    "relatedTag": "부동산·주택관리"
+  },
+  "housing-manager-assistant": {
+    "name": "주택관리사(보)",
+    "shortName": "주택관리사(보)",
+    "type": "national",
+    "licenseType": "국가전문자격",
+    "category": "부동산·주택관리",
+    "agency": "한국산업인력공단",
+    "relatedTag": "부동산·주택관리"
   }
 }
