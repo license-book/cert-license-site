@@ -308,5 +308,37 @@
     "architectural-engineer",
     "electronics-engineer",
     "welding-craftsman"
+  ],
+  "construction-machinery-equipment-engineer": [
+    "general-mechanical-engineer",
+    "mechanical-design-engineer",
+    "industrial-safety-engineer",
+    "air-conditioning-refrigeration-engineer"
+  ],
+  "air-conditioning-refrigeration-engineer": [
+    {
+      "slug": "air-conditioning-refrigeration-industrial-engineer",
+      "compareSlug": "air-conditioning-refrigeration-engineer-vs-industrial-engineer",
+      "compareLabel": "기사·산업기사 비교"
+    },
+    "air-conditioning-refrigeration-craftsman",
+    "energy-management-engineer",
+    "energy-management-craftsman"
+  ],
+  "air-conditioning-refrigeration-industrial-engineer": [
+    {
+      "slug": "air-conditioning-refrigeration-engineer",
+      "compareSlug": "air-conditioning-refrigeration-engineer-vs-industrial-engineer",
+      "compareLabel": "기사·산업기사 비교"
+    },
+    "air-conditioning-refrigeration-craftsman",
+    "energy-management-engineer",
+    "energy-management-craftsman"
+  ],
+  "energy-management-engineer": [
+    "energy-management-craftsman",
+    "air-conditioning-refrigeration-engineer",
+    "air-conditioning-refrigeration-industrial-engineer",
+    "general-mechanical-engineer"
   ]
 }

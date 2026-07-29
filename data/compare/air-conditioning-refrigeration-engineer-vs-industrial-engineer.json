@@ -1,0 +1,41 @@
+{
+  "slug": "air-conditioning-refrigeration-engineer-vs-industrial-engineer",
+  "title": "공조냉동기계기사 vs 공조냉동기계산업기사",
+  "description": "응시자격, 시험과목, 난이도, 준비기간과 현장 활용 범위를 현실적으로 비교합니다.",
+  "left": "air-conditioning-refrigeration-engineer",
+  "right": "air-conditioning-refrigeration-industrial-engineer",
+  "summary": "회로설계와 개발 직무 확장을 중시하면 공조냉동기계기사, 조립·시험·생산 실무 입문을 원하면 공조냉동기계산업기사가 현실적입니다.",
+  "items": [
+    {
+      "label": "등급",
+      "left": "기사",
+      "right": "산업기사"
+    },
+    {
+      "label": "현실 난이도",
+      "left": "상",
+      "right": "중상"
+    },
+    {
+      "label": "권장 준비기간",
+      "left": "4~8개월",
+      "right": "3~6개월"
+    },
+    {
+      "label": "필기",
+      "left": "5과목",
+      "right": "4과목"
+    },
+    {
+      "label": "실기",
+      "left": "회로설계·조립 작업형",
+      "right": "회로스케치·조립 작업형"
+    },
+    {
+      "label": "활용 방향",
+      "left": "설계·개발·시험",
+      "right": "생산·조립·품질 실무"
+    }
+  ],
+  "lastUpdated": "2026-07-29"
+}

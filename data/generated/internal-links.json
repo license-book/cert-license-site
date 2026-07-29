@@ -1,12 +1,12 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-29T02:23:35.521Z",
+  "generatedAt": "2026-07-29T02:31:10.804Z",
   "maxRelatedPerCertificate": 4,
   "totals": {
-    "certificates": 33,
-    "manualLinks": 88,
+    "certificates": 37,
+    "manualLinks": 104,
     "autoLinks": 44,
-    "allLinks": 132
+    "allLinks": 148
   },
   "items": {
     "air-conditioning-refrigeration-craftsman": [
@@ -26,10 +26,50 @@
         "source": "manual"
       },
       {
-        "slug": "welding-craftsman",
-        "tag": "기계·금속",
+        "slug": "construction-machinery-equipment-engineer",
+        "tag": "기계·설비",
         "source": "auto",
-        "score": 50
+        "score": 85
+      }
+    ],
+    "air-conditioning-refrigeration-engineer": [
+      {
+        "slug": "air-conditioning-refrigeration-industrial-engineer",
+        "compareSlug": "air-conditioning-refrigeration-engineer-vs-industrial-engineer",
+        "compareLabel": "기사·산업기사 비교",
+        "source": "manual"
+      },
+      {
+        "slug": "air-conditioning-refrigeration-craftsman",
+        "source": "manual"
+      },
+      {
+        "slug": "energy-management-engineer",
+        "source": "manual"
+      },
+      {
+        "slug": "energy-management-craftsman",
+        "source": "manual"
+      }
+    ],
+    "air-conditioning-refrigeration-industrial-engineer": [
+      {
+        "slug": "air-conditioning-refrigeration-engineer",
+        "compareSlug": "air-conditioning-refrigeration-engineer-vs-industrial-engineer",
+        "compareLabel": "기사·산업기사 비교",
+        "source": "manual"
+      },
+      {
+        "slug": "air-conditioning-refrigeration-craftsman",
+        "source": "manual"
+      },
+      {
+        "slug": "energy-management-engineer",
+        "source": "manual"
+      },
+      {
+        "slug": "energy-management-craftsman",
+        "source": "manual"
       }
     ],
     "architectural-engineer": [
@@ -199,13 +239,13 @@
         "score": 80
       },
       {
-        "slug": "architectural-engineer",
-        "tag": "건설·건축",
+        "slug": "construction-machinery-equipment-engineer",
+        "tag": "기계·설비",
         "source": "auto",
         "score": 25
       },
       {
-        "slug": "architectural-industrial-engineer",
+        "slug": "architectural-engineer",
         "tag": "건설·건축",
         "source": "auto",
         "score": 25
@@ -225,16 +265,34 @@
         "score": 80
       },
       {
-        "slug": "architectural-engineer",
-        "tag": "건설·건축",
+        "slug": "construction-machinery-equipment-engineer",
+        "tag": "기계·설비",
         "source": "auto",
         "score": 25
       },
       {
-        "slug": "architectural-industrial-engineer",
+        "slug": "architectural-engineer",
         "tag": "건설·건축",
         "source": "auto",
         "score": 25
+      }
+    ],
+    "construction-machinery-equipment-engineer": [
+      {
+        "slug": "general-mechanical-engineer",
+        "source": "manual"
+      },
+      {
+        "slug": "mechanical-design-engineer",
+        "source": "manual"
+      },
+      {
+        "slug": "industrial-safety-engineer",
+        "source": "manual"
+      },
+      {
+        "slug": "air-conditioning-refrigeration-engineer",
+        "source": "manual"
       }
     ],
     "electric-craftsman": [
@@ -454,10 +512,28 @@
         "source": "manual"
       },
       {
-        "slug": "welding-craftsman",
-        "tag": "기계·금속",
+        "slug": "energy-management-engineer",
+        "tag": "에너지·설비",
         "source": "auto",
-        "score": 50
+        "score": 85
+      }
+    ],
+    "energy-management-engineer": [
+      {
+        "slug": "energy-management-craftsman",
+        "source": "manual"
+      },
+      {
+        "slug": "air-conditioning-refrigeration-engineer",
+        "source": "manual"
+      },
+      {
+        "slug": "air-conditioning-refrigeration-industrial-engineer",
+        "source": "manual"
+      },
+      {
+        "slug": "general-mechanical-engineer",
+        "source": "manual"
       }
     ],
     "general-mechanical-engineer": [

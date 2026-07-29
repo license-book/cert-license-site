@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-29T02:23:35.948Z",
-  "total": 33,
+  "generatedAt": "2026-07-29T02:31:11.242Z",
+  "total": 37,
   "items": [
     {
       "slug": "air-conditioning-refrigeration-craftsman",
@@ -30,6 +30,62 @@
       "category": "기계·설비",
       "agency": "한국산업인력공단",
       "lastModified": "2026-07-28"
+    },
+    {
+      "slug": "air-conditioning-refrigeration-engineer",
+      "name": "공조냉동기계기사",
+      "shortName": "공조냉동기계기사",
+      "title": "공조냉동기계기사 응시자격·시험과목·난이도·공부방법 | 라북",
+      "description": "공조냉동기계기사의 응시자격, 시험과목, 현실 난이도, 준비기간, 공부방법과 취업 활용 분야를 확인하세요.",
+      "keywords": [
+        "공조냉동기계기사",
+        "공조냉동기계기사 응시자격",
+        "공조냉동기계기사 시험과목",
+        "공조냉동기계기사 실기",
+        "공조냉동기계기사 난이도",
+        "공조냉동기계기사 취업",
+        "공조냉동기계기사 시험",
+        "공조냉동기계기사 합격률",
+        "공조냉동기계기사 공부기간",
+        "기계·설비",
+        "국가기술자격 기사",
+        "한국산업인력공단"
+      ],
+      "image": "/images/hero/air-conditioning-refrigeration-engineer.webp",
+      "path": "/cert/air-conditioning-refrigeration-engineer",
+      "type": "national",
+      "licenseType": "국가기술자격 기사",
+      "category": "기계·설비",
+      "agency": "한국산업인력공단",
+      "lastModified": "2026-07-29"
+    },
+    {
+      "slug": "air-conditioning-refrigeration-industrial-engineer",
+      "name": "공조냉동기계산업기사",
+      "shortName": "공조냉동기계산업기사",
+      "title": "공조냉동기계산업기사 응시자격·시험과목·난이도·공부방법 | 라북",
+      "description": "공조냉동기계산업기사의 응시자격, 시험과목, 현실 난이도, 준비기간, 공부방법과 취업 활용 분야를 확인하세요.",
+      "keywords": [
+        "공조냉동기계산업기사",
+        "공조냉동기계산업기사 응시자격",
+        "공조냉동기계산업기사 시험과목",
+        "공조냉동기계산업기사 실기",
+        "공조냉동기계산업기사 난이도",
+        "공조냉동기계산업기사 취업",
+        "공조냉동기계산업기사 시험",
+        "공조냉동기계산업기사 합격률",
+        "공조냉동기계산업기사 공부기간",
+        "기계·설비",
+        "국가기술자격 산업기사",
+        "한국산업인력공단"
+      ],
+      "image": "/images/hero/air-conditioning-refrigeration-industrial-engineer.webp",
+      "path": "/cert/air-conditioning-refrigeration-industrial-engineer",
+      "type": "national",
+      "licenseType": "국가기술자격 산업기사",
+      "category": "기계·설비",
+      "agency": "한국산업인력공단",
+      "lastModified": "2026-07-29"
     },
     {
       "slug": "architectural-engineer",
@@ -279,6 +335,34 @@
       "lastModified": "2026-07-28"
     },
     {
+      "slug": "construction-machinery-equipment-engineer",
+      "name": "건설기계설비기사",
+      "shortName": "건설기계설비기사",
+      "title": "건설기계설비기사 응시자격·시험과목·난이도·공부방법 | 라북",
+      "description": "건설기계설비기사의 응시자격, 시험과목, 현실 난이도, 준비기간, 공부방법과 취업 활용 분야를 확인하세요.",
+      "keywords": [
+        "건설기계설비기사",
+        "건설기계설비기사 응시자격",
+        "건설기계설비기사 시험과목",
+        "건설기계설비기사 실기",
+        "건설기계설비기사 난이도",
+        "건설기계설비기사 취업",
+        "건설기계설비기사 시험",
+        "건설기계설비기사 합격률",
+        "건설기계설비기사 공부기간",
+        "기계·설비",
+        "국가기술자격 기사",
+        "한국산업인력공단"
+      ],
+      "image": "/images/hero/construction-machinery-equipment-engineer.webp",
+      "path": "/cert/construction-machinery-equipment-engineer",
+      "type": "national",
+      "licenseType": "국가기술자격 기사",
+      "category": "기계·설비",
+      "agency": "한국산업인력공단",
+      "lastModified": "2026-07-29"
+    },
+    {
       "slug": "electric-craftsman",
       "name": "전기기능사",
       "shortName": "전기기능사",
@@ -521,6 +605,34 @@
       "category": "에너지·설비",
       "agency": "한국산업인력공단",
       "lastModified": "2026-07-28"
+    },
+    {
+      "slug": "energy-management-engineer",
+      "name": "에너지관리기사",
+      "shortName": "에너지관리기사",
+      "title": "에너지관리기사 응시자격·시험과목·난이도·공부방법 | 라북",
+      "description": "에너지관리기사의 응시자격, 시험과목, 현실 난이도, 준비기간, 공부방법과 취업 활용 분야를 확인하세요.",
+      "keywords": [
+        "에너지관리기사",
+        "에너지관리기사 응시자격",
+        "에너지관리기사 시험과목",
+        "에너지관리기사 실기",
+        "에너지관리기사 난이도",
+        "에너지관리기사 취업",
+        "에너지관리기사 시험",
+        "에너지관리기사 합격률",
+        "에너지관리기사 공부기간",
+        "에너지·설비",
+        "국가기술자격 기사",
+        "한국산업인력공단"
+      ],
+      "image": "/images/hero/energy-management-engineer.webp",
+      "path": "/cert/energy-management-engineer",
+      "type": "national",
+      "licenseType": "국가기술자격 기사",
+      "category": "에너지·설비",
+      "agency": "한국산업인력공단",
+      "lastModified": "2026-07-29"
     },
     {
       "slug": "general-mechanical-engineer",

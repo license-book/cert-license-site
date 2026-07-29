@@ -78,5 +78,13 @@
     "left": "electronics-engineer",
     "right": "electronics-industrial-engineer",
     "description": "응시자격, 난이도, 준비기간과 전자 분야 활용 범위를 비교합니다."
+  },
+  "air-conditioning-refrigeration-engineer-vs-industrial-engineer": {
+    "enabled": true,
+    "label": "공조냉동기계기사·산업기사",
+    "title": "공조냉동기계기사 vs 공조냉동기계산업기사",
+    "left": "air-conditioning-refrigeration-engineer",
+    "right": "air-conditioning-refrigeration-industrial-engineer",
+    "description": "응시자격, 난이도, 준비기간과 공조냉동 분야 활용 범위를 비교합니다."
   }
 }

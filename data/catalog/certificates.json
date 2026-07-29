@@ -311,5 +311,41 @@
     "category": "기계",
     "agency": "한국산업인력공단",
     "relatedTag": "일반기계기사 통합"
+  },
+  "construction-machinery-equipment-engineer": {
+    "name": "건설기계설비기사",
+    "shortName": "건설기계설비기사",
+    "type": "national",
+    "licenseType": "국가기술자격 기사",
+    "category": "기계·설비",
+    "agency": "한국산업인력공단",
+    "relatedTag": "기계·설비"
+  },
+  "air-conditioning-refrigeration-engineer": {
+    "name": "공조냉동기계기사",
+    "shortName": "공조냉동기계기사",
+    "type": "national",
+    "licenseType": "국가기술자격 기사",
+    "category": "기계·설비",
+    "agency": "한국산업인력공단",
+    "relatedTag": "기계·설비"
+  },
+  "air-conditioning-refrigeration-industrial-engineer": {
+    "name": "공조냉동기계산업기사",
+    "shortName": "공조냉동기계산업기사",
+    "type": "national",
+    "licenseType": "국가기술자격 산업기사",
+    "category": "기계·설비",
+    "agency": "한국산업인력공단",
+    "relatedTag": "기계·설비"
+  },
+  "energy-management-engineer": {
+    "name": "에너지관리기사",
+    "shortName": "에너지관리기사",
+    "type": "national",
+    "licenseType": "국가기술자격 기사",
+    "category": "에너지·설비",
+    "agency": "한국산업인력공단",
+    "relatedTag": "에너지·설비"
   }
 }

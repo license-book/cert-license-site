@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-29T02:23:35.009Z",
-  "total": 307,
+  "generatedAt": "2026-07-29T02:31:10.320Z",
+  "total": 347,
   "items": [
     {
       "label": "개발자 자격증",
@@ -34,6 +34,54 @@
       "href": "/certificates/architectural-industrial-engineer",
       "type": "alias",
       "category": "건설·건축"
+    },
+    {
+      "label": "건설기계설비기사",
+      "value": "건설기계설비기사",
+      "slug": "construction-machinery-equipment-engineer",
+      "href": "/certificates/construction-machinery-equipment-engineer",
+      "type": "certificate",
+      "category": "기계·설비"
+    },
+    {
+      "label": "건설기계설비기사 난이도",
+      "value": "건설기계설비기사 난이도",
+      "slug": "construction-machinery-equipment-engineer",
+      "href": "/certificates/construction-machinery-equipment-engineer",
+      "type": "alias",
+      "category": "기계·설비"
+    },
+    {
+      "label": "건설기계설비기사 시험과목",
+      "value": "건설기계설비기사 시험과목",
+      "slug": "construction-machinery-equipment-engineer",
+      "href": "/certificates/construction-machinery-equipment-engineer",
+      "type": "alias",
+      "category": "기계·설비"
+    },
+    {
+      "label": "건설기계설비기사 실기",
+      "value": "건설기계설비기사 실기",
+      "slug": "construction-machinery-equipment-engineer",
+      "href": "/certificates/construction-machinery-equipment-engineer",
+      "type": "alias",
+      "category": "기계·설비"
+    },
+    {
+      "label": "건설기계설비기사 응시자격",
+      "value": "건설기계설비기사 응시자격",
+      "slug": "construction-machinery-equipment-engineer",
+      "href": "/certificates/construction-machinery-equipment-engineer",
+      "type": "alias",
+      "category": "기계·설비"
+    },
+    {
+      "label": "건설기계설비기사 취업",
+      "value": "건설기계설비기사 취업",
+      "slug": "construction-machinery-equipment-engineer",
+      "href": "/certificates/construction-machinery-equipment-engineer",
+      "type": "alias",
+      "category": "기계·설비"
     },
     {
       "label": "건축기사",
@@ -160,6 +208,102 @@
       "value": "공조냉동기계기능사 취업",
       "slug": "air-conditioning-refrigeration-craftsman",
       "href": "/certificates/air-conditioning-refrigeration-craftsman",
+      "type": "alias",
+      "category": "기계·설비"
+    },
+    {
+      "label": "공조냉동기계기사",
+      "value": "공조냉동기계기사",
+      "slug": "air-conditioning-refrigeration-engineer",
+      "href": "/certificates/air-conditioning-refrigeration-engineer",
+      "type": "certificate",
+      "category": "기계·설비"
+    },
+    {
+      "label": "공조냉동기계기사 난이도",
+      "value": "공조냉동기계기사 난이도",
+      "slug": "air-conditioning-refrigeration-engineer",
+      "href": "/certificates/air-conditioning-refrigeration-engineer",
+      "type": "alias",
+      "category": "기계·설비"
+    },
+    {
+      "label": "공조냉동기계기사 시험과목",
+      "value": "공조냉동기계기사 시험과목",
+      "slug": "air-conditioning-refrigeration-engineer",
+      "href": "/certificates/air-conditioning-refrigeration-engineer",
+      "type": "alias",
+      "category": "기계·설비"
+    },
+    {
+      "label": "공조냉동기계기사 실기",
+      "value": "공조냉동기계기사 실기",
+      "slug": "air-conditioning-refrigeration-engineer",
+      "href": "/certificates/air-conditioning-refrigeration-engineer",
+      "type": "alias",
+      "category": "기계·설비"
+    },
+    {
+      "label": "공조냉동기계기사 응시자격",
+      "value": "공조냉동기계기사 응시자격",
+      "slug": "air-conditioning-refrigeration-engineer",
+      "href": "/certificates/air-conditioning-refrigeration-engineer",
+      "type": "alias",
+      "category": "기계·설비"
+    },
+    {
+      "label": "공조냉동기계기사 취업",
+      "value": "공조냉동기계기사 취업",
+      "slug": "air-conditioning-refrigeration-engineer",
+      "href": "/certificates/air-conditioning-refrigeration-engineer",
+      "type": "alias",
+      "category": "기계·설비"
+    },
+    {
+      "label": "공조냉동기계산업기사",
+      "value": "공조냉동기계산업기사",
+      "slug": "air-conditioning-refrigeration-industrial-engineer",
+      "href": "/certificates/air-conditioning-refrigeration-industrial-engineer",
+      "type": "certificate",
+      "category": "기계·설비"
+    },
+    {
+      "label": "공조냉동기계산업기사 난이도",
+      "value": "공조냉동기계산업기사 난이도",
+      "slug": "air-conditioning-refrigeration-industrial-engineer",
+      "href": "/certificates/air-conditioning-refrigeration-industrial-engineer",
+      "type": "alias",
+      "category": "기계·설비"
+    },
+    {
+      "label": "공조냉동기계산업기사 시험과목",
+      "value": "공조냉동기계산업기사 시험과목",
+      "slug": "air-conditioning-refrigeration-industrial-engineer",
+      "href": "/certificates/air-conditioning-refrigeration-industrial-engineer",
+      "type": "alias",
+      "category": "기계·설비"
+    },
+    {
+      "label": "공조냉동기계산업기사 실기",
+      "value": "공조냉동기계산업기사 실기",
+      "slug": "air-conditioning-refrigeration-industrial-engineer",
+      "href": "/certificates/air-conditioning-refrigeration-industrial-engineer",
+      "type": "alias",
+      "category": "기계·설비"
+    },
+    {
+      "label": "공조냉동기계산업기사 응시자격",
+      "value": "공조냉동기계산업기사 응시자격",
+      "slug": "air-conditioning-refrigeration-industrial-engineer",
+      "href": "/certificates/air-conditioning-refrigeration-industrial-engineer",
+      "type": "alias",
+      "category": "기계·설비"
+    },
+    {
+      "label": "공조냉동기계산업기사 취업",
+      "value": "공조냉동기계산업기사 취업",
+      "slug": "air-conditioning-refrigeration-industrial-engineer",
+      "href": "/certificates/air-conditioning-refrigeration-industrial-engineer",
       "type": "alias",
       "category": "기계·설비"
     },
@@ -302,6 +446,22 @@
     {
       "label": "국가기술자격 기사",
       "value": "국가기술자격 기사",
+      "slug": "construction-machinery-equipment-engineer",
+      "href": "/certificates/construction-machinery-equipment-engineer",
+      "type": "alias",
+      "category": "기계·설비"
+    },
+    {
+      "label": "국가기술자격 기사",
+      "value": "국가기술자격 기사",
+      "slug": "air-conditioning-refrigeration-engineer",
+      "href": "/certificates/air-conditioning-refrigeration-engineer",
+      "type": "alias",
+      "category": "기계·설비"
+    },
+    {
+      "label": "국가기술자격 기사",
+      "value": "국가기술자격 기사",
       "slug": "broadcast-communication-engineer",
       "href": "/certificates/broadcast-communication-engineer",
       "type": "alias",
@@ -314,6 +474,14 @@
       "href": "/certificates/big-data-analysis-engineer",
       "type": "alias",
       "category": "데이터·IT"
+    },
+    {
+      "label": "국가기술자격 기사",
+      "value": "국가기술자격 기사",
+      "slug": "energy-management-engineer",
+      "href": "/certificates/energy-management-engineer",
+      "type": "alias",
+      "category": "에너지·설비"
     },
     {
       "label": "국가기술자격 기사",
@@ -370,6 +538,14 @@
       "href": "/certificates/information-communication-engineer",
       "type": "alias",
       "category": "정보통신"
+    },
+    {
+      "label": "국가기술자격 산업기사",
+      "value": "국가기술자격 산업기사",
+      "slug": "air-conditioning-refrigeration-industrial-engineer",
+      "href": "/certificates/air-conditioning-refrigeration-industrial-engineer",
+      "type": "alias",
+      "category": "기계·설비"
     },
     {
       "label": "국가기술자격 산업기사",
@@ -446,8 +622,32 @@
     {
       "label": "기계·설비",
       "value": "기계·설비",
+      "slug": "construction-machinery-equipment-engineer",
+      "href": "/certificates/construction-machinery-equipment-engineer",
+      "type": "alias",
+      "category": "기계·설비"
+    },
+    {
+      "label": "기계·설비",
+      "value": "기계·설비",
       "slug": "air-conditioning-refrigeration-craftsman",
       "href": "/certificates/air-conditioning-refrigeration-craftsman",
+      "type": "alias",
+      "category": "기계·설비"
+    },
+    {
+      "label": "기계·설비",
+      "value": "기계·설비",
+      "slug": "air-conditioning-refrigeration-engineer",
+      "href": "/certificates/air-conditioning-refrigeration-engineer",
+      "type": "alias",
+      "category": "기계·설비"
+    },
+    {
+      "label": "기계·설비",
+      "value": "기계·설비",
+      "slug": "air-conditioning-refrigeration-industrial-engineer",
+      "href": "/certificates/air-conditioning-refrigeration-industrial-engineer",
       "type": "alias",
       "category": "기계·설비"
     },
@@ -740,6 +940,14 @@
       "category": "에너지·설비"
     },
     {
+      "label": "에너지·설비",
+      "value": "에너지·설비",
+      "slug": "energy-management-engineer",
+      "href": "/certificates/energy-management-engineer",
+      "type": "alias",
+      "category": "에너지·설비"
+    },
+    {
       "label": "에너지관리기능사",
       "value": "에너지관리기능사",
       "slug": "energy-management-craftsman",
@@ -784,6 +992,54 @@
       "value": "에너지관리기능사 취업",
       "slug": "energy-management-craftsman",
       "href": "/certificates/energy-management-craftsman",
+      "type": "alias",
+      "category": "에너지·설비"
+    },
+    {
+      "label": "에너지관리기사",
+      "value": "에너지관리기사",
+      "slug": "energy-management-engineer",
+      "href": "/certificates/energy-management-engineer",
+      "type": "certificate",
+      "category": "에너지·설비"
+    },
+    {
+      "label": "에너지관리기사 난이도",
+      "value": "에너지관리기사 난이도",
+      "slug": "energy-management-engineer",
+      "href": "/certificates/energy-management-engineer",
+      "type": "alias",
+      "category": "에너지·설비"
+    },
+    {
+      "label": "에너지관리기사 시험과목",
+      "value": "에너지관리기사 시험과목",
+      "slug": "energy-management-engineer",
+      "href": "/certificates/energy-management-engineer",
+      "type": "alias",
+      "category": "에너지·설비"
+    },
+    {
+      "label": "에너지관리기사 실기",
+      "value": "에너지관리기사 실기",
+      "slug": "energy-management-engineer",
+      "href": "/certificates/energy-management-engineer",
+      "type": "alias",
+      "category": "에너지·설비"
+    },
+    {
+      "label": "에너지관리기사 응시자격",
+      "value": "에너지관리기사 응시자격",
+      "slug": "energy-management-engineer",
+      "href": "/certificates/energy-management-engineer",
+      "type": "alias",
+      "category": "에너지·설비"
+    },
+    {
+      "label": "에너지관리기사 취업",
+      "value": "에너지관리기사 취업",
+      "slug": "energy-management-engineer",
+      "href": "/certificates/energy-management-engineer",
       "type": "alias",
       "category": "에너지·설비"
     },
@@ -1902,6 +2158,14 @@
     {
       "label": "한국산업인력공단",
       "value": "한국산업인력공단",
+      "slug": "construction-machinery-equipment-engineer",
+      "href": "/certificates/construction-machinery-equipment-engineer",
+      "type": "alias",
+      "category": "기계·설비"
+    },
+    {
+      "label": "한국산업인력공단",
+      "value": "한국산업인력공단",
       "slug": "architectural-engineer",
       "href": "/certificates/architectural-engineer",
       "type": "alias",
@@ -1920,6 +2184,22 @@
       "value": "한국산업인력공단",
       "slug": "air-conditioning-refrigeration-craftsman",
       "href": "/certificates/air-conditioning-refrigeration-craftsman",
+      "type": "alias",
+      "category": "기계·설비"
+    },
+    {
+      "label": "한국산업인력공단",
+      "value": "한국산업인력공단",
+      "slug": "air-conditioning-refrigeration-engineer",
+      "href": "/certificates/air-conditioning-refrigeration-engineer",
+      "type": "alias",
+      "category": "기계·설비"
+    },
+    {
+      "label": "한국산업인력공단",
+      "value": "한국산업인력공단",
+      "slug": "air-conditioning-refrigeration-industrial-engineer",
+      "href": "/certificates/air-conditioning-refrigeration-industrial-engineer",
       "type": "alias",
       "category": "기계·설비"
     },
@@ -1952,6 +2232,14 @@
       "value": "한국산업인력공단",
       "slug": "energy-management-craftsman",
       "href": "/certificates/energy-management-craftsman",
+      "type": "alias",
+      "category": "에너지·설비"
+    },
+    {
+      "label": "한국산업인력공단",
+      "value": "한국산업인력공단",
+      "slug": "energy-management-engineer",
+      "href": "/certificates/energy-management-engineer",
       "type": "alias",
       "category": "에너지·설비"
     },
@@ -2124,6 +2412,22 @@
       "category": "기계·설비"
     },
     {
+      "label": "air-conditioning-refrigeration-engineer",
+      "value": "air-conditioning-refrigeration-engineer",
+      "slug": "air-conditioning-refrigeration-engineer",
+      "href": "/certificates/air-conditioning-refrigeration-engineer",
+      "type": "alias",
+      "category": "기계·설비"
+    },
+    {
+      "label": "air-conditioning-refrigeration-industrial-engineer",
+      "value": "air-conditioning-refrigeration-industrial-engineer",
+      "slug": "air-conditioning-refrigeration-industrial-engineer",
+      "href": "/certificates/air-conditioning-refrigeration-industrial-engineer",
+      "type": "alias",
+      "category": "기계·설비"
+    },
+    {
       "label": "architectural-engineer",
       "value": "architectural-engineer",
       "slug": "architectural-engineer",
@@ -2196,6 +2500,14 @@
       "category": "회계·세무"
     },
     {
+      "label": "construction-machinery-equipment-engineer",
+      "value": "construction-machinery-equipment-engineer",
+      "slug": "construction-machinery-equipment-engineer",
+      "href": "/certificates/construction-machinery-equipment-engineer",
+      "type": "alias",
+      "category": "기계·설비"
+    },
+    {
       "label": "electric-craftsman",
       "value": "electric-craftsman",
       "slug": "electric-craftsman",
@@ -2264,6 +2576,14 @@
       "value": "energy-management-craftsman",
       "slug": "energy-management-craftsman",
       "href": "/certificates/energy-management-craftsman",
+      "type": "alias",
+      "category": "에너지·설비"
+    },
+    {
+      "label": "energy-management-engineer",
+      "value": "energy-management-engineer",
+      "slug": "energy-management-engineer",
+      "href": "/certificates/energy-management-engineer",
       "type": "alias",
       "category": "에너지·설비"
     },
