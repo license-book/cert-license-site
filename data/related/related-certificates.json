@@ -340,5 +340,61 @@
     "air-conditioning-refrigeration-engineer",
     "air-conditioning-refrigeration-industrial-engineer",
     "general-mechanical-engineer"
+  ],
+  "building-services-engineer": [
+    {
+      "slug": "architectural-engineer",
+      "reason": "건축 분야 연계"
+    },
+    {
+      "slug": "air-conditioning-refrigeration-engineer",
+      "reason": "공조설비 연계"
+    },
+    {
+      "slug": "energy-management-engineer",
+      "reason": "열·에너지설비 연계"
+    }
+  ],
+  "interior-architecture-engineer": [
+    {
+      "slug": "interior-architecture-industrial-engineer",
+      "reason": "기사·산업기사 단계 비교"
+    },
+    {
+      "slug": "architectural-engineer",
+      "reason": "건축 분야 연계"
+    },
+    {
+      "slug": "architectural-industrial-engineer",
+      "reason": "건축 실무 연계"
+    }
+  ],
+  "interior-architecture-industrial-engineer": [
+    {
+      "slug": "interior-architecture-engineer",
+      "reason": "상위 기사 단계"
+    },
+    {
+      "slug": "architectural-industrial-engineer",
+      "reason": "건축 실무 연계"
+    },
+    {
+      "slug": "architectural-engineer",
+      "reason": "건축 분야 확장"
+    }
+  ],
+  "civil-engineer": [
+    {
+      "slug": "construction-safety-engineer",
+      "reason": "건설현장 안전 연계"
+    },
+    {
+      "slug": "construction-machinery-equipment-engineer",
+      "reason": "건설기계·설비 연계"
+    },
+    {
+      "slug": "architectural-engineer",
+      "reason": "건설 분야 연계"
+    }
   ]
 }

@@ -1,12 +1,12 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-29T03:06:49.079Z",
+  "generatedAt": "2026-07-29T03:14:56.986Z",
   "maxRelatedPerCertificate": 4,
   "totals": {
-    "certificates": 49,
-    "manualLinks": 104,
-    "autoLinks": 92,
-    "allLinks": 196
+    "certificates": 53,
+    "manualLinks": 116,
+    "autoLinks": 96,
+    "allLinks": 212
   },
   "items": {
     "air-conditioning-refrigeration-craftsman": [
@@ -80,22 +80,22 @@
         "score": 100
       },
       {
-        "slug": "industrial-safety-engineer",
-        "tag": "산업 안전",
+        "slug": "building-services-engineer",
+        "tag": "건축설비",
         "source": "auto",
-        "score": 50
+        "score": 85
       },
       {
-        "slug": "hazardous-material-industrial-engineer",
-        "tag": "위험물 안전",
+        "slug": "interior-architecture-engineer",
+        "tag": "실내건축",
         "source": "auto",
-        "score": 50
+        "score": 85
       },
       {
-        "slug": "electric-engineer",
-        "tag": "전기 분야",
+        "slug": "interior-architecture-industrial-engineer",
+        "tag": "실내건축",
         "source": "auto",
-        "score": 50
+        "score": 85
       }
     ],
     "architectural-industrial-engineer": [
@@ -106,22 +106,22 @@
         "score": 100
       },
       {
-        "slug": "industrial-safety-engineer",
-        "tag": "산업 안전",
+        "slug": "building-services-engineer",
+        "tag": "건축설비",
         "source": "auto",
-        "score": 50
+        "score": 85
       },
       {
-        "slug": "hazardous-material-industrial-engineer",
-        "tag": "위험물 안전",
+        "slug": "interior-architecture-engineer",
+        "tag": "실내건축",
         "source": "auto",
-        "score": 50
+        "score": 85
       },
       {
-        "slug": "electric-engineer",
-        "tag": "전기 분야",
+        "slug": "interior-architecture-industrial-engineer",
+        "tag": "실내건축",
         "source": "auto",
-        "score": 50
+        "score": 85
       }
     ],
     "big-data-analysis-engineer": [
@@ -163,6 +163,52 @@
         "tag": "정보통신 실무",
         "source": "auto",
         "score": 85
+      }
+    ],
+    "building-services-engineer": [
+      {
+        "slug": "architectural-engineer",
+        "reason": "건축 분야 연계",
+        "source": "manual"
+      },
+      {
+        "slug": "air-conditioning-refrigeration-engineer",
+        "reason": "공조설비 연계",
+        "source": "manual"
+      },
+      {
+        "slug": "energy-management-engineer",
+        "reason": "열·에너지설비 연계",
+        "source": "manual"
+      },
+      {
+        "slug": "interior-architecture-engineer",
+        "tag": "실내건축",
+        "source": "auto",
+        "score": 100
+      }
+    ],
+    "civil-engineer": [
+      {
+        "slug": "construction-safety-engineer",
+        "reason": "건설현장 안전 연계",
+        "source": "manual"
+      },
+      {
+        "slug": "construction-machinery-equipment-engineer",
+        "reason": "건설기계·설비 연계",
+        "source": "manual"
+      },
+      {
+        "slug": "architectural-engineer",
+        "reason": "건설 분야 연계",
+        "source": "manual"
+      },
+      {
+        "slug": "gas-engineer",
+        "tag": "가스 안전",
+        "source": "auto",
+        "score": 50
       }
     ],
     "computer-specialist-1": [
@@ -1031,6 +1077,52 @@
       {
         "slug": "computer-specialist-2",
         "source": "manual"
+      }
+    ],
+    "interior-architecture-engineer": [
+      {
+        "slug": "interior-architecture-industrial-engineer",
+        "reason": "기사·산업기사 단계 비교",
+        "source": "manual"
+      },
+      {
+        "slug": "architectural-engineer",
+        "reason": "건축 분야 연계",
+        "source": "manual"
+      },
+      {
+        "slug": "architectural-industrial-engineer",
+        "reason": "건축 실무 연계",
+        "source": "manual"
+      },
+      {
+        "slug": "building-services-engineer",
+        "tag": "건축설비",
+        "source": "auto",
+        "score": 100
+      }
+    ],
+    "interior-architecture-industrial-engineer": [
+      {
+        "slug": "interior-architecture-engineer",
+        "reason": "상위 기사 단계",
+        "source": "manual"
+      },
+      {
+        "slug": "architectural-industrial-engineer",
+        "reason": "건축 실무 연계",
+        "source": "manual"
+      },
+      {
+        "slug": "architectural-engineer",
+        "reason": "건축 분야 확장",
+        "source": "manual"
+      },
+      {
+        "slug": "building-services-engineer",
+        "tag": "건축설비",
+        "source": "auto",
+        "score": 85
       }
     ],
     "mechanical-design-engineer": [

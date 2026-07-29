@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-29T03:06:49.522Z",
-  "total": 49,
+  "generatedAt": "2026-07-29T03:14:57.142Z",
+  "total": 53,
   "items": [
     {
       "slug": "air-conditioning-refrigeration-craftsman",
@@ -196,6 +196,60 @@
       "category": "정보통신",
       "agency": "한국방송통신전파진흥원",
       "lastModified": "2026-07-29"
+    },
+    {
+      "slug": "building-services-engineer",
+      "name": "건축설비기사",
+      "shortName": "건축설비기사",
+      "title": "건축설비기사 응시자격·시험과목·난이도·공부법 | 라북",
+      "description": "건축설비기사 응시자격, 시험과목, 실기방식, 합격기준, 준비기간과 현실적인 공부전략을 한눈에 확인하세요.",
+      "keywords": [
+        "건축설비기사",
+        "건축설비기사 응시자격",
+        "건축설비기사 시험과목",
+        "건축설비기사 실기",
+        "건축설비기사 난이도",
+        "건축설비기사 시험",
+        "건축설비기사 합격률",
+        "건축설비기사 공부기간",
+        "건설·건축",
+        "국가기술자격 기사",
+        "한국산업인력공단"
+      ],
+      "image": "/images/hero/building-services-engineer.webp",
+      "path": "/cert/building-services-engineer",
+      "type": "national",
+      "licenseType": "국가기술자격 기사",
+      "category": "건설·건축",
+      "agency": "한국산업인력공단",
+      "lastModified": "2026-07-28"
+    },
+    {
+      "slug": "civil-engineer",
+      "name": "토목기사",
+      "shortName": "토목기사",
+      "title": "토목기사 응시자격·시험과목·난이도·공부법 | 라북",
+      "description": "토목기사 응시자격, 시험과목, 실기방식, 합격기준, 준비기간과 현실적인 공부전략을 한눈에 확인하세요.",
+      "keywords": [
+        "토목기사",
+        "토목기사 응시자격",
+        "토목기사 시험과목",
+        "토목기사 실기",
+        "토목기사 난이도",
+        "토목기사 시험",
+        "토목기사 합격률",
+        "토목기사 공부기간",
+        "건설·토목",
+        "국가기술자격 기사",
+        "한국산업인력공단"
+      ],
+      "image": "/images/hero/civil-engineer.webp",
+      "path": "/cert/civil-engineer",
+      "type": "national",
+      "licenseType": "국가기술자격 기사",
+      "category": "건설·토목",
+      "agency": "한국산업인력공단",
+      "lastModified": "2026-07-28"
     },
     {
       "slug": "computer-specialist-1",
@@ -1205,6 +1259,60 @@
       "licenseType": "국가기술자격 산업기사",
       "category": "IT·보안",
       "agency": "한국방송통신전파진흥원",
+      "lastModified": "2026-07-28"
+    },
+    {
+      "slug": "interior-architecture-engineer",
+      "name": "실내건축기사",
+      "shortName": "실내건축기사",
+      "title": "실내건축기사 응시자격·시험과목·난이도·공부법 | 라북",
+      "description": "실내건축기사 응시자격, 시험과목, 실기방식, 합격기준, 준비기간과 현실적인 공부전략을 한눈에 확인하세요.",
+      "keywords": [
+        "실내건축기사",
+        "실내건축기사 응시자격",
+        "실내건축기사 시험과목",
+        "실내건축기사 실기",
+        "실내건축기사 난이도",
+        "실내건축기사 시험",
+        "실내건축기사 합격률",
+        "실내건축기사 공부기간",
+        "건설·건축",
+        "국가기술자격 기사",
+        "한국산업인력공단"
+      ],
+      "image": "/images/hero/interior-architecture-engineer.webp",
+      "path": "/cert/interior-architecture-engineer",
+      "type": "national",
+      "licenseType": "국가기술자격 기사",
+      "category": "건설·건축",
+      "agency": "한국산업인력공단",
+      "lastModified": "2026-07-28"
+    },
+    {
+      "slug": "interior-architecture-industrial-engineer",
+      "name": "실내건축산업기사",
+      "shortName": "실내건축산업기사",
+      "title": "실내건축산업기사 응시자격·시험과목·난이도·공부법 | 라북",
+      "description": "실내건축산업기사 응시자격, 시험과목, 실기방식, 합격기준, 준비기간과 현실적인 공부전략을 한눈에 확인하세요.",
+      "keywords": [
+        "실내건축산업기사",
+        "실내건축산업기사 응시자격",
+        "실내건축산업기사 시험과목",
+        "실내건축산업기사 실기",
+        "실내건축산업기사 난이도",
+        "실내건축산업기사 시험",
+        "실내건축산업기사 합격률",
+        "실내건축산업기사 공부기간",
+        "건설·건축",
+        "국가기술자격 산업기사",
+        "한국산업인력공단"
+      ],
+      "image": "/images/hero/interior-architecture-industrial-engineer.webp",
+      "path": "/cert/interior-architecture-industrial-engineer",
+      "type": "national",
+      "licenseType": "국가기술자격 산업기사",
+      "category": "건설·건축",
+      "agency": "한국산업인력공단",
       "lastModified": "2026-07-28"
     },
     {

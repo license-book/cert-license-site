@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-29T03:06:48.479Z",
-  "total": 470,
+  "generatedAt": "2026-07-29T03:14:56.629Z",
+  "total": 506,
   "items": [
     {
       "label": "가스기능사",
@@ -178,6 +178,38 @@
       "href": "/certificates/architectural-industrial-engineer",
       "type": "alias",
       "category": "건설·건축"
+    },
+    {
+      "label": "건설·건축",
+      "value": "건설·건축",
+      "slug": "building-services-engineer",
+      "href": "/certificates/building-services-engineer",
+      "type": "alias",
+      "category": "건설·건축"
+    },
+    {
+      "label": "건설·건축",
+      "value": "건설·건축",
+      "slug": "interior-architecture-engineer",
+      "href": "/certificates/interior-architecture-engineer",
+      "type": "alias",
+      "category": "건설·건축"
+    },
+    {
+      "label": "건설·건축",
+      "value": "건설·건축",
+      "slug": "interior-architecture-industrial-engineer",
+      "href": "/certificates/interior-architecture-industrial-engineer",
+      "type": "alias",
+      "category": "건설·건축"
+    },
+    {
+      "label": "건설·토목",
+      "value": "건설·토목",
+      "slug": "civil-engineer",
+      "href": "/certificates/civil-engineer",
+      "type": "alias",
+      "category": "건설·토목"
     },
     {
       "label": "건설기계설비기사",
@@ -400,6 +432,46 @@
       "value": "건축산업기사 응시자격",
       "slug": "architectural-industrial-engineer",
       "href": "/certificates/architectural-industrial-engineer",
+      "type": "alias",
+      "category": "건설·건축"
+    },
+    {
+      "label": "건축설비기사",
+      "value": "건축설비기사",
+      "slug": "building-services-engineer",
+      "href": "/certificates/building-services-engineer",
+      "type": "certificate",
+      "category": "건설·건축"
+    },
+    {
+      "label": "건축설비기사 난이도",
+      "value": "건축설비기사 난이도",
+      "slug": "building-services-engineer",
+      "href": "/certificates/building-services-engineer",
+      "type": "alias",
+      "category": "건설·건축"
+    },
+    {
+      "label": "건축설비기사 시험과목",
+      "value": "건축설비기사 시험과목",
+      "slug": "building-services-engineer",
+      "href": "/certificates/building-services-engineer",
+      "type": "alias",
+      "category": "건설·건축"
+    },
+    {
+      "label": "건축설비기사 실기",
+      "value": "건축설비기사 실기",
+      "slug": "building-services-engineer",
+      "href": "/certificates/building-services-engineer",
+      "type": "alias",
+      "category": "건설·건축"
+    },
+    {
+      "label": "건축설비기사 응시자격",
+      "value": "건축설비기사 응시자격",
+      "slug": "building-services-engineer",
+      "href": "/certificates/building-services-engineer",
       "type": "alias",
       "category": "건설·건축"
     },
@@ -726,6 +798,14 @@
     {
       "label": "국가기술자격 기사",
       "value": "국가기술자격 기사",
+      "slug": "building-services-engineer",
+      "href": "/certificates/building-services-engineer",
+      "type": "alias",
+      "category": "건설·건축"
+    },
+    {
+      "label": "국가기술자격 기사",
+      "value": "국가기술자격 기사",
       "slug": "air-conditioning-refrigeration-engineer",
       "href": "/certificates/air-conditioning-refrigeration-engineer",
       "type": "alias",
@@ -762,6 +842,14 @@
       "href": "/certificates/fire-protection-electrical-engineer",
       "type": "alias",
       "category": "소방·안전"
+    },
+    {
+      "label": "국가기술자격 기사",
+      "value": "국가기술자격 기사",
+      "slug": "interior-architecture-engineer",
+      "href": "/certificates/interior-architecture-engineer",
+      "type": "alias",
+      "category": "건설·건축"
     },
     {
       "label": "국가기술자격 기사",
@@ -828,6 +916,14 @@
       "category": "정보통신"
     },
     {
+      "label": "국가기술자격 기사",
+      "value": "국가기술자격 기사",
+      "slug": "civil-engineer",
+      "href": "/certificates/civil-engineer",
+      "type": "alias",
+      "category": "건설·토목"
+    },
+    {
       "label": "국가기술자격 산업기사",
       "value": "국가기술자격 산업기사",
       "slug": "gas-industrial-engineer",
@@ -882,6 +978,14 @@
       "href": "/certificates/fire-protection-electrical-industrial-engineer",
       "type": "alias",
       "category": "소방·안전"
+    },
+    {
+      "label": "국가기술자격 산업기사",
+      "value": "국가기술자격 산업기사",
+      "slug": "interior-architecture-industrial-engineer",
+      "href": "/certificates/interior-architecture-industrial-engineer",
+      "type": "alias",
+      "category": "건설·건축"
     },
     {
       "label": "국가기술자격 산업기사",
@@ -1562,6 +1666,86 @@
       "href": "/certificates/fire-protection-electrical-industrial-engineer",
       "type": "alias",
       "category": "소방·안전"
+    },
+    {
+      "label": "실내건축기사",
+      "value": "실내건축기사",
+      "slug": "interior-architecture-engineer",
+      "href": "/certificates/interior-architecture-engineer",
+      "type": "certificate",
+      "category": "건설·건축"
+    },
+    {
+      "label": "실내건축기사 난이도",
+      "value": "실내건축기사 난이도",
+      "slug": "interior-architecture-engineer",
+      "href": "/certificates/interior-architecture-engineer",
+      "type": "alias",
+      "category": "건설·건축"
+    },
+    {
+      "label": "실내건축기사 시험과목",
+      "value": "실내건축기사 시험과목",
+      "slug": "interior-architecture-engineer",
+      "href": "/certificates/interior-architecture-engineer",
+      "type": "alias",
+      "category": "건설·건축"
+    },
+    {
+      "label": "실내건축기사 실기",
+      "value": "실내건축기사 실기",
+      "slug": "interior-architecture-engineer",
+      "href": "/certificates/interior-architecture-engineer",
+      "type": "alias",
+      "category": "건설·건축"
+    },
+    {
+      "label": "실내건축기사 응시자격",
+      "value": "실내건축기사 응시자격",
+      "slug": "interior-architecture-engineer",
+      "href": "/certificates/interior-architecture-engineer",
+      "type": "alias",
+      "category": "건설·건축"
+    },
+    {
+      "label": "실내건축산업기사",
+      "value": "실내건축산업기사",
+      "slug": "interior-architecture-industrial-engineer",
+      "href": "/certificates/interior-architecture-industrial-engineer",
+      "type": "certificate",
+      "category": "건설·건축"
+    },
+    {
+      "label": "실내건축산업기사 난이도",
+      "value": "실내건축산업기사 난이도",
+      "slug": "interior-architecture-industrial-engineer",
+      "href": "/certificates/interior-architecture-industrial-engineer",
+      "type": "alias",
+      "category": "건설·건축"
+    },
+    {
+      "label": "실내건축산업기사 시험과목",
+      "value": "실내건축산업기사 시험과목",
+      "slug": "interior-architecture-industrial-engineer",
+      "href": "/certificates/interior-architecture-industrial-engineer",
+      "type": "alias",
+      "category": "건설·건축"
+    },
+    {
+      "label": "실내건축산업기사 실기",
+      "value": "실내건축산업기사 실기",
+      "slug": "interior-architecture-industrial-engineer",
+      "href": "/certificates/interior-architecture-industrial-engineer",
+      "type": "alias",
+      "category": "건설·건축"
+    },
+    {
+      "label": "실내건축산업기사 응시자격",
+      "value": "실내건축산업기사 응시자격",
+      "slug": "interior-architecture-industrial-engineer",
+      "href": "/certificates/interior-architecture-industrial-engineer",
+      "type": "alias",
+      "category": "건설·건축"
     },
     {
       "label": "안전관리",
@@ -2860,6 +3044,46 @@
       "category": "IT·사무"
     },
     {
+      "label": "토목기사",
+      "value": "토목기사",
+      "slug": "civil-engineer",
+      "href": "/certificates/civil-engineer",
+      "type": "certificate",
+      "category": "건설·토목"
+    },
+    {
+      "label": "토목기사 난이도",
+      "value": "토목기사 난이도",
+      "slug": "civil-engineer",
+      "href": "/certificates/civil-engineer",
+      "type": "alias",
+      "category": "건설·토목"
+    },
+    {
+      "label": "토목기사 시험과목",
+      "value": "토목기사 시험과목",
+      "slug": "civil-engineer",
+      "href": "/certificates/civil-engineer",
+      "type": "alias",
+      "category": "건설·토목"
+    },
+    {
+      "label": "토목기사 실기",
+      "value": "토목기사 실기",
+      "slug": "civil-engineer",
+      "href": "/certificates/civil-engineer",
+      "type": "alias",
+      "category": "건설·토목"
+    },
+    {
+      "label": "토목기사 응시자격",
+      "value": "토목기사 응시자격",
+      "slug": "civil-engineer",
+      "href": "/certificates/civil-engineer",
+      "type": "alias",
+      "category": "건설·토목"
+    },
+    {
       "label": "한국데이터산업진흥원",
       "value": "한국데이터산업진흥원",
       "slug": "big-data-analysis-engineer",
@@ -2982,6 +3206,14 @@
     {
       "label": "한국산업인력공단",
       "value": "한국산업인력공단",
+      "slug": "building-services-engineer",
+      "href": "/certificates/building-services-engineer",
+      "type": "alias",
+      "category": "건설·건축"
+    },
+    {
+      "label": "한국산업인력공단",
+      "value": "한국산업인력공단",
       "slug": "air-conditioning-refrigeration-craftsman",
       "href": "/certificates/air-conditioning-refrigeration-craftsman",
       "type": "alias",
@@ -3066,6 +3298,22 @@
       "href": "/certificates/fire-protection-electrical-industrial-engineer",
       "type": "alias",
       "category": "소방·안전"
+    },
+    {
+      "label": "한국산업인력공단",
+      "value": "한국산업인력공단",
+      "slug": "interior-architecture-engineer",
+      "href": "/certificates/interior-architecture-engineer",
+      "type": "alias",
+      "category": "건설·건축"
+    },
+    {
+      "label": "한국산업인력공단",
+      "value": "한국산업인력공단",
+      "slug": "interior-architecture-industrial-engineer",
+      "href": "/certificates/interior-architecture-industrial-engineer",
+      "type": "alias",
+      "category": "건설·건축"
     },
     {
       "label": "한국산업인력공단",
@@ -3202,6 +3450,14 @@
       "href": "/certificates/information-processing-industrial-engineer",
       "type": "alias",
       "category": "IT·개발"
+    },
+    {
+      "label": "한국산업인력공단",
+      "value": "한국산업인력공단",
+      "slug": "civil-engineer",
+      "href": "/certificates/civil-engineer",
+      "type": "alias",
+      "category": "건설·토목"
     },
     {
       "label": "한국세무사회",
@@ -3346,6 +3602,22 @@
       "href": "/certificates/broadcast-communication-engineer",
       "type": "alias",
       "category": "정보통신"
+    },
+    {
+      "label": "building-services-engineer",
+      "value": "building-services-engineer",
+      "slug": "building-services-engineer",
+      "href": "/certificates/building-services-engineer",
+      "type": "alias",
+      "category": "건설·건축"
+    },
+    {
+      "label": "civil-engineer",
+      "value": "civil-engineer",
+      "slug": "civil-engineer",
+      "href": "/certificates/civil-engineer",
+      "type": "alias",
+      "category": "건설·토목"
     },
     {
       "label": "computer-specialist-1",
@@ -3642,6 +3914,22 @@
       "href": "/certificates/information-security-industrial-engineer",
       "type": "alias",
       "category": "IT·보안"
+    },
+    {
+      "label": "interior-architecture-engineer",
+      "value": "interior-architecture-engineer",
+      "slug": "interior-architecture-engineer",
+      "href": "/certificates/interior-architecture-engineer",
+      "type": "alias",
+      "category": "건설·건축"
+    },
+    {
+      "label": "interior-architecture-industrial-engineer",
+      "value": "interior-architecture-industrial-engineer",
+      "slug": "interior-architecture-industrial-engineer",
+      "href": "/certificates/interior-architecture-industrial-engineer",
+      "type": "alias",
+      "category": "건설·건축"
     },
     {
       "label": "IT 자격증",
