@@ -396,5 +396,35 @@
       "slug": "architectural-engineer",
       "reason": "건설 분야 연계"
     }
+  ],
+  "civil-industrial-engineer": [
+    "civil-engineer",
+    "surveying-geospatial-information-industrial-engineer",
+    "construction-safety-industrial-engineer",
+    "architectural-industrial-engineer"
+  ],
+  "surveying-geospatial-information-engineer": [
+    {
+      "slug": "surveying-geospatial-information-industrial-engineer",
+      "tag": "기사·산업기사"
+    },
+    "civil-engineer",
+    "civil-industrial-engineer",
+    "construction-machinery-equipment-engineer"
+  ],
+  "surveying-geospatial-information-industrial-engineer": [
+    {
+      "slug": "surveying-geospatial-information-engineer",
+      "tag": "상위 단계"
+    },
+    "civil-industrial-engineer",
+    "civil-engineer",
+    "construction-safety-industrial-engineer"
+  ],
+  "automotive-maintenance-engineer": [
+    "general-mechanical-engineer",
+    "mechanical-design-engineer",
+    "construction-machinery-equipment-engineer",
+    "industrial-safety-engineer"
   ]
 }

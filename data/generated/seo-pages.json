@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-29T03:29:50.659Z",
-  "total": 53,
+  "generatedAt": "2026-07-29T04:02:45.570Z",
+  "total": 57,
   "items": [
     {
       "slug": "air-conditioning-refrigeration-craftsman",
@@ -142,6 +142,33 @@
       "lastModified": "2026-07-28"
     },
     {
+      "slug": "automotive-maintenance-engineer",
+      "name": "자동차정비기사",
+      "shortName": "자동차정비기사",
+      "title": "자동차정비기사 응시자격·시험과목·난이도·공부방법 | 라북",
+      "description": "자동차정비기사의 응시자격, 시험과목, 현실 난이도, 준비기간, 공부방법과 활용 분야를 확인하세요.",
+      "keywords": [
+        "자동차정비기사",
+        "자동차정비기사 응시자격",
+        "자동차정비기사 시험과목",
+        "자동차정비기사 난이도",
+        "자동차정비기사 공부방법",
+        "자동차정비기사 시험",
+        "자동차정비기사 합격률",
+        "자동차정비기사 공부기간",
+        "기계·자동차",
+        "국가기술자격 기사",
+        "한국산업인력공단"
+      ],
+      "image": "/images/hero/automotive-maintenance-engineer.webp",
+      "path": "/cert/automotive-maintenance-engineer",
+      "type": "national",
+      "licenseType": "국가기술자격 기사",
+      "category": "기계·자동차",
+      "agency": "한국산업인력공단",
+      "lastModified": "2026-07-29"
+    },
+    {
       "slug": "big-data-analysis-engineer",
       "name": "빅데이터분석기사",
       "shortName": "빅데이터분석기사",
@@ -250,6 +277,33 @@
       "category": "건설·토목",
       "agency": "한국산업인력공단",
       "lastModified": "2026-07-28"
+    },
+    {
+      "slug": "civil-industrial-engineer",
+      "name": "토목산업기사",
+      "shortName": "토목산업기사",
+      "title": "토목산업기사 응시자격·시험과목·난이도·공부법 | 라북",
+      "description": "토목산업기사 응시자격, 시험과목, 실기방식, 합격기준, 준비기간과 현실적인 공부전략을 한눈에 확인하세요.",
+      "keywords": [
+        "토목산업기사",
+        "토목산업기사 응시자격",
+        "토목산업기사 시험과목",
+        "토목산업기사 실기",
+        "토목산업기사 난이도",
+        "토목산업기사 시험",
+        "토목산업기사 합격률",
+        "토목산업기사 공부기간",
+        "건설·토목",
+        "국가기술자격 산업기사",
+        "한국산업인력공단"
+      ],
+      "image": "/images/hero/civil-industrial-engineer.webp",
+      "path": "/cert/civil-industrial-engineer",
+      "type": "national",
+      "licenseType": "국가기술자격 산업기사",
+      "category": "건설·토목",
+      "agency": "한국산업인력공단",
+      "lastModified": "2026-07-29"
     },
     {
       "slug": "computer-specialist-1",
@@ -1394,6 +1448,60 @@
       "licenseType": "국가기술자격 기사",
       "category": "정보통신",
       "agency": "한국방송통신전파진흥원",
+      "lastModified": "2026-07-29"
+    },
+    {
+      "slug": "surveying-geospatial-information-engineer",
+      "name": "측량및지형공간정보기사",
+      "shortName": "측량및지형공간정보기사",
+      "title": "측량및지형공간정보기사 응시자격·시험과목·난이도·공부방법 | 라북",
+      "description": "측량및지형공간정보기사의 응시자격, 시험과목, 현실 난이도, 준비기간, 공부방법과 활용 분야를 확인하세요.",
+      "keywords": [
+        "측량및지형공간정보기사",
+        "측량및지형공간정보기사 응시자격",
+        "측량및지형공간정보기사 시험과목",
+        "측량및지형공간정보기사 난이도",
+        "측량및지형공간정보기사 공부방법",
+        "측량및지형공간정보기사 시험",
+        "측량및지형공간정보기사 합격률",
+        "측량및지형공간정보기사 공부기간",
+        "건설·측량",
+        "국가기술자격 기사",
+        "한국산업인력공단"
+      ],
+      "image": "/images/hero/surveying-geospatial-information-engineer.webp",
+      "path": "/cert/surveying-geospatial-information-engineer",
+      "type": "national",
+      "licenseType": "국가기술자격 기사",
+      "category": "건설·측량",
+      "agency": "한국산업인력공단",
+      "lastModified": "2026-07-29"
+    },
+    {
+      "slug": "surveying-geospatial-information-industrial-engineer",
+      "name": "측량및지형공간정보산업기사",
+      "shortName": "측량및지형공간정보산업기사",
+      "title": "측량및지형공간정보산업기사 응시자격·시험과목·난이도·공부방법 | 라북",
+      "description": "측량및지형공간정보산업기사의 응시자격, 시험과목, 현실 난이도, 준비기간, 공부방법과 활용 분야를 확인하세요.",
+      "keywords": [
+        "측량및지형공간정보산업기사",
+        "측량및지형공간정보산업기사 응시자격",
+        "측량및지형공간정보산업기사 시험과목",
+        "측량및지형공간정보산업기사 난이도",
+        "측량및지형공간정보산업기사 공부방법",
+        "측량및지형공간정보산업기사 시험",
+        "측량및지형공간정보산업기사 합격률",
+        "측량및지형공간정보산업기사 공부기간",
+        "건설·측량",
+        "국가기술자격 산업기사",
+        "한국산업인력공단"
+      ],
+      "image": "/images/hero/surveying-geospatial-information-industrial-engineer.webp",
+      "path": "/cert/surveying-geospatial-information-industrial-engineer",
+      "type": "national",
+      "licenseType": "국가기술자격 산업기사",
+      "category": "건설·측량",
+      "agency": "한국산업인력공단",
       "lastModified": "2026-07-29"
     },
     {

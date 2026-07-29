@@ -491,5 +491,41 @@
     "category": "건설·토목",
     "agency": "한국산업인력공단",
     "relatedTag": "토목"
+  },
+  "civil-industrial-engineer": {
+    "name": "토목산업기사",
+    "shortName": "토목산업기사",
+    "type": "national",
+    "licenseType": "국가기술자격 산업기사",
+    "category": "건설·토목",
+    "agency": "한국산업인력공단",
+    "relatedTag": "건설·토목"
+  },
+  "surveying-geospatial-information-engineer": {
+    "name": "측량및지형공간정보기사",
+    "shortName": "측량및지형공간정보기사",
+    "type": "national",
+    "licenseType": "국가기술자격 기사",
+    "category": "건설·측량",
+    "agency": "한국산업인력공단",
+    "relatedTag": "측량·공간정보"
+  },
+  "surveying-geospatial-information-industrial-engineer": {
+    "name": "측량및지형공간정보산업기사",
+    "shortName": "측량및지형공간정보산업기사",
+    "type": "national",
+    "licenseType": "국가기술자격 산업기사",
+    "category": "건설·측량",
+    "agency": "한국산업인력공단",
+    "relatedTag": "측량·공간정보"
+  },
+  "automotive-maintenance-engineer": {
+    "name": "자동차정비기사",
+    "shortName": "자동차정비기사",
+    "type": "national",
+    "licenseType": "국가기술자격 기사",
+    "category": "기계·자동차",
+    "agency": "한국산업인력공단",
+    "relatedTag": "자동차 정비"
   }
 }

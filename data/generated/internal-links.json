@@ -1,12 +1,12 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-29T03:29:50.239Z",
+  "generatedAt": "2026-07-29T04:02:45.125Z",
   "maxRelatedPerCertificate": 4,
   "totals": {
-    "certificates": 53,
-    "manualLinks": 116,
+    "certificates": 57,
+    "manualLinks": 132,
     "autoLinks": 96,
-    "allLinks": 212
+    "allLinks": 228
   },
   "items": {
     "air-conditioning-refrigeration-craftsman": [
@@ -124,6 +124,24 @@
         "score": 85
       }
     ],
+    "automotive-maintenance-engineer": [
+      {
+        "slug": "general-mechanical-engineer",
+        "source": "manual"
+      },
+      {
+        "slug": "mechanical-design-engineer",
+        "source": "manual"
+      },
+      {
+        "slug": "construction-machinery-equipment-engineer",
+        "source": "manual"
+      },
+      {
+        "slug": "industrial-safety-engineer",
+        "source": "manual"
+      }
+    ],
     "big-data-analysis-engineer": [
       {
         "slug": "information-processing-engineer",
@@ -205,10 +223,28 @@
         "source": "manual"
       },
       {
-        "slug": "gas-engineer",
-        "tag": "가스 안전",
+        "slug": "civil-industrial-engineer",
+        "tag": "건설·토목",
         "source": "auto",
-        "score": 50
+        "score": 85
+      }
+    ],
+    "civil-industrial-engineer": [
+      {
+        "slug": "civil-engineer",
+        "source": "manual"
+      },
+      {
+        "slug": "surveying-geospatial-information-industrial-engineer",
+        "source": "manual"
+      },
+      {
+        "slug": "construction-safety-industrial-engineer",
+        "source": "manual"
+      },
+      {
+        "slug": "architectural-industrial-engineer",
+        "source": "manual"
       }
     ],
     "computer-specialist-1": [
@@ -1182,6 +1218,44 @@
         "tag": "정보통신 실무",
         "source": "auto",
         "score": 85
+      }
+    ],
+    "surveying-geospatial-information-engineer": [
+      {
+        "slug": "surveying-geospatial-information-industrial-engineer",
+        "tag": "기사·산업기사",
+        "source": "manual"
+      },
+      {
+        "slug": "civil-engineer",
+        "source": "manual"
+      },
+      {
+        "slug": "civil-industrial-engineer",
+        "source": "manual"
+      },
+      {
+        "slug": "construction-machinery-equipment-engineer",
+        "source": "manual"
+      }
+    ],
+    "surveying-geospatial-information-industrial-engineer": [
+      {
+        "slug": "surveying-geospatial-information-engineer",
+        "tag": "상위 단계",
+        "source": "manual"
+      },
+      {
+        "slug": "civil-industrial-engineer",
+        "source": "manual"
+      },
+      {
+        "slug": "civil-engineer",
+        "source": "manual"
+      },
+      {
+        "slug": "construction-safety-industrial-engineer",
+        "source": "manual"
       }
     ],
     "welding-craftsman": [
