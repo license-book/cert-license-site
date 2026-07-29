@@ -6,7 +6,7 @@ import { useState } from "react";
 const menuItems = [
   { label: "홈", href: "/" },
   { label: "국가자격증", href: "/national-certificates" },
-  { label: "민간자격증", href: "/cert?type=private" },
+  { label: "민간자격증", href: "/private-certificates" },
   { label: "비교", href: "/compare" },
   { label: "랭킹", href: "/rank" },
   { label: "수험가이드", href: "/guide" },

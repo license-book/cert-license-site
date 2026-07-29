@@ -5,7 +5,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "국가자격증 전체 목록 | 라북",
   description:
-    "국가기술자격과 국가전문자격, 영문명 자격증을 가나다·영문순으로 확인하고 자격증별 시험정보와 준비전략을 살펴보세요.",
+    "국가기술자격과 국가전문자격을 가나다·영문순으로 확인하고 자격증별 시험정보와 준비전략을 살펴보세요.",
   alternates: {
     canonical: "/national-certificates",
   },
@@ -22,9 +22,7 @@ type CatalogItem = {
 
 export default function NationalCertificatesPage() {
   const items = Object.entries(certificates as Record<string, CatalogItem>)
-    .filter(([, certificate]) =>
-      certificate.type === "national" || /^[A-Za-z]/.test(certificate.name),
-    )
+    .filter(([, certificate]) => certificate.type === "national")
     .map(([slug, certificate]) => ({
       slug,
       name: certificate.name,
@@ -44,7 +42,7 @@ export default function NationalCertificatesPage() {
             국가자격증 전체 목록
           </h1>
           <p className="mt-5 max-w-2xl text-base font-semibold leading-7 text-slate-600 md:text-lg md:leading-8">
-            국가기술자격과 국가전문자격, 영문명 자격증을 가나다·영문순으로 한눈에 확인하세요. 자격증을 선택하면 시험정보,
+            국가기술자격과 국가전문자격을 가나다·영문순으로 한눈에 확인하세요. 자격증을 선택하면 시험정보,
             준비기간, 합격전략과 활용정보를 바로 볼 수 있습니다.
           </p>
           <div className="mt-7 inline-flex items-center rounded-full border border-blue-200 bg-white px-4 py-2 text-sm font-black text-blue-700 shadow-sm">
