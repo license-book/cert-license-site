@@ -1,12 +1,12 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-29T04:52:51.450Z",
+  "generatedAt": "2026-07-29T05:47:14.898Z",
   "maxRelatedPerCertificate": 4,
   "totals": {
-    "certificates": 68,
+    "certificates": 72,
     "manualLinks": 160,
-    "autoLinks": 112,
-    "allLinks": 272
+    "autoLinks": 128,
+    "allLinks": 288
   },
   "items": {
     "air-conditioning-refrigeration-craftsman": [
@@ -70,6 +70,32 @@
       {
         "slug": "energy-management-craftsman",
         "source": "manual"
+      }
+    ],
+    "air-pollution-environmental-engineer": [
+      {
+        "slug": "water-pollution-environmental-engineer",
+        "tag": "같은 분야",
+        "source": "auto",
+        "score": 100
+      },
+      {
+        "slug": "waste-treatment-engineer",
+        "tag": "같은 분야",
+        "source": "auto",
+        "score": 100
+      },
+      {
+        "slug": "gas-engineer",
+        "tag": "가스 안전",
+        "source": "auto",
+        "score": 50
+      },
+      {
+        "slug": "construction-machinery-equipment-engineer",
+        "tag": "기계·설비",
+        "source": "auto",
+        "score": 50
       }
     ],
     "architectural-engineer": [
@@ -240,6 +266,32 @@
         "tag": "실내건축",
         "source": "auto",
         "score": 100
+      }
+    ],
+    "chemical-engineering-engineer": [
+      {
+        "slug": "gas-engineer",
+        "tag": "가스 안전",
+        "source": "auto",
+        "score": 50
+      },
+      {
+        "slug": "construction-machinery-equipment-engineer",
+        "tag": "기계·설비",
+        "source": "auto",
+        "score": 50
+      },
+      {
+        "slug": "construction-machinery-maintenance-engineer",
+        "tag": "건설기계 정비",
+        "source": "auto",
+        "score": 50
+      },
+      {
+        "slug": "construction-safety-engineer",
+        "tag": "건축·토목 공사현장의 안전관리 직무",
+        "source": "auto",
+        "score": 50
       }
     ],
     "civil-engineer": [
@@ -1440,6 +1492,58 @@
       {
         "slug": "construction-safety-industrial-engineer",
         "source": "manual"
+      }
+    ],
+    "waste-treatment-engineer": [
+      {
+        "slug": "air-pollution-environmental-engineer",
+        "tag": "같은 분야",
+        "source": "auto",
+        "score": 100
+      },
+      {
+        "slug": "water-pollution-environmental-engineer",
+        "tag": "같은 분야",
+        "source": "auto",
+        "score": 100
+      },
+      {
+        "slug": "gas-engineer",
+        "tag": "가스 안전",
+        "source": "auto",
+        "score": 50
+      },
+      {
+        "slug": "construction-machinery-equipment-engineer",
+        "tag": "기계·설비",
+        "source": "auto",
+        "score": 50
+      }
+    ],
+    "water-pollution-environmental-engineer": [
+      {
+        "slug": "air-pollution-environmental-engineer",
+        "tag": "같은 분야",
+        "source": "auto",
+        "score": 100
+      },
+      {
+        "slug": "waste-treatment-engineer",
+        "tag": "같은 분야",
+        "source": "auto",
+        "score": 100
+      },
+      {
+        "slug": "gas-engineer",
+        "tag": "가스 안전",
+        "source": "auto",
+        "score": 50
+      },
+      {
+        "slug": "construction-machinery-equipment-engineer",
+        "tag": "기계·설비",
+        "source": "auto",
+        "score": 50
       }
     ],
     "welding-craftsman": [
