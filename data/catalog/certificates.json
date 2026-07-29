@@ -527,5 +527,41 @@
     "category": "기계·자동차",
     "agency": "한국산업인력공단",
     "relatedTag": "자동차 정비"
+  },
+  "automotive-maintenance-industrial-engineer": {
+    "name": "자동차정비산업기사",
+    "shortName": "자동차정비산업기사",
+    "type": "national",
+    "licenseType": "국가기술자격 산업기사",
+    "category": "기계·자동차",
+    "agency": "한국산업인력공단",
+    "relatedTag": "자동차 정비"
+  },
+  "automotive-maintenance-craftsman": {
+    "name": "자동차정비기능사",
+    "shortName": "자동차정비기능사",
+    "type": "national",
+    "licenseType": "국가기술자격 기능사",
+    "category": "기계·자동차",
+    "agency": "한국산업인력공단",
+    "relatedTag": "자동차 입문"
+  },
+  "construction-machinery-maintenance-engineer": {
+    "name": "건설기계정비기사",
+    "shortName": "건설기계정비기사",
+    "type": "national",
+    "licenseType": "국가기술자격 기사",
+    "category": "기계·건설기계",
+    "agency": "한국산업인력공단",
+    "relatedTag": "건설기계 정비"
+  },
+  "construction-machinery-maintenance-industrial-engineer": {
+    "name": "건설기계정비산업기사",
+    "shortName": "건설기계정비산업기사",
+    "type": "national",
+    "licenseType": "국가기술자격 산업기사",
+    "category": "기계·건설기계",
+    "agency": "한국산업인력공단",
+    "relatedTag": "건설기계 정비"
   }
 }

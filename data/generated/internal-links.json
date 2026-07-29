@@ -1,12 +1,12 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-29T04:02:45.125Z",
+  "generatedAt": "2026-07-29T04:18:02.609Z",
   "maxRelatedPerCertificate": 4,
   "totals": {
-    "certificates": 57,
-    "manualLinks": 132,
+    "certificates": 61,
+    "manualLinks": 148,
     "autoLinks": 96,
-    "allLinks": 228
+    "allLinks": 244
   },
   "items": {
     "air-conditioning-refrigeration-craftsman": [
@@ -124,21 +124,57 @@
         "score": 85
       }
     ],
-    "automotive-maintenance-engineer": [
+    "automotive-maintenance-craftsman": [
       {
-        "slug": "general-mechanical-engineer",
+        "slug": "automotive-maintenance-industrial-engineer",
         "source": "manual"
       },
       {
-        "slug": "mechanical-design-engineer",
+        "slug": "automotive-maintenance-engineer",
+        "source": "manual"
+      },
+      {
+        "slug": "construction-machinery-maintenance-industrial-engineer",
         "source": "manual"
       },
       {
         "slug": "construction-machinery-equipment-engineer",
         "source": "manual"
+      }
+    ],
+    "automotive-maintenance-engineer": [
+      {
+        "slug": "automotive-maintenance-industrial-engineer",
+        "source": "manual"
       },
       {
-        "slug": "industrial-safety-engineer",
+        "slug": "automotive-maintenance-craftsman",
+        "source": "manual"
+      },
+      {
+        "slug": "general-mechanical-engineer",
+        "source": "manual"
+      },
+      {
+        "slug": "construction-machinery-equipment-engineer",
+        "source": "manual"
+      }
+    ],
+    "automotive-maintenance-industrial-engineer": [
+      {
+        "slug": "automotive-maintenance-engineer",
+        "source": "manual"
+      },
+      {
+        "slug": "automotive-maintenance-craftsman",
+        "source": "manual"
+      },
+      {
+        "slug": "construction-machinery-maintenance-engineer",
+        "source": "manual"
+      },
+      {
+        "slug": "general-mechanical-engineer",
         "source": "manual"
       }
     ],
@@ -374,6 +410,42 @@
       },
       {
         "slug": "air-conditioning-refrigeration-engineer",
+        "source": "manual"
+      }
+    ],
+    "construction-machinery-maintenance-engineer": [
+      {
+        "slug": "construction-machinery-maintenance-industrial-engineer",
+        "source": "manual"
+      },
+      {
+        "slug": "construction-machinery-equipment-engineer",
+        "source": "manual"
+      },
+      {
+        "slug": "automotive-maintenance-engineer",
+        "source": "manual"
+      },
+      {
+        "slug": "general-mechanical-engineer",
+        "source": "manual"
+      }
+    ],
+    "construction-machinery-maintenance-industrial-engineer": [
+      {
+        "slug": "construction-machinery-maintenance-engineer",
+        "source": "manual"
+      },
+      {
+        "slug": "construction-machinery-equipment-engineer",
+        "source": "manual"
+      },
+      {
+        "slug": "automotive-maintenance-industrial-engineer",
+        "source": "manual"
+      },
+      {
+        "slug": "automotive-maintenance-craftsman",
         "source": "manual"
       }
     ],
@@ -690,8 +762,8 @@
         "score": 50
       },
       {
-        "slug": "construction-safety-industrial-engineer",
-        "tag": "건설현장 안전관리 실무와 경력 확장",
+        "slug": "construction-machinery-maintenance-industrial-engineer",
+        "tag": "건설기계 정비",
         "source": "auto",
         "score": 50
       }

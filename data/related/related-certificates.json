@@ -422,9 +422,33 @@
     "construction-safety-industrial-engineer"
   ],
   "automotive-maintenance-engineer": [
+    "automotive-maintenance-industrial-engineer",
+    "automotive-maintenance-craftsman",
     "general-mechanical-engineer",
-    "mechanical-design-engineer",
+    "construction-machinery-equipment-engineer"
+  ],
+  "automotive-maintenance-industrial-engineer": [
+    "automotive-maintenance-engineer",
+    "automotive-maintenance-craftsman",
+    "construction-machinery-maintenance-engineer",
+    "general-mechanical-engineer"
+  ],
+  "automotive-maintenance-craftsman": [
+    "automotive-maintenance-industrial-engineer",
+    "automotive-maintenance-engineer",
+    "construction-machinery-maintenance-industrial-engineer",
+    "construction-machinery-equipment-engineer"
+  ],
+  "construction-machinery-maintenance-engineer": [
+    "construction-machinery-maintenance-industrial-engineer",
     "construction-machinery-equipment-engineer",
-    "industrial-safety-engineer"
+    "automotive-maintenance-engineer",
+    "general-mechanical-engineer"
+  ],
+  "construction-machinery-maintenance-industrial-engineer": [
+    "construction-machinery-maintenance-engineer",
+    "construction-machinery-equipment-engineer",
+    "automotive-maintenance-industrial-engineer",
+    "automotive-maintenance-craftsman"
   ]
 }

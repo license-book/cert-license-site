@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-29T04:02:44.578Z",
-  "total": 542,
+  "generatedAt": "2026-07-29T04:18:02.301Z",
+  "total": 578,
   "items": [
     {
       "label": "가스기능사",
@@ -282,6 +282,86 @@
       "href": "/certificates/construction-machinery-equipment-engineer",
       "type": "alias",
       "category": "기계·설비"
+    },
+    {
+      "label": "건설기계정비기사",
+      "value": "건설기계정비기사",
+      "slug": "construction-machinery-maintenance-engineer",
+      "href": "/certificates/construction-machinery-maintenance-engineer",
+      "type": "certificate",
+      "category": "기계·건설기계"
+    },
+    {
+      "label": "건설기계정비기사 시험과목",
+      "value": "건설기계정비기사 시험과목",
+      "slug": "construction-machinery-maintenance-engineer",
+      "href": "/certificates/construction-machinery-maintenance-engineer",
+      "type": "alias",
+      "category": "기계·건설기계"
+    },
+    {
+      "label": "건설기계정비기사 실기",
+      "value": "건설기계정비기사 실기",
+      "slug": "construction-machinery-maintenance-engineer",
+      "href": "/certificates/construction-machinery-maintenance-engineer",
+      "type": "alias",
+      "category": "기계·건설기계"
+    },
+    {
+      "label": "건설기계정비기사 응시자격",
+      "value": "건설기계정비기사 응시자격",
+      "slug": "construction-machinery-maintenance-engineer",
+      "href": "/certificates/construction-machinery-maintenance-engineer",
+      "type": "alias",
+      "category": "기계·건설기계"
+    },
+    {
+      "label": "건설기계정비기사 취업",
+      "value": "건설기계정비기사 취업",
+      "slug": "construction-machinery-maintenance-engineer",
+      "href": "/certificates/construction-machinery-maintenance-engineer",
+      "type": "alias",
+      "category": "기계·건설기계"
+    },
+    {
+      "label": "건설기계정비산업기사",
+      "value": "건설기계정비산업기사",
+      "slug": "construction-machinery-maintenance-industrial-engineer",
+      "href": "/certificates/construction-machinery-maintenance-industrial-engineer",
+      "type": "certificate",
+      "category": "기계·건설기계"
+    },
+    {
+      "label": "건설기계정비산업기사 시험과목",
+      "value": "건설기계정비산업기사 시험과목",
+      "slug": "construction-machinery-maintenance-industrial-engineer",
+      "href": "/certificates/construction-machinery-maintenance-industrial-engineer",
+      "type": "alias",
+      "category": "기계·건설기계"
+    },
+    {
+      "label": "건설기계정비산업기사 실기",
+      "value": "건설기계정비산업기사 실기",
+      "slug": "construction-machinery-maintenance-industrial-engineer",
+      "href": "/certificates/construction-machinery-maintenance-industrial-engineer",
+      "type": "alias",
+      "category": "기계·건설기계"
+    },
+    {
+      "label": "건설기계정비산업기사 응시자격",
+      "value": "건설기계정비산업기사 응시자격",
+      "slug": "construction-machinery-maintenance-industrial-engineer",
+      "href": "/certificates/construction-machinery-maintenance-industrial-engineer",
+      "type": "alias",
+      "category": "기계·건설기계"
+    },
+    {
+      "label": "건설기계정비산업기사 취업",
+      "value": "건설기계정비산업기사 취업",
+      "slug": "construction-machinery-maintenance-industrial-engineer",
+      "href": "/certificates/construction-machinery-maintenance-industrial-engineer",
+      "type": "alias",
+      "category": "기계·건설기계"
     },
     {
       "label": "건설안전기사",
@@ -782,6 +862,14 @@
     {
       "label": "국가기술자격 기능사",
       "value": "국가기술자격 기능사",
+      "slug": "automotive-maintenance-craftsman",
+      "href": "/certificates/automotive-maintenance-craftsman",
+      "type": "alias",
+      "category": "기계·자동차"
+    },
+    {
+      "label": "국가기술자격 기능사",
+      "value": "국가기술자격 기능사",
       "slug": "electric-craftsman",
       "href": "/certificates/electric-craftsman",
       "type": "alias",
@@ -810,6 +898,14 @@
       "href": "/certificates/construction-machinery-equipment-engineer",
       "type": "alias",
       "category": "기계·설비"
+    },
+    {
+      "label": "국가기술자격 기사",
+      "value": "국가기술자격 기사",
+      "slug": "construction-machinery-maintenance-engineer",
+      "href": "/certificates/construction-machinery-maintenance-engineer",
+      "type": "alias",
+      "category": "기계·건설기계"
     },
     {
       "label": "국가기술자격 기사",
@@ -974,6 +1070,14 @@
     {
       "label": "국가기술자격 산업기사",
       "value": "국가기술자격 산업기사",
+      "slug": "construction-machinery-maintenance-industrial-engineer",
+      "href": "/certificates/construction-machinery-maintenance-industrial-engineer",
+      "type": "alias",
+      "category": "기계·건설기계"
+    },
+    {
+      "label": "국가기술자격 산업기사",
+      "value": "국가기술자격 산업기사",
       "slug": "construction-safety-industrial-engineer",
       "href": "/certificates/construction-safety-industrial-engineer",
       "type": "alias",
@@ -1034,6 +1138,14 @@
       "href": "/certificates/energy-management-industrial-engineer",
       "type": "alias",
       "category": "에너지·설비"
+    },
+    {
+      "label": "국가기술자격 산업기사",
+      "value": "국가기술자격 산업기사",
+      "slug": "automotive-maintenance-industrial-engineer",
+      "href": "/certificates/automotive-maintenance-industrial-engineer",
+      "type": "alias",
+      "category": "기계·자동차"
     },
     {
       "label": "국가기술자격 산업기사",
@@ -1108,6 +1220,22 @@
       "category": "기계"
     },
     {
+      "label": "기계·건설기계",
+      "value": "기계·건설기계",
+      "slug": "construction-machinery-maintenance-engineer",
+      "href": "/certificates/construction-machinery-maintenance-engineer",
+      "type": "alias",
+      "category": "기계·건설기계"
+    },
+    {
+      "label": "기계·건설기계",
+      "value": "기계·건설기계",
+      "slug": "construction-machinery-maintenance-industrial-engineer",
+      "href": "/certificates/construction-machinery-maintenance-industrial-engineer",
+      "type": "alias",
+      "category": "기계·건설기계"
+    },
+    {
       "label": "기계·금속",
       "value": "기계·금속",
       "slug": "welding-craftsman",
@@ -1150,8 +1278,24 @@
     {
       "label": "기계·자동차",
       "value": "기계·자동차",
+      "slug": "automotive-maintenance-craftsman",
+      "href": "/certificates/automotive-maintenance-craftsman",
+      "type": "alias",
+      "category": "기계·자동차"
+    },
+    {
+      "label": "기계·자동차",
+      "value": "기계·자동차",
       "slug": "automotive-maintenance-engineer",
       "href": "/certificates/automotive-maintenance-engineer",
+      "type": "alias",
+      "category": "기계·자동차"
+    },
+    {
+      "label": "기계·자동차",
+      "value": "기계·자동차",
+      "slug": "automotive-maintenance-industrial-engineer",
+      "href": "/certificates/automotive-maintenance-industrial-engineer",
       "type": "alias",
       "category": "기계·자동차"
     },
@@ -2212,6 +2356,46 @@
       "category": "기계"
     },
     {
+      "label": "자동차정비기능사",
+      "value": "자동차정비기능사",
+      "slug": "automotive-maintenance-craftsman",
+      "href": "/certificates/automotive-maintenance-craftsman",
+      "type": "certificate",
+      "category": "기계·자동차"
+    },
+    {
+      "label": "자동차정비기능사 공부방법",
+      "value": "자동차정비기능사 공부방법",
+      "slug": "automotive-maintenance-craftsman",
+      "href": "/certificates/automotive-maintenance-craftsman",
+      "type": "alias",
+      "category": "기계·자동차"
+    },
+    {
+      "label": "자동차정비기능사 난이도",
+      "value": "자동차정비기능사 난이도",
+      "slug": "automotive-maintenance-craftsman",
+      "href": "/certificates/automotive-maintenance-craftsman",
+      "type": "alias",
+      "category": "기계·자동차"
+    },
+    {
+      "label": "자동차정비기능사 시험과목",
+      "value": "자동차정비기능사 시험과목",
+      "slug": "automotive-maintenance-craftsman",
+      "href": "/certificates/automotive-maintenance-craftsman",
+      "type": "alias",
+      "category": "기계·자동차"
+    },
+    {
+      "label": "자동차정비기능사 응시자격",
+      "value": "자동차정비기능사 응시자격",
+      "slug": "automotive-maintenance-craftsman",
+      "href": "/certificates/automotive-maintenance-craftsman",
+      "type": "alias",
+      "category": "기계·자동차"
+    },
+    {
       "label": "자동차정비기사",
       "value": "자동차정비기사",
       "slug": "automotive-maintenance-engineer",
@@ -2248,6 +2432,46 @@
       "value": "자동차정비기사 응시자격",
       "slug": "automotive-maintenance-engineer",
       "href": "/certificates/automotive-maintenance-engineer",
+      "type": "alias",
+      "category": "기계·자동차"
+    },
+    {
+      "label": "자동차정비산업기사",
+      "value": "자동차정비산업기사",
+      "slug": "automotive-maintenance-industrial-engineer",
+      "href": "/certificates/automotive-maintenance-industrial-engineer",
+      "type": "certificate",
+      "category": "기계·자동차"
+    },
+    {
+      "label": "자동차정비산업기사 공부방법",
+      "value": "자동차정비산업기사 공부방법",
+      "slug": "automotive-maintenance-industrial-engineer",
+      "href": "/certificates/automotive-maintenance-industrial-engineer",
+      "type": "alias",
+      "category": "기계·자동차"
+    },
+    {
+      "label": "자동차정비산업기사 난이도",
+      "value": "자동차정비산업기사 난이도",
+      "slug": "automotive-maintenance-industrial-engineer",
+      "href": "/certificates/automotive-maintenance-industrial-engineer",
+      "type": "alias",
+      "category": "기계·자동차"
+    },
+    {
+      "label": "자동차정비산업기사 시험과목",
+      "value": "자동차정비산업기사 시험과목",
+      "slug": "automotive-maintenance-industrial-engineer",
+      "href": "/certificates/automotive-maintenance-industrial-engineer",
+      "type": "alias",
+      "category": "기계·자동차"
+    },
+    {
+      "label": "자동차정비산업기사 응시자격",
+      "value": "자동차정비산업기사 응시자격",
+      "slug": "automotive-maintenance-industrial-engineer",
+      "href": "/certificates/automotive-maintenance-industrial-engineer",
       "type": "alias",
       "category": "기계·자동차"
     },
@@ -3398,6 +3622,22 @@
     {
       "label": "한국산업인력공단",
       "value": "한국산업인력공단",
+      "slug": "construction-machinery-maintenance-engineer",
+      "href": "/certificates/construction-machinery-maintenance-engineer",
+      "type": "alias",
+      "category": "기계·건설기계"
+    },
+    {
+      "label": "한국산업인력공단",
+      "value": "한국산업인력공단",
+      "slug": "construction-machinery-maintenance-industrial-engineer",
+      "href": "/certificates/construction-machinery-maintenance-industrial-engineer",
+      "type": "alias",
+      "category": "기계·건설기계"
+    },
+    {
+      "label": "한국산업인력공단",
+      "value": "한국산업인력공단",
       "slug": "construction-safety-engineer",
       "href": "/certificates/construction-safety-engineer",
       "type": "alias",
@@ -3598,8 +3838,24 @@
     {
       "label": "한국산업인력공단",
       "value": "한국산업인력공단",
+      "slug": "automotive-maintenance-craftsman",
+      "href": "/certificates/automotive-maintenance-craftsman",
+      "type": "alias",
+      "category": "기계·자동차"
+    },
+    {
+      "label": "한국산업인력공단",
+      "value": "한국산업인력공단",
       "slug": "automotive-maintenance-engineer",
       "href": "/certificates/automotive-maintenance-engineer",
+      "type": "alias",
+      "category": "기계·자동차"
+    },
+    {
+      "label": "한국산업인력공단",
+      "value": "한국산업인력공단",
+      "slug": "automotive-maintenance-industrial-engineer",
+      "href": "/certificates/automotive-maintenance-industrial-engineer",
       "type": "alias",
       "category": "기계·자동차"
     },
@@ -3844,10 +4100,26 @@
       "category": "건설·건축"
     },
     {
+      "label": "automotive-maintenance-craftsman",
+      "value": "automotive-maintenance-craftsman",
+      "slug": "automotive-maintenance-craftsman",
+      "href": "/certificates/automotive-maintenance-craftsman",
+      "type": "alias",
+      "category": "기계·자동차"
+    },
+    {
       "label": "automotive-maintenance-engineer",
       "value": "automotive-maintenance-engineer",
       "slug": "automotive-maintenance-engineer",
       "href": "/certificates/automotive-maintenance-engineer",
+      "type": "alias",
+      "category": "기계·자동차"
+    },
+    {
+      "label": "automotive-maintenance-industrial-engineer",
+      "value": "automotive-maintenance-industrial-engineer",
+      "slug": "automotive-maintenance-industrial-engineer",
+      "href": "/certificates/automotive-maintenance-industrial-engineer",
       "type": "alias",
       "category": "기계·자동차"
     },
@@ -3938,6 +4210,22 @@
       "href": "/certificates/construction-machinery-equipment-engineer",
       "type": "alias",
       "category": "기계·설비"
+    },
+    {
+      "label": "construction-machinery-maintenance-engineer",
+      "value": "construction-machinery-maintenance-engineer",
+      "slug": "construction-machinery-maintenance-engineer",
+      "href": "/certificates/construction-machinery-maintenance-engineer",
+      "type": "alias",
+      "category": "기계·건설기계"
+    },
+    {
+      "label": "construction-machinery-maintenance-industrial-engineer",
+      "value": "construction-machinery-maintenance-industrial-engineer",
+      "slug": "construction-machinery-maintenance-industrial-engineer",
+      "href": "/certificates/construction-machinery-maintenance-industrial-engineer",
+      "type": "alias",
+      "category": "기계·건설기계"
     },
     {
       "label": "construction-safety-engineer",
