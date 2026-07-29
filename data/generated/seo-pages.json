@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-29T01:37:41.303Z",
-  "total": 25,
+  "generatedAt": "2026-07-29T02:04:20.912Z",
+  "total": 29,
   "items": [
     {
       "slug": "air-conditioning-refrigeration-craftsman",
@@ -84,6 +84,34 @@
       "category": "건설·건축",
       "agency": "한국산업인력공단",
       "lastModified": "2026-07-28"
+    },
+    {
+      "slug": "broadcast-communication-engineer",
+      "name": "방송통신기사",
+      "shortName": "방송통신기사",
+      "title": "방송통신기사 응시자격·시험과목·난이도·공부방법 | 라북",
+      "description": "방송통신기사의 응시자격, 시험과목, 현실 난이도, 준비기간, 실기 준비방법과 활용 분야를 확인하세요.",
+      "keywords": [
+        "방송통신기사",
+        "방송통신기사 응시자격",
+        "방송통신기사 시험과목",
+        "방송통신기사 난이도",
+        "방송통신기사 공부방법",
+        "방송통신기사 취업",
+        "방송통신기사 시험",
+        "방송통신기사 합격률",
+        "방송통신기사 공부기간",
+        "정보통신",
+        "국가기술자격 기사",
+        "한국방송통신전파진흥원"
+      ],
+      "image": "/images/hero/broadcast-communication-engineer.webp",
+      "path": "/cert/broadcast-communication-engineer",
+      "type": "national",
+      "licenseType": "국가기술자격 기사",
+      "category": "정보통신",
+      "agency": "한국방송통신전파진흥원",
+      "lastModified": "2026-07-29"
     },
     {
       "slug": "computer-specialist-1",
@@ -357,6 +385,34 @@
       "lastModified": "2026-07-29"
     },
     {
+      "slug": "electronic-craftsman",
+      "name": "전자기능사",
+      "shortName": "전자기능사",
+      "title": "전자기능사 응시자격·시험과목·난이도·공부방법 | 라북",
+      "description": "전자기능사의 응시자격, 시험과목, 현실 난이도, 준비기간, 실기 준비방법과 활용 분야를 확인하세요.",
+      "keywords": [
+        "전자기능사",
+        "전자기능사 응시자격",
+        "전자기능사 시험과목",
+        "전자기능사 난이도",
+        "전자기능사 공부방법",
+        "전자기능사 취업",
+        "전자기능사 시험",
+        "전자기능사 합격률",
+        "전자기능사 공부기간",
+        "전기·전자",
+        "국가기술자격 기능사",
+        "한국산업인력공단"
+      ],
+      "image": "/images/hero/electronic-craftsman.webp",
+      "path": "/cert/electronic-craftsman",
+      "type": "national",
+      "licenseType": "국가기술자격 기능사",
+      "category": "전기·전자",
+      "agency": "한국산업인력공단",
+      "lastModified": "2026-07-29"
+    },
+    {
       "slug": "electronics-engineer",
       "name": "전자기사",
       "shortName": "전자기사",
@@ -491,6 +547,34 @@
       "lastModified": "2026-07-28"
     },
     {
+      "slug": "information-communication-engineer",
+      "name": "정보통신기사",
+      "shortName": "정보통신기사",
+      "title": "정보통신기사 응시자격·시험과목·난이도·공부방법 | 라북",
+      "description": "정보통신기사의 응시자격, 시험과목, 현실 난이도, 준비기간, 실기 준비방법과 활용 분야를 확인하세요.",
+      "keywords": [
+        "정보통신기사",
+        "정보통신기사 응시자격",
+        "정보통신기사 시험과목",
+        "정보통신기사 난이도",
+        "정보통신기사 공부방법",
+        "정보통신기사 취업",
+        "정보통신기사 시험",
+        "정보통신기사 합격률",
+        "정보통신기사 공부기간",
+        "정보통신",
+        "국가기술자격 기사",
+        "한국방송통신전파진흥원"
+      ],
+      "image": "/images/hero/information-communication-engineer.webp",
+      "path": "/cert/information-communication-engineer",
+      "type": "national",
+      "licenseType": "국가기술자격 기사",
+      "category": "정보통신",
+      "agency": "한국방송통신전파진흥원",
+      "lastModified": "2026-07-29"
+    },
+    {
       "slug": "information-processing-engineer",
       "name": "정보처리기사",
       "shortName": "정처기",
@@ -620,6 +704,34 @@
       "category": "IT·사무",
       "agency": "한국산업인력공단",
       "lastModified": "2026-07-28"
+    },
+    {
+      "slug": "radio-electronic-communication-engineer",
+      "name": "전파전자통신기사",
+      "shortName": "전파전자통신기사",
+      "title": "전파전자통신기사 응시자격·시험과목·난이도·공부방법 | 라북",
+      "description": "전파전자통신기사의 응시자격, 시험과목, 현실 난이도, 준비기간, 실기 준비방법과 활용 분야를 확인하세요.",
+      "keywords": [
+        "전파전자통신기사",
+        "전파전자통신기사 응시자격",
+        "전파전자통신기사 시험과목",
+        "전파전자통신기사 난이도",
+        "전파전자통신기사 공부방법",
+        "전파전자통신기사 취업",
+        "전파전자통신기사 시험",
+        "전파전자통신기사 합격률",
+        "전파전자통신기사 공부기간",
+        "정보통신",
+        "국가기술자격 기사",
+        "한국방송통신전파진흥원"
+      ],
+      "image": "/images/hero/radio-electronic-communication-engineer.webp",
+      "path": "/cert/radio-electronic-communication-engineer",
+      "type": "national",
+      "licenseType": "국가기술자격 기사",
+      "category": "정보통신",
+      "agency": "한국방송통신전파진흥원",
+      "lastModified": "2026-07-29"
     },
     {
       "slug": "welding-craftsman",

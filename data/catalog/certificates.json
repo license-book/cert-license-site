@@ -239,5 +239,41 @@
     "category": "전기·전자",
     "agency": "한국산업인력공단",
     "relatedTag": "전기·전자"
+  },
+  "electronic-craftsman": {
+    "name": "전자기능사",
+    "shortName": "전자기능사",
+    "type": "national",
+    "licenseType": "국가기술자격 기능사",
+    "category": "전기·전자",
+    "agency": "한국산업인력공단",
+    "relatedTag": "전자 입문"
+  },
+  "radio-electronic-communication-engineer": {
+    "name": "전파전자통신기사",
+    "shortName": "전파전자통신기사",
+    "type": "national",
+    "licenseType": "국가기술자격 기사",
+    "category": "정보통신",
+    "agency": "한국방송통신전파진흥원",
+    "relatedTag": "무선·전파"
+  },
+  "broadcast-communication-engineer": {
+    "name": "방송통신기사",
+    "shortName": "방송통신기사",
+    "type": "national",
+    "licenseType": "국가기술자격 기사",
+    "category": "정보통신",
+    "agency": "한국방송통신전파진흥원",
+    "relatedTag": "방송설비"
+  },
+  "information-communication-engineer": {
+    "name": "정보통신기사",
+    "shortName": "정보통신기사",
+    "type": "national",
+    "licenseType": "국가기술자격 기사",
+    "category": "정보통신",
+    "agency": "한국방송통신전파진흥원",
+    "relatedTag": "통신망"
   }
 }

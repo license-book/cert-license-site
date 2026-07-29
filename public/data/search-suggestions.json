@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-29T01:37:40.489Z",
-  "total": 227,
+  "generatedAt": "2026-07-29T02:04:20.070Z",
+  "total": 267,
   "items": [
     {
       "label": "개발자 자격증",
@@ -292,6 +292,22 @@
       "category": "전기·전자"
     },
     {
+      "label": "국가기술자격 기능사",
+      "value": "국가기술자격 기능사",
+      "slug": "electronic-craftsman",
+      "href": "/certificates/electronic-craftsman",
+      "type": "alias",
+      "category": "전기·전자"
+    },
+    {
+      "label": "국가기술자격 기사",
+      "value": "국가기술자격 기사",
+      "slug": "broadcast-communication-engineer",
+      "href": "/certificates/broadcast-communication-engineer",
+      "type": "alias",
+      "category": "정보통신"
+    },
+    {
       "label": "국가기술자격 기사",
       "value": "국가기술자격 기사",
       "slug": "electrical-construction-engineer",
@@ -310,6 +326,14 @@
     {
       "label": "국가기술자격 기사",
       "value": "국가기술자격 기사",
+      "slug": "radio-electronic-communication-engineer",
+      "href": "/certificates/radio-electronic-communication-engineer",
+      "type": "alias",
+      "category": "정보통신"
+    },
+    {
+      "label": "국가기술자격 기사",
+      "value": "국가기술자격 기사",
       "slug": "information-security-engineer",
       "href": "/certificates/information-security-engineer",
       "type": "alias",
@@ -322,6 +346,14 @@
       "href": "/certificates/information-processing-engineer",
       "type": "alias",
       "category": "IT·개발"
+    },
+    {
+      "label": "국가기술자격 기사",
+      "value": "국가기술자격 기사",
+      "slug": "information-communication-engineer",
+      "href": "/certificates/information-communication-engineer",
+      "type": "alias",
+      "category": "정보통신"
     },
     {
       "label": "국가기술자격 산업기사",
@@ -410,6 +442,54 @@
       "href": "/certificates/word-processor",
       "type": "alias",
       "category": "IT·사무"
+    },
+    {
+      "label": "방송통신기사",
+      "value": "방송통신기사",
+      "slug": "broadcast-communication-engineer",
+      "href": "/certificates/broadcast-communication-engineer",
+      "type": "certificate",
+      "category": "정보통신"
+    },
+    {
+      "label": "방송통신기사 공부방법",
+      "value": "방송통신기사 공부방법",
+      "slug": "broadcast-communication-engineer",
+      "href": "/certificates/broadcast-communication-engineer",
+      "type": "alias",
+      "category": "정보통신"
+    },
+    {
+      "label": "방송통신기사 난이도",
+      "value": "방송통신기사 난이도",
+      "slug": "broadcast-communication-engineer",
+      "href": "/certificates/broadcast-communication-engineer",
+      "type": "alias",
+      "category": "정보통신"
+    },
+    {
+      "label": "방송통신기사 시험과목",
+      "value": "방송통신기사 시험과목",
+      "slug": "broadcast-communication-engineer",
+      "href": "/certificates/broadcast-communication-engineer",
+      "type": "alias",
+      "category": "정보통신"
+    },
+    {
+      "label": "방송통신기사 응시자격",
+      "value": "방송통신기사 응시자격",
+      "slug": "broadcast-communication-engineer",
+      "href": "/certificates/broadcast-communication-engineer",
+      "type": "alias",
+      "category": "정보통신"
+    },
+    {
+      "label": "방송통신기사 취업",
+      "value": "방송통신기사 취업",
+      "slug": "broadcast-communication-engineer",
+      "href": "/certificates/broadcast-communication-engineer",
+      "type": "alias",
+      "category": "정보통신"
     },
     {
       "label": "사무 자격증",
@@ -712,6 +792,14 @@
       "value": "전기·전자",
       "slug": "electric-industrial-engineer",
       "href": "/certificates/electric-industrial-engineer",
+      "type": "alias",
+      "category": "전기·전자"
+    },
+    {
+      "label": "전기·전자",
+      "value": "전기·전자",
+      "slug": "electronic-craftsman",
+      "href": "/certificates/electronic-craftsman",
       "type": "alias",
       "category": "전기·전자"
     },
@@ -1068,6 +1156,54 @@
       "category": "회계·세무"
     },
     {
+      "label": "전자기능사",
+      "value": "전자기능사",
+      "slug": "electronic-craftsman",
+      "href": "/certificates/electronic-craftsman",
+      "type": "certificate",
+      "category": "전기·전자"
+    },
+    {
+      "label": "전자기능사 공부방법",
+      "value": "전자기능사 공부방법",
+      "slug": "electronic-craftsman",
+      "href": "/certificates/electronic-craftsman",
+      "type": "alias",
+      "category": "전기·전자"
+    },
+    {
+      "label": "전자기능사 난이도",
+      "value": "전자기능사 난이도",
+      "slug": "electronic-craftsman",
+      "href": "/certificates/electronic-craftsman",
+      "type": "alias",
+      "category": "전기·전자"
+    },
+    {
+      "label": "전자기능사 시험과목",
+      "value": "전자기능사 시험과목",
+      "slug": "electronic-craftsman",
+      "href": "/certificates/electronic-craftsman",
+      "type": "alias",
+      "category": "전기·전자"
+    },
+    {
+      "label": "전자기능사 응시자격",
+      "value": "전자기능사 응시자격",
+      "slug": "electronic-craftsman",
+      "href": "/certificates/electronic-craftsman",
+      "type": "alias",
+      "category": "전기·전자"
+    },
+    {
+      "label": "전자기능사 취업",
+      "value": "전자기능사 취업",
+      "slug": "electronic-craftsman",
+      "href": "/certificates/electronic-craftsman",
+      "type": "alias",
+      "category": "전기·전자"
+    },
+    {
       "label": "전자기사",
       "value": "전자기사",
       "slug": "electronics-engineer",
@@ -1162,6 +1298,54 @@
       "href": "/certificates/electronics-industrial-engineer",
       "type": "alias",
       "category": "전기·전자"
+    },
+    {
+      "label": "전파전자통신기사",
+      "value": "전파전자통신기사",
+      "slug": "radio-electronic-communication-engineer",
+      "href": "/certificates/radio-electronic-communication-engineer",
+      "type": "certificate",
+      "category": "정보통신"
+    },
+    {
+      "label": "전파전자통신기사 공부방법",
+      "value": "전파전자통신기사 공부방법",
+      "slug": "radio-electronic-communication-engineer",
+      "href": "/certificates/radio-electronic-communication-engineer",
+      "type": "alias",
+      "category": "정보통신"
+    },
+    {
+      "label": "전파전자통신기사 난이도",
+      "value": "전파전자통신기사 난이도",
+      "slug": "radio-electronic-communication-engineer",
+      "href": "/certificates/radio-electronic-communication-engineer",
+      "type": "alias",
+      "category": "정보통신"
+    },
+    {
+      "label": "전파전자통신기사 시험과목",
+      "value": "전파전자통신기사 시험과목",
+      "slug": "radio-electronic-communication-engineer",
+      "href": "/certificates/radio-electronic-communication-engineer",
+      "type": "alias",
+      "category": "정보통신"
+    },
+    {
+      "label": "전파전자통신기사 응시자격",
+      "value": "전파전자통신기사 응시자격",
+      "slug": "radio-electronic-communication-engineer",
+      "href": "/certificates/radio-electronic-communication-engineer",
+      "type": "alias",
+      "category": "정보통신"
+    },
+    {
+      "label": "전파전자통신기사 취업",
+      "value": "전파전자통신기사 취업",
+      "slug": "radio-electronic-communication-engineer",
+      "href": "/certificates/radio-electronic-communication-engineer",
+      "type": "alias",
+      "category": "정보통신"
     },
     {
       "label": "정보보안기사",
@@ -1260,6 +1444,78 @@
       "category": "IT·개발"
     },
     {
+      "label": "정보통신",
+      "value": "정보통신",
+      "slug": "broadcast-communication-engineer",
+      "href": "/certificates/broadcast-communication-engineer",
+      "type": "alias",
+      "category": "정보통신"
+    },
+    {
+      "label": "정보통신",
+      "value": "정보통신",
+      "slug": "radio-electronic-communication-engineer",
+      "href": "/certificates/radio-electronic-communication-engineer",
+      "type": "alias",
+      "category": "정보통신"
+    },
+    {
+      "label": "정보통신",
+      "value": "정보통신",
+      "slug": "information-communication-engineer",
+      "href": "/certificates/information-communication-engineer",
+      "type": "alias",
+      "category": "정보통신"
+    },
+    {
+      "label": "정보통신기사",
+      "value": "정보통신기사",
+      "slug": "information-communication-engineer",
+      "href": "/certificates/information-communication-engineer",
+      "type": "certificate",
+      "category": "정보통신"
+    },
+    {
+      "label": "정보통신기사 공부방법",
+      "value": "정보통신기사 공부방법",
+      "slug": "information-communication-engineer",
+      "href": "/certificates/information-communication-engineer",
+      "type": "alias",
+      "category": "정보통신"
+    },
+    {
+      "label": "정보통신기사 난이도",
+      "value": "정보통신기사 난이도",
+      "slug": "information-communication-engineer",
+      "href": "/certificates/information-communication-engineer",
+      "type": "alias",
+      "category": "정보통신"
+    },
+    {
+      "label": "정보통신기사 시험과목",
+      "value": "정보통신기사 시험과목",
+      "slug": "information-communication-engineer",
+      "href": "/certificates/information-communication-engineer",
+      "type": "alias",
+      "category": "정보통신"
+    },
+    {
+      "label": "정보통신기사 응시자격",
+      "value": "정보통신기사 응시자격",
+      "slug": "information-communication-engineer",
+      "href": "/certificates/information-communication-engineer",
+      "type": "alias",
+      "category": "정보통신"
+    },
+    {
+      "label": "정보통신기사 취업",
+      "value": "정보통신기사 취업",
+      "slug": "information-communication-engineer",
+      "href": "/certificates/information-communication-engineer",
+      "type": "alias",
+      "category": "정보통신"
+    },
+    {
       "label": "정처기",
       "value": "정처기",
       "slug": "information-processing-engineer",
@@ -1334,6 +1590,22 @@
     {
       "label": "한국방송통신전파진흥원",
       "value": "한국방송통신전파진흥원",
+      "slug": "broadcast-communication-engineer",
+      "href": "/certificates/broadcast-communication-engineer",
+      "type": "alias",
+      "category": "정보통신"
+    },
+    {
+      "label": "한국방송통신전파진흥원",
+      "value": "한국방송통신전파진흥원",
+      "slug": "radio-electronic-communication-engineer",
+      "href": "/certificates/radio-electronic-communication-engineer",
+      "type": "alias",
+      "category": "정보통신"
+    },
+    {
+      "label": "한국방송통신전파진흥원",
+      "value": "한국방송통신전파진흥원",
       "slug": "information-security-engineer",
       "href": "/certificates/information-security-engineer",
       "type": "alias",
@@ -1346,6 +1618,14 @@
       "href": "/certificates/information-security-industrial-engineer",
       "type": "alias",
       "category": "IT·보안"
+    },
+    {
+      "label": "한국방송통신전파진흥원",
+      "value": "한국방송통신전파진흥원",
+      "slug": "information-communication-engineer",
+      "href": "/certificates/information-communication-engineer",
+      "type": "alias",
+      "category": "정보통신"
     },
     {
       "label": "한국산업인력공단",
@@ -1448,6 +1728,14 @@
       "value": "한국산업인력공단",
       "slug": "electric-industrial-engineer",
       "href": "/certificates/electric-industrial-engineer",
+      "type": "alias",
+      "category": "전기·전자"
+    },
+    {
+      "label": "한국산업인력공단",
+      "value": "한국산업인력공단",
+      "slug": "electronic-craftsman",
+      "href": "/certificates/electronic-craftsman",
       "type": "alias",
       "category": "전기·전자"
     },
@@ -1564,6 +1852,14 @@
       "category": "건설·건축"
     },
     {
+      "label": "broadcast-communication-engineer",
+      "value": "broadcast-communication-engineer",
+      "slug": "broadcast-communication-engineer",
+      "href": "/certificates/broadcast-communication-engineer",
+      "type": "alias",
+      "category": "정보통신"
+    },
+    {
       "label": "computer-specialist-1",
       "value": "computer-specialist-1",
       "slug": "computer-specialist-1",
@@ -1644,6 +1940,14 @@
       "category": "전기·전자"
     },
     {
+      "label": "electronic-craftsman",
+      "value": "electronic-craftsman",
+      "slug": "electronic-craftsman",
+      "href": "/certificates/electronic-craftsman",
+      "type": "alias",
+      "category": "전기·전자"
+    },
+    {
       "label": "electronics-engineer",
       "value": "electronics-engineer",
       "slug": "electronics-engineer",
@@ -1682,6 +1986,14 @@
       "href": "/certificates/industrial-safety-engineer",
       "type": "alias",
       "category": "안전관리"
+    },
+    {
+      "label": "information-communication-engineer",
+      "value": "information-communication-engineer",
+      "slug": "information-communication-engineer",
+      "href": "/certificates/information-communication-engineer",
+      "type": "alias",
+      "category": "정보통신"
     },
     {
       "label": "information-processing-engineer",
@@ -1802,6 +2114,14 @@
       "href": "/certificates/office-automation-industrial-engineer",
       "type": "alias",
       "category": "IT·사무"
+    },
+    {
+      "label": "radio-electronic-communication-engineer",
+      "value": "radio-electronic-communication-engineer",
+      "slug": "radio-electronic-communication-engineer",
+      "href": "/certificates/radio-electronic-communication-engineer",
+      "type": "alias",
+      "category": "정보통신"
     },
     {
       "label": "welding-craftsman",

@@ -228,5 +228,61 @@
       "slug": "industrial-safety-engineer",
       "reason": "현장 안전관리 연계"
     }
+  ],
+  "electronic-craftsman": [
+    {
+      "slug": "electronics-industrial-engineer",
+      "reason": "상위 전자 자격"
+    },
+    {
+      "slug": "electronics-engineer",
+      "reason": "기사 단계 확장"
+    },
+    {
+      "slug": "electric-craftsman",
+      "reason": "전기·전자 기초 연계"
+    }
+  ],
+  "radio-electronic-communication-engineer": [
+    {
+      "slug": "broadcast-communication-engineer",
+      "reason": "방송·전파 분야 연계"
+    },
+    {
+      "slug": "information-communication-engineer",
+      "reason": "정보통신망 분야 연계"
+    },
+    {
+      "slug": "electronics-engineer",
+      "reason": "전자회로 기반 연계"
+    }
+  ],
+  "broadcast-communication-engineer": [
+    {
+      "slug": "radio-electronic-communication-engineer",
+      "reason": "전파통신 분야 연계"
+    },
+    {
+      "slug": "information-communication-engineer",
+      "reason": "정보통신망 분야 연계"
+    },
+    {
+      "slug": "electronics-engineer",
+      "reason": "전자기술 기반 연계"
+    }
+  ],
+  "information-communication-engineer": [
+    {
+      "slug": "radio-electronic-communication-engineer",
+      "reason": "무선·전파 분야 연계"
+    },
+    {
+      "slug": "broadcast-communication-engineer",
+      "reason": "방송통신 분야 연계"
+    },
+    {
+      "slug": "information-security-engineer",
+      "reason": "통신보안 분야 연계"
+    }
   ]
 }

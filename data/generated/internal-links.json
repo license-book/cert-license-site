@@ -1,12 +1,12 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-29T01:37:40.915Z",
+  "generatedAt": "2026-07-29T02:04:20.520Z",
   "maxRelatedPerCertificate": 4,
   "totals": {
-    "certificates": 25,
-    "manualLinks": 60,
-    "autoLinks": 40,
-    "allLinks": 100
+    "certificates": 29,
+    "manualLinks": 72,
+    "autoLinks": 44,
+    "allLinks": 116
   },
   "items": {
     "air-conditioning-refrigeration-craftsman": [
@@ -80,6 +80,29 @@
       {
         "slug": "electric-engineer",
         "tag": "전기 분야",
+        "source": "auto",
+        "score": 50
+      }
+    ],
+    "broadcast-communication-engineer": [
+      {
+        "slug": "radio-electronic-communication-engineer",
+        "reason": "전파통신 분야 연계",
+        "source": "manual"
+      },
+      {
+        "slug": "information-communication-engineer",
+        "reason": "정보통신망 분야 연계",
+        "source": "manual"
+      },
+      {
+        "slug": "electronics-engineer",
+        "reason": "전자기술 기반 연계",
+        "source": "manual"
+      },
+      {
+        "slug": "information-security-engineer",
+        "tag": "IT·보안",
         "source": "auto",
         "score": 50
       }
@@ -213,10 +236,10 @@
         "source": "manual"
       },
       {
-        "slug": "electrical-construction-engineer",
-        "tag": "전기·전자",
+        "slug": "electronic-craftsman",
+        "tag": "전자 입문",
         "source": "auto",
-        "score": 85
+        "score": 100
       }
     ],
     "electric-engineer": [
@@ -317,6 +340,29 @@
       {
         "slug": "electric-engineer",
         "tag": "전기 분야",
+        "source": "auto",
+        "score": 85
+      }
+    ],
+    "electronic-craftsman": [
+      {
+        "slug": "electronics-industrial-engineer",
+        "reason": "상위 전자 자격",
+        "source": "manual"
+      },
+      {
+        "slug": "electronics-engineer",
+        "reason": "기사 단계 확장",
+        "source": "manual"
+      },
+      {
+        "slug": "electric-craftsman",
+        "reason": "전기·전자 기초 연계",
+        "source": "manual"
+      },
+      {
+        "slug": "electrical-construction-engineer",
+        "tag": "전기·전자",
         "source": "auto",
         "score": 85
       }
@@ -446,6 +492,29 @@
         "score": 50
       }
     ],
+    "information-communication-engineer": [
+      {
+        "slug": "radio-electronic-communication-engineer",
+        "reason": "무선·전파 분야 연계",
+        "source": "manual"
+      },
+      {
+        "slug": "broadcast-communication-engineer",
+        "reason": "방송통신 분야 연계",
+        "source": "manual"
+      },
+      {
+        "slug": "information-security-engineer",
+        "reason": "통신보안 분야 연계",
+        "source": "manual"
+      },
+      {
+        "slug": "electrical-construction-engineer",
+        "tag": "전기·전자",
+        "source": "auto",
+        "score": 40
+      }
+    ],
     "information-processing-engineer": [
       {
         "slug": "information-processing-industrial-engineer",
@@ -538,6 +607,29 @@
       {
         "slug": "computer-specialist-2",
         "source": "manual"
+      }
+    ],
+    "radio-electronic-communication-engineer": [
+      {
+        "slug": "broadcast-communication-engineer",
+        "reason": "방송·전파 분야 연계",
+        "source": "manual"
+      },
+      {
+        "slug": "information-communication-engineer",
+        "reason": "정보통신망 분야 연계",
+        "source": "manual"
+      },
+      {
+        "slug": "electronics-engineer",
+        "reason": "전자회로 기반 연계",
+        "source": "manual"
+      },
+      {
+        "slug": "information-security-engineer",
+        "tag": "IT·보안",
+        "source": "auto",
+        "score": 50
       }
     ],
     "welding-craftsman": [
