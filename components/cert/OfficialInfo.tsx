@@ -9,7 +9,8 @@ type OfficialInfoData = {
   }[];
   importantNotice?: string[];
   buttons?: {
-    title: string;
+    title?: string;
+    label?: string;
     url: string;
   }[];
 };
@@ -118,13 +119,16 @@ export default function OfficialInfo({
           {data?.buttons?.length ? (
             <div className="mt-5 flex flex-wrap gap-3">
               {data.buttons.map((button, index) => {
+                const buttonTitle =
+                  button.title ?? button.label ?? "공식정보 확인";
+
                 const isApplication =
-                  button.title.includes("접수") ||
-                  button.title.includes("신청");
+                  buttonTitle.includes("접수") ||
+                  buttonTitle.includes("신청");
 
                 const isSchedule =
-                  button.title.includes("일정") ||
-                  button.title.includes("시험일");
+                  buttonTitle.includes("일정") ||
+                  buttonTitle.includes("시험일");
 
                 const buttonClass = isApplication
                   ? "border-blue-700 bg-blue-700 text-white shadow-sm hover:border-blue-800 hover:bg-blue-800"
@@ -136,13 +140,13 @@ export default function OfficialInfo({
 
                 return (
                   <a
-                    key={`${button.title}-${button.url}`}
+                    key={`${buttonTitle}-${button.url}`}
                     href={button.url}
                     target="_blank"
                     rel="noreferrer"
                     className={`inline-flex min-h-12 items-center justify-center rounded-xl border px-5 text-sm font-bold transition ${buttonClass}`}
                   >
-                    {button.title}
+                    {buttonTitle}
                     <span aria-hidden="true" className="ml-2">
                       ↗
                     </span>

@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-28T02:33:34.940Z",
-  "total": 187,
+  "generatedAt": "2026-07-29T01:37:40.489Z",
+  "total": 227,
   "items": [
     {
       "label": "개발자 자격증",
@@ -294,6 +294,22 @@
     {
       "label": "국가기술자격 기사",
       "value": "국가기술자격 기사",
+      "slug": "electrical-construction-engineer",
+      "href": "/certificates/electrical-construction-engineer",
+      "type": "alias",
+      "category": "전기·전자"
+    },
+    {
+      "label": "국가기술자격 기사",
+      "value": "국가기술자격 기사",
+      "slug": "electronics-engineer",
+      "href": "/certificates/electronics-engineer",
+      "type": "alias",
+      "category": "전기·전자"
+    },
+    {
+      "label": "국가기술자격 기사",
+      "value": "국가기술자격 기사",
       "slug": "information-security-engineer",
       "href": "/certificates/information-security-engineer",
       "type": "alias",
@@ -314,6 +330,22 @@
       "href": "/certificates/office-automation-industrial-engineer",
       "type": "alias",
       "category": "IT·사무"
+    },
+    {
+      "label": "국가기술자격 산업기사",
+      "value": "국가기술자격 산업기사",
+      "slug": "electrical-construction-industrial-engineer",
+      "href": "/certificates/electrical-construction-industrial-engineer",
+      "type": "alias",
+      "category": "전기·전자"
+    },
+    {
+      "label": "국가기술자격 산업기사",
+      "value": "국가기술자격 산업기사",
+      "slug": "electronics-industrial-engineer",
+      "href": "/certificates/electronics-industrial-engineer",
+      "type": "alias",
+      "category": "전기·전자"
     },
     {
       "label": "국가기술자격 산업기사",
@@ -646,6 +678,22 @@
     {
       "label": "전기·전자",
       "value": "전기·전자",
+      "slug": "electrical-construction-engineer",
+      "href": "/certificates/electrical-construction-engineer",
+      "type": "alias",
+      "category": "전기·전자"
+    },
+    {
+      "label": "전기·전자",
+      "value": "전기·전자",
+      "slug": "electrical-construction-industrial-engineer",
+      "href": "/certificates/electrical-construction-industrial-engineer",
+      "type": "alias",
+      "category": "전기·전자"
+    },
+    {
+      "label": "전기·전자",
+      "value": "전기·전자",
       "slug": "electric-craftsman",
       "href": "/certificates/electric-craftsman",
       "type": "alias",
@@ -664,6 +712,118 @@
       "value": "전기·전자",
       "slug": "electric-industrial-engineer",
       "href": "/certificates/electric-industrial-engineer",
+      "type": "alias",
+      "category": "전기·전자"
+    },
+    {
+      "label": "전기·전자",
+      "value": "전기·전자",
+      "slug": "electronics-engineer",
+      "href": "/certificates/electronics-engineer",
+      "type": "alias",
+      "category": "전기·전자"
+    },
+    {
+      "label": "전기·전자",
+      "value": "전기·전자",
+      "slug": "electronics-industrial-engineer",
+      "href": "/certificates/electronics-industrial-engineer",
+      "type": "alias",
+      "category": "전기·전자"
+    },
+    {
+      "label": "전기공사기사",
+      "value": "전기공사기사",
+      "slug": "electrical-construction-engineer",
+      "href": "/certificates/electrical-construction-engineer",
+      "type": "certificate",
+      "category": "전기·전자"
+    },
+    {
+      "label": "전기공사기사 공부기간",
+      "value": "전기공사기사 공부기간",
+      "slug": "electrical-construction-engineer",
+      "href": "/certificates/electrical-construction-engineer",
+      "type": "alias",
+      "category": "전기·전자"
+    },
+    {
+      "label": "전기공사기사 난이도",
+      "value": "전기공사기사 난이도",
+      "slug": "electrical-construction-engineer",
+      "href": "/certificates/electrical-construction-engineer",
+      "type": "alias",
+      "category": "전기·전자"
+    },
+    {
+      "label": "전기공사기사 시험과목",
+      "value": "전기공사기사 시험과목",
+      "slug": "electrical-construction-engineer",
+      "href": "/certificates/electrical-construction-engineer",
+      "type": "alias",
+      "category": "전기·전자"
+    },
+    {
+      "label": "전기공사기사 실기",
+      "value": "전기공사기사 실기",
+      "slug": "electrical-construction-engineer",
+      "href": "/certificates/electrical-construction-engineer",
+      "type": "alias",
+      "category": "전기·전자"
+    },
+    {
+      "label": "전기공사기사 응시자격",
+      "value": "전기공사기사 응시자격",
+      "slug": "electrical-construction-engineer",
+      "href": "/certificates/electrical-construction-engineer",
+      "type": "alias",
+      "category": "전기·전자"
+    },
+    {
+      "label": "전기공사산업기사",
+      "value": "전기공사산업기사",
+      "slug": "electrical-construction-industrial-engineer",
+      "href": "/certificates/electrical-construction-industrial-engineer",
+      "type": "certificate",
+      "category": "전기·전자"
+    },
+    {
+      "label": "전기공사산업기사 공부기간",
+      "value": "전기공사산업기사 공부기간",
+      "slug": "electrical-construction-industrial-engineer",
+      "href": "/certificates/electrical-construction-industrial-engineer",
+      "type": "alias",
+      "category": "전기·전자"
+    },
+    {
+      "label": "전기공사산업기사 난이도",
+      "value": "전기공사산업기사 난이도",
+      "slug": "electrical-construction-industrial-engineer",
+      "href": "/certificates/electrical-construction-industrial-engineer",
+      "type": "alias",
+      "category": "전기·전자"
+    },
+    {
+      "label": "전기공사산업기사 시험과목",
+      "value": "전기공사산업기사 시험과목",
+      "slug": "electrical-construction-industrial-engineer",
+      "href": "/certificates/electrical-construction-industrial-engineer",
+      "type": "alias",
+      "category": "전기·전자"
+    },
+    {
+      "label": "전기공사산업기사 실기",
+      "value": "전기공사산업기사 실기",
+      "slug": "electrical-construction-industrial-engineer",
+      "href": "/certificates/electrical-construction-industrial-engineer",
+      "type": "alias",
+      "category": "전기·전자"
+    },
+    {
+      "label": "전기공사산업기사 응시자격",
+      "value": "전기공사산업기사 응시자격",
+      "slug": "electrical-construction-industrial-engineer",
+      "href": "/certificates/electrical-construction-industrial-engineer",
       "type": "alias",
       "category": "전기·전자"
     },
@@ -906,6 +1066,102 @@
       "href": "/certificates/computerized-accounting-grade-2",
       "type": "alias",
       "category": "회계·세무"
+    },
+    {
+      "label": "전자기사",
+      "value": "전자기사",
+      "slug": "electronics-engineer",
+      "href": "/certificates/electronics-engineer",
+      "type": "certificate",
+      "category": "전기·전자"
+    },
+    {
+      "label": "전자기사 공부기간",
+      "value": "전자기사 공부기간",
+      "slug": "electronics-engineer",
+      "href": "/certificates/electronics-engineer",
+      "type": "alias",
+      "category": "전기·전자"
+    },
+    {
+      "label": "전자기사 난이도",
+      "value": "전자기사 난이도",
+      "slug": "electronics-engineer",
+      "href": "/certificates/electronics-engineer",
+      "type": "alias",
+      "category": "전기·전자"
+    },
+    {
+      "label": "전자기사 시험과목",
+      "value": "전자기사 시험과목",
+      "slug": "electronics-engineer",
+      "href": "/certificates/electronics-engineer",
+      "type": "alias",
+      "category": "전기·전자"
+    },
+    {
+      "label": "전자기사 실기",
+      "value": "전자기사 실기",
+      "slug": "electronics-engineer",
+      "href": "/certificates/electronics-engineer",
+      "type": "alias",
+      "category": "전기·전자"
+    },
+    {
+      "label": "전자기사 응시자격",
+      "value": "전자기사 응시자격",
+      "slug": "electronics-engineer",
+      "href": "/certificates/electronics-engineer",
+      "type": "alias",
+      "category": "전기·전자"
+    },
+    {
+      "label": "전자산업기사",
+      "value": "전자산업기사",
+      "slug": "electronics-industrial-engineer",
+      "href": "/certificates/electronics-industrial-engineer",
+      "type": "certificate",
+      "category": "전기·전자"
+    },
+    {
+      "label": "전자산업기사 공부기간",
+      "value": "전자산업기사 공부기간",
+      "slug": "electronics-industrial-engineer",
+      "href": "/certificates/electronics-industrial-engineer",
+      "type": "alias",
+      "category": "전기·전자"
+    },
+    {
+      "label": "전자산업기사 난이도",
+      "value": "전자산업기사 난이도",
+      "slug": "electronics-industrial-engineer",
+      "href": "/certificates/electronics-industrial-engineer",
+      "type": "alias",
+      "category": "전기·전자"
+    },
+    {
+      "label": "전자산업기사 시험과목",
+      "value": "전자산업기사 시험과목",
+      "slug": "electronics-industrial-engineer",
+      "href": "/certificates/electronics-industrial-engineer",
+      "type": "alias",
+      "category": "전기·전자"
+    },
+    {
+      "label": "전자산업기사 실기",
+      "value": "전자산업기사 실기",
+      "slug": "electronics-industrial-engineer",
+      "href": "/certificates/electronics-industrial-engineer",
+      "type": "alias",
+      "category": "전기·전자"
+    },
+    {
+      "label": "전자산업기사 응시자격",
+      "value": "전자산업기사 응시자격",
+      "slug": "electronics-industrial-engineer",
+      "href": "/certificates/electronics-industrial-engineer",
+      "type": "alias",
+      "category": "전기·전자"
     },
     {
       "label": "정보보안기사",
@@ -1158,6 +1414,22 @@
     {
       "label": "한국산업인력공단",
       "value": "한국산업인력공단",
+      "slug": "electrical-construction-engineer",
+      "href": "/certificates/electrical-construction-engineer",
+      "type": "alias",
+      "category": "전기·전자"
+    },
+    {
+      "label": "한국산업인력공단",
+      "value": "한국산업인력공단",
+      "slug": "electrical-construction-industrial-engineer",
+      "href": "/certificates/electrical-construction-industrial-engineer",
+      "type": "alias",
+      "category": "전기·전자"
+    },
+    {
+      "label": "한국산업인력공단",
+      "value": "한국산업인력공단",
       "slug": "electric-craftsman",
       "href": "/certificates/electric-craftsman",
       "type": "alias",
@@ -1176,6 +1448,22 @@
       "value": "한국산업인력공단",
       "slug": "electric-industrial-engineer",
       "href": "/certificates/electric-industrial-engineer",
+      "type": "alias",
+      "category": "전기·전자"
+    },
+    {
+      "label": "한국산업인력공단",
+      "value": "한국산업인력공단",
+      "slug": "electronics-engineer",
+      "href": "/certificates/electronics-engineer",
+      "type": "alias",
+      "category": "전기·전자"
+    },
+    {
+      "label": "한국산업인력공단",
+      "value": "한국산업인력공단",
+      "slug": "electronics-industrial-engineer",
+      "href": "/certificates/electronics-industrial-engineer",
       "type": "alias",
       "category": "전기·전자"
     },
@@ -1336,6 +1624,38 @@
       "value": "electric-industrial-engineer",
       "slug": "electric-industrial-engineer",
       "href": "/certificates/electric-industrial-engineer",
+      "type": "alias",
+      "category": "전기·전자"
+    },
+    {
+      "label": "electrical-construction-engineer",
+      "value": "electrical-construction-engineer",
+      "slug": "electrical-construction-engineer",
+      "href": "/certificates/electrical-construction-engineer",
+      "type": "alias",
+      "category": "전기·전자"
+    },
+    {
+      "label": "electrical-construction-industrial-engineer",
+      "value": "electrical-construction-industrial-engineer",
+      "slug": "electrical-construction-industrial-engineer",
+      "href": "/certificates/electrical-construction-industrial-engineer",
+      "type": "alias",
+      "category": "전기·전자"
+    },
+    {
+      "label": "electronics-engineer",
+      "value": "electronics-engineer",
+      "slug": "electronics-engineer",
+      "href": "/certificates/electronics-engineer",
+      "type": "alias",
+      "category": "전기·전자"
+    },
+    {
+      "label": "electronics-industrial-engineer",
+      "value": "electronics-industrial-engineer",
+      "slug": "electronics-industrial-engineer",
+      "href": "/certificates/electronics-industrial-engineer",
       "type": "alias",
       "category": "전기·전자"
     },

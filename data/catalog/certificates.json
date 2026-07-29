@@ -203,5 +203,41 @@
     "category": "기계·설비",
     "agency": "한국산업인력공단",
     "relatedTag": "기계·설비"
+  },
+  "electrical-construction-engineer": {
+    "name": "전기공사기사",
+    "shortName": "전기공사기사",
+    "type": "national",
+    "licenseType": "국가기술자격 기사",
+    "category": "전기·전자",
+    "agency": "한국산업인력공단",
+    "relatedTag": "전기·전자"
+  },
+  "electrical-construction-industrial-engineer": {
+    "name": "전기공사산업기사",
+    "shortName": "전기공사산업기사",
+    "type": "national",
+    "licenseType": "국가기술자격 산업기사",
+    "category": "전기·전자",
+    "agency": "한국산업인력공단",
+    "relatedTag": "전기·전자"
+  },
+  "electronics-engineer": {
+    "name": "전자기사",
+    "shortName": "전자기사",
+    "type": "national",
+    "licenseType": "국가기술자격 기사",
+    "category": "전기·전자",
+    "agency": "한국산업인력공단",
+    "relatedTag": "전기·전자"
+  },
+  "electronics-industrial-engineer": {
+    "name": "전자산업기사",
+    "shortName": "전자산업기사",
+    "type": "national",
+    "licenseType": "국가기술자격 산업기사",
+    "category": "전기·전자",
+    "agency": "한국산업인력공단",
+    "relatedTag": "전기·전자"
   }
 }

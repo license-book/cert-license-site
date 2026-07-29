@@ -1,0 +1,41 @@
+{
+  "slug": "electrical-construction-engineer-vs-industrial-engineer",
+  "title": "전기공사기사 vs 전기공사산업기사",
+  "description": "응시자격, 난이도, 준비기간과 전기공사 분야 활용 범위를 비교합니다.",
+  "left": "electrical-construction-engineer",
+  "right": "electrical-construction-industrial-engineer",
+  "summary": "상위 등급과 장기 활용도를 중시하면 전기공사기사, 비교적 빠른 현장 진입과 단계적 확장을 원하면 전기공사산업기사가 현실적입니다.",
+  "items": [
+    {
+      "label": "등급",
+      "left": "기사",
+      "right": "산업기사"
+    },
+    {
+      "label": "현실 난이도",
+      "left": "상",
+      "right": "중상"
+    },
+    {
+      "label": "권장 준비기간",
+      "left": "4~8개월",
+      "right": "3~6개월"
+    },
+    {
+      "label": "필기",
+      "left": "5과목",
+      "right": "5과목"
+    },
+    {
+      "label": "실기",
+      "left": "필답형 2시간 30분",
+      "right": "필답형 2시간"
+    },
+    {
+      "label": "활용 방향",
+      "left": "설계·견적·공사관리 확장",
+      "right": "시공·견적·현장 실무 입문"
+    }
+  ],
+  "lastUpdated": "2026-07-29"
+}

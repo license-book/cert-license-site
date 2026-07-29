@@ -1,12 +1,12 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-28T02:33:35.058Z",
+  "generatedAt": "2026-07-29T01:37:40.915Z",
   "maxRelatedPerCertificate": 4,
   "totals": {
-    "certificates": 21,
+    "certificates": 25,
     "manualLinks": 60,
-    "autoLinks": 24,
-    "allLinks": 84
+    "autoLinks": 40,
+    "allLinks": 100
   },
   "items": {
     "air-conditioning-refrigeration-craftsman": [
@@ -213,10 +213,10 @@
         "source": "manual"
       },
       {
-        "slug": "air-conditioning-refrigeration-craftsman",
-        "tag": "기계·설비",
+        "slug": "electrical-construction-engineer",
+        "tag": "전기·전자",
         "source": "auto",
-        "score": 50
+        "score": 85
       }
     ],
     "electric-engineer": [
@@ -238,7 +238,7 @@
         "source": "manual"
       },
       {
-        "slug": "electric-craftsman",
+        "slug": "electrical-construction-engineer",
         "tag": "전기·전자",
         "source": "auto",
         "score": 85
@@ -263,8 +263,112 @@
         "source": "manual"
       },
       {
+        "slug": "electrical-construction-engineer",
+        "tag": "전기·전자",
+        "source": "auto",
+        "score": 85
+      }
+    ],
+    "electrical-construction-engineer": [
+      {
+        "slug": "electronics-engineer",
+        "tag": "전기·전자",
+        "source": "auto",
+        "score": 100
+      },
+      {
+        "slug": "electrical-construction-industrial-engineer",
+        "tag": "전기·전자",
+        "source": "auto",
+        "score": 85
+      },
+      {
         "slug": "electric-craftsman",
         "tag": "전기·전자",
+        "source": "auto",
+        "score": 85
+      },
+      {
+        "slug": "electric-engineer",
+        "tag": "전기 분야",
+        "source": "auto",
+        "score": 85
+      }
+    ],
+    "electrical-construction-industrial-engineer": [
+      {
+        "slug": "electronics-industrial-engineer",
+        "tag": "전기·전자",
+        "source": "auto",
+        "score": 100
+      },
+      {
+        "slug": "electrical-construction-engineer",
+        "tag": "전기·전자",
+        "source": "auto",
+        "score": 85
+      },
+      {
+        "slug": "electric-craftsman",
+        "tag": "전기·전자",
+        "source": "auto",
+        "score": 85
+      },
+      {
+        "slug": "electric-engineer",
+        "tag": "전기 분야",
+        "source": "auto",
+        "score": 85
+      }
+    ],
+    "electronics-engineer": [
+      {
+        "slug": "electrical-construction-engineer",
+        "tag": "전기·전자",
+        "source": "auto",
+        "score": 100
+      },
+      {
+        "slug": "electrical-construction-industrial-engineer",
+        "tag": "전기·전자",
+        "source": "auto",
+        "score": 85
+      },
+      {
+        "slug": "electric-craftsman",
+        "tag": "전기·전자",
+        "source": "auto",
+        "score": 85
+      },
+      {
+        "slug": "electric-engineer",
+        "tag": "전기 분야",
+        "source": "auto",
+        "score": 85
+      }
+    ],
+    "electronics-industrial-engineer": [
+      {
+        "slug": "electrical-construction-industrial-engineer",
+        "tag": "전기·전자",
+        "source": "auto",
+        "score": 100
+      },
+      {
+        "slug": "electrical-construction-engineer",
+        "tag": "전기·전자",
+        "source": "auto",
+        "score": 85
+      },
+      {
+        "slug": "electric-craftsman",
+        "tag": "전기·전자",
+        "source": "auto",
+        "score": 85
+      },
+      {
+        "slug": "electric-engineer",
+        "tag": "전기 분야",
         "source": "auto",
         "score": 85
       }
