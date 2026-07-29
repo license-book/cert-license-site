@@ -383,5 +383,41 @@
     "category": "화학·안전",
     "agency": "한국산업인력공단",
     "relatedTag": "가스 입문"
+  },
+  "industrial-safety-industrial-engineer": {
+    "name": "산업안전산업기사",
+    "shortName": "산업안전산업기사",
+    "type": "national",
+    "licenseType": "국가기술자격 산업기사",
+    "category": "안전관리",
+    "agency": "한국산업인력공단",
+    "relatedTag": "산업현장 안전관리와 재해예방 실무"
+  },
+  "construction-safety-engineer": {
+    "name": "건설안전기사",
+    "shortName": "건설안전기사",
+    "type": "national",
+    "licenseType": "국가기술자격 기사",
+    "category": "안전관리",
+    "agency": "한국산업인력공단",
+    "relatedTag": "건축·토목 공사현장의 안전관리 직무"
+  },
+  "construction-safety-industrial-engineer": {
+    "name": "건설안전산업기사",
+    "shortName": "건설안전산업기사",
+    "type": "national",
+    "licenseType": "국가기술자격 산업기사",
+    "category": "안전관리",
+    "agency": "한국산업인력공단",
+    "relatedTag": "건설현장 안전관리 실무와 경력 확장"
+  },
+  "fire-protection-electrical-engineer": {
+    "name": "소방설비기사(전기분야)",
+    "shortName": "소방설비기사(전기)",
+    "type": "national",
+    "licenseType": "국가기술자격 기사",
+    "category": "소방·안전",
+    "agency": "한국산업인력공단",
+    "relatedTag": "소방전기시설의 설계·시공·점검 관련 직무"
   }
 }

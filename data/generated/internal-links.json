@@ -1,12 +1,12 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-29T02:46:12.488Z",
+  "generatedAt": "2026-07-29T02:55:06.728Z",
   "maxRelatedPerCertificate": 4,
   "totals": {
-    "certificates": 41,
+    "certificates": 45,
     "manualLinks": 104,
-    "autoLinks": 60,
-    "allLinks": 164
+    "autoLinks": 76,
+    "allLinks": 180
   },
   "items": {
     "air-conditioning-refrigeration-craftsman": [
@@ -295,6 +295,58 @@
         "source": "manual"
       }
     ],
+    "construction-safety-engineer": [
+      {
+        "slug": "construction-safety-industrial-engineer",
+        "tag": "건설현장 안전관리 실무와 경력 확장",
+        "source": "auto",
+        "score": 85
+      },
+      {
+        "slug": "industrial-safety-engineer",
+        "tag": "산업 안전",
+        "source": "auto",
+        "score": 85
+      },
+      {
+        "slug": "industrial-safety-industrial-engineer",
+        "tag": "산업현장 안전관리와 재해예방 실무",
+        "source": "auto",
+        "score": 85
+      },
+      {
+        "slug": "gas-engineer",
+        "tag": "가스 안전",
+        "source": "auto",
+        "score": 50
+      }
+    ],
+    "construction-safety-industrial-engineer": [
+      {
+        "slug": "industrial-safety-industrial-engineer",
+        "tag": "산업현장 안전관리와 재해예방 실무",
+        "source": "auto",
+        "score": 100
+      },
+      {
+        "slug": "construction-safety-engineer",
+        "tag": "건축·토목 공사현장의 안전관리 직무",
+        "source": "auto",
+        "score": 85
+      },
+      {
+        "slug": "industrial-safety-engineer",
+        "tag": "산업 안전",
+        "source": "auto",
+        "score": 85
+      },
+      {
+        "slug": "gas-industrial-engineer",
+        "tag": "가스 안전",
+        "source": "auto",
+        "score": 50
+      }
+    ],
     "electric-craftsman": [
       {
         "slug": "electric-industrial-engineer",
@@ -556,7 +608,33 @@
         "score": 50
       },
       {
-        "slug": "air-conditioning-refrigeration-industrial-engineer",
+        "slug": "construction-safety-industrial-engineer",
+        "tag": "건설현장 안전관리 실무와 경력 확장",
+        "source": "auto",
+        "score": 50
+      }
+    ],
+    "fire-protection-electrical-engineer": [
+      {
+        "slug": "gas-engineer",
+        "tag": "가스 안전",
+        "source": "auto",
+        "score": 50
+      },
+      {
+        "slug": "construction-machinery-equipment-engineer",
+        "tag": "기계·설비",
+        "source": "auto",
+        "score": 50
+      },
+      {
+        "slug": "construction-safety-engineer",
+        "tag": "건축·토목 공사현장의 안전관리 직무",
+        "source": "auto",
+        "score": 50
+      },
+      {
+        "slug": "air-conditioning-refrigeration-engineer",
         "tag": "기계·설비",
         "source": "auto",
         "score": 50
@@ -634,8 +712,8 @@
         "score": 85
       },
       {
-        "slug": "air-conditioning-refrigeration-industrial-engineer",
-        "tag": "기계·설비",
+        "slug": "construction-safety-industrial-engineer",
+        "tag": "건설현장 안전관리 실무와 경력 확장",
         "source": "auto",
         "score": 50
       }
@@ -702,8 +780,34 @@
         "source": "manual"
       },
       {
-        "slug": "architectural-engineer",
-        "tag": "건설·건축",
+        "slug": "construction-safety-engineer",
+        "tag": "건축·토목 공사현장의 안전관리 직무",
+        "source": "auto",
+        "score": 85
+      }
+    ],
+    "industrial-safety-industrial-engineer": [
+      {
+        "slug": "construction-safety-industrial-engineer",
+        "tag": "건설현장 안전관리 실무와 경력 확장",
+        "source": "auto",
+        "score": 100
+      },
+      {
+        "slug": "construction-safety-engineer",
+        "tag": "건축·토목 공사현장의 안전관리 직무",
+        "source": "auto",
+        "score": 85
+      },
+      {
+        "slug": "industrial-safety-engineer",
+        "tag": "산업 안전",
+        "source": "auto",
+        "score": 85
+      },
+      {
+        "slug": "gas-industrial-engineer",
+        "tag": "가스 안전",
         "source": "auto",
         "score": 50
       }

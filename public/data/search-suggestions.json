@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-29T02:46:11.954Z",
-  "total": 387,
+  "generatedAt": "2026-07-29T02:55:06.488Z",
+  "total": 428,
   "items": [
     {
       "label": "가스기능사",
@@ -226,6 +226,102 @@
       "href": "/certificates/construction-machinery-equipment-engineer",
       "type": "alias",
       "category": "기계·설비"
+    },
+    {
+      "label": "건설안전기사",
+      "value": "건설안전기사",
+      "slug": "construction-safety-engineer",
+      "href": "/certificates/construction-safety-engineer",
+      "type": "certificate",
+      "category": "안전관리"
+    },
+    {
+      "label": "건설안전기사 공부기간",
+      "value": "건설안전기사 공부기간",
+      "slug": "construction-safety-engineer",
+      "href": "/certificates/construction-safety-engineer",
+      "type": "alias",
+      "category": "안전관리"
+    },
+    {
+      "label": "건설안전기사 난이도",
+      "value": "건설안전기사 난이도",
+      "slug": "construction-safety-engineer",
+      "href": "/certificates/construction-safety-engineer",
+      "type": "alias",
+      "category": "안전관리"
+    },
+    {
+      "label": "건설안전기사 시험과목",
+      "value": "건설안전기사 시험과목",
+      "slug": "construction-safety-engineer",
+      "href": "/certificates/construction-safety-engineer",
+      "type": "alias",
+      "category": "안전관리"
+    },
+    {
+      "label": "건설안전기사 실기",
+      "value": "건설안전기사 실기",
+      "slug": "construction-safety-engineer",
+      "href": "/certificates/construction-safety-engineer",
+      "type": "alias",
+      "category": "안전관리"
+    },
+    {
+      "label": "건설안전기사 응시자격",
+      "value": "건설안전기사 응시자격",
+      "slug": "construction-safety-engineer",
+      "href": "/certificates/construction-safety-engineer",
+      "type": "alias",
+      "category": "안전관리"
+    },
+    {
+      "label": "건설안전산업기사",
+      "value": "건설안전산업기사",
+      "slug": "construction-safety-industrial-engineer",
+      "href": "/certificates/construction-safety-industrial-engineer",
+      "type": "certificate",
+      "category": "안전관리"
+    },
+    {
+      "label": "건설안전산업기사 공부기간",
+      "value": "건설안전산업기사 공부기간",
+      "slug": "construction-safety-industrial-engineer",
+      "href": "/certificates/construction-safety-industrial-engineer",
+      "type": "alias",
+      "category": "안전관리"
+    },
+    {
+      "label": "건설안전산업기사 난이도",
+      "value": "건설안전산업기사 난이도",
+      "slug": "construction-safety-industrial-engineer",
+      "href": "/certificates/construction-safety-industrial-engineer",
+      "type": "alias",
+      "category": "안전관리"
+    },
+    {
+      "label": "건설안전산업기사 시험과목",
+      "value": "건설안전산업기사 시험과목",
+      "slug": "construction-safety-industrial-engineer",
+      "href": "/certificates/construction-safety-industrial-engineer",
+      "type": "alias",
+      "category": "안전관리"
+    },
+    {
+      "label": "건설안전산업기사 실기",
+      "value": "건설안전산업기사 실기",
+      "slug": "construction-safety-industrial-engineer",
+      "href": "/certificates/construction-safety-industrial-engineer",
+      "type": "alias",
+      "category": "안전관리"
+    },
+    {
+      "label": "건설안전산업기사 응시자격",
+      "value": "건설안전산업기사 응시자격",
+      "slug": "construction-safety-industrial-engineer",
+      "href": "/certificates/construction-safety-industrial-engineer",
+      "type": "alias",
+      "category": "안전관리"
     },
     {
       "label": "건축기사",
@@ -614,6 +710,14 @@
     {
       "label": "국가기술자격 기사",
       "value": "국가기술자격 기사",
+      "slug": "construction-safety-engineer",
+      "href": "/certificates/construction-safety-engineer",
+      "type": "alias",
+      "category": "안전관리"
+    },
+    {
+      "label": "국가기술자격 기사",
+      "value": "국가기술자격 기사",
       "slug": "air-conditioning-refrigeration-engineer",
       "href": "/certificates/air-conditioning-refrigeration-engineer",
       "type": "alias",
@@ -634,6 +738,14 @@
       "href": "/certificates/big-data-analysis-engineer",
       "type": "alias",
       "category": "데이터·IT"
+    },
+    {
+      "label": "국가기술자격 기사",
+      "value": "국가기술자격 기사",
+      "slug": "fire-protection-electrical-engineer",
+      "href": "/certificates/fire-protection-electrical-engineer",
+      "type": "alias",
+      "category": "소방·안전"
     },
     {
       "label": "국가기술자격 기사",
@@ -710,6 +822,14 @@
     {
       "label": "국가기술자격 산업기사",
       "value": "국가기술자격 산업기사",
+      "slug": "construction-safety-industrial-engineer",
+      "href": "/certificates/construction-safety-industrial-engineer",
+      "type": "alias",
+      "category": "안전관리"
+    },
+    {
+      "label": "국가기술자격 산업기사",
+      "value": "국가기술자격 산업기사",
       "slug": "air-conditioning-refrigeration-industrial-engineer",
       "href": "/certificates/air-conditioning-refrigeration-industrial-engineer",
       "type": "alias",
@@ -722,6 +842,14 @@
       "href": "/certificates/office-automation-industrial-engineer",
       "type": "alias",
       "category": "IT·사무"
+    },
+    {
+      "label": "국가기술자격 산업기사",
+      "value": "국가기술자격 산업기사",
+      "slug": "industrial-safety-industrial-engineer",
+      "href": "/certificates/industrial-safety-industrial-engineer",
+      "type": "alias",
+      "category": "안전관리"
     },
     {
       "label": "국가기술자격 산업기사",
@@ -1100,10 +1228,146 @@
       "category": "안전관리"
     },
     {
+      "label": "산업안전산업기사",
+      "value": "산업안전산업기사",
+      "slug": "industrial-safety-industrial-engineer",
+      "href": "/certificates/industrial-safety-industrial-engineer",
+      "type": "certificate",
+      "category": "안전관리"
+    },
+    {
+      "label": "산업안전산업기사 공부기간",
+      "value": "산업안전산업기사 공부기간",
+      "slug": "industrial-safety-industrial-engineer",
+      "href": "/certificates/industrial-safety-industrial-engineer",
+      "type": "alias",
+      "category": "안전관리"
+    },
+    {
+      "label": "산업안전산업기사 난이도",
+      "value": "산업안전산업기사 난이도",
+      "slug": "industrial-safety-industrial-engineer",
+      "href": "/certificates/industrial-safety-industrial-engineer",
+      "type": "alias",
+      "category": "안전관리"
+    },
+    {
+      "label": "산업안전산업기사 시험과목",
+      "value": "산업안전산업기사 시험과목",
+      "slug": "industrial-safety-industrial-engineer",
+      "href": "/certificates/industrial-safety-industrial-engineer",
+      "type": "alias",
+      "category": "안전관리"
+    },
+    {
+      "label": "산업안전산업기사 실기",
+      "value": "산업안전산업기사 실기",
+      "slug": "industrial-safety-industrial-engineer",
+      "href": "/certificates/industrial-safety-industrial-engineer",
+      "type": "alias",
+      "category": "안전관리"
+    },
+    {
+      "label": "산업안전산업기사 응시자격",
+      "value": "산업안전산업기사 응시자격",
+      "slug": "industrial-safety-industrial-engineer",
+      "href": "/certificates/industrial-safety-industrial-engineer",
+      "type": "alias",
+      "category": "안전관리"
+    },
+    {
+      "label": "소방·안전",
+      "value": "소방·안전",
+      "slug": "fire-protection-electrical-engineer",
+      "href": "/certificates/fire-protection-electrical-engineer",
+      "type": "alias",
+      "category": "소방·안전"
+    },
+    {
+      "label": "소방설비기사(전기)",
+      "value": "소방설비기사(전기)",
+      "slug": "fire-protection-electrical-engineer",
+      "href": "/certificates/fire-protection-electrical-engineer",
+      "type": "alias",
+      "category": "소방·안전"
+    },
+    {
+      "label": "소방설비기사(전기분야)",
+      "value": "소방설비기사(전기분야)",
+      "slug": "fire-protection-electrical-engineer",
+      "href": "/certificates/fire-protection-electrical-engineer",
+      "type": "certificate",
+      "category": "소방·안전"
+    },
+    {
+      "label": "소방설비기사(전기분야) 공부기간",
+      "value": "소방설비기사(전기분야) 공부기간",
+      "slug": "fire-protection-electrical-engineer",
+      "href": "/certificates/fire-protection-electrical-engineer",
+      "type": "alias",
+      "category": "소방·안전"
+    },
+    {
+      "label": "소방설비기사(전기분야) 난이도",
+      "value": "소방설비기사(전기분야) 난이도",
+      "slug": "fire-protection-electrical-engineer",
+      "href": "/certificates/fire-protection-electrical-engineer",
+      "type": "alias",
+      "category": "소방·안전"
+    },
+    {
+      "label": "소방설비기사(전기분야) 시험과목",
+      "value": "소방설비기사(전기분야) 시험과목",
+      "slug": "fire-protection-electrical-engineer",
+      "href": "/certificates/fire-protection-electrical-engineer",
+      "type": "alias",
+      "category": "소방·안전"
+    },
+    {
+      "label": "소방설비기사(전기분야) 실기",
+      "value": "소방설비기사(전기분야) 실기",
+      "slug": "fire-protection-electrical-engineer",
+      "href": "/certificates/fire-protection-electrical-engineer",
+      "type": "alias",
+      "category": "소방·안전"
+    },
+    {
+      "label": "소방설비기사(전기분야) 응시자격",
+      "value": "소방설비기사(전기분야) 응시자격",
+      "slug": "fire-protection-electrical-engineer",
+      "href": "/certificates/fire-protection-electrical-engineer",
+      "type": "alias",
+      "category": "소방·안전"
+    },
+    {
+      "label": "안전관리",
+      "value": "안전관리",
+      "slug": "construction-safety-engineer",
+      "href": "/certificates/construction-safety-engineer",
+      "type": "alias",
+      "category": "안전관리"
+    },
+    {
+      "label": "안전관리",
+      "value": "안전관리",
+      "slug": "construction-safety-industrial-engineer",
+      "href": "/certificates/construction-safety-industrial-engineer",
+      "type": "alias",
+      "category": "안전관리"
+    },
+    {
       "label": "안전관리",
       "value": "안전관리",
       "slug": "industrial-safety-engineer",
       "href": "/certificates/industrial-safety-engineer",
+      "type": "alias",
+      "category": "안전관리"
+    },
+    {
+      "label": "안전관리",
+      "value": "안전관리",
+      "slug": "industrial-safety-industrial-engineer",
+      "href": "/certificates/industrial-safety-industrial-engineer",
       "type": "alias",
       "category": "안전관리"
     },
@@ -2422,6 +2686,22 @@
     {
       "label": "한국산업인력공단",
       "value": "한국산업인력공단",
+      "slug": "construction-safety-engineer",
+      "href": "/certificates/construction-safety-engineer",
+      "type": "alias",
+      "category": "안전관리"
+    },
+    {
+      "label": "한국산업인력공단",
+      "value": "한국산업인력공단",
+      "slug": "construction-safety-industrial-engineer",
+      "href": "/certificates/construction-safety-industrial-engineer",
+      "type": "alias",
+      "category": "안전관리"
+    },
+    {
+      "label": "한국산업인력공단",
+      "value": "한국산업인력공단",
       "slug": "architectural-engineer",
       "href": "/certificates/architectural-engineer",
       "type": "alias",
@@ -2482,6 +2762,22 @@
       "href": "/certificates/industrial-safety-engineer",
       "type": "alias",
       "category": "안전관리"
+    },
+    {
+      "label": "한국산업인력공단",
+      "value": "한국산업인력공단",
+      "slug": "industrial-safety-industrial-engineer",
+      "href": "/certificates/industrial-safety-industrial-engineer",
+      "type": "alias",
+      "category": "안전관리"
+    },
+    {
+      "label": "한국산업인력공단",
+      "value": "한국산업인력공단",
+      "slug": "fire-protection-electrical-engineer",
+      "href": "/certificates/fire-protection-electrical-engineer",
+      "type": "alias",
+      "category": "소방·안전"
     },
     {
       "label": "한국산업인력공단",
@@ -2796,6 +3092,22 @@
       "category": "기계·설비"
     },
     {
+      "label": "construction-safety-engineer",
+      "value": "construction-safety-engineer",
+      "slug": "construction-safety-engineer",
+      "href": "/certificates/construction-safety-engineer",
+      "type": "alias",
+      "category": "안전관리"
+    },
+    {
+      "label": "construction-safety-industrial-engineer",
+      "value": "construction-safety-industrial-engineer",
+      "slug": "construction-safety-industrial-engineer",
+      "href": "/certificates/construction-safety-industrial-engineer",
+      "type": "alias",
+      "category": "안전관리"
+    },
+    {
       "label": "electric-craftsman",
       "value": "electric-craftsman",
       "slug": "electric-craftsman",
@@ -2884,6 +3196,14 @@
       "category": "에너지·설비"
     },
     {
+      "label": "fire-protection-electrical-engineer",
+      "value": "fire-protection-electrical-engineer",
+      "slug": "fire-protection-electrical-engineer",
+      "href": "/certificates/fire-protection-electrical-engineer",
+      "type": "alias",
+      "category": "소방·안전"
+    },
+    {
       "label": "gas-craftsman",
       "value": "gas-craftsman",
       "slug": "gas-craftsman",
@@ -2928,6 +3248,14 @@
       "value": "industrial-safety-engineer",
       "slug": "industrial-safety-engineer",
       "href": "/certificates/industrial-safety-engineer",
+      "type": "alias",
+      "category": "안전관리"
+    },
+    {
+      "label": "industrial-safety-industrial-engineer",
+      "value": "industrial-safety-industrial-engineer",
+      "slug": "industrial-safety-industrial-engineer",
+      "href": "/certificates/industrial-safety-industrial-engineer",
       "type": "alias",
       "category": "안전관리"
     },

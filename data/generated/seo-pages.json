@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-29T02:46:12.931Z",
-  "total": 41,
+  "generatedAt": "2026-07-29T02:55:06.873Z",
+  "total": 45,
   "items": [
     {
       "slug": "air-conditioning-refrigeration-craftsman",
@@ -363,6 +363,60 @@
       "lastModified": "2026-07-29"
     },
     {
+      "slug": "construction-safety-engineer",
+      "name": "건설안전기사",
+      "shortName": "건설안전기사",
+      "title": "건설안전기사 응시자격·시험과목·난이도·공부기간 | 라북",
+      "description": "건설안전기사 응시자격, 시험과목, 실기 방식, 난이도, 준비기간, 비용과 취업 활용 정보를 현실적으로 정리했습니다.",
+      "keywords": [
+        "건설안전기사",
+        "건설안전기사 응시자격",
+        "건설안전기사 시험과목",
+        "건설안전기사 실기",
+        "건설안전기사 난이도",
+        "건설안전기사 공부기간",
+        "건설안전기사 시험",
+        "건설안전기사 합격률",
+        "안전관리",
+        "국가기술자격 기사",
+        "한국산업인력공단"
+      ],
+      "image": "/images/hero/construction-safety-engineer.webp",
+      "path": "/cert/construction-safety-engineer",
+      "type": "national",
+      "licenseType": "국가기술자격 기사",
+      "category": "안전관리",
+      "agency": "한국산업인력공단",
+      "lastModified": "2026-07-29"
+    },
+    {
+      "slug": "construction-safety-industrial-engineer",
+      "name": "건설안전산업기사",
+      "shortName": "건설안전산업기사",
+      "title": "건설안전산업기사 응시자격·시험과목·난이도·공부기간 | 라북",
+      "description": "건설안전산업기사 응시자격, 시험과목, 실기 방식, 난이도, 준비기간, 비용과 취업 활용 정보를 현실적으로 정리했습니다.",
+      "keywords": [
+        "건설안전산업기사",
+        "건설안전산업기사 응시자격",
+        "건설안전산업기사 시험과목",
+        "건설안전산업기사 실기",
+        "건설안전산업기사 난이도",
+        "건설안전산업기사 공부기간",
+        "건설안전산업기사 시험",
+        "건설안전산업기사 합격률",
+        "안전관리",
+        "국가기술자격 산업기사",
+        "한국산업인력공단"
+      ],
+      "image": "/images/hero/construction-safety-industrial-engineer.webp",
+      "path": "/cert/construction-safety-industrial-engineer",
+      "type": "national",
+      "licenseType": "국가기술자격 산업기사",
+      "category": "안전관리",
+      "agency": "한국산업인력공단",
+      "lastModified": "2026-07-29"
+    },
+    {
       "slug": "electric-craftsman",
       "name": "전기기능사",
       "shortName": "전기기능사",
@@ -663,6 +717,34 @@
       "lastModified": "2026-07-29"
     },
     {
+      "slug": "fire-protection-electrical-engineer",
+      "name": "소방설비기사(전기분야)",
+      "shortName": "소방설비기사(전기)",
+      "title": "소방설비기사(전기분야) 응시자격·시험과목·난이도·공부기간 | 라북",
+      "description": "소방설비기사(전기분야) 응시자격, 시험과목, 실기 방식, 난이도, 준비기간, 비용과 취업 활용 정보를 현실적으로 정리했습니다.",
+      "keywords": [
+        "소방설비기사(전기분야)",
+        "소방설비기사(전기분야) 응시자격",
+        "소방설비기사(전기분야) 시험과목",
+        "소방설비기사(전기분야) 실기",
+        "소방설비기사(전기분야) 난이도",
+        "소방설비기사(전기분야) 공부기간",
+        "소방설비기사(전기)",
+        "소방설비기사(전기분야) 시험",
+        "소방설비기사(전기분야) 합격률",
+        "소방·안전",
+        "국가기술자격 기사",
+        "한국산업인력공단"
+      ],
+      "image": "/images/hero/fire-protection-electrical-engineer.webp",
+      "path": "/cert/fire-protection-electrical-engineer",
+      "type": "national",
+      "licenseType": "국가기술자격 기사",
+      "category": "소방·안전",
+      "agency": "한국산업인력공단",
+      "lastModified": "2026-07-29"
+    },
+    {
       "slug": "gas-craftsman",
       "name": "가스기능사",
       "shortName": "가스기능사",
@@ -825,6 +907,33 @@
       "category": "안전관리",
       "agency": "한국산업인력공단",
       "lastModified": "2026-07-28"
+    },
+    {
+      "slug": "industrial-safety-industrial-engineer",
+      "name": "산업안전산업기사",
+      "shortName": "산업안전산업기사",
+      "title": "산업안전산업기사 응시자격·시험과목·난이도·공부기간 | 라북",
+      "description": "산업안전산업기사 응시자격, 시험과목, 실기 방식, 난이도, 준비기간, 비용과 취업 활용 정보를 현실적으로 정리했습니다.",
+      "keywords": [
+        "산업안전산업기사",
+        "산업안전산업기사 응시자격",
+        "산업안전산업기사 시험과목",
+        "산업안전산업기사 실기",
+        "산업안전산업기사 난이도",
+        "산업안전산업기사 공부기간",
+        "산업안전산업기사 시험",
+        "산업안전산업기사 합격률",
+        "안전관리",
+        "국가기술자격 산업기사",
+        "한국산업인력공단"
+      ],
+      "image": "/images/hero/industrial-safety-industrial-engineer.webp",
+      "path": "/cert/industrial-safety-industrial-engineer",
+      "type": "national",
+      "licenseType": "국가기술자격 산업기사",
+      "category": "안전관리",
+      "agency": "한국산업인력공단",
+      "lastModified": "2026-07-29"
     },
     {
       "slug": "information-communication-engineer",
