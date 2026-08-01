@@ -98,17 +98,71 @@
   },
   "statistics": {
     "enabled": true,
-    "status": "unavailable",
+    "status": "available",
     "title": "최근 시험 통계",
-    "summary": "공식적으로 검증된 연도별 통계 수치를 아직 반영하지 않았습니다.",
-    "groups": [],
+    "summary": "필기시험 최근 평균 합격률은 34.9%로 보통 수준입니다 · 실기시험 최근 평균 합격률은 73.2%로 높은 편입니다. 연도별 변동이 있으므로 최신 출제기준과 함께 확인하세요.",
+    "groups": [
+      {
+        "id": "written",
+        "title": "필기시험",
+        "description": "Q-Net 종목별 검정현황의 연도별 필기시험 통계입니다.",
+        "items": [
+          {
+            "year": 2024,
+            "applicants": 61127,
+            "passed": 22133,
+            "passRate": 36.2
+          },
+          {
+            "year": 2023,
+            "applicants": 60239,
+            "passed": 21017,
+            "passRate": 34.9
+          },
+          {
+            "year": 2022,
+            "applicants": 48440,
+            "passed": 16212,
+            "passRate": 33.5
+          }
+        ]
+      },
+      {
+        "id": "practical",
+        "title": "실기시험",
+        "description": "Q-Net 종목별 검정현황의 연도별 실기시험 통계입니다.",
+        "items": [
+          {
+            "year": 2024,
+            "applicants": 32762,
+            "passed": 23769,
+            "passRate": 72.6
+          },
+          {
+            "year": 2023,
+            "applicants": 30545,
+            "passed": 22655,
+            "passRate": 74.2
+          },
+          {
+            "year": 2022,
+            "applicants": 27498,
+            "passed": 20053,
+            "passRate": 72.9
+          }
+        ]
+      }
+    ],
     "source": {
-      "label": "Q-Net 전기기능사 종목별 상세정보",
-      "url": "https://www.q-net.or.kr/crf005.do?id=crf00503&jmCd=7780",
-      "lastVerified": "2026-07-28"
+      "label": "Q-Net 전기기능사 종목별 검정현황",
+      "url": "https://www.q-net.or.kr/crf005.do?gId=&gSite=Q&gbnn=gbnSubtab2&id=crf00503&jmCd=7780&jmInfoDivCcd=B0",
+      "lastVerified": "2026-08-02"
     },
-    "analysis": [],
-    "notice": "공식 통계가 확인·검증되는 대로 차트가 자동 표시됩니다. 확인되지 않은 수치는 제공하지 않습니다."
+    "analysis": [
+      "최근 평균 합격률은 입력된 연도별 응시·합격 데이터에서 자동 계산됩니다.",
+      "응시자 수와 합격률은 시험 난이도·출제기준 변경에 따라 연도별로 달라질 수 있습니다."
+    ],
+    "notice": "응시·합격 수치는 Q-Net 종목별 검정현황 기준입니다."
   },
   "charts": {
     "examWeight": {
