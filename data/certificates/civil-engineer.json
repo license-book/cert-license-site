@@ -82,17 +82,96 @@
     ]
   },
   "statistics": {
-    "enabled": false,
-    "title": "연도별 시험 통계",
-    "summary": "정확한 최신 통계는 공식 통계 자료 확인 후 반영합니다.",
-    "groups": [],
+    "enabled": true,
+    "status": "available",
+    "title": "최근 시험 통계",
+    "summary": "필기시험 최근 평균 합격률은 30.0%로 보통 수준입니다 · 실기시험 최근 평균 합격률은 44.1%로 보통 수준입니다. 연도별 변동이 있으므로 최신 출제기준과 함께 확인하세요.",
+    "groups": [
+      {
+        "id": "written",
+        "title": "필기시험",
+        "description": "Q-Net 종목별 검정현황의 연도별 필기시험 통계입니다.",
+        "items": [
+          {
+            "year": 2025,
+            "applicants": 11922,
+            "passed": 3983,
+            "passRate": 33.4
+          },
+          {
+            "year": 2024,
+            "applicants": 11821,
+            "passed": 3753,
+            "passRate": 31.7
+          },
+          {
+            "year": 2023,
+            "applicants": 11762,
+            "passed": 3477,
+            "passRate": 29.6
+          },
+          {
+            "year": 2022,
+            "applicants": 10774,
+            "passed": 2963,
+            "passRate": 27.5
+          },
+          {
+            "year": 2021,
+            "applicants": 11523,
+            "passed": 3220,
+            "passRate": 27.9
+          }
+        ]
+      },
+      {
+        "id": "practical",
+        "title": "실기시험",
+        "description": "Q-Net 종목별 검정현황의 연도별 실기시험 통계입니다.",
+        "items": [
+          {
+            "year": 2025,
+            "applicants": 8166,
+            "passed": 3686,
+            "passRate": 45.1
+          },
+          {
+            "year": 2024,
+            "applicants": 6879,
+            "passed": 2220,
+            "passRate": 32.3
+          },
+          {
+            "year": 2023,
+            "applicants": 6557,
+            "passed": 3364,
+            "passRate": 51.3
+          },
+          {
+            "year": 2022,
+            "applicants": 5678,
+            "passed": 2514,
+            "passRate": 44.3
+          },
+          {
+            "year": 2021,
+            "applicants": 6173,
+            "passed": 2946,
+            "passRate": 47.7
+          }
+        ]
+      }
+    ],
     "source": {
-      "label": "Q-Net 토목기사 종목별 상세정보",
-      "url": "https://www.q-net.or.kr/crf005.do?id=crf00503s02&jmCd=1250&jmInfoDivCcd=B0",
-      "lastVerified": "2026-07-29"
+      "label": "Q-Net 종목별 검정현황",
+      "url": "https://www.q-net.or.kr/crf005.do?gId=&gSite=Q&gbnn=gbnSubtab2&id=crf00503&jmCd=1250&jmInfoDivCcd=B0",
+      "lastVerified": "2026-08-01"
     },
-    "analysis": [],
-    "notice": "미검증 수치를 임의로 표시하지 않으며 공식 자료 확인 후 업데이트합니다."
+    "analysis": [
+      "최근 평균 합격률은 입력된 공식 연도별 데이터에서 자동 계산됩니다.",
+      "응시자 수와 합격률은 시험 난이도·출제기준 변경에 따라 연도별로 달라질 수 있습니다."
+    ],
+    "notice": "응시·합격 수치는 Q-Net 종목별 검정현황 기준입니다."
   },
   "charts": {
     "examWeight": {

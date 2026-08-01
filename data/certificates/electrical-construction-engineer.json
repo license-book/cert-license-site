@@ -139,32 +139,72 @@
     ]
   },
   "statistics": {
-    "enabled": false,
+    "enabled": true,
+    "status": "available",
     "title": "최근 시험 통계",
-    "summary": "공식 통계 검증 후 제공할 예정입니다.",
-    "groups": [],
-    "source": {
-      "label": "Q-Net 전기공사기사 종목별 상세정보",
-      "url": "https://www.q-net.or.kr/crf005.do?id=crf00503s02&jmCd=1160&jmInfoDivCcd=B0",
-      "lastVerified": "2026-07-29"
-    },
-    "analysis": [],
-    "notice": "검증된 공식 통계가 확보되면 업데이트합니다.",
-    "display": {
-      "summaryCard": {
-        "valueFontSize": {
-          "mobile": "1.5rem",
-          "tablet": "1.75rem",
-          "desktop": "2rem"
-        },
-        "valueFontWeight": 800,
-        "valueLineHeight": 1.1,
-        "labelFontSize": {
-          "mobile": "0.75rem",
-          "desktop": "0.8125rem"
-        }
+    "summary": "Q-Net 종목별 검정현황에 공개된 2023~2025년 전기공사기사 필기·실기 통계입니다.",
+    "groups": [
+      {
+        "id": "written",
+        "title": "필기시험",
+        "description": "연도별 실제 응시자와 합격자 기준입니다.",
+        "items": [
+          {
+            "year": 2025,
+            "applicants": 11730,
+            "passed": 6429,
+            "passRate": 54.8
+          },
+          {
+            "year": 2024,
+            "applicants": 11578,
+            "passed": 5938,
+            "passRate": 51.3
+          },
+          {
+            "year": 2023,
+            "applicants": 14972,
+            "passed": 6736,
+            "passRate": 45.0
+          }
+        ]
+      },
+      {
+        "id": "practical",
+        "title": "실기시험",
+        "description": "연도별 실제 응시자와 합격자 기준입니다.",
+        "items": [
+          {
+            "year": 2025,
+            "applicants": 7873,
+            "passed": 4663,
+            "passRate": 59.2
+          },
+          {
+            "year": 2024,
+            "applicants": 6943,
+            "passed": 3461,
+            "passRate": 49.8
+          },
+          {
+            "year": 2023,
+            "applicants": 8547,
+            "passed": 5315,
+            "passRate": 62.2
+          }
+        ]
       }
-    }
+    ],
+    "source": {
+      "label": "Q-Net 전기공사기사 종목별 검정현황",
+      "url": "https://www.q-net.or.kr/crf005.do?gId=&gSite=Q&gbnn=gbnSubtab2&id=crf00503&jmCd=1160&jmInfoDivCcd=B0",
+      "lastVerified": "2026-08-02"
+    },
+    "analysis": [
+      "최근 3개년 필기 합격률은 45%에서 54.8%로 상승했습니다.",
+      "실기 합격률은 약 50~62%지만 연도별 출제 난도에 따라 변동할 수 있습니다."
+    ],
+    "notice": "합격률은 해당 연도 실제 응시자 대비 합격자 비율이며, 시험제도·출제기준 변화에 따라 연도별 차이가 날 수 있습니다."
   },
   "charts": {
     "examWeight": {

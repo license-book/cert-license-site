@@ -111,9 +111,18 @@ function validateStatistics(data, file) {
   if (data.statistics.enabled !== undefined && typeof data.statistics.enabled !== "boolean") {
     addError(file, "statistics.enabled는 true 또는 false여야 합니다.");
   }
+  if (data.statistics.status !== undefined && !["available", "unavailable"].includes(data.statistics.status)) {
+    addError(file, 'statistics.status는 "available" 또는 "unavailable"이어야 합니다.');
+  }
   if (data.statistics.enabled !== true) return;
+  if (data.statistics.status === "unavailable") {
+    if (!isText(data.statistics.notice)) {
+      addError(file, "statistics.status가 unavailable이면 notice가 필요합니다.");
+    }
+    return;
+  }
   if (!Array.isArray(data.statistics.groups) || data.statistics.groups.length === 0) {
-    addError(file, "statistics.enabled가 true이면 groups가 필요합니다.");
+    addError(file, "statistics가 available이면 groups가 필요합니다.");
     return;
   }
   const ids = new Set();

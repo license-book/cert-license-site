@@ -140,32 +140,60 @@
     ]
   },
   "statistics": {
-    "enabled": false,
+    "enabled": true,
+    "status": "available",
     "title": "최근 시험 통계",
-    "summary": "공식 통계 검증 후 제공할 예정입니다.",
-    "groups": [],
-    "source": {
-      "label": "Q-Net 가스기사",
-      "url": "https://www.q-net.or.kr/crf005.do?id=crf00503&jmCd=1471",
-      "lastVerified": "2026-07-29"
-    },
-    "analysis": [],
-    "notice": "검증된 공식 통계가 확보되면 업데이트합니다.",
-    "display": {
-      "summaryCard": {
-        "valueFontSize": {
-          "mobile": "1.5rem",
-          "tablet": "1.75rem",
-          "desktop": "2rem"
-        },
-        "valueFontWeight": 800,
-        "valueLineHeight": 1.1,
-        "labelFontSize": {
-          "mobile": "0.75rem",
-          "desktop": "0.8125rem"
-        }
+    "summary": "Q-Net 종목별 검정현황에 공개된 2021~2022년 가스기사 필기·실기 통계입니다.",
+    "groups": [
+      {
+        "id": "written",
+        "title": "필기시험",
+        "description": "연도별 실제 응시자와 합격자 기준입니다.",
+        "items": [
+          {
+            "year": 2022,
+            "applicants": 3698,
+            "passed": 716,
+            "passRate": 19.4
+          },
+          {
+            "year": 2021,
+            "applicants": 4068,
+            "passed": 1455,
+            "passRate": 35.8
+          }
+        ]
+      },
+      {
+        "id": "practical",
+        "title": "실기시험",
+        "description": "연도별 실제 응시자와 합격자 기준입니다.",
+        "items": [
+          {
+            "year": 2022,
+            "applicants": 1712,
+            "passed": 527,
+            "passRate": 30.8
+          },
+          {
+            "year": 2021,
+            "applicants": 2096,
+            "passed": 743,
+            "passRate": 35.4
+          }
+        ]
       }
-    }
+    ],
+    "source": {
+      "label": "Q-Net 가스기사 종목별 검정현황",
+      "url": "https://www.q-net.or.kr/crf005.do?gId=&gSite=Q&gbnn=gbnSubtab2&id=crf00503&jmCd=1471&jmInfoDivCcd=B0",
+      "lastVerified": "2026-08-02"
+    },
+    "analysis": [
+      "공개 수치 기준 필기 합격률은 연도별 변동폭이 큽니다.",
+      "실기는 계산과 법규·설비 내용을 함께 준비해야 하므로 기출 유형 반복이 중요합니다."
+    ],
+    "notice": "합격률은 해당 연도 실제 응시자 대비 합격자 비율이며, 시험제도·출제기준 변화에 따라 연도별 차이가 날 수 있습니다."
   },
   "charts": {
     "examWeight": {

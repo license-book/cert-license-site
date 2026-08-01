@@ -113,17 +113,48 @@
     "note": "시험과목별 세부 범위, 법령 적용기준, 문항 수와 시험시간은 해당 연도 시행계획과 Q-Net 자격상세정보를 최종 기준으로 확인하세요."
   },
   "statistics": {
-    "enabled": false,
-    "title": "연도별 시험 통계",
-    "summary": "공식 통계 수치를 확인하기 전에는 임의의 합격률을 표시하지 않습니다.",
-    "groups": [],
+    "enabled": true,
+    "status": "available",
+    "title": "최근 시험 통계",
+    "summary": "Q-Net 자격상세정보에 공개된 2025년 주택관리사보 1차·2차 시험 통계입니다.",
+    "groups": [
+      {
+        "id": "written",
+        "title": "1차 시험",
+        "description": "연도별 실제 응시자와 합격자 기준입니다.",
+        "items": [
+          {
+            "year": 2025,
+            "applicants": 13827,
+            "passed": 1760,
+            "passRate": 12.7
+          }
+        ]
+      },
+      {
+        "id": "practical",
+        "title": "2차 시험",
+        "description": "연도별 실제 응시자와 합격자 기준입니다.",
+        "items": [
+          {
+            "year": 2025,
+            "applicants": 2050,
+            "passed": 1610,
+            "passRate": 78.5
+          }
+        ]
+      }
+    ],
     "source": {
-      "label": "Q-Net 주택관리사(보)",
-      "url": "https://www.q-net.or.kr/site/housing",
-      "lastVerified": "2026-07-29"
+      "label": "Q-Net 주택관리사보 자격상세정보",
+      "url": "https://www.q-net.or.kr/crf005.do?gId=59&gSite=L&gbnn=gbnSubtab2&id=crf00503",
+      "lastVerified": "2026-08-02"
     },
-    "analysis": [],
-    "notice": "최신 응시인원과 합격률은 시행기관의 공식 시험통계에서 확인하세요."
+    "analysis": [
+      "2025년 1차 합격률은 12.7%로 진입 단계의 난도가 높았습니다.",
+      "2차는 선발예정인원과 점수 분포의 영향을 받으므로 1차 합격률과 직접 비교하지 않는 것이 좋습니다."
+    ],
+    "notice": "합격률은 해당 연도 실제 응시자 대비 합격자 비율이며, 시험제도·출제기준 변화에 따라 연도별 차이가 날 수 있습니다."
   },
   "charts": {
     "examWeight": {

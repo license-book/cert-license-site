@@ -116,9 +116,48 @@
     ]
   },
   "statistics": {
-    "enabled": false,
+    "enabled": true,
+    "status": "available",
     "title": "최근 시험 통계",
-    "summary": "공식 통계가 확인되는 시점에 갱신합니다."
+    "summary": "국가기술자격 통계연보에 수록된 2024년 컴퓨터활용능력 2급 필기·실기 응시 및 합격 현황입니다.",
+    "groups": [
+      {
+        "id": "written",
+        "title": "필기시험",
+        "description": "연도별 실제 응시자와 합격자 기준입니다.",
+        "items": [
+          {
+            "year": 2024,
+            "applicants": 226313,
+            "passed": 72126,
+            "passRate": 31.9
+          }
+        ]
+      },
+      {
+        "id": "practical",
+        "title": "실기시험",
+        "description": "연도별 실제 응시자와 합격자 기준입니다.",
+        "items": [
+          {
+            "year": 2024,
+            "applicants": 139854,
+            "passed": 60857,
+            "passRate": 43.5
+          }
+        ]
+      }
+    ],
+    "source": {
+      "label": "국가기술자격 통계연보·대한상공회의소",
+      "url": "https://license.korcham.net/co/examguide.do?cd=0103&mm=21",
+      "lastVerified": "2026-08-02"
+    },
+    "analysis": [
+      "2024년 필기 합격률은 31.9%, 실기 합격률은 43.5%입니다.",
+      "실기는 필기보다 합격률이 높지만 작업형 시험이므로 반복 실습이 중요합니다."
+    ],
+    "notice": "합격률은 해당 연도 실제 응시자 대비 합격자 비율이며, 시험제도·출제기준 변화에 따라 연도별 차이가 날 수 있습니다."
   },
   "charts": {
     "examWeight": {

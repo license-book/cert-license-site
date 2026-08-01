@@ -93,9 +93,10 @@
     ]
   },
   "statistics": {
-    "enabled": false,
-    "title": "연도별 시험 통계",
-    "summary": "공식 통계 검증 후 제공할 예정입니다.",
+    "enabled": true,
+    "status": "unavailable",
+    "title": "최근 시험 통계",
+    "summary": "공식적으로 검증된 연도별 통계 수치를 아직 반영하지 않았습니다.",
     "groups": [],
     "source": {
       "label": "Q-Net 가스기능사",
@@ -103,7 +104,7 @@
       "lastVerified": "2026-07-29"
     },
     "analysis": [],
-    "notice": "검증된 공식 통계가 확보되면 업데이트합니다."
+    "notice": "공식 통계가 확인·검증되는 대로 차트가 자동 표시됩니다. 확인되지 않은 수치는 제공하지 않습니다."
   },
   "charts": {
     "examWeight": {

@@ -116,9 +116,14 @@
     ]
   },
   "statistics": {
-    "enabled": false,
+    "enabled": true,
+    "status": "unavailable",
     "title": "최근 시험 통계",
-    "summary": "공식 통계가 확인되는 시점에 갱신합니다."
+    "summary": "공식적으로 검증된 연도별 통계 수치를 아직 반영하지 않았습니다.",
+    "groups": [],
+    "source": {},
+    "analysis": [],
+    "notice": "공식 통계가 확인·검증되는 대로 차트가 자동 표시됩니다. 확인되지 않은 수치는 제공하지 않습니다."
   },
   "charts": {
     "examWeight": {

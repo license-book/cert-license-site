@@ -199,7 +199,8 @@
           "desktop": "0.8125rem"
         }
       }
-    }
+    },
+    "status": "available"
   },
   "charts": {
     "examWeight": {

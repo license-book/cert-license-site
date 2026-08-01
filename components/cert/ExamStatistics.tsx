@@ -24,6 +24,7 @@ export interface StatisticsSource {
 
 export interface ExamStatisticsData {
   enabled?: boolean;
+  status?: 'available' | 'unavailable';
   title?: string;
   summary?: string;
   groups?: StatisticsGroup[];
@@ -80,15 +81,43 @@ function MetricCard({
   );
 }
 
-function EmptyState() {
+function EmptyState({ notice }: { notice?: string }) {
   return (
-    <div className="rounded-2xl border border-dashed border-slate-300 bg-slate-50 p-8 text-center">
-      <p className="font-semibold text-slate-700">표시할 시험 통계가 없습니다.</p>
-      <p className="mt-2 text-sm text-slate-500">
-        JSON의 statistics.groups 항목에 연도별 데이터를 입력하세요.
-      </p>
+    <div className="rounded-2xl border border-slate-200 bg-slate-50 p-6 md:p-8">
+      <div className="flex items-start gap-4">
+        <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-2xl bg-slate-900 text-lg font-black text-white">
+          i
+        </div>
+        <div>
+          <p className="font-bold text-slate-900">공식 시험 통계를 확인 중입니다.</p>
+          <p className="mt-2 text-sm leading-6 text-slate-600">
+            {notice ??
+              '시행기관에서 공식적으로 확인 가능한 연도별 응시자·합격자 통계를 찾지 못해 수치를 표시하지 않습니다. 확인되지 않은 합격률은 임의로 제공하지 않습니다.'}
+          </p>
+        </div>
+      </div>
     </div>
   );
+}
+
+function buildAutomaticSummary(groups: StatisticsGroup[]) {
+  const summaries = groups
+    .map((group) => {
+      const rates = group.items
+        .map((item) => item.passRate)
+        .filter((rate) => Number.isFinite(rate));
+
+      if (!rates.length) return null;
+
+      const average = rates.reduce((sum, rate) => sum + rate, 0) / rates.length;
+      const level = average < 30 ? '낮은 편' : average < 50 ? '보통 수준' : '높은 편';
+      return `${group.title} 최근 평균 합격률은 ${average.toFixed(1)}%로 ${level}입니다`;
+    })
+    .filter(Boolean);
+
+  return summaries.length
+    ? `${summaries.join(' · ')}. 연도별 변동이 있으므로 최신 출제기준과 함께 확인하세요.`
+    : undefined;
 }
 
 function LineChart({
@@ -203,6 +232,8 @@ export default function ExamStatistics({
   className = '',
 }: ExamStatisticsProps) {
   const groups = statistics?.groups ?? [];
+  const automaticSummary = useMemo(() => buildAutomaticSummary(groups), [groups]);
+  const displaySummary = statistics?.summary ?? automaticSummary;
   const [activeGroupId, setActiveGroupId] = useState(groups[0]?.id ?? '');
   const [metric, setMetric] = useState<MetricKey>('passRate');
 
@@ -241,9 +272,9 @@ export default function ExamStatistics({
             <h2 className="mt-2 text-2xl font-bold tracking-tight md:text-3xl">
               {statistics.title ?? '최근 시험 통계'}
             </h2>
-            {statistics.summary ? (
+            {displaySummary ? (
               <p className="mt-3 max-w-3xl text-sm leading-6 text-slate-300 md:text-base">
-                {statistics.summary}
+                {displaySummary}
               </p>
             ) : null}
           </div>
@@ -276,8 +307,8 @@ export default function ExamStatistics({
       </div>
 
       <div className="p-6 md:p-8">
-        {!groups.length ? (
-          <EmptyState />
+        {statistics.status === 'unavailable' || !groups.length ? (
+          <EmptyState notice={statistics.notice} />
         ) : (
           <>
             {groups.length > 1 ? (
@@ -375,7 +406,7 @@ export default function ExamStatistics({
                 {sortedItems.length ? (
                   <LineChart items={sortedItems} metric={metric} />
                 ) : (
-                  <EmptyState />
+                  <EmptyState notice={statistics.notice} />
                 )}
               </div>
 
@@ -433,7 +464,7 @@ export default function ExamStatistics({
           </div>
         ) : null}
 
-        {statistics.notice ? (
+        {statistics.notice && statistics.status !== 'unavailable' ? (
           <div className="mt-5 rounded-2xl border border-amber-200 bg-amber-50 px-5 py-4">
             <p className="text-sm leading-6 text-amber-900">
               <strong className="font-bold">확인 안내:</strong> {statistics.notice}

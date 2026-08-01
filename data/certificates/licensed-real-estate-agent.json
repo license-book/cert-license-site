@@ -113,17 +113,72 @@
     "note": "시험과목별 세부 범위, 법령 적용기준, 문항 수와 시험시간은 해당 연도 시행계획과 Q-Net 자격상세정보를 최종 기준으로 확인하세요."
   },
   "statistics": {
-    "enabled": false,
-    "title": "연도별 시험 통계",
-    "summary": "공식 통계 수치를 확인하기 전에는 임의의 합격률을 표시하지 않습니다.",
-    "groups": [],
+    "enabled": true,
+    "status": "available",
+    "title": "최근 시험 통계",
+    "summary": "Q-Net 자격상세정보에 공개된 2022~2024년 공인중개사 1차·2차 시험 통계입니다.",
+    "groups": [
+      {
+        "id": "written",
+        "title": "1차 시험",
+        "description": "연도별 실제 응시자와 합격자 기준입니다.",
+        "items": [
+          {
+            "year": 2024,
+            "applicants": 98483,
+            "passed": 14850,
+            "passRate": 15.1
+          },
+          {
+            "year": 2023,
+            "applicants": 134354,
+            "passed": 27458,
+            "passRate": 20.4
+          },
+          {
+            "year": 2022,
+            "applicants": 176016,
+            "passed": 34746,
+            "passRate": 19.7
+          }
+        ]
+      },
+      {
+        "id": "practical",
+        "title": "2차 시험",
+        "description": "연도별 실제 응시자와 합격자 기준입니다.",
+        "items": [
+          {
+            "year": 2024,
+            "applicants": 49521,
+            "passed": 15301,
+            "passRate": 30.9
+          },
+          {
+            "year": 2023,
+            "applicants": 65705,
+            "passed": 15157,
+            "passRate": 23.1
+          },
+          {
+            "year": 2022,
+            "applicants": 88378,
+            "passed": 27916,
+            "passRate": 31.6
+          }
+        ]
+      }
+    ],
     "source": {
-      "label": "Q-Net 공인중개사",
-      "url": "https://www.q-net.or.kr/site/junggae",
-      "lastVerified": "2026-07-29"
+      "label": "Q-Net 공인중개사 자격상세정보",
+      "url": "https://www.q-net.or.kr/crf005.do?gId=08&gSite=L&gbnn=gbnSubtab2&id=crf00503",
+      "lastVerified": "2026-08-02"
     },
-    "analysis": [],
-    "notice": "최신 응시인원과 합격률은 시행기관의 공식 시험통계에서 확인하세요."
+    "analysis": [
+      "최근 3개년 1차 합격률은 15~20%대로 낮은 편입니다.",
+      "2차 합격률은 연도별 변동이 크므로 1·2차 동시 준비 시 과목별 시간 배분이 중요합니다."
+    ],
+    "notice": "합격률은 해당 연도 실제 응시자 대비 합격자 비율이며, 시험제도·출제기준 변화에 따라 연도별 차이가 날 수 있습니다."
   },
   "charts": {
     "examWeight": {

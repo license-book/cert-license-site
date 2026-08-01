@@ -117,9 +117,72 @@
     ]
   },
   "statistics": {
-    "enabled": false,
+    "enabled": true,
+    "status": "available",
     "title": "최근 시험 통계",
-    "summary": "공식 통계가 확인되는 시점에 갱신합니다."
+    "summary": "국가기술자격 통계연보 기반 2020~2022년 워드프로세서 필기·실기 응시 및 합격 현황입니다.",
+    "groups": [
+      {
+        "id": "written",
+        "title": "필기시험",
+        "description": "연도별 실제 응시자와 합격자 기준입니다.",
+        "items": [
+          {
+            "year": 2022,
+            "applicants": 42098,
+            "passed": 23922,
+            "passRate": 56.8
+          },
+          {
+            "year": 2021,
+            "applicants": 55707,
+            "passed": 30152,
+            "passRate": 54.1
+          },
+          {
+            "year": 2020,
+            "applicants": 51954,
+            "passed": 33803,
+            "passRate": 65.1
+          }
+        ]
+      },
+      {
+        "id": "practical",
+        "title": "실기시험",
+        "description": "연도별 실제 응시자와 합격자 기준입니다.",
+        "items": [
+          {
+            "year": 2022,
+            "applicants": 42060,
+            "passed": 15329,
+            "passRate": 36.4
+          },
+          {
+            "year": 2021,
+            "applicants": 53711,
+            "passed": 21532,
+            "passRate": 40.1
+          },
+          {
+            "year": 2020,
+            "applicants": 51894,
+            "passed": 23038,
+            "passRate": 44.4
+          }
+        ]
+      }
+    ],
+    "source": {
+      "label": "국가기술자격 통계연보·대한상공회의소",
+      "url": "https://license.korcham.net/co/examguide.do?cd=0102&mm=22",
+      "lastVerified": "2026-08-02"
+    },
+    "analysis": [
+      "최근 공개 3개년 기준 필기 합격률은 50% 이상이지만 실기는 30~40%대로 더 낮습니다.",
+      "실기에서는 제한 시간 안에 문서 편집을 정확하게 완성하는 연습이 중요합니다."
+    ],
+    "notice": "합격률은 해당 연도 실제 응시자 대비 합격자 비율이며, 시험제도·출제기준 변화에 따라 연도별 차이가 날 수 있습니다."
   },
   "charts": {
     "examWeight": {

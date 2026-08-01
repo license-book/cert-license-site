@@ -139,32 +139,72 @@
     ]
   },
   "statistics": {
-    "enabled": false,
+    "enabled": true,
+    "status": "available",
     "title": "최근 시험 통계",
-    "summary": "공식 통계 검증 후 제공할 예정입니다.",
-    "groups": [],
-    "source": {
-      "label": "Q-Net 소방설비기사(전기분야) 종목별 상세정보",
-      "url": "https://www.q-net.or.kr/crf005.do?id=crf00503s02&jmCd=1910&jmInfoDivCcd=B0",
-      "lastVerified": "2026-07-29"
-    },
-    "analysis": [],
-    "notice": "검증된 공식 통계가 확보되면 업데이트합니다.",
-    "display": {
-      "summaryCard": {
-        "valueFontSize": {
-          "mobile": "1.5rem",
-          "tablet": "1.75rem",
-          "desktop": "2rem"
-        },
-        "valueFontWeight": 800,
-        "valueLineHeight": 1.1,
-        "labelFontSize": {
-          "mobile": "0.75rem",
-          "desktop": "0.8125rem"
-        }
+    "summary": "Q-Net 종목별 검정현황에 공개된 2023~2025년 소방설비기사(전기분야) 필기·실기 통계입니다.",
+    "groups": [
+      {
+        "id": "written",
+        "title": "필기시험",
+        "description": "연도별 실제 응시자와 합격자 기준입니다.",
+        "items": [
+          {
+            "year": 2025,
+            "applicants": 33756,
+            "passed": 16914,
+            "passRate": 50.1
+          },
+          {
+            "year": 2024,
+            "applicants": 30163,
+            "passed": 14028,
+            "passRate": 46.5
+          },
+          {
+            "year": 2023,
+            "applicants": 32202,
+            "passed": 15919,
+            "passRate": 49.4
+          }
+        ]
+      },
+      {
+        "id": "practical",
+        "title": "실기시험",
+        "description": "연도별 실제 응시자와 합격자 기준입니다.",
+        "items": [
+          {
+            "year": 2025,
+            "applicants": 29485,
+            "passed": 7625,
+            "passRate": 25.9
+          },
+          {
+            "year": 2024,
+            "applicants": 24518,
+            "passed": 10134,
+            "passRate": 41.3
+          },
+          {
+            "year": 2023,
+            "applicants": 20843,
+            "passed": 8679,
+            "passRate": 41.6
+          }
+        ]
       }
-    }
+    ],
+    "source": {
+      "label": "Q-Net 소방설비기사(전기분야) 종목별 검정현황",
+      "url": "https://www.q-net.or.kr/crf005.do?gId=&gSite=Q&gbnn=gbnSubtab2&id=crf00503&jmCd=1910&jmInfoDivCcd=B0",
+      "lastVerified": "2026-08-02"
+    },
+    "analysis": [
+      "필기 합격률은 최근 3년 약 46~50%로 비교적 안정적입니다.",
+      "2025년 실기 합격률은 25.9%로 하락해 실기 대비의 중요성이 커졌습니다."
+    ],
+    "notice": "합격률은 해당 연도 실제 응시자 대비 합격자 비율이며, 시험제도·출제기준 변화에 따라 연도별 차이가 날 수 있습니다."
   },
   "charts": {
     "examWeight": {
