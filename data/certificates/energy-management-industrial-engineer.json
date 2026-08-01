@@ -140,17 +140,47 @@
   },
   "statistics": {
     "enabled": true,
-    "status": "unavailable",
+    "status": "available",
     "title": "최근 시험 통계",
-    "summary": "공식적으로 검증된 연도별 통계 수치를 아직 반영하지 않았습니다.",
-    "groups": [],
+    "summary": "필기시험 최근 평균 합격률은 31.4%로 보통 수준입니다 · 실기시험 최근 평균 합격률은 29.1%로 낮은 편입니다. 연도별 변동이 있으므로 최신 출제기준과 함께 확인하세요.",
+    "groups": [
+      {
+        "id": "written",
+        "title": "필기시험",
+        "description": "연도별 필기시험 응시·합격 통계입니다.",
+        "items": [
+          {
+            "year": 2025,
+            "applicants": 3182,
+            "passed": 998,
+            "passRate": 31.4
+          }
+        ]
+      },
+      {
+        "id": "practical",
+        "title": "실기시험",
+        "description": "연도별 실기시험 응시·합격 통계입니다.",
+        "items": [
+          {
+            "year": 2025,
+            "applicants": 1628,
+            "passed": 473,
+            "passRate": 29.1
+          }
+        ]
+      }
+    ],
     "source": {
-      "label": "Q-Net 에너지관리산업기사",
-      "url": "https://www.q-net.or.kr/crf005.do?id=crf00503&jmCd=C960",
-      "lastVerified": "2026-07-29"
+      "label": "Q-Net 에너지관리산업기사 종목별 검정현황",
+      "url": "https://www.q-net.or.kr/crf005.do?gSite=Q&gbnn=gbnSubtab2&id=crf00503&jmCd=2960",
+      "lastVerified": "2026-08-02"
     },
-    "analysis": [],
-    "notice": "공식 통계가 확인·검증되는 대로 차트가 자동 표시됩니다. 확인되지 않은 수치는 제공하지 않습니다."
+    "analysis": [
+      "최근 평균 합격률은 입력된 공식 응시·합격 데이터에서 자동 계산됩니다.",
+      "응시자 수와 합격률은 시험 난이도와 출제기준에 따라 연도별로 달라질 수 있습니다."
+    ],
+    "notice": "Q-Net 종목별 검정현황의 2025년 공식 공개 수치를 반영했습니다."
   },
   "charts": {
     "examWeight": {
