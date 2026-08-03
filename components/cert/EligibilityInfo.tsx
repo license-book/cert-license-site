@@ -77,9 +77,9 @@ export default function EligibilityInfo({ data }: Props) {
           <h3 className="text-lg font-black">응시 가능한 조건</h3>
 
           <div className="mt-4 grid gap-4 md:grid-cols-2">
-            {data.conditions.map((condition) => (
+            {data.conditions.map((condition, index) => (
               <div
-                key={condition.label}
+                key={`${condition.label}-${index}`}
                 className="rounded-2xl bg-slate-50 p-5 ring-1 ring-slate-100"
               >
                 <p className="font-black text-slate-900">{condition.label}</p>

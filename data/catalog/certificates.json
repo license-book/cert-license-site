@@ -790,5 +790,905 @@
     "category": "부동산·주택관리",
     "agency": "한국산업인력공단",
     "relatedTag": "부동산·주택관리"
+  },
+  "psychological-counselor": {
+    "name": "심리상담사",
+    "shortName": "심리상담사",
+    "type": "private",
+    "licenseType": "등록민간자격(기관별 확인)",
+    "category": "심리·상담",
+    "agency": "자격발급기관별 상이",
+    "relatedTag": "상담 기초"
+  },
+  "art-psychology-counselor": {
+    "name": "미술심리상담사",
+    "shortName": "미술심리상담사",
+    "type": "private",
+    "licenseType": "등록민간자격(기관별 확인)",
+    "category": "심리·상담",
+    "agency": "자격발급기관별 상이",
+    "relatedTag": "미술·정서"
+  },
+  "music-psychology-counselor": {
+    "name": "음악심리상담사",
+    "shortName": "음악심리상담사",
+    "type": "private",
+    "licenseType": "등록민간자격(기관별 확인)",
+    "category": "심리·상담",
+    "agency": "자격발급기관별 상이",
+    "relatedTag": "음악·정서"
+  },
+  "child-psychology-counselor": {
+    "name": "아동심리상담사",
+    "shortName": "아동심리상담사",
+    "type": "private",
+    "licenseType": "등록민간자격(기관별 확인)",
+    "category": "심리·상담",
+    "agency": "자격발급기관별 상이",
+    "relatedTag": "아동 상담"
+  },
+  "youth-psychology-counselor": {
+    "name": "청소년심리상담사",
+    "shortName": "청소년심리상담사",
+    "type": "private",
+    "licenseType": "등록민간자격(기관별 확인)",
+    "category": "심리·상담",
+    "agency": "자격발급기관별 상이",
+    "relatedTag": "청소년 상담"
+  },
+  "senior-psychology-counselor": {
+    "name": "노인심리상담사",
+    "shortName": "노인심리상담사",
+    "type": "private",
+    "licenseType": "등록민간자격(기관별 확인)",
+    "category": "심리·상담",
+    "agency": "자격발급기관별 상이",
+    "relatedTag": "노인 상담"
+  },
+  "family-psychology-counselor": {
+    "name": "가족심리상담사",
+    "shortName": "가족심리상담사",
+    "type": "private",
+    "licenseType": "등록민간자격(기관별 확인)",
+    "category": "심리·상담",
+    "agency": "자격발급기관별 상이",
+    "relatedTag": "가족 상담"
+  },
+  "career-counselor": {
+    "name": "진로상담사",
+    "shortName": "진로상담사",
+    "type": "private",
+    "licenseType": "등록민간자격(기관별 확인)",
+    "category": "심리·상담",
+    "agency": "자격발급기관별 상이",
+    "relatedTag": "진로 상담"
+  },
+  "anger-management-counselor": {
+    "name": "분노조절상담사",
+    "shortName": "분노조절상담사",
+    "type": "private",
+    "licenseType": "등록민간자격(기관별 확인)",
+    "category": "심리·상담",
+    "agency": "자격발급기관별 상이",
+    "relatedTag": "감정 조절"
+  },
+  "nlp-psychology-counselor": {
+    "name": "NLP심리상담사",
+    "shortName": "NLP심리상담사",
+    "type": "private",
+    "licenseType": "등록민간자격(기관별 확인)",
+    "category": "심리·상담",
+    "agency": "자격발급기관별 상이",
+    "relatedTag": "NLP 상담"
+  },
+  "after-school-instructor": {
+    "name": "방과후지도사",
+    "shortName": "방과후지도사",
+    "type": "private",
+    "licenseType": "등록민간자격(기관별 확인)",
+    "category": "아동·교육",
+    "agency": "자격발급기관별 상이",
+    "relatedTag": "방과후 교육"
+  },
+  "reading-instructor": {
+    "name": "독서지도사",
+    "shortName": "독서지도사",
+    "type": "private",
+    "licenseType": "등록민간자격(기관별 확인)",
+    "category": "아동·교육",
+    "agency": "자격발급기관별 상이",
+    "relatedTag": "독서 교육"
+  },
+  "self-directed-learning-instructor": {
+    "name": "자기주도학습지도사",
+    "shortName": "자기주도학습지도사",
+    "type": "private",
+    "licenseType": "등록민간자격(기관별 확인)",
+    "category": "아동·교육",
+    "agency": "자격발급기관별 상이",
+    "relatedTag": "학습 지도"
+  },
+  "storytelling-instructor": {
+    "name": "스토리텔링지도사",
+    "shortName": "스토리텔링지도사",
+    "type": "private",
+    "licenseType": "등록민간자격(기관별 확인)",
+    "category": "아동·교육",
+    "agency": "자격발급기관별 상이",
+    "relatedTag": "스토리 교육"
+  },
+  "nie-instructor": {
+    "name": "NIE지도사",
+    "shortName": "NIE지도사",
+    "type": "private",
+    "licenseType": "등록민간자격(기관별 확인)",
+    "category": "아동·교육",
+    "agency": "자격발급기관별 상이",
+    "relatedTag": "신문 활용"
+  },
+  "debate-instructor": {
+    "name": "토론지도사",
+    "shortName": "토론지도사",
+    "type": "private",
+    "licenseType": "등록민간자격(기관별 확인)",
+    "category": "아동·교육",
+    "agency": "자격발급기관별 상이",
+    "relatedTag": "토론 교육"
+  },
+  "parent-education-instructor": {
+    "name": "부모교육지도사",
+    "shortName": "부모교육지도사",
+    "type": "private",
+    "licenseType": "등록민간자격(기관별 확인)",
+    "category": "아동·교육",
+    "agency": "자격발급기관별 상이",
+    "relatedTag": "부모 교육"
+  },
+  "learning-coach": {
+    "name": "학습코칭지도사",
+    "shortName": "학습코칭지도사",
+    "type": "private",
+    "licenseType": "등록민간자격(기관별 확인)",
+    "category": "아동·교육",
+    "agency": "자격발급기관별 상이",
+    "relatedTag": "학습 코칭"
+  },
+  "creativity-instructor": {
+    "name": "창의력지도사",
+    "shortName": "창의력지도사",
+    "type": "private",
+    "licenseType": "등록민간자격(기관별 확인)",
+    "category": "아동·교육",
+    "agency": "자격발급기관별 상이",
+    "relatedTag": "창의 교육"
+  },
+  "character-education-instructor": {
+    "name": "인성지도사",
+    "shortName": "인성지도사",
+    "type": "private",
+    "licenseType": "등록민간자격(기관별 확인)",
+    "category": "아동·교육",
+    "agency": "자격발급기관별 상이",
+    "relatedTag": "인성 교육"
+  },
+  "pet-manager": {
+    "name": "반려동물관리사",
+    "shortName": "반려동물관리사",
+    "type": "private",
+    "licenseType": "등록민간자격(기관별 확인)",
+    "category": "반려동물",
+    "agency": "자격발급기관별 상이",
+    "relatedTag": "반려동물 관리"
+  },
+  "pet-behavior-specialist": {
+    "name": "반려동물행동교정사",
+    "shortName": "반려동물행동교정사",
+    "type": "private",
+    "licenseType": "등록민간자격(기관별 확인)",
+    "category": "반려동물",
+    "agency": "자격발급기관별 상이",
+    "relatedTag": "행동 교정"
+  },
+  "pet-funeral-director": {
+    "name": "반려동물장례지도사",
+    "shortName": "반려동물장례지도사",
+    "type": "private",
+    "licenseType": "등록민간자격(기관별 확인)",
+    "category": "반려동물",
+    "agency": "자격발급기관별 상이",
+    "relatedTag": "반려동물 장례"
+  },
+  "pet-sitter": {
+    "name": "펫시터",
+    "shortName": "펫시터",
+    "type": "private",
+    "licenseType": "등록민간자격(기관별 확인)",
+    "category": "반려동물",
+    "agency": "자격발급기관별 상이",
+    "relatedTag": "펫 돌봄"
+  },
+  "pet-grooming-specialist": {
+    "name": "애견미용관리사",
+    "shortName": "애견미용관리사",
+    "type": "private",
+    "licenseType": "등록민간자격(기관별 확인)",
+    "category": "반려동물",
+    "agency": "자격발급기관별 상이",
+    "relatedTag": "애견 미용"
+  },
+  "pet-aromatherapy-specialist": {
+    "name": "반려동물아로마전문가",
+    "shortName": "반려동물아로마전문가",
+    "type": "private",
+    "licenseType": "등록민간자격(기관별 확인)",
+    "category": "반려동물",
+    "agency": "자격발급기관별 상이",
+    "relatedTag": "펫 아로마"
+  },
+  "pet-massage-specialist": {
+    "name": "반려동물마사지전문가",
+    "shortName": "반려동물마사지전문가",
+    "type": "private",
+    "licenseType": "등록민간자격(기관별 확인)",
+    "category": "반려동물",
+    "agency": "자격발급기관별 상이",
+    "relatedTag": "펫 마사지"
+  },
+  "cat-manager": {
+    "name": "캣매니저",
+    "shortName": "캣매니저",
+    "type": "private",
+    "licenseType": "등록민간자격(기관별 확인)",
+    "category": "반려동물",
+    "agency": "자격발급기관별 상이",
+    "relatedTag": "고양이 관리"
+  },
+  "pet-trainer": {
+    "name": "반려동물훈련사",
+    "shortName": "반려동물훈련사",
+    "type": "private",
+    "licenseType": "등록민간자격(기관별 확인)",
+    "category": "반려동물",
+    "agency": "자격발급기관별 상이",
+    "relatedTag": "반려동물 훈련"
+  },
+  "dog-walker": {
+    "name": "도그워커",
+    "shortName": "도그워커",
+    "type": "private",
+    "licenseType": "등록민간자격(기관별 확인)",
+    "category": "반려동물",
+    "agency": "자격발급기관별 상이",
+    "relatedTag": "산책 관리"
+  },
+  "coding-instructor": {
+    "name": "코딩지도사",
+    "shortName": "코딩지도사",
+    "type": "private",
+    "licenseType": "등록민간자격(기관별 확인)",
+    "category": "IT·AI",
+    "agency": "자격발급기관별 상이",
+    "relatedTag": "코딩 교육"
+  },
+  "ai-utilization-specialist": {
+    "name": "AI활용전문가",
+    "shortName": "AI활용전문가",
+    "type": "private",
+    "licenseType": "등록민간자격(기관별 확인)",
+    "category": "IT·AI",
+    "agency": "자격발급기관별 상이",
+    "relatedTag": "AI 활용"
+  },
+  "generative-ai-specialist": {
+    "name": "생성형AI활용전문가",
+    "shortName": "생성형AI활용전문가",
+    "type": "private",
+    "licenseType": "등록민간자격(기관별 확인)",
+    "category": "IT·AI",
+    "agency": "자격발급기관별 상이",
+    "relatedTag": "생성형 AI"
+  },
+  "chatgpt-specialist": {
+    "name": "ChatGPT활용전문가",
+    "shortName": "ChatGPT활용전문가",
+    "type": "private",
+    "licenseType": "등록민간자격(기관별 확인)",
+    "category": "IT·AI",
+    "agency": "자격발급기관별 상이",
+    "relatedTag": "ChatGPT 활용"
+  },
+  "data-utilization-specialist": {
+    "name": "데이터활용전문가",
+    "shortName": "데이터활용전문가",
+    "type": "private",
+    "licenseType": "등록민간자격(기관별 확인)",
+    "category": "IT·AI",
+    "agency": "자격발급기관별 상이",
+    "relatedTag": "데이터 활용"
+  },
+  "information-search-specialist": {
+    "name": "정보검색전문가",
+    "shortName": "정보검색전문가",
+    "type": "private",
+    "licenseType": "등록민간자격(기관별 확인)",
+    "category": "IT·AI",
+    "agency": "자격발급기관별 상이",
+    "relatedTag": "정보 검색"
+  },
+  "office-automation-specialist": {
+    "name": "OA전문가",
+    "shortName": "OA전문가",
+    "type": "private",
+    "licenseType": "등록민간자격(기관별 확인)",
+    "category": "IT·AI",
+    "agency": "자격발급기관별 상이",
+    "relatedTag": "OA 활용"
+  },
+  "digital-literacy-instructor": {
+    "name": "디지털문해교육지도사",
+    "shortName": "디지털문해교육지도사",
+    "type": "private",
+    "licenseType": "등록민간자격(기관별 확인)",
+    "category": "IT·AI",
+    "agency": "자격발급기관별 상이",
+    "relatedTag": "디지털 문해"
+  },
+  "software-education-instructor": {
+    "name": "SW교육지도사",
+    "shortName": "SW교육지도사",
+    "type": "private",
+    "licenseType": "등록민간자격(기관별 확인)",
+    "category": "IT·AI",
+    "agency": "자격발급기관별 상이",
+    "relatedTag": "SW 교육"
+  },
+  "computer-skills-instructor": {
+    "name": "컴퓨터활용지도사",
+    "shortName": "컴퓨터활용지도사",
+    "type": "private",
+    "licenseType": "등록민간자격(기관별 확인)",
+    "category": "IT·AI",
+    "agency": "자격발급기관별 상이",
+    "relatedTag": "컴퓨터 활용"
+  },
+  "sns-marketing-specialist": {
+    "name": "SNS마케팅전문가",
+    "shortName": "SNS마케팅전문가",
+    "type": "private",
+    "licenseType": "등록민간자격(기관별 확인)",
+    "category": "마케팅·비즈니스",
+    "agency": "자격발급기관별 상이",
+    "relatedTag": "SNS 마케팅"
+  },
+  "online-marketing-specialist": {
+    "name": "온라인마케팅전문가",
+    "shortName": "온라인마케팅전문가",
+    "type": "private",
+    "licenseType": "등록민간자격(기관별 확인)",
+    "category": "마케팅·비즈니스",
+    "agency": "자격발급기관별 상이",
+    "relatedTag": "온라인 마케팅"
+  },
+  "shopping-mall-manager": {
+    "name": "쇼핑몰관리사",
+    "shortName": "쇼핑몰관리사",
+    "type": "private",
+    "licenseType": "등록민간자격(기관별 확인)",
+    "category": "마케팅·비즈니스",
+    "agency": "자격발급기관별 상이",
+    "relatedTag": "쇼핑몰 운영"
+  },
+  "smart-store-specialist": {
+    "name": "스마트스토어전문가",
+    "shortName": "스마트스토어전문가",
+    "type": "private",
+    "licenseType": "등록민간자격(기관별 확인)",
+    "category": "마케팅·비즈니스",
+    "agency": "자격발급기관별 상이",
+    "relatedTag": "스마트스토어"
+  },
+  "blog-marketing-specialist": {
+    "name": "블로그마케팅전문가",
+    "shortName": "블로그마케팅전문가",
+    "type": "private",
+    "licenseType": "등록민간자격(기관별 확인)",
+    "category": "마케팅·비즈니스",
+    "agency": "자격발급기관별 상이",
+    "relatedTag": "블로그 마케팅"
+  },
+  "brand-manager": {
+    "name": "브랜드매니저",
+    "shortName": "브랜드매니저",
+    "type": "private",
+    "licenseType": "등록민간자격(기관별 확인)",
+    "category": "마케팅·비즈니스",
+    "agency": "자격발급기관별 상이",
+    "relatedTag": "브랜드 관리"
+  },
+  "personal-branding-specialist": {
+    "name": "퍼스널브랜딩전문가",
+    "shortName": "퍼스널브랜딩전문가",
+    "type": "private",
+    "licenseType": "등록민간자격(기관별 확인)",
+    "category": "마케팅·비즈니스",
+    "agency": "자격발급기관별 상이",
+    "relatedTag": "퍼스널 브랜딩"
+  },
+  "live-commerce-specialist": {
+    "name": "라이브커머스전문가",
+    "shortName": "라이브커머스전문가",
+    "type": "private",
+    "licenseType": "등록민간자격(기관별 확인)",
+    "category": "마케팅·비즈니스",
+    "agency": "자격발급기관별 상이",
+    "relatedTag": "라이브커머스"
+  },
+  "ecommerce-manager": {
+    "name": "전자상거래관리사(민간)",
+    "shortName": "전자상거래관리사",
+    "type": "private",
+    "licenseType": "등록민간자격(기관별 확인)",
+    "category": "마케팅·비즈니스",
+    "agency": "자격발급기관별 상이",
+    "relatedTag": "전자상거래"
+  },
+  "youtube-marketing-specialist": {
+    "name": "유튜브마케팅전문가",
+    "shortName": "유튜브마케팅전문가",
+    "type": "private",
+    "licenseType": "등록민간자격(기관별 확인)",
+    "category": "마케팅·비즈니스",
+    "agency": "자격발급기관별 상이",
+    "relatedTag": "유튜브 마케팅"
+  },
+  "calligraphy-instructor": {
+    "name": "캘리그라피지도사",
+    "shortName": "캘리그라피지도사",
+    "type": "private",
+    "licenseType": "등록민간자격(기관별 확인)",
+    "category": "디자인·콘텐츠",
+    "agency": "자격발급기관별 상이",
+    "relatedTag": "캘리그라피"
+  },
+  "digital-drawing-specialist": {
+    "name": "디지털드로잉전문가",
+    "shortName": "디지털드로잉전문가",
+    "type": "private",
+    "licenseType": "등록민간자격(기관별 확인)",
+    "category": "디자인·콘텐츠",
+    "agency": "자격발급기관별 상이",
+    "relatedTag": "디지털 드로잉"
+  },
+  "illustration-specialist": {
+    "name": "일러스트레이터전문가",
+    "shortName": "일러스트레이터전문가",
+    "type": "private",
+    "licenseType": "등록민간자격(기관별 확인)",
+    "category": "디자인·콘텐츠",
+    "agency": "자격발급기관별 상이",
+    "relatedTag": "일러스트"
+  },
+  "video-editing-specialist": {
+    "name": "영상편집전문가",
+    "shortName": "영상편집전문가",
+    "type": "private",
+    "licenseType": "등록민간자격(기관별 확인)",
+    "category": "디자인·콘텐츠",
+    "agency": "자격발급기관별 상이",
+    "relatedTag": "영상 편집"
+  },
+  "presentation-specialist": {
+    "name": "프레젠테이션전문가",
+    "shortName": "프레젠테이션전문가",
+    "type": "private",
+    "licenseType": "등록민간자격(기관별 확인)",
+    "category": "디자인·콘텐츠",
+    "agency": "자격발급기관별 상이",
+    "relatedTag": "프레젠테이션"
+  },
+  "content-creator": {
+    "name": "콘텐츠크리에이터",
+    "shortName": "콘텐츠크리에이터",
+    "type": "private",
+    "licenseType": "등록민간자격(기관별 확인)",
+    "category": "디자인·콘텐츠",
+    "agency": "자격발급기관별 상이",
+    "relatedTag": "콘텐츠 제작"
+  },
+  "cardnews-designer": {
+    "name": "카드뉴스디자이너",
+    "shortName": "카드뉴스디자이너",
+    "type": "private",
+    "licenseType": "등록민간자격(기관별 확인)",
+    "category": "디자인·콘텐츠",
+    "agency": "자격발급기관별 상이",
+    "relatedTag": "카드뉴스"
+  },
+  "web-design-specialist": {
+    "name": "웹디자인전문가",
+    "shortName": "웹디자인전문가",
+    "type": "private",
+    "licenseType": "등록민간자격(기관별 확인)",
+    "category": "디자인·콘텐츠",
+    "agency": "자격발급기관별 상이",
+    "relatedTag": "웹 디자인"
+  },
+  "photography-specialist": {
+    "name": "사진촬영전문가",
+    "shortName": "사진촬영전문가",
+    "type": "private",
+    "licenseType": "등록민간자격(기관별 확인)",
+    "category": "디자인·콘텐츠",
+    "agency": "자격발급기관별 상이",
+    "relatedTag": "사진 촬영"
+  },
+  "short-form-content-specialist": {
+    "name": "숏폼콘텐츠전문가",
+    "shortName": "숏폼콘텐츠전문가",
+    "type": "private",
+    "licenseType": "등록민간자격(기관별 확인)",
+    "category": "디자인·콘텐츠",
+    "agency": "자격발급기관별 상이",
+    "relatedTag": "숏폼 콘텐츠"
+  },
+  "skin-care-specialist": {
+    "name": "피부관리전문가",
+    "shortName": "피부관리전문가",
+    "type": "private",
+    "licenseType": "등록민간자격(기관별 확인)",
+    "category": "뷰티",
+    "agency": "자격발급기관별 상이",
+    "relatedTag": "피부 관리"
+  },
+  "nail-art-specialist": {
+    "name": "네일아트전문가",
+    "shortName": "네일아트전문가",
+    "type": "private",
+    "licenseType": "등록민간자격(기관별 확인)",
+    "category": "뷰티",
+    "agency": "자격발급기관별 상이",
+    "relatedTag": "네일아트"
+  },
+  "makeup-specialist": {
+    "name": "메이크업전문가",
+    "shortName": "메이크업전문가",
+    "type": "private",
+    "licenseType": "등록민간자격(기관별 확인)",
+    "category": "뷰티",
+    "agency": "자격발급기관별 상이",
+    "relatedTag": "메이크업"
+  },
+  "eyelash-extension-specialist": {
+    "name": "속눈썹연장전문가",
+    "shortName": "속눈썹연장전문가",
+    "type": "private",
+    "licenseType": "등록민간자격(기관별 확인)",
+    "category": "뷰티",
+    "agency": "자격발급기관별 상이",
+    "relatedTag": "속눈썹"
+  },
+  "waxing-specialist": {
+    "name": "왁싱전문가",
+    "shortName": "왁싱전문가",
+    "type": "private",
+    "licenseType": "등록민간자격(기관별 확인)",
+    "category": "뷰티",
+    "agency": "자격발급기관별 상이",
+    "relatedTag": "왁싱"
+  },
+  "personal-color-consultant": {
+    "name": "퍼스널컬러컨설턴트",
+    "shortName": "퍼스널컬러컨설턴트",
+    "type": "private",
+    "licenseType": "등록민간자격(기관별 확인)",
+    "category": "뷰티",
+    "agency": "자격발급기관별 상이",
+    "relatedTag": "퍼스널컬러"
+  },
+  "image-making-specialist": {
+    "name": "이미지메이킹전문가",
+    "shortName": "이미지메이킹전문가",
+    "type": "private",
+    "licenseType": "등록민간자격(기관별 확인)",
+    "category": "뷰티",
+    "agency": "자격발급기관별 상이",
+    "relatedTag": "이미지메이킹"
+  },
+  "scalp-care-specialist": {
+    "name": "두피관리전문가",
+    "shortName": "두피관리전문가",
+    "type": "private",
+    "licenseType": "등록민간자격(기관별 확인)",
+    "category": "뷰티",
+    "agency": "자격발급기관별 상이",
+    "relatedTag": "두피 관리"
+  },
+  "hair-styling-specialist": {
+    "name": "헤어스타일링전문가",
+    "shortName": "헤어스타일링전문가",
+    "type": "private",
+    "licenseType": "등록민간자격(기관별 확인)",
+    "category": "뷰티",
+    "agency": "자격발급기관별 상이",
+    "relatedTag": "헤어 스타일링"
+  },
+  "beauty-coordinator": {
+    "name": "뷰티코디네이터",
+    "shortName": "뷰티코디네이터",
+    "type": "private",
+    "licenseType": "등록민간자격(기관별 확인)",
+    "category": "뷰티",
+    "agency": "자격발급기관별 상이",
+    "relatedTag": "뷰티 코디"
+  },
+  "pilates-instructor": {
+    "name": "필라테스지도사",
+    "shortName": "필라테스지도사",
+    "type": "private",
+    "licenseType": "등록민간자격(기관별 확인)",
+    "category": "건강·운동",
+    "agency": "자격발급기관별 상이",
+    "relatedTag": "필라테스"
+  },
+  "yoga-instructor": {
+    "name": "요가지도사",
+    "shortName": "요가지도사",
+    "type": "private",
+    "licenseType": "등록민간자격(기관별 확인)",
+    "category": "건강·운동",
+    "agency": "자격발급기관별 상이",
+    "relatedTag": "요가"
+  },
+  "fitness-trainer": {
+    "name": "헬스트레이너",
+    "shortName": "헬스트레이너",
+    "type": "private",
+    "licenseType": "등록민간자격(기관별 확인)",
+    "category": "건강·운동",
+    "agency": "자격발급기관별 상이",
+    "relatedTag": "피트니스"
+  },
+  "exercise-prescription-specialist": {
+    "name": "운동처방전문가",
+    "shortName": "운동처방전문가",
+    "type": "private",
+    "licenseType": "등록민간자격(기관별 확인)",
+    "category": "건강·운동",
+    "agency": "자격발급기관별 상이",
+    "relatedTag": "운동 처방"
+  },
+  "rehabilitation-exercise-instructor": {
+    "name": "재활운동지도사",
+    "shortName": "재활운동지도사",
+    "type": "private",
+    "licenseType": "등록민간자격(기관별 확인)",
+    "category": "건강·운동",
+    "agency": "자격발급기관별 상이",
+    "relatedTag": "재활 운동"
+  },
+  "sports-instructor": {
+    "name": "생활스포츠지도전문가",
+    "shortName": "생활스포츠지도전문가",
+    "type": "private",
+    "licenseType": "등록민간자격(기관별 확인)",
+    "category": "건강·운동",
+    "agency": "자격발급기관별 상이",
+    "relatedTag": "생활 스포츠"
+  },
+  "senior-exercise-instructor": {
+    "name": "시니어운동지도사",
+    "shortName": "시니어운동지도사",
+    "type": "private",
+    "licenseType": "등록민간자격(기관별 확인)",
+    "category": "건강·운동",
+    "agency": "자격발급기관별 상이",
+    "relatedTag": "시니어 운동"
+  },
+  "health-manager": {
+    "name": "건강관리사",
+    "shortName": "건강관리사",
+    "type": "private",
+    "licenseType": "등록민간자격(기관별 확인)",
+    "category": "건강·운동",
+    "agency": "자격발급기관별 상이",
+    "relatedTag": "건강 관리"
+  },
+  "laughter-therapy-specialist": {
+    "name": "웃음치료사",
+    "shortName": "웃음치료사",
+    "type": "private",
+    "licenseType": "등록민간자격(기관별 확인)",
+    "category": "건강·운동",
+    "agency": "자격발급기관별 상이",
+    "relatedTag": "웃음 활동"
+  },
+  "meditation-instructor": {
+    "name": "명상지도사",
+    "shortName": "명상지도사",
+    "type": "private",
+    "licenseType": "등록민간자격(기관별 확인)",
+    "category": "건강·운동",
+    "agency": "자격발급기관별 상이",
+    "relatedTag": "명상"
+  },
+  "silver-cognitive-play-instructor": {
+    "name": "실버인지놀이지도사",
+    "shortName": "실버인지놀이지도사",
+    "type": "private",
+    "licenseType": "등록민간자격(기관별 확인)",
+    "category": "실버·복지",
+    "agency": "자격발급기관별 상이",
+    "relatedTag": "인지 놀이"
+  },
+  "silver-recreation-instructor": {
+    "name": "실버레크리에이션지도사",
+    "shortName": "실버레크리에이션지도사",
+    "type": "private",
+    "licenseType": "등록민간자격(기관별 확인)",
+    "category": "실버·복지",
+    "agency": "자격발급기관별 상이",
+    "relatedTag": "실버 레크리에이션"
+  },
+  "elder-care-instructor": {
+    "name": "노인돌봄지도사",
+    "shortName": "노인돌봄지도사",
+    "type": "private",
+    "licenseType": "등록민간자격(기관별 확인)",
+    "category": "실버·복지",
+    "agency": "자격발급기관별 상이",
+    "relatedTag": "노인 돌봄"
+  },
+  "dementia-prevention-instructor": {
+    "name": "치매예방지도사",
+    "shortName": "치매예방지도사",
+    "type": "private",
+    "licenseType": "등록민간자격(기관별 확인)",
+    "category": "실버·복지",
+    "agency": "자격발급기관별 상이",
+    "relatedTag": "치매 예방"
+  },
+  "silver-leisure-instructor": {
+    "name": "실버여가지도사",
+    "shortName": "실버여가지도사",
+    "type": "private",
+    "licenseType": "등록민간자격(기관별 확인)",
+    "category": "실버·복지",
+    "agency": "자격발급기관별 상이",
+    "relatedTag": "실버 여가"
+  },
+  "silver-care-specialist": {
+    "name": "실버케어전문가",
+    "shortName": "실버케어전문가",
+    "type": "private",
+    "licenseType": "등록민간자격(기관별 확인)",
+    "category": "실버·복지",
+    "agency": "자격발급기관별 상이",
+    "relatedTag": "실버 케어"
+  },
+  "senior-art-instructor": {
+    "name": "노인미술지도사",
+    "shortName": "노인미술지도사",
+    "type": "private",
+    "licenseType": "등록민간자격(기관별 확인)",
+    "category": "실버·복지",
+    "agency": "자격발급기관별 상이",
+    "relatedTag": "노인 미술"
+  },
+  "senior-fitness-instructor": {
+    "name": "노인운동지도사",
+    "shortName": "노인운동지도사",
+    "type": "private",
+    "licenseType": "등록민간자격(기관별 확인)",
+    "category": "실버·복지",
+    "agency": "자격발급기관별 상이",
+    "relatedTag": "노인 운동"
+  },
+  "silver-laughter-instructor": {
+    "name": "실버웃음지도사",
+    "shortName": "실버웃음지도사",
+    "type": "private",
+    "licenseType": "등록민간자격(기관별 확인)",
+    "category": "실버·복지",
+    "agency": "자격발급기관별 상이",
+    "relatedTag": "실버 웃음"
+  },
+  "senior-psychology-activity-instructor": {
+    "name": "노인심리활동지도사",
+    "shortName": "노인심리활동지도사",
+    "type": "private",
+    "licenseType": "등록민간자격(기관별 확인)",
+    "category": "실버·복지",
+    "agency": "자격발급기관별 상이",
+    "relatedTag": "노인 심리활동"
+  },
+  "home-organizing-specialist": {
+    "name": "정리수납전문가",
+    "shortName": "정리수납전문가",
+    "type": "private",
+    "licenseType": "등록민간자격(기관별 확인)",
+    "category": "생활·취미",
+    "agency": "자격발급기관별 상이",
+    "relatedTag": "정리수납"
+  },
+  "barista": {
+    "name": "커피바리스타(민간)",
+    "shortName": "커피바리스타",
+    "type": "private",
+    "licenseType": "등록민간자격(기관별 확인)",
+    "category": "생활·취미",
+    "agency": "자격발급기관별 상이",
+    "relatedTag": "커피·바리스타"
+  },
+  "wine-sommelier": {
+    "name": "와인소믈리에",
+    "shortName": "와인소믈리에",
+    "type": "private",
+    "licenseType": "등록민간자격(기관별 확인)",
+    "category": "생활·취미",
+    "agency": "자격발급기관별 상이",
+    "relatedTag": "와인"
+  },
+  "tea-sommelier": {
+    "name": "티소믈리에",
+    "shortName": "티소믈리에",
+    "type": "private",
+    "licenseType": "등록민간자격(기관별 확인)",
+    "category": "생활·취미",
+    "agency": "자격발급기관별 상이",
+    "relatedTag": "차·티"
+  },
+  "home-gardening-specialist": {
+    "name": "홈가드닝전문가",
+    "shortName": "홈가드닝전문가",
+    "type": "private",
+    "licenseType": "등록민간자격(기관별 확인)",
+    "category": "생활·취미",
+    "agency": "자격발급기관별 상이",
+    "relatedTag": "홈가드닝"
+  },
+  "horticultural-therapy-specialist": {
+    "name": "원예치료사",
+    "shortName": "원예치료사",
+    "type": "private",
+    "licenseType": "등록민간자격(기관별 확인)",
+    "category": "생활·취미",
+    "agency": "자격발급기관별 상이",
+    "relatedTag": "원예 활동"
+  },
+  "balloon-art-instructor": {
+    "name": "풍선아트지도사",
+    "shortName": "풍선아트지도사",
+    "type": "private",
+    "licenseType": "등록민간자격(기관별 확인)",
+    "category": "생활·취미",
+    "agency": "자격발급기관별 상이",
+    "relatedTag": "풍선아트"
+  },
+  "origami-instructor": {
+    "name": "종이접기지도사",
+    "shortName": "종이접기지도사",
+    "type": "private",
+    "licenseType": "등록민간자격(기관별 확인)",
+    "category": "생활·취미",
+    "agency": "자격발급기관별 상이",
+    "relatedTag": "종이접기"
+  },
+  "candle-instructor": {
+    "name": "캔들지도사",
+    "shortName": "캔들지도사",
+    "type": "private",
+    "licenseType": "등록민간자격(기관별 확인)",
+    "category": "생활·취미",
+    "agency": "자격발급기관별 상이",
+    "relatedTag": "캔들 공예"
+  },
+  "natural-soap-instructor": {
+    "name": "천연비누지도사",
+    "shortName": "천연비누지도사",
+    "type": "private",
+    "licenseType": "등록민간자격(기관별 확인)",
+    "category": "생활·취미",
+    "agency": "자격발급기관별 상이",
+    "relatedTag": "천연비누"
   }
 }
