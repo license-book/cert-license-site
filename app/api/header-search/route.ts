@@ -13,16 +13,8 @@ export async function GET() {
       type: item.type,
       category: item.category,
       agency: item.agency,
-      applicants: item.statistics?.applicants ?? 0,
     }))
-    .sort((a, b) => {
-      if (b.applicants !== a.applicants) {
-        return b.applicants - a.applicants;
-      }
-
-      return a.name.localeCompare(b.name, "ko-KR");
-    })
-    .map(({ applicants: _applicants, ...item }) => item);
+    .sort((a, b) => a.name.localeCompare(b.name, "ko-KR"));
 
   return NextResponse.json(
     { items },
