@@ -125,22 +125,22 @@ const menuItems: MenuItem[] = [
   },
   {
     label: "자료실",
-    href: "/guide#faq",
+    href: "/resources",
     mega: {
       title: "수험 자료실",
-      description: "현재는 수험가이드 안의 실용 정보로 연결됩니다.",
+      description: "원서접수, 응시자격, CBT와 발급 자료를 주제별로 확인하세요.",
       items: [
-        { label: "원서접수 안내", href: "/guide#prepare" },
-        { label: "응시자격 확인", href: "/guide#prepare" },
-        { label: "CBT 안내", href: "/guide#start" },
-        { label: "시험 준비물", href: "/guide#exam-day" },
-        { label: "자격증 발급", href: "/guide#after-pass" },
-        { label: "시험 공통 FAQ", href: "/guide#faq" },
+        { label: "원서접수 안내", href: "/resources#resource-categories" },
+        { label: "응시자격 확인", href: "/resources#resource-categories" },
+        { label: "CBT 안내", href: "/resources#resource-categories" },
+        { label: "시험 준비물", href: "/resources#resource-categories" },
+        { label: "자격증 발급", href: "/resources#resource-categories" },
+        { label: "시험 공통 FAQ", href: "/resources#resource-categories" },
       ],
       featured: {
         label: "자료실 콘텐츠 구성 보기",
-        href: "/guide#faq",
-        description: "독립 자료실 페이지가 완성되기 전까지 가이드 허브를 이용합니다.",
+        href: "/resources",
+        description: "원서접수, 응시자격, CBT, 발급과 용어 자료를 확인하세요.",
       },
     },
   },
@@ -315,7 +315,7 @@ export default function Header() {
     }
 
     if (item.label === "자료실") {
-      return pathname.startsWith("/resources");
+      return pathname === "/resources" || pathname.startsWith("/resources/");
     }
 
     return pathname === hrefPath || pathname.startsWith(`${hrefPath}/`);
