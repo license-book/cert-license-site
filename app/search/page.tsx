@@ -11,8 +11,20 @@ export const metadata: Metadata = {
   },
 };
 
-export default function SearchPage() {
+type SearchPageProps = {
+  searchParams: Promise<{
+    q?: string | string[];
+  }>;
+};
+
+export default async function SearchPage({
+  searchParams,
+}: SearchPageProps) {
   const certificates = getCompareCertificates();
+  const params = await searchParams;
+  const initialQuery = Array.isArray(params.q)
+    ? params.q[0] ?? ""
+    : params.q ?? "";
 
   return (
     <main className="min-h-screen bg-[#f8fafc]">
@@ -29,7 +41,7 @@ export default function SearchPage() {
         </div>
       </section>
 
-      <SearchClient items={certificates} />
+      <SearchClient items={certificates} initialQuery={initialQuery} />
     </main>
   );
 }

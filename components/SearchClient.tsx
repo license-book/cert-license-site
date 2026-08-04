@@ -2,16 +2,17 @@
 
 import Link from "next/link";
 import { useMemo, useState } from "react";
-import { useSearchParams } from "next/navigation";
 import type { CompareCertificate } from "@/lib/comparison";
 
 type Props = {
   items: CompareCertificate[];
+  initialQuery?: string;
 };
 
-export default function SearchClient({ items }: Props) {
-  const searchParams = useSearchParams();
-  const initialQuery = searchParams.get("q") ?? "";
+export default function SearchClient({
+  items,
+  initialQuery = "",
+}: Props) {
   const [query, setQuery] = useState(initialQuery);
   const [type, setType] = useState<"all" | "national" | "private">("all");
 
