@@ -354,7 +354,7 @@ function toRankingCertificate(
       beginner: buildBeginnerScore(
         difficulty,
         studyMonths,
-        certificate.eligibility?.status,
+        certificate.eligibility?.status ?? "none",
       ),
       difficulty: difficulty === null ? null : difficulty * 20,
     },
