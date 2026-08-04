@@ -9,9 +9,18 @@ import "swiper/css/effect-fade";
 import "swiper/css/pagination";
 
 const heroSlides = [
-  { image: "/images/hero-01.webp" },
-  { image: "/images/hero-02.webp" },
-  { image: "/images/hero-03.webp" },
+  {
+    image: "/images/hero-01.webp",
+    position: "68% 18%",
+  },
+  {
+    image: "/images/hero-02.webp",
+    position: "center",
+  },
+  {
+    image: "/images/hero-03.webp",
+    position: "center",
+  },
 ];
 
 export default function Hero() {
@@ -36,6 +45,7 @@ export default function Hero() {
               className="h-full bg-cover bg-center"
               style={{
                 backgroundImage: `url(${slide.image})`,
+                backgroundPosition: slide.position,
               }}
             >
               <div className="h-full bg-gradient-to-r from-black/30 via-black/10 to-transparent" />
