@@ -48,7 +48,8 @@ export default function PrivateCertificatesPage() {
       >
         <div className="absolute inset-0 bg-slate-950/62" />
 
-        <div className="relative mx-auto max-w-[1200px] px-5 py-16 md:px-6 md:py-24">
+        <div className="relative mx-auto flex min-h-[420px] max-w-[1200px] items-center px-5 py-14 md:min-h-[500px] md:px-6 md:py-16">
+          <div className="w-full">
           <p className="text-sm font-black tracking-[0.16em] text-violet-200">
             PRIVATE LICENSE
           </p>
@@ -69,6 +70,7 @@ export default function PrivateCertificatesPage() {
             다를 수 있습니다. 상세페이지의 자격 구분과 시행기관 정보를
             함께 확인하세요.
           </div>
+                  </div>
         </div>
       </section>
 

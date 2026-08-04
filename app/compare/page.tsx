@@ -18,13 +18,14 @@ export default function ComparePage() {
         style={{
           backgroundImage: "url('/images/hero/compare-hero.webp')",
           backgroundSize: "cover",
-          backgroundPosition: "center",
+          backgroundPosition: "center 35%",
           backgroundRepeat: "no-repeat",
         }}
       >
         <div className="absolute inset-0 bg-slate-950/55" />
 
-        <div className="relative mx-auto max-w-[1200px] px-5 py-16 md:px-6 md:py-24">
+        <div className="relative mx-auto flex min-h-[420px] max-w-[1200px] items-center px-5 py-14 md:min-h-[500px] md:px-6 md:py-16">
+          <div className="w-full">
           <span className="inline-flex rounded-full border border-white/20 bg-white/10 px-3 py-1 text-xs font-black text-blue-100">
             자격증 선택 가이드
           </span>
@@ -38,6 +39,7 @@ export default function ComparePage() {
             두 자격증의 공통 정보보다 실제 선택을 가르는 핵심 차이와 추천
             대상을 먼저 확인하세요.
           </p>
+                  </div>
         </div>
       </section>
 

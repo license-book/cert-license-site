@@ -162,8 +162,19 @@ export default function GuidePage() {
 
   return (
     <main className="min-h-screen bg-[#f8fafc]">
-      <section className="border-b border-slate-800 bg-gradient-to-br from-slate-950 via-slate-900 to-blue-950 text-white">
-        <div className="mx-auto max-w-[1200px] px-5 py-16 md:px-6 md:py-24">
+      <section
+        className="relative overflow-hidden border-b border-slate-800 text-white"
+        style={{
+          backgroundImage:
+            "url('/images/hero/study-guide-hero.webp')",
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+          backgroundRepeat: "no-repeat",
+        }}
+      >
+        <div className="absolute inset-0 bg-slate-950/58" />
+        <div className="relative mx-auto flex min-h-[420px] max-w-[1200px] items-center px-5 py-14 md:min-h-[500px] md:px-6 md:py-16">
+          <div className="w-full">
           <span className="inline-flex rounded-full border border-white/20 bg-white/10 px-3 py-1 text-xs font-black text-blue-100">
             EXAM GUIDE
           </span>
@@ -205,6 +216,7 @@ export default function GuidePage() {
               자격증 로드맵 확장
             </span>
           </div>
+                  </div>
         </div>
       </section>
 

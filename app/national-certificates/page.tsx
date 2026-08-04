@@ -48,7 +48,8 @@ export default function NationalCertificatesPage() {
       >
         <div className="absolute inset-0 bg-slate-950/58" />
 
-        <div className="relative mx-auto max-w-[1200px] px-5 py-16 md:px-6 md:py-24">
+        <div className="relative mx-auto flex min-h-[420px] max-w-[1200px] items-center px-5 py-14 md:min-h-[500px] md:px-6 md:py-16">
+          <div className="w-full">
           <p className="text-sm font-black tracking-[0.16em] text-blue-200">
             NATIONAL LICENSE
           </p>
@@ -63,6 +64,7 @@ export default function NationalCertificatesPage() {
           <div className="mt-7 inline-flex items-center rounded-full border border-white/20 bg-white/10 px-4 py-2 text-sm font-black text-blue-100 backdrop-blur-sm">
             현재 등록된 국가자격증 {items.length}개
           </div>
+                  </div>
         </div>
       </section>
 
