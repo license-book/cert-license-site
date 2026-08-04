@@ -36,22 +36,38 @@ export default function PrivateCertificatesPage() {
 
   return (
     <main className="min-h-screen bg-[#f8fafc]">
-      <section className="border-b border-slate-200 bg-gradient-to-b from-violet-50 to-white">
-        <div className="mx-auto max-w-[1200px] px-5 py-14 md:px-6 md:py-20">
-          <p className="text-sm font-black tracking-[0.16em] text-violet-600">PRIVATE LICENSE</p>
-          <h1 className="mt-4 text-4xl font-black tracking-[-0.04em] text-slate-950 md:text-5xl">
+      <section
+        className="relative overflow-hidden border-b border-slate-800 bg-slate-950 text-white"
+        style={{
+          backgroundImage:
+            "url('/images/hero/private-certificates-hero.webp')",
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+          backgroundRepeat: "no-repeat",
+        }}
+      >
+        <div className="absolute inset-0 bg-slate-950/62" />
+
+        <div className="relative mx-auto max-w-[1200px] px-5 py-16 md:px-6 md:py-24">
+          <p className="text-sm font-black tracking-[0.16em] text-violet-200">
+            PRIVATE LICENSE
+          </p>
+          <h1 className="mt-4 text-4xl font-black tracking-[-0.04em] text-white md:text-5xl">
             민간자격증 전체 목록
           </h1>
-          <p className="mt-5 max-w-2xl text-base font-semibold leading-7 text-slate-600 md:text-lg md:leading-8">
-            국가공인 민간자격과 등록·국제 민간자격을 가나다·영문순으로 한눈에 확인하세요. 자격증을 선택하면 시험정보,
-            준비기간, 합격전략과 활용정보를 바로 볼 수 있습니다.
+          <p className="mt-5 max-w-2xl text-base font-semibold leading-7 text-slate-200 md:text-lg md:leading-8">
+            국가공인 민간자격과 등록·국제 민간자격을 가나다·영문순으로
+            한눈에 확인하세요. 자격증을 선택하면 시험정보, 준비기간,
+            합격전략과 활용정보를 바로 볼 수 있습니다.
           </p>
-          <div className="mt-7 inline-flex items-center rounded-full border border-violet-200 bg-white px-4 py-2 text-sm font-black text-violet-700 shadow-sm">
+          <div className="mt-7 inline-flex items-center rounded-full border border-white/20 bg-white/10 px-4 py-2 text-sm font-black text-violet-100 backdrop-blur-sm">
             현재 등록된 민간자격증 {items.length}개
           </div>
 
-          <div className="mt-6 max-w-3xl rounded-2xl border border-amber-200 bg-amber-50 px-5 py-4 text-sm font-semibold leading-6 text-amber-900">
-            민간자격은 국가공인 여부와 등록 상태, 운영기관이 자격증마다 다를 수 있습니다. 상세페이지의 자격 구분과 시행기관 정보를 함께 확인하세요.
+          <div className="mt-6 max-w-3xl rounded-2xl border border-amber-200/40 bg-amber-50/90 px-5 py-4 text-sm font-semibold leading-6 text-amber-950 backdrop-blur-sm">
+            민간자격은 국가공인 여부와 등록 상태, 운영기관이 자격증마다
+            다를 수 있습니다. 상세페이지의 자격 구분과 시행기관 정보를
+            함께 확인하세요.
           </div>
         </div>
       </section>
