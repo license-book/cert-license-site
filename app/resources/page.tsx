@@ -184,7 +184,7 @@ export default function ResourcesPage() {
         />
         <div
           aria-hidden="true"
-          className="absolute inset-0 bg-gradient-to-r from-slate-950/95 via-slate-950/80 to-blue-950/55"
+          className="absolute inset-0 bg-gradient-to-r from-slate-950/70 via-slate-950/45 to-blue-950/25"
         />
 
         <div className="relative mx-auto flex min-h-[420px] max-w-[1200px] items-center px-5 py-14 md:min-h-[500px] md:px-6 md:py-16">

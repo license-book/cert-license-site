@@ -46,7 +46,7 @@ export default function PrivateCertificatesPage() {
           backgroundRepeat: "no-repeat",
         }}
       >
-        <div className="absolute inset-0 bg-slate-950/62" />
+        <div className="absolute inset-0 bg-slate-950/38" />
 
         <div className="relative mx-auto flex min-h-[420px] max-w-[1200px] items-center px-5 py-14 md:min-h-[500px] md:px-6 md:py-16">
           <div className="w-full">

@@ -172,7 +172,7 @@ export default function GuidePage() {
           backgroundRepeat: "no-repeat",
         }}
       >
-        <div className="absolute inset-0 bg-slate-950/58" />
+        <div className="absolute inset-0 bg-slate-950/38" />
         <div className="relative mx-auto flex min-h-[420px] max-w-[1200px] items-center px-5 py-14 md:min-h-[500px] md:px-6 md:py-16">
           <div className="w-full">
           <span className="inline-flex rounded-full border border-white/20 bg-white/10 px-3 py-1 text-xs font-black text-blue-100">
