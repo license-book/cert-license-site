@@ -154,7 +154,11 @@ export default function PrivateCertificateList({ items, popularNames }: Props) {
               전체 민간자격증 찾아보기
             </h2>
             <p className="mt-2 text-sm font-semibold leading-6 text-slate-500 md:text-base">
-              자격증명, 분야 또는 운영기관으로 검색하세요.
+              자격증명 · 분야 · 운영기관으로 원하는 자격증을 검색하세요.
+            </p>
+            <p className="mt-3 max-w-4xl text-sm leading-6 text-slate-500">
+              민간자격은 자격증마다 국가공인 여부와 등록 상태, 운영기관이 다를 수 있으니
+              상세페이지에서 자격 구분과 시행기관 정보를 함께 확인해 주세요.
             </p>
           </div>
 

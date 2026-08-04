@@ -65,11 +65,6 @@ export default function PrivateCertificatesPage() {
             현재 등록된 민간자격증 {items.length}개
           </div>
 
-          <div className="mt-6 max-w-3xl rounded-2xl border border-amber-200/40 bg-amber-50/90 px-5 py-4 text-sm font-semibold leading-6 text-amber-950 backdrop-blur-sm">
-            민간자격은 국가공인 여부와 등록 상태, 운영기관이 자격증마다
-            다를 수 있습니다. 상세페이지의 자격 구분과 시행기관 정보를
-            함께 확인하세요.
-          </div>
                   </div>
         </div>
       </section>
