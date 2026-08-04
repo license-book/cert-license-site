@@ -1,6 +1,8 @@
 "use client";
 
+import CertificateHubSections from "@/components/CertificateHubSections";
 import Link from "next/link";
+import { usePathname, useRouter, useSearchParams } from "next/navigation";
 import { useMemo, useState } from "react";
 
 type CertificateItem = {
@@ -89,20 +91,35 @@ function ArrowIcon() {
   );
 }
 
-export default function NationalCertificateList({ items }: { items: CertificateItem[] }) {
+type Props = {
+  items: CertificateItem[];
+  popularNames: string[];
+};
+
+export default function NationalCertificateList({ items, popularNames }: Props) {
   const [query, setQuery] = useState("");
+  const router = useRouter();
+  const pathname = usePathname();
+  const searchParams = useSearchParams();
+  const selectedCategory = searchParams.get("category") ?? "";
+
+  const clearCategory = () => {
+    router.replace(`${pathname}#certificate-list`, { scroll: false });
+  };
 
   const filteredItems = useMemo(() => {
     const keyword = query.trim().toLocaleLowerCase("ko-KR");
-    if (!keyword) return items;
+    return items.filter((item) => {
+      const matchesCategory = !selectedCategory || item.category === selectedCategory;
+      if (!matchesCategory) return false;
+      if (!keyword) return true;
 
-    return items.filter((item) =>
-      [item.name, item.shortName, item.licenseType, item.category, item.agency]
+      return [item.name, item.shortName, item.licenseType, item.category, item.agency]
         .join(" ")
         .toLocaleLowerCase("ko-KR")
-        .includes(keyword),
-    );
-  }, [items, query]);
+        .includes(keyword);
+    });
+  }, [items, query, selectedCategory]);
 
   const groupedItems = useMemo(() => {
     const groups = new Map<string, CertificateItem[]>();
@@ -125,8 +142,17 @@ export default function NationalCertificateList({ items }: { items: CertificateI
 
   return (
     <>
-      <section className="border-b border-slate-200 bg-white">
+      <section id="certificate-search" className="scroll-mt-24 border-b border-slate-200 bg-white">
         <div className="mx-auto max-w-[1200px] px-5 py-10 md:px-6 md:py-14">
+          <div className="mb-6">
+            <p className="text-sm font-black tracking-[0.14em] text-blue-600">ALL CERTIFICATES</p>
+            <h2 className="mt-2 text-2xl font-black tracking-tight text-slate-950 md:text-3xl">
+              전체 국가자격증 찾아보기
+            </h2>
+            <p className="mt-2 text-sm font-semibold leading-6 text-slate-500 md:text-base">
+              자격증명, 분야 또는 시행기관으로 검색하세요.
+            </p>
+          </div>
           <div className="rounded-[28px] border border-slate-200 bg-slate-50 p-5 shadow-sm md:p-7">
             <label htmlFor="national-cert-search" className="sr-only">
               국가자격증 검색
@@ -144,6 +170,23 @@ export default function NationalCertificateList({ items }: { items: CertificateI
                 className="h-14 w-full rounded-2xl border border-slate-300 bg-white pl-14 pr-5 text-[15px] font-semibold text-slate-900 outline-none transition placeholder:text-slate-400 focus:border-blue-500 focus:ring-4 focus:ring-blue-100 md:h-16 md:text-base"
               />
             </div>
+
+            {selectedCategory ? (
+              <div className="mt-5 flex flex-wrap items-center gap-3 rounded-2xl border border-blue-200 bg-blue-50 px-4 py-3">
+                <span className="text-sm font-black text-blue-800">
+                  선택 분야: {selectedCategory}
+                </span>
+                <button
+                  type="button"
+                  onClick={() => {
+                    clearCategory();
+                  }}
+                  className="text-sm font-black text-blue-600 underline underline-offset-4 hover:text-blue-800"
+                >
+                  전체 분야 보기
+                </button>
+              </div>
+            ) : null}
 
             <div className="mt-5 flex flex-wrap gap-2" aria-label="초성 바로가기">
               {INITIALS.map((initial) => {
@@ -171,7 +214,16 @@ export default function NationalCertificateList({ items }: { items: CertificateI
         </div>
       </section>
 
-      <section className="mx-auto w-full max-w-[1200px] px-5 py-12 md:px-6 md:py-16">
+      <CertificateHubSections
+        items={items}
+        basePath="/national-certificates"
+        popularTitle="인기 국가자격증"
+        categoryTitle="분야별 국가자격증"
+        theme="blue"
+        popularNames={popularNames}
+      />
+
+      <section id="certificate-list" className="scroll-mt-24 mx-auto w-full max-w-[1200px] px-5 py-12 md:px-6 md:py-16">
         <div className="mb-8 flex items-end justify-between gap-4">
           <div>
             <h2 className="text-2xl font-black tracking-tight text-slate-950 md:text-3xl">
@@ -181,13 +233,16 @@ export default function NationalCertificateList({ items }: { items: CertificateI
               검색 결과 <strong className="text-blue-600">{filteredItems.length}개</strong>
             </p>
           </div>
-          {query ? (
+          {query || selectedCategory ? (
             <button
               type="button"
-              onClick={() => setQuery("")}
+              onClick={() => {
+                setQuery("");
+                clearCategory();
+              }}
               className="shrink-0 text-sm font-bold text-slate-500 underline underline-offset-4 hover:text-blue-600"
             >
-              검색 초기화
+              검색·필터 초기화
             </button>
           ) : null}
         </div>

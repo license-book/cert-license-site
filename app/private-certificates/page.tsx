@@ -1,6 +1,7 @@
 import PrivateCertificateList from "@/components/PrivateCertificateList";
 import certificates from "@/data/catalog/certificates.json";
 import type { Metadata } from "next";
+import { Suspense } from "react";
 
 export const metadata: Metadata = {
   title: "민간자격증 전체 목록 | 라북",
@@ -55,7 +56,29 @@ export default function PrivateCertificatesPage() {
         </div>
       </section>
 
-      <PrivateCertificateList items={items} />
+      <Suspense
+        fallback={
+          <section className="mx-auto w-full max-w-[1200px] px-5 py-16 md:px-6">
+            <div className="rounded-3xl border border-slate-200 bg-white px-6 py-16 text-center text-sm font-bold text-slate-500">
+              민간자격증 목록을 불러오는 중입니다.
+            </div>
+          </section>
+        }
+      >
+        <PrivateCertificateList
+          items={items}
+          popularNames={[
+            "심리상담사",
+            "아동심리상담사",
+            "노인심리상담사",
+            "방과후지도사",
+            "병원코디네이터",
+            "반려동물관리사",
+            "정리수납전문가",
+            "바리스타",
+          ]}
+        />
+      </Suspense>
     </main>
   );
 }

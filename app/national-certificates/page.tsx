@@ -1,6 +1,7 @@
 import NationalCertificateList from "@/components/NationalCertificateList";
 import certificates from "@/data/catalog/certificates.json";
 import type { Metadata } from "next";
+import { Suspense } from "react";
 
 export const metadata: Metadata = {
   title: "국가자격증 전체 목록 | 라북",
@@ -51,7 +52,29 @@ export default function NationalCertificatesPage() {
         </div>
       </section>
 
-      <NationalCertificateList items={items} />
+      <Suspense
+        fallback={
+          <section className="mx-auto w-full max-w-[1200px] px-5 py-16 md:px-6">
+            <div className="rounded-3xl border border-slate-200 bg-white px-6 py-16 text-center text-sm font-bold text-slate-500">
+              국가자격증 목록을 불러오는 중입니다.
+            </div>
+          </section>
+        }
+      >
+        <NationalCertificateList
+          items={items}
+          popularNames={[
+            "컴퓨터활용능력 1급",
+            "정보처리기사",
+            "전기기사",
+            "산업안전기사",
+            "공인중개사",
+            "사회복지사 1급",
+            "주택관리사(보)",
+            "한식조리기능사",
+          ]}
+        />
+      </Suspense>
     </main>
   );
 }
