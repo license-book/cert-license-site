@@ -1,9 +1,10 @@
 "use client";
 
+import AdSlot from "@/components/common/AdSlot";
 import CertificateHubSections from "@/components/CertificateHubSections";
 import Link from "next/link";
 import { usePathname, useRouter, useSearchParams } from "next/navigation";
-import { useMemo, useState } from "react";
+import { Fragment, useMemo, useState } from "react";
 
 type CertificateItem = {
   slug: string;
@@ -139,6 +140,8 @@ export default function NationalCertificateList({ items, popularNames }: Props) 
   }, [filteredItems]);
 
   const availableInitials = INITIALS.filter((initial) => groupedItems.has(initial));
+  const middleAdAfterIndex =
+    availableInitials.length >= 2 ? Math.ceil(availableInitials.length / 2) - 1 : -1;
 
   return (
     <>
@@ -221,6 +224,7 @@ export default function NationalCertificateList({ items, popularNames }: Props) 
         categoryTitle="분야별 국가자격증"
         theme="blue"
         popularNames={popularNames}
+        showAdAfterPopular
       />
 
       <section id="certificate-list" className="scroll-mt-24 mx-auto w-full max-w-[1200px] px-5 py-12 md:px-6 md:py-16">
@@ -249,12 +253,12 @@ export default function NationalCertificateList({ items, popularNames }: Props) 
 
         {availableInitials.length > 0 ? (
           <div className="space-y-14">
-            {availableInitials.map((initial) => {
+            {availableInitials.map((initial, groupIndex) => {
               const group = groupedItems.get(initial) ?? [];
 
               return (
-                <section
-                  key={initial}
+                <Fragment key={initial}>
+                  <section
                   id={`initial-${initial}`}
                   className="scroll-mt-32"
                   aria-labelledby={`heading-${initial}`}
@@ -303,6 +307,15 @@ export default function NationalCertificateList({ items, popularNames }: Props) 
                     ))}
                   </div>
                 </section>
+
+                  {groupIndex === middleAdAfterIndex ? (
+                    <AdSlot
+                      label="국가자격증 전체 목록 중간"
+                      slot={process.env.NEXT_PUBLIC_ADSENSE_SLOT_MIDDLE_2}
+                      className="my-0"
+                    />
+                  ) : null}
+                </Fragment>
               );
             })}
           </div>

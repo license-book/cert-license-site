@@ -1,3 +1,4 @@
+import AdSlot from "@/components/common/AdSlot";
 import Link from "next/link";
 
 type CertificateItem = {
@@ -18,6 +19,7 @@ type Props = {
   popularTitle: string;
   categoryTitle: string;
   theme?: Theme;
+  showAdAfterPopular?: boolean;
 };
 
 const THEME = {
@@ -66,6 +68,7 @@ export default function CertificateHubSections({
   popularTitle,
   categoryTitle,
   theme = "blue",
+  showAdAfterPopular = false,
 }: Props) {
   const styles = THEME[theme];
 
@@ -139,6 +142,14 @@ export default function CertificateHubSections({
                 </Link>
               ))}
             </div>
+
+            {showAdAfterPopular ? (
+              <AdSlot
+                label="인기 민간자격증 하단"
+                slot={process.env.NEXT_PUBLIC_ADSENSE_SLOT_MIDDLE_1}
+                className="mt-10 mb-0"
+              />
+            ) : null}
           </div>
         ) : null}
 
