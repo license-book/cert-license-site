@@ -27,6 +27,15 @@ type MenuItem = {
 
 type CertificateMenuType = "national" | "private" | null;
 
+type HeaderSearchItem = {
+  slug: string;
+  name: string;
+  shortName: string;
+  type: "national" | "private";
+  category: string;
+  agency: string;
+};
+
 const menuItems: MenuItem[] = [
   { label: "홈", href: "/" },
   {
@@ -163,6 +172,11 @@ export default function Header() {
   const [activeMega, setActiveMega] = useState<string | null>(null);
   const [mobileSection, setMobileSection] = useState<string | null>(null);
   const [query, setQuery] = useState("");
+  const [searchOpen, setSearchOpen] = useState(false);
+  const [searchItems, setSearchItems] = useState<HeaderSearchItem[]>([]);
+  const [searchLoading, setSearchLoading] = useState(false);
+  const [searchLoaded, setSearchLoaded] = useState(false);
+  const searchAreaRef = useRef<HTMLDivElement | null>(null);
   const closeTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
 
   useEffect(() => {
@@ -170,6 +184,68 @@ export default function Header() {
       if (closeTimer.current) clearTimeout(closeTimer.current);
     };
   }, []);
+
+  useEffect(() => {
+    function handlePointerDown(event: MouseEvent) {
+      if (
+        searchAreaRef.current &&
+        !searchAreaRef.current.contains(event.target as Node)
+      ) {
+        setSearchOpen(false);
+      }
+    }
+
+    function handleKeyDown(event: KeyboardEvent) {
+      if (event.key === "Escape") {
+        setSearchOpen(false);
+      }
+    }
+
+    document.addEventListener("mousedown", handlePointerDown);
+    document.addEventListener("keydown", handleKeyDown);
+
+    return () => {
+      document.removeEventListener("mousedown", handlePointerDown);
+      document.removeEventListener("keydown", handleKeyDown);
+    };
+  }, []);
+
+  useEffect(() => {
+    if (!searchOpen || searchLoaded) return;
+
+    const controller = new AbortController();
+    setSearchLoading(true);
+
+    fetch("/api/header-search", {
+      signal: controller.signal,
+      cache: "no-store",
+    })
+      .then((response) => {
+        if (!response.ok) {
+          throw new Error("검색 데이터를 불러오지 못했습니다.");
+        }
+
+        return response.json() as Promise<{ items?: HeaderSearchItem[] }>;
+      })
+      .then((data) => {
+        setSearchItems(data.items ?? []);
+        setSearchLoaded(true);
+      })
+      .catch((error: unknown) => {
+        if (error instanceof DOMException && error.name === "AbortError") {
+          return;
+        }
+
+        console.error("헤더 검색 데이터 로딩 실패", error);
+        setSearchItems([]);
+        setSearchLoaded(true);
+      })
+      .finally(() => {
+        setSearchLoading(false);
+      });
+
+    return () => controller.abort();
+  }, [searchOpen, searchLoaded]);
 
   useEffect(() => {
     const match = pathname.match(/^\/cert\/([^/]+)/);
@@ -254,6 +330,35 @@ export default function Header() {
     closeTimer.current = setTimeout(() => setActiveMega(null), 140);
   }
 
+  const normalizedQuery = query.trim().toLowerCase();
+  const searchResults = searchItems
+    .filter((item) => {
+      if (!normalizedQuery) return true;
+
+      return [
+        item.name,
+        item.shortName,
+        item.category,
+        item.agency,
+      ]
+        .join(" ")
+        .toLowerCase()
+        .includes(normalizedQuery);
+    })
+    .slice(0, 6);
+
+  const quickCategories = [
+    { label: "IT·사무", href: "/national-certificates#category-it" },
+    { label: "전기·전자", href: "/national-certificates#category-electrical" },
+    { label: "건설·안전", href: "/national-certificates#category-construction" },
+    { label: "교육·상담", href: "/private-certificates#category-education" },
+  ];
+
+  function openSearch() {
+    setSearchOpen(true);
+    setActiveMega(null);
+  }
+
   function submitSearch(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
     const value = query.trim();
@@ -264,6 +369,7 @@ export default function Header() {
     }
 
     router.push(`/search?q=${encodeURIComponent(value)}`);
+    setSearchOpen(false);
     setActiveMega(null);
     setMobileOpen(false);
   }
@@ -316,20 +422,114 @@ export default function Header() {
           ))}
         </nav>
 
-        <form onSubmit={submitSearch} className="ml-auto hidden w-[220px] shrink-0 xl:block">
-          <label className="relative block">
-            <span className="pointer-events-none absolute inset-y-0 left-3 flex items-center text-slate-400">
-              <SearchIcon />
-            </span>
-            <input
-              value={query}
-              onChange={(event) => setQuery(event.target.value)}
-              placeholder="자격증 검색"
-              aria-label="자격증 검색"
-              className="h-11 w-full rounded-xl border border-slate-200 bg-slate-50 pl-10 pr-4 text-sm font-bold text-slate-900 outline-none transition placeholder:text-slate-400 focus:border-blue-400 focus:bg-white focus:ring-4 focus:ring-blue-100"
-            />
-          </label>
-        </form>
+        <div
+          ref={searchAreaRef}
+          className="relative ml-auto hidden w-[240px] shrink-0 xl:block"
+        >
+          <form onSubmit={submitSearch}>
+            <label className="relative block">
+              <span className="pointer-events-none absolute inset-y-0 left-3 flex items-center text-slate-400">
+                <SearchIcon />
+              </span>
+              <input
+                value={query}
+                onFocus={openSearch}
+                onClick={openSearch}
+                onChange={(event) => {
+                  setQuery(event.target.value);
+                  setSearchOpen(true);
+                }}
+                placeholder="자격증 검색"
+                aria-label="자격증 검색"
+                aria-expanded={searchOpen}
+                aria-controls="header-search-dropdown"
+                className="h-11 w-full rounded-xl border border-slate-200 bg-slate-50 pl-10 pr-4 text-sm font-bold text-slate-900 outline-none transition placeholder:text-slate-400 focus:border-blue-400 focus:bg-white focus:ring-4 focus:ring-blue-100"
+              />
+            </label>
+          </form>
+
+          {searchOpen ? (
+            <div
+              id="header-search-dropdown"
+              className="absolute right-0 top-[52px] z-[70] w-[420px] overflow-hidden rounded-3xl border border-slate-200 bg-white shadow-2xl"
+            >
+              <div className="border-b border-slate-200 p-4">
+                <div className="flex items-center justify-between">
+                  <span className="text-xs font-black text-blue-600">
+                    {normalizedQuery ? "검색 결과" : "인기 자격증"}
+                  </span>
+                  <Link
+                    href={normalizedQuery ? `/search?q=${encodeURIComponent(query.trim())}` : "/search"}
+                    onClick={() => setSearchOpen(false)}
+                    className="text-xs font-black text-slate-500 hover:text-blue-600"
+                  >
+                    전체 검색 →
+                  </Link>
+                </div>
+
+                <div className="mt-3 grid gap-2">
+                  {searchLoading ? (
+                    <div className="rounded-2xl bg-slate-50 px-4 py-5 text-center text-sm font-bold text-slate-500">
+                      자격증을 불러오는 중입니다.
+                    </div>
+                  ) : searchResults.length ? (
+                    searchResults.map((item) => (
+                      <Link
+                        key={item.slug}
+                        href={`/cert/${item.slug}`}
+                        onClick={() => {
+                          setSearchOpen(false);
+                          setQuery("");
+                        }}
+                        className="flex items-center justify-between gap-4 rounded-2xl border border-transparent px-3 py-3 transition hover:border-blue-200 hover:bg-blue-50"
+                      >
+                        <div className="min-w-0">
+                          <strong className="block truncate text-sm font-black text-slate-900">
+                            {item.name}
+                          </strong>
+                          <span className="mt-1 block truncate text-xs font-semibold text-slate-500">
+                            {item.category} · {item.agency}
+                          </span>
+                        </div>
+                        <span className={`shrink-0 rounded-full px-2.5 py-1 text-[10px] font-black ${
+                          item.type === "national"
+                            ? "bg-blue-50 text-blue-700"
+                            : "bg-violet-50 text-violet-700"
+                        }`}>
+                          {item.type === "national" ? "국가" : "민간"}
+                        </span>
+                      </Link>
+                    ))
+                  ) : searchLoaded ? (
+                    <div className="rounded-2xl bg-slate-50 px-4 py-5 text-center text-sm font-bold text-slate-500">
+                      일치하는 자격증이 없습니다.
+                    </div>
+                  ) : null}
+                </div>
+              </div>
+
+              {!normalizedQuery ? (
+                <div className="p-4">
+                  <span className="text-xs font-black text-slate-500">
+                    분야별 바로가기
+                  </span>
+                  <div className="mt-3 grid grid-cols-2 gap-2">
+                    {quickCategories.map((category) => (
+                      <Link
+                        key={category.label}
+                        href={category.href}
+                        onClick={() => setSearchOpen(false)}
+                        className="rounded-xl border border-slate-200 px-3 py-3 text-center text-xs font-black text-slate-700 transition hover:border-blue-300 hover:bg-blue-50 hover:text-blue-700"
+                      >
+                        {category.label}
+                      </Link>
+                    ))}
+                  </div>
+                </div>
+              ) : null}
+            </div>
+          ) : null}
+        </div>
 
         <Link
           href="/search"
@@ -417,13 +617,51 @@ export default function Header() {
                 </span>
                 <input
                   value={query}
-                  onChange={(event) => setQuery(event.target.value)}
+                  onFocus={openSearch}
+                  onChange={(event) => {
+                    setQuery(event.target.value);
+                    setSearchOpen(true);
+                  }}
                   placeholder="자격증명을 입력하세요"
                   aria-label="모바일 자격증 검색"
                   className="h-13 w-full rounded-2xl border border-slate-200 bg-slate-50 py-3 pl-12 pr-4 text-base font-bold outline-none focus:border-blue-400 focus:ring-4 focus:ring-blue-100"
                 />
               </label>
             </form>
+
+            {searchOpen && query.trim() ? (
+              <div className="mt-3 grid gap-2 rounded-2xl border border-slate-200 bg-white p-2">
+                {searchLoading ? (
+                  <div className="px-3 py-4 text-center text-sm font-bold text-slate-500">
+                    자격증을 불러오는 중입니다.
+                  </div>
+                ) : searchResults.length ? (
+                  searchResults.map((item) => (
+                    <Link
+                      key={`mobile-search-${item.slug}`}
+                      href={`/cert/${item.slug}`}
+                      onClick={() => {
+                        setSearchOpen(false);
+                        setMobileOpen(false);
+                        setQuery("");
+                      }}
+                      className="rounded-xl px-3 py-3 hover:bg-blue-50"
+                    >
+                      <strong className="block text-sm font-black text-slate-900">
+                        {item.name}
+                      </strong>
+                      <span className="mt-1 block text-xs font-semibold text-slate-500">
+                        {item.category} · {item.type === "national" ? "국가자격" : "민간자격"}
+                      </span>
+                    </Link>
+                  ))
+                ) : searchLoaded ? (
+                  <div className="px-3 py-4 text-center text-sm font-bold text-slate-500">
+                    일치하는 자격증이 없습니다.
+                  </div>
+                ) : null}
+              </div>
+            ) : null}
 
             <nav className="mt-5 grid gap-2" aria-label="모바일 메뉴">
               {menuItems.map((item) => (
