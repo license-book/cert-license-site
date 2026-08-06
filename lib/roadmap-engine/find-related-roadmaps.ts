@@ -27,12 +27,13 @@ export function findRelatedRoadmaps(certificateSlug: string): RelatedRoadmapSumm
   return getAllRoadmapSlugs()
     .map((slug) => loadRoadmap(slug))
     .filter((roadmap): roadmap is RoadmapData => Boolean(roadmap?.basic?.slug && roadmap?.stages?.length))
-    .map((roadmap) => {
+    .flatMap((roadmap) => {
       const matchedStages = roadmap.stages
         .filter((stage) => stage.certificates.some((certificate) => certificateSlugFromHref(certificate.href) === certificateSlug))
         .map((stage) => stage.title);
 
-      if (matchedStages.length === 0) return null;
+      if (matchedStages.length === 0) return [];
+
 
       const certificateCount = new Set(
         roadmap.stages.flatMap((stage) =>
@@ -42,7 +43,7 @@ export function findRelatedRoadmaps(certificateSlug: string): RelatedRoadmapSumm
         ),
       ).size;
 
-      return {
+      return [{
         slug: roadmap.basic.slug,
         title: roadmap.basic.title,
         categoryLabel: roadmap.basic.categoryLabel,
@@ -51,8 +52,7 @@ export function findRelatedRoadmaps(certificateSlug: string): RelatedRoadmapSumm
         matchedStages,
         certificateCount,
         href: `/roadmap/${roadmap.basic.slug}`,
-      } satisfies RelatedRoadmapSummary;
+      } satisfies RelatedRoadmapSummary];
     })
-    .filter((roadmap): roadmap is RelatedRoadmapSummary => roadmap !== null)
     .sort((a, b) => a.title.localeCompare(b.title, "ko"));
 }
