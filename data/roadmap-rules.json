@@ -1,0 +1,589 @@
+{
+  "version": 2,
+  "roadmaps": [
+    {
+      "slug": "it-office",
+      "enabled": true,
+      "matchers": [
+        {
+          "stageId": "entry",
+          "priority": 30,
+          "categories": [
+            "IT·사무"
+          ],
+          "nameKeywords": [
+            "2급",
+            "워드",
+            "ITQ",
+            "MOS"
+          ]
+        },
+        {
+          "stageId": "foundation",
+          "priority": 20,
+          "categories": [
+            "IT·사무",
+            "IT·AI"
+          ],
+          "nameKeywords": [
+            "1급",
+            "사무자동화",
+            "컴퓨터",
+            "디지털"
+          ]
+        },
+        {
+          "stageId": "professional",
+          "priority": 20,
+          "categories": [
+            "IT·개발",
+            "데이터·IT",
+            "정보통신"
+          ],
+          "licenseTypes": [
+            "국가기술자격"
+          ]
+        },
+        {
+          "stageId": "expand",
+          "priority": 10,
+          "categories": [
+            "IT·보안",
+            "IT·AI",
+            "정보통신"
+          ],
+          "nameKeywords": [
+            "보안",
+            "AI",
+            "데이터",
+            "통신",
+            "코딩",
+            "정보"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "electrical-technical",
+      "enabled": true,
+      "matchers": [
+        {
+          "stageId": "foundation",
+          "priority": 30,
+          "categories": [
+            "전기·전자"
+          ],
+          "nameKeywords": [
+            "기능사",
+            "산업기사"
+          ]
+        },
+        {
+          "stageId": "engineer",
+          "priority": 30,
+          "categories": [
+            "전기·전자"
+          ],
+          "nameKeywords": [
+            "기사"
+          ]
+        },
+        {
+          "stageId": "career",
+          "priority": 10,
+          "categories": [
+            "소방·안전",
+            "에너지·설비",
+            "정보통신"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "cooking-service",
+      "enabled": true,
+      "matchers": [
+        {
+          "stageId": "craftsman",
+          "priority": 30,
+          "categories": [
+            "조리·서비스",
+            "조리·외식"
+          ],
+          "nameKeywords": [
+            "기능사"
+          ]
+        },
+        {
+          "stageId": "experience",
+          "priority": 20,
+          "categories": [
+            "조리·외식"
+          ],
+          "types": [
+            "private"
+          ]
+        },
+        {
+          "stageId": "expand",
+          "priority": 10,
+          "categories": [
+            "생활·취미",
+            "마케팅·비즈니스"
+          ],
+          "nameKeywords": [
+            "바리스타",
+            "서비스",
+            "마케팅",
+            "창업"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "accounting-tax",
+      "enabled": true,
+      "matchers": [
+        {
+          "stageId": "entry",
+          "priority": 30,
+          "categories": [
+            "회계·세무"
+          ],
+          "nameKeywords": [
+            "2급"
+          ]
+        },
+        {
+          "stageId": "foundation",
+          "priority": 25,
+          "categories": [
+            "회계·세무"
+          ],
+          "nameKeywords": [
+            "1급",
+            "회계"
+          ]
+        },
+        {
+          "stageId": "professional",
+          "priority": 25,
+          "categories": [
+            "회계·세무"
+          ],
+          "nameKeywords": [
+            "세무",
+            "재경"
+          ]
+        },
+        {
+          "stageId": "expand",
+          "priority": 10,
+          "categories": [
+            "마케팅·비즈니스",
+            "IT·사무"
+          ],
+          "nameKeywords": [
+            "ERP",
+            "전자상거래",
+            "컴퓨터활용"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "safety",
+      "enabled": true,
+      "matchers": [
+        {
+          "stageId": "entry",
+          "priority": 25,
+          "categories": [
+            "화학·안전",
+            "안전관리"
+          ],
+          "nameKeywords": [
+            "기능사",
+            "위험물"
+          ]
+        },
+        {
+          "stageId": "foundation",
+          "priority": 25,
+          "categories": [
+            "안전관리",
+            "소방·안전"
+          ],
+          "nameKeywords": [
+            "산업기사"
+          ]
+        },
+        {
+          "stageId": "professional",
+          "priority": 25,
+          "categories": [
+            "안전관리",
+            "소방·안전"
+          ],
+          "nameKeywords": [
+            "기사"
+          ]
+        },
+        {
+          "stageId": "expand",
+          "priority": 10,
+          "categories": [
+            "화학·안전",
+            "환경·에너지",
+            "건설·건축"
+          ],
+          "nameKeywords": [
+            "안전",
+            "위험",
+            "환경"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "mechanical",
+      "enabled": true,
+      "matchers": [
+        {
+          "stageId": "entry",
+          "priority": 25,
+          "categories": [
+            "기계",
+            "기계·금속",
+            "기계·설비"
+          ],
+          "nameKeywords": [
+            "기능사"
+          ]
+        },
+        {
+          "stageId": "foundation",
+          "priority": 25,
+          "categories": [
+            "기계",
+            "기계·금속",
+            "기계·설비",
+            "기계·건설기계"
+          ],
+          "nameKeywords": [
+            "산업기사"
+          ]
+        },
+        {
+          "stageId": "professional",
+          "priority": 25,
+          "categories": [
+            "기계",
+            "기계·금속",
+            "기계·설비",
+            "기계·건설기계"
+          ],
+          "nameKeywords": [
+            "기사"
+          ]
+        },
+        {
+          "stageId": "expand",
+          "priority": 10,
+          "categories": [
+            "에너지·설비",
+            "기계·자동차"
+          ],
+          "nameKeywords": [
+            "에너지",
+            "공조",
+            "냉동",
+            "자동차",
+            "설비"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "construction",
+      "enabled": true,
+      "matchers": [
+        {
+          "stageId": "entry",
+          "priority": 25,
+          "categories": [
+            "건설·건축",
+            "건설·토목",
+            "건설·측량"
+          ],
+          "nameKeywords": [
+            "기능사"
+          ]
+        },
+        {
+          "stageId": "foundation",
+          "priority": 25,
+          "categories": [
+            "건설·건축",
+            "건설·토목",
+            "건설·측량"
+          ],
+          "nameKeywords": [
+            "산업기사"
+          ]
+        },
+        {
+          "stageId": "professional",
+          "priority": 25,
+          "categories": [
+            "건설·건축",
+            "건설·토목",
+            "건설·측량"
+          ],
+          "nameKeywords": [
+            "기사"
+          ]
+        },
+        {
+          "stageId": "expand",
+          "priority": 10,
+          "categories": [
+            "안전관리",
+            "건설·측량",
+            "운전·건설기계"
+          ],
+          "nameKeywords": [
+            "안전",
+            "측량",
+            "콘크리트",
+            "재료",
+            "건설기계"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "healthcare",
+      "enabled": true,
+      "matchers": [
+        {
+          "stageId": "entry",
+          "priority": 30,
+          "categories": [
+            "보건·의료"
+          ],
+          "nameKeywords": [
+            "간호",
+            "요양",
+            "보건"
+          ]
+        },
+        {
+          "stageId": "foundation",
+          "priority": 20,
+          "categories": [
+            "실버·복지",
+            "건강·운동"
+          ],
+          "nameKeywords": [
+            "관리",
+            "예방",
+            "돌봄"
+          ]
+        },
+        {
+          "stageId": "professional",
+          "priority": 20,
+          "categories": [
+            "건강·운동",
+            "복지·상담"
+          ],
+          "nameKeywords": [
+            "재활",
+            "운동",
+            "상담"
+          ]
+        },
+        {
+          "stageId": "expand",
+          "priority": 10,
+          "categories": [
+            "실버·복지",
+            "심리·상담"
+          ],
+          "nameKeywords": [
+            "치매",
+            "노인",
+            "심리",
+            "복지"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "logistics",
+      "enabled": true,
+      "matchers": [
+        {
+          "stageId": "entry",
+          "priority": 30,
+          "categories": [
+            "운전·건설기계"
+          ],
+          "nameKeywords": [
+            "지게차"
+          ]
+        },
+        {
+          "stageId": "foundation",
+          "priority": 20,
+          "categories": [
+            "마케팅·비즈니스"
+          ],
+          "nameKeywords": [
+            "전자상거래",
+            "쇼핑몰",
+            "유통"
+          ]
+        },
+        {
+          "stageId": "professional",
+          "priority": 15,
+          "categories": [
+            "IT·사무",
+            "데이터·IT"
+          ],
+          "nameKeywords": [
+            "컴퓨터활용",
+            "데이터"
+          ]
+        },
+        {
+          "stageId": "expand",
+          "priority": 10,
+          "categories": [
+            "마케팅·비즈니스"
+          ],
+          "nameKeywords": [
+            "전자상거래",
+            "쇼핑몰",
+            "스마트스토어",
+            "라이브커머스",
+            "브랜드",
+            "유통"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "design",
+      "enabled": true,
+      "matchers": [
+        {
+          "stageId": "entry",
+          "priority": 30,
+          "categories": [
+            "디자인·콘텐츠"
+          ],
+          "nameKeywords": [
+            "드로잉",
+            "일러스트",
+            "이미지",
+            "사진"
+          ]
+        },
+        {
+          "stageId": "foundation",
+          "priority": 20,
+          "categories": [
+            "디자인·콘텐츠"
+          ],
+          "nameKeywords": [
+            "카드뉴스",
+            "콘텐츠",
+            "그래픽",
+            "디자인"
+          ]
+        },
+        {
+          "stageId": "professional",
+          "priority": 15,
+          "categories": [
+            "IT·AI",
+            "IT·개발"
+          ],
+          "nameKeywords": [
+            "AI",
+            "생성형",
+            "웹디자인",
+            "디지털디자인"
+          ]
+        },
+        {
+          "stageId": "expand",
+          "priority": 10,
+          "categories": [
+            "마케팅·비즈니스",
+            "뷰티"
+          ],
+          "nameKeywords": [
+            "브랜드",
+            "퍼스널",
+            "컬러",
+            "콘텐츠"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "automotive",
+      "enabled": true,
+      "matchers": [
+        {
+          "stageId": "entry",
+          "priority": 30,
+          "categories": [
+            "기계·자동차"
+          ],
+          "nameKeywords": [
+            "기능사"
+          ]
+        },
+        {
+          "stageId": "foundation",
+          "priority": 25,
+          "categories": [
+            "기계·자동차"
+          ],
+          "nameKeywords": [
+            "산업기사"
+          ]
+        },
+        {
+          "stageId": "professional",
+          "priority": 25,
+          "categories": [
+            "기계·자동차"
+          ],
+          "nameKeywords": [
+            "기사"
+          ]
+        },
+        {
+          "stageId": "expand",
+          "priority": 10,
+          "categories": [
+            "전기·전자",
+            "기계·건설기계"
+          ],
+          "nameKeywords": [
+            "전기자동차",
+            "자동차",
+            "전장",
+            "건설기계정비"
+          ]
+        }
+      ]
+    }
+  ]
+}

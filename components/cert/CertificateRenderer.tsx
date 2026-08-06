@@ -9,6 +9,7 @@ import ExamStatistics from "@/components/cert/ExamStatistics";
 import OfficialInfo from "@/components/cert/OfficialInfo";
 import RealityGuide from "@/components/cert/RealityGuide";
 import Related from "@/components/cert/Related";
+import RelatedRoadmaps from "@/components/cert/RelatedRoadmaps";
 import StudyStrategy from "@/components/cert/StudyStrategy";
 import TrustInfo from "@/components/cert/TrustInfo";
 import FinalCTA from "@/components/cert/FinalCTA";
@@ -19,7 +20,7 @@ import AdSlot from "@/components/common/AdSlot";
 import { CERTIFICATE_SECTIONS, createCertificateJsonLd, type CertificateSectionId, type CertificateViewModel } from "@/lib/certificate-engine";
 
 function SectionContent({ id, model }: { id: CertificateSectionId; model: CertificateViewModel }) {
-  const { cert, relatedItems } = model;
+  const { cert, relatedItems, relatedRoadmaps } = model;
   switch (id) {
     case "intro": return cert.certificateIntro ? <CertificateIntro data={cert.certificateIntro} /> : null;
     case "official-info": return <OfficialInfo data={cert.officialInfo} exam={cert.exam} examWeight={cert.charts?.examWeight?.items} />;
@@ -32,6 +33,7 @@ function SectionContent({ id, model }: { id: CertificateSectionId; model: Certif
     case "career": return cert.career ? <CareerInfo data={cert.career} /> : null;
     case "affiliate": return <Affiliate affiliate={cert.affiliate} />;
     case "trust-info": return cert.trustInfo ? <TrustInfo data={cert.trustInfo} /> : null;
+    case "related-roadmaps": return <RelatedRoadmaps items={relatedRoadmaps} />;
     case "related": return <Related items={relatedItems} />;
     case "final-cta": return cert.finalCta ? <FinalCTA data={cert.finalCta} /> : null;
   }

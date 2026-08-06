@@ -1,0 +1,199 @@
+{
+  "basic": {
+    "slug": "construction",
+    "title": "건설·토목 취업 로드맵",
+    "categoryLabel": "건설·토목",
+    "description": "건축·토목·실내건축·현장안전 분야의 진로에 맞춰 산업기사와 기사급 자격을 선택하는 단계별 로드맵입니다.",
+    "estimatedPeriod": "6개월~3년",
+    "target": "건축·토목·시공·현장관리 직무 준비생"
+  },
+  "hero": {
+    "eyebrow": "CONSTRUCTION & CIVIL ROADMAP",
+    "title": "건설·토목 취업 로드맵",
+    "subtitle": "건축과 토목 중 주력 분야를 정하고 설계·시공·품질·안전으로 세부 진로를 나눠 준비하세요."
+  },
+  "summary": {
+    "title": "로드맵을 이렇게 활용하세요",
+    "items": [
+      "건축과 토목은 시험 범위와 취업 분야가 다르므로 먼저 주력 분야를 정합니다.",
+      "실내건축은 공간 설계와 시공 중심의 별도 진로로 볼 수 있습니다.",
+      "산업기사와 기사는 응시자격을 확인한 뒤 현재 학력과 경력에 맞춰 선택합니다.",
+      "현장관리 직무는 자격증 외에도 도면, 공정, 품질과 안전관리 이해가 중요합니다."
+    ]
+  },
+  "stages": [
+    {
+      "id": "entry",
+      "number": "01",
+      "title": "분야와 현장 적성 확인",
+      "description": "건축·토목·실내건축 중 관심 분야와 설계·시공·현장관리 적성을 확인합니다.",
+      "goal": "불필요한 자격 수집을 피하고 한 분야의 기초를 먼저 쌓습니다.",
+      "certificates": [
+        {
+          "name": "실내건축산업기사",
+          "href": "/cert/interior-architecture-industrial-engineer",
+          "description": "실내 공간 설계와 시공관리 분야를 산업기사 수준에서 준비합니다.",
+          "level": "산업기사",
+          "recommendedFor": "인테리어 설계·시공 준비생"
+        },
+        {
+          "name": "측량및지형공간정보산업기사",
+          "href": "/cert/surveying-geospatial-information-industrial-engineer",
+          "description": "토목·측량과 공간정보 분야의 기초 직무를 준비할 때 선택합니다.",
+          "level": "산업기사",
+          "recommendedFor": "측량·공간정보 직무 준비생"
+        }
+      ],
+      "checklist": [
+        "건축·토목·실내건축 중 주력 분야 선택",
+        "산업기사 응시자격 확인"
+      ]
+    },
+    {
+      "id": "foundation",
+      "number": "02",
+      "title": "산업기사급 현장 기초",
+      "description": "건축 또는 토목의 시공·재료·구조와 현장관리 기초를 체계화합니다.",
+      "goal": "현장 실무에 필요한 공통 이론과 도면·품질 기초를 준비합니다.",
+      "certificates": [
+        {
+          "name": "건축산업기사",
+          "href": "/cert/architectural-industrial-engineer",
+          "description": "건축계획, 시공, 구조와 설비의 기초를 산업기사 수준에서 평가합니다.",
+          "level": "산업기사",
+          "recommendedFor": "건축 시공·현장관리 입문자"
+        },
+        {
+          "name": "토목산업기사",
+          "href": "/cert/civil-industrial-engineer",
+          "description": "토목 구조와 시공·측량의 기초를 산업기사 수준에서 준비합니다.",
+          "level": "산업기사",
+          "recommendedFor": "토목 시공·현장관리 입문자"
+        }
+      ],
+      "checklist": [
+        "도면 읽기와 공정 흐름 학습",
+        "실기 유형과 계산 문제 준비"
+      ]
+    },
+    {
+      "id": "professional",
+      "number": "03",
+      "title": "기사급 직무 전문화",
+      "description": "건축과 토목 중 주력 분야의 대표 기사 자격으로 전문성을 강화합니다.",
+      "goal": "시공·품질·공무·공기업 등 목표 직무에 맞는 기사 자격을 준비합니다.",
+      "certificates": [
+        {
+          "name": "건축기사",
+          "href": "/cert/architectural-engineer",
+          "description": "건축계획, 시공, 구조, 설비와 법규를 종합적으로 평가하는 대표 기사 자격입니다.",
+          "level": "기사",
+          "recommendedFor": "건축 시공·공무·현장관리 준비생"
+        },
+        {
+          "name": "토목기사",
+          "href": "/cert/civil-engineer",
+          "description": "토목 구조, 수리, 토질, 측량과 시공 전반을 평가하는 대표 기사 자격입니다.",
+          "level": "기사",
+          "recommendedFor": "토목 시공·공기업·설계 직무 준비생"
+        }
+      ],
+      "checklist": [
+        "기사 응시자격 공식 확인",
+        "건축과 토목을 동시에 준비하기보다 목표 분야 집중"
+      ]
+    },
+    {
+      "id": "expand",
+      "number": "04",
+      "title": "품질·안전·전문 분야 확장",
+      "description": "취업 후 담당 업무에 따라 건설안전, 재료시험, 실내건축 또는 공간정보로 확장합니다.",
+      "goal": "현장 역할과 경력 방향에 필요한 자격을 선택합니다.",
+      "certificates": [
+        {
+          "name": "건설안전기사",
+          "href": "/cert/construction-safety-engineer",
+          "description": "건설현장의 재해 예방과 안전관리 분야로 확장할 때 선택합니다.",
+          "level": "안전 전문",
+          "recommendedFor": "건설현장 안전관리 직무"
+        },
+        {
+          "name": "건설재료시험기사",
+          "href": "/cert/construction-material-testing-engineer",
+          "description": "콘크리트와 건설재료의 시험·품질관리 분야로 확장할 때 검토합니다.",
+          "level": "품질 전문",
+          "recommendedFor": "건설 품질·시험 직무"
+        }
+      ],
+      "checklist": [
+        "현장 선임과 우대조건은 관계 법령 및 채용공고 확인",
+        "실내건축기사·측량기사 등은 담당 분야에 따라 선택"
+      ]
+    }
+  ],
+  "tips": {
+    "title": "건설·토목 자격 순서를 정할 때 주의할 점",
+    "items": [
+      "건축산업기사를 취득해야 건축기사에 응시할 수 있는 단일 경로만 있는 것은 아니므로 본인의 응시자격을 확인합니다.",
+      "건축기사와 토목기사는 서로 대체되는 자격이 아니며 목표 산업과 직무에 따라 선택해야 합니다.",
+      "현장 취업은 자격증 외에도 도면 이해, 공정·품질·안전관리와 현장 경험이 중요합니다."
+    ]
+  },
+  "faq": {
+    "title": "건설·토목 로드맵 FAQ",
+    "items": [
+      {
+        "question": "건축기사와 토목기사를 함께 준비하는 것이 좋나요?",
+        "answer": "두 시험 모두 범위가 넓어 처음부터 병행하기보다 목표 직무에 직접 연결되는 한 종목을 먼저 준비하는 편이 현실적입니다."
+      },
+      {
+        "question": "건설안전기사는 건축·토목 기사 취득 후 준비해야 하나요?",
+        "answer": "반드시 순서대로 취득할 필요는 없습니다. 다만 응시자격과 목표 직무를 확인하고 시공 중심인지 안전관리 중심인지에 따라 우선순위를 정해야 합니다."
+      }
+    ]
+  },
+  "related": {
+    "title": "함께 보면 좋은 가이드",
+    "items": [
+      {
+        "label": "응시자격 확인 방법",
+        "href": "/guide/check-eligibility"
+      },
+      {
+        "label": "기출문제 공부법",
+        "href": "/guide/past-exam-study-method"
+      },
+      {
+        "label": "실기시험에서 주의할 점",
+        "href": "/guide/practical-exam-tips"
+      }
+    ]
+  },
+  "finalCta": {
+    "title": "건축·토목 목표에 맞는 자격을 비교하세요",
+    "description": "산업기사와 기사, 안전·품질 분야의 시험 구성과 활용도를 확인하세요.",
+    "primaryButton": {
+      "label": "자격증 비교하기",
+      "href": "/compare"
+    },
+    "secondaryButton": {
+      "label": "국가자격증 보기",
+      "href": "/national-certificates"
+    }
+  },
+  "seo": {
+    "title": "건설·토목 취업 자격증 로드맵 | 라북",
+    "description": "건축산업기사, 토목산업기사, 건축기사, 토목기사와 건설안전기사로 이어지는 건설·토목 취업 자격증 로드맵입니다.",
+    "keywords": [
+      "건설 자격증 로드맵",
+      "건축기사",
+      "토목기사",
+      "건설안전기사",
+      "건축산업기사"
+    ]
+  },
+  "update": {
+    "lastUpdated": "2026-08-07",
+    "lastVerified": "2026-08-07"
+  }
+}

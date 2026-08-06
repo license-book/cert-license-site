@@ -1,0 +1,199 @@
+{
+  "basic": {
+    "slug": "accounting-tax",
+    "title": "회계·세무 취업 로드맵",
+    "categoryLabel": "회계·세무",
+    "description": "회계 입문부터 세무 실무까지 현재 수준과 취업 목표에 맞춰 자격을 선택하는 단계별 로드맵입니다.",
+    "estimatedPeriod": "3개월~1년 6개월",
+    "target": "경리·회계·세무 직무 준비생"
+  },
+  "hero": {
+    "eyebrow": "ACCOUNTING & TAX ROADMAP",
+    "title": "회계·세무 취업 로드맵",
+    "subtitle": "회계 기초를 익힌 뒤 전산회계와 전산세무를 실무 수준으로 확장하고, 사무 활용 능력까지 함께 준비하세요."
+  },
+  "summary": {
+    "title": "로드맵을 이렇게 활용하세요",
+    "items": [
+      "처음 시작한다면 전산회계 2급 또는 회계 기초부터 출발합니다.",
+      "경리·회계 취업은 자격증뿐 아니라 전표 입력과 결산 흐름을 실제 프로그램으로 익혀야 합니다.",
+      "세무 직무를 목표로 한다면 전산회계 1급 이후 전산세무 2급으로 확장하는 흐름이 현실적입니다.",
+      "채용공고에서 사용하는 회계 프로그램과 엑셀 요구 수준을 함께 확인합니다."
+    ]
+  },
+  "stages": [
+    {
+      "id": "entry",
+      "number": "01",
+      "title": "회계 기초 확인",
+      "description": "회계 용어와 거래 분개에 익숙한지 확인하고 첫 자격을 선택합니다.",
+      "goal": "재무상태표와 손익계산서의 기본 구조, 차변·대변과 분개 원리를 이해합니다.",
+      "certificates": [
+        {
+          "name": "전산회계 2급",
+          "href": "/cert/computerized-accounting-grade-2",
+          "description": "회계 원리와 기본적인 전표 입력을 익히는 대표 입문 자격입니다.",
+          "level": "입문",
+          "recommendedFor": "비전공자·회계 초보자"
+        },
+        {
+          "name": "컴퓨터활용능력 2급",
+          "href": "/cert/computer-specialist-2",
+          "description": "경리·사무 업무에 필요한 기본 스프레드시트 활용 능력을 보완합니다.",
+          "level": "사무 기초",
+          "recommendedFor": "엑셀 기초가 부족한 취업 준비생"
+        }
+      ],
+      "checklist": [
+        "분개와 계정과목 기초를 먼저 이해했는지 확인",
+        "회계 프로그램 실습이 포함된 학습과정인지 확인"
+      ]
+    },
+    {
+      "id": "foundation",
+      "number": "02",
+      "title": "회계 실무 기초",
+      "description": "부가가치세와 결산 기초까지 범위를 넓혀 경리·회계 실무의 기본 흐름을 익힙니다.",
+      "goal": "일상 거래 입력부터 결산 전 기초 업무까지 연결할 수 있는 수준을 만듭니다.",
+      "certificates": [
+        {
+          "name": "전산회계 1급",
+          "href": "/cert/computerized-accounting-grade-1",
+          "description": "회계 원리, 원가회계, 세무 기초와 프로그램 실무를 함께 평가합니다.",
+          "level": "기초 심화",
+          "recommendedFor": "경리·회계 취업 준비생"
+        },
+        {
+          "name": "컴퓨터활용능력 1급",
+          "href": "/cert/computer-specialist-1",
+          "description": "데이터 정리와 함수·분석 능력을 강화해 회계 자료 처리 역량을 보완합니다.",
+          "level": "사무 심화",
+          "recommendedFor": "엑셀 활용이 많은 회계 직무"
+        }
+      ],
+      "checklist": [
+        "전표 입력을 암기가 아니라 거래 흐름으로 이해",
+        "엑셀 함수와 표 정리 연습 병행"
+      ]
+    },
+    {
+      "id": "professional",
+      "number": "03",
+      "title": "세무 실무 확장",
+      "description": "부가가치세와 원천징수 등 세무 신고 보조 업무를 준비합니다.",
+      "goal": "회계 입력을 넘어 세무 자료 정리와 신고 절차의 기초를 이해합니다.",
+      "certificates": [
+        {
+          "name": "전산세무 2급",
+          "href": "/cert/computerized-tax-grade-2",
+          "description": "재무회계와 원가회계, 부가가치세와 소득세 기초 및 세무 프로그램 실무를 평가합니다.",
+          "level": "직무형",
+          "recommendedFor": "세무사무소·회계팀 취업 준비생"
+        },
+        {
+          "name": "사무자동화산업기사",
+          "href": "/cert/office-automation-industrial-engineer",
+          "description": "문서·데이터 처리와 사무정보 시스템 역량을 확장할 때 검토할 수 있습니다.",
+          "level": "인접 직무",
+          "recommendedFor": "회계와 사무정보 업무를 함께 담당하는 직무"
+        }
+      ],
+      "checklist": [
+        "세무 신고 일정과 증빙 흐름을 함께 학습",
+        "산업기사 응시자격은 접수 전 공식 확인"
+      ]
+    },
+    {
+      "id": "expand",
+      "number": "04",
+      "title": "취업 후 전문 분야 확장",
+      "description": "근무처와 담당 업무에 따라 결산·세무·재무분석 또는 상위 전문자격 진로를 선택합니다.",
+      "goal": "자격 수집보다 실제 담당 업무와 경력 방향에 필요한 역량을 선택합니다.",
+      "certificates": [
+        {
+          "name": "전산세무 2급",
+          "href": "/cert/computerized-tax-grade-2",
+          "description": "취업 후에도 신고 보조와 세무 프로그램 실무를 반복해 숙련도를 높입니다.",
+          "level": "실무 강화",
+          "recommendedFor": "세무·회계 실무자"
+        },
+        {
+          "name": "컴퓨터활용능력 1급",
+          "href": "/cert/computer-specialist-1",
+          "description": "결산자료, 예산표, 매출·매입 분석 등 대용량 자료 처리 역량을 강화합니다.",
+          "level": "업무 확장",
+          "recommendedFor": "회계·재무 데이터 담당자"
+        }
+      ],
+      "checklist": [
+        "세무사·재경관리사 등 프로젝트에 없는 자격은 공식 시행기관에서 별도 확인",
+        "경력 단계에 맞는 결산·법인세·재무분석 학습 선택"
+      ]
+    }
+  ],
+  "tips": {
+    "title": "회계·세무 자격 순서를 정할 때 주의할 점",
+    "items": [
+      "전산회계 2급을 반드시 취득해야 1급에 응시할 수 있는 것은 아니므로 현재 실력에 맞춰 시작합니다.",
+      "전산세무회계 시험의 일정·등급·출제범위는 한국세무사회 국가공인자격시험 공지를 최종 기준으로 확인합니다.",
+      "자격증 점수보다 실제 회계 프로그램 조작, 증빙 구분, 엑셀 활용이 취업 후 업무 적응에 중요합니다."
+    ]
+  },
+  "faq": {
+    "title": "회계·세무 로드맵 FAQ",
+    "items": [
+      {
+        "question": "비전공자는 전산회계 2급부터 시작해야 하나요?",
+        "answer": "회계 용어와 분개가 처음이라면 2급이 부담이 적습니다. 회계원리를 이미 공부했다면 전산회계 1급부터 준비할 수도 있습니다."
+      },
+      {
+        "question": "전산회계 자격증만으로 취업할 수 있나요?",
+        "answer": "입문 증명에는 도움이 되지만 채용에서는 회계 프로그램, 엑셀, 증빙 처리와 업무 경험을 함께 봅니다. 실습과 채용공고 분석을 병행하는 것이 좋습니다."
+      }
+    ]
+  },
+  "related": {
+    "title": "함께 보면 좋은 가이드",
+    "items": [
+      {
+        "label": "자격증은 어떻게 선택할까",
+        "href": "/guide/how-to-choose-certificate"
+      },
+      {
+        "label": "나에게 맞는 공부기간 정하기",
+        "href": "/guide/set-study-period"
+      },
+      {
+        "label": "취업과 이력서 활용법",
+        "href": "/guide/certificate-on-resume"
+      }
+    ]
+  },
+  "finalCta": {
+    "title": "회계 직무에 맞는 첫 자격부터 비교하세요",
+    "description": "현재 회계 기초 수준과 목표 채용공고를 기준으로 시험 범위와 실무 활용도를 확인하세요.",
+    "primaryButton": {
+      "label": "자격증 비교하기",
+      "href": "/compare"
+    },
+    "secondaryButton": {
+      "label": "회계 자격증 찾기",
+      "href": "/private-certificates"
+    }
+  },
+  "seo": {
+    "title": "회계·세무 취업 자격증 로드맵 | 라북",
+    "description": "전산회계 2급·1급, 전산세무 2급과 컴퓨터활용능력으로 이어지는 회계·세무 취업 자격증 로드맵입니다.",
+    "keywords": [
+      "회계 자격증 로드맵",
+      "세무 자격증",
+      "전산회계 1급",
+      "전산세무 2급",
+      "경리 취업 자격증"
+    ]
+  },
+  "update": {
+    "lastUpdated": "2026-08-07",
+    "lastVerified": "2026-08-07"
+  }
+}

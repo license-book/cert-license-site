@@ -1,11 +1,16 @@
 import type { CertificateData, CertificateSectionId } from "./types";
 import type { ResolvedRelatedItem } from "@/lib/related-certificates";
+import type { RelatedRoadmapSummary } from "@/lib/roadmap-engine";
 
 export function getKeyMetric(cert: CertificateData, label: string, fallback: string): string {
   return cert.keyInfo.items.find((item) => item.label === label)?.value ?? fallback;
 }
 
-export function buildVisibility(cert: CertificateData, related: ResolvedRelatedItem[]): Record<CertificateSectionId, boolean> {
+export function buildVisibility(
+  cert: CertificateData,
+  related: ResolvedRelatedItem[],
+  relatedRoadmaps: RelatedRoadmapSummary[],
+): Record<CertificateSectionId, boolean> {
   const hasAffiliate = Boolean(cert.affiliate?.lecture || cert.affiliate?.book || cert.affiliate?.application);
   return {
     "intro": Boolean(cert.certificateIntro),
@@ -19,6 +24,7 @@ export function buildVisibility(cert: CertificateData, related: ResolvedRelatedI
     "career": cert.display?.career !== false && Boolean(cert.career),
     "affiliate": cert.display?.affiliate !== false && hasAffiliate,
     "trust-info": Boolean(cert.trustInfo),
+    "related-roadmaps": relatedRoadmaps.length > 0,
     "related": related.length > 0,
     "final-cta": Boolean(cert.finalCta),
   };

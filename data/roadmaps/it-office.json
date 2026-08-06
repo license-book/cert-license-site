@@ -1,0 +1,194 @@
+{
+  "basic": {
+    "slug": "it-office",
+    "title": "IT·사무 취업 로드맵",
+    "categoryLabel": "IT·사무",
+    "description": "사무직과 IT 직무를 목표로 할 때 입문 자격부터 직무형 국가자격까지 단계별로 선택하는 로드맵입니다.",
+    "estimatedPeriod": "6개월~2년",
+    "target": "사무직·IT 입문자"
+  },
+  "hero": {
+    "eyebrow": "IT & OFFICE ROADMAP",
+    "title": "IT·사무 취업 로드맵",
+    "subtitle": "현재 실력과 목표 직무에 맞춰 기초 활용 자격부터 국가기술자격까지 단계적으로 준비하세요."
+  },
+  "summary": {
+    "title": "로드맵을 이렇게 활용하세요",
+    "items": [
+      "모든 자격증을 순서대로 취득할 필요는 없습니다.",
+      "사무직은 컴퓨터 활용과 문서 작성 능력을 먼저 확인합니다.",
+      "개발·전산 직무는 정보처리 계열의 응시자격과 시험 범위를 확인합니다.",
+      "각 단계에서 목표 채용공고의 우대조건을 함께 비교합니다."
+    ]
+  },
+  "stages": [
+    {
+      "id": "entry",
+      "number": "01",
+      "title": "입문 자격 확인",
+      "description": "현재 컴퓨터 활용 수준과 희망 직무를 확인하고 첫 자격증을 선택합니다.",
+      "goal": "짧은 기간에 기본 사무 역량을 증명할 수 있는 자격을 고릅니다.",
+      "certificates": [
+        {
+          "name": "컴퓨터활용능력 2급",
+          "href": "/cert/computer-specialist-2",
+          "description": "스프레드시트 중심의 기초 사무 활용 능력을 확인하는 대표 입문 자격입니다.",
+          "level": "입문",
+          "recommendedFor": "사무직 취업 준비생"
+        },
+        {
+          "name": "워드프로세서",
+          "href": "/cert/word-processor",
+          "description": "문서 작성과 편집에 필요한 기본 능력을 확인하는 국가기술자격입니다.",
+          "level": "입문",
+          "recommendedFor": "문서 업무가 많은 직무"
+        }
+      ],
+      "checklist": [
+        "지원 직무에 자격증 우대조건이 있는지 확인",
+        "필기와 실기 준비 가능 시간을 계산"
+      ]
+    },
+    {
+      "id": "foundation",
+      "number": "02",
+      "title": "사무·IT 기초",
+      "description": "업무에 직접 활용되는 스프레드시트와 사무자동화 역량을 강화합니다.",
+      "goal": "단순 보유보다 실제 업무 활용이 가능한 수준까지 끌어올립니다.",
+      "certificates": [
+        {
+          "name": "컴퓨터활용능력 1급",
+          "href": "/cert/computer-specialist-1",
+          "description": "고급 스프레드시트와 데이터베이스 활용 능력을 평가합니다.",
+          "level": "기초 심화",
+          "recommendedFor": "사무·행정·공공기관 준비생"
+        },
+        {
+          "name": "사무자동화산업기사",
+          "href": "/cert/office-automation-industrial-engineer",
+          "description": "사무 정보 시스템과 자동화 업무에 필요한 종합적인 지식을 평가합니다.",
+          "level": "직무 기초",
+          "recommendedFor": "사무 정보화 직무 준비생"
+        }
+      ],
+      "checklist": [
+        "실기 프로그램과 출제방식 확인",
+        "응시자격이 필요한 종목인지 확인"
+      ]
+    },
+    {
+      "id": "professional",
+      "number": "03",
+      "title": "직무형 국가자격",
+      "description": "전산·개발·정보시스템 직무를 목표로 국가기술자격을 선택합니다.",
+      "goal": "희망 직무에 직접 연결되는 자격을 중심으로 준비합니다.",
+      "certificates": [
+        {
+          "name": "정보처리산업기사",
+          "href": "/cert/information-processing-industrial-engineer",
+          "description": "정보시스템의 분석·설계·구현 기초를 평가하는 산업기사 등급 자격입니다.",
+          "level": "산업기사",
+          "recommendedFor": "전산 직무 입문자"
+        },
+        {
+          "name": "정보처리기사",
+          "href": "/cert/information-processing-engineer",
+          "description": "소프트웨어 개발과 정보시스템 전반의 지식 및 실무 능력을 평가합니다.",
+          "level": "기사",
+          "recommendedFor": "개발·전산·공공기관 준비생"
+        }
+      ],
+      "checklist": [
+        "기사·산업기사 응시자격 확인",
+        "자격증 외 포트폴리오나 실무 경험 병행"
+      ]
+    },
+    {
+      "id": "expand",
+      "number": "04",
+      "title": "관련 자격 확장",
+      "description": "취업 후 담당 업무에 따라 보안·통신·회계 등 인접 분야로 확장합니다.",
+      "goal": "직무와 무관한 자격 수집보다 실제 담당 업무에 필요한 자격을 선택합니다.",
+      "certificates": [
+        {
+          "name": "정보보안기사",
+          "href": "/cert/information-security-engineer",
+          "description": "보안 정책, 시스템과 네트워크 보안 등 정보보호 직무로 확장할 때 검토합니다.",
+          "level": "전문 확장",
+          "recommendedFor": "정보보안 직무 희망자"
+        },
+        {
+          "name": "전산회계 1급",
+          "href": "/cert/computerized-accounting-grade-1",
+          "description": "회계·경리 업무로 확장하려는 경우 실무 회계 역량을 보완할 수 있습니다.",
+          "level": "인접 직무",
+          "recommendedFor": "회계·경리 사무직"
+        }
+      ],
+      "checklist": [
+        "현재 업무와 직접 관련된 분야인지 확인",
+        "상위 자격의 실질적 활용처 확인"
+      ]
+    }
+  ],
+  "tips": {
+    "title": "자격증 순서를 정할 때 주의할 점",
+    "items": [
+      "컴활 2급을 반드시 취득한 뒤 1급에 응시해야 하는 것은 아닙니다.",
+      "기사·산업기사 등급은 접수 전에 본인의 응시자격을 공식 시행기관에서 확인해야 합니다.",
+      "채용공고에서 요구하는 프로그램·실무능력은 자격증과 별도로 준비해야 합니다."
+    ]
+  },
+  "faq": {
+    "title": "IT·사무 로드맵 FAQ",
+    "items": [
+      {
+        "question": "컴퓨터활용능력 2급부터 시작해야 하나요?",
+        "answer": "초보자에게는 2급이 현실적인 출발점이지만 실력이 충분하고 1급이 필요한 경우 바로 1급을 준비할 수 있습니다."
+      },
+      {
+        "question": "정보처리기사만 있으면 개발자로 취업할 수 있나요?",
+        "answer": "자격증은 기초 지식과 응시 요건을 증명하는 수단 중 하나입니다. 개발 직무는 프로젝트, 코딩 능력, 포트폴리오와 면접 준비가 함께 필요합니다."
+      }
+    ]
+  },
+  "related": {
+    "title": "함께 보면 좋은 가이드",
+    "items": [
+      {
+        "label": "자격증은 어떻게 선택할까",
+        "href": "/guide/how-to-choose-certificate"
+      },
+      {
+        "label": "응시자격 확인 방법",
+        "href": "/guide/check-eligibility"
+      }
+    ]
+  },
+  "finalCta": {
+    "title": "내게 맞는 첫 자격증부터 확인하세요",
+    "description": "현재 실력과 목표 직무를 기준으로 후보 자격증의 시험 구성과 활용도를 비교하세요.",
+    "primaryButton": {
+      "label": "자격증 비교하기",
+      "href": "/compare"
+    },
+    "secondaryButton": {
+      "label": "자격증 랭킹 보기",
+      "href": "/rank"
+    }
+  },
+  "seo": {
+    "title": "IT·사무 취업 자격증 로드맵 | 라북",
+    "description": "컴퓨터활용능력, 워드프로세서, 사무자동화산업기사, 정보처리기사로 이어지는 IT·사무 취업 자격증 로드맵입니다.",
+    "keywords": [
+      "IT 자격증 로드맵",
+      "사무직 자격증",
+      "컴퓨터활용능력",
+      "정보처리기사"
+    ]
+  },
+  "update": {
+    "lastUpdated": "2026-08-07",
+    "lastVerified": "2026-08-07"
+  }
+}

@@ -45,10 +45,10 @@ const GUIDE_GROUPS = [
     description:
       "무엇을 준비해야 할지 막막한 단계에서 가장 먼저 알아야 할 내용입니다.",
     items: [
-      "자격증은 어떻게 선택할까",
-      "국가자격과 민간자격의 차이",
-      "필기시험과 실기시험의 차이",
-      "CBT 시험이란 무엇인가",
+      { title: "자격증은 어떻게 선택할까", slug: "how-to-choose-certificate" },
+      { title: "국가자격과 민간자격의 차이", slug: "national-vs-private-certificate" },
+      { title: "필기시험과 실기시험의 차이", slug: "written-vs-practical-exam" },
+      { title: "CBT 시험이란 무엇인가", slug: "what-is-cbt" },
     ],
   },
   {
@@ -58,11 +58,11 @@ const GUIDE_GROUPS = [
     description:
       "응시 가능 여부를 확인하고 현실적인 학습 계획을 세우는 단계입니다.",
     items: [
-      "원서접수 방법과 순서",
-      "응시자격 확인 방법",
-      "나에게 맞는 공부기간 정하기",
-      "교재 선택 기준",
-      "인강 선택 기준",
+      { title: "원서접수 방법과 순서", slug: "exam-registration" },
+      { title: "응시자격 확인 방법", slug: "check-eligibility" },
+      { title: "나에게 맞는 공부기간 정하기", slug: "set-study-period" },
+      { title: "교재 선택 기준", slug: "choose-study-book" },
+      { title: "인강 선택 기준", slug: "choose-online-course" },
     ],
   },
   {
@@ -72,11 +72,11 @@ const GUIDE_GROUPS = [
     description:
       "기출문제와 반복 학습을 효율적으로 활용하는 실전 학습 가이드입니다.",
     items: [
-      "독학 가능한 자격증 판단법",
-      "기출문제 공부법",
-      "암기과목 공부법",
-      "오답노트 활용법",
-      "직장인을 위한 공부 계획",
+      { title: "독학 가능한 자격증 판단법", slug: "self-study-certificate" },
+      { title: "기출문제 공부법", slug: "past-exam-study-method" },
+      { title: "암기과목 공부법", slug: "memorization-study-method" },
+      { title: "오답노트 활용법", slug: "wrong-answer-note" },
+      { title: "직장인을 위한 공부 계획", slug: "study-plan-for-workers" },
     ],
   },
   {
@@ -86,9 +86,9 @@ const GUIDE_GROUPS = [
     description:
       "준비물과 입실 절차, 실기시험에서 놓치기 쉬운 부분을 확인합니다.",
     items: [
-      "시험 당일 준비물",
-      "시험장 입실과 유의사항",
-      "실기시험에서 주의할 점",
+      { title: "시험 당일 준비물", slug: "exam-day-checklist" },
+      { title: "시험장 입실과 유의사항", slug: "exam-room-rules" },
+      { title: "실기시험에서 주의할 점", slug: "practical-exam-tips" },
     ],
   },
   {
@@ -98,9 +98,9 @@ const GUIDE_GROUPS = [
     description:
       "합격 이후 자격증을 발급받고 취업과 다음 단계에 활용하는 방법입니다.",
     items: [
-      "자격증 발급 방법",
-      "취업과 이력서 활용법",
-      "다음 상위 자격증 선택법",
+      { title: "자격증 발급 방법", slug: "certificate-issuance" },
+      { title: "취업과 이력서 활용법", slug: "certificate-on-resume" },
+      { title: "다음 상위 자격증 선택법", slug: "choose-next-certificate" },
     ],
   },
   {
@@ -110,32 +110,91 @@ const GUIDE_GROUPS = [
     description:
       "시험 일정, 비용, 재응시처럼 수험생이 반복해서 찾는 내용을 모읍니다.",
     items: [
-      "자격시험 응시료",
-      "시험 일정 확인 방법",
-      "불합격 후 재응시",
-      "자격증 준비 공통 질문",
+      { title: "자격시험 응시료", slug: "exam-fees" },
+      { title: "시험 일정 확인 방법", slug: "check-exam-schedule" },
+      { title: "불합격 후 재응시", slug: "reapply-after-failure" },
+      { title: "자격증 준비 공통 질문", slug: "certificate-faq" },
     ],
   },
 ];
 
 const ROADMAPS = [
   {
+    slug: "it-office",
     title: "IT·사무 취업 로드맵",
     steps: ["입문 자격 확인", "사무·IT 기초", "직무형 국가자격", "관련 자격 확장"],
     description:
       "사무직과 IT 직무를 목표로 할 때 현재 수준에 맞는 자격증 순서를 정합니다.",
   },
   {
+    slug: "electrical-technical",
     title: "전기·기술직 로드맵",
     steps: ["응시자격 확인", "기능사·산업기사", "기사", "현장 경력 확장"],
     description:
       "응시자격과 경력 조건을 고려해 기능사부터 기사까지 단계적으로 준비합니다.",
   },
   {
+    slug: "cooking-service",
     title: "조리·서비스 로드맵",
     steps: ["희망 업종 선택", "기능사 취득", "현장 경험", "인접 분야 확장"],
     description:
       "한식·양식·제과·제빵처럼 취업하려는 업종을 기준으로 조리 분야를 선택합니다.",
+  },
+  {
+    slug: "accounting-tax",
+    title: "회계·세무 취업 로드맵",
+    steps: ["회계 기초 확인", "회계 실무 기초", "세무 실무 확장", "전문 분야 확장"],
+    description:
+      "전산회계 기초부터 세무 실무와 회계 데이터 활용까지 단계적으로 준비합니다.",
+  },
+  {
+    slug: "safety",
+    title: "안전관리 취업 로드맵",
+    steps: ["현장과 진로 확인", "산업안전 기초", "기사급 안전관리", "전문 영역 확장"],
+    description:
+      "제조업과 건설현장 중 목표 분야를 정하고 산업안전·건설안전 자격으로 확장합니다.",
+  },
+  {
+    slug: "mechanical",
+    title: "기계·설비 취업 로드맵",
+    steps: ["기계 실무 입문", "산업기사 실무", "기사급 전문화", "설비·에너지 확장"],
+    description:
+      "설계·생산·정비·공조 중 목표 직무에 맞춰 기계 분야 자격을 선택합니다.",
+  },
+  {
+    slug: "construction",
+    title: "건설·토목 취업 로드맵",
+    steps: ["분야와 적성 확인", "현장 기초", "기사급 전문화", "품질·안전 확장"],
+    description:
+      "건축과 토목의 주력 분야를 정하고 시공·품질·안전 직무로 단계적으로 확장합니다.",
+  },
+  {
+    slug: "healthcare",
+    title: "보건·의료 취업 로드맵",
+    steps: ["직무와 자격 구분", "현장 지원 역량", "복지·재활 전문화", "대상별 서비스 확장"],
+    description:
+      "국가시험·국가전문자격과 민간자격을 구분해 보건·돌봄 분야의 현실적인 진로를 정합니다.",
+  },
+  {
+    slug: "logistics",
+    title: "물류·유통 취업 로드맵",
+    steps: ["현장·운영 진로 선택", "입출고·판매 기초", "현장·데이터 강화", "온라인 판매 확장"],
+    description:
+      "지게차와 재고관리부터 온라인 쇼핑몰·전자상거래 운영까지 단계적으로 준비합니다.",
+  },
+  {
+    slug: "design",
+    title: "디자인 취업 로드맵",
+    steps: ["시각 표현 기초", "콘텐츠 디자인", "웹·디지털 전문화", "브랜드 분야 확장"],
+    description:
+      "그래픽·웹·영상 중 주력 분야를 정하고 자격 학습을 실제 포트폴리오로 연결합니다.",
+  },
+  {
+    slug: "automotive",
+    title: "자동차 정비 취업 로드맵",
+    steps: ["정비 작업 입문", "산업기사급 진단", "기사급 전문화", "전장·설비 확장"],
+    description:
+      "자동차정비기능사부터 산업기사·기사와 전장·건설기계 정비 분야로 확장합니다.",
   },
 ];
 
@@ -292,7 +351,7 @@ export default function GuidePage() {
               <article
                 key={group.id}
                 id={group.id}
-                className="scroll-mt-24 rounded-3xl border border-slate-200 bg-white p-6 shadow-sm md:p-7"
+                className="scroll-mt-24 scroll-mt-24 rounded-3xl border border-slate-200 bg-white p-6 shadow-sm md:p-7"
               >
                 <div className="flex items-start gap-4">
                   <span className="inline-flex h-12 min-w-12 items-center justify-center rounded-2xl bg-blue-50 px-3 text-sm font-black text-blue-700">
@@ -309,24 +368,40 @@ export default function GuidePage() {
                 </div>
 
                 <div className="mt-6 grid gap-3">
-                  {group.items.map((item, index) => (
-                    <div
-                      key={item}
-                      className="flex items-center justify-between gap-4 rounded-2xl border border-slate-200 bg-slate-50 px-4 py-4"
-                    >
-                      <div className="flex items-center gap-3">
-                        <span className="text-xs font-black text-slate-400">
-                          {String(index + 1).padStart(2, "0")}
+                  {group.items.map((item, index) => {
+                    const content = (
+                      <>
+                        <div className="flex items-center gap-3">
+                          <span className="text-xs font-black text-slate-400">
+                            {String(index + 1).padStart(2, "0")}
+                          </span>
+                          <strong className="text-sm font-black text-slate-800 md:text-base">
+                            {item.title}
+                          </strong>
+                        </div>
+                        <span className={`shrink-0 rounded-full px-2.5 py-1 text-[11px] font-black ${item.slug ? "bg-blue-600 text-white" : "bg-white text-slate-500"}`}>
+                          {item.slug ? "가이드 보기" : "제작 예정"}
                         </span>
-                        <strong className="text-sm font-black text-slate-800 md:text-base">
-                          {item}
-                        </strong>
+                      </>
+                    );
+
+                    return item.slug ? (
+                      <Link
+                        key={item.title}
+                        href={`/guide/${item.slug}`}
+                        className="flex items-center justify-between gap-4 rounded-2xl border border-slate-200 bg-slate-50 px-4 py-4 transition hover:border-blue-300 hover:bg-blue-50"
+                      >
+                        {content}
+                      </Link>
+                    ) : (
+                      <div
+                        key={item.title}
+                        className="flex items-center justify-between gap-4 rounded-2xl border border-slate-200 bg-slate-50 px-4 py-4"
+                      >
+                        {content}
                       </div>
-                      <span className="shrink-0 rounded-full bg-white px-2.5 py-1 text-[11px] font-black text-slate-500">
-                        제작 예정
-                      </span>
-                    </div>
-                  ))}
+                    );
+                  })}
                 </div>
               </article>
             ))}
@@ -334,7 +409,7 @@ export default function GuidePage() {
         </div>
       </section>
 
-      <section className="border-y border-slate-200 bg-white">
+      <section id="roadmaps" className="scroll-mt-24 border-y border-slate-200 bg-white">
         <div className="mx-auto max-w-[1200px] px-5 py-12 md:px-6 md:py-16">
           <div className="mb-8">
             <span className="text-sm font-black text-blue-600">
@@ -352,7 +427,7 @@ export default function GuidePage() {
           <div className="grid gap-5 lg:grid-cols-3">
             {ROADMAPS.map((roadmap) => (
               <article
-                key={roadmap.title}
+                key={roadmap.slug}
                 className="rounded-3xl border border-slate-200 bg-slate-50 p-6"
               >
                 <span className="text-xs font-black text-blue-600">
@@ -379,6 +454,13 @@ export default function GuidePage() {
                     </div>
                   ))}
                 </div>
+                <Link
+                  href={`/roadmap/${roadmap.slug}`}
+                  className="mt-6 inline-flex min-h-11 w-full items-center justify-center gap-2 rounded-xl bg-blue-600 px-4 text-sm font-black text-white transition hover:bg-blue-700"
+                >
+                  로드맵 상세보기
+                  <ArrowIcon />
+                </Link>
               </article>
             ))}
           </div>

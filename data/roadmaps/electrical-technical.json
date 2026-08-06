@@ -1,0 +1,172 @@
+{
+  "basic": {
+    "slug": "electrical-technical",
+    "title": "전기·기술직 로드맵",
+    "categoryLabel": "전기·기술",
+    "description": "전기 분야 입문부터 산업기사·기사 및 현장 경력 확장까지 단계별로 확인하는 자격증 로드맵입니다.",
+    "estimatedPeriod": "1년~3년 이상",
+    "target": "전기·설비 기술직 준비생"
+  },
+  "hero": {
+    "eyebrow": "ELECTRICAL ROADMAP",
+    "title": "전기·기술직 로드맵",
+    "subtitle": "응시자격과 현장 경력을 함께 고려해 기능사부터 기사까지 현실적인 순서를 설계하세요."
+  },
+  "summary": {
+    "title": "전기 분야 준비 핵심",
+    "items": [
+      "첫 단계에서 학력·경력에 따른 응시자격을 확인합니다.",
+      "비전공자는 기능사로 기초를 다지고 현장 경험을 쌓는 경로를 검토합니다.",
+      "산업기사와 기사는 목표 직무와 선임·경력 활용 여부를 함께 봅니다.",
+      "취득 순서는 개인 조건과 채용 요건에 따라 달라질 수 있습니다."
+    ]
+  },
+  "stages": [
+    {
+      "id": "eligibility",
+      "number": "01",
+      "title": "응시자격 확인",
+      "description": "학력, 전공, 경력에 따라 바로 응시할 수 있는 등급을 확인합니다.",
+      "goal": "접수 전에 공식 응시자격을 확인해 불필요한 준비를 줄입니다.",
+      "certificates": [
+        {
+          "name": "전기기능사",
+          "href": "/cert/electric-craftsman",
+          "description": "응시자격 제한 없이 전기 분야의 기초 이론과 작업 능력을 준비할 수 있습니다.",
+          "level": "기능사",
+          "recommendedFor": "비전공 입문자"
+        }
+      ],
+      "checklist": [
+        "학력·전공·경력 조건 정리",
+        "공식 응시자격 자가진단 확인"
+      ]
+    },
+    {
+      "id": "foundation",
+      "number": "02",
+      "title": "기능사·산업기사",
+      "description": "기초 이론과 현장 실무를 연결하고 산업기사 등급으로 확장합니다.",
+      "goal": "현장 취업과 상위 자격 준비에 필요한 기초를 확보합니다.",
+      "certificates": [
+        {
+          "name": "전기기능사",
+          "href": "/cert/electric-craftsman",
+          "description": "전기 설비 작업의 기초와 안전한 작업 절차를 학습합니다.",
+          "level": "기능사"
+        },
+        {
+          "name": "전기산업기사",
+          "href": "/cert/electric-industrial-engineer",
+          "description": "전기 설비의 설계·운용·점검에 필요한 산업기사 수준의 지식을 평가합니다.",
+          "level": "산업기사"
+        }
+      ],
+      "checklist": [
+        "실기 작업형 또는 필답형 구성 확인",
+        "현장 안전수칙과 도구 사용 숙지"
+      ]
+    },
+    {
+      "id": "engineer",
+      "number": "03",
+      "title": "기사",
+      "description": "전기 설비와 공사 분야 중 목표 직무에 맞는 기사 자격을 선택합니다.",
+      "goal": "채용 우대와 기술인 경력 활용 가능성을 고려해 기사 종목을 선택합니다.",
+      "certificates": [
+        {
+          "name": "전기기사",
+          "href": "/cert/electric-engineer",
+          "description": "전기 설비의 계획, 설계, 감리와 유지관리 분야에서 폭넓게 활용됩니다.",
+          "level": "기사"
+        },
+        {
+          "name": "전기공사기사",
+          "href": "/cert/electrical-construction-engineer",
+          "description": "전기공사의 시공, 공정 및 품질관리 분야를 목표로 할 때 검토합니다.",
+          "level": "기사"
+        }
+      ],
+      "checklist": [
+        "목표 직무가 설비인지 공사인지 구분",
+        "기사 응시자격 증빙 준비"
+      ]
+    },
+    {
+      "id": "career",
+      "number": "04",
+      "title": "현장 경력 확장",
+      "description": "취득 후 담당 업무와 경력에 맞춰 소방·에너지 등 인접 기술 분야로 확장합니다.",
+      "goal": "자격증 취득과 현장 경력을 함께 관리합니다.",
+      "certificates": [
+        {
+          "name": "소방설비기사(전기분야)",
+          "href": "/cert/fire-protection-electrical-engineer",
+          "description": "소방 전기 설비의 설계·시공·점검 분야로 확장할 때 검토합니다.",
+          "level": "전문 확장"
+        },
+        {
+          "name": "에너지관리기사",
+          "href": "/cert/energy-management-engineer",
+          "description": "열에너지 설비와 효율 관리 분야까지 직무를 확장할 때 활용할 수 있습니다.",
+          "level": "인접 분야"
+        }
+      ],
+      "checklist": [
+        "경력 인정 범위와 선임 요건 확인",
+        "실제 담당 업무와 연계되는 종목 선택"
+      ]
+    }
+  ],
+  "tips": {
+    "title": "전기 로드맵 주의사항",
+    "items": [
+      "자격증별 응시자격과 활용 요건은 변경될 수 있으므로 접수 시점의 공식 공고를 확인하세요.",
+      "자격증 취득만으로 모든 선임 요건이 자동 충족되는 것은 아니며 경력과 사업장 조건이 함께 적용될 수 있습니다.",
+      "실기 준비에서는 계산뿐 아니라 도면, 시퀀스, 안전 기준을 함께 점검하세요."
+    ]
+  },
+  "faq": {
+    "items": [
+      {
+        "question": "전기기능사를 따야 전기기사에 응시할 수 있나요?",
+        "answer": "반드시 기능사를 먼저 취득해야 하는 것은 아닙니다. 전기기사의 응시자격을 충족한다면 바로 응시할 수 있습니다."
+      },
+      {
+        "question": "전기기사와 전기공사기사 중 무엇을 먼저 준비해야 하나요?",
+        "answer": "설비 운영·유지관리 중심인지 공사 시공·관리 중심인지에 따라 우선순위가 달라집니다. 목표 채용공고를 먼저 확인하는 것이 좋습니다."
+      }
+    ]
+  },
+  "related": {
+    "items": [
+      {
+        "label": "응시자격 확인 방법",
+        "href": "/guide/check-eligibility"
+      },
+      {
+        "label": "실기시험에서 주의할 점",
+        "href": "/guide/practical-exam-tips"
+      }
+    ]
+  },
+  "finalCta": {
+    "title": "현재 응시 가능한 전기 자격부터 확인하세요",
+    "primaryButton": {
+      "label": "국가자격증 보기",
+      "href": "/national-certificates"
+    },
+    "secondaryButton": {
+      "label": "자격증 비교하기",
+      "href": "/compare"
+    }
+  },
+  "seo": {
+    "title": "전기·기술직 자격증 로드맵 | 라북",
+    "description": "전기기능사, 전기산업기사, 전기기사와 전기공사기사로 이어지는 전기·기술직 자격증 로드맵입니다."
+  },
+  "update": {
+    "lastUpdated": "2026-08-07",
+    "lastVerified": "2026-08-07"
+  }
+}

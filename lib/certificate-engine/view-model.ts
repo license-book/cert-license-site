@@ -1,14 +1,17 @@
 import { getRelatedCertificates } from "@/lib/related-certificates";
+import { findRelatedRoadmaps } from "@/lib/roadmap-engine";
 import { CERTIFICATE_SECTIONS } from "./section-registry";
 import { buildVisibility, getKeyMetric } from "./rules";
 import type { CertificateData, CertificateViewModel } from "./types";
 
 export function buildCertificateViewModel(cert: CertificateData): CertificateViewModel {
   const relatedItems = getRelatedCertificates(cert.basic.slug);
-  const visibility = buildVisibility(cert, relatedItems);
+  const relatedRoadmaps = findRelatedRoadmaps(cert.basic.slug);
+  const visibility = buildVisibility(cert, relatedItems, relatedRoadmaps);
   return {
     cert,
     relatedItems,
+    relatedRoadmaps,
     visibility,
     tocItems: CERTIFICATE_SECTIONS.filter((section) => visibility[section.id]).map(({ id, label }) => ({ id, label })),
     heroMetrics: {

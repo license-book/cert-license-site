@@ -1,0 +1,199 @@
+{
+  "basic": {
+    "slug": "safety",
+    "title": "안전관리 취업 로드맵",
+    "categoryLabel": "안전관리",
+    "description": "산업현장과 건설현장의 안전관리 직무를 목표로 기초 자격부터 기사급 자격까지 선택하는 로드맵입니다.",
+    "estimatedPeriod": "6개월~2년",
+    "target": "산업·건설 안전관리 직무 준비생"
+  },
+  "hero": {
+    "eyebrow": "SAFETY MANAGEMENT ROADMAP",
+    "title": "안전관리 취업 로드맵",
+    "subtitle": "희망 산업과 현장 유형을 먼저 정한 뒤 산업안전, 건설안전, 위험물과 환경·위생 분야로 단계적으로 확장하세요."
+  },
+  "summary": {
+    "title": "로드맵을 이렇게 활용하세요",
+    "items": [
+      "제조업 중심인지 건설현장 중심인지 먼저 정합니다.",
+      "산업기사와 기사는 응시자격이 다르므로 접수 전에 공식 기준을 확인합니다.",
+      "산업안전과 건설안전은 공통 영역이 있지만 현장과 시험 범위가 다릅니다.",
+      "위험물·소방·산업위생 등 인접 자격은 실제 사업장의 업무범위에 맞춰 선택합니다."
+    ]
+  },
+  "stages": [
+    {
+      "id": "entry",
+      "number": "01",
+      "title": "현장과 진로 확인",
+      "description": "제조·물류·건설·플랜트 중 희망 산업과 담당할 안전업무를 먼저 구분합니다.",
+      "goal": "채용공고의 자격요건과 우대조건을 비교해 첫 자격을 정합니다.",
+      "certificates": [
+        {
+          "name": "위험물기능사",
+          "href": "/cert/hazardous-material-craftsman",
+          "description": "위험물의 성질과 취급·저장에 대한 기초를 익히는 입문 자격입니다.",
+          "level": "입문",
+          "recommendedFor": "화학·제조·시설 안전 입문자"
+        },
+        {
+          "name": "가스기능사",
+          "href": "/cert/gas-craftsman",
+          "description": "가스 설비와 안전관리 기초를 익혀 시설·에너지 분야로 확장할 수 있습니다.",
+          "level": "입문",
+          "recommendedFor": "시설·가스 안전 입문자"
+        }
+      ],
+      "checklist": [
+        "희망 채용공고가 산업안전과 건설안전 중 무엇을 요구하는지 확인",
+        "기사·산업기사 응시자격 사전 확인"
+      ]
+    },
+    {
+      "id": "foundation",
+      "number": "02",
+      "title": "산업안전 직무 기초",
+      "description": "산업재해 예방, 안전보건관리, 위험성 평가의 기본 체계를 익힙니다.",
+      "goal": "사업장 안전관리 업무에 필요한 법령과 실무 기초를 준비합니다.",
+      "certificates": [
+        {
+          "name": "산업안전산업기사",
+          "href": "/cert/industrial-safety-industrial-engineer",
+          "description": "산업현장의 위험요인과 안전관리 실무를 산업기사 수준에서 평가합니다.",
+          "level": "산업기사",
+          "recommendedFor": "제조·물류·설비 안전관리 입문자"
+        },
+        {
+          "name": "위험물산업기사",
+          "href": "/cert/hazardous-material-industrial-engineer",
+          "description": "위험물 시설과 취급 안전을 보다 깊게 준비할 때 선택합니다.",
+          "level": "산업기사",
+          "recommendedFor": "화학·에너지·위험물 취급 사업장"
+        }
+      ],
+      "checklist": [
+        "법령 개정과 출제기준 확인",
+        "현장 위험성 평가 사례 학습"
+      ]
+    },
+    {
+      "id": "professional",
+      "number": "03",
+      "title": "기사급 안전관리",
+      "description": "채용 수요가 많은 기사급 자격을 목표 직무에 맞춰 선택합니다.",
+      "goal": "안전관리자 직무와 현장관리 업무에 필요한 전문성을 강화합니다.",
+      "certificates": [
+        {
+          "name": "산업안전기사",
+          "href": "/cert/industrial-safety-engineer",
+          "description": "제조업을 포함한 다양한 산업현장의 안전관리 직무에서 폭넓게 활용됩니다.",
+          "level": "기사",
+          "recommendedFor": "산업 전반의 안전관리자 준비생"
+        },
+        {
+          "name": "건설안전기사",
+          "href": "/cert/construction-safety-engineer",
+          "description": "건설공사 위험요인과 시공 단계별 안전관리 역량을 평가합니다.",
+          "level": "기사",
+          "recommendedFor": "건설현장 안전관리자 준비생"
+        }
+      ],
+      "checklist": [
+        "산업안전과 건설안전 중 주력 분야 선택",
+        "실기 유형과 최신 출제기준 확인"
+      ]
+    },
+    {
+      "id": "expand",
+      "number": "04",
+      "title": "현장별 전문 영역 확장",
+      "description": "담당 산업에 따라 소방·가스·환경·건설 안전으로 전문 영역을 넓힙니다.",
+      "goal": "사업장의 법정 선임과 실제 업무범위를 기준으로 필요한 자격을 추가합니다.",
+      "certificates": [
+        {
+          "name": "건설안전산업기사",
+          "href": "/cert/construction-safety-industrial-engineer",
+          "description": "건설현장 안전 분야를 산업기사 등급에서 준비할 때 선택합니다.",
+          "level": "건설 확장",
+          "recommendedFor": "건설현장 안전 실무 입문자"
+        },
+        {
+          "name": "소방설비기사(기계분야)",
+          "href": "/cert/fire-protection-mechanical-engineer",
+          "description": "소방설비와 시설 안전 업무로 확장할 때 검토할 수 있습니다.",
+          "level": "시설 확장",
+          "recommendedFor": "시설·소방 안전 담당자"
+        }
+      ],
+      "checklist": [
+        "선임요건은 관계 법령과 사업장 조건을 별도 확인",
+        "산업안전지도사 등 상위 진로는 경력과 시험체계 확인"
+      ]
+    }
+  ],
+  "tips": {
+    "title": "안전관리 로드맵에서 주의할 점",
+    "items": [
+      "자격 취득만으로 모든 사업장에서 자동 선임되는 것은 아니므로 관계 법령과 사업장 규모를 확인해야 합니다.",
+      "산업기사와 기사는 동일한 순차 자격이 아니라 응시자격과 난이도가 다른 등급입니다.",
+      "건설현장과 제조현장은 요구하는 실무경험과 우대 자격이 다르므로 채용공고를 기준으로 선택합니다."
+    ]
+  },
+  "faq": {
+    "title": "안전관리 로드맵 FAQ",
+    "items": [
+      {
+        "question": "산업안전기사와 건설안전기사 중 무엇을 먼저 준비해야 하나요?",
+        "answer": "제조·물류·일반 산업현장을 목표로 하면 산업안전기사가 범용성이 높고, 건설현장을 목표로 하면 건설안전기사가 직접적입니다."
+      },
+      {
+        "question": "위험물 자격도 안전관리 취업에 도움이 되나요?",
+        "answer": "화학물질이나 위험물을 취급하는 제조·물류·에너지 사업장에서는 도움이 될 수 있습니다. 다만 채용공고의 필수·우대 조건을 먼저 확인해야 합니다."
+      }
+    ]
+  },
+  "related": {
+    "title": "함께 보면 좋은 가이드",
+    "items": [
+      {
+        "label": "응시자격 확인 방법",
+        "href": "/guide/check-eligibility"
+      },
+      {
+        "label": "필기시험과 실기시험의 차이",
+        "href": "/guide/written-vs-practical-exam"
+      },
+      {
+        "label": "시험장 입실과 유의사항",
+        "href": "/guide/exam-room-rules"
+      }
+    ]
+  },
+  "finalCta": {
+    "title": "희망 현장에 맞는 안전 자격을 선택하세요",
+    "description": "산업안전과 건설안전의 시험 구성, 응시자격과 활용 분야를 비교하세요.",
+    "primaryButton": {
+      "label": "안전 자격 비교하기",
+      "href": "/compare"
+    },
+    "secondaryButton": {
+      "label": "국가자격증 보기",
+      "href": "/national-certificates"
+    }
+  },
+  "seo": {
+    "title": "안전관리 취업 자격증 로드맵 | 라북",
+    "description": "위험물기능사, 산업안전산업기사, 산업안전기사, 건설안전기사로 이어지는 안전관리 취업 자격증 로드맵입니다.",
+    "keywords": [
+      "안전관리 자격증",
+      "산업안전기사 로드맵",
+      "건설안전기사",
+      "위험물기능사",
+      "안전관리자 취업"
+    ]
+  },
+  "update": {
+    "lastUpdated": "2026-08-07",
+    "lastVerified": "2026-08-07"
+  }
+}

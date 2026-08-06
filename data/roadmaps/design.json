@@ -1,0 +1,199 @@
+{
+  "basic": {
+    "slug": "design",
+    "title": "디자인 취업 로드맵",
+    "categoryLabel": "디자인",
+    "description": "그래픽·웹·콘텐츠 디자인 중 목표 분야를 정하고 도구 숙련과 포트폴리오를 단계적으로 쌓는 로드맵입니다.",
+    "estimatedPeriod": "3개월~2년",
+    "target": "그래픽·웹·콘텐츠 디자이너 준비생"
+  },
+  "hero": {
+    "eyebrow": "DESIGN CAREER ROADMAP",
+    "title": "디자인 취업 로드맵",
+    "subtitle": "자격증은 도구와 기초를 확인하는 수단으로 활용하고, 취업 경쟁력은 실제 포트폴리오로 완성하세요."
+  },
+  "summary": {
+    "title": "로드맵을 이렇게 활용하세요",
+    "items": [
+      "그래픽, 웹, 영상, 일러스트 중 주력 분야를 먼저 정합니다.",
+      "디자인 자격은 소프트웨어 숙련과 기초 이론을 확인하는 보조 수단으로 활용합니다.",
+      "채용에서는 자격증보다 문제 해결 과정과 결과물을 보여주는 포트폴리오가 중요합니다.",
+      "각 단계에서 완성작을 남기고 한 분야의 작업물을 일관되게 축적합니다."
+    ]
+  },
+  "stages": [
+    {
+      "id": "entry",
+      "number": "01",
+      "title": "시각 표현 기초",
+      "description": "레이아웃, 색상, 타이포그래피와 이미지 편집의 기초를 익힙니다.",
+      "goal": "도구 사용보다 먼저 시각적 전달 원리를 이해합니다.",
+      "certificates": [
+        {
+          "name": "일러스트레이션전문가",
+          "href": "/cert/illustration-specialist",
+          "description": "벡터 드로잉과 시각 요소 제작의 기초를 연습합니다.",
+          "level": "민간자격",
+          "recommendedFor": "그래픽·일러스트 입문자"
+        },
+        {
+          "name": "디지털드로잉전문가",
+          "href": "/cert/digital-drawing-specialist",
+          "description": "디지털 환경에서 드로잉과 이미지 표현 기초를 준비합니다.",
+          "level": "민간자격",
+          "recommendedFor": "디지털 일러스트 입문자"
+        }
+      ],
+      "checklist": [
+        "레이아웃·색상·타이포그래피 기초 학습",
+        "간단한 포스터 또는 배너 3개 제작"
+      ]
+    },
+    {
+      "id": "foundation",
+      "number": "02",
+      "title": "콘텐츠 디자인 실무",
+      "description": "SNS 카드뉴스, 사진과 영상 등 실제 콘텐츠 제작 경험을 쌓습니다.",
+      "goal": "채널과 목적에 맞는 결과물을 빠르게 제작합니다.",
+      "certificates": [
+        {
+          "name": "카드뉴스디자이너",
+          "href": "/cert/cardnews-designer",
+          "description": "정보를 짧고 명확하게 구성하는 SNS 콘텐츠 디자인을 연습합니다.",
+          "level": "민간자격",
+          "recommendedFor": "콘텐츠 디자이너 입문자"
+        },
+        {
+          "name": "사진전문가",
+          "href": "/cert/photography-specialist",
+          "description": "구도와 촬영·보정 기초를 익혀 디자인 소스를 직접 제작합니다.",
+          "level": "민간자격",
+          "recommendedFor": "콘텐츠·브랜드 디자인 준비생"
+        }
+      ],
+      "checklist": [
+        "브랜드 톤을 맞춘 콘텐츠 시리즈 제작",
+        "작업 전후와 의도를 포트폴리오에 기록"
+      ]
+    },
+    {
+      "id": "professional",
+      "number": "03",
+      "title": "웹·디지털 분야 전문화",
+      "description": "웹 인터페이스와 디지털 콘텐츠 제작 능력을 직무 수준으로 확장합니다.",
+      "goal": "실제 서비스 화면과 반응형 디자인 경험을 확보합니다.",
+      "certificates": [
+        {
+          "name": "웹디자인전문가",
+          "href": "/cert/web-design-specialist",
+          "description": "웹 레이아웃, UI 구성과 시각 디자인 실무를 준비합니다.",
+          "level": "민간자격",
+          "recommendedFor": "웹·UI 디자인 준비생"
+        },
+        {
+          "name": "영상편집전문가",
+          "href": "/cert/video-editing-specialist",
+          "description": "숏폼과 홍보영상 편집 역량을 더해 콘텐츠 직무로 확장합니다.",
+          "level": "민간자격",
+          "recommendedFor": "영상·콘텐츠 디자이너"
+        }
+      ],
+      "checklist": [
+        "반응형 웹 시안 또는 랜딩페이지 제작",
+        "영상·이미지 결과물을 한 포트폴리오로 정리"
+      ]
+    },
+    {
+      "id": "expand",
+      "number": "04",
+      "title": "브랜드·개인화 분야 확장",
+      "description": "브랜드 이미지와 고객 경험을 다루는 인접 분야로 확장합니다.",
+      "goal": "디자인 결과물을 비즈니스 목표와 연결합니다.",
+      "certificates": [
+        {
+          "name": "퍼스널컬러컨설턴트",
+          "href": "/cert/personal-color-consultant",
+          "description": "색채와 이미지 컨설팅 분야로 확장할 때 활용합니다.",
+          "level": "민간자격",
+          "recommendedFor": "이미지·뷰티 컨설팅 관심자"
+        },
+        {
+          "name": "브랜드매니저",
+          "href": "/cert/brand-manager",
+          "description": "브랜드 전략과 콘텐츠 운영 관점에서 디자인 활용 범위를 넓힙니다.",
+          "level": "민간자격",
+          "recommendedFor": "브랜드·콘텐츠 기획 직무"
+        }
+      ],
+      "checklist": [
+        "지원 직무에 맞춰 포트폴리오 8~12개 선별",
+        "결과물마다 목표·역할·성과 설명"
+      ]
+    }
+  ],
+  "tips": {
+    "title": "디자인 로드맵에서 주의할 점",
+    "items": [
+      "자격증을 많이 취득하는 것보다 한 분야의 완성도 높은 작업물을 만드는 것이 중요합니다.",
+      "툴 기능만 나열하지 말고 문제와 목표, 작업 과정, 결과를 포트폴리오에 설명합니다.",
+      "실제 프로젝트의 웹디자인개발기능사 등 국가자격 데이터가 추가되면 전문 단계에 연결할 수 있습니다."
+    ]
+  },
+  "faq": {
+    "title": "디자인 로드맵 FAQ",
+    "items": [
+      {
+        "question": "디자인 취업에 자격증이 필수인가요?",
+        "answer": "대부분의 디자인 직무에서는 포트폴리오가 핵심입니다. 자격증은 기초 학습과 도구 숙련을 보여주는 보조 자료로 활용하는 편이 좋습니다."
+      },
+      {
+        "question": "여러 디자인 분야를 모두 준비해야 하나요?",
+        "answer": "초기에는 폭넓게 경험하되 취업 준비 단계에서는 그래픽, 웹, 영상 중 주력 분야를 정하고 관련 작업물을 집중적으로 구성하는 것이 효과적입니다."
+      }
+    ]
+  },
+  "related": {
+    "title": "함께 보면 좋은 가이드",
+    "items": [
+      {
+        "label": "독학 가능한 자격증 판단법",
+        "href": "/guide/self-study-certificate"
+      },
+      {
+        "label": "인강 선택 기준",
+        "href": "/guide/choose-online-course"
+      },
+      {
+        "label": "취업과 이력서 활용법",
+        "href": "/guide/certificate-on-resume"
+      }
+    ]
+  },
+  "finalCta": {
+    "title": "디자인 분야와 포트폴리오 방향을 정하세요",
+    "description": "그래픽·웹·영상 콘텐츠 자격을 비교하고 목표 직무에 맞는 작업물을 준비하세요.",
+    "primaryButton": {
+      "label": "자격증 비교하기",
+      "href": "/compare"
+    },
+    "secondaryButton": {
+      "label": "민간자격증 보기",
+      "href": "/private-certificates"
+    }
+  },
+  "seo": {
+    "title": "디자인 취업 자격증 로드맵 | 라북",
+    "description": "일러스트, 카드뉴스, 웹디자인과 영상편집 자격을 포트폴리오로 연결하는 디자인 취업 로드맵입니다.",
+    "keywords": [
+      "디자인 자격증",
+      "웹디자인 자격증",
+      "그래픽 디자인",
+      "영상편집 자격증",
+      "디자인 포트폴리오"
+    ]
+  },
+  "update": {
+    "lastUpdated": "2026-08-07",
+    "lastVerified": "2026-08-07"
+  }
+}

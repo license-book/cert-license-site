@@ -1,0 +1,199 @@
+{
+  "basic": {
+    "slug": "mechanical",
+    "title": "기계·설비 취업 로드맵",
+    "categoryLabel": "기계·설비",
+    "description": "기계제작·설계·정비·공조설비 분야의 진로에 맞춰 기능사부터 기사급 자격까지 선택하는 로드맵입니다.",
+    "estimatedPeriod": "6개월~2년 6개월",
+    "target": "기계·설비·생산기술 직무 준비생"
+  },
+  "hero": {
+    "eyebrow": "MECHANICAL ENGINEERING ROADMAP",
+    "title": "기계·설비 취업 로드맵",
+    "subtitle": "설계, 생산, 정비, 공조냉동 중 목표 직무를 먼저 정하고 기초 실무에서 기사급 전문성까지 단계적으로 준비하세요."
+  },
+  "summary": {
+    "title": "로드맵을 이렇게 활용하세요",
+    "items": [
+      "기계 분야는 설계·생산·정비·공조 등 직무가 넓으므로 진로를 먼저 좁힙니다.",
+      "기능사에서 기사로 반드시 순서대로 취득해야 하는 것은 아닙니다.",
+      "기사·산업기사 자격은 학력과 경력 등 응시자격을 먼저 확인합니다.",
+      "CAD·도면해독·측정·설비 운전 같은 실제 기술을 자격시험 준비와 함께 익힙니다."
+    ]
+  },
+  "stages": [
+    {
+      "id": "entry",
+      "number": "01",
+      "title": "기계 실무 입문",
+      "description": "도면, 재료, 가공과 설비 기초를 익히며 적성에 맞는 세부 직무를 찾습니다.",
+      "goal": "기계 분야의 공통 기초와 현장 안전 습관을 갖춥니다.",
+      "certificates": [
+        {
+          "name": "용접기능사",
+          "href": "/cert/welding-craftsman",
+          "description": "금속 접합과 작업 안전의 기초를 익혀 생산·설비 현장에 입문할 수 있습니다.",
+          "level": "입문",
+          "recommendedFor": "생산·설비 현장 입문자"
+        },
+        {
+          "name": "공조냉동기계기능사",
+          "href": "/cert/air-conditioning-refrigeration-craftsman",
+          "description": "냉동·공조 설비의 운전과 유지관리 기초를 준비합니다.",
+          "level": "입문",
+          "recommendedFor": "시설·냉동공조 직무 입문자"
+        }
+      ],
+      "checklist": [
+        "설계와 현장 정비 중 희망 직무 구분",
+        "실기 작업과 안전수칙 확인"
+      ]
+    },
+    {
+      "id": "foundation",
+      "number": "02",
+      "title": "산업기사급 실무 강화",
+      "description": "세부 직무에 맞는 산업기사 자격으로 이론과 실무 범위를 넓힙니다.",
+      "goal": "현장 실무와 설비 이해를 산업기사 수준으로 체계화합니다.",
+      "certificates": [
+        {
+          "name": "공조냉동기계산업기사",
+          "href": "/cert/air-conditioning-refrigeration-industrial-engineer",
+          "description": "냉동·공조 설비의 설계, 운전과 유지관리 역량을 강화합니다.",
+          "level": "산업기사",
+          "recommendedFor": "공조·시설관리 직무 준비생"
+        },
+        {
+          "name": "건설기계정비산업기사",
+          "href": "/cert/construction-machinery-maintenance-industrial-engineer",
+          "description": "건설기계의 점검과 정비 분야로 진출할 때 선택합니다.",
+          "level": "산업기사",
+          "recommendedFor": "건설기계 정비 직무 준비생"
+        }
+      ],
+      "checklist": [
+        "산업기사 응시자격 확인",
+        "현장 장비나 CAD 실습 병행"
+      ]
+    },
+    {
+      "id": "professional",
+      "number": "03",
+      "title": "기사급 직무 전문화",
+      "description": "기계설계·생산기술·설비 분야에서 활용되는 기사급 자격을 선택합니다.",
+      "goal": "목표 직무에 직접 연결되는 기사 자격과 실무 능력을 함께 준비합니다.",
+      "certificates": [
+        {
+          "name": "일반기계기사",
+          "href": "/cert/general-mechanical-engineer",
+          "description": "재료역학, 기계설계와 제작 등 기계공학 전반을 다루는 대표 기사 자격입니다.",
+          "level": "기사",
+          "recommendedFor": "기계설계·생산기술·공기업 준비생"
+        },
+        {
+          "name": "기계설계기사",
+          "href": "/cert/mechanical-design-engineer",
+          "description": "기계요소 설계와 도면·설계 능력을 중심으로 전문성을 강화합니다.",
+          "level": "기사",
+          "recommendedFor": "기계설계·CAD 직무 준비생"
+        }
+      ],
+      "checklist": [
+        "일반기계와 기계설계 중 목표 직무에 맞는 종목 선택",
+        "필기 이론과 실기 설계 연습 병행"
+      ]
+    },
+    {
+      "id": "expand",
+      "number": "04",
+      "title": "설비·에너지 분야 확장",
+      "description": "취업 후 담당 설비에 따라 공조냉동, 에너지, 건설기계 분야로 전문성을 확장합니다.",
+      "goal": "현장 설비와 경력 방향에 맞는 자격을 추가합니다.",
+      "certificates": [
+        {
+          "name": "공조냉동기계기사",
+          "href": "/cert/air-conditioning-refrigeration-engineer",
+          "description": "냉동·공조 설비의 설계와 유지관리 분야를 기사 수준으로 확장합니다.",
+          "level": "설비 전문",
+          "recommendedFor": "시설·플랜트·냉동공조 기술자"
+        },
+        {
+          "name": "에너지관리기사",
+          "href": "/cert/energy-management-engineer",
+          "description": "보일러와 열에너지 설비의 효율적 운영·관리 분야로 확장할 때 검토합니다.",
+          "level": "에너지 전문",
+          "recommendedFor": "에너지·시설관리 직무"
+        }
+      ],
+      "checklist": [
+        "사업장 설비와 실제 선임·우대조건 확인",
+        "건설기계설비기사 등 인접 기사도 담당업무 기준으로 검토"
+      ]
+    }
+  ],
+  "tips": {
+    "title": "기계·설비 자격 순서를 정할 때 주의할 점",
+    "items": [
+      "기계 분야의 모든 자격을 취득하기보다 설계·정비·공조·생산 중 목표 직무를 기준으로 선택합니다.",
+      "기사와 산업기사 응시자격은 Q-Net 공식 기준에서 본인의 학력·경력을 확인해야 합니다.",
+      "자격증과 별도로 CAD, 도면해독, 측정기 사용과 현장 안전 능력이 중요합니다."
+    ]
+  },
+  "faq": {
+    "title": "기계·설비 로드맵 FAQ",
+    "items": [
+      {
+        "question": "일반기계기사와 기계설계기사 중 무엇이 더 좋나요?",
+        "answer": "일반기계기사는 기계공학 전반과 생산·설계 분야에 폭넓고, 기계설계기사는 설계와 도면 직무에 더 직접적입니다. 목표 채용공고를 기준으로 선택하세요."
+      },
+      {
+        "question": "공조냉동기계 자격은 기계 직무에 도움이 되나요?",
+        "answer": "시설관리, 냉동창고, 빌딩설비, 플랜트와 공조 분야를 목표로 한다면 직접적인 도움이 될 수 있습니다."
+      }
+    ]
+  },
+  "related": {
+    "title": "함께 보면 좋은 가이드",
+    "items": [
+      {
+        "label": "응시자격 확인 방법",
+        "href": "/guide/check-eligibility"
+      },
+      {
+        "label": "실기시험에서 주의할 점",
+        "href": "/guide/practical-exam-tips"
+      },
+      {
+        "label": "다음 상위 자격증 선택법",
+        "href": "/guide/choose-next-certificate"
+      }
+    ]
+  },
+  "finalCta": {
+    "title": "목표 기계 직무에 맞는 자격을 비교하세요",
+    "description": "설계·정비·공조·에너지 분야별 시험 구성과 활용 방향을 확인하세요.",
+    "primaryButton": {
+      "label": "자격증 비교하기",
+      "href": "/compare"
+    },
+    "secondaryButton": {
+      "label": "국가자격증 보기",
+      "href": "/national-certificates"
+    }
+  },
+  "seo": {
+    "title": "기계·설비 취업 자격증 로드맵 | 라북",
+    "description": "용접기능사, 공조냉동기계산업기사, 일반기계기사, 기계설계기사와 에너지관리기사로 이어지는 기계·설비 취업 로드맵입니다.",
+    "keywords": [
+      "기계 자격증 로드맵",
+      "일반기계기사",
+      "기계설계기사",
+      "공조냉동기계기사",
+      "설비 자격증"
+    ]
+  },
+  "update": {
+    "lastUpdated": "2026-08-07",
+    "lastVerified": "2026-08-07"
+  }
+}

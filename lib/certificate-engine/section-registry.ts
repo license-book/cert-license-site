@@ -14,6 +14,7 @@ export const CERTIFICATE_SECTIONS: readonly SectionDefinition[] = [
   { id: "career", label: "취업·활용", delay: 240 },
   { id: "affiliate", label: "추천 자료", delay: 260 },
   { id: "trust-info", label: "정보 출처", delay: 290 },
-  { id: "related", label: "관련 자격증", delay: 295 },
-  { id: "final-cta", label: "다음 단계", delay: 300 },
+  { id: "related-roadmaps", label: "관련 로드맵", delay: 295, className: "mt-10 md:mt-12" },
+  { id: "related", label: "관련 자격증", delay: 300 },
+  { id: "final-cta", label: "다음 단계", delay: 305 },
 ] as const;

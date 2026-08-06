@@ -1,0 +1,199 @@
+{
+  "basic": {
+    "slug": "logistics",
+    "title": "물류·유통 취업 로드맵",
+    "categoryLabel": "물류·유통",
+    "description": "창고·입출고·지게차 운전부터 온라인 유통과 쇼핑몰 운영까지 현재 프로젝트의 자격증을 활용해 단계적으로 준비하는 로드맵입니다.",
+    "estimatedPeriod": "2개월~2년",
+    "target": "물류센터·유통매장·온라인 판매 직무 준비생"
+  },
+  "hero": {
+    "eyebrow": "LOGISTICS & RETAIL ROADMAP",
+    "title": "물류·유통 취업 로드맵",
+    "subtitle": "현장 물류와 온라인 유통 중 목표 직무를 정하고, 장비 운전·재고관리·판매 운영 역량을 연결하세요."
+  },
+  "summary": {
+    "title": "로드맵을 이렇게 활용하세요",
+    "items": [
+      "현장 물류는 안전한 장비 운전과 입출고·재고관리 역량이 중요합니다.",
+      "온라인 유통은 상품등록, 주문·배송, 고객응대와 매출 데이터 관리 역량이 필요합니다.",
+      "지게차 자격은 물류 현장의 핵심 자격 중 하나지만 사업장별 장비와 안전교육도 함께 확인해야 합니다.",
+      "현재 프로젝트에 없는 물류관리사·유통관리사 등은 임의 링크를 만들지 않고 향후 데이터 추가 후 연결합니다."
+    ]
+  },
+  "stages": [
+    {
+      "id": "entry",
+      "number": "01",
+      "title": "현장형과 운영형 진로 선택",
+      "description": "창고·운송·장비 운전과 매장·온라인 판매 운영 중 우선 진로를 정합니다.",
+      "goal": "필요 역량이 다른 두 경로를 구분해 준비합니다.",
+      "certificates": [
+        {
+          "name": "지게차운전기능사",
+          "href": "/cert/forklift-truck-operator-craftsman",
+          "description": "물류센터와 제조 현장의 상하차·운반 장비 운전 기초를 준비합니다.",
+          "level": "기능사",
+          "recommendedFor": "물류센터·창고 현장 취업 준비생"
+        },
+        {
+          "name": "쇼핑몰관리사",
+          "href": "/cert/shopping-mall-manager",
+          "description": "상품등록, 주문관리와 고객응대 등 온라인 판매 운영 기초를 정리합니다.",
+          "level": "민간자격",
+          "recommendedFor": "온라인 쇼핑몰 운영 입문자"
+        }
+      ],
+      "checklist": [
+        "현장 물류와 온라인 운영 중 목표 선택",
+        "근무환경과 교대근무 가능 여부 확인"
+      ]
+    },
+    {
+      "id": "foundation",
+      "number": "02",
+      "title": "입출고·판매 운영 기초",
+      "description": "재고 흐름, 주문 처리, 문서와 데이터 관리의 기본을 익힙니다.",
+      "goal": "상품이 입고되어 고객에게 전달되는 전체 흐름을 이해합니다.",
+      "certificates": [
+        {
+          "name": "전자상거래관리사",
+          "href": "/cert/ecommerce-manager",
+          "description": "온라인 거래와 쇼핑몰 운영, 전자상거래 실무 이해를 확장합니다.",
+          "level": "민간자격",
+          "recommendedFor": "온라인 유통·판매 운영 준비생"
+        },
+        {
+          "name": "컴퓨터활용능력 2급",
+          "href": "/cert/computer-specialist-2",
+          "description": "재고표, 주문내역과 기본적인 사무 데이터를 처리하는 능력을 준비합니다.",
+          "level": "국가기술자격",
+          "recommendedFor": "물류·유통 사무 입문자"
+        }
+      ],
+      "checklist": [
+        "엑셀 기반 재고·주문표 연습",
+        "반품과 고객응대 흐름 이해"
+      ]
+    },
+    {
+      "id": "professional",
+      "number": "03",
+      "title": "현장·데이터 실무 강화",
+      "description": "장비 운전 또는 물류사무 중 주력 업무의 정확성과 생산성을 높입니다.",
+      "goal": "현장 안전과 데이터 관리 역량을 함께 갖춥니다.",
+      "certificates": [
+        {
+          "name": "컴퓨터활용능력 1급",
+          "href": "/cert/computer-specialist-1",
+          "description": "대량 재고와 실적 데이터를 함수·분석 기능으로 관리하는 능력을 강화합니다.",
+          "level": "국가기술자격",
+          "recommendedFor": "물류관리·유통사무 직무"
+        },
+        {
+          "name": "사무자동화산업기사",
+          "href": "/cert/office-automation-industrial-engineer",
+          "description": "문서·데이터 처리와 업무 자동화 역량을 산업기사 수준에서 확장합니다.",
+          "level": "산업기사",
+          "recommendedFor": "물류·유통 사무관리 직무"
+        }
+      ],
+      "checklist": [
+        "산업기사 응시자격 확인",
+        "WMS·ERP 등 현장 시스템 학습 병행"
+      ]
+    },
+    {
+      "id": "expand",
+      "number": "04",
+      "title": "온라인 판매와 브랜드 확장",
+      "description": "유통 현장 경험을 상품기획, 온라인 마케팅과 브랜드 운영으로 확장합니다.",
+      "goal": "판매 채널과 고객 데이터를 이해하는 운영자로 성장합니다.",
+      "certificates": [
+        {
+          "name": "스마트스토어전문가",
+          "href": "/cert/smart-store-specialist",
+          "description": "오픈마켓 상품등록과 판매 운영 흐름을 익힐 때 활용합니다.",
+          "level": "민간자격",
+          "recommendedFor": "온라인 판매 운영자"
+        },
+        {
+          "name": "온라인마케팅전문가",
+          "href": "/cert/online-marketing-specialist",
+          "description": "검색·콘텐츠·광고를 활용한 판매 촉진 역량을 확장합니다.",
+          "level": "민간자격",
+          "recommendedFor": "온라인 유통 마케팅 직무"
+        }
+      ],
+      "checklist": [
+        "자격증보다 실제 상품등록·판매 포트폴리오 준비",
+        "채널별 수수료·정산·배송정책 이해"
+      ]
+    }
+  ],
+  "tips": {
+    "title": "물류·유통 자격 순서를 정할 때 주의할 점",
+    "items": [
+      "지게차운전기능사 취득 후에도 사업장 안전교육과 장비별 작업절차를 따라야 합니다.",
+      "온라인 유통 분야는 자격증만큼 상품등록, 주문·CS 처리와 매출 분석 경험이 중요합니다.",
+      "물류관리사·유통관리사 상세 데이터가 추가되면 이 로드맵의 전문 단계에 연결하는 것이 좋습니다."
+    ]
+  },
+  "faq": {
+    "title": "물류·유통 로드맵 FAQ",
+    "items": [
+      {
+        "question": "물류센터 취업에는 지게차 자격이 꼭 필요한가요?",
+        "answer": "모든 직무에 필수는 아니지만 지게차 운전과 상하차 업무를 맡는 직무에서는 중요하게 요구되거나 우대될 수 있습니다."
+      },
+      {
+        "question": "온라인 쇼핑몰 자격증만으로 취업할 수 있나요?",
+        "answer": "자격은 학습 이력을 보여주는 자료가 될 수 있지만, 실제 상품등록·주문관리·고객응대와 매출 데이터 처리 경험을 함께 준비하는 것이 중요합니다."
+      }
+    ]
+  },
+  "related": {
+    "title": "함께 보면 좋은 가이드",
+    "items": [
+      {
+        "label": "응시자격 확인 방법",
+        "href": "/guide/check-eligibility"
+      },
+      {
+        "label": "나에게 맞는 공부기간 정하기",
+        "href": "/guide/set-study-period"
+      },
+      {
+        "label": "다음 상위 자격증 선택법",
+        "href": "/guide/choose-next-certificate"
+      }
+    ]
+  },
+  "finalCta": {
+    "title": "현장 물류와 온라인 유통 중 목표를 정하세요",
+    "description": "장비 운전, 물류사무와 온라인 판매 운영에 필요한 자격을 비교해보세요.",
+    "primaryButton": {
+      "label": "자격증 비교하기",
+      "href": "/compare"
+    },
+    "secondaryButton": {
+      "label": "자격증 랭킹 보기",
+      "href": "/rank"
+    }
+  },
+  "seo": {
+    "title": "물류·유통 취업 자격증 로드맵 | 라북",
+    "description": "지게차운전기능사, 컴퓨터활용능력과 전자상거래·쇼핑몰 운영 자격으로 이어지는 물류·유통 취업 로드맵입니다.",
+    "keywords": [
+      "물류 자격증",
+      "유통 자격증",
+      "지게차운전기능사",
+      "쇼핑몰관리사",
+      "전자상거래"
+    ]
+  },
+  "update": {
+    "lastUpdated": "2026-08-07",
+    "lastVerified": "2026-08-07"
+  }
+}

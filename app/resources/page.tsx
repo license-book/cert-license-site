@@ -47,11 +47,13 @@ const RESOURCE_GROUPS = [
     title: "원서접수·시험일정",
     description:
       "시험 접수와 일정 확인에 필요한 기본 자료를 모으는 영역입니다.",
+    href: "/resources/application-schedule",
+    status: "완성",
     items: [
-      "원서접수 절차",
-      "시험 일정 확인 방법",
-      "접수 사진 규정",
-      "응시료와 환불 기준",
+      { title: "원서접수 절차", href: "/resources/application-schedule#application" },
+      { title: "시험 일정 확인 방법", href: "/resources/application-schedule#schedule" },
+      { title: "접수 사진 규정", href: "/resources/application-schedule#photo" },
+      { title: "응시료와 환불 기준", href: "/resources/application-schedule#refund" },
     ],
   },
   {
@@ -59,11 +61,13 @@ const RESOURCE_GROUPS = [
     title: "응시자격·증빙",
     description:
       "학력, 경력과 제출서류를 확인할 때 필요한 자료를 정리합니다.",
+    href: "/resources/eligibility-documents",
+    status: "완성",
     items: [
-      "응시자격 확인 방법",
-      "학력·경력 조건",
-      "경력증명서 확인사항",
-      "서류 제출과 심사",
+      { title: "응시자격 확인 방법", href: "/resources/eligibility-documents#check" },
+      { title: "학력·경력 조건", href: "/resources/eligibility-documents#conditions" },
+      { title: "경력증명서 확인사항", href: "/resources/eligibility-documents#career-proof" },
+      { title: "서류 제출과 심사", href: "/resources/eligibility-documents#review" },
     ],
   },
   {
@@ -71,11 +75,13 @@ const RESOURCE_GROUPS = [
     title: "CBT·시험방식",
     description:
       "컴퓨터 시험과 필기·실기 시험의 차이를 이해하는 자료입니다.",
+    href: "/resources/cbt-exam-format",
+    status: "완성",
     items: [
-      "CBT 시험 안내",
-      "필답형과 작업형 차이",
-      "필기·실기 시험 구성",
-      "시험시간과 답안 제출",
+      { title: "CBT 시험 안내", href: "/resources/cbt-exam-format#cbt" },
+      { title: "필답형과 작업형 차이", href: "/resources/cbt-exam-format#types" },
+      { title: "필기·실기 시험 구성", href: "/resources/cbt-exam-format#structure" },
+      { title: "시험시간과 답안 제출", href: "/resources/cbt-exam-format#time-submit" },
     ],
   },
   {
@@ -83,11 +89,13 @@ const RESOURCE_GROUPS = [
     title: "시험장·준비물",
     description:
       "시험 당일 실수를 줄이기 위한 준비물과 유의사항을 모읍니다.",
+    href: "/resources/exam-day-checklist",
+    status: "완성",
     items: [
-      "시험 당일 준비물",
-      "신분증 인정 범위",
-      "입실시간과 퇴실 기준",
-      "실기시험 장비와 복장",
+      { title: "시험 당일 준비물", href: "/resources/exam-day-checklist#checklist" },
+      { title: "신분증 인정 범위", href: "/resources/exam-day-checklist#identification" },
+      { title: "입실시간과 퇴실 기준", href: "/resources/exam-day-checklist#entry-exit" },
+      { title: "실기시험 장비와 복장", href: "/resources/exam-day-checklist#practical" },
     ],
   },
   {
@@ -95,11 +103,13 @@ const RESOURCE_GROUPS = [
     title: "발급·확인서",
     description:
       "합격 이후 자격증 발급과 각종 확인서 이용 방법을 정리합니다.",
+    href: "/resources/certificate-issuance",
+    status: "완성",
     items: [
-      "자격증 발급 방법",
-      "합격확인서 출력",
-      "자격증 재발급",
-      "자격취득사항 확인",
+      { title: "자격증 발급 방법", href: "/resources/certificate-issuance#issuance" },
+      { title: "합격확인서 출력", href: "/resources/certificate-issuance#pass-certificate" },
+      { title: "자격증 재발급", href: "/resources/certificate-issuance#reissue" },
+      { title: "자격취득사항 확인", href: "/resources/certificate-issuance#qualification-check" },
     ],
   },
   {
@@ -107,11 +117,13 @@ const RESOURCE_GROUPS = [
     title: "자격증 용어사전",
     description:
       "시험 안내에서 자주 등장하는 용어를 쉽게 설명하는 영역입니다.",
+    href: "/resources/certification-glossary",
+    status: "완성",
     items: [
-      "CBT와 PBT",
-      "NCS와 출제기준",
-      "필답형·작업형·복합형",
-      "국가공인·등록 민간자격",
+      { title: "CBT와 PBT", href: "/resources/certification-glossary#cbt-pbt" },
+      { title: "NCS와 출제기준", href: "/resources/certification-glossary#ncs-criteria" },
+      { title: "필답형·작업형·복합형", href: "/resources/certification-glossary#exam-types" },
+      { title: "국가공인·등록 민간자격", href: "/resources/certification-glossary#private-certification" },
     ],
   },
   {
@@ -119,36 +131,43 @@ const RESOURCE_GROUPS = [
     title: "시행기관 안내",
     description:
       "자격증별 접수와 발급을 담당하는 주요 기관 정보를 정리합니다.",
+    href: "/resources/exam-agencies",
+    status: "완성",
     items: [
-      "큐넷 이용 안내",
-      "대한상공회의소 자격평가",
-      "자격증별 시행기관 확인",
-      "공식 출처 구별 방법",
+      { title: "큐넷 이용 안내", href: "/resources/exam-agencies#qnet" },
+      { title: "대한상공회의소 자격평가", href: "/resources/exam-agencies#korcham" },
+      { title: "자격증별 시행기관 확인", href: "/resources/exam-agencies#find-agency" },
+      { title: "공식 출처 구별 방법", href: "/resources/exam-agencies#official-source" },
     ],
   },
   {
     number: "08",
     title: "제도변경·공지",
     description:
-      "시험과 자격제도에서 달라지는 내용을 추적하는 영역입니다.",
+      "시험과 자격제도에서 달라지는 내용을 확인하는 방법을 정리합니다.",
+    href: "/resources/regulation-updates",
+    status: "완성",
     items: [
-      "출제기준 변경",
-      "응시자격 변경",
-      "시험방식 변경",
-      "자격제도 주요 공지",
+      { title: "출제기준 변경", href: "/resources/regulation-updates#exam-standard" },
+      { title: "응시자격 변경", href: "/resources/regulation-updates#eligibility" },
+      { title: "시험방식 변경", href: "/resources/regulation-updates#exam-method" },
+      { title: "자격제도 주요 공지", href: "/resources/regulation-updates#major-notices" },
     ],
   },
 ];
 
 const POPULAR_TERMS = [
-  "CBT 뜻",
-  "필답형 뜻",
-  "작업형 뜻",
-  "NCS란",
-  "국가공인 민간자격",
-  "자격증 재발급",
-  "응시자격",
-  "원서접수",
+  { label: "CBT 뜻", href: "/resources/certification-glossary#cbt-pbt" },
+  { label: "필답형 뜻", href: "/resources/certification-glossary#exam-types" },
+  { label: "작업형 뜻", href: "/resources/certification-glossary#exam-types" },
+  { label: "NCS란", href: "/resources/certification-glossary#ncs-criteria" },
+  {
+    label: "국가공인 민간자격",
+    href: "/resources/certification-glossary#private-certification",
+  },
+  { label: "자격증 재발급", href: "/resources/certificate-issuance#reissue" },
+  { label: "응시자격", href: "/resources/eligibility-documents#check" },
+  { label: "원서접수", href: "/resources/application-schedule#application" },
 ];
 
 function ArrowIcon() {
@@ -261,13 +280,13 @@ export default function ResourcesPage() {
                 <p className="mt-3 text-sm font-semibold leading-6 text-slate-600">
                   {item.description}
                 </p>
-                <Link
+                <a
                   href={item.href}
                   className="mt-6 inline-flex min-h-11 items-center justify-center gap-2 rounded-xl border border-slate-200 px-4 text-sm font-black text-blue-700 transition hover:border-blue-300 hover:bg-blue-50"
                 >
                   {item.label}
                   <ArrowIcon />
-                </Link>
+                </a>
               </article>
             ))}
           </div>
@@ -303,9 +322,19 @@ export default function ResourcesPage() {
                     {group.number}
                   </span>
                   <div>
-                    <h3 className="text-2xl font-black tracking-tight text-slate-950">
-                      {group.title}
-                    </h3>
+                    {"href" in group && group.href ? (
+                      <Link
+                        href={group.href}
+                        className="inline-flex items-center gap-2 text-2xl font-black tracking-tight text-slate-950 transition hover:text-blue-700"
+                      >
+                        {group.title}
+                        <ArrowIcon />
+                      </Link>
+                    ) : (
+                      <h3 className="text-2xl font-black tracking-tight text-slate-950">
+                        {group.title}
+                      </h3>
+                    )}
                     <p className="mt-2 text-sm font-semibold leading-6 text-slate-600">
                       {group.description}
                     </p>
@@ -314,22 +343,24 @@ export default function ResourcesPage() {
 
                 <div className="mt-6 grid gap-3">
                   {group.items.map((item, index) => (
-                    <div
-                      key={item}
-                      className="flex items-center justify-between gap-4 rounded-2xl border border-slate-200 bg-slate-50 px-4 py-4"
+                    <a
+                      key={item.title}
+                      href={item.href}
+                      aria-label={`${item.title} 바로 보기`}
+                      className="group/item flex items-center justify-between gap-4 rounded-2xl border border-slate-200 bg-slate-50 px-4 py-4 transition hover:border-blue-300 hover:bg-blue-50 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2"
                     >
                       <div className="flex items-center gap-3">
-                        <span className="text-xs font-black text-slate-400">
+                        <span className="text-xs font-black text-slate-400 transition group-hover/item:text-blue-500">
                           {String(index + 1).padStart(2, "0")}
                         </span>
-                        <strong className="text-sm font-black text-slate-800 md:text-base">
-                          {item}
+                        <strong className="text-sm font-black text-slate-800 transition group-hover/item:text-blue-800 md:text-base">
+                          {item.title}
                         </strong>
                       </div>
-                      <span className="shrink-0 rounded-full bg-white px-2.5 py-1 text-[11px] font-black text-slate-500">
-                        제작 예정
+                      <span className="shrink-0 rounded-full bg-blue-600 px-3 py-1.5 text-[11px] font-black text-white transition group-hover/item:bg-blue-700">
+                        바로 보기
                       </span>
-                    </div>
+                    </a>
                   ))}
                 </div>
               </article>
@@ -349,17 +380,18 @@ export default function ResourcesPage() {
                 어렵게 느껴지는 시험 용어부터
               </h2>
               <p className="mt-3 max-w-2xl text-sm font-semibold leading-6 text-slate-600 md:text-base">
-                시험 공고와 자격정보에서 반복해서 등장하는 용어를 짧고
-                정확하게 설명하는 용어사전으로 확장합니다.
+                시험 공고와 자격정보에서 자주 등장하는 용어를 선택하면
+                관련 설명으로 바로 이동합니다.
               </p>
               <div className="mt-6 flex flex-wrap gap-2">
                 {POPULAR_TERMS.map((term) => (
-                  <span
-                    key={term}
-                    className="rounded-full border border-slate-200 bg-slate-50 px-4 py-2 text-sm font-black text-slate-700"
+                  <a
+                    key={term.label}
+                    href={term.href}
+                    className="rounded-full border border-slate-200 bg-slate-50 px-4 py-2 text-sm font-black text-slate-700 transition hover:border-blue-300 hover:bg-blue-50 hover:text-blue-700 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2"
                   >
-                    {term}
-                  </span>
+                    {term.label}
+                  </a>
                 ))}
               </div>
             </div>

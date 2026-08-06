@@ -46,6 +46,7 @@ export type TocItem = { id: string; label: string };
 export type CertificateViewModel = {
   cert: CertificateData;
   relatedItems: import("@/lib/related-certificates").ResolvedRelatedItem[];
+  relatedRoadmaps: import("@/lib/roadmap-engine").RelatedRoadmapSummary[];
   tocItems: TocItem[];
   heroMetrics: { difficulty: string; studyPeriod: string; usefulness: string };
   visibility: Record<CertificateSectionId, boolean>;
@@ -54,4 +55,4 @@ export type CertificateViewModel = {
 export type CertificateSectionId =
   | "intro" | "official-info" | "statistics" | "eligibility" | "summary"
   | "reality-guide" | "cost" | "study-strategy" | "career" | "affiliate"
-  | "trust-info" | "related" | "final-cta";
+  | "trust-info" | "related-roadmaps" | "related" | "final-cta";

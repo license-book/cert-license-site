@@ -1,0 +1,177 @@
+{
+  "basic": {
+    "slug": "cooking-service",
+    "title": "조리·서비스 로드맵",
+    "categoryLabel": "조리·서비스",
+    "description": "희망 업종을 정하고 조리기능사 취득, 현장 경험, 제과·제빵 등 인접 분야로 확장하는 로드맵입니다.",
+    "estimatedPeriod": "3개월~2년",
+    "target": "조리·외식·제과제빵 준비생"
+  },
+  "hero": {
+    "eyebrow": "COOKING & SERVICE ROADMAP",
+    "title": "조리·서비스 로드맵",
+    "subtitle": "한식·양식·중식·일식과 제과·제빵 중 취업하려는 업종을 기준으로 준비 순서를 정하세요."
+  },
+  "summary": {
+    "title": "조리 분야 선택 핵심",
+    "items": [
+      "가장 먼저 취업하거나 창업하려는 업종을 정합니다.",
+      "기능사 종목은 필요한 조리법과 실기 품목이 서로 다릅니다.",
+      "자격증과 함께 위생, 속도, 칼질과 작업 동선을 반복 연습합니다.",
+      "현장 경험 후 메뉴와 업종에 맞춰 인접 종목으로 확장합니다."
+    ]
+  },
+  "stages": [
+    {
+      "id": "choose-field",
+      "number": "01",
+      "title": "희망 업종 선택",
+      "description": "한식, 양식, 중식, 일식, 제과·제빵 중 목표 업종을 먼저 선택합니다.",
+      "goal": "유명한 종목보다 실제 취업처와 연결되는 첫 자격을 정합니다.",
+      "certificates": [
+        {
+          "name": "한식조리기능사",
+          "href": "/cert/korean-cuisine-craftsman",
+          "description": "단체급식, 일반 음식점 등 활용 범위가 넓어 조리 분야 첫 자격으로 많이 검토됩니다.",
+          "level": "기능사"
+        },
+        {
+          "name": "양식조리기능사",
+          "href": "/cert/western-cuisine-craftsman",
+          "description": "호텔, 레스토랑, 외식업체 등 서양 조리 분야를 목표로 할 때 준비합니다.",
+          "level": "기능사"
+        }
+      ],
+      "checklist": [
+        "취업하려는 업종과 메뉴 확인",
+        "실기 연습 공간과 재료비 계산"
+      ]
+    },
+    {
+      "id": "craftsman",
+      "number": "02",
+      "title": "기능사 취득",
+      "description": "선택한 업종의 필기와 실기 품목을 반복 연습합니다.",
+      "goal": "위생과 시간 관리까지 포함해 시험 기준에 맞는 작업 습관을 만듭니다.",
+      "certificates": [
+        {
+          "name": "중식조리기능사",
+          "href": "/cert/chinese-cuisine-craftsman",
+          "description": "중식 조리법과 빠른 화력 조절, 재료 손질 능력을 준비합니다.",
+          "level": "기능사"
+        },
+        {
+          "name": "일식조리기능사",
+          "href": "/cert/japanese-cuisine-craftsman",
+          "description": "생선 손질과 일식 조리의 기본 기술을 평가합니다.",
+          "level": "기능사"
+        }
+      ],
+      "checklist": [
+        "실기 공개문제와 지참준비물 확인",
+        "위생복·칼·도구 상태 점검"
+      ]
+    },
+    {
+      "id": "experience",
+      "number": "03",
+      "title": "현장 경험",
+      "description": "취득 후 실제 주방에서 속도, 협업, 위생과 재고 관리 능력을 쌓습니다.",
+      "goal": "시험용 조리 기술을 현장 업무 능력으로 연결합니다.",
+      "certificates": [
+        {
+          "name": "한식조리기능사",
+          "href": "/cert/korean-cuisine-craftsman",
+          "description": "단체급식과 한식 주방 현장에서 기본 조리와 위생 업무를 경험합니다.",
+          "level": "현장 활용"
+        },
+        {
+          "name": "양식조리기능사",
+          "href": "/cert/western-cuisine-craftsman",
+          "description": "레스토랑과 호텔 주방에서 조리 공정과 팀 작업을 익힙니다.",
+          "level": "현장 활용"
+        }
+      ],
+      "checklist": [
+        "조리 외 위생·발주·재고 업무 경험",
+        "현장에서 부족한 기술 기록"
+      ]
+    },
+    {
+      "id": "expand",
+      "number": "04",
+      "title": "인접 분야 확장",
+      "description": "근무 업종과 창업 계획에 따라 제과·제빵이나 음료 분야로 확장합니다.",
+      "goal": "메뉴 구성과 취업 범위를 넓힐 수 있는 종목을 선택합니다.",
+      "certificates": [
+        {
+          "name": "제과기능사",
+          "href": "/cert/confectionery-craftsman",
+          "description": "케이크, 쿠키 등 제과 제품 제조 분야로 확장할 때 준비합니다.",
+          "level": "인접 분야"
+        },
+        {
+          "name": "제빵기능사",
+          "href": "/cert/bread-making-craftsman",
+          "description": "빵류 제조와 발효 공정을 다루는 제빵 분야로 확장할 때 준비합니다.",
+          "level": "인접 분야"
+        }
+      ],
+      "checklist": [
+        "현재 업종과 시너지가 있는지 확인",
+        "추가 실기 재료비와 연습시간 계산"
+      ]
+    }
+  ],
+  "tips": {
+    "title": "조리 자격증 준비 팁",
+    "items": [
+      "조리기능사는 여러 종목을 무조건 취득하기보다 목표 업종과 가까운 종목부터 선택하는 것이 효율적입니다.",
+      "실기에서는 맛뿐 아니라 위생, 규격, 시간, 작업 순서와 제출 상태가 중요합니다.",
+      "시험 일정과 공개문제, 지참준비물은 시행기관의 최신 안내를 최종 기준으로 확인하세요."
+    ]
+  },
+  "faq": {
+    "items": [
+      {
+        "question": "조리기능사는 어떤 종목부터 따는 것이 좋은가요?",
+        "answer": "취업하려는 업종이 정해져 있다면 해당 종목부터 준비하는 것이 좋습니다. 아직 정하지 못했다면 활용 범위와 연습 환경을 비교해 선택하세요."
+      },
+      {
+        "question": "필기 합격 후 바로 실기에 응시해야 하나요?",
+        "answer": "필기 합격 유효기간과 실기 접수 일정을 확인해 준비 가능한 회차를 선택해야 합니다. 유효기간은 종목과 제도에 따라 공식 안내를 확인하세요."
+      }
+    ]
+  },
+  "related": {
+    "items": [
+      {
+        "label": "시험 당일 준비물",
+        "href": "/guide/exam-day-checklist"
+      },
+      {
+        "label": "실기시험에서 주의할 점",
+        "href": "/guide/practical-exam-tips"
+      }
+    ]
+  },
+  "finalCta": {
+    "title": "희망 업종에 맞는 조리 자격을 비교하세요",
+    "primaryButton": {
+      "label": "국가자격증 보기",
+      "href": "/national-certificates"
+    },
+    "secondaryButton": {
+      "label": "자격증 비교하기",
+      "href": "/compare"
+    }
+  },
+  "seo": {
+    "title": "조리·서비스 자격증 로드맵 | 라북",
+    "description": "한식·양식·중식·일식조리기능사와 제과·제빵기능사로 이어지는 조리·서비스 자격증 로드맵입니다."
+  },
+  "update": {
+    "lastUpdated": "2026-08-07",
+    "lastVerified": "2026-08-07"
+  }
+}
