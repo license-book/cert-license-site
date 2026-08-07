@@ -54,7 +54,7 @@ export default function SearchClient({
               value={query}
               onChange={(event) => setQuery(event.target.value)}
               placeholder="예: 컴활1급, 컴활 1급, 전기기사, 상담"
-              className="h-14 w-full rounded-2xl border border-slate-300 px-4 text-base font-bold outline-none focus:border-blue-500 focus:ring-4 focus:ring-blue-100"
+              className="h-14 w-full rounded-2xl border border-slate-300 bg-white px-4 text-base font-bold text-slate-950 caret-blue-600 outline-none placeholder:text-slate-400 focus:border-blue-500 focus:text-slate-950 focus:ring-4 focus:ring-blue-100"
             />
           </label>
 
@@ -65,7 +65,7 @@ export default function SearchClient({
             <select
               value={type}
               onChange={(event) => setType(event.target.value as typeof type)}
-              className="h-14 w-full rounded-2xl border border-slate-300 bg-white px-4 font-bold outline-none focus:border-blue-500 focus:ring-4 focus:ring-blue-100"
+              className="h-14 w-full rounded-2xl border border-slate-300 bg-white px-4 font-bold text-slate-950 outline-none focus:border-blue-500 focus:text-slate-950 focus:ring-4 focus:ring-blue-100"
             >
               <option value="all">국가·민간 전체</option>
               <option value="national">국가자격증</option>
