@@ -1,15 +1,48 @@
 "use client";
 
+import Link from "next/link";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 
 import CertificateCard from "./CertificateCard";
 
 const certificates = [
-  { rank: 1, title: "컴퓨터활용능력 1급", category: "사무 · IT", period: "2~3개월", level: "중상" },
-  { rank: 2, title: "전기기사", category: "전기", period: "4~6개월", level: "상" },
-  { rank: 3, title: "산업안전기사", category: "안전", period: "3~4개월", level: "중상" },
-  { rank: 4, title: "정보처리기사", category: "IT", period: "2~4개월", level: "중" },
+  {
+    rank: 1,
+    title: "컴퓨터활용능력 1급",
+    category: "사무 · IT",
+    period: "2~3개월",
+    level: "중상",
+    issuer: "대한상공회의소",
+    qualificationType: "국가기술자격" as const,
+  },
+  {
+    rank: 2,
+    title: "전기기사",
+    category: "전기",
+    period: "4~6개월",
+    level: "상",
+    issuer: "한국산업인력공단",
+    qualificationType: "국가기술자격" as const,
+  },
+  {
+    rank: 3,
+    title: "산업안전기사",
+    category: "안전",
+    period: "3~4개월",
+    level: "중상",
+    issuer: "한국산업인력공단",
+    qualificationType: "국가기술자격" as const,
+  },
+  {
+    rank: 4,
+    title: "정보처리기사",
+    category: "IT",
+    period: "2~4개월",
+    level: "중",
+    issuer: "한국산업인력공단",
+    qualificationType: "국가기술자격" as const,
+  },
 ];
 
 export default function TopCertificates() {
@@ -26,17 +59,22 @@ export default function TopCertificates() {
           </p>
         </div>
 
-        <button className="hidden rounded-full border border-gray-200 bg-white px-5 py-3 text-sm font-black text-gray-600 shadow-sm md:block">
+        <Link
+          href="/rank"
+          className="hidden md:inline-flex items-center gap-1.5 text-sm font-black text-blue-600 transition-colors hover:text-blue-700"
+        >
           전체보기
-        </button>
+          <span aria-hidden="true">→</span>
+        </Link>
       </div>
 
       <Swiper
-        spaceBetween={22}
-        slidesPerView={1.12}
+        spaceBetween={16}
+        slidesPerView={1.15}
         breakpoints={{
-          768: { slidesPerView: 2.3 },
-          1024: { slidesPerView: 3.2 },
+          768: { slidesPerView: 2.5 },
+          1024: { slidesPerView: 4 },
+          1440: { slidesPerView: 5 },
         }}
       >
         {certificates.map((item) => (

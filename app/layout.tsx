@@ -1,4 +1,5 @@
 import Header from "@/components/Header";
+import Footer from "@/components/Footer";
 import FloatingQuickActions from "@/components/common/FloatingQuickActions";
 import type { Metadata } from "next";
 import localFont from "next/font/local";
@@ -49,8 +50,14 @@ export default function RootLayout({
             src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${adsenseClient}`}
           />
         ) : null}
+
         <Header />
-        {children}
+
+        <div className="flex flex-1 flex-col">
+          {children}
+        </div>
+
+        <Footer />
         <FloatingQuickActions />
       </body>
     </html>

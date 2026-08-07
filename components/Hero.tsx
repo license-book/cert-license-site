@@ -2,6 +2,7 @@
 
 import { useMemo, useRef, useState } from "react";
 import { useRouter } from "next/navigation";
+import Image from "next/image";
 import { Autoplay, EffectFade, Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -140,13 +141,18 @@ export default function Hero() {
         }}
         className="hero-swiper h-full"
       >
-        {heroSlides.map((slide) => (
+        {heroSlides.map((slide, index) => (
           <SwiperSlide key={slide.image}>
-            <div
-              className="h-full bg-cover bg-center"
-              style={{ backgroundImage: `url(${slide.image})` }}
-            >
-              <div className="h-full bg-gradient-to-r from-black/30 via-black/10 to-transparent" />
+            <div className="relative h-full overflow-hidden">
+              <Image
+                src={slide.image}
+                alt=""
+                fill
+                priority={index === 0}
+                sizes="100vw"
+                className="object-cover object-[80%_18%] xl:object-[82%_16%]"
+              />
+              <div className="absolute inset-0 bg-gradient-to-r from-black/30 via-black/10 to-transparent" />
             </div>
           </SwiperSlide>
         ))}
