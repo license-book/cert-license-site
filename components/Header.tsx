@@ -1,8 +1,14 @@
 "use client";
 
 import Link from "next/link";
-import { FormEvent, useEffect, useRef, useState } from "react";
+import { FormEvent, useEffect, useMemo, useRef, useState } from "react";
 import { useRouter } from "next/navigation";
+import certificates from "@/data/catalog/certificates.json";
+import {
+  findExactCertificate,
+  rankCertificateMatches,
+  type SearchableCertificate,
+} from "@/lib/certificate-search";
 
 type MegaItem = {
   label: string;
@@ -24,6 +30,31 @@ type MenuItem = {
     };
   };
 };
+
+type CatalogItem = {
+  name: string;
+  shortName?: string;
+  aliases?: string[];
+  type?: string;
+  licenseType?: string;
+  category?: string;
+  agency?: string;
+};
+
+const popularCertificates = [
+  "컴퓨터활용능력 1급",
+  "전기기사",
+  "산업안전기사",
+  "정보처리기사",
+  "공인중개사",
+];
+
+const searchQuickLinks = [
+  { label: "자격증 랭킹", href: "/rank" },
+  { label: "자격증 비교", href: "/compare" },
+  { label: "수험가이드", href: "/guide" },
+  { label: "전체 검색", href: "/search" },
+];
 
 const menuItems: MenuItem[] = [
   { label: "홈", href: "/" },
@@ -158,13 +189,55 @@ export default function Header() {
   const [activeMega, setActiveMega] = useState<string | null>(null);
   const [mobileSection, setMobileSection] = useState<string | null>(null);
   const [query, setQuery] = useState("");
+  const [searchFocused, setSearchFocused] = useState(false);
   const closeTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
+  const searchBlurTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
 
   useEffect(() => {
     return () => {
       if (closeTimer.current) clearTimeout(closeTimer.current);
+      if (searchBlurTimer.current) clearTimeout(searchBlurTimer.current);
     };
   }, []);
+
+  const searchItems = useMemo<SearchableCertificate[]>(
+    () =>
+      Object.entries(certificates as Record<string, CatalogItem>).map(
+        ([slug, item]) => ({
+          slug,
+          name: item.name,
+          shortName: item.shortName,
+          aliases: item.aliases,
+          category: item.category,
+          licenseType: item.licenseType,
+          agency: item.agency,
+        }),
+      ),
+    [],
+  );
+
+  const searchSuggestions = useMemo(
+    () => rankCertificateMatches(searchItems, query, 6),
+    [searchItems, query],
+  );
+
+  function goToCertificate(item: SearchableCertificate) {
+    setQuery(item.shortName || item.name);
+    setSearchFocused(false);
+    router.push(`/cert/${item.slug}`);
+  }
+
+  function handlePopularCertificate(name: string) {
+    const exact = findExactCertificate(searchItems, name);
+
+    if (exact) {
+      goToCertificate(exact);
+      return;
+    }
+
+    setSearchFocused(false);
+    router.push(`/search?q=${encodeURIComponent(name)}`);
+  }
 
   function openMega(label: string) {
     if (closeTimer.current) clearTimeout(closeTimer.current);
@@ -180,10 +253,21 @@ export default function Header() {
     const value = query.trim();
 
     if (!value) {
+      setSearchFocused(false);
       router.push("/search");
       return;
     }
 
+    const exact = findExactCertificate(searchItems, value);
+
+    if (exact) {
+      goToCertificate(exact);
+      setActiveMega(null);
+      setMobileOpen(false);
+      return;
+    }
+
+    setSearchFocused(false);
     router.push(`/search?q=${encodeURIComponent(value)}`);
     setActiveMega(null);
     setMobileOpen(false);
@@ -232,19 +316,129 @@ export default function Header() {
           ))}
         </nav>
 
-        <form onSubmit={submitSearch} className="ml-auto hidden w-[220px] shrink-0 xl:block">
+        <form
+          onSubmit={submitSearch}
+          className="relative ml-auto hidden w-[220px] shrink-0 xl:block"
+        >
           <label className="relative block">
             <span className="pointer-events-none absolute inset-y-0 left-3 flex items-center text-slate-400">
               <SearchIcon />
             </span>
             <input
               value={query}
-              onChange={(event) => setQuery(event.target.value)}
+              onChange={(event) => {
+                setQuery(event.target.value);
+                setSearchFocused(true);
+              }}
+              onFocus={() => {
+                if (searchBlurTimer.current) clearTimeout(searchBlurTimer.current);
+                setSearchFocused(true);
+              }}
+              onBlur={() => {
+                searchBlurTimer.current = setTimeout(() => setSearchFocused(false), 150);
+              }}
               placeholder="자격증 검색"
               aria-label="자격증 검색"
+              aria-expanded={searchFocused}
               className="h-11 w-full rounded-xl border border-slate-200 bg-slate-50 pl-10 pr-4 text-sm font-bold text-slate-900 outline-none transition placeholder:text-slate-400 focus:border-blue-400 focus:bg-white focus:ring-4 focus:ring-blue-100"
             />
           </label>
+
+          {searchFocused ? (
+            <div className="absolute right-0 top-[52px] z-[90] w-[360px] overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-2xl">
+              {query.trim() ? (
+                <div>
+                  <div className="border-b border-slate-100 px-4 py-3">
+                    <span className="text-xs font-black text-blue-600">검색 추천</span>
+                  </div>
+
+                  {searchSuggestions.length > 0 ? (
+                    <div className="py-1.5">
+                      {searchSuggestions.map((item) => (
+                        <button
+                          key={item.slug}
+                          type="button"
+                          onMouseDown={(event) => event.preventDefault()}
+                          onClick={() => goToCertificate(item)}
+                          className="flex w-full items-center justify-between gap-3 px-4 py-3 text-left transition hover:bg-blue-50"
+                        >
+                          <div className="min-w-0">
+                            <strong className="block truncate text-sm font-black text-slate-900">
+                              {item.name}
+                            </strong>
+                            <span className="mt-1 block truncate text-xs font-semibold text-slate-500">
+                              {[item.shortName, item.category, item.agency]
+                                .filter(Boolean)
+                                .join(" · ")}
+                            </span>
+                          </div>
+                          <span className="shrink-0 text-xs font-black text-blue-600">보기 →</span>
+                        </button>
+                      ))}
+                    </div>
+                  ) : (
+                    <button
+                      type="submit"
+                      onMouseDown={(event) => event.preventDefault()}
+                      className="w-full px-4 py-4 text-left transition hover:bg-blue-50"
+                    >
+                      <strong className="block text-sm font-black text-slate-800">
+                        “{query.trim()}” 검색 결과 보기
+                      </strong>
+                      <span className="mt-1 block text-xs font-semibold text-blue-600">전체검색 →</span>
+                    </button>
+                  )}
+                </div>
+              ) : (
+                <>
+                  <div className="border-b border-slate-100 px-4 py-4">
+                    <div className="flex items-center justify-between">
+                      <span className="text-xs font-black text-blue-600">🔥 인기 자격증</span>
+                      <Link
+                        href="/rank"
+                        onMouseDown={(event) => event.preventDefault()}
+                        onClick={() => setSearchFocused(false)}
+                        className="text-xs font-black text-blue-600 hover:text-blue-700"
+                      >
+                        랭킹 보기 →
+                      </Link>
+                    </div>
+
+                    <div className="mt-3 flex flex-wrap gap-2">
+                      {popularCertificates.map((name) => (
+                        <button
+                          key={name}
+                          type="button"
+                          onMouseDown={(event) => event.preventDefault()}
+                          onClick={() => handlePopularCertificate(name)}
+                          className="rounded-full border border-slate-200 bg-slate-50 px-3 py-2 text-xs font-bold text-slate-700 transition hover:border-blue-200 hover:bg-blue-50 hover:text-blue-700"
+                        >
+                          {name}
+                        </button>
+                      ))}
+                    </div>
+                  </div>
+
+                  <div className="px-4 py-4">
+                    <span className="text-xs font-black text-slate-500">빠른 이동</span>
+                    <div className="mt-3 grid grid-cols-2 gap-2">
+                      {searchQuickLinks.map((item) => (
+                        <Link
+                          key={item.href}
+                          href={item.href}
+                          onMouseDown={(event) => event.preventDefault()}
+                          onClick={() => setSearchFocused(false)}
+                          className="rounded-xl border border-slate-200 px-3 py-3 text-sm font-black text-slate-700 transition hover:border-blue-200 hover:bg-blue-50 hover:text-blue-700"
+                        >
+                          {item.label}
+                        </Link>
+                      ))}
+                    </div>
+                  </div>
+                </>
+              )}
+            </div>
+          ) : null}
         </form>
 
         <Link

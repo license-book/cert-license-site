@@ -150,7 +150,7 @@ export default function Hero() {
                 fill
                 priority={index === 0}
                 sizes="100vw"
-                className="object-cover object-[80%_18%] xl:object-[82%_16%]"
+                className="object-cover object-[80%_10%] xl:object-[82%_8%]"
               />
               <div className="absolute inset-0 bg-gradient-to-r from-black/30 via-black/10 to-transparent" />
             </div>
