@@ -18,9 +18,18 @@ import "swiper/css/effect-fade";
 import "swiper/css/pagination";
 
 const heroSlides = [
-  { image: "/images/hero-01.webp" },
-  { image: "/images/hero-02.webp" },
-  { image: "/images/hero-03.webp" },
+  {
+    image: "/images/hero-01.webp",
+    imageClass: "object-cover object-center xl:object-[82%_12%]",
+  },
+  {
+    image: "/images/hero-02.webp",
+    imageClass: "object-cover object-center xl:object-[72%_18%]",
+  },
+  {
+    image: "/images/hero-03.webp",
+    imageClass: "object-cover object-center xl:object-[86%_14%]",
+  },
 ];
 
 const popularKeywords = [
@@ -149,8 +158,9 @@ export default function Hero() {
                 alt=""
                 fill
                 priority={index === 0}
+                unoptimized
                 sizes="100vw"
-                className="object-cover object-[80%_10%] xl:object-[82%_8%]"
+                className={slide.imageClass}
               />
               <div className="absolute inset-0 bg-gradient-to-r from-black/30 via-black/10 to-transparent" />
             </div>
