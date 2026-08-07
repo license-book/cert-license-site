@@ -204,7 +204,7 @@ export default function Header() {
           <span className="flex h-12 w-12 items-center justify-center rounded-2xl bg-blue-600 text-xl font-black text-white shadow-sm md:h-14 md:w-14">
             L
           </span>
-          <span className="hidden leading-none sm:block">
+          <span className="leading-none">
             <strong className="block text-2xl font-black tracking-tight text-slate-950">라북</strong>
             <span className="mt-1 block text-[11px] font-extrabold tracking-[0.26em] text-blue-600">
               LABOOK
