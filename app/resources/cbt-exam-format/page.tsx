@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import AdSlot from "@/components/common/AdSlot";
 
 export const metadata: Metadata = {
   title: "CBT·시험방식 | 자격증 자료실 | 라북",
@@ -288,6 +289,7 @@ export default function CbtExamFormatPage() {
                 ))}
               </div>
             </article>
+            <AdSlot label="자료실 상단" slot={process.env.NEXT_PUBLIC_ADSENSE_SLOT_TOP} />
 
             <article
               id="types"
@@ -350,6 +352,7 @@ export default function CbtExamFormatPage() {
                 </ul>
               </div>
             </article>
+            <AdSlot label="자료실 본문 중단" slot={process.env.NEXT_PUBLIC_ADSENSE_SLOT_MIDDLE_1} />
 
             <article
               id="time-submit"
@@ -382,6 +385,8 @@ export default function CbtExamFormatPage() {
                 ))}
               </div>
             </article>
+
+            <AdSlot label="자료실 하단" slot={process.env.NEXT_PUBLIC_ADSENSE_SLOT_BOTTOM} />
 
             <section className="rounded-3xl border border-slate-200 bg-white p-6 shadow-sm md:p-8">
               <span className="text-sm font-black text-blue-600">자주 묻는 질문</span>

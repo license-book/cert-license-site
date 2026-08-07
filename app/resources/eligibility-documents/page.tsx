@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import AdSlot from "@/components/common/AdSlot";
 
 export const metadata: Metadata = {
   title: "응시자격·증빙 | 자격증 자료실 | 라북",
@@ -291,6 +292,7 @@ export default function EligibilityDocumentsPage() {
                 ))}
               </div>
             </article>
+            <AdSlot label="자료실 상단" slot={process.env.NEXT_PUBLIC_ADSENSE_SLOT_TOP} />
 
             <article
               id="conditions"
@@ -374,6 +376,7 @@ export default function EligibilityDocumentsPage() {
                 </p>
               </div>
             </article>
+            <AdSlot label="자료실 본문 중단" slot={process.env.NEXT_PUBLIC_ADSENSE_SLOT_MIDDLE_1} />
 
             <article
               id="review"
@@ -409,6 +412,8 @@ export default function EligibilityDocumentsPage() {
                 ))}
               </div>
             </article>
+
+            <AdSlot label="자료실 하단" slot={process.env.NEXT_PUBLIC_ADSENSE_SLOT_BOTTOM} />
 
             <section className="rounded-3xl border border-slate-200 bg-white p-6 shadow-sm md:p-8">
               <span className="text-sm font-black text-blue-600">FAQ</span>

@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import AdSlot from "@/components/common/AdSlot";
 
 export const metadata: Metadata = {
   title: "시행기관 안내 | 자격증 자료실 | 라북",
@@ -242,6 +243,7 @@ export default function ExamAgenciesPage() {
                 접수 전에 회원정보, 사진, 응시자격 서류와 결제수단을 미리 확인하면 접수 중 오류를 줄일 수 있습니다.
               </div>
             </article>
+            <AdSlot label="자료실 상단" slot={process.env.NEXT_PUBLIC_ADSENSE_SLOT_TOP} />
 
             <article id="korcham" className="scroll-mt-24 rounded-3xl border border-slate-200 bg-white p-6 shadow-sm md:p-8">
               <span className="text-sm font-black text-blue-600">02. 대한상공회의소 자격평가</span>
@@ -283,6 +285,7 @@ export default function ExamAgenciesPage() {
                 </ol>
               </div>
             </article>
+            <AdSlot label="자료실 본문 중단" slot={process.env.NEXT_PUBLIC_ADSENSE_SLOT_MIDDLE_1} />
 
             <article id="official-source" className="scroll-mt-24 rounded-3xl border border-slate-200 bg-white p-6 shadow-sm md:p-8">
               <span className="text-sm font-black text-blue-600">04. 공식 출처 구별 방법</span>
@@ -301,6 +304,8 @@ export default function ExamAgenciesPage() {
                 ))}
               </div>
             </article>
+
+            <AdSlot label="자료실 하단" slot={process.env.NEXT_PUBLIC_ADSENSE_SLOT_BOTTOM} />
 
             <section className="rounded-3xl border border-slate-200 bg-white p-6 shadow-sm md:p-8">
               <span className="text-sm font-black text-blue-600">FAQ</span>

@@ -1,4 +1,5 @@
 import Header from "@/components/Header";
+import FloatingQuickActions from "@/components/common/FloatingQuickActions";
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import Script from "next/script";
@@ -50,6 +51,7 @@ export default function RootLayout({
         ) : null}
         <Header />
         {children}
+        <FloatingQuickActions />
       </body>
     </html>
   );

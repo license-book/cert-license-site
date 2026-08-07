@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import AdSlot from "@/components/common/AdSlot";
 
 export const metadata: Metadata = {
   title: "자격증 용어사전 | 자격증 자료실 | 라북",
@@ -220,6 +221,7 @@ export default function CertificationGlossaryPage() {
                 ))}
               </div>
             </article>
+            <AdSlot label="자료실 상단" slot={process.env.NEXT_PUBLIC_ADSENSE_SLOT_TOP} />
 
             <article id="ncs-criteria" className="scroll-mt-24 rounded-3xl border border-slate-200 bg-white p-6 shadow-sm md:p-8">
               <span className="text-sm font-black text-blue-600">02. NCS와 출제기준</span>
@@ -249,6 +251,7 @@ export default function CertificationGlossaryPage() {
               </div>
               <div className="mt-6 rounded-2xl border border-amber-200 bg-amber-50 p-5 text-sm font-semibold leading-7 text-amber-950">복합형 시험은 필답형과 작업형의 배점, 시험시간과 과락 기준이 다를 수 있으므로 반드시 종목별 시험정보를 확인하세요.</div>
             </article>
+            <AdSlot label="자료실 본문 중단" slot={process.env.NEXT_PUBLIC_ADSENSE_SLOT_MIDDLE_1} />
 
             <article id="private-certification" className="scroll-mt-24 rounded-3xl border border-slate-200 bg-white p-6 shadow-sm md:p-8">
               <span className="text-sm font-black text-blue-600">04. 국가공인·등록 민간자격</span>
@@ -263,6 +266,8 @@ export default function CertificationGlossaryPage() {
                 ))}
               </div>
             </article>
+
+            <AdSlot label="자료실 하단" slot={process.env.NEXT_PUBLIC_ADSENSE_SLOT_BOTTOM} />
 
             <section className="rounded-3xl border border-slate-200 bg-white p-6 shadow-sm md:p-8">
               <span className="text-sm font-black text-blue-600">FAQ</span>

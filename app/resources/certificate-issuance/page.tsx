@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import AdSlot from "@/components/common/AdSlot";
 
 export const metadata: Metadata = {
   title: "발급·확인서 | 자격증 자료실 | 라북",
@@ -283,6 +284,7 @@ export default function CertificateIssuancePage() {
                 재발급 비용이 발생할 수 있으므로 결제 전에 다시 확인하세요.
               </div>
             </article>
+            <AdSlot label="자료실 상단" slot={process.env.NEXT_PUBLIC_ADSENSE_SLOT_TOP} />
 
             <article
               id="pass-certificate"
@@ -341,6 +343,7 @@ export default function CertificateIssuancePage() {
                 ))}
               </div>
             </article>
+            <AdSlot label="자료실 본문 중단" slot={process.env.NEXT_PUBLIC_ADSENSE_SLOT_MIDDLE_1} />
 
             <article
               id="qualification-check"
@@ -372,6 +375,8 @@ export default function CertificateIssuancePage() {
                 ))}
               </div>
             </article>
+
+            <AdSlot label="자료실 하단" slot={process.env.NEXT_PUBLIC_ADSENSE_SLOT_BOTTOM} />
 
             <article className="rounded-3xl border border-slate-200 bg-white p-6 shadow-sm md:p-8">
               <span className="text-sm font-black text-blue-600">

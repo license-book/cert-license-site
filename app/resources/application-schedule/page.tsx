@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import AdSlot from "@/components/common/AdSlot";
 
 export const metadata: Metadata = {
   title: "원서접수·시험일정 | 자격증 자료실 | 라북",
@@ -260,6 +261,7 @@ export default function ApplicationSchedulePage() {
                 </p>
               </div>
             </article>
+            <AdSlot label="자료실 상단" slot={process.env.NEXT_PUBLIC_ADSENSE_SLOT_TOP} />
 
             <article
               id="schedule"
@@ -343,6 +345,7 @@ export default function ApplicationSchedulePage() {
                 </div>
               </div>
             </article>
+            <AdSlot label="자료실 본문 중단" slot={process.env.NEXT_PUBLIC_ADSENSE_SLOT_MIDDLE_1} />
 
             <article
               id="refund"
@@ -412,6 +415,8 @@ export default function ApplicationSchedulePage() {
                 ))}
               </div>
             </article>
+
+            <AdSlot label="자료실 하단" slot={process.env.NEXT_PUBLIC_ADSENSE_SLOT_BOTTOM} />
 
             <article className="rounded-3xl border border-slate-200 bg-white p-6 shadow-sm md:p-8">
               <span className="text-sm font-black text-blue-600">FAQ</span>

@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import AdSlot from "@/components/common/AdSlot";
 
 export const metadata: Metadata = {
   title: "제도변경·공지 | 자격증 자료실 | 라북",
@@ -208,6 +209,7 @@ export default function RegulationUpdatesPage() {
                 출제기준 개정 공지가 나와도 기존 기출문제가 모두 무효가 되는 것은 아닙니다. 유지되는 범위와 바뀐 범위를 나누어 준비하세요.
               </div>
             </article>
+            <AdSlot label="자료실 상단" slot={process.env.NEXT_PUBLIC_ADSENSE_SLOT_TOP} />
 
             <article id="eligibility" className="scroll-mt-24 rounded-3xl border border-slate-200 bg-white p-6 shadow-sm md:p-8">
               <span className="text-sm font-black text-blue-600">02. 응시자격 변경</span>
@@ -267,6 +269,7 @@ export default function RegulationUpdatesPage() {
                 CBT·시험방식 자료 보기 <ArrowIcon />
               </Link>
             </article>
+            <AdSlot label="자료실 본문 중단" slot={process.env.NEXT_PUBLIC_ADSENSE_SLOT_MIDDLE_1} />
 
             <article id="major-notices" className="scroll-mt-24 rounded-3xl border border-slate-200 bg-white p-6 shadow-sm md:p-8">
               <span className="text-sm font-black text-blue-600">04. 자격제도 주요 공지</span>
@@ -293,6 +296,8 @@ export default function RegulationUpdatesPage() {
                 </div>
               </div>
             </article>
+
+            <AdSlot label="자료실 하단" slot={process.env.NEXT_PUBLIC_ADSENSE_SLOT_BOTTOM} />
 
             <section className="rounded-3xl border border-slate-200 bg-white p-6 shadow-sm md:p-8">
               <span className="text-sm font-black text-blue-600">자주 묻는 질문</span>

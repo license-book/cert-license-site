@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { FormEvent, useEffect, useRef, useState } from "react";
-import { usePathname, useRouter } from "next/navigation";
+import { useRouter } from "next/navigation";
 
 type MegaItem = {
   label: string;
@@ -23,17 +23,6 @@ type MenuItem = {
       description: string;
     };
   };
-};
-
-type CertificateMenuType = "national" | "private" | null;
-
-type HeaderSearchItem = {
-  slug: string;
-  name: string;
-  shortName: string;
-  type: "national" | "private";
-  category: string;
-  agency: string;
 };
 
 const menuItems: MenuItem[] = [
@@ -125,22 +114,22 @@ const menuItems: MenuItem[] = [
   },
   {
     label: "자료실",
-    href: "/resources",
+    href: "/guide#faq",
     mega: {
       title: "수험 자료실",
-      description: "원서접수, 응시자격, CBT와 발급 자료를 주제별로 확인하세요.",
+      description: "현재는 수험가이드 안의 실용 정보로 연결됩니다.",
       items: [
-        { label: "원서접수 안내", href: "/resources#resource-categories" },
-        { label: "응시자격 확인", href: "/resources#resource-categories" },
-        { label: "CBT 안내", href: "/resources#resource-categories" },
-        { label: "시험 준비물", href: "/resources#resource-categories" },
-        { label: "자격증 발급", href: "/resources#resource-categories" },
-        { label: "시험 공통 FAQ", href: "/resources#resource-categories" },
+        { label: "원서접수 안내", href: "/guide#prepare" },
+        { label: "응시자격 확인", href: "/guide#prepare" },
+        { label: "CBT 안내", href: "/guide#start" },
+        { label: "시험 준비물", href: "/guide#exam-day" },
+        { label: "자격증 발급", href: "/guide#after-pass" },
+        { label: "시험 공통 FAQ", href: "/guide#faq" },
       ],
       featured: {
         label: "자료실 콘텐츠 구성 보기",
-        href: "/resources",
-        description: "원서접수, 응시자격, CBT, 발급과 용어 자료를 확인하세요.",
+        href: "/guide#faq",
+        description: "독립 자료실 페이지가 완성되기 전까지 가이드 허브를 이용합니다.",
       },
     },
   },
@@ -165,18 +154,10 @@ function ChevronIcon() {
 
 export default function Header() {
   const router = useRouter();
-  const pathname = usePathname();
-  const [certificateMenuType, setCertificateMenuType] =
-    useState<CertificateMenuType>(null);
   const [mobileOpen, setMobileOpen] = useState(false);
   const [activeMega, setActiveMega] = useState<string | null>(null);
   const [mobileSection, setMobileSection] = useState<string | null>(null);
   const [query, setQuery] = useState("");
-  const [searchOpen, setSearchOpen] = useState(false);
-  const [searchItems, setSearchItems] = useState<HeaderSearchItem[]>([]);
-  const [searchLoading, setSearchLoading] = useState(false);
-  const [searchLoaded, setSearchLoaded] = useState(false);
-  const searchAreaRef = useRef<HTMLDivElement | null>(null);
   const closeTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
 
   useEffect(() => {
@@ -185,142 +166,6 @@ export default function Header() {
     };
   }, []);
 
-  useEffect(() => {
-    function handlePointerDown(event: MouseEvent) {
-      if (
-        searchAreaRef.current &&
-        !searchAreaRef.current.contains(event.target as Node)
-      ) {
-        setSearchOpen(false);
-      }
-    }
-
-    function handleKeyDown(event: KeyboardEvent) {
-      if (event.key === "Escape") {
-        setSearchOpen(false);
-      }
-    }
-
-    document.addEventListener("mousedown", handlePointerDown);
-    document.addEventListener("keydown", handleKeyDown);
-
-    return () => {
-      document.removeEventListener("mousedown", handlePointerDown);
-      document.removeEventListener("keydown", handleKeyDown);
-    };
-  }, []);
-
-  useEffect(() => {
-    if (!searchOpen || searchLoaded) return;
-
-    const controller = new AbortController();
-    setSearchLoading(true);
-
-    fetch("/api/header-search", {
-      signal: controller.signal,
-      cache: "no-store",
-    })
-      .then((response) => {
-        if (!response.ok) {
-          throw new Error("검색 데이터를 불러오지 못했습니다.");
-        }
-
-        return response.json() as Promise<{ items?: HeaderSearchItem[] }>;
-      })
-      .then((data) => {
-        setSearchItems(data.items ?? []);
-        setSearchLoaded(true);
-      })
-      .catch((error: unknown) => {
-        if (error instanceof DOMException && error.name === "AbortError") {
-          return;
-        }
-
-        console.error("헤더 검색 데이터 로딩 실패", error);
-        setSearchItems([]);
-        setSearchLoaded(true);
-      })
-      .finally(() => {
-        setSearchLoading(false);
-      });
-
-    return () => controller.abort();
-  }, [searchOpen, searchLoaded]);
-
-  useEffect(() => {
-    const match = pathname.match(/^\/cert\/([^/]+)/);
-
-    if (!match) {
-      setCertificateMenuType(null);
-      return;
-    }
-
-    const slug = decodeURIComponent(match[1]);
-    const controller = new AbortController();
-
-    fetch(`/api/certificate-type?slug=${encodeURIComponent(slug)}`, {
-      signal: controller.signal,
-      cache: "no-store",
-    })
-      .then((response) => {
-        if (!response.ok) return null;
-        return response.json() as Promise<{ type?: "national" | "private" }>;
-      })
-      .then((data) => {
-        setCertificateMenuType(data?.type ?? null);
-      })
-      .catch((error: unknown) => {
-        if (error instanceof DOMException && error.name === "AbortError") {
-          return;
-        }
-        setCertificateMenuType(null);
-      });
-
-    return () => controller.abort();
-  }, [pathname]);
-
-  function isActiveMenu(item: MenuItem) {
-    const hrefPath = item.href.split(/[?#]/)[0];
-
-    if (item.label === "홈") {
-      return pathname === "/";
-    }
-
-    if (item.label === "국가자격증") {
-      return (
-        pathname.startsWith("/national-certificates") ||
-        (pathname.startsWith("/cert/") &&
-          certificateMenuType === "national")
-      );
-    }
-
-    if (item.label === "민간자격증") {
-      return (
-        pathname.startsWith("/private-certificates") ||
-        (pathname.startsWith("/cert/") &&
-          certificateMenuType === "private")
-      );
-    }
-
-    if (item.label === "랭킹") {
-      return pathname.startsWith("/rank");
-    }
-
-    if (item.label === "비교") {
-      return pathname.startsWith("/compare");
-    }
-
-    if (item.label === "수험가이드") {
-      return pathname.startsWith("/guide");
-    }
-
-    if (item.label === "자료실") {
-      return pathname === "/resources" || pathname.startsWith("/resources/");
-    }
-
-    return pathname === hrefPath || pathname.startsWith(`${hrefPath}/`);
-  }
-
   function openMega(label: string) {
     if (closeTimer.current) clearTimeout(closeTimer.current);
     setActiveMega(label);
@@ -328,35 +173,6 @@ export default function Header() {
 
   function scheduleCloseMega() {
     closeTimer.current = setTimeout(() => setActiveMega(null), 140);
-  }
-
-  const normalizedQuery = query.trim().toLowerCase();
-  const searchResults = searchItems
-    .filter((item) => {
-      if (!normalizedQuery) return true;
-
-      return [
-        item.name,
-        item.shortName,
-        item.category,
-        item.agency,
-      ]
-        .join(" ")
-        .toLowerCase()
-        .includes(normalizedQuery);
-    })
-    .slice(0, 6);
-
-  const quickCategories = [
-    { label: "IT·사무", href: "/national-certificates#category-it" },
-    { label: "전기·전자", href: "/national-certificates#category-electrical" },
-    { label: "건설·안전", href: "/national-certificates#category-construction" },
-    { label: "교육·상담", href: "/private-certificates#category-education" },
-  ];
-
-  function openSearch() {
-    setSearchOpen(true);
-    setActiveMega(null);
   }
 
   function submitSearch(event: FormEvent<HTMLFormElement>) {
@@ -369,7 +185,6 @@ export default function Header() {
     }
 
     router.push(`/search?q=${encodeURIComponent(value)}`);
-    setSearchOpen(false);
     setActiveMega(null);
     setMobileOpen(false);
   }
@@ -408,12 +223,7 @@ export default function Header() {
               <Link
                 href={item.href}
                 onFocus={() => item.mega && openMega(item.label)}
-                aria-current={isActiveMenu(item) ? "page" : undefined}
-                className={`relative inline-flex min-h-11 items-center gap-1 whitespace-nowrap border-b-[3px] pt-[3px] text-[14px] transition xl:text-[15px] ${
-                  isActiveMenu(item)
-                    ? "border-blue-600 font-black text-blue-600"
-                    : "border-transparent font-bold text-slate-800 hover:text-blue-600"
-                }`}
+                className="inline-flex min-h-11 items-center gap-1 whitespace-nowrap text-[14px] font-bold text-slate-800 transition hover:text-blue-600 xl:text-[15px]"
               >
                 {item.label}
                 {item.mega ? <ChevronIcon /> : null}
@@ -422,114 +232,20 @@ export default function Header() {
           ))}
         </nav>
 
-        <div
-          ref={searchAreaRef}
-          className="relative ml-auto hidden w-[240px] shrink-0 xl:block"
-        >
-          <form onSubmit={submitSearch}>
-            <label className="relative block">
-              <span className="pointer-events-none absolute inset-y-0 left-3 flex items-center text-slate-400">
-                <SearchIcon />
-              </span>
-              <input
-                value={query}
-                onFocus={openSearch}
-                onClick={openSearch}
-                onChange={(event) => {
-                  setQuery(event.target.value);
-                  setSearchOpen(true);
-                }}
-                placeholder="자격증 검색"
-                aria-label="자격증 검색"
-                aria-expanded={searchOpen}
-                aria-controls="header-search-dropdown"
-                className="h-11 w-full rounded-xl border border-slate-200 bg-slate-50 pl-10 pr-4 text-sm font-bold text-slate-900 outline-none transition placeholder:text-slate-400 focus:border-blue-400 focus:bg-white focus:ring-4 focus:ring-blue-100"
-              />
-            </label>
-          </form>
-
-          {searchOpen ? (
-            <div
-              id="header-search-dropdown"
-              className="absolute right-0 top-[52px] z-[70] w-[420px] overflow-hidden rounded-3xl border border-slate-200 bg-white shadow-2xl"
-            >
-              <div className="border-b border-slate-200 p-4">
-                <div className="flex items-center justify-between">
-                  <span className="text-xs font-black text-blue-600">
-                    {normalizedQuery ? "검색 결과" : "인기 자격증"}
-                  </span>
-                  <Link
-                    href={normalizedQuery ? `/search?q=${encodeURIComponent(query.trim())}` : "/search"}
-                    onClick={() => setSearchOpen(false)}
-                    className="text-xs font-black text-slate-500 hover:text-blue-600"
-                  >
-                    전체 검색 →
-                  </Link>
-                </div>
-
-                <div className="mt-3 grid gap-2">
-                  {searchLoading ? (
-                    <div className="rounded-2xl bg-slate-50 px-4 py-5 text-center text-sm font-bold text-slate-500">
-                      자격증을 불러오는 중입니다.
-                    </div>
-                  ) : searchResults.length ? (
-                    searchResults.map((item) => (
-                      <Link
-                        key={item.slug}
-                        href={`/cert/${item.slug}`}
-                        onClick={() => {
-                          setSearchOpen(false);
-                          setQuery("");
-                        }}
-                        className="flex items-center justify-between gap-4 rounded-2xl border border-transparent px-3 py-3 transition hover:border-blue-200 hover:bg-blue-50"
-                      >
-                        <div className="min-w-0">
-                          <strong className="block truncate text-sm font-black text-slate-900">
-                            {item.name}
-                          </strong>
-                          <span className="mt-1 block truncate text-xs font-semibold text-slate-500">
-                            {item.category} · {item.agency}
-                          </span>
-                        </div>
-                        <span className={`shrink-0 rounded-full px-2.5 py-1 text-[10px] font-black ${
-                          item.type === "national"
-                            ? "bg-blue-50 text-blue-700"
-                            : "bg-violet-50 text-violet-700"
-                        }`}>
-                          {item.type === "national" ? "국가" : "민간"}
-                        </span>
-                      </Link>
-                    ))
-                  ) : searchLoaded ? (
-                    <div className="rounded-2xl bg-slate-50 px-4 py-5 text-center text-sm font-bold text-slate-500">
-                      일치하는 자격증이 없습니다.
-                    </div>
-                  ) : null}
-                </div>
-              </div>
-
-              {!normalizedQuery ? (
-                <div className="p-4">
-                  <span className="text-xs font-black text-slate-500">
-                    분야별 바로가기
-                  </span>
-                  <div className="mt-3 grid grid-cols-2 gap-2">
-                    {quickCategories.map((category) => (
-                      <Link
-                        key={category.label}
-                        href={category.href}
-                        onClick={() => setSearchOpen(false)}
-                        className="rounded-xl border border-slate-200 px-3 py-3 text-center text-xs font-black text-slate-700 transition hover:border-blue-300 hover:bg-blue-50 hover:text-blue-700"
-                      >
-                        {category.label}
-                      </Link>
-                    ))}
-                  </div>
-                </div>
-              ) : null}
-            </div>
-          ) : null}
-        </div>
+        <form onSubmit={submitSearch} className="ml-auto hidden w-[220px] shrink-0 xl:block">
+          <label className="relative block">
+            <span className="pointer-events-none absolute inset-y-0 left-3 flex items-center text-slate-400">
+              <SearchIcon />
+            </span>
+            <input
+              value={query}
+              onChange={(event) => setQuery(event.target.value)}
+              placeholder="자격증 검색"
+              aria-label="자격증 검색"
+              className="h-11 w-full rounded-xl border border-slate-200 bg-slate-50 pl-10 pr-4 text-sm font-bold text-slate-900 outline-none transition placeholder:text-slate-400 focus:border-blue-400 focus:bg-white focus:ring-4 focus:ring-blue-100"
+            />
+          </label>
+        </form>
 
         <Link
           href="/search"
@@ -617,51 +333,13 @@ export default function Header() {
                 </span>
                 <input
                   value={query}
-                  onFocus={openSearch}
-                  onChange={(event) => {
-                    setQuery(event.target.value);
-                    setSearchOpen(true);
-                  }}
+                  onChange={(event) => setQuery(event.target.value)}
                   placeholder="자격증명을 입력하세요"
                   aria-label="모바일 자격증 검색"
-                  className="h-13 w-full rounded-2xl border border-slate-200 bg-slate-50 py-3 pl-12 pr-4 text-base font-bold outline-none focus:border-blue-400 focus:ring-4 focus:ring-blue-100"
+                  className="h-13 w-full rounded-2xl border border-slate-200 bg-slate-50 py-3 pl-12 pr-4 text-base font-bold text-slate-950 caret-blue-600 outline-none placeholder:text-slate-400 focus:border-blue-400 focus:bg-white focus:text-slate-950 focus:ring-4 focus:ring-blue-100"
                 />
               </label>
             </form>
-
-            {searchOpen && query.trim() ? (
-              <div className="mt-3 grid gap-2 rounded-2xl border border-slate-200 bg-white p-2">
-                {searchLoading ? (
-                  <div className="px-3 py-4 text-center text-sm font-bold text-slate-500">
-                    자격증을 불러오는 중입니다.
-                  </div>
-                ) : searchResults.length ? (
-                  searchResults.map((item) => (
-                    <Link
-                      key={`mobile-search-${item.slug}`}
-                      href={`/cert/${item.slug}`}
-                      onClick={() => {
-                        setSearchOpen(false);
-                        setMobileOpen(false);
-                        setQuery("");
-                      }}
-                      className="rounded-xl px-3 py-3 hover:bg-blue-50"
-                    >
-                      <strong className="block text-sm font-black text-slate-900">
-                        {item.name}
-                      </strong>
-                      <span className="mt-1 block text-xs font-semibold text-slate-500">
-                        {item.category} · {item.type === "national" ? "국가자격" : "민간자격"}
-                      </span>
-                    </Link>
-                  ))
-                ) : searchLoaded ? (
-                  <div className="px-3 py-4 text-center text-sm font-bold text-slate-500">
-                    일치하는 자격증이 없습니다.
-                  </div>
-                ) : null}
-              </div>
-            ) : null}
 
             <nav className="mt-5 grid gap-2" aria-label="모바일 메뉴">
               {menuItems.map((item) => (
@@ -670,12 +348,7 @@ export default function Header() {
                     <Link
                       href={item.href}
                       onClick={() => setMobileOpen(false)}
-                      aria-current={isActiveMenu(item) ? "page" : undefined}
-                      className={`flex-1 rounded-l-2xl border-l-4 px-4 py-3.5 text-base font-black transition ${
-                        isActiveMenu(item)
-                          ? "border-blue-600 bg-blue-50 text-blue-600"
-                          : "border-transparent text-slate-800 hover:bg-slate-50 hover:text-blue-600"
-                      }`}
+                      className="flex-1 px-4 py-3.5 text-base font-black text-slate-800"
                     >
                       {item.label}
                     </Link>

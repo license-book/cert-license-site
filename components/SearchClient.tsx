@@ -3,6 +3,10 @@
 import Link from "next/link";
 import { useMemo, useState } from "react";
 import type { CompareCertificate } from "@/lib/comparison";
+import {
+  matchesCertificateQuery,
+  type SearchableCertificate,
+} from "@/lib/certificate-search";
 
 type Props = {
   items: CompareCertificate[];
@@ -17,23 +21,22 @@ export default function SearchClient({
   const [type, setType] = useState<"all" | "national" | "private">("all");
 
   const results = useMemo(() => {
-    const normalized = query.trim().toLowerCase();
-
     return items
       .filter((item) => type === "all" || item.type === type)
       .filter((item) => {
-        if (!normalized) return true;
+        if (!query.trim()) return true;
 
-        return [
-          item.name,
-          item.shortName,
-          item.category,
-          item.licenseType,
-          item.agency,
-        ]
-          .join(" ")
-          .toLowerCase()
-          .includes(normalized);
+        return matchesCertificateQuery(
+          {
+            slug: item.slug,
+            name: item.name,
+            shortName: item.shortName,
+            category: item.category,
+            licenseType: item.licenseType,
+            agency: item.agency,
+          } satisfies SearchableCertificate,
+          query,
+        );
       })
       .slice(0, 100);
   }, [items, query, type]);
@@ -43,18 +46,22 @@ export default function SearchClient({
       <div className="rounded-3xl border border-slate-200 bg-white p-5 shadow-sm md:p-7">
         <div className="grid gap-4 md:grid-cols-[1fr_220px]">
           <label>
-            <span className="mb-2 block text-sm font-black text-slate-700">검색어</span>
+            <span className="mb-2 block text-sm font-black text-slate-700">
+              검색어
+            </span>
             <input
               autoFocus
               value={query}
               onChange={(event) => setQuery(event.target.value)}
-              placeholder="예: 컴퓨터활용능력, 전기, 상담"
+              placeholder="예: 컴활1급, 컴활 1급, 전기기사, 상담"
               className="h-14 w-full rounded-2xl border border-slate-300 px-4 text-base font-bold outline-none focus:border-blue-500 focus:ring-4 focus:ring-blue-100"
             />
           </label>
 
           <label>
-            <span className="mb-2 block text-sm font-black text-slate-700">자격 구분</span>
+            <span className="mb-2 block text-sm font-black text-slate-700">
+              자격 구분
+            </span>
             <select
               value={type}
               onChange={(event) => setType(event.target.value as typeof type)}
@@ -93,8 +100,12 @@ export default function SearchClient({
                 </span>
               </div>
 
-              <h3 className="mt-4 text-xl font-black text-slate-950">{item.name}</h3>
-              <p className="mt-2 text-sm font-semibold text-slate-500">{item.agency}</p>
+              <h3 className="mt-4 text-xl font-black text-slate-950">
+                {item.name}
+              </h3>
+              <p className="mt-2 text-sm font-semibold text-slate-500">
+                {item.agency}
+              </p>
 
               <div className="mt-5 flex gap-2">
                 <Link
@@ -115,9 +126,11 @@ export default function SearchClient({
         </div>
       ) : (
         <div className="mt-5 rounded-3xl border border-dashed border-slate-300 bg-white p-10 text-center">
-          <h2 className="text-xl font-black text-slate-900">검색 결과가 없습니다.</h2>
+          <h2 className="text-xl font-black text-slate-900">
+            검색 결과가 없습니다.
+          </h2>
           <p className="mt-3 text-sm font-semibold text-slate-500">
-            다른 자격증명이나 분야로 다시 검색해보세요.
+            다른 자격증명이나 별칭으로 다시 검색해보세요.
           </p>
         </div>
       )}

@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import AdSlot from "@/components/common/AdSlot";
 
 export const metadata: Metadata = {
   title: "시험장·준비물 | 자격증 자료실 | 라북",
@@ -212,6 +213,7 @@ export default function ExamDayChecklistPage() {
                 시험 전날에는 신분증과 필수 장비를 가방에 넣고, 출발 전에는 시험장 주소·입실시간·교통편을 다시 확인하세요.
               </div>
             </article>
+            <AdSlot label="자료실 상단" slot={process.env.NEXT_PUBLIC_ADSENSE_SLOT_TOP} />
 
             <article id="identification" className="scroll-mt-24 rounded-3xl border border-slate-200 bg-white p-6 shadow-sm md:p-8">
               <span className="text-sm font-black text-blue-600">02. 신분증 인정 범위</span>
@@ -236,6 +238,7 @@ export default function ExamDayChecklistPage() {
                 ))}
               </div>
             </article>
+            <AdSlot label="자료실 본문 중단" slot={process.env.NEXT_PUBLIC_ADSENSE_SLOT_MIDDLE_1} />
 
             <article id="practical" className="scroll-mt-24 rounded-3xl border border-slate-200 bg-white p-6 shadow-sm md:p-8">
               <span className="text-sm font-black text-blue-600">04. 실기시험 장비와 복장</span>
@@ -250,6 +253,8 @@ export default function ExamDayChecklistPage() {
                 ))}
               </div>
             </article>
+
+            <AdSlot label="자료실 하단" slot={process.env.NEXT_PUBLIC_ADSENSE_SLOT_BOTTOM} />
 
             <article className="rounded-3xl border border-slate-200 bg-white p-6 shadow-sm md:p-8">
               <span className="text-sm font-black text-blue-600">자주 묻는 질문</span>
