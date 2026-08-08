@@ -5,7 +5,7 @@ type Props = {
   period: string;
   level: string;
   issuer: string;
-  qualificationType: "국가기술자격" | "민간자격";
+  qualificationType: "국가기술자격" | "국가전문자격" | "민간자격";
 };
 
 export default function CertificateCard({
