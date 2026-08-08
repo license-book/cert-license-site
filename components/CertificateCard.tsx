@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 type Props = {
   rank: number;
   title: string;
@@ -5,6 +7,7 @@ type Props = {
   period: string;
   level: string;
   issuer: string;
+  href: string;
   qualificationType: "국가기술자격" | "국가전문자격" | "민간자격";
 };
 
@@ -15,10 +18,16 @@ export default function CertificateCard({
   period,
   level,
   issuer,
+  href,
   qualificationType,
 }: Props) {
   return (
-    <article className="h-full rounded-[24px] border border-slate-200 bg-white p-4 shadow-sm transition duration-200 hover:-translate-y-0.5 hover:border-blue-200 hover:shadow-md">
+    <Link
+      href={href}
+      className="block h-full"
+      aria-label={`${title} 상세정보 보기`}
+    >
+    <article className="h-full cursor-pointer rounded-[24px] border border-slate-200 bg-white p-4 shadow-sm transition duration-200 hover:-translate-y-0.5 hover:border-blue-200 hover:shadow-md">
       <div className="flex items-start justify-between gap-2.5">
         <div className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-blue-600 text-[13px] font-black text-white shadow-sm">
           {rank}
@@ -56,5 +65,6 @@ export default function CertificateCard({
         </div>
       </div>
     </article>
+    </Link>
   );
 }

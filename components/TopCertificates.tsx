@@ -1,7 +1,10 @@
 "use client";
 
 import Link from "next/link";
+import { useRef } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay } from "swiper/modules";
+import type { Swiper as SwiperType } from "swiper";
 import "swiper/css";
 
 import CertificateCard from "./CertificateCard";
@@ -10,6 +13,7 @@ const certificates = [
   {
     rank: 1,
     title: "컴퓨터활용능력 1급",
+    href: "/cert/computer-specialist-1",
     category: "사무 · IT",
     period: "2~3개월",
     level: "중상",
@@ -19,6 +23,7 @@ const certificates = [
   {
     rank: 2,
     title: "전기기사",
+    href: "/cert/electric-engineer",
     category: "전기",
     period: "4~6개월",
     level: "상",
@@ -28,6 +33,7 @@ const certificates = [
   {
     rank: 3,
     title: "산업안전기사",
+    href: "/cert/industrial-safety-engineer",
     category: "안전",
     period: "3~4개월",
     level: "중상",
@@ -37,6 +43,7 @@ const certificates = [
   {
     rank: 4,
     title: "정보처리기사",
+    href: "/cert/information-processing-engineer",
     category: "IT",
     period: "2~4개월",
     level: "중",
@@ -46,6 +53,7 @@ const certificates = [
   {
     rank: 5,
     title: "공인중개사",
+    href: "/cert/licensed-real-estate-agent",
     category: "부동산",
     period: "6~12개월",
     level: "상",
@@ -55,6 +63,7 @@ const certificates = [
   {
     rank: 6,
     title: "소방설비기사(전기분야)",
+    href: "/cert/fire-protection-electrical-engineer",
     category: "소방 · 안전",
     period: "3~5개월",
     level: "중상",
@@ -64,6 +73,7 @@ const certificates = [
   {
     rank: 7,
     title: "건축기사",
+    href: "/cert/architectural-engineer",
     category: "건설 · 건축",
     period: "4~6개월",
     level: "상",
@@ -73,6 +83,7 @@ const certificates = [
   {
     rank: 8,
     title: "컴퓨터활용능력 2급",
+    href: "/cert/computer-specialist-2",
     category: "사무 · IT",
     period: "1~2개월",
     level: "중",
@@ -82,6 +93,7 @@ const certificates = [
   {
     rank: 9,
     title: "한식조리기능사",
+    href: "/cert/korean-cuisine-craftsman",
     category: "조리",
     period: "1~3개월",
     level: "중",
@@ -91,6 +103,7 @@ const certificates = [
   {
     rank: 10,
     title: "지게차운전기능사",
+    href: "/cert/forklift-truck-operator-craftsman",
     category: "건설기계",
     period: "1~2개월",
     level: "중",
@@ -100,6 +113,8 @@ const certificates = [
 ];
 
 export default function TopCertificates() {
+  const swiperRef = useRef<SwiperType | null>(null);
+
   return (
     <section className="mx-auto max-w-[1200px] px-6 py-20">
       <div className="mb-8 flex items-end justify-between">
@@ -122,9 +137,25 @@ export default function TopCertificates() {
         </Link>
       </div>
 
+      <div
+        onMouseEnter={() => swiperRef.current?.autoplay.stop()}
+        onMouseLeave={() => swiperRef.current?.autoplay.start()}
+      >
       <Swiper
+        modules={[Autoplay]}
+        onSwiper={(swiper) => {
+          swiperRef.current = swiper;
+        }}
         spaceBetween={16}
         slidesPerView={1.15}
+        loop
+        loopAdditionalSlides={5}
+        speed={650}
+        autoplay={{
+          delay: 4000,
+          disableOnInteraction: false,
+          pauseOnMouseEnter: false,
+        }}
         breakpoints={{
           768: { slidesPerView: 2.5 },
           1024: { slidesPerView: 4 },
@@ -137,6 +168,7 @@ export default function TopCertificates() {
           </SwiperSlide>
         ))}
       </Swiper>
+      </div>
     </section>
   );
 }
