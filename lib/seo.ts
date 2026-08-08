@@ -4,7 +4,7 @@ import type { Metadata } from "next";
 
 const SITE_NAME = "라북";
 export const SITE_URL =
-  process.env.NEXT_PUBLIC_SITE_URL ?? "https://cert-license-site.vercel.app";
+  process.env.NEXT_PUBLIC_SITE_URL ?? "https://labook.kr";
 const SEO_DATA_PATH = path.join(
   process.cwd(),
   "data",

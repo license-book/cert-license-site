@@ -65,6 +65,9 @@ export default function Footer() {
               <Link href="/site-map" className="hover:text-white">
                 사이트맵
               </Link>
+              <Link href="/contact" className="hover:text-white">
+                문의
+              </Link>
             </nav>
           </div>
         </div>

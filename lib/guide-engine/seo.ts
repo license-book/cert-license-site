@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import type { GuideData } from "./types";
 
-const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://cert-license-site.vercel.app";
+const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://labook.kr";
 
 export function createGuideMetadata(guide: GuideData): Metadata {
   const title = guide.seo?.title ?? `${guide.basic.title} | 라북 수험가이드`;
