@@ -30,7 +30,7 @@ export default function ComparePage() {
             자격증 선택 가이드
           </span>
 
-          <h1 className="mt-5 text-4xl font-black tracking-tight md:text-6xl">
+          <h1 className="mt-5 text-4xl font-black tracking-[-0.04em] text-white md:text-5xl">
             비슷해 보여도
             <br className="md:hidden" /> 선택 기준은 다릅니다
           </h1>

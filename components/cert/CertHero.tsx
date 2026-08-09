@@ -107,7 +107,7 @@ export default function CertHero({
         <div className="absolute inset-0 bg-gradient-to-b from-[#061b48]/95 via-[#061b48]/55 to-[#061b48] md:hidden" />
       </div>
 
-      <div className="relative mx-auto max-w-[1200px] px-5 pb-8 pt-10 md:px-6 md:pb-12 md:pt-14">
+      <div className="relative mx-auto max-w-[1200px] px-5 pb-8 pt-[100px] md:px-6 md:pb-12 md:pt-[116px]">
         {/* 상단 분류 */}
         <div className="cert-hero-reveal cert-hero-delay-1 flex flex-wrap items-center gap-2 text-sm">
           <span className="rounded-full border border-blue-300/40 bg-blue-500/10 px-3 py-1.5 font-bold text-blue-100">
@@ -120,16 +120,16 @@ export default function CertHero({
         </div>
 
         {/* 제목 영역 */}
-        <div className="max-w-[660px] pb-[290px] pt-7 md:pb-16 md:pt-10">
+        <div className="max-w-[660px] pb-[290px] pt-5 md:pb-14 md:pt-7">
           <p className="cert-hero-reveal cert-hero-delay-2 text-sm font-black tracking-[0.08em] text-blue-300 md:text-base">
             너의 자격증, 지금 시작해.
           </p>
 
-          <h1 className="cert-hero-reveal cert-hero-title cert-hero-delay-3 mt-4 text-[38px] font-black leading-[1.12] tracking-[-0.055em] sm:text-5xl md:text-[64px]">
+          <h1 className="cert-hero-reveal cert-hero-title cert-hero-delay-3 mt-3 text-[38px] font-black leading-[1.12] tracking-[-0.055em] sm:text-5xl md:text-[64px]">
             {name}
           </h1>
 
-          <p className="cert-hero-reveal cert-hero-delay-4 mt-5 max-w-[580px] text-base font-medium leading-8 text-blue-50/85 md:text-lg md:leading-9">
+          <p className="cert-hero-reveal cert-hero-delay-4 mt-4 max-w-[580px] text-base font-medium leading-7 text-blue-50/85 md:text-lg md:leading-8">
             {summary}
           </p>
         </div>

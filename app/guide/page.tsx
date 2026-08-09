@@ -238,7 +238,7 @@ export default function GuidePage() {
             EXAM GUIDE
           </span>
 
-          <h1 className="mt-5 text-4xl font-black tracking-tight md:text-6xl">
+          <h1 className="mt-5 text-4xl font-black tracking-[-0.04em] text-white md:text-5xl">
             자격증 선택부터
             <br className="md:hidden" /> 합격 이후까지
           </h1>

@@ -145,10 +145,10 @@ const menuItems: MenuItem[] = [
   },
   {
     label: "자료실",
-    href: "/guide#faq",
+    href: "/resources",
     mega: {
       title: "수험 자료실",
-      description: "현재는 수험가이드 안의 실용 정보로 연결됩니다.",
+      description: "원서접수·응시자격·CBT·시험 준비물 등 실용 자료를 확인하세요.",
       items: [
         { label: "원서접수 안내", href: "/guide#prepare" },
         { label: "응시자격 확인", href: "/guide#prepare" },
@@ -158,9 +158,9 @@ const menuItems: MenuItem[] = [
         { label: "시험 공통 FAQ", href: "/guide#faq" },
       ],
       featured: {
-        label: "자료실 콘텐츠 구성 보기",
-        href: "/guide#faq",
-        description: "독립 자료실 페이지가 완성되기 전까지 가이드 허브를 이용합니다.",
+        label: "자료실 전체 보기",
+        href: "/resources",
+        description: "자격증 준비에 필요한 실용 자료를 한곳에서 확인하세요.",
       },
     },
   },
@@ -190,8 +190,17 @@ export default function Header() {
   const [mobileSection, setMobileSection] = useState<string | null>(null);
   const [query, setQuery] = useState("");
   const [searchFocused, setSearchFocused] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
+  const [headerHovered, setHeaderHovered] = useState(false);
   const closeTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
   const searchBlurTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
+
+  useEffect(() => {
+    const handleScroll = () => setScrolled(window.scrollY > 12);
+    handleScroll();
+    window.addEventListener("scroll", handleScroll, { passive: true });
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
 
   useEffect(() => {
     return () => {
@@ -273,8 +282,18 @@ export default function Header() {
     setMobileOpen(false);
   }
 
+  const solidHeader = scrolled || headerHovered || activeMega !== null || searchFocused || mobileOpen;
+
   return (
-    <header className="sticky top-0 z-50 w-full border-b border-slate-200 bg-white/95 backdrop-blur">
+    <header
+      onMouseEnter={() => setHeaderHovered(true)}
+      onMouseLeave={() => setHeaderHovered(false)}
+      className={`fixed left-0 right-0 top-0 z-50 w-full transition-all duration-300 ${
+        solidHeader
+          ? "border-b border-slate-200 bg-white/95 shadow-sm backdrop-blur"
+          : "border-b border-transparent bg-transparent"
+      }`}
+    >
       <div className="mx-auto flex h-20 max-w-[1200px] items-center gap-5 px-5 md:h-24 md:px-6">
         <Link
           href="/"
@@ -289,8 +308,8 @@ export default function Header() {
             L
           </span>
           <span className="leading-none">
-            <strong className="block text-2xl font-black tracking-tight text-slate-950">라북</strong>
-            <span className="mt-1 block text-[11px] font-extrabold tracking-[0.26em] text-blue-600">
+            <strong className={`block text-2xl font-black tracking-tight transition-colors duration-300 ${solidHeader ? "text-slate-950" : "text-white"}`}>라북</strong>
+            <span className={`mt-1 block text-[11px] font-extrabold tracking-[0.26em] transition-colors duration-300 ${solidHeader ? "text-blue-600" : "text-white"}`}>
               LABOOK
             </span>
           </span>
@@ -307,7 +326,7 @@ export default function Header() {
               <Link
                 href={item.href}
                 onFocus={() => item.mega && openMega(item.label)}
-                className="inline-flex min-h-11 items-center gap-1 whitespace-nowrap text-[14px] font-bold text-slate-800 transition hover:text-blue-600 xl:text-[15px]"
+                className={`inline-flex min-h-11 items-center gap-1 whitespace-nowrap text-[14px] font-bold transition-colors duration-300 hover:text-blue-600 xl:text-[15px] ${solidHeader ? "text-slate-800" : "text-white"}`}
               >
                 {item.label}
                 {item.mega ? <ChevronIcon /> : null}
@@ -321,7 +340,7 @@ export default function Header() {
           className="relative ml-auto hidden w-[220px] shrink-0 xl:block"
         >
           <label className="relative block">
-            <span className="pointer-events-none absolute inset-y-0 left-3 flex items-center text-slate-400">
+            <span className={`pointer-events-none absolute inset-y-0 left-3 flex items-center transition-colors duration-300 ${solidHeader ? "text-slate-400" : "text-white"}`}>
               <SearchIcon />
             </span>
             <input
@@ -340,7 +359,7 @@ export default function Header() {
               placeholder="자격증 검색"
               aria-label="자격증 검색"
               aria-expanded={searchFocused}
-              className="h-11 w-full rounded-xl border border-slate-200 bg-slate-50 pl-10 pr-4 text-sm font-bold text-slate-900 outline-none transition placeholder:text-slate-400 focus:border-blue-400 focus:bg-white focus:ring-4 focus:ring-blue-100"
+              className={`h-11 w-full rounded-xl pl-10 pr-4 text-sm font-bold outline-none transition-all duration-300 focus:border-blue-400 focus:bg-white focus:text-slate-900 focus:ring-4 focus:ring-blue-100 ${solidHeader ? "border border-slate-200 bg-slate-50 text-slate-900 placeholder:text-slate-400" : "border border-white/70 bg-white/10 text-white placeholder:text-white/80"}`}
             />
           </label>
 
@@ -444,7 +463,7 @@ export default function Header() {
         <Link
           href="/search"
           aria-label="자격증 검색"
-          className="hidden h-11 w-11 shrink-0 items-center justify-center rounded-xl border border-slate-200 text-slate-700 transition hover:border-blue-300 hover:bg-blue-50 hover:text-blue-600 lg:inline-flex xl:hidden"
+          className={`hidden h-11 w-11 shrink-0 items-center justify-center rounded-xl border transition lg:inline-flex xl:hidden ${solidHeader ? "border-slate-200 text-slate-700 hover:border-blue-300 hover:bg-blue-50 hover:text-blue-600" : "border-white/70 text-white hover:bg-white/15"}`}
         >
           <SearchIcon />
         </Link>
@@ -454,7 +473,7 @@ export default function Header() {
           aria-label={mobileOpen ? "메뉴 닫기" : "메뉴 열기"}
           aria-expanded={mobileOpen}
           onClick={() => setMobileOpen((value) => !value)}
-          className="ml-auto inline-flex h-11 w-11 shrink-0 items-center justify-center rounded-xl border border-slate-300 text-slate-800 transition hover:border-blue-500 hover:text-blue-600 lg:hidden"
+          className={`ml-auto inline-flex h-11 w-11 shrink-0 items-center justify-center rounded-xl border transition lg:hidden ${solidHeader ? "border-slate-300 text-slate-800 hover:border-blue-500 hover:text-blue-600" : "border-white/70 text-white hover:bg-white/15"}`}
         >
           <span className="text-xl leading-none">{mobileOpen ? "×" : "☰"}</span>
         </button>

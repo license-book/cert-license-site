@@ -29,7 +29,7 @@ export default function RankingPage() {
           <span className="inline-flex rounded-full border border-white/20 bg-white/10 px-3 py-1 text-xs font-black text-blue-100">
             CERTIFICATE RANKING HUB
           </span>
-          <h1 className="mt-5 text-4xl font-black tracking-tight md:text-6xl">
+          <h1 className="mt-5 text-4xl font-black tracking-[-0.04em] text-white md:text-5xl">
             목적에 맞게 찾는<br className="md:hidden" /> 자격증 랭킹 허브
           </h1>
           <p className="mt-5 max-w-3xl text-base font-semibold leading-7 text-slate-300 md:text-lg md:leading-8">

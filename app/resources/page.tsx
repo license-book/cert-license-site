@@ -212,7 +212,7 @@ export default function ResourcesPage() {
             RESOURCE CENTER
           </span>
 
-          <h1 className="mt-5 text-4xl font-black tracking-tight md:text-6xl">
+          <h1 className="mt-5 text-4xl font-black tracking-[-0.04em] text-white md:text-5xl">
             자격증 준비에 필요한
             <br className="md:hidden" /> 실용 자료를 한곳에
           </h1>
