@@ -392,14 +392,14 @@ function DifferenceRow({
   right: string;
 }) {
   return (
-    <div className="grid border-t border-slate-200 md:grid-cols-[150px_1fr_1fr]">
-      <div className="bg-slate-50 px-4 py-4 text-sm font-black text-slate-700 md:px-5">
+    <div className="grid grid-cols-2 border-t border-slate-200 md:grid-cols-[150px_1fr_1fr]">
+      <div className="col-span-2 bg-slate-50 px-4 py-3 text-sm font-black text-slate-700 md:col-span-1 md:px-5 md:py-4">
         {label}
       </div>
-      <div className="px-4 py-4 text-sm font-semibold leading-6 text-slate-700 md:border-l md:border-slate-200 md:px-5">
+      <div className="min-w-0 bg-white px-4 py-4 text-sm font-semibold leading-6 text-slate-700 md:border-l md:border-slate-200 md:px-5">
         {left}
       </div>
-      <div className="border-t border-slate-200 px-4 py-4 text-sm font-semibold leading-6 text-slate-700 md:border-l md:border-t-0 md:px-5">
+      <div className="min-w-0 border-l border-slate-200 bg-slate-50/60 px-4 py-4 text-sm font-semibold leading-6 text-slate-700 md:bg-white md:px-5">
         {right}
       </div>
     </div>
@@ -758,14 +758,14 @@ export default function CertificateCompare({ items }: Props) {
             </section>
 
             <section className="mt-7 overflow-hidden rounded-3xl border border-slate-200 bg-white shadow-sm">
-              <div className="grid bg-slate-950 text-white md:grid-cols-[150px_1fr_1fr]">
+              <div className="grid grid-cols-2 bg-slate-950 text-white md:grid-cols-[150px_1fr_1fr]">
                 <div className="hidden px-5 py-5 text-sm font-black text-slate-300 md:block">
                   비교 기준
                 </div>
-                <div className="px-5 py-5 text-lg font-black">
+                <div className="min-w-0 px-4 py-5 text-center text-base font-black md:px-5 md:text-left md:text-lg">
                   {left.shortName}
                 </div>
-                <div className="border-t border-white/10 px-5 py-5 text-lg font-black md:border-l md:border-t-0">
+                <div className="min-w-0 border-l border-white/15 px-4 py-5 text-center text-base font-black md:px-5 md:text-left md:text-lg">
                   {right.shortName}
                 </div>
               </div>
