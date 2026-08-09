@@ -170,8 +170,8 @@ export default function Hero() {
       </div>
 
       <div className="absolute inset-0 z-10">
-        <div className="mx-auto flex h-full max-w-[1280px] items-center px-5 pt-14 md:px-8 md:pt-20">
-          <div className="w-full max-w-[820px]">
+        <div className="mx-auto flex h-full max-w-[1280px] items-center justify-center px-5 pt-14 md:px-8 md:pt-20">
+          <div className="w-full max-w-[900px] text-center">
             <h2 className="hero-title font-black leading-[1.15] tracking-[-0.045em] text-white md:text-[52px] md:leading-[1.22]">
               <span className="block whitespace-nowrap text-[27px] md:text-[52px]">
                 내 미래를 바꾸는 첫걸음
@@ -186,16 +186,13 @@ export default function Hero() {
             </p>
 
             <form
-              className="relative mt-5 w-full max-w-[780px] md:mt-8"
+              className="relative mx-auto mt-5 w-full max-w-[780px] md:mt-8"
               onSubmit={(event) => {
                 event.preventDefault();
                 submitSearch();
               }}
             >
-              <div className="flex h-[60px] items-center rounded-full bg-white px-4 shadow-2xl md:h-[72px] md:px-7">
-                <span className="mr-3 text-gray-400 md:mr-4">
-                  <SearchIcon />
-                </span>
+              <div className="flex h-[56px] items-stretch overflow-hidden rounded-[10px] bg-white shadow-2xl md:h-[64px]">
 
                 <input
                   type="text"
@@ -211,13 +208,13 @@ export default function Hero() {
                   autoComplete="off"
                   aria-label="자격증 검색"
                   placeholder="찾고 있는 자격증을 검색해보세요. 예: 컴활1급, 전기기사, 공인중개사"
-                  className="min-w-0 flex-1 bg-transparent text-[15px] font-semibold text-gray-700 outline-none placeholder:text-gray-400 md:text-[16px]"
+                  className="min-w-0 flex-1 bg-transparent px-5 text-left text-[15px] font-semibold text-gray-700 outline-none placeholder:text-gray-400 md:px-6 md:text-[16px]"
                 />
 
                 <button
                   type="submit"
                   aria-label="검색"
-                  className="ml-2 flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-blue-600 text-white shadow-lg transition hover:bg-blue-700 md:ml-3 md:h-14 md:w-14"
+                  className="flex w-[72px] shrink-0 items-center justify-center bg-blue-600 text-white transition hover:bg-blue-700 md:w-[84px]"
                 >
                   <SearchIcon />
                 </button>
@@ -271,19 +268,22 @@ export default function Hero() {
               ) : null}
             </form>
 
-            <div className="mt-4 flex flex-wrap items-center gap-2 md:mt-6 md:gap-3">
-              <span className="mr-1 text-sm font-bold text-orange-300 md:text-base">🔥 인기 검색어</span>
+            <div className="mt-4 flex flex-col items-center justify-center gap-2 md:mt-6 md:gap-3">
+              <span className="text-sm font-bold text-white/90 md:text-base">인기 검색어</span>
+
+              <div className="flex flex-wrap items-center justify-center gap-2 md:gap-3">
 
               {popularKeywords.map((keyword) => (
                 <button
                   key={keyword}
                   type="button"
                   onClick={() => handlePopularKeyword(keyword)}
-                  className="rounded-full bg-white px-3 py-1.5 text-xs font-bold text-gray-800 shadow transition hover:bg-blue-50 hover:text-blue-700 md:px-4 md:py-2 md:text-sm"
+                  className="rounded-full border border-white/70 bg-white/10 px-3 py-1.5 text-xs font-bold text-white backdrop-blur-sm transition hover:bg-white/20 md:px-4 md:py-2 md:text-sm"
                 >
                   # {keyword}
                 </button>
               ))}
+              </div>
             </div>
           </div>
         </div>
