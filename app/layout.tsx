@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     "자격증 선택부터 시험 준비까지 현실적인 정보를 제공하는 자격증 플랫폼",
 };
 
-const adsenseClient = process.env.NEXT_PUBLIC_ADSENSE_CLIENT;
+const adsenseClient = "ca-pub-1069549567217472";
 
 export default function RootLayout({
   children,
