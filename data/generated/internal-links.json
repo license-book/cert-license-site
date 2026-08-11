@@ -86,12 +86,6 @@
         "score": 100
       },
       {
-        "slug": "water-quality-environmental-engineer",
-        "tag": "수질환경",
-        "source": "auto",
-        "score": 95
-      },
-      {
         "slug": "gas-engineer",
         "tag": "가스 안전",
         "source": "auto",
@@ -1818,12 +1812,6 @@
         "score": 100
       },
       {
-        "slug": "water-quality-environmental-engineer",
-        "tag": "수질환경",
-        "source": "auto",
-        "score": 95
-      },
-      {
         "slug": "gas-engineer",
         "tag": "가스 안전",
         "source": "auto",
@@ -1842,12 +1830,6 @@
         "tag": "폐기물",
         "source": "auto",
         "score": 100
-      },
-      {
-        "slug": "water-quality-environmental-engineer",
-        "tag": "수질환경",
-        "source": "auto",
-        "score": 95
       },
       {
         "slug": "gas-engineer",
