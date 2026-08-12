@@ -2,6 +2,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import FloatingQuickActions from "@/components/common/FloatingQuickActions";
 import type { Metadata } from "next";
+import Script from "next/script";
 import localFont from "next/font/local";
 import "./globals.css";
 
@@ -39,6 +40,18 @@ export default function RootLayout({
       className={`${pretendard.variable} h-full antialiased`}
     >
       <head>
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-4BBBMETR95"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-4BBBMETR95');
+          `}
+        </Script>
         <script
           async
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1069549567217472"
