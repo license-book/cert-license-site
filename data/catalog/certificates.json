@@ -1690,5 +1690,103 @@
     "category": "생활·취미",
     "agency": "자격발급기관별 상이",
     "relatedTag": "천연비누"
+  },
+  "motorcycle-maintenance-craftsman": {
+    "name": "이륜자동차정비기능사",
+    "shortName": "이륜자동차정비기능사",
+    "aliases": [
+      "이륜자동차정비기능사",
+      "이륜자동차정비기능사",
+      "2026 신설 자격증"
+    ],
+    "type": "national",
+    "licenseType": "국가기술자격 기능사",
+    "category": "기계·자동차",
+    "agency": "한국산업인력공단",
+    "relatedTag": "기계·자동차"
+  },
+  "bioprocess-craftsman": {
+    "name": "바이오공정기능사",
+    "shortName": "바이오공정기능사",
+    "aliases": [
+      "바이오공정기능사",
+      "바이오공정기능사",
+      "2026 신설 자격증"
+    ],
+    "type": "national",
+    "licenseType": "국가기술자격 기능사",
+    "category": "바이오·화학",
+    "agency": "한국산업인력공단",
+    "relatedTag": "바이오·화학"
+  },
+  "smart-factory-industrial-engineer": {
+    "name": "스마트공장산업기사",
+    "shortName": "스마트공장산업기사",
+    "aliases": [
+      "스마트공장산업기사",
+      "스마트공장산업기사",
+      "2026 신설 자격증"
+    ],
+    "type": "national",
+    "licenseType": "국가기술자격 산업기사",
+    "category": "스마트제조·자동화",
+    "agency": "한국산업인력공단",
+    "relatedTag": "스마트제조·자동화"
+  },
+  "smart-factory-craftsman": {
+    "name": "스마트공장기능사",
+    "shortName": "스마트공장기능사",
+    "aliases": [
+      "스마트공장기능사",
+      "스마트공장기능사",
+      "2026 신설 자격증"
+    ],
+    "type": "national",
+    "licenseType": "국가기술자격 기능사",
+    "category": "스마트제조·자동화",
+    "agency": "한국산업인력공단",
+    "relatedTag": "스마트제조·자동화"
+  },
+  "forest-master-craftsman": {
+    "name": "산림기능장",
+    "shortName": "산림기능장",
+    "aliases": [
+      "산림기능장",
+      "산림기능장",
+      "2026 신설 자격증"
+    ],
+    "type": "national",
+    "licenseType": "국가기술자격 기능장",
+    "category": "농림·산림",
+    "agency": "한국산업인력공단",
+    "relatedTag": "농림·산림"
+  },
+  "public-procurement-manager": {
+    "name": "공공조달관리사",
+    "shortName": "공공조달관리사",
+    "aliases": [
+      "공공조달관리사",
+      "공공조달관리사",
+      "2026 신설 자격증"
+    ],
+    "type": "national",
+    "licenseType": "국가기술자격 서비스 분야",
+    "category": "경영·조달",
+    "agency": "한국산업인력공단",
+    "relatedTag": "경영·조달"
+  },
+  "sewing-craftsman": {
+    "name": "봉제기능사",
+    "shortName": "봉제기능사",
+    "aliases": [
+      "봉제기능사",
+      "봉제기능사",
+      "2026 신설 자격증"
+    ],
+    "type": "national",
+    "licenseType": "국가기술자격 기능사",
+    "category": "섬유·의복",
+    "agency": "한국산업인력공단",
+    "relatedTag": "섬유·의복"
   }
 }
