@@ -34,7 +34,7 @@ function SectionContent({ id, model }: { id: CertificateSectionId; model: Certif
     case "affiliate": return <Affiliate affiliate={cert.affiliate} />;
     case "trust-info": return cert.trustInfo ? <TrustInfo data={cert.trustInfo} /> : null;
     case "related-roadmaps": return <RelatedRoadmaps items={relatedRoadmaps} />;
-    case "related": return <Related items={relatedItems} />;
+    case "related": return <Related items={relatedItems} currentSlug={cert.basic.slug} />;
     case "final-cta": return cert.finalCta ? <FinalCTA data={cert.finalCta} /> : null;
   }
 }

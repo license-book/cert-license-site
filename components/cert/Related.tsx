@@ -3,6 +3,7 @@ import type { ResolvedRelatedItem } from "@/lib/related-certificates";
 
 type RelatedProps = {
   items: ResolvedRelatedItem[];
+  currentSlug: string;
 };
 
 function getTypeLabel(item: ResolvedRelatedItem) {
@@ -12,7 +13,7 @@ function getTypeLabel(item: ResolvedRelatedItem) {
   return undefined;
 }
 
-export default function Related({ items }: RelatedProps) {
+export default function Related({ items, currentSlug }: RelatedProps) {
   if (!items.length) return null;
 
   return (
@@ -23,7 +24,7 @@ export default function Related({ items }: RelatedProps) {
           관련 자격증
         </h2>
         <p className="mt-2 text-sm leading-6 text-slate-600 md:text-base">
-          상세페이지와 비교페이지가 실제로 준비된 경우에만 버튼이 자동 활성화됩니다.
+          관련 자격증의 상세정보가 준비되어 있으면 바로 상세보기와 비교가 가능합니다.
         </p>
       </div>
 
@@ -33,10 +34,9 @@ export default function Related({ items }: RelatedProps) {
           const detailHref = item.detailReady
             ? `/cert/${item.slug}`
             : undefined;
-          const compareHref =
-            item.compareReady && item.compareSlug
-              ? `/compare/${item.compareSlug}`
-              : undefined;
+          const compareHref = item.compareReady
+            ? `/compare?left=${encodeURIComponent(currentSlug)}&right=${encodeURIComponent(item.slug)}#compare-result`
+            : undefined;
 
           return (
             <article
@@ -96,7 +96,7 @@ export default function Related({ items }: RelatedProps) {
                     href={compareHref}
                     className="inline-flex min-h-11 items-center justify-center rounded-xl bg-slate-900 px-4 py-2.5 text-sm font-bold text-white transition hover:bg-blue-700"
                   >
-                    {item.compareLabel ?? "비교하기"}
+                    비교하기
                   </Link>
                 ) : (
                   <span className="inline-flex min-h-11 items-center justify-center rounded-xl bg-slate-100 px-4 py-2.5 text-sm font-semibold text-slate-400">

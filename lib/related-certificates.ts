@@ -18,6 +18,7 @@ export type RelatedRelation =
   | {
       slug: string;
       tag?: string;
+      reason?: string;
       compareSlug?: string;
       compareLabel?: string;
       source?: "manual" | "auto";
@@ -40,11 +41,13 @@ export type ResolvedRelatedItem = {
 
 type CertificateFile = {
   basic?: {
+    slug?: string;
     name?: string;
     shortName?: string;
     type?: CertificateKind;
     licenseType?: string;
     category?: string;
+    agency?: string;
   };
   hero?: {
     title?: string;
@@ -58,34 +61,19 @@ type GeneratedRelatedFile = {
   items?: RelatedMap;
 };
 
-type ComparisonCatalog = Record<
-  string,
-  {
-    enabled?: boolean;
-    label?: string;
-  }
->;
-
-const CERTIFICATE_DIRECTORY = path.join(
-  process.cwd(),
-  "data",
-  "certificates"
-);
-
+const CERTIFICATE_DIRECTORY = path.join(process.cwd(), "data", "certificates");
 const CERTIFICATE_CATALOG_FILE = path.join(
   process.cwd(),
   "data",
   "catalog",
   "certificates.json"
 );
-
 const MANUAL_RELATED_FILE = path.join(
   process.cwd(),
   "data",
   "related",
   "related-certificates.json"
 );
-
 const GENERATED_RELATED_FILE = path.join(
   process.cwd(),
   "data",
@@ -93,12 +81,24 @@ const GENERATED_RELATED_FILE = path.join(
   "internal-links.json"
 );
 
-const COMPARISON_CATALOG_FILE = path.join(
-  process.cwd(),
-  "data",
-  "catalog",
-  "comparisons.json"
-);
+const MAX_RELATED = 4;
+
+/**
+ * 서로 다른 분류명을 쓰더라도 실제 진로가 가까운 분야만 연결한다.
+ * 같은 category 후보가 우선이며, 아래 매핑은 국가↔민간 교차 추천을 보완한다.
+ */
+const CATEGORY_AFFINITY: Record<string, string[]> = {
+  "IT·AI": ["IT·개발", "IT·사무", "데이터·IT", "정보통신"],
+  "IT·개발": ["IT·AI", "데이터·IT", "정보통신"],
+  "IT·사무": ["IT·AI", "데이터·IT"],
+  "데이터·IT": ["IT·AI", "IT·개발", "IT·사무"],
+  "심리·상담": ["복지·상담", "상담·고용", "상담·청소년"],
+  "아동·교육": ["복지·상담", "상담·청소년"],
+  "실버·복지": ["복지·상담", "보건·의료"],
+  "건강·운동": ["보건·의료", "복지·상담"],
+  "마케팅·비즈니스": ["경영·조달", "회계·세무"],
+  "생활·취미": ["조리·서비스", "조리·외식"],
+};
 
 function readJsonFile<T>(filePath: string): T | null {
   if (!fs.existsSync(filePath)) return null;
@@ -112,9 +112,7 @@ function readJsonFile<T>(filePath: string): T | null {
 }
 
 function normalizeRelation(relation: RelatedRelation) {
-  return typeof relation === "string"
-    ? { slug: relation }
-    : relation;
+  return typeof relation === "string" ? { slug: relation } : relation;
 }
 
 function getCertificatePath(slug: string): string | null {
@@ -123,6 +121,7 @@ function getCertificatePath(slug: string): string | null {
     path.join(CERTIFICATE_DIRECTORY, "national", `${slug}.json`),
     path.join(CERTIFICATE_DIRECTORY, "private", `${slug}.json`),
   ];
+
   return candidates.find((file) => fs.existsSync(file)) ?? null;
 }
 
@@ -135,38 +134,148 @@ function certificateExists(slug: string): boolean {
   return getCertificatePath(slug) !== null;
 }
 
-function comparisonIsEnabled(
-  compareSlug: string | undefined,
-  catalog: ComparisonCatalog
-): boolean {
-  if (!compareSlug) return false;
-  return catalog[compareSlug]?.enabled === true;
+function tokenize(value?: string): string[] {
+  if (!value) return [];
+  return value
+    .toLowerCase()
+    .split(/[·\s,/()\-]+/)
+    .map((token) => token.trim())
+    .filter((token) => token.length >= 2);
 }
 
-function getRelatedMap(): RelatedMap {
-  const generated =
-    readJsonFile<GeneratedRelatedFile>(GENERATED_RELATED_FILE);
+function sharedTokenScore(a?: string, b?: string): number {
+  const left = new Set(tokenize(a));
+  const right = new Set(tokenize(b));
+  let count = 0;
+  for (const token of left) {
+    if (right.has(token)) count += 1;
+  }
+  return Math.min(count * 12, 24);
+}
 
-  if (generated?.items) {
-    return generated.items;
+function categoriesAreRelated(a?: string, b?: string): boolean {
+  if (!a || !b) return false;
+  return (
+    CATEGORY_AFFINITY[a]?.includes(b) === true ||
+    CATEGORY_AFFINITY[b]?.includes(a) === true
+  );
+}
+
+function scoreCandidate(
+  current: CertificateCatalogItem,
+  candidate: CertificateCatalogItem
+): number {
+  let score = 0;
+
+  if (current.category && current.category === candidate.category) {
+    score += 100;
+  } else if (categoriesAreRelated(current.category, candidate.category)) {
+    score += 62;
+  } else {
+    score += sharedTokenScore(current.category, candidate.category);
   }
 
-  return readJsonFile<RelatedMap>(MANUAL_RELATED_FILE) ?? {};
+  score += sharedTokenScore(current.relatedTag, candidate.relatedTag);
+
+  if (
+    current.agency &&
+    candidate.agency &&
+    current.agency === candidate.agency
+  ) {
+    score += 8;
+  }
+
+  return score;
+}
+
+function buildAutoRelations(
+  currentSlug: string,
+  catalog: CertificateCatalog
+): RelatedRelation[] {
+  const current = catalog[currentSlug];
+  if (!current) return [];
+
+  const ranked = Object.entries(catalog)
+    .filter(([slug]) => slug !== currentSlug && certificateExists(slug))
+    .map(([slug, candidate]) => ({
+      slug,
+      candidate,
+      score: scoreCandidate(current, candidate),
+    }))
+    .filter((item) => item.score >= 50)
+    .sort((a, b) => {
+      if (b.score !== a.score) return b.score - a.score;
+      return a.candidate.name.localeCompare(b.candidate.name, "ko");
+    });
+
+  const selected = ranked.slice(0, MAX_RELATED);
+
+  // 같은 종류만 4개 뽑힌 경우, 충분히 관련 있는 국가↔민간 후보가 있으면
+  // 마지막 한 자리를 교차 추천으로 사용한다.
+  if (
+    current.type &&
+    selected.length === MAX_RELATED &&
+    selected.every((item) => item.candidate.type === current.type)
+  ) {
+    const crossType = ranked.find(
+      (item) =>
+        item.candidate.type &&
+        item.candidate.type !== current.type &&
+        item.score >= 60 &&
+        !selected.some((selectedItem) => selectedItem.slug === item.slug)
+    );
+
+    if (crossType) {
+      selected[selected.length - 1] = crossType;
+    }
+  }
+
+  return selected.map((item) => ({
+    slug: item.slug,
+    tag: item.candidate.relatedTag ?? item.candidate.category,
+    source: "auto" as const,
+    score: item.score,
+  }));
+}
+
+function getRelationsForSlug(
+  currentSlug: string,
+  catalog: CertificateCatalog
+): RelatedRelation[] {
+  const generated =
+    readJsonFile<GeneratedRelatedFile>(GENERATED_RELATED_FILE)?.items ?? {};
+  const manual = readJsonFile<RelatedMap>(MANUAL_RELATED_FILE) ?? {};
+
+  // 기존에 검수된 generated/manual 관계가 있으면 그것을 최우선으로 유지한다.
+  const curated = generated[currentSlug] ?? manual[currentSlug];
+  if (curated?.length) return curated;
+
+  // 관계 데이터가 없는 국가/민간 자격증은 카탈로그를 기준으로 자동 추천한다.
+  return buildAutoRelations(currentSlug, catalog);
 }
 
 export function getRelatedCertificates(
   currentSlug: string
 ): ResolvedRelatedItem[] {
-  const relatedMap = getRelatedMap();
   const certificateCatalog =
     readJsonFile<CertificateCatalog>(CERTIFICATE_CATALOG_FILE) ?? {};
-  const comparisonCatalog =
-    readJsonFile<ComparisonCatalog>(COMPARISON_CATALOG_FILE) ?? {};
 
+  const relations = getRelationsForSlug(currentSlug, certificateCatalog);
   const resolvedItems: ResolvedRelatedItem[] = [];
+  const seen = new Set<string>();
 
-  for (const rawRelation of relatedMap[currentSlug] ?? []) {
+  for (const rawRelation of relations) {
     const relation = normalizeRelation(rawRelation);
+
+    if (
+      !relation.slug ||
+      relation.slug === currentSlug ||
+      seen.has(relation.slug)
+    ) {
+      continue;
+    }
+    seen.add(relation.slug);
+
     const certificateFile = getCertificateFile(relation.slug);
     const catalogItem = certificateCatalog[relation.slug];
 
@@ -175,13 +284,9 @@ export function getRelatedCertificates(
       certificateFile?.hero?.title ??
       catalogItem?.name;
 
-    if (!name) {
-      console.warn(
-        `관련 자격증 표시정보 없음: ${relation.slug}. ` +
-          "data/catalog/certificates.json에 등록하세요."
-      );
-      continue;
-    }
+    if (!name) continue;
+
+    const detailReady = certificateExists(relation.slug);
 
     resolvedItems.push({
       name,
@@ -205,13 +310,11 @@ export function getRelatedCertificates(
         catalogItem?.category,
       compareSlug: relation.compareSlug,
       compareLabel: relation.compareLabel,
-      detailReady: certificateExists(relation.slug),
-      compareReady: comparisonIsEnabled(
-        relation.compareSlug,
-        comparisonCatalog
-      ),
+      detailReady,
+      // 공통 비교 페이지는 두 상세 데이터만 있으면 즉시 비교 가능하다.
+      compareReady: certificateExists(currentSlug) && detailReady,
     });
   }
 
-  return resolvedItems;
+  return resolvedItems.slice(0, MAX_RELATED);
 }

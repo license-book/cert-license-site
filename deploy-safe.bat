@@ -29,12 +29,10 @@ echo [SAVED CHANGES]
 git status --short
 echo.
 
-git diff --quiet
-set "WORKTREE_CLEAN=%errorlevel%"
-git diff --cached --quiet
-set "INDEX_CLEAN=%errorlevel%"
+rem Detect ALL Git changes, including untracked files shown as ??.
+for /f %%i in ('git status --porcelain ^| find /c /v ""') do set "CHANGE_COUNT=%%i"
 
-if "%WORKTREE_CLEAN%"=="0" if "%INDEX_CLEAN%"=="0" (
+if "%CHANGE_COUNT%"=="0" (
   echo No saved changes to deploy.
   pause
   exit /b 0

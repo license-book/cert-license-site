@@ -23,22 +23,33 @@ function CtaLink({
   button: CtaButton;
   primary?: boolean;
 }) {
+  // 민간자격 상세페이지의 목록 CTA는 항상 실제 목록 라우트로 연결합니다.
+  // 기존 JSON에 오래된/잘못된 URL이 남아 있어도 404가 발생하지 않게 보정합니다.
+  const label = button.label.trim();
+
+  const resolvedUrl =
+    label === "민간자격 목록 보기"
+      ? "/private-certificates"
+      : label === "자격증 목록 보기" || label === "국가자격증 목록 보기"
+        ? "/national-certificates"
+        : button.url;
+
   const className = primary
     ? "inline-flex min-h-12 items-center justify-center rounded-xl bg-slate-900 px-6 py-3 font-semibold text-white transition hover:bg-slate-700"
     : "inline-flex min-h-12 items-center justify-center rounded-xl border border-slate-300 bg-white px-6 py-3 font-semibold text-slate-900 transition hover:bg-slate-50";
 
-  const external = button.url.startsWith("http");
+  const external = resolvedUrl.startsWith("http");
 
   if (external) {
     return (
-      <a href={button.url} target="_blank" rel="noreferrer" className={className}>
+      <a href={resolvedUrl} target="_blank" rel="noreferrer" className={className}>
         {button.label}
       </a>
     );
   }
 
   return (
-    <Link href={button.url} className={className}>
+    <Link href={resolvedUrl} className={className}>
       {button.label}
     </Link>
   );
