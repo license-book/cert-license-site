@@ -28,13 +28,17 @@ type PairInsight = {
 
 const RECOMMENDED_PAIRS = [
   ["computer-specialist-1", "computer-specialist-2"],
-  [
-    "information-processing-engineer",
-    "information-processing-industrial-engineer",
-  ],
+  ["information-processing-engineer", "information-processing-industrial-engineer"],
   ["electrical-engineer", "electrical-industrial-engineer"],
   ["industrial-safety-engineer", "industrial-safety-industrial-engineer"],
+  ["construction-material-testing-engineer", "construction-material-testing-industrial-engineer"],
   ["korean-cuisine-craftsman", "western-cuisine-craftsman"],
+  ["computerized-accounting-grade-1", "computerized-accounting-grade-2"],
+  ["licensed-real-estate-agent", "housing-manager-assistant"],
+  ["psychological-counselor", "art-psychology-counselor"],
+  ["video-editing-specialist", "content-creator"],
+  ["pilates-instructor", "yoga-instructor"],
+  ["smart-store-specialist", "shopping-mall-manager"],
 ] as const;
 
 const CURATED_INSIGHTS: Record<string, PairInsight> = {
@@ -335,6 +339,16 @@ function buildGenericInsight(
       left: left.metrics.usefulness,
       right: right.metrics.usefulness,
     },
+    {
+      label: "최근 시험 통계",
+      left: left.metrics.statistics,
+      right: right.metrics.statistics,
+    },
+    {
+      label: "비용",
+      left: left.metrics.cost,
+      right: right.metrics.cost,
+    },
   ].filter(
     (
       item,
@@ -374,7 +388,7 @@ function buildGenericInsight(
       `${right.metrics.eligibility} 조건에 맞는 경우`,
       `${right.metrics.exam} 시험 구성이 본인에게 더 적합한 경우`,
     ],
-    differences: usableDifferences.slice(0, 6),
+    differences: usableDifferences.slice(0, 8),
     decision: {
       left: `${left.category} 분야와 ${left.licenseType} 활용이 목표라면 ${left.shortName}`,
       right: `${right.category} 분야와 ${right.licenseType} 활용이 목표라면 ${right.shortName}`,
@@ -571,6 +585,11 @@ export default function CertificateCompare({ items }: Props) {
     }, 0);
   }
 
+  function swapCertificates() {
+    setLeftSlug(rightSlug);
+    setRightSlug(leftSlug);
+  }
+
   if (!items.length) {
     return (
       <section className="mx-auto max-w-[1200px] px-5 py-16 md:px-6">
@@ -602,16 +621,26 @@ export default function CertificateCompare({ items }: Props) {
                   className="h-14 w-full rounded-2xl border border-slate-300 bg-white px-4 font-bold text-slate-900 outline-none focus:border-blue-500 focus:ring-4 focus:ring-blue-100"
                 >
                   {items.map((item) => (
-                    <option key={item.slug} value={item.slug}>
+                    <option
+                      key={item.slug}
+                      value={item.slug}
+                      disabled={item.slug === rightSlug}
+                    >
                       {item.name}
                     </option>
                   ))}
                 </select>
               </label>
 
-              <div className="hidden h-14 items-center justify-center text-lg font-black text-slate-400 md:flex">
-                VS
-              </div>
+              <button
+                type="button"
+                onClick={swapCertificates}
+                disabled={!leftSlug || !rightSlug}
+                className="hidden h-14 items-center justify-center rounded-2xl border border-slate-200 bg-white px-4 text-sm font-black text-slate-700 transition hover:border-blue-300 hover:bg-blue-50 hover:text-blue-700 disabled:cursor-not-allowed disabled:opacity-40 md:flex"
+                aria-label="두 자격증 위치 바꾸기"
+              >
+                ⇄ 바꾸기
+              </button>
 
               <label className="block">
                 <span className="mb-2 block text-sm font-black text-slate-700">
@@ -623,7 +652,11 @@ export default function CertificateCompare({ items }: Props) {
                   className="h-14 w-full rounded-2xl border border-slate-300 bg-white px-4 font-bold text-slate-900 outline-none focus:border-blue-500 focus:ring-4 focus:ring-blue-100"
                 >
                   {items.map((item) => (
-                    <option key={item.slug} value={item.slug}>
+                    <option
+                      key={item.slug}
+                      value={item.slug}
+                      disabled={item.slug === leftSlug}
+                    >
                       {item.name}
                     </option>
                   ))}
@@ -632,10 +665,14 @@ export default function CertificateCompare({ items }: Props) {
             </div>
 
             {leftSlug === rightSlug ? (
-              <p className="mt-4 text-sm font-bold text-amber-700">
-                서로 다른 자격증을 선택해야 차이점을 확인할 수 있습니다.
+              <p className="mt-4 rounded-xl bg-amber-50 px-4 py-3 text-sm font-bold text-amber-800">
+                같은 자격증이 두 칸에 선택되었습니다. 한쪽 자격증을 변경해 주세요.
               </p>
-            ) : null}
+            ) : (
+              <p className="mt-4 text-xs font-semibold text-slate-500">
+                국가·민간 자격증을 서로 교차해 비교할 수도 있습니다.
+              </p>
+            )}
           </div>
         </div>
       </section>
@@ -856,6 +893,11 @@ export default function CertificateCompare({ items }: Props) {
                   label="시행기관"
                   left={left.agency}
                   right={right.agency}
+                />
+                <DifferenceRow
+                  label="통계·정보 출처"
+                  left={left.metrics.source}
+                  right={right.metrics.source}
                 />
               </div>
             </details>

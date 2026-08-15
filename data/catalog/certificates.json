@@ -1788,5 +1788,32 @@
     "category": "섬유·의복",
     "agency": "한국산업인력공단",
     "relatedTag": "섬유·의복"
+  },
+  "construction-material-testing-engineer": {
+    "name": "건설재료시험기사",
+    "shortName": "건설재료시험기사",
+    "type": "national",
+    "licenseType": "국가기술자격 기사",
+    "category": "건설·토목",
+    "agency": "한국산업인력공단",
+    "relatedTag": "건설·토목"
+  },
+  "concrete-engineer": {
+    "name": "콘크리트기사",
+    "shortName": "콘크리트기사",
+    "type": "national",
+    "licenseType": "국가기술자격 기사",
+    "category": "건설·토목",
+    "agency": "한국산업인력공단",
+    "relatedTag": "건설·토목"
+  },
+  "construction-material-testing-industrial-engineer": {
+    "name": "건설재료시험산업기사",
+    "shortName": "건설재료시험산업기사",
+    "type": "national",
+    "licenseType": "국가기술자격 산업기사",
+    "category": "건설·토목",
+    "agency": "한국산업인력공단",
+    "relatedTag": "건설·토목"
   }
 }

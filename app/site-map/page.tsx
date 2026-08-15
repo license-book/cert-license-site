@@ -13,7 +13,7 @@ const groups = [
       ["국가자격증", "/national-certificates"],
       ["민간자격증", "/private-certificates"],
       ["자격증 검색", "/search"],
-      ["자격증 로드맵", "/roadmap"],
+      ["자격증 로드맵", "/guide#roadmaps"],
     ],
   },
   {
@@ -37,6 +37,7 @@ const groups = [
       ["개인정보처리방침", "/privacy"],
       ["이용약관", "/terms"],
       ["정보 이용 안내", "/disclaimer"],
+      ["문의", "/contact"],
     ],
   },
 ];

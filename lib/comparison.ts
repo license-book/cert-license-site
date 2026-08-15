@@ -16,6 +16,8 @@ export type CompareCertificate = {
     eligibility: string;
     exam: string;
     cost: string;
+    statistics: string;
+    source: string;
   };
   indicators: {
     difficultyScore: number | null;
@@ -46,9 +48,28 @@ type RawCertificate = {
     summary?: string;
   };
   exam?: {
-    written?: string;
-    practical?: string;
-    passingCriteria?: string;
+    written?: unknown;
+    practical?: unknown;
+    passingCriteria?: unknown;
+  };
+  statistics?: {
+    enabled?: boolean;
+    status?: string;
+    groups?: {
+      id?: string;
+      title?: string;
+      items?: {
+        year?: number;
+        applicants?: number;
+        passed?: number;
+        passRate?: number;
+      }[];
+    }[];
+    source?: {
+      label?: string;
+      url?: string;
+      lastVerified?: string;
+    };
   };
   cost?: {
     items?: {
@@ -97,10 +118,73 @@ function findKeyValue(
   return item?.value || fallback;
 }
 
+
+function textValue(value: unknown): string {
+  if (typeof value === "string") return value.trim();
+  if (typeof value === "number") return String(value);
+
+  if (Array.isArray(value)) {
+    return value.map(textValue).filter(Boolean).join(", ");
+  }
+
+  if (value && typeof value === "object") {
+    const item = value as Record<string, unknown>;
+
+    const title = textValue(item.title);
+    const format = textValue(item.format);
+    if (title && format) return `${title} · ${format}`;
+    if (title) return title;
+    if (format) return format;
+
+    for (const key of ["summary", "text", "value", "label"]) {
+      const result = textValue(item[key]);
+      if (result) return result;
+    }
+  }
+
+  return "";
+}
+
+function summarizeDifficulty(cert: RawCertificate) {
+  const direct = findKeyValue(cert, ["난이도"], "");
+  if (direct) return direct;
+
+  return cert.basic?.type === "private"
+    ? "기관·과정별 상이"
+    : "상세 난이도 확인 필요";
+}
+
+function summarizeStatistics(cert: RawCertificate) {
+  if (!cert.statistics?.enabled || !cert.statistics.groups?.length) {
+    return "대표 공식 통계 미제공";
+  }
+
+  const parts = cert.statistics.groups
+    .map((group) => {
+      const latest = [...(group.items ?? [])]
+        .filter((item) => typeof item.year === "number")
+        .sort((a, b) => (b.year ?? 0) - (a.year ?? 0))[0];
+
+      if (!latest || typeof latest.passRate !== "number") return "";
+
+      const title = group.title || group.id || "시험";
+      const applicants =
+        typeof latest.applicants === "number"
+          ? ` · 응시 ${new Intl.NumberFormat("ko-KR").format(latest.applicants)}명`
+          : "";
+
+      return `${latest.year} ${title} 합격률 ${latest.passRate.toFixed(1)}%${applicants}`;
+    })
+    .filter(Boolean);
+
+  return parts.length ? parts.join(" / ") : "대표 공식 통계 미제공";
+}
+
 function summarizeExam(cert: RawCertificate) {
-  const parts = [cert.exam?.written, cert.exam?.practical].filter(
-    (value): value is string => Boolean(value),
-  );
+  const parts = [
+    textValue(cert.exam?.written),
+    textValue(cert.exam?.practical),
+  ].filter(Boolean);
 
   return parts.length
     ? parts.join(" / ")
@@ -174,7 +258,7 @@ function toCompareCertificate(raw: RawCertificate): CompareCertificate | null {
 
   if (!slug || !name) return null;
 
-  const difficulty = findKeyValue(raw, ["난이도"]);
+  const difficulty = summarizeDifficulty(raw);
   const studyPeriod = findKeyValue(raw, [
     "공부기간",
     "준비기간",
@@ -200,6 +284,11 @@ function toCompareCertificate(raw: RawCertificate): CompareCertificate | null {
         findKeyValue(raw, ["응시자격"]),
       exam: summarizeExam(raw),
       cost: summarizeCost(raw),
+      statistics: summarizeStatistics(raw),
+      source:
+        raw.statistics?.source?.label ||
+        raw.basic?.agency ||
+        "출처 확인 필요",
     },
     indicators: {
       difficultyScore: parseDifficulty(difficulty),

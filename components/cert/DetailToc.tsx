@@ -21,7 +21,6 @@ export default function DetailToc({ items }: DetailTocProps) {
     if (!itemIds.length) return;
 
     const updateActiveSection = () => {
-      const headerOffset = window.innerWidth >= 768 ? 176 : 152;
       let currentId = itemIds[0];
 
       for (const id of itemIds) {
@@ -29,7 +28,16 @@ export default function DetailToc({ items }: DetailTocProps) {
         if (!section) continue;
 
         const rect = section.getBoundingClientRect();
-        if (rect.top <= headerOffset) {
+        const computedStyle = window.getComputedStyle(section);
+        const scrollMarginTop =
+          Number.parseFloat(computedStyle.scrollMarginTop || "0") ||
+          (window.innerWidth >= 768 ? 208 : 176);
+
+        // 각 상세 섹션에 실제 적용된 scroll-margin-top을 그대로 기준으로 사용합니다.
+        // Hero의 네이티브 hash 이동과 목차 클릭 이동 모두 같은 섹션을 활성화합니다.
+        const activationLine = scrollMarginTop + 8;
+
+        if (rect.top <= activationLine) {
           currentId = id;
         } else {
           break;
@@ -47,11 +55,23 @@ export default function DetailToc({ items }: DetailTocProps) {
       setActiveId(currentId);
     };
 
-    updateActiveSection();
+    const syncFromHash = () => {
+      const hashId = decodeURIComponent(window.location.hash.replace(/^#/, ""));
+      if (hashId && itemIds.includes(hashId)) {
+        setActiveId(hashId);
+        requestAnimationFrame(updateActiveSection);
+        return;
+      }
+      updateActiveSection();
+    };
+
+    syncFromHash();
+    window.addEventListener("hashchange", syncFromHash);
     window.addEventListener("scroll", updateActiveSection, { passive: true });
     window.addEventListener("resize", updateActiveSection);
 
     return () => {
+      window.removeEventListener("hashchange", syncFromHash);
       window.removeEventListener("scroll", updateActiveSection);
       window.removeEventListener("resize", updateActiveSection);
     };
@@ -78,9 +98,12 @@ export default function DetailToc({ items }: DetailTocProps) {
     const target = document.getElementById(id);
     if (!target) return;
 
-    const headerOffset = window.innerWidth >= 768 ? 176 : 152;
+    const computedStyle = window.getComputedStyle(target);
+    const scrollMarginTop =
+      Number.parseFloat(computedStyle.scrollMarginTop || "0") ||
+      (window.innerWidth >= 768 ? 208 : 176);
     const targetTop =
-      target.getBoundingClientRect().top + window.scrollY - headerOffset;
+      target.getBoundingClientRect().top + window.scrollY - scrollMarginTop;
 
     window.scrollTo({
       top: Math.max(0, targetTop),

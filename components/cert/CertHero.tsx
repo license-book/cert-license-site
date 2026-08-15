@@ -199,7 +199,7 @@ export default function CertHero({
         {/* 이동 버튼 */}
         <div className="cert-hero-reveal cert-hero-buttons cert-hero-delay-6 mt-6 grid gap-3 sm:flex">
           <a
-            href="#exam-info"
+            href="#official-info"
             className="inline-flex min-h-14 items-center justify-center rounded-xl bg-blue-600 px-7 text-sm font-black text-white transition hover:bg-blue-500"
           >
             시험 정보 확인하기
