@@ -1,6 +1,18 @@
 export type CertificateKind = "national" | "private";
 
 export type KeyInfoItem = { label: string; value: string; note?: string };
+export type SearchIntentData = {
+  title?: string;
+  summary?: string;
+  relatedKeywords?: string[];
+  items: {
+    query: string;
+    intent?: string;
+    answer: string;
+    points?: string[];
+  }[];
+  note?: string;
+};
 export type StudyStrategyData = {
   title?: string;
   summary: string;
@@ -22,6 +34,7 @@ export type CertificateData = {
   basic: { slug: string; name: string; shortName: string; type: CertificateKind; licenseType: string; category: string; agency: string };
   hero: { title: string; subtitle: string; image?: string };
   certificateIntro?: { title: string; description: string; highlights?: string[] };
+  searchIntent?: SearchIntentData;
   eligibility?: { title: string; status: "none" | "conditional" | "restricted"; statusLabel: string; summary: string; conditions?: { label: string; description: string }[]; commonQuestion?: { question: string; answer: string }; officialNotice?: string };
   display?: { charts?: boolean; career?: boolean; benefits?: boolean; cost?: boolean; schedule?: boolean; affiliate?: boolean; faq?: boolean };
   keyInfo: { title: string; items: KeyInfoItem[] };
@@ -53,6 +66,6 @@ export type CertificateViewModel = {
 };
 
 export type CertificateSectionId =
-  | "intro" | "official-info" | "statistics" | "eligibility" | "summary"
+  | "intro" | "search-intent" | "official-info" | "statistics" | "eligibility" | "summary"
   | "reality-guide" | "cost" | "study-strategy" | "career" | "affiliate"
   | "trust-info" | "related-roadmaps" | "related" | "final-cta";
