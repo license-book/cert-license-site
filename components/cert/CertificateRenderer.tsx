@@ -1,6 +1,7 @@
 import Affiliate from "@/components/cert/Affiliate";
 import CareerInfo from "@/components/cert/CareerInfo";
 import CertificateIntro from "@/components/cert/CertificateIntro";
+import SearchIntent from "@/components/cert/SearchIntent";
 import EligibilityInfo from "@/components/cert/EligibilityInfo";
 import CertHero from "@/components/cert/CertHero";
 import CertSummary from "@/components/cert/CertSummary";
@@ -23,6 +24,7 @@ function SectionContent({ id, model }: { id: CertificateSectionId; model: Certif
   const { cert, relatedItems, relatedRoadmaps } = model;
   switch (id) {
     case "intro": return cert.certificateIntro ? <CertificateIntro data={cert.certificateIntro} /> : null;
+    case "search-intent": return cert.searchIntent ? <SearchIntent data={cert.searchIntent} /> : null;
     case "official-info": return <OfficialInfo data={cert.officialInfo} exam={cert.exam} examWeight={cert.charts?.examWeight?.items} />;
     case "statistics": return <ExamStatistics statistics={cert.statistics} />;
     case "eligibility": return <EligibilityInfo data={cert.eligibility} />;
