@@ -12,8 +12,13 @@ export function buildVisibility(
   relatedRoadmaps: RelatedRoadmapSummary[],
 ): Record<CertificateSectionId, boolean> {
   const hasAffiliate = Boolean(cert.affiliate?.lecture || cert.affiliate?.book || cert.affiliate?.application);
+  const hasSearchIntent = Boolean(
+    cert.searchIntent?.items?.some((item) => item.query?.trim() && item.answer?.trim()),
+  );
+
   return {
     "intro": Boolean(cert.certificateIntro),
+    "search-intent": hasSearchIntent,
     "official-info": Boolean(cert.officialInfo || cert.exam),
     "statistics": cert.statistics?.enabled === true,
     "eligibility": Boolean(cert.eligibility),
