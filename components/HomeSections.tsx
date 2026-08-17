@@ -94,7 +94,7 @@ export default function HomeSections() {
               <h3 className="mt-2 text-base font-black text-slate-950">민간자격증 전체보기</h3>
               <p className="mt-1 text-sm font-semibold text-slate-500">등록·공인 여부와 운영기관을 확인하세요.</p>
             </Link>
-            <Link href="/roadmap" className="rounded-2xl border border-slate-200 bg-white p-5 transition hover:border-blue-300 hover:shadow-sm">
+            <Link href="/guide#roadmaps" className="rounded-2xl border border-slate-200 bg-white p-5 transition hover:border-blue-300 hover:shadow-sm">
               <span className="text-xs font-black text-blue-600">ROADMAP</span>
               <h3 className="mt-2 text-base font-black text-slate-950">자격증 로드맵</h3>
               <p className="mt-1 text-sm font-semibold text-slate-500">분야별 취득 순서와 연결 자격증을 확인하세요.</p>
