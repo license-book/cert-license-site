@@ -1,0 +1,43 @@
+{
+  "version": "2026-08-19-cp2-review-v1",
+  "reviewedAt": "2026-08-19",
+  "scope": [
+    "family-psychology-counselor",
+    "youth-psychology-counselor",
+    "senior-psychology-counselor",
+    "music-psychology-counselor",
+    "anger-management-counselor",
+    "learning-coach",
+    "parent-education-instructor",
+    "character-education-instructor",
+    "nie-instructor",
+    "sns-marketing-specialist",
+    "blog-marketing-specialist",
+    "brand-manager",
+    "pet-aromatherapy-specialist",
+    "pet-massage-specialist",
+    "cat-manager"
+  ],
+  "summary": {"total":15,"A":7,"B":8,"indexRestored":7},
+  "approved": {
+    "family-psychology-counselor":"A - exact PQI 가족심리상담사 2023-004813 and public duty information verified; family-conflict, ethics and referral boundaries were deepened.",
+    "youth-psychology-counselor":"A - exact PQI 청소년심리상담사 2016-002748 verified and page explicitly separates the private credential from the statutory national 청소년상담사 qualification.",
+    "senior-psychology-counselor":"A - exact same-name PQI registrations including 2019-004622 verified; page deepened around aging, family communication, risk signals and medical referral boundaries.",
+    "music-psychology-counselor":"A - exact PQI 음악심리상담사 registrations including 2021-005823 and 2022-000367 verified; page separates private counseling study from medical/clinical treatment authority.",
+    "parent-education-instructor":"A - exact PQI 부모교육지도사 registrations including 2008-0069 verified with public duty information; page deepened around parent education program design and role boundaries.",
+    "nie-instructor":"A - exact PQI NIE지도사 2017-001585 and multiple same-name registrations verified; page deepened around source evaluation, news literacy, lesson plans and discussion/writing practice.",
+    "sns-marketing-specialist":"A - exact PQI SNS마케팅전문가 registrations including 2020-004776 and 2020-000154 verified; page deepened around channel operation, KPI analysis and portfolio evidence."
+  },
+  "held": {
+    "anger-management-counselor":"B - related anger-management counseling credentials are discoverable, but an exact representative same-name registration and strong assessment/curriculum evidence were not verified in this pass.",
+    "learning-coach":"B - the label is broad and overlaps coaching/learning-management credentials; exact qualification identity remains insufficient.",
+    "character-education-instructor":"B - related personality/character education qualifications exist, but the exact 라북 title was not matched strongly enough to a representative PQI registration.",
+    "blog-marketing-specialist":"B - marketing content can be made useful, but exact same-name qualification identity and public assessment evidence remain weak compared with SNS/online marketing pages already indexed.",
+    "brand-manager":"B - high overlap with general branding/marketing roles and weak exact private-qualification identity; keep noindex.",
+    "pet-aromatherapy-specialist":"B - related pet-aromatherapy credentials exist but exact identity, safety curriculum and representative registration were not verified strongly enough.",
+    "pet-massage-specialist":"B - animal-care usefulness is plausible, but exact qualification identity and veterinary/safety boundary evidence remain insufficient.",
+    "cat-manager":"B - broad title and overlap with general pet-management content create duplication risk; exact representative qualification evidence remains weak."
+  },
+  "decision":"Only pages with exact qualification identity plus independently useful, source-backed content were promoted. Related or similar names were not treated as equivalent.",
+  "approvedPrivateTotalAfterReview":45
+}
