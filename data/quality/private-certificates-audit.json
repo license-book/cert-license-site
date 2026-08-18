@@ -1,5 +1,5 @@
 {
-  "version": "2026-08-19-v1",
+  "version": "2026-08-19-v2",
   "scope": "LABOOK private certificate master 100",
   "purpose": "AdSense/search quality review before re-indexing private certificate detail pages",
   "policy": {
@@ -187,11 +187,49 @@
       "sports-instructor"
     ]
   },
+  "p1PostEnhancementReview": {
+    "reviewedAt": "2026-08-19",
+    "result": "No P1 page promoted to A in this pass; keep all 15 noindex.",
+    "renderingCheck": "PASS_BY_CODE_PATH",
+    "renderingEvidence": [
+      "loadCertificate merges data/quality/private-p1-enrichments.json for private certificate slugs.",
+      "buildVisibility exposes search-intent when custom query/answer items exist.",
+      "CertificateRenderer renders SearchIntent for the visible search-intent section.",
+      "SearchIntent renders the custom title, summary, related questions/answers, related keywords and notes."
+    ],
+    "indexingCheck": "PASS",
+    "indexingEvidence": "APPROVED_PRIVATE_SLUGS remains empty, so all reviewed private pages remain noindex.",
+    "reviewCriteria": [
+      "certificate-specific search intent and practical usefulness",
+      "duplication risk across shared template sections",
+      "verifiable official or primary-source support where claims can change or affect legal/safety decisions",
+      "independent value beyond generic registered-private-certificate guidance"
+    ],
+    "items": {
+      "barista": {"grade":"B","reason":"Search-intent content is clearly barista-specific, but eligibility, official-info, cost and much of the reality guidance remain shared-template dominant."},
+      "personal-color-consultant": {"grade":"B","reason":"Diagnosis, lighting and portfolio guidance add clear uniqueness, but the page still needs more certificate-specific curriculum, assessment and operator/source detail."},
+      "pet-behavior-specialist": {"grade":"B","reason":"Behavior observation, referral boundaries and safety guidance are useful, but stronger primary-source grounding and more role-specific curriculum/assessment detail are needed."},
+      "pet-funeral-director": {"grade":"B","reason":"Legal distinction from animal funeral business licensing materially improves the page, but the qualification-specific operator/registration and training structure are still not sufficiently deep for A."},
+      "pet-grooming-specialist": {"grade":"B","reason":"Hands-on grooming and safety guidance is distinct, while the remaining acquisition/cost/official sections still contain substantial shared-template language."},
+      "fitness-trainer": {"grade":"B","reason":"Programming, anatomy and referral-boundary guidance is useful, but qualification-specific assessment, education hours and stronger authoritative sourcing are still needed."},
+      "pilates-instructor": {"grade":"B","reason":"Equipment, cueing and teaching-practice content is distinct, but the page remains too generic about the actual private qualification structure and issuing bodies."},
+      "yoga-instructor": {"grade":"B","reason":"Sequencing, teaching and safety content is distinct, but qualification-specific curriculum/assessment and source depth remain insufficient."},
+      "video-editing-specialist": {"grade":"B","reason":"Portfolio, codec, audio and rights-aware workflow content improves independent value, but the qualification itself is still described largely through generic private-certificate structure."},
+      "web-design-specialist": {"grade":"B","reason":"Responsive design, HTML/CSS and accessibility content is useful, but the page needs more qualification-specific curriculum/assessment evidence and source-backed standards."},
+      "coding-instructor": {"grade":"B","reason":"Teaching-plan and classroom-skill guidance is distinct, but actual qualification curriculum, assessment and issuing-body evidence are not yet deep enough."},
+      "chatgpt-specialist": {"grade":"B","reason":"Verification, privacy and workplace-use guidance is highly relevant, but product-policy claims require maintained primary-source support and the qualification-specific structure is still thin."},
+      "generative-ai-specialist": {"grade":"B","reason":"Workflow, human verification and portfolio guidance add value, but qualification-specific training/assessment and primary-source grounding remain insufficient."},
+      "smart-store-specialist": {"grade":"B","reason":"Margin, returns, settlement and operations guidance is commercially useful, but the qualification-specific portion remains generic and platform information needs maintained primary-source support."},
+      "ecommerce-manager": {"grade":"B","reason":"Metrics, multi-channel operations and project-based practice are distinct, but qualification-specific curriculum/assessment and authoritative source support remain too shallow for A."}
+    },
+    "nextAction": "Deepen P1 pages one by one with verified qualification/operator/registration details where identifiable, certificate-specific curriculum/assessment structure, and primary-source-backed legal/platform/safety facts; then re-review individually and add only A slugs to APPROVED_PRIVATE_SLUGS."
+  },
   "notes": [
     "This audit covers the fixed 100-item private-certificate master list, not every repository entry whose basic.type is private.",
     "A is intentionally empty at this stage because the current 100 pages were produced from a highly shared template and should not be re-indexed before certificate-specific enhancement.",
     "B pages are not low-value by definition; they are the first recovery pool because their subject/job domains allow genuinely distinct content to be added.",
     "C pages should not be padded with generic prose. Reconsider indexability only after verifying the qualification's operator, registration/public status where applicable, real curriculum/assessment structure, and limits on professional practice claims.",
-    "Nationally accredited or international private credentials outside this fixed 100-item master list (for example ITQ or MOS) require a separate review and should not inherit this 100-item grade automatically."
+    "Nationally accredited or international private credentials outside this fixed 100-item master list (for example ITQ or MOS) require a separate review and should not inherit this 100-item grade automatically.",
+    "P1 search-intent enrichment passed the code-path rendering check, but none of the 15 pages met A because most non-search-intent sections still contain substantial shared-template content and qualification-specific primary-source evidence remains limited."
   ]
 }
