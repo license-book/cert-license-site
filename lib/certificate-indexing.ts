@@ -5,10 +5,10 @@ export type CertificateIndexingInput = {
 };
 
 // AdSense/검색 품질 점검 기간에는 민간자격 상세페이지를 보수적으로 운영합니다.
-// 국가자격은 기존대로 색인하고, 민간자격은 품질 검토 후 승인된 slug만 다시 색인합니다.
+// 국가자격은 기존대로 색인하고, 민간자격은 품질 검토 후 A등급으로 승인된 slug만 다시 색인합니다.
 // 페이지 자체를 삭제하지 않으므로 라북 내부 탐색과 직접 URL 접근은 계속 가능합니다.
 const APPROVED_PRIVATE_SLUGS = new Set<string>([
-  // 민간자격 100개 품질검토(A등급 또는 보강 완료 B등급) 후 순차적으로 추가합니다.
+  "barista",
 ]);
 
 export function isCertificateIndexable({
