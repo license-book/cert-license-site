@@ -14,6 +14,7 @@ const PRIVATE_ENRICHMENT_FILES = [
   path.join(process.cwd(), "data", "quality", "private-p2-next-group-enrichments.json"),
   path.join(process.cwd(), "data", "quality", "private-p2-next-group2-enrichments.json"),
   path.join(process.cwd(), "data", "quality", "private-p2-next-group3-enrichments.json"),
+  path.join(process.cwd(), "data", "quality", "private-p2-final-candidates-enrichments.json"),
 ];
 
 type PrivateEnrichment = Partial<CertificateData> & { searchIntent?: SearchIntentData };
