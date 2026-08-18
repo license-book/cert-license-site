@@ -1,5 +1,5 @@
 {
-  "version": "2026-08-19-v3",
+  "version": "2026-08-19-v4",
   "scope": "LABOOK private certificate master 100",
   "purpose": "AdSense/search quality review before re-indexing private certificate detail pages",
   "policy": {
@@ -14,11 +14,24 @@
   },
   "summary": {
     "total": 100,
-    "A": 1,
-    "B": 55,
+    "A": 12,
+    "B": 44,
     "C": 44
   },
-  "A": ["barista"],
+  "A": [
+    "barista",
+    "personal-color-consultant",
+    "pet-behavior-specialist",
+    "pet-funeral-director",
+    "pet-grooming-specialist",
+    "fitness-trainer",
+    "pilates-instructor",
+    "yoga-instructor",
+    "video-editing-specialist",
+    "coding-instructor",
+    "chatgpt-specialist",
+    "smart-store-specialist"
+  ],
   "B": [
     "ai-utilization-specialist",
     "balloon-art-instructor",
@@ -26,8 +39,6 @@
     "calligraphy-instructor",
     "candle-instructor",
     "cardnews-designer",
-    "chatgpt-specialist",
-    "coding-instructor",
     "computer-skills-instructor",
     "content-creator",
     "data-utilization-specialist",
@@ -37,7 +48,6 @@
     "ecommerce-manager",
     "exercise-prescription-specialist",
     "eyelash-extension-specialist",
-    "fitness-trainer",
     "generative-ai-specialist",
     "hair-styling-specialist",
     "health-manager",
@@ -52,28 +62,20 @@
     "natural-soap-instructor",
     "office-automation-specialist",
     "personal-branding-specialist",
-    "personal-color-consultant",
-    "pet-behavior-specialist",
-    "pet-funeral-director",
-    "pet-grooming-specialist",
     "pet-sitter",
     "pet-trainer",
     "photography-specialist",
-    "pilates-instructor",
     "presentation-specialist",
     "scalp-care-specialist",
     "shopping-mall-manager",
     "short-form-content-specialist",
     "skin-care-specialist",
-    "smart-store-specialist",
     "software-education-instructor",
     "sports-instructor",
     "tea-sommelier",
-    "video-editing-specialist",
     "waxing-specialist",
     "web-design-specialist",
     "wine-sommelier",
-    "yoga-instructor",
     "youtube-marketing-specialist"
   ],
   "C": [
@@ -123,20 +125,9 @@
     "youth-psychology-counselor"
   ],
   "bEnhancementPriority": {
-    "P1": [
-      "personal-color-consultant",
-      "pet-behavior-specialist",
-      "pet-funeral-director",
-      "pet-grooming-specialist",
-      "fitness-trainer",
-      "pilates-instructor",
-      "yoga-instructor",
-      "video-editing-specialist",
+    "P1_REMAINING": [
       "web-design-specialist",
-      "coding-instructor",
-      "chatgpt-specialist",
       "generative-ai-specialist",
-      "smart-store-specialist",
       "ecommerce-manager"
     ],
     "P2": [
@@ -187,26 +178,32 @@
   },
   "p1DeepReview": {
     "reviewedAt": "2026-08-19",
-    "barista": {
-      "grade": "A",
-      "indexing": "approved",
-      "reason": "The original shared-template page was substantially rewritten. It now explains that barista is not one unified national exam, gives multiple PQI registration examples and registration numbers, separates certificate acquisition from cafe food-service legal requirements, and provides barista-specific training, practical skill, cost, study, career and FAQ guidance.",
-      "verifiedSources": [
-        "PQI: 커피바리스타 2008-0125",
-        "PQI: 커피바리스타 2021-004248",
-        "PQI: 커피바리스타 2021-000948",
-        "국가법령정보센터: 식품위생법 시행령 제21조·제25조",
-        "Specialty Coffee Association: Barista Skills 공개 교육범위"
-      ],
-      "duplicationReview": "PASS - core sections are now barista-specific rather than generic private-certificate prose. Remaining unavoidable institution-specific variability is explained as part of the page's comparison value.",
-      "renderingReview": "PASS_BY_CODE_PATH - the existing certificate engine renders all rewritten sections and merges the P1 search-intent supplement.",
-      "action": "barista added to APPROVED_PRIVATE_SLUGS and restored to sitemap/indexing through the shared indexing policy."
-    }
+    "result": "12 of 15 P1 pages promoted to A after page-level rewrites and source verification; 3 remain B/noindex.",
+    "approved": {
+      "barista": "Multiple PQI registrations, barista-specific practical skills and cafe legal-use distinction verified.",
+      "personal-color-consultant": "PQI registration and grade-specific color-consulting duties verified; page rewritten around diagnosis, lighting, draping and portfolio.",
+      "pet-behavior-specialist": "Multiple same-name PQI registrations verified; page rewritten around behavior observation, safety, owner counseling and referral boundaries.",
+      "pet-funeral-director": "PQI registration plus Animal Protection Act permit distinction verified; page separates qualification from animal funeral business licensing.",
+      "pet-grooming-specialist": "PQI grooming registration and grade structure verified; page rewritten around model-dog practice, tools, safety and employment portfolio.",
+      "fitness-trainer": "Multiple PQI personal-trainer registrations and job duties verified; page rewritten around assessment, anatomy, programming, coaching and safety.",
+      "pilates-instructor": "PQI registrations with grade/apparatus differences verified; page rewritten around mat/apparatus scope, teaching practice, cueing and safety.",
+      "yoga-instructor": "Multiple PQI yoga-instructor registrations and anatomy/sequence duties verified; page rewritten around teaching, sequencing and safety.",
+      "video-editing-specialist": "Exact PQI registration verified; page rewritten around editing workflow, audio, codecs, rights and portfolio.",
+      "coding-instructor": "Exact PQI coding-instructor registration and grade duties verified; page rewritten around coding plus lesson design and mock teaching.",
+      "chatgpt-specialist": "Exact ChatGPT-related PQI registration plus current OpenAI accuracy and Data Controls guidance verified.",
+      "smart-store-specialist": "Smart-store-related PQI registration plus Naver seller-help operational areas verified; page rewritten around margin, orders, returns, settlement and data."
+    },
+    "held": {
+      "web-design-specialist": "Content was deeply rewritten and W3C WCAG 2.2 provides strong standards support, but an exact representative private qualification registration/operator was not confirmed in this pass.",
+      "generative-ai-specialist": "Content was deeply rewritten with current official AI-use guidance, but the exact representative private qualification registration/operator remains unverified.",
+      "ecommerce-manager": "Q-Net confirms national Electronic Commerce Manager levels 1 and 2, creating a high confusion risk. The private page was rewritten to separate the two systems, but an exact representative private registration was not confirmed."
+    },
+    "indexing": "Only the 12 approved slugs are in APPROVED_PRIVATE_SLUGS. The three held P1 pages remain noindex."
   },
   "notes": [
-    "This audit covers the fixed 100-item private-certificate master list.",
-    "A promotion requires a substantive page-level rewrite; adding only several search-intent answers is not sufficient.",
+    "A promotion requires a substantive page-level rewrite; adding only search-intent answers is not sufficient.",
     "Only A slugs are re-indexed. B and C pages remain noindex.",
-    "The next P1 item should be reviewed independently using the same source-first standard."
+    "P1 held pages should not be promoted merely to meet a target count; exact qualification identity and source support must be resolved first.",
+    "The next recovery pool is P2 after any desired follow-up verification of the three held P1 pages."
   ]
 }
