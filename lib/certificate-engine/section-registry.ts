@@ -4,7 +4,7 @@ export type SectionDefinition = { id: CertificateSectionId; label: string; delay
 
 export const CERTIFICATE_SECTIONS: readonly SectionDefinition[] = [
   { id: "intro", label: "자격증 소개", delay: 0 },
-  { id: "search-intent", label: "많이 찾는 질문", delay: 40, className: "mt-10 md:mt-12" },
+  { id: "search-intent", label: "관련 정보", delay: 40, className: "mt-10 md:mt-12" },
   { id: "official-info", label: "시험 정보", delay: 60, className: "mt-10 md:mt-12" },
   { id: "statistics", label: "시험 통계", delay: 100, className: "mt-10 md:mt-12" },
   { id: "eligibility", label: "응시자격", delay: 140 },
