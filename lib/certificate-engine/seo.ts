@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { buildCertificateJsonLd, buildCertificateMetadata, SITE_URL, type SeoPage } from "@/lib/seo";
+import { isCertificateIndexable } from "@/lib/certificate-indexing";
 import type { CertificateData } from "./types";
 
 function toSeoPage(cert: CertificateData): SeoPage {
@@ -22,7 +23,15 @@ function toSeoPage(cert: CertificateData): SeoPage {
 
 export function createCertificateMetadata(cert: CertificateData): Metadata {
   const metadata = buildCertificateMetadata(toSeoPage(cert));
-  return cert.seo?.noIndex ? { ...metadata, robots: { index: false, follow: false } } : metadata;
+  const indexable = isCertificateIndexable({
+    slug: cert.basic.slug,
+    type: cert.basic.type,
+    explicitNoIndex: cert.seo?.noIndex,
+  });
+
+  return indexable
+    ? metadata
+    : { ...metadata, robots: { index: false, follow: true } };
 }
 
 export function createCertificateJsonLd(cert: CertificateData): Record<string, unknown>[] {
