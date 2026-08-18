@@ -1,0 +1,34 @@
+{
+  "version": "2026-08-19-p3-review-v1",
+  "reviewedAt": "2026-08-19",
+  "scope": [
+    "balloon-art-instructor",
+    "calligraphy-instructor",
+    "candle-instructor",
+    "home-gardening-specialist",
+    "image-making-specialist",
+    "information-search-specialist",
+    "natural-soap-instructor",
+    "office-automation-specialist",
+    "presentation-specialist",
+    "sports-instructor"
+  ],
+  "summary": {"total":10,"A":2,"B":8,"indexRestored":2},
+  "approved": {
+    "balloon-art-instructor": "A - PQI exact registration 2016-004894, issuer 전북창업평생교육원 and 1·2·3급 duties were verified. Page content was deepened around event decoration, structure/safety, teaching and portfolio practice.",
+    "calligraphy-instructor": "A - PQI exact registration 2016-000229 and issuer 한국자격검정평가진흥원 were verified. Page content was deepened around lettering practice, teaching portfolio and rights considerations."
+  },
+  "held": {
+    "candle-instructor": "B - candle-specific safety, burn testing and workshop guidance were strengthened, but an exact same-name representative PQI registration/operator was not sufficiently verified.",
+    "home-gardening-specialist": "B - plant-care logging and distinction from national landscaping qualifications were strengthened, but exact qualification identity remains weak.",
+    "image-making-specialist": "B - consultation workflow and portfolio differentiation from personal-color work were strengthened, but exact representative registration remains ambiguous.",
+    "information-search-specialist": "B - PQI online information-search qualification 2021-002253 is relevant but not an exact name match, so it was not promoted.",
+    "natural-soap-instructor": "B - production safety and product-sale distinction were strengthened, but exact same-name PQI identity was not verified strongly enough.",
+    "office-automation-specialist": "B - useful distinction from the national Office Automation Industrial Engineer and practical OA projects were added, but exact private qualification identity remains insufficient.",
+    "presentation-specialist": "B - PQI Presentation Instructor 2014-0156 and other presentation qualifications provide strong related evidence, but the LABOOK qualification name is not an exact match.",
+    "sports-instructor": "B - the page now clearly separates private sports-instruction credentials from statutory national sports-instructor qualifications, but exact private qualification identity was not verified."
+  },
+  "indexingAfterReview": {"newlyApproved":["balloon-art-instructor","calligraphy-instructor"],"approvedPrivateTotal":29},
+  "decision": "Only exact-name, source-backed P3 pages were promoted. Related or similar qualifications were not treated as exact matches.",
+  "nextAction": "P3 is complete for the first pass. Revisit the eight held pages only when exact qualification identity and stronger source-backed curriculum/assessment evidence are available."
+}
