@@ -1,0 +1,22 @@
+{
+  "version": "2026-08-19-p2-top10-retry-v1",
+  "reviewedAt": "2026-08-19",
+  "scope": "P2 held 27 - highest A-potential 10 retry",
+  "summary": {"reviewed":10,"A":2,"B":8,"newlyIndexed":2},
+  "approved": {
+    "wine-sommelier": {"grade":"A","reason":"Exact PQI registration 2017-005721, issuer 한국커피와인교육원, ministry, 1급·2급 job descriptions and qualification acquisition records were verified. Page deepened around wine service, pairing, decanting, tasting and employment limitations."},
+    "tea-sommelier": {"grade":"A","reason":"Exact PQI registration 2012-1131, issuer 한국티소믈리에연구원, ministry, 3급·2급·1급·골드 job descriptions and recent acquisition records were verified. Page deepened around tea tasting, recommendation, service and grade differences."}
+  },
+  "held": {
+    "makeup-specialist":"B - PQI has related exact registrations such as 메이크업코디네이터 2023-002926 and 메이크업전문교육강사 2015-003775, but these are not an exact identity match for the LABOOK slug/title 메이크업전문가. Do not map a different credential merely to obtain a registration number.",
+    "eyelash-extension-specialist":"B - PQI verifies related 속눈썹교육전문가 2019-004625, but the LABOOK title is 속눈썹연장전문가. Exact identity and representative assessment structure remain insufficient.",
+    "scalp-care-specialist":"B - PQI verifies related 발모관리상담전문가 2019-004061, but this is not an exact match for 두피관리전문가 and includes health-related wording that requires conservative treatment.",
+    "nail-art-specialist":"B - statutory nail-beauty boundaries are useful, but this retry did not establish a sufficiently strong exact qualification identity matching the LABOOK title.",
+    "skin-care-specialist":"B - skin-beauty legal boundaries are clear, but exact private qualification registration matching the LABOOK title remains insufficient.",
+    "waxing-specialist":"B - depilation/skin-beauty legal boundaries improve accuracy, but exact credential identity and assessment evidence remain insufficient.",
+    "shopping-mall-manager":"B - e-commerce workflow and legal guidance are useful, but exact private qualification identity matching the LABOOK title remains weak.",
+    "software-education-instructor":"B - teaching/curriculum content is useful, but exact registration, grade and assessment evidence matching the LABOOK title remain insufficient."
+  },
+  "decision":"Only exact, source-backed qualification identities were promoted. Similar-sounding PQI credentials were not substituted for LABOOK titles.",
+  "indexingAfterReview":{"approvedPrivateTotal":18,"newlyApproved":["wine-sommelier","tea-sommelier"]}
+}
