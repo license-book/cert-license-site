@@ -1,0 +1,27 @@
+{
+  "version": "2026-08-19-p2-final-review-v1",
+  "reviewedAt": "2026-08-19",
+  "approvedPrivateBefore": 25,
+  "newlyApproved": {
+    "beauty-coordinator": {
+      "grade": "A",
+      "reason": "Exact-name public registration evidence was found for 뷰티코디네이터 2022-005051, and the page was deepened around curriculum, consulting/coordination work and the legal distinction from licensed beauty procedures."
+    },
+    "health-manager": {
+      "grade": "A",
+      "reason": "Multiple exact-name PQI registrations were verified, including 건강관리사 2022-004699 and 2017-003153; a current management-provider course also publishes 건강관리사 2021-000238 with 1·2급, curriculum and assessment details. The page now distinguishes this private qualification from medical acts and the national 건강운동관리사 credential."
+    }
+  },
+  "heldB": [
+    "content-creator",
+    "eyelash-extension-specialist",
+    "hair-styling-specialist",
+    "makeup-specialist",
+    "nail-art-specialist",
+    "scalp-care-specialist",
+    "skin-care-specialist"
+  ],
+  "heldReason": "Related or adjacent private qualifications exist, but the exact LABOOK qualification name plus representative registration/operator/assessment evidence was not strong enough to reopen indexing without risking name substitution or overclaiming.",
+  "approvedPrivateAfter": 27,
+  "policy": "Only exact-name, source-backed qualifications with materially distinct page content are indexed. Similar-name evidence alone is insufficient."
+}
