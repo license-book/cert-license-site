@@ -12,14 +12,18 @@ export function buildVisibility(
   relatedRoadmaps: RelatedRoadmapSummary[],
 ): Record<CertificateSectionId, boolean> {
   const hasAffiliate = Boolean(cert.affiliate?.lecture || cert.affiliate?.book || cert.affiliate?.application);
-  const hasSearchIntent = Boolean(
+  const hasCustomSearchIntent = Boolean(
     cert.searchIntent?.links?.some((item) => item.label?.trim() && item.href?.trim()) ||
     cert.searchIntent?.items?.some((item) => item.query?.trim() && item.answer?.trim()),
+  );
+  const hasAutomaticSearchIntent = cert.basic.type === "national" && Boolean(
+    cert.certificateIntro || cert.eligibility || cert.officialInfo || cert.exam ||
+    cert.keyInfo?.items?.length || cert.cost || cert.studyStrategy || cert.career,
   );
 
   return {
     "intro": Boolean(cert.certificateIntro),
-    "search-intent": hasSearchIntent,
+    "search-intent": hasCustomSearchIntent || hasAutomaticSearchIntent,
     "official-info": Boolean(cert.officialInfo || cert.exam),
     "statistics": cert.statistics?.enabled === true,
     "eligibility": Boolean(cert.eligibility),
