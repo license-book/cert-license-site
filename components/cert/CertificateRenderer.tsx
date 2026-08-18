@@ -24,7 +24,7 @@ function SectionContent({ id, model }: { id: CertificateSectionId; model: Certif
   const { cert, relatedItems, relatedRoadmaps } = model;
   switch (id) {
     case "intro": return cert.certificateIntro ? <CertificateIntro data={cert.certificateIntro} /> : null;
-    case "search-intent": return cert.searchIntent ? <SearchIntent data={cert.searchIntent} /> : null;
+    case "search-intent": return <SearchIntent data={cert.searchIntent} cert={cert} />;
     case "official-info": return <OfficialInfo data={cert.officialInfo} exam={cert.exam} examWeight={cert.charts?.examWeight?.items} />;
     case "statistics": return <ExamStatistics statistics={cert.statistics} />;
     case "eligibility": return <EligibilityInfo data={cert.eligibility} />;
@@ -60,15 +60,10 @@ export default function CertificateRenderer({ model }: { model: CertificateViewM
       />
       <DetailToc items={tocItems} />
       <section className="mx-auto max-w-[1200px] px-5 py-10 md:px-6 md:py-14">
-        <AdSlot
-          label="상단"
-          slot={process.env.NEXT_PUBLIC_ADSENSE_SLOT_TOP}
-          className="mt-0"
-        />
+        <AdSlot label="상단" slot={process.env.NEXT_PUBLIC_ADSENSE_SLOT_TOP} className="mt-0" />
 
         {CERTIFICATE_SECTIONS.map((section) => {
           if (!visibility[section.id]) return null;
-
           return (
             <div key={section.id}>
               <section id={section.id} className="scroll-mt-44 md:scroll-mt-52">
@@ -77,17 +72,9 @@ export default function CertificateRenderer({ model }: { model: CertificateViewM
                 </FadeInSection>
               </section>
 
-              {section.id === "summary" ? (
-                <AdSlot label="본문 중단 1" slot={process.env.NEXT_PUBLIC_ADSENSE_SLOT_MIDDLE_1} />
-              ) : null}
-
-              {section.id === "study-strategy" ? (
-                <AdSlot label="본문 중단 2" slot={process.env.NEXT_PUBLIC_ADSENSE_SLOT_MIDDLE_2} />
-              ) : null}
-
-              {section.id === "affiliate" ? (
-                <AdSlot label="하단" slot={process.env.NEXT_PUBLIC_ADSENSE_SLOT_BOTTOM} />
-              ) : null}
+              {section.id === "summary" ? <AdSlot label="본문 중단 1" slot={process.env.NEXT_PUBLIC_ADSENSE_SLOT_MIDDLE_1} /> : null}
+              {section.id === "study-strategy" ? <AdSlot label="본문 중단 2" slot={process.env.NEXT_PUBLIC_ADSENSE_SLOT_MIDDLE_2} /> : null}
+              {section.id === "affiliate" ? <AdSlot label="하단" slot={process.env.NEXT_PUBLIC_ADSENSE_SLOT_BOTTOM} /> : null}
             </div>
           );
         })}
