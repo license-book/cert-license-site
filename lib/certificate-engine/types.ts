@@ -1,11 +1,13 @@
 export type CertificateKind = "national" | "private";
 
 export type KeyInfoItem = { label: string; value: string; note?: string };
+export type SearchIntentLink = { label: string; keyword?: string; href: string };
 export type SearchIntentData = {
   title?: string;
   summary?: string;
   relatedKeywords?: string[];
-  items: {
+  links?: SearchIntentLink[];
+  items?: {
     query: string;
     intent?: string;
     answer: string;
