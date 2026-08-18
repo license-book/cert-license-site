@@ -40,6 +40,12 @@ const APPROVED_PRIVATE_SLUGS = new Set<string>([
   "reading-instructor",
   "pet-manager",
   "psychological-counselor",
+  "after-school-instructor",
+  "child-psychology-counselor",
+  "art-psychology-counselor",
+  "career-counselor",
+  "self-directed-learning-instructor",
+  "online-marketing-specialist",
 ]);
 
 export function isCertificateIndexable({
