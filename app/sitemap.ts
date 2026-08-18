@@ -1,8 +1,9 @@
 import type { MetadataRoute } from "next";
 import { getSeoPages, SITE_URL } from "@/lib/seo";
+import { isSeoPageIndexable } from "@/lib/certificate-indexing";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const pages = getSeoPages();
+  const pages = getSeoPages().filter(isSeoPageIndexable);
 
   const staticPages: MetadataRoute.Sitemap = [
     {
