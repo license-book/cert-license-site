@@ -1,0 +1,50 @@
+{
+  "version": "2026-08-19-p2-remaining29-v1",
+  "scope": "P2 remaining 29 after AI활용전문가 and 디지털리터러시지도사",
+  "reviewedAt": "2026-08-19",
+  "summary": {"total":29,"A":2,"B":27,"indexRestored":2},
+  "approved": {
+    "pet-sitter": {
+      "grade":"A",
+      "reason":"PQI exact registration 2021-003741 and issuer 한국반려동물전문가협회 were verified. The page was further rewritten around handoff records, escape prevention, emergency escalation and the distinction between private qualification and Animal Protection Act animal-consignment business requirements.",
+      "sources":["PQI 펫시터 2021-003741","동물보호법·시행규칙 동물위탁관리업"]
+    },
+    "pet-trainer": {
+      "grade":"A",
+      "reason":"PQI exact registration 2019-002980 and issuer 동아보건대학교 were verified. The page was further rewritten around behavior observation, reinforcement planning, owner education, veterinary referral boundaries and the distinction between qualification and registered animal-business operations.",
+      "sources":["PQI 반려동물훈련사 2019-002980","동물보호법 관련 영업제도"]
+    }
+  },
+  "held": {
+    "beauty-coordinator":"B - beauty-law boundaries are useful, but an exact representative registration/operator and assessment structure were not sufficiently verified.",
+    "cardnews-designer":"B - portfolio and copyright guidance are specific, but qualification identity and assessment evidence remain weak.",
+    "computer-skills-instructor":"B - teaching content is useful, but exact registration/grade/curriculum evidence is insufficient.",
+    "content-creator":"B - sponsorship disclosure and rights guidance improve value, but exact qualification identity remains weak.",
+    "data-utilization-specialist":"B - privacy and data-quality guidance are useful, but qualification-specific curriculum and assessment evidence remain insufficient.",
+    "digital-drawing-specialist":"B - portfolio and copyright guidance are distinct, but exact qualification/operator evidence remains shallow.",
+    "dog-walker":"B - safety and animal-law boundaries are useful, but an exact representative private qualification registration was not confirmed strongly enough in this pass.",
+    "exercise-prescription-specialist":"B - distinction from the national Health Exercise Manager is important, but exact private qualification identity remains ambiguous.",
+    "eyelash-extension-specialist":"B - statutory beauty-work boundaries and hygiene guidance are clear, but exact registration/operator evidence remains insufficient.",
+    "hair-styling-specialist":"B - general-beauty scope is clear, but exact private qualification registration and assessment evidence remain weak.",
+    "health-manager":"B - medical and statutory health-manager confusion is reduced, but the private credential name is too ambiguous for indexing.",
+    "home-organizing-specialist":"B - service workflow and privacy guidance are useful, but public qualification evidence remains limited.",
+    "illustration-specialist":"B - portfolio, contract and copyright guidance are distinct, but exact qualification identity remains weak.",
+    "live-commerce-specialist":"B - e-commerce compliance and live-selling workflow are useful, but exact private qualification identity remains insufficient.",
+    "makeup-specialist":"B - statutory makeup-beauty scope and hygiene are clear, but exact private registration/operator evidence remains shallow.",
+    "nail-art-specialist":"B - nail-beauty legal boundaries and hygiene are useful, but exact qualification identity needs deeper evidence.",
+    "personal-branding-specialist":"B - case-based branding content is useful, but the qualification label remains broad and weakly verifiable.",
+    "photography-specialist":"B - portfolio, model-release and usage-rights guidance are useful, but exact qualification identity remains weak.",
+    "scalp-care-specialist":"B - medical and general-beauty boundaries are clear, but exact private registration/operator evidence remains insufficient.",
+    "shopping-mall-manager":"B - order/return/settlement and e-commerce compliance content are useful, but exact qualification identity remains weak.",
+    "short-form-content-specialist":"B - platform workflow and rights guidance are distinct, but qualification-specific public evidence remains insufficient.",
+    "skin-care-specialist":"B - skin-beauty licensing and medical-boundary content are clear, but exact private registration evidence remains shallow.",
+    "software-education-instructor":"B - lesson-design and curriculum-alignment content are useful, but exact qualification registration/grade evidence remains insufficient.",
+    "tea-sommelier":"B - tea-service practice and food-business distinction add value, but exact registration/operator evidence remains insufficient.",
+    "waxing-specialist":"B - statutory skin-beauty depilation scope improves legal accuracy, but exact qualification identity remains weak.",
+    "wine-sommelier":"B - service practice and alcohol-business distinction are useful, but exact private qualification identity remains insufficient.",
+    "youtube-marketing-specialist":"B - performance metrics, sponsorship disclosure and rights guidance are specific, but exact qualification registration/assessment evidence remains weak."
+  },
+  "decision":"Only pet-sitter and pet-trainer were promoted. All other remaining P2 pages stay noindex. No page was promoted solely because its topic had useful generic content.",
+  "indexingAfterReview": {"newlyApproved":["pet-sitter","pet-trainer"],"approvedPrivateTotal":16},
+  "nextAction":"Move to P3 or return to held P1/P2 pages only when exact qualification identity and stronger source-backed assessment/curriculum evidence can be established."
+}
