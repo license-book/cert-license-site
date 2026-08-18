@@ -20,6 +20,8 @@ const APPROVED_PRIVATE_SLUGS = new Set<string>([
   "coding-instructor",
   "chatgpt-specialist",
   "smart-store-specialist",
+  "ai-utilization-specialist",
+  "digital-literacy-instructor",
 ]);
 
 export function isCertificateIndexable({
