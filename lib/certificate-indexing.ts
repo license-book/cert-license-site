@@ -10,6 +10,7 @@ export type CertificateIndexingInput = {
 const APPROVED_PRIVATE_SLUGS = new Set<string>([
   "barista",
   "personal-color-consultant",
+  "pet-behavior-specialist",
 ]);
 
 export function isCertificateIndexable({
