@@ -1,28 +1,27 @@
 {
-  "version": "2026-08-19-v2",
+  "version": "2026-08-19-v3",
   "scope": "LABOOK private certificate master 100",
   "purpose": "AdSense/search quality review before re-indexing private certificate detail pages",
   "policy": {
-    "A": "Current page has enough certificate-specific, independently useful content to be considered for immediate indexing.",
-    "B": "Page has a concrete subject or job/skill domain, but shared-template content is still too prominent. Add certificate-specific content before indexing.",
-    "C": "High duplication/ambiguity risk or weak independent qualification value. Keep noindex until a deeper rewrite with verifiable certificate-specific information is completed."
+    "A": "Certificate-specific content, independently useful guidance and verifiable source support are sufficient for indexing.",
+    "B": "The subject has recovery value but still needs deeper certificate-specific content or source support before indexing.",
+    "C": "High duplication/ambiguity risk or weak independent qualification value; keep noindex until a deeper rewrite."
   },
   "indexingPolicy": {
-    "A": "index candidate",
+    "A": "index",
     "B": "noindex until enhanced",
     "C": "keep noindex"
   },
   "summary": {
     "total": 100,
-    "A": 0,
-    "B": 56,
+    "A": 1,
+    "B": 55,
     "C": 44
   },
-  "A": [],
+  "A": ["barista"],
   "B": [
     "ai-utilization-specialist",
     "balloon-art-instructor",
-    "barista",
     "beauty-coordinator",
     "calligraphy-instructor",
     "candle-instructor",
@@ -125,7 +124,6 @@
   ],
   "bEnhancementPriority": {
     "P1": [
-      "barista",
       "personal-color-consultant",
       "pet-behavior-specialist",
       "pet-funeral-director",
@@ -187,49 +185,28 @@
       "sports-instructor"
     ]
   },
-  "p1PostEnhancementReview": {
+  "p1DeepReview": {
     "reviewedAt": "2026-08-19",
-    "result": "No P1 page promoted to A in this pass; keep all 15 noindex.",
-    "renderingCheck": "PASS_BY_CODE_PATH",
-    "renderingEvidence": [
-      "loadCertificate merges data/quality/private-p1-enrichments.json for private certificate slugs.",
-      "buildVisibility exposes search-intent when custom query/answer items exist.",
-      "CertificateRenderer renders SearchIntent for the visible search-intent section.",
-      "SearchIntent renders the custom title, summary, related questions/answers, related keywords and notes."
-    ],
-    "indexingCheck": "PASS",
-    "indexingEvidence": "APPROVED_PRIVATE_SLUGS remains empty, so all reviewed private pages remain noindex.",
-    "reviewCriteria": [
-      "certificate-specific search intent and practical usefulness",
-      "duplication risk across shared template sections",
-      "verifiable official or primary-source support where claims can change or affect legal/safety decisions",
-      "independent value beyond generic registered-private-certificate guidance"
-    ],
-    "items": {
-      "barista": {"grade":"B","reason":"Search-intent content is clearly barista-specific, but eligibility, official-info, cost and much of the reality guidance remain shared-template dominant."},
-      "personal-color-consultant": {"grade":"B","reason":"Diagnosis, lighting and portfolio guidance add clear uniqueness, but the page still needs more certificate-specific curriculum, assessment and operator/source detail."},
-      "pet-behavior-specialist": {"grade":"B","reason":"Behavior observation, referral boundaries and safety guidance are useful, but stronger primary-source grounding and more role-specific curriculum/assessment detail are needed."},
-      "pet-funeral-director": {"grade":"B","reason":"Legal distinction from animal funeral business licensing materially improves the page, but the qualification-specific operator/registration and training structure are still not sufficiently deep for A."},
-      "pet-grooming-specialist": {"grade":"B","reason":"Hands-on grooming and safety guidance is distinct, while the remaining acquisition/cost/official sections still contain substantial shared-template language."},
-      "fitness-trainer": {"grade":"B","reason":"Programming, anatomy and referral-boundary guidance is useful, but qualification-specific assessment, education hours and stronger authoritative sourcing are still needed."},
-      "pilates-instructor": {"grade":"B","reason":"Equipment, cueing and teaching-practice content is distinct, but the page remains too generic about the actual private qualification structure and issuing bodies."},
-      "yoga-instructor": {"grade":"B","reason":"Sequencing, teaching and safety content is distinct, but qualification-specific curriculum/assessment and source depth remain insufficient."},
-      "video-editing-specialist": {"grade":"B","reason":"Portfolio, codec, audio and rights-aware workflow content improves independent value, but the qualification itself is still described largely through generic private-certificate structure."},
-      "web-design-specialist": {"grade":"B","reason":"Responsive design, HTML/CSS and accessibility content is useful, but the page needs more qualification-specific curriculum/assessment evidence and source-backed standards."},
-      "coding-instructor": {"grade":"B","reason":"Teaching-plan and classroom-skill guidance is distinct, but actual qualification curriculum, assessment and issuing-body evidence are not yet deep enough."},
-      "chatgpt-specialist": {"grade":"B","reason":"Verification, privacy and workplace-use guidance is highly relevant, but product-policy claims require maintained primary-source support and the qualification-specific structure is still thin."},
-      "generative-ai-specialist": {"grade":"B","reason":"Workflow, human verification and portfolio guidance add value, but qualification-specific training/assessment and primary-source grounding remain insufficient."},
-      "smart-store-specialist": {"grade":"B","reason":"Margin, returns, settlement and operations guidance is commercially useful, but the qualification-specific portion remains generic and platform information needs maintained primary-source support."},
-      "ecommerce-manager": {"grade":"B","reason":"Metrics, multi-channel operations and project-based practice are distinct, but qualification-specific curriculum/assessment and authoritative source support remain too shallow for A."}
-    },
-    "nextAction": "Deepen P1 pages one by one with verified qualification/operator/registration details where identifiable, certificate-specific curriculum/assessment structure, and primary-source-backed legal/platform/safety facts; then re-review individually and add only A slugs to APPROVED_PRIVATE_SLUGS."
+    "barista": {
+      "grade": "A",
+      "indexing": "approved",
+      "reason": "The original shared-template page was substantially rewritten. It now explains that barista is not one unified national exam, gives multiple PQI registration examples and registration numbers, separates certificate acquisition from cafe food-service legal requirements, and provides barista-specific training, practical skill, cost, study, career and FAQ guidance.",
+      "verifiedSources": [
+        "PQI: 커피바리스타 2008-0125",
+        "PQI: 커피바리스타 2021-004248",
+        "PQI: 커피바리스타 2021-000948",
+        "국가법령정보센터: 식품위생법 시행령 제21조·제25조",
+        "Specialty Coffee Association: Barista Skills 공개 교육범위"
+      ],
+      "duplicationReview": "PASS - core sections are now barista-specific rather than generic private-certificate prose. Remaining unavoidable institution-specific variability is explained as part of the page's comparison value.",
+      "renderingReview": "PASS_BY_CODE_PATH - the existing certificate engine renders all rewritten sections and merges the P1 search-intent supplement.",
+      "action": "barista added to APPROVED_PRIVATE_SLUGS and restored to sitemap/indexing through the shared indexing policy."
+    }
   },
   "notes": [
-    "This audit covers the fixed 100-item private-certificate master list, not every repository entry whose basic.type is private.",
-    "A is intentionally empty at this stage because the current 100 pages were produced from a highly shared template and should not be re-indexed before certificate-specific enhancement.",
-    "B pages are not low-value by definition; they are the first recovery pool because their subject/job domains allow genuinely distinct content to be added.",
-    "C pages should not be padded with generic prose. Reconsider indexability only after verifying the qualification's operator, registration/public status where applicable, real curriculum/assessment structure, and limits on professional practice claims.",
-    "Nationally accredited or international private credentials outside this fixed 100-item master list (for example ITQ or MOS) require a separate review and should not inherit this 100-item grade automatically.",
-    "P1 search-intent enrichment passed the code-path rendering check, but none of the 15 pages met A because most non-search-intent sections still contain substantial shared-template content and qualification-specific primary-source evidence remains limited."
+    "This audit covers the fixed 100-item private-certificate master list.",
+    "A promotion requires a substantive page-level rewrite; adding only several search-intent answers is not sufficient.",
+    "Only A slugs are re-indexed. B and C pages remain noindex.",
+    "The next P1 item should be reviewed independently using the same source-first standard."
   ]
 }
