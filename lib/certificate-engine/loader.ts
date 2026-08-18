@@ -4,18 +4,15 @@ import type { CertificateData, CertificateKind, SearchIntentData } from "./types
 
 const ROOT = path.join(process.cwd(), "data", "certificates");
 const KIND_FOLDERS: CertificateKind[] = ["national", "private"];
-const PRIVATE_P1_ENRICHMENT_FILE = path.join(
-  process.cwd(),
-  "data",
-  "quality",
-  "private-p1-enrichments.json",
-);
+const PRIVATE_ENRICHMENT_FILES = [
+  path.join(process.cwd(), "data", "quality", "private-p1-enrichments.json"),
+  path.join(process.cwd(), "data", "quality", "private-p2-enrichments.json"),
+];
 
-type PrivateP1EnrichmentFile = {
-  items?: Record<string, { searchIntent?: SearchIntentData }>;
-};
+type PrivateEnrichment = Partial<CertificateData> & { searchIntent?: SearchIntentData };
+type PrivateEnrichmentFile = { items?: Record<string, PrivateEnrichment> };
 
-let privateP1EnrichmentCache: PrivateP1EnrichmentFile | null | undefined;
+let privateEnrichmentCache: PrivateEnrichmentFile[] | undefined;
 
 function candidates(slug: string): string[] {
   return [
@@ -24,23 +21,20 @@ function candidates(slug: string): string[] {
   ];
 }
 
-function loadPrivateP1Enrichments(): PrivateP1EnrichmentFile | null {
-  if (privateP1EnrichmentCache !== undefined) return privateP1EnrichmentCache;
+function loadPrivateEnrichments(): PrivateEnrichmentFile[] {
+  if (privateEnrichmentCache !== undefined) return privateEnrichmentCache;
 
-  try {
-    if (!fs.existsSync(PRIVATE_P1_ENRICHMENT_FILE)) {
-      privateP1EnrichmentCache = null;
-      return null;
+  privateEnrichmentCache = PRIVATE_ENRICHMENT_FILES.flatMap((file) => {
+    try {
+      if (!fs.existsSync(file)) return [];
+      return [JSON.parse(fs.readFileSync(file, "utf-8")) as PrivateEnrichmentFile];
+    } catch (error) {
+      console.error(`민간자격 보강 JSON 읽기 실패: ${file}`, error);
+      return [];
     }
-    privateP1EnrichmentCache = JSON.parse(
-      fs.readFileSync(PRIVATE_P1_ENRICHMENT_FILE, "utf-8"),
-    ) as PrivateP1EnrichmentFile;
-    return privateP1EnrichmentCache;
-  } catch (error) {
-    console.error("민간자격 P1 보강 JSON 읽기 실패", error);
-    privateP1EnrichmentCache = null;
-    return null;
-  }
+  });
+
+  return privateEnrichmentCache;
 }
 
 function mergeSearchIntent(
@@ -71,16 +65,22 @@ function mergeSearchIntent(
   };
 }
 
-function applyPrivateP1Enrichment(data: CertificateData): CertificateData {
+function applyPrivateEnrichments(data: CertificateData): CertificateData {
   if (data.basic?.type !== "private") return data;
 
-  const extra = loadPrivateP1Enrichments()?.items?.[data.basic.slug];
-  if (!extra) return data;
+  return loadPrivateEnrichments().reduce((current, file) => {
+    const extra = file.items?.[current.basic.slug];
+    if (!extra) return current;
 
-  return {
-    ...data,
-    searchIntent: mergeSearchIntent(data.searchIntent, extra.searchIntent),
-  };
+    return {
+      ...current,
+      ...extra,
+      basic: current.basic,
+      hero: extra.hero ? { ...current.hero, ...extra.hero } : current.hero,
+      keyInfo: extra.keyInfo ?? current.keyInfo,
+      searchIntent: mergeSearchIntent(current.searchIntent, extra.searchIntent),
+    } as CertificateData;
+  }, data);
 }
 
 export function getCertificatePath(slug: string): string | null {
@@ -96,7 +96,7 @@ export function loadCertificate(slug: string): CertificateData | null {
       console.error(`자격증 slug 불일치: ${file}`);
       return null;
     }
-    return applyPrivateP1Enrichment(data);
+    return applyPrivateEnrichments(data);
   } catch (error) {
     console.error(`자격증 JSON 읽기 실패: ${slug}`, error);
     return null;
