@@ -1,0 +1,12 @@
+{
+  "version": "2026-08-19-p2-next-group2-review-v1",
+  "reviewedAt": "2026-08-19",
+  "summary": {"reviewed": 3, "A": 0, "B": 3, "indexRestored": 0},
+  "items": {
+    "computer-skills-instructor": {"grade":"B","reason":"Exact-name public qualification data and 1급·2급 duties were found, but a current PQI registration number and direct official operator page were not confirmed strongly enough for A."},
+    "photography-specialist": {"grade":"B","reason":"Exact-name public qualification data and the operator 한국자격관리평가원 were found, but current registration number/assessment details remain insufficient for A."},
+    "waxing-specialist": {"grade":"B","reason":"Government Work24 data confirms waxing-specialist credentials appear in vocational-training instructor records and the legal beauty-work boundary is clear, but the exact private qualification registration/operator was not independently confirmed."}
+  },
+  "decision":"All three pages were deeply enriched but remain noindex. No slug was added to APPROVED_PRIVATE_SLUGS.",
+  "nextCandidates":["cardnews-designer","data-utilization-specialist","digital-drawing-specialist","illustration-specialist","short-form-content-specialist","youtube-marketing-specialist"]
+}
