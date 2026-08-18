@@ -1,0 +1,21 @@
+{
+  "version": "2026-08-19-p2-retry-top10-review-v1",
+  "reviewedAt": "2026-08-19",
+  "summary": {"total": 10, "A": 6, "B": 4, "indexRestored": 6},
+  "approved": {
+    "home-organizing-specialist": {"grade":"A","evidence":["PQI 정리수납전문가 2016-005470","한국정리수납교육센터","1급·2급 직무내용 공개"],"reason":"정확한 동일 명칭 등록정보와 등급별 직무가 확인되었고 공간진단·분류·유지체계·고객상담 중심으로 페이지 고유성이 충분히 강화됨."},
+    "shopping-mall-manager": {"grade":"A","evidence":["쇼핑몰관리사 1급 2021-000897","한국직업능력검정협회","공개 커리큘럼·합격기준"],"reason":"동일 자격명·등록번호·과정구조를 확인했고 상품선정부터 고객관리·손익·전자상거래 의무까지 실무형 콘텐츠로 심층 보강함."},
+    "live-commerce-specialist": {"grade":"A","evidence":["라이브커머스전문가 2023-004300","한국평생교육인증원","1·2급·커리큘럼·평가기준 공개"],"reason":"정확한 등록정보와 실습범위가 확인되었고 방송기획·쇼호스트·PD·판매자 법적 의무를 구분해 독립적인 실무 페이지로 강화함."},
+    "software-education-instructor": {"grade":"A","evidence":["소프트웨어교육지도사 2022-000447","소프트웨어교육지도사 2021-000896","소프트웨어교육지도사 2021-000902"],"reason":"동일 명칭 복수 등록과 실제 커리큘럼·평가구조가 확인되어 하나의 공통시험이 아니라는 점을 명확히 하고 수업안·모의수업 중심의 고유 콘텐츠를 추가함."},
+    "dog-walker": {"grade":"A","evidence":["도그워커 2026-000482","한국교육과정평가협회","4주 과정·시험 60점 기준"],"reason":"정확한 동일 명칭 등록정보가 확인되었고 산책 안전·장비점검·행동관찰·인계기록·동물보호법상 영업구분까지 보강함."},
+    "personal-branding-specialist": {"grade":"A","evidence":["퍼스널브랜딩전문가 2022-000685","(주)한국교육검정원","진도율·시험 기준과 커리큘럼 공개"],"reason":"동일 명칭 등록번호와 평가·교육구조가 확인되었고 셀프분석·브랜드메시지·사례 포트폴리오·성과검증 중심으로 고유성을 확보함."}
+  },
+  "held": {
+    "content-creator": {"grade":"B","reason":"1인미디어콘텐츠창작자 2022-001026 등 관련 자격은 확인했지만 라북의 콘텐츠크리에이터와 정확히 동일한 대표 등록자격을 확정하지 못해 유사 등록번호를 대표값으로 사용하지 않음."},
+    "makeup-specialist": {"grade":"B","reason":"국가기술자격 미용사(메이크업)과 여러 민간 메이크업 관련 자격은 확인했지만 메이크업전문가라는 라북 자격명과 정확히 일치하는 대표 등록자격을 이번 검토에서 확정하지 못함."},
+    "nail-art-specialist": {"grade":"B","reason":"네일아트강사 2023-003950 등 관련 등록자격은 확인했으나 네일아트전문가와 동일 명칭이 아니므로 A 승격 보류."},
+    "skin-care-specialist": {"grade":"B","reason":"피부미용코디네이터·미용사(피부) 등 관련 제도는 확인했지만 피부관리전문가와 정확히 동일한 대표 민간자격 등록정보를 확정하지 못함."}
+  },
+  "indexingAfterReview": {"approvedPrivateTotal": 24, "newlyApproved":["home-organizing-specialist","shopping-mall-manager","live-commerce-specialist","software-education-instructor","dog-walker","personal-branding-specialist"]},
+  "decision":"정확한 자격 정체성·등록정보·교육 또는 평가구조가 확인되고 전체 페이지 고유성이 충분히 강화된 6개만 index 복구. 나머지 4개는 noindex 유지."
+}
