@@ -9,6 +9,7 @@ export type CertificateIndexingInput = {
 // 페이지 자체를 삭제하지 않으므로 라북 내부 탐색과 직접 URL 접근은 계속 가능합니다.
 const APPROVED_PRIVATE_SLUGS = new Set<string>([
   "barista",
+  "personal-color-consultant",
 ]);
 
 export function isCertificateIndexable({
