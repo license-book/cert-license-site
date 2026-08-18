@@ -1,0 +1,17 @@
+{
+  "version": "2026-08-19-p2-next-group3-review-v1",
+  "reviewedAt": "2026-08-19",
+  "scope": ["cardnews-designer","data-utilization-specialist","digital-drawing-specialist","illustration-specialist","short-form-content-specialist","youtube-marketing-specialist"],
+  "summary": {"total":6,"A":0,"B":6,"indexRestored":0},
+  "held": {
+    "cardnews-designer":"B - information architecture, mobile readability, portfolio and copyright content were deepened, but an exact representative PQI registration/operator/assessment structure was not verified.",
+    "data-utilization-specialist":"B - data cleaning, metric definition, privacy and project workflow are now qualification-specific in usefulness, but exact qualification identity and public assessment evidence remain insufficient.",
+    "digital-drawing-specialist":"B - original-work portfolio, production process and copyright boundaries were strengthened, but exact representative private-qualification evidence remains weak.",
+    "illustration-specialist":"B - commission workflow, usage rights and case-study portfolio content are distinct, but exact qualification registration and assessment evidence remain insufficient.",
+    "short-form-content-specialist":"B - KPI selection, iterative experiments, music licensing and sponsorship disclosure were strengthened, but exact qualification registration/operator evidence was not verified.",
+    "youtube-marketing-specialist":"B - channel KPI analysis, copyright, paid-promotion disclosure and channel-project practice were strengthened using official YouTube/FTC guidance, but exact representative PQI qualification evidence remains insufficient."
+  },
+  "decision":"No index approvals in this pass. The six pages are materially more useful, but A-grade requires both strong page-specific content and a verifiable qualification identity. All six remain noindex.",
+  "approvedPrivateTotalAfterReview":25,
+  "nextAction":"Continue with the remaining P2 B pages, prioritizing names with exact PQI identity or a clearly verifiable statutory/professional distinction."
+}
