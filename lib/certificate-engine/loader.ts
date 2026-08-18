@@ -7,6 +7,7 @@ const KIND_FOLDERS: CertificateKind[] = ["national", "private"];
 const PRIVATE_ENRICHMENT_FILES = [
   path.join(process.cwd(), "data", "quality", "private-p1-enrichments.json"),
   path.join(process.cwd(), "data", "quality", "private-p2-enrichments.json"),
+  path.join(process.cwd(), "data", "quality", "private-p2-deep-enrichments.json"),
 ];
 
 type PrivateEnrichment = Partial<CertificateData> & { searchIntent?: SearchIntentData };
@@ -44,12 +45,9 @@ function mergeSearchIntent(
   if (!extra) return base;
   if (!base) return extra;
 
-  const relatedKeywords = Array.from(
-    new Set([...(base.relatedKeywords ?? []), ...(extra.relatedKeywords ?? [])]),
-  );
+  const relatedKeywords = Array.from(new Set([...(base.relatedKeywords ?? []), ...(extra.relatedKeywords ?? [])]));
   const links = [...(base.links ?? []), ...(extra.links ?? [])].filter(
-    (item, index, array) =>
-      array.findIndex((candidate) => candidate.href === item.href && candidate.label === item.label) === index,
+    (item, index, array) => array.findIndex((candidate) => candidate.href === item.href && candidate.label === item.label) === index,
   );
   const items = [...(base.items ?? []), ...(extra.items ?? [])].filter(
     (item, index, array) => array.findIndex((candidate) => candidate.query === item.query) === index,
