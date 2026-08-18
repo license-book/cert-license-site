@@ -13,6 +13,7 @@ export function buildVisibility(
 ): Record<CertificateSectionId, boolean> {
   const hasAffiliate = Boolean(cert.affiliate?.lecture || cert.affiliate?.book || cert.affiliate?.application);
   const hasSearchIntent = Boolean(
+    cert.searchIntent?.links?.some((item) => item.label?.trim() && item.href?.trim()) ||
     cert.searchIntent?.items?.some((item) => item.query?.trim() && item.answer?.trim()),
   );
 
