@@ -1,0 +1,25 @@
+{
+  "version": "2026-08-19-cp1-review-v1",
+  "reviewedAt": "2026-08-19",
+  "scope": ["reading-instructor", "pet-manager", "psychological-counselor"],
+  "summary": {"total": 3, "A": 3, "B": 0, "indexRestored": 3, "approvedPrivateTotal": 32},
+  "approved": {
+    "reading-instructor": {
+      "grade": "A",
+      "reason": "Exact PQI registration 2014-6150 for 독서지도사 was verified, including issuer and 2026 examination schedule. The page was rewritten around book selection, question design, discussion, writing, lesson plans and instructor recruitment realities.",
+      "sources": ["PQI 독서지도사 2014-6150"]
+    },
+    "pet-manager": {
+      "grade": "A",
+      "reason": "Exact PQI registration 2022-004777 for 반려동물관리사 and issuer (주)한국자격증교육협회 were verified. The page was rewritten around animal welfare, safety, handoff records, veterinary boundaries and occupation-specific legal checks.",
+      "sources": ["PQI 반려동물관리사 2022-004777"]
+    },
+    "psychological-counselor": {
+      "grade": "A",
+      "reason": "Multiple exact PQI registrations for 심리상담사 were verified, including 2013-0668. The page was rewritten to emphasize identical-name multiplicity, counseling ethics, case boundaries, referral criteria and the distinction between a registered private qualification and statutory/medical professional authority.",
+      "sources": ["PQI 심리상담사 2013-0668", "PQI 동일 명칭 복수 등록 사례"]
+    }
+  },
+  "decision": "All three pages passed because exact same-name qualification identity was verified and the body content was substantially differentiated beyond the shared private-certificate template. Only these three C-P1 pages were re-indexed in this pass.",
+  "nextAction": "Continue C-P1 with after-school-instructor, child-psychology-counselor, art-psychology-counselor, career-counselor, self-directed-learning-instructor, dementia-prevention-instructor and online-marketing-specialist."
+}
