@@ -1,0 +1,74 @@
+{
+  "version": "2026-08-19-c-recovery-v1",
+  "scope": "C-grade 44 recovery prioritization",
+  "criteria": [
+    "검색가치와 독립 검색의도",
+    "PQI에서 정확한 동일 명칭 등록자격 확인 가능성",
+    "기존 A/B 페이지와 중복되지 않는 독립 콘텐츠 가능성"
+  ],
+  "C_P1": [
+    "psychological-counselor",
+    "reading-instructor",
+    "after-school-instructor",
+    "pet-manager",
+    "child-psychology-counselor",
+    "art-psychology-counselor",
+    "career-counselor",
+    "self-directed-learning-instructor",
+    "dementia-prevention-instructor",
+    "online-marketing-specialist"
+  ],
+  "C_P2": [
+    "family-psychology-counselor",
+    "youth-psychology-counselor",
+    "senior-psychology-counselor",
+    "music-psychology-counselor",
+    "anger-management-counselor",
+    "learning-coach",
+    "parent-education-instructor",
+    "character-education-instructor",
+    "nie-instructor",
+    "sns-marketing-specialist",
+    "blog-marketing-specialist",
+    "brand-manager",
+    "pet-aromatherapy-specialist",
+    "pet-massage-specialist",
+    "cat-manager"
+  ],
+  "HOLD": [
+    "nlp-psychology-counselor",
+    "creativity-instructor",
+    "debate-instructor",
+    "elder-care-instructor",
+    "horticultural-therapy-specialist",
+    "laughter-therapy-specialist",
+    "meditation-instructor",
+    "origami-instructor",
+    "rehabilitation-exercise-instructor",
+    "senior-art-instructor",
+    "senior-exercise-instructor",
+    "senior-fitness-instructor",
+    "senior-psychology-activity-instructor",
+    "silver-care-specialist",
+    "silver-cognitive-play-instructor",
+    "silver-laughter-instructor",
+    "silver-leisure-instructor",
+    "silver-recreation-instructor",
+    "storytelling-instructor"
+  ],
+  "verifiedExamples": {
+    "reading-instructor": [
+      "PQI 독서지도사 2014-6150 / (주)한국교육진흥협회",
+      "PQI 독서지도사 2008-0024 / (사)한국독서문화재단",
+      "PQI 독서지도사 2009-0233 / 사단법인한국대학평생교육원협의회"
+    ],
+    "pet-manager": [
+      "PQI 반려동물관리사 2022-004777 / (주)한국자격증교육협회",
+      "PQI 반려동물관리사 2015-004799 / (주)한국자격개발원"
+    ],
+    "psychological-counselor": [
+      "PQI 심리상담사 동일명칭 등록 사례와 1급 검정·취득현황 확인 가능"
+    ]
+  },
+  "policy": "C_P1부터 심층보강하고, 정확한 자격 정체성과 독립 콘텐츠가 모두 확보된 경우에만 A로 승격한다. 유사 명칭만 확인되는 경우는 C 또는 B로 유지한다."
+}
