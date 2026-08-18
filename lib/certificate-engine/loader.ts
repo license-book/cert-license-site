@@ -66,6 +66,31 @@ function mergeSearchIntent(
   };
 }
 
+function mergeStudyStrategy(
+  base?: CertificateData["studyStrategy"],
+  extra?: CertificateData["studyStrategy"],
+): CertificateData["studyStrategy"] {
+  if (!extra) return base;
+  if (!base) return extra;
+
+  return {
+    ...base,
+    ...extra,
+    written: extra.written ? { ...base.written, ...extra.written } : base.written,
+    practical: extra.practical ? { ...base.practical, ...extra.practical } : base.practical,
+    roadmap: extra.roadmap ?? base.roadmap,
+    periods: extra.periods ?? base.periods,
+    limitedTimeStrategy: extra.limitedTimeStrategy ?? base.limitedTimeStrategy,
+    tips: extra.tips ?? base.tips,
+    failures: extra.failures ?? base.failures,
+    checklist: extra.checklist ?? base.checklist,
+    resources: extra.resources ?? base.resources,
+    commonSuccessfulSequence: extra.commonSuccessfulSequence ?? base.commonSuccessfulSequence,
+    recommendedRoadmap: extra.recommendedRoadmap ?? base.recommendedRoadmap,
+    labookAdvice: extra.labookAdvice ?? base.labookAdvice,
+  };
+}
+
 function applyPrivateEnrichments(data: CertificateData): CertificateData {
   if (data.basic?.type !== "private") return data;
 
@@ -79,6 +104,15 @@ function applyPrivateEnrichments(data: CertificateData): CertificateData {
       basic: current.basic,
       hero: extra.hero ? { ...current.hero, ...extra.hero } : current.hero,
       keyInfo: extra.keyInfo ?? current.keyInfo,
+      certificateIntro: extra.certificateIntro
+        ? { ...current.certificateIntro, ...extra.certificateIntro }
+        : current.certificateIntro,
+      officialInfo: extra.officialInfo
+        ? { ...current.officialInfo, ...extra.officialInfo }
+        : current.officialInfo,
+      studyStrategy: mergeStudyStrategy(current.studyStrategy, extra.studyStrategy),
+      career: extra.career ? { ...current.career, ...extra.career } : current.career,
+      trustInfo: extra.trustInfo ? { ...current.trustInfo, ...extra.trustInfo } : current.trustInfo,
       searchIntent: mergeSearchIntent(current.searchIntent, extra.searchIntent),
     } as CertificateData;
   }, data);
