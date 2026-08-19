@@ -1,0 +1,107 @@
+{
+  "version": "2026-08-20-v1",
+  "scope": "민간자격 중 PQI 자격취득현황이 공식 공개된 등록자격 사례만 표시",
+  "policy": "동일 명칭 민간자격 전체 통계로 해석하지 않고, 반드시 등록번호와 발급기관이 특정된 사례 통계로 표시한다.",
+  "items": {
+    "barista": {
+      "statistics": {
+        "enabled": true,
+        "status": "available",
+        "title": "등록자격 사례 취득 통계",
+        "summary": "민간자격정보서비스에 공개된 주식회사 국제커피바리스타협회 커피바리스타(등록번호 2021-004248)의 최근 취득현황입니다. 동일 명칭의 다른 기관 자격 전체를 대표하는 통계는 아닙니다.",
+        "groups": [
+          {
+            "id": "grade-2",
+            "title": "2급",
+            "description": "해당 등록자격의 연도별 응시자·취득자 기준",
+            "items": [
+              { "year": 2025, "applicants": 4359, "passed": 4219, "passRate": 96.79 },
+              { "year": 2024, "applicants": 4895, "passed": 4725, "passRate": 96.53 },
+              { "year": 2023, "applicants": 5642, "passed": 5478, "passRate": 97.09 }
+            ]
+          },
+          {
+            "id": "grade-1",
+            "title": "1급",
+            "description": "해당 등록자격의 연도별 응시자·취득자 기준",
+            "items": [
+              { "year": 2025, "applicants": 650, "passed": 637, "passRate": 98 },
+              { "year": 2024, "applicants": 954, "passed": 936, "passRate": 98.11 },
+              { "year": 2023, "applicants": 1024, "passed": 1005, "passRate": 98.14 }
+            ]
+          }
+        ],
+        "source": {
+          "label": "민간자격정보서비스 커피바리스타 2021-004248 / 주식회사 국제커피바리스타협회",
+          "url": "https://www.pqi.or.kr/inf/qul/infQulBasDetail.do?qulId=86433",
+          "lastVerified": "2026-08-20"
+        },
+        "analysis": [
+          "PQI 자격취득현황은 자격발급기관이 직접 입력한 기관별 자료입니다.",
+          "동일한 커피바리스타 명칭이라도 등록번호와 기관이 다르면 시험·합격률이 달라질 수 있습니다."
+        ],
+        "notice": "이 통계는 등록번호 2021-004248 한 기관의 사례이며, 바리스타 민간자격 전체 평균이나 전체 합격률이 아닙니다."
+      }
+    },
+    "reading-instructor": {
+      "statistics": {
+        "enabled": true,
+        "status": "available",
+        "title": "등록자격 사례 취득 통계",
+        "summary": "민간자격정보서비스에 공개된 (주)한국교육진흥협회 독서지도사(등록번호 2014-6150)의 최근 1급 취득현황입니다. 동일 명칭의 다른 기관 자격 전체를 대표하는 통계는 아닙니다.",
+        "groups": [
+          {
+            "id": "grade-1",
+            "title": "1급",
+            "description": "해당 등록자격의 연도별 응시자·취득자 기준",
+            "items": [
+              { "year": 2025, "applicants": 122, "passed": 118, "passRate": 96.72 },
+              { "year": 2024, "applicants": 150, "passed": 149, "passRate": 99.33 },
+              { "year": 2023, "applicants": 111, "passed": 107, "passRate": 96.4 }
+            ]
+          }
+        ],
+        "source": {
+          "label": "민간자격정보서비스 독서지도사 2014-6150 / (주)한국교육진흥협회",
+          "url": "https://www.pqi.or.kr/inf/qul/infQulBasDetail.do?qulId=21625",
+          "lastVerified": "2026-08-20"
+        },
+        "analysis": [
+          "2025~2023년 공개자료에서 1급 응시자와 취득자가 확인됩니다.",
+          "PQI 통계는 발급기관 직접 입력 자료이므로 기관별 미입력·갱신 시점 차이가 있을 수 있습니다."
+        ],
+        "notice": "이 통계는 등록번호 2014-6150 한 기관의 사례이며, 독서지도사라는 동일 명칭의 모든 민간자격을 합산한 수치가 아닙니다."
+      }
+    },
+    "pet-manager": {
+      "statistics": {
+        "enabled": true,
+        "status": "available",
+        "title": "등록자격 사례 취득 통계",
+        "summary": "민간자격정보서비스에 공개된 주식회사 한국이러닝교육센터 반려동물관리사(등록번호 2019-002502)의 최근 1급 취득현황입니다. 동일 명칭의 다른 기관 자격 전체를 대표하는 통계는 아닙니다.",
+        "groups": [
+          {
+            "id": "grade-1",
+            "title": "1급",
+            "description": "해당 등록자격의 연도별 응시자·취득자 기준",
+            "items": [
+              { "year": 2024, "applicants": 3, "passed": 2, "passRate": 66.67 },
+              { "year": 2023, "applicants": 3, "passed": 3, "passRate": 100 },
+              { "year": 2022, "applicants": 10, "passed": 8, "passRate": 80 }
+            ]
+          }
+        ],
+        "source": {
+          "label": "민간자격정보서비스 반려동물관리사 2019-002502 / 주식회사 한국이러닝교육센터",
+          "url": "https://www.pqi.or.kr/inf/qul/infQulBasDetail.do?qulId=62390",
+          "lastVerified": "2026-08-20"
+        },
+        "analysis": [
+          "최근 공개자료는 응시 규모가 작아 연도별 합격률 변동이 크게 보일 수 있습니다.",
+          "동일 명칭 자격이 여러 기관에 등록되어 있으므로 기관별 통계를 비교할 때 등록번호를 함께 확인해야 합니다."
+        ],
+        "notice": "이 통계는 등록번호 2019-002502 한 기관의 사례이며, 반려동물관리사 민간자격 전체의 합격률로 해석하면 안 됩니다."
+      }
+    }
+  }
+}
