@@ -6,10 +6,11 @@
     "dev": "next dev",
     "validate:data": "node scripts/validate-data.mjs",
     "audit:indexed-private": "node scripts/audit-indexed-private.mjs",
+    "audit:national-statistics": "node scripts/audit-national-statistics.mjs",
     "generate:search": "node scripts/generate-search-index.mjs",
     "generate:links": "node scripts/generate-internal-links.mjs",
     "generate:seo": "node scripts/generate-seo-data.mjs",
-    "build": "npm run validate:data && npm run audit:indexed-private && npm run generate:search && npm run generate:links && npm run generate:seo && next build",
+    "build": "npm run validate:data && npm run audit:indexed-private && npm run audit:national-statistics && npm run generate:search && npm run generate:links && npm run generate:seo && next build",
     "start": "next start",
     "lint": "eslint"
   },
