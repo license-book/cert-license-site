@@ -64,10 +64,7 @@ function List({ items }: { items: string[] }) {
 
 export default function StudyStrategy({ data }: { data: StudyStrategyData }) {
   return (
-    <section
-      id="study-strategy"
-      className="mt-10 rounded-[28px] bg-white p-5 shadow-sm ring-1 ring-slate-100 md:p-7"
-    >
+    <section className="mt-10 rounded-[28px] bg-white p-5 shadow-sm ring-1 ring-slate-100 md:p-7">
       <header className="max-w-[820px]">
         <p className="text-sm font-semibold text-blue-600">
           합격을 위한 학습 가이드를 제공합니다.
