@@ -1,5 +1,6 @@
 import Header from "@/components/Header";
 import HeaderActiveState from "@/components/HeaderActiveState";
+import RouteScrollReset from "@/components/RouteScrollReset";
 import Footer from "@/components/Footer";
 import FloatingQuickActions from "@/components/common/FloatingQuickActions";
 import type { Metadata } from "next";
@@ -59,6 +60,7 @@ export default function RootLayout({
         />
       </head>
       <body className={`${pretendard.className} flex min-h-full flex-col`}>
+        <RouteScrollReset />
         <Header />
         <HeaderActiveState />
 
