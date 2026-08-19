@@ -1,0 +1,34 @@
+{
+  "version": "2026-08-19-indexed50-audit-v1",
+  "scope": "50 approved private certificate detail pages",
+  "approvedCount": 50,
+  "checks": {
+    "sourceJsonExists": "validated by build audit",
+    "slugAndTypeConsistency": "validated by build audit",
+    "deepMergeRequiredSections": "validated by build audit",
+    "studyStrategyRequiredShape": "validated by build audit",
+    "searchIntentPresence": "audited as warning-level quality signal",
+    "relatedKeywordsPresence": "audited as warning-level quality signal",
+    "seoTitleDescription": "validated by build audit",
+    "indexWhitelistCount": "validated: exactly 50",
+    "fullNextBuild": "passed on Vercel after audit was added"
+  },
+  "buildGate": {
+    "script": "npm run audit:indexed-private",
+    "file": "scripts/audit-indexed-private.mjs",
+    "policy": "structural errors fail the build; quality warnings are reported without blocking deployment"
+  },
+  "productionSpotCheck": {
+    "root": "https://labook.kr/",
+    "rootResult": "reachable",
+    "detailCrawlerNote": "The external web crawler could not directly fetch arbitrary newly supplied detail URLs because they were not present in its search/cache results. This is not treated as a 404 finding.",
+    "recommendedManualSamples": [
+      "/cert/barista",
+      "/cert/reading-instructor",
+      "/cert/psychological-counselor",
+      "/cert/meditation-instructor",
+      "/cert/storytelling-instructor"
+    ]
+  },
+  "decision": "Keep the current 50 approved private pages indexed. Do not open additional C-HOLD pages until this stabilization gate remains green and any page-level issues found in production are fixed."
+}
