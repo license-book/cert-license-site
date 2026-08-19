@@ -1,4 +1,5 @@
 import Header from "@/components/Header";
+import HeaderActiveState from "@/components/HeaderActiveState";
 import Footer from "@/components/Footer";
 import FloatingQuickActions from "@/components/common/FloatingQuickActions";
 import type { Metadata } from "next";
@@ -27,7 +28,6 @@ export const metadata: Metadata = {
   description:
     "자격증 선택부터 시험 준비까지 현실적인 정보를 제공하는 자격증 플랫폼",
 };
-
 
 export default function RootLayout({
   children,
@@ -60,6 +60,7 @@ export default function RootLayout({
       </head>
       <body className={`${pretendard.className} flex min-h-full flex-col`}>
         <Header />
+        <HeaderActiveState />
 
         <div className="flex flex-1 flex-col">
           {children}
