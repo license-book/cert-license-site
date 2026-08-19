@@ -1,0 +1,35 @@
+name: National statistics audit
+
+on:
+  push:
+    paths:
+      - '.github/workflows/national-statistics-audit.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Generate audit
+        run: |
+          node scripts/audit-national-statistics.mjs
+          cp public/national-statistics-audit.json data/quality/national-statistics-audit-generated.json
+      - name: Commit audit result
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/quality/national-statistics-audit-generated.json
+          if git diff --cached --quiet; then
+            echo "No audit changes"
+          else
+            git commit -m "Generate national statistics audit result"
+            git push
+          fi
