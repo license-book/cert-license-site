@@ -20,6 +20,7 @@ const PRIVATE_ENRICHMENT_FILES = [
   path.join(process.cwd(), "data", "quality", "private-cp1-round2-enrichments.json"),
   path.join(process.cwd(), "data", "quality", "private-cp2-enrichments.json"),
   path.join(process.cwd(), "data", "quality", "private-chold-recovery-enrichments.json"),
+  path.join(process.cwd(), "data", "quality", "private-statistics-enrichments.json"),
 ];
 const NATIONAL_STATISTICS_ENRICHMENT_FILE = path.join(
   process.cwd(),
