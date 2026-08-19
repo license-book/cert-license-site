@@ -21,11 +21,21 @@ const PRIVATE_ENRICHMENT_FILES = [
   path.join(process.cwd(), "data", "quality", "private-cp2-enrichments.json"),
   path.join(process.cwd(), "data", "quality", "private-chold-recovery-enrichments.json"),
 ];
+const NATIONAL_STATISTICS_ENRICHMENT_FILE = path.join(
+  process.cwd(),
+  "data",
+  "quality",
+  "national-statistics-enrichments.json",
+);
 
 type PrivateEnrichment = Partial<CertificateData> & { searchIntent?: SearchIntentData };
 type PrivateEnrichmentFile = { items?: Record<string, PrivateEnrichment> };
+type NationalStatisticsEnrichmentFile = {
+  items?: Record<string, { statistics?: CertificateData["statistics"] }>;
+};
 
 let privateEnrichmentCache: PrivateEnrichmentFile[] | undefined;
+let nationalStatisticsEnrichmentCache: NationalStatisticsEnrichmentFile | undefined;
 
 function candidates(slug: string): string[] {
   return [
@@ -48,6 +58,23 @@ function loadPrivateEnrichments(): PrivateEnrichmentFile[] {
   });
 
   return privateEnrichmentCache;
+}
+
+function loadNationalStatisticsEnrichments(): NationalStatisticsEnrichmentFile {
+  if (nationalStatisticsEnrichmentCache !== undefined) return nationalStatisticsEnrichmentCache;
+  try {
+    if (!fs.existsSync(NATIONAL_STATISTICS_ENRICHMENT_FILE)) {
+      nationalStatisticsEnrichmentCache = {};
+      return nationalStatisticsEnrichmentCache;
+    }
+    nationalStatisticsEnrichmentCache = JSON.parse(
+      fs.readFileSync(NATIONAL_STATISTICS_ENRICHMENT_FILE, "utf-8"),
+    ) as NationalStatisticsEnrichmentFile;
+  } catch (error) {
+    console.error(`국가자격 시험통계 보강 JSON 읽기 실패: ${NATIONAL_STATISTICS_ENRICHMENT_FILE}`, error);
+    nationalStatisticsEnrichmentCache = {};
+  }
+  return nationalStatisticsEnrichmentCache;
 }
 
 function mergeSearchIntent(
@@ -127,6 +154,13 @@ function applyPrivateEnrichments(data: CertificateData): CertificateData {
   }, data);
 }
 
+function applyNationalStatisticsEnrichment(data: CertificateData): CertificateData {
+  if (data.basic?.type !== "national") return data;
+  const extra = loadNationalStatisticsEnrichments().items?.[data.basic.slug];
+  if (!extra?.statistics) return data;
+  return { ...data, statistics: extra.statistics } as CertificateData;
+}
+
 export function getCertificatePath(slug: string): string | null {
   return candidates(slug).find((file) => fs.existsSync(file)) ?? null;
 }
@@ -140,7 +174,7 @@ export function loadCertificate(slug: string): CertificateData | null {
       console.error(`자격증 slug 불일치: ${file}`);
       return null;
     }
-    return applyPrivateEnrichments(data);
+    return applyNationalStatisticsEnrichment(applyPrivateEnrichments(data));
   } catch (error) {
     console.error(`자격증 JSON 읽기 실패: ${slug}`, error);
     return null;
