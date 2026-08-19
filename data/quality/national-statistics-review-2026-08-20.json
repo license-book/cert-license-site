@@ -1,0 +1,91 @@
+{
+  "version": "2026-08-20-v1",
+  "scope": "LABOOK national qualifications with missing or unavailable exam statistics",
+  "auditedNationalCount": 95,
+  "initialReviewCount": 23,
+  "updatedCount": 2,
+  "remainingReviewCount": 21,
+  "policy": [
+    "연도별 응시자·합격자·합격률은 공식 시행기관에서 직접 검증된 경우에만 표시한다.",
+    "공식 통계 포털이나 첨부파일의 존재만 확인되고 숫자를 안전하게 추출하지 못한 경우 임의 입력하지 않는다.",
+    "신설·통합·폐지 종목은 다른 자격의 통계를 연결하지 않는다."
+  ],
+  "updated": [
+    {
+      "slug": "mechanical-design-engineer",
+      "name": "기계설계기사",
+      "result": "통합 전 마지막 3개년(2021~2023) Q-Net 공식 필기·실기 통계 추가",
+      "note": "2024년부터 일반기계기사로 통합 시행"
+    },
+    {
+      "slug": "concrete-engineer",
+      "name": "콘크리트기사",
+      "result": "최근 3개년(2023~2025) Q-Net 공식 필기·실기 통계 추가"
+    }
+  ],
+  "officialDataExistsButExtractionPending": [
+    {
+      "slug": "nursing-assistant",
+      "name": "간호조무사",
+      "source": "한국보건의료인국가시험원 국가시험 통계",
+      "reason": "상·하반기 시험을 연도 단위로 안전하게 합산할 공식 수치 추출 필요"
+    },
+    {
+      "slug": "social-worker-level-1",
+      "name": "사회복지사 1급",
+      "source": "Q-Net 시험통계자료 - 사회복지사 1급 통계자료(~2026).hwp",
+      "reason": "공식 첨부파일 존재 확인, 구조화 숫자 추출 필요"
+    },
+    {
+      "slug": "broadcast-communication-engineer",
+      "name": "방송통신기사",
+      "source": "KCA 자격검정통계",
+      "reason": "동적 통계표에서 종목별 숫자 추출 필요"
+    },
+    {
+      "slug": "radio-electronic-communication-engineer",
+      "name": "전파전자통신기사",
+      "source": "KCA 자격검정통계",
+      "reason": "동적 통계표에서 종목별 숫자 추출 필요"
+    },
+    {
+      "slug": "information-security-engineer",
+      "name": "정보보안기사",
+      "source": "KCA 자격검정통계",
+      "reason": "동적 통계표에서 종목별 숫자 추출 필요"
+    },
+    {
+      "slug": "information-security-industrial-engineer",
+      "name": "정보보안산업기사",
+      "source": "KCA 자격검정통계",
+      "reason": "동적 통계표에서 종목별 숫자 추출 필요"
+    },
+    {
+      "slug": "information-communication-engineer",
+      "name": "정보통신기사",
+      "source": "KCA 자격검정통계",
+      "reason": "동적 통계표에서 종목별 숫자 추출 필요"
+    },
+    {
+      "slug": "information-communication-industrial-engineer",
+      "name": "정보통신산업기사",
+      "source": "KCA 자격검정통계",
+      "reason": "동적 통계표에서 종목별 숫자 추출 필요"
+    }
+  ],
+  "officialNumericVerificationStillNeeded": [
+    "construction-material-testing-engineer",
+    "construction-material-testing-industrial-engineer",
+    "public-procurement-manager",
+    "bioprocess-craftsman",
+    "sewing-craftsman",
+    "big-data-analysis-engineer",
+    "forest-master-craftsman",
+    "smart-factory-craftsman",
+    "smart-factory-industrial-engineer",
+    "motorcycle-maintenance-craftsman",
+    "computerized-tax-grade-2",
+    "computerized-accounting-grade-2",
+    "youth-counselor"
+  ]
+}
