@@ -1,0 +1,89 @@
+{
+  "version": "2026-08-20-v1",
+  "verifiedAt": "2026-08-20",
+  "policy": "공식 시행기관에서 연도별 응시·합격 수치를 직접 확인한 종목만 반영한다.",
+  "items": {
+    "mechanical-design-engineer": {
+      "statistics": {
+        "enabled": true,
+        "status": "available",
+        "title": "최근 시험 통계",
+        "summary": "Q-Net 종목별 검정현황에 공개된 통합 전 마지막 3개년(2021~2023년) 기계설계기사 필기·실기 통계입니다. 2024년부터 일반기계기사로 통합 시행되어 이후 기계설계기사 명칭의 신규 통계는 없습니다.",
+        "groups": [
+          {
+            "id": "written",
+            "title": "필기시험",
+            "description": "통합 전 마지막 3개년 실제 응시자와 합격자 기준입니다.",
+            "items": [
+              { "year": 2023, "applicants": 166, "passed": 23, "passRate": 13.9 },
+              { "year": 2022, "applicants": 137, "passed": 24, "passRate": 17.5 },
+              { "year": 2021, "applicants": 210, "passed": 60, "passRate": 28.6 }
+            ]
+          },
+          {
+            "id": "practical",
+            "title": "실기시험",
+            "description": "통합 전 마지막 3개년 실제 응시자와 합격자 기준입니다.",
+            "items": [
+              { "year": 2023, "applicants": 24, "passed": 8, "passRate": 33.3 },
+              { "year": 2022, "applicants": 23, "passed": 7, "passRate": 30.4 },
+              { "year": 2021, "applicants": 39, "passed": 5, "passRate": 12.8 }
+            ]
+          }
+        ],
+        "source": {
+          "label": "Q-Net 기계설계기사 종목별 검정현황",
+          "url": "https://www.q-net.or.kr/crf005.do?gId=&gSite=Q&id=crf00503s01&jmCd=1080&jmInfoDivCcd=A0",
+          "lastVerified": "2026-08-20"
+        },
+        "analysis": [
+          "2021~2023년 필기 합격률은 28.6%에서 13.9%로 변동했습니다.",
+          "실기 합격률도 연도별 편차가 커 단일 연도의 합격률만으로 난이도를 판단하기 어렵습니다.",
+          "2024년부터 일반기계기사로 통합되었으므로 현재 시험 준비는 일반기계기사 최신 정보를 기준으로 해야 합니다."
+        ],
+        "notice": "이 통계는 기계설계기사로 별도 시행된 마지막 3개년 자료입니다. 2024년 이후에는 일반기계기사 통합 종목 통계를 확인하세요."
+      }
+    },
+    "concrete-engineer": {
+      "statistics": {
+        "enabled": true,
+        "status": "available",
+        "title": "최근 시험 통계",
+        "summary": "Q-Net 종목별 검정현황에 공개된 최근 3개년(2023~2025년) 콘크리트기사 필기·실기 통계입니다.",
+        "groups": [
+          {
+            "id": "written",
+            "title": "필기시험",
+            "description": "연도별 실제 응시자와 합격자 기준입니다.",
+            "items": [
+              { "year": 2025, "applicants": 3099, "passed": 998, "passRate": 32.2 },
+              { "year": 2024, "applicants": 2853, "passed": 850, "passRate": 29.8 },
+              { "year": 2023, "applicants": 2923, "passed": 862, "passRate": 29.5 }
+            ]
+          },
+          {
+            "id": "practical",
+            "title": "실기시험",
+            "description": "연도별 실제 응시자와 합격자 기준입니다.",
+            "items": [
+              { "year": 2025, "applicants": 1341, "passed": 674, "passRate": 50.3 },
+              { "year": 2024, "applicants": 1286, "passed": 631, "passRate": 49.1 },
+              { "year": 2023, "applicants": 1121, "passed": 786, "passRate": 70.1 }
+            ]
+          }
+        ],
+        "source": {
+          "label": "Q-Net 콘크리트기사 종목별 검정현황",
+          "url": "https://www.q-net.or.kr/crf005.do?gId=&gSite=Q&id=crf00503s01&jmCd=1048&jmInfoDivCcd=R0",
+          "lastVerified": "2026-08-20"
+        },
+        "analysis": [
+          "최근 3개년 필기 합격률은 약 29.5~32.2% 수준입니다.",
+          "실기 합격률은 2023년 70.1%에서 2025년 50.3%로 연도별 차이가 있습니다.",
+          "합격률은 출제기준과 응시자 구성 등에 따라 달라질 수 있으므로 최근 여러 해를 함께 보는 것이 좋습니다."
+        ],
+        "notice": "합격률은 해당 연도 실제 응시자 대비 합격자 비율이며, 시험제도·출제기준 변화에 따라 달라질 수 있습니다."
+      }
+    }
+  }
+}
