@@ -1,0 +1,34 @@
+{
+  "version": "2026-08-19-chold-recovery-v1",
+  "scope": "C-HOLD 19 recovery screening",
+  "criteria": [
+    "라북 내에서 독립적인 검색의도를 만들 수 있는가",
+    "PQI에서 라북 자격명과 정확히 일치하는 등록자격과 직무정보를 확인할 수 있는가",
+    "의료·복지·교육의 법정자격과 혼동을 줄이면서 실질적인 취득 판단 정보를 제공할 수 있는가"
+  ],
+  "summary": {"total":19,"promotedA":5,"remainHold":14,"approvedPrivateTotalAfterReview":50},
+  "promoted": {
+    "meditation-instructor": "A - PQI exact 명상지도사 2025-005171 확인. 명상 프로그램 지도와 정신건강 치료의 경계를 보강.",
+    "rehabilitation-exercise-instructor": "A - PQI 재활운동지도사 2015-001828, 1·2급 직무와 취득현황 확인. 의료재활과 민간 운동지도의 경계를 보강.",
+    "elder-care-instructor": "A - PQI 노인돌봄지도사 2023-002348, 1·2급 직무 확인. 요양보호사·사회복지사 등 법정자격과 구분.",
+    "silver-cognitive-play-instructor": "A - PQI 실버인지놀이지도사 2019-000042 및 2016-000064 동일명칭 등록 확인. 인지놀이와 치매 치료를 구분.",
+    "storytelling-instructor": "A - PQI 스토리텔링지도사 2009-0266, 교육부 소관 등록과 직무·취득현황 확인. 수업시연·활동처 조건을 보강."
+  },
+  "remainHold": [
+    "nlp-psychology-counselor",
+    "creativity-instructor",
+    "debate-instructor",
+    "horticultural-therapy-specialist",
+    "laughter-therapy-specialist",
+    "origami-instructor",
+    "senior-art-instructor",
+    "senior-exercise-instructor",
+    "senior-fitness-instructor",
+    "senior-psychology-activity-instructor",
+    "silver-care-specialist",
+    "silver-laughter-instructor",
+    "silver-leisure-instructor",
+    "silver-recreation-instructor"
+  ],
+  "note": "검색량 수치 자체를 임의 추정하지 않았다. 이번 승격은 정확한 PQI 자격 정체성, 독립 콘텐츠 가능성, 사용자 판단 가치가 모두 확인된 항목에 한정했다. 나머지는 exact-name 등록근거와 페이지 독립성이 더 강해질 때만 재검토한다."
+}
