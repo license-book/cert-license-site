@@ -1,0 +1,41 @@
+name: Fix compare summary
+
+on:
+  push:
+    branches:
+      - fix/korean-copy-sitemap-20260821
+  pull_request:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  patch-and-build:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: fix/korean-copy-sitemap-20260821
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+      - run: npm ci
+      - run: node scripts/fix-compare-summary.mjs
+      - run: npm run build
+      - name: Commit summary patch
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add components/CertificateCompare.tsx
+          if git diff --cached --quiet; then
+            echo "No summary change to commit."
+            exit 0
+          fi
+          git commit -m "fix: make compare summary particle-safe"
+          git pull --rebase origin fix/korean-copy-sitemap-20260821
+          git push origin HEAD:fix/korean-copy-sitemap-20260821
