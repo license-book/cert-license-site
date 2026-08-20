@@ -89,6 +89,9 @@ export function buildCertificateMetadata(page: SeoPage): Metadata {
 export function buildCertificateJsonLd(page: SeoPage): Record<string, unknown>[] {
   const pageUrl = absoluteUrl(page.path);
   const imageUrl = absoluteUrl(page.image);
+  const isPrivate = page.type === "private";
+  const parentName = isPrivate ? "민간자격증" : "국가자격증";
+  const parentUrl = `${SITE_URL}${isPrivate ? "/private-certificates" : "/national-certificates"}`;
 
   const breadcrumb = {
     "@context": "https://schema.org",
@@ -103,8 +106,8 @@ export function buildCertificateJsonLd(page: SeoPage): Record<string, unknown>[]
       {
         "@type": "ListItem",
         position: 2,
-        name: "자격증 정보",
-        item: `${SITE_URL}/cert`,
+        name: parentName,
+        item: parentUrl,
       },
       {
         "@type": "ListItem",
