@@ -1,0 +1,10 @@
+import fs from 'node:fs';
+import path from 'node:path';
+const dir=path.join(process.cwd(),'data','certificates');
+function batchim(w){const a=[...w].filter(c=>/[가-힣]/.test(c));if(!a.length)return null;return (a.at(-1).charCodeAt(0)-0xac00)%28!==0;}
+function strings(v,p='',o=[]){if(typeof v==='string')o.push({p,t:v});else if(Array.isArray(v))v.forEach((x,i)=>strings(x,`${p}[${i}]`,o));else if(v&&typeof v==='object')Object.entries(v).forEach(([k,x])=>strings(x,p?`${p}.${k}`:k,o));return o;}
+function map(v,f){if(typeof v==='string')return f(v);if(Array.isArray(v))return v.map(x=>map(x,f));if(v&&typeof v==='object')return Object.fromEntries(Object.entries(v).map(([k,x])=>[k,map(x,f)]));return v;}
+function particles(s,names){for(const n of names.sort((a,b)=>b.length-a.length)){const b=batchim(n);if(b==null)continue;for(const [a,c] of [['은',b?'은':'는'],['는',b?'은':'는'],['이',b?'이':'가'],['가',b?'이':'가'],['을',b?'을':'를'],['를',b?'을':'를'],['과',b?'과':'와'],['와',b?'과':'와']])s=s.split(n+a).join(n+c);}return s;}
+const files=fs.readdirSync(dir).filter(x=>x.endsWith('.json')).sort();let changed=0;const issues=[];
+for(const file of files){const full=path.join(dir,file),raw=fs.readFileSync(full,'utf8'),obj=JSON.parse(raw),names=[obj?.basic?.name,obj?.basic?.shortName].filter(Boolean);const fixed=map(obj,s=>particles(s,names));const next=JSON.stringify(fixed,null,2)+'\n';if(next!==raw){fs.writeFileSync(full,next);changed++;}for(const {p,t} of strings(fixed)){if(/(기사은|산업기사은|기능사은|기사이 목표|산업기사이 목표|기능사이 목표)/.test(t))issues.push({file,p,type:'known-pattern',t});for(const n of names){if(n.length>1&&t.includes(n+n))issues.push({file,p,type:'duplicate-name',t});for(let k=2;k<=Math.min(6,n.length-1);k++){const token=n.slice(0,k)+n;if(t.includes(token))issues.push({file,p,type:'duplicate-prefix',token,t});}}}}
+const report={files:files.length,changed,issues:issues.length,details:issues};fs.writeFileSync('final-copy-audit-report.json',JSON.stringify(report,null,2)+'\n');console.log(JSON.stringify(report,null,2));if(issues.length)process.exit(2);
