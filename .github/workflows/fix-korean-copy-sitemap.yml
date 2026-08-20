@@ -1,0 +1,46 @@
+name: Fix Korean copy and sitemap
+
+on:
+  push:
+    branches:
+      - fix/korean-copy-sitemap-20260821
+
+permissions:
+  contents: write
+
+jobs:
+  repair-and-verify:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout branch
+        uses: actions/checkout@v4
+        with:
+          ref: fix/korean-copy-sitemap-20260821
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Fix Korean particles and sitemap
+        run: node scripts/fix-korean-copy-and-sitemap.mjs
+
+      - name: Build
+        run: npm run build
+
+      - name: Commit repaired files
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/certificates components/CertificateCompare.tsx app/sitemap.ts
+          if git diff --cached --quiet; then
+            echo "No generated changes to commit."
+            exit 0
+          fi
+          git commit -m "fix: correct Korean particles and expand sitemap"
+          git push origin HEAD:fix/korean-copy-sitemap-20260821
