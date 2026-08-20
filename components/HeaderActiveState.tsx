@@ -30,31 +30,70 @@ function getActiveHref(pathname: string) {
   return null;
 }
 
+function toggleClass(element: HTMLElement, className: string, enabled: boolean) {
+  if (element.classList.contains(className) !== enabled) {
+    element.classList.toggle(className, enabled);
+  }
+}
+
 export default function HeaderActiveState() {
   const pathname = usePathname();
 
   useEffect(() => {
     const activeHref = getActiveHref(pathname);
-    const links = document.querySelectorAll<HTMLAnchorElement>(
-      'header nav[aria-label="주요 메뉴"] a[href], header nav[aria-label="모바일 메뉴"] a[href]',
-    );
+    let frameId = 0;
 
-    links.forEach((link) => {
-      const href = link.getAttribute("href");
-      const isActive = Boolean(activeHref && href === activeHref);
-      const isMobile = Boolean(link.closest('nav[aria-label="모바일 메뉴"]'));
+    const applyActiveState = () => {
+      cancelAnimationFrame(frameId);
+      frameId = requestAnimationFrame(() => {
+        const links = document.querySelectorAll<HTMLAnchorElement>(
+          'header nav[aria-label="주요 메뉴"] a[href], header nav[aria-label="모바일 메뉴"] a[href]',
+        );
 
-      link.classList.toggle("!text-blue-600", isActive);
-      link.classList.toggle("border-b-2", isActive && !isMobile);
-      link.classList.toggle("border-blue-600", isActive && !isMobile);
-      link.classList.toggle("!bg-blue-50", isActive && isMobile);
+        links.forEach((link) => {
+          const href = link.getAttribute("href");
+          const isActive = Boolean(activeHref && href === activeHref);
+          const isMobile = Boolean(link.closest('nav[aria-label="모바일 메뉴"]'));
 
-      if (isActive) {
-        link.setAttribute("aria-current", "page");
-      } else {
-        link.removeAttribute("aria-current");
-      }
-    });
+          toggleClass(link, "!text-blue-600", isActive);
+          toggleClass(link, "border-b-2", isActive && !isMobile);
+          toggleClass(link, "border-blue-600", isActive && !isMobile);
+          toggleClass(link, "!bg-blue-50", isActive && isMobile);
+
+          if (isActive) {
+            if (link.getAttribute("aria-current") !== "page") {
+              link.setAttribute("aria-current", "page");
+            }
+          } else if (link.hasAttribute("aria-current")) {
+            link.removeAttribute("aria-current");
+          }
+        });
+      });
+    };
+
+    applyActiveState();
+
+    const header = document.querySelector("header");
+    const observer = new MutationObserver(() => applyActiveState());
+
+    if (header) {
+      observer.observe(header, {
+        subtree: true,
+        childList: true,
+        attributes: true,
+        attributeFilter: ["class"],
+      });
+    }
+
+    window.addEventListener("scroll", applyActiveState, { passive: true });
+    window.addEventListener("resize", applyActiveState);
+
+    return () => {
+      cancelAnimationFrame(frameId);
+      observer.disconnect();
+      window.removeEventListener("scroll", applyActiveState);
+      window.removeEventListener("resize", applyActiveState);
+    };
   }, [pathname]);
 
   return null;
