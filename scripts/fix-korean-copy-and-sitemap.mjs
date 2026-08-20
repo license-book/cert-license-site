@@ -2,6 +2,7 @@ import fs from "node:fs";
 import path from "node:path";
 import { listCertificateFiles } from "./certificate-files.mjs";
 
+// Repository-wide Korean particle repair used for the pre-AdSense quality pass.
 const ROOT = process.cwd();
 const CERT_DIR = path.join(ROOT, "data", "certificates");
 
