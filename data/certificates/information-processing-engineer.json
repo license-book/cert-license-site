@@ -14,7 +14,7 @@
     "image": "/images/hero/information-processing-engineer.webp"
   },
   "certificateIntro": {
-    "title": "정보처리기사은 어떤 자격증인가요?",
+    "title": "정보처리기사는 어떤 자격증인가요?",
     "description": "정보처리기사는 한국산업인력공단이 시행하는 국가기술자격으로 소프트웨어 설계·개발, 데이터베이스, 프로그래밍 언어, 정보시스템 운영과 관련된 지식과 실무 능력을 평가합니다. IT 취업 준비와 기술직 경력 개발에 널리 활용됩니다.",
     "highlights": [
       "국가기술자격 기사",
@@ -148,7 +148,7 @@
             "year": 2025,
             "applicants": 66308,
             "passed": 43132,
-            "passRate": 65.0
+            "passRate": 65
           },
           {
             "year": 2024,
@@ -160,7 +160,7 @@
             "year": 2023,
             "applicants": 60024,
             "passed": 35428,
-            "passRate": 59.0
+            "passRate": 59
           },
           {
             "year": 2022,
@@ -197,7 +197,7 @@
             "year": 2023,
             "applicants": 58088,
             "passed": 12205,
-            "passRate": 21.0
+            "passRate": 21
           },
           {
             "year": 2022,

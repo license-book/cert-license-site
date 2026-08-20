@@ -14,7 +14,7 @@
     "image": "/images/hero/information-processing-industrial-engineer.webp"
   },
   "certificateIntro": {
-    "title": "정보처리산업기사은 어떤 자격증인가요?",
+    "title": "정보처리산업기사는 어떤 자격증인가요?",
     "description": "정보처리산업기사는 한국산업인력공단이 시행하는 국가기술자격으로 소프트웨어 설계·개발, 데이터베이스, 프로그래밍 언어, 정보시스템 운영과 관련된 지식과 실무 능력을 평가합니다. IT 취업 준비와 기술직 경력 개발에 널리 활용됩니다.",
     "highlights": [
       "국가기술자격 산업기사",
@@ -158,7 +158,7 @@
             "year": 2023,
             "applicants": 8707,
             "passed": 4438,
-            "passRate": 51.0
+            "passRate": 51
           },
           {
             "year": 2022,
