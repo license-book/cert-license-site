@@ -37,5 +37,4 @@ jobs:
             exit 0
           fi
           git commit -m "fix: make compare summary particle-safe"
-          git pull --rebase origin fix/korean-copy-sitemap-20260821
           git push origin HEAD:fix/korean-copy-sitemap-20260821
