@@ -6,6 +6,9 @@ export const metadata: Metadata = {
   title: "자격증 비교 | 라북",
   description:
     "국가자격증과 민간자격증의 핵심 차이, 준비기간, 응시자격, 활용 분야와 추천 대상을 비교하세요.",
+  alternates: {
+    canonical: "https://labook.kr/compare",
+  },
 };
 
 export default function ComparePage() {
