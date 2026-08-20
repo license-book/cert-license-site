@@ -374,7 +374,7 @@ function buildGenericInsight(
   return {
     summary:
       left.category !== right.category
-        ? `${left.shortName}은 ${left.category} 분야, ${right.shortName}은 ${right.category} 분야를 목표로 할 때 선택하는 자격증입니다.`
+        ? `${left.shortName}: ${left.category} 분야, ${right.shortName}: ${right.category} 분야를 목표로 할 때 비교해볼 수 있습니다.`
         : "두 자격증은 같은 분야에 속하므로 응시자격, 시험 범위와 실제 활용 목적을 중심으로 선택해야 합니다.",
     leftLabel: `${left.category} 분야의 ${left.licenseType} 취득이 목표인 사람`,
     rightLabel: `${right.category} 분야의 ${right.licenseType} 취득이 목표인 사람`,
